@@ -11,13 +11,14 @@ jobs:
     - name: Checkout current repository
       uses: actions/checkout@v3
       with:
-        repository: ${{ github.repository }}
         token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Remove all files in the repository
       run: |
-        rm -rf ./*
-        rm -rf .[^.] .??*
+        echo "Removing all files in the repository"
+        git rm -rf .
+        git commit -m 'Remove all files'
+        git push
 
     - name: Checkout Navez repository
       uses: actions/checkout@v3
@@ -28,12 +29,14 @@ jobs:
 
     - name: Copy files from Navez repository
       run: |
+        echo "Copying files from Navez repository"
         cp -r Navez/* .
         cp -r Navez/.* . 2>/dev/null || true
         rm -rf Navez
 
     - name: Commit changes
       run: |
+        echo "Committing changes"
         git config --global user.name 'github-actions'
         git config --global user.email 'actions@github.com'
         git add .
