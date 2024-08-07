@@ -43,8 +43,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x generate.sh
-          ./generate.sh
+          chmod +x TWITCH.sh
+          ./TWITCH.sh
 
       - name: git pull
         run: |
