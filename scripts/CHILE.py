@@ -17,6 +17,138 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
+
+
+def grab(url):
+    try:
+        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
+            return url
+
+        session = streamlink.Streamlink()
+        streams = session.streams(url)
+        logger.debug("URL Streams %s: %s", url, streams)
+        if "best" in streams:
+            return streams["best"].url
+        return None
+    except streamlink.exceptions.NoPluginError as err:
+        logger.error("URL Error No PluginError %s: %s", url, err)
+        return None
+    except streamlink.StreamlinkError as err:
+        logger.error("URL Error %s: %s", url, err)
+        return None
+
+
+def check_url(url):
+    try:
+        response = requests.head(url, timeout=15)
+        if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
+            return True
+    except requests.exceptions.RequestException as err:
+        pass
+    
+    try:
+        response = requests.head(url, timeout=15, verify=False)
+        if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
+            return True
+    except requests.exceptions.RequestException as err:
+        logger.error("URL Error %s: %s", url, err)
+        return False
+    
+    return False
+
+def parse_extinf_line(line):
+    # Default values
+    group_title = "Undefined"
+    tvg_logo = "Undefined.png"
+    epg = ""
+    
+    # Split the line to extract metadata
+    meta_info = line.split(',')
+    if len(meta_info) > 1:
+        meta_info = meta_info[1].strip()
+        meta_parts = meta_info.split('|')
+        if len(meta_parts) > 0:
+            ch_name = meta_parts[0].strip()
+        if len(meta_parts) > 1:
+            group_title = meta_parts[1].strip()
+        if len(meta_parts) > 2:
+            tvg_logo = meta_parts[2].strip()
+        if len(meta_parts) > 3:
+            epg = meta_parts[3].strip()
+    
+    return ch_name, group_title, tvg_logo, epg
+
+channel_data = []
+
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../MASTER.txt'))
+
+with open(channel_info) as f:
+    lines = f.readlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        if line.startswith('#EXTINF'):
+            # Extract information from #EXTINF line
+            ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
+            
+            link = lines[i+1].strip()
+            if link and check_url(link):
+                channel_data.append({
+                    'name': ch_name,
+                    'url': link,
+                    'group': group_title,
+                    'logo': tvg_logo,
+                    'epg': epg
+                })
+            i += 1  # Skip the next line (URL) because it's already processed
+        i += 1
+
+with open("MASTER.m3u", "w") as f:
+    f.write(banner)
+
+    for channel in channel_data:
+        extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}"'
+        if channel["epg"]:
+            extinf_line += f' tvg-id="{channel["epg"]}"'
+        extinf_line += f', {channel["name"]}'
+        
+        f.write(extinf_line)
+        f.write('\n')
+        f.write(channel['url'])
+        f.write('\n')
+
+with open("playlist.json", "a") as f:
+    json_data = json.dumps(channel_data, indent=2)
+    f.write(json_data)
+
+
+
+
+#rato
+#!/usr/bin/python3
+
+import requests
+import os
+import sys
+import streamlink
+import logging
+from logging.handlers import RotatingFileHandler
+import json
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+log_file = "log.txt"
+file_handler = RotatingFileHandler(log_file)
+file_handler.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+
 banner = r'''
 ###########################################################################
 #                                                                         #
@@ -185,139 +317,6 @@ https://tls-cl.cdnz.cl/radiosoberania/live/chunklist_w1753930486.m3u8
 https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
 '''
 
-def grab(url):
-    try:
-        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
-            return url
-
-        session = streamlink.Streamlink()
-        streams = session.streams(url)
-        logger.debug("URL Streams %s: %s", url, streams)
-        if "best" in streams:
-            return streams["best"].url
-        return None
-    except streamlink.exceptions.NoPluginError as err:
-        logger.error("URL Error No PluginError %s: %s", url, err)
-        return None
-    except streamlink.StreamlinkError as err:
-        logger.error("URL Error %s: %s", url, err)
-        return None
-
-
-def check_url(url):
-    try:
-        response = requests.head(url, timeout=15)
-        if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
-            return True
-    except requests.exceptions.RequestException as err:
-        pass
-    
-    try:
-        response = requests.head(url, timeout=15, verify=False)
-        if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
-            return True
-    except requests.exceptions.RequestException as err:
-        logger.error("URL Error %s: %s", url, err)
-        return False
-    
-    return False
-
-def parse_extinf_line(line):
-    # Default values
-    group_title = "Undefined"
-    tvg_logo = "Undefined.png"
-    epg = ""
-    
-    # Split the line to extract metadata
-    meta_info = line.split(',')
-    if len(meta_info) > 1:
-        meta_info = meta_info[1].strip()
-        meta_parts = meta_info.split('|')
-        if len(meta_parts) > 0:
-            ch_name = meta_parts[0].strip()
-        if len(meta_parts) > 1:
-            group_title = meta_parts[1].strip()
-        if len(meta_parts) > 2:
-            tvg_logo = meta_parts[2].strip()
-        if len(meta_parts) > 3:
-            epg = meta_parts[3].strip()
-    
-    return ch_name, group_title, tvg_logo, epg
-
-channel_data = []
-
-channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../MASTER.txt'))
-
-with open(channel_info) as f:
-    lines = f.readlines()
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        if line.startswith('#EXTINF'):
-            # Extract information from #EXTINF line
-            ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
-            
-            link = lines[i+1].strip()
-            if link and check_url(link):
-                channel_data.append({
-                    'name': ch_name,
-                    'url': link,
-                    'group': group_title,
-                    'logo': tvg_logo,
-                    'epg': epg
-                })
-            i += 1  # Skip the next line (URL) because it's already processed
-        i += 1
-
-with open("MASTER.m3u", "w") as f:
-    f.write(banner)
-
-    for channel in channel_data:
-        extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}"'
-        if channel["epg"]:
-            extinf_line += f' tvg-id="{channel["epg"]}"'
-        extinf_line += f', {channel["name"]}'
-        
-        f.write(extinf_line)
-        f.write('\n')
-        f.write(channel['url'])
-        f.write('\n')
-
-with open("playlist.json", "a") as f:
-    json_data = json.dumps(channel_data, indent=2)
-    f.write(json_data)
-
-
-
-
-#rato
-#!/usr/bin/python3
-
-import requests
-import os
-import sys
-import streamlink
-import logging
-from logging.handlers import RotatingFileHandler
-import json
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-
-log_file = "log.txt"
-file_handler = RotatingFileHandler(log_file)
-file_handler.setLevel(logging.DEBUG)
-
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(formatter)
-
-logger.addHandler(file_handler)
-
-banner = r'''
-#EXTM3U
-'''
 
 def grab(url):
     try:
