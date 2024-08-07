@@ -225,7 +225,7 @@ with open(channel_info) as f:
                     'url': link
                 })
 
-with open("playlist.m3u", "w") as f:
+with open("ARGENTINA.m3u", "w") as f:
     f.write(banner)
 
     prev_item = None
