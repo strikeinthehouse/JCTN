@@ -31,7 +31,7 @@ try:
     cards = soup.find_all('div', class_='InjectLayout-sc-1i43xsx-0 fMQokC search-result-card')
 
     # Open the file channel_info.txt in append mode
-    with open('channel_info.txt', 'w', encoding='utf-8') as file:
+    with open('channel_twitch.txt', 'w', encoding='utf-8') as file:
         # Iterate through the found cards
         for card in cards:
             # Extract channel name
