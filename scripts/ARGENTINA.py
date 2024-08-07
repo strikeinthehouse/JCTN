@@ -1760,8 +1760,9 @@ for item in channel_data:
             "website": item['url'],
             "logo": prev_item["tvg_logo"]
         })
-
+    f.write(banner2)
+    
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
-    f.write(banner2)
+
