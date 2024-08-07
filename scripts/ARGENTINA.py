@@ -151,6 +151,52 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
+
+
+def grab(url):
+    try:
+        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
+            return url
+
+        session = streamlink.Streamlink()
+        streams = session.streams(url)
+        logger.debug("URL Streams %s: %s", url, streams)
+        if "best" in streams:
+            return streams["best"].url
+        return None
+    except streamlink.exceptions.NoPluginError as err:
+        logger.error("URL Error No PluginError %s: %s", url, err)
+        return None
+    except streamlink.StreamlinkError as err:
+        logger.error("URL Error %s: %s", url, err)
+        return None
+
+
+def check_url(url):
+    try:
+        response = requests.head(url, timeout=15)
+        if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
+            return True
+    except requests.exceptions.RequestException as err:
+        pass
+    
+    try:
+        response = requests.head(url, timeout=15, verify=False)
+        if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
+            return True
+    except requests.exceptions.RequestException as err:
+        logger.error("URL Error %s: %s", url, err)
+        return False
+    
+    return False
+
+channel_data = []
+channel_data_json = []
+
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_argentina.txt'))
+
 banner = r'''
 #EXTM3U
 
@@ -1650,50 +1696,6 @@ https://cdn.instream.audio/:9085/stream
 
 
 '''
-
-def grab(url):
-    try:
-        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
-            return url
-
-        session = streamlink.Streamlink()
-        streams = session.streams(url)
-        logger.debug("URL Streams %s: %s", url, streams)
-        if "best" in streams:
-            return streams["best"].url
-        return None
-    except streamlink.exceptions.NoPluginError as err:
-        logger.error("URL Error No PluginError %s: %s", url, err)
-        return None
-    except streamlink.StreamlinkError as err:
-        logger.error("URL Error %s: %s", url, err)
-        return None
-
-
-def check_url(url):
-    try:
-        response = requests.head(url, timeout=15)
-        if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
-            return True
-    except requests.exceptions.RequestException as err:
-        pass
-    
-    try:
-        response = requests.head(url, timeout=15, verify=False)
-        if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
-            return True
-    except requests.exceptions.RequestException as err:
-        logger.error("URL Error %s: %s", url, err)
-        return False
-    
-    return False
-
-channel_data = []
-channel_data_json = []
-
-channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_argentina.txt'))
 
 with open(channel_info) as f:
     for line in f:
