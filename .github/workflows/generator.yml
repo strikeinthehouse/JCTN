@@ -1,16 +1,16 @@
 # This is a basic workflow to help you get started with Actions
 
-name: beIN SPORTS HABER
+name: M3U generator
 
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: '0 0/3 * * *'
-    
+    - cron: '0 0/2 * * *'
+
   pull_request:
     branches:
       - main
-  
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -24,7 +24,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
       #- name: Run a one-line script
@@ -33,23 +33,29 @@ jobs:
       # Runs a set of commands using the runners shell 
       - name: config
         run: |
-          git pull
-          git config --global user.email "seonavez@gmail.com"
-          git config --global user.name "@Navezjt"
-      
-      
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Delete log
+        run: |
+          rm -rf ./log.txt
+
       - name: Main
         run: |
           pwd
-          chmod +x beinsports-haber.sh
-          ./beinsports-haber.sh
-        
+          chmod +x generate.sh
+          ./generate.sh
+
+      - name: git pull
+        run: |
+          git pull origin main
+
       - name: git add
         run: |
           git add -A
-          ls -la 
-          
+          ls -la
+
       - name: commit & push
         run: |
-          git commit -m "Link updated"
+          git commit -m "links are updated"
           git push
