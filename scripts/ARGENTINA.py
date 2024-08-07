@@ -1734,7 +1734,7 @@ with open("ARGENTINA.m3u", "w") as f:
             f.write('\n')
             f.write(item['url'])
             f.write('\n')
-
+    f.write(banner2)
 prev_item = None
 
 for item in channel_data:
@@ -1760,7 +1760,7 @@ for item in channel_data:
             "website": item['url'],
             "logo": prev_item["tvg_logo"]
         })
-    f.write(banner2)
+    
     
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
