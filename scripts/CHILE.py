@@ -155,6 +155,11 @@ banner = r'''
 #                                  >> https://github.com/cqcbrasil        #
 ###########################################################################
 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c5d0d76e24844235988f9265619e5fec:446b71a6deb806c6f129e25de999d07c
+#EXTINF:-1 tvg-chno="812" tvg-id="TVChile.cl" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TVNI.png?raw=true" group-title="CHILE", TV Chile
+https://chromecast.cvattv.com.ar/live/c6eds/Tv_Chile/SA_Live_dash_enc_2A/Tv_Chile.mpd
+
 #EXTINF:0 player-buffer="30" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" group-title="CHILE",CNN Chile
 http://newultra.xyz:8080/34tehu87se24ma97/m37me65wu93m/57269
 
