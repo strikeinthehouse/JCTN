@@ -206,6 +206,10 @@ banner = r'''
 #EXTM3U
 #EXTM3U url-tvg="https://www.bevy.be/bevyfiles/argentina.xml"
 
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/7u0D7GU.png" group-title="Radios Internacionales",Clásica y Barroca | Buenos Aires | Argentina
+http://200.110.145.2:8087/stream
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/HbV9HoX.png" group-title="Radios Internacionales",Norte | Bahía Blanca | Argentina
+http://icecast.hostingbahia.com.ar:8002/live?28344
 #EXTINF:0 tvg-id="ext" group-title="Locales",Camaras de Villa Gesell (Av. 3 y 104)
 http://cam104y3.gesell.com.ar/playlist.m3u8
 #EXTINF:0 tvg-id="ext" group-title="Locales",Camaras de Villa Gesell (Buenos Aires y Playa)
