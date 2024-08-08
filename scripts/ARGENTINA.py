@@ -208,19 +208,14 @@ banner = r'''
 
 #EXTINF:-1 ,Litus HD Argentina
 http://192.99.38.174:1935/litustv/ngrp:litustv_all/playlist.m3u8
-#EXTINF:-1 ,Canal 10 (Argentina)
-http://panel.dattalive.com:1935/8204/8204/chunklist_w1846536511.m3u8
-#EXTINF:-1 group-title="peliculas dia de muertos",Aterrados | Argentina
-https://ia802503.us.archive.org/14/items/aterrados-2017-english-subtitles-720p-horror-movie/Aterrados%202017%20English%20Subtitles%20720p%20HORROR%20MOVIE.mp4
+
+
 
 #EXTINF:-1 ,Canal Provincial | AR
 https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8?PlaylistM3UCL
 #EXTINF:-1 ,Sublime Gracia TV | AR
 https://5f700d5b2c46f.streamlock.net:443/sublime/sublime/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal Rural | AR
-https://cda2.alsolnet.com/elrural/live/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal Cinco Tigre | AR
-https://59537faa0729a.streamlock.net/cincotv/cincotv/playlist.m3u8?PlaylistM3UCL
+
 #EXTINF:-1 ,Canal 9 Litoral | AR
 https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 ,Canal 907 FM Comunicar | AR
