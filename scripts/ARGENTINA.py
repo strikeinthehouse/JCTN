@@ -133,17 +133,17 @@ with open("playlist.json", "a") as f:
 
 import requests
 import os
-import json
+import sys
+import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
-import subprocess
+import json
 
-# Configuração do logger
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 log_file = "log.txt"
-file_handler = RotatingFileHandler(log_file, maxBytes=5e6, backupCount=3)
+file_handler = RotatingFileHandler(log_file)
 file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
@@ -151,43 +151,57 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
-def check_url(url):
-    try:
-        response = requests.head(url, timeout=15, verify=False)
-        if response.status_code == 200:
-            logger.debug("URL is reachable: %s", url)
-            return True
-    except requests.exceptions.RequestException as err:
-        logger.error("URL Error %s: %s", url, err)
-    return False
-
-def get_streamlink_url(youtube_url):
-    try:
-        # Execute o comando do streamlink e capture a saída
-        result = subprocess.run(['streamlink', youtube_url, 'best'], capture_output=True, text=True)
-        output = result.stdout.strip()
-        if output:
-            return output.split()[0]
-    except Exception as e:
-        logger.error(f"Erro ao obter o link de {youtube_url}: {e}")
-    return None
-
-channel_data = []
-channel_data_json = []
-
-# Caminho do arquivo de canais
-channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_argentina.txt'))
-logger.debug("Reading channel info from: %s", channel_info)
-
 banner = r'''
 #EXTM3U
 '''
 
-# Processando o arquivo de canais
+def grab(url):
+    try:
+        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
+            return url
+
+        session = streamlink.Streamlink()
+        streams = session.streams(url)
+        logger.debug("URL Streams %s: %s", url, streams)
+        if "best" in streams:
+            return streams["best"].url
+        return None
+    except streamlink.exceptions.NoPluginError as err:
+        logger.error("URL Error No PluginError %s: %s", url, err)
+        return None
+    except streamlink.StreamlinkError as err:
+        logger.error("URL Error %s: %s", url, err)
+        return None
+
+
+def check_url(url):
+    try:
+        response = requests.head(url, timeout=15)
+        if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
+            return True
+    except requests.exceptions.RequestException as err:
+        pass
+    
+    try:
+        response = requests.head(url, timeout=15, verify=False)
+        if response.status_code == 200:
+            logger.debug("URL Streams %s: %s", url, response)
+            return True
+    except requests.exceptions.RequestException as err:
+        logger.error("URL Error %s: %s", url, err)
+        return False
+    
+    return False
+
+channel_data = []
+channel_data_json = []
+
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_info.txt'))
+
 with open(channel_info) as f:
     for line in f:
         line = line.strip()
-        logger.debug("Processing line: %s", line)
         if not line or line.startswith('~~'):
             continue
         if not line.startswith('http:') and len(line.split("|")) == 4:
@@ -204,46 +218,34 @@ with open(channel_info) as f:
                 'tvg_id': tvg_id
             })
         else:
-            link = line  # Use the link directly
-            logger.debug("Processing link: %s", link)
-            # Tenta obter o URL do stream ao vivo se o link for do YouTube
-            if 'youtube.com' in link:
-                stream_url = get_streamlink_url(link)
-                if stream_url:
-                    if check_url(stream_url):
-                        channel_data.append({
-                            'type': 'link',
-                            'url': stream_url
-                        })
-            else:
-                if check_url(link):
-                    channel_data.append({
-                        'type': 'link',
-                        'url': link
-                    })
+            link = grab(line)
+            if link and check_url(link):
+                channel_data.append({
+                    'type': 'link',
+                    'url': link
+                })
 
-# Salvando em arquivo M3U
 with open("ARGENTINA.m3u", "w") as f:
     f.write(banner)
+
     prev_item = None
 
     for item in channel_data:
-        logger.debug("Writing item to M3U: %s", item)
         if item['type'] == 'info':
             prev_item = item
         if item['type'] == 'link' and item['url']:
-            if prev_item:
-                f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
-                f.write('\n')
-                f.write(item['url'])
-                f.write('\n')
+            f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
+            f.write('\n')
+            f.write(item['url'])
+            f.write('\n')
 
-# Gerando dados JSON
+prev_item = None
+
 for item in channel_data:
     if item['type'] == 'info':
         prev_item = item
     if item['type'] == 'link' and item['url']:
-        channel_data_json.append({
+        channel_data_json.append( {
             "id": prev_item["tvg_id"],
             "name": prev_item["ch_name"],
             "alt_names": [""],
@@ -263,7 +265,6 @@ for item in channel_data:
             "logo": prev_item["tvg_logo"]
         })
 
-# Opcional: Salvando dados JSON em arquivo
 with open("ARGENTINA.json", "w") as f:
-    json.dump(channel_data_json, f, indent=4)
-
+    json_data = json.dumps(channel_data_json, indent=2)
+    f.write(json_data)
