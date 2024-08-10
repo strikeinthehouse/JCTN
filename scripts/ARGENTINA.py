@@ -1913,7 +1913,7 @@ def check_url(url):
 channel_data = []
 channel_data_json = []
 
-channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_info.txt'))
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_argentina.txt'))
 
 with open(channel_info) as f:
     for line in f:
