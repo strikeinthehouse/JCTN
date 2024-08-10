@@ -133,25 +133,22 @@ with open("playlist.json", "a") as f:
 
 import requests
 import os
-import sys
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
-import json
 
+# Configuração do logger
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 log_file = "log.txt"
-file_handler = RotatingFileHandler(log_file)
+file_handler = RotatingFileHandler(log_file, maxBytes=5e6, backupCount=3)
 file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
-
-
 
 def grab(url):
     try:
@@ -166,53 +163,35 @@ def grab(url):
         return None
     except streamlink.exceptions.NoPluginError as err:
         logger.error("URL Error No PluginError %s: %s", url, err)
-        return None
     except streamlink.StreamlinkError as err:
         logger.error("URL Error %s: %s", url, err)
-        return None
-
+    return None
 
 def check_url(url):
     try:
-        response = requests.head(url, timeout=15)
-        if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
-            return True
-    except requests.exceptions.RequestException as err:
-        pass
-    
-    try:
         response = requests.head(url, timeout=15, verify=False)
         if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
+            logger.debug("URL is reachable: %s", url)
             return True
     except requests.exceptions.RequestException as err:
         logger.error("URL Error %s: %s", url, err)
-        return False
-    
     return False
 
 channel_data = []
 channel_data_json = []
 
+# Caminho do arquivo de canais
 channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_argentina.txt'))
 
 banner = r'''
 #EXTM3U
-
-
 '''
-
 
 banner2 = r'''
 #EXTM3U
-
-
-
-
-
 '''
 
+# Processando o arquivo de canais
 with open(channel_info) as f:
     for line in f:
         line = line.strip()
@@ -239,6 +218,7 @@ with open(channel_info) as f:
                     'url': link
                 })
 
+# Salvando em arquivo M3U
 with open("ARGENTINA.m3u", "w") as f:
     f.write(banner)
     f.write(banner2)
@@ -248,18 +228,18 @@ with open("ARGENTINA.m3u", "w") as f:
         if item['type'] == 'info':
             prev_item = item
         if item['type'] == 'link' and item['url']:
-            f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
-            f.write('\n')
-            f.write(item['url'])
-            f.write('\n')
-    
-prev_item = None
+            if prev_item:
+                f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
+                f.write('\n')
+                f.write(item['url'])
+                f.write('\n')
 
+# Gerando dados JSON
 for item in channel_data:
     if item['type'] == 'info':
         prev_item = item
     if item['type'] == 'link' and item['url']:
-        channel_data_json.append( {
+        channel_data_json.append({
             "id": prev_item["tvg_id"],
             "name": prev_item["ch_name"],
             "alt_names": [""],
@@ -278,7 +258,11 @@ for item in channel_data:
             "website": item['url'],
             "logo": prev_item["tvg_logo"]
         })
-    
+
+# Opcional: Salvando dados JSON em arquivo
+with open("ARGENTINA.json", "w") as f:
+    json.dump(channel_data_json, f, indent=4)
+
     
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
