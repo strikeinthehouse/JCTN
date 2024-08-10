@@ -153,6 +153,7 @@ logger.addHandler(file_handler)
 def grab(url):
     try:
         if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
+            logger.debug("Returning URL as is: %s", url)
             return url
 
         session = streamlink.Streamlink()
@@ -182,6 +183,7 @@ channel_data_json = []
 
 # Caminho do arquivo de canais
 channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_argentina.txt'))
+logger.debug("Reading channel info from: %s", channel_info)
 
 banner = r'''
 #EXTM3U
@@ -195,6 +197,7 @@ banner2 = r'''
 with open(channel_info) as f:
     for line in f:
         line = line.strip()
+        logger.debug("Processing line: %s", line)
         if not line or line.startswith('~~'):
             continue
         if not line.startswith('http:') and len(line.split("|")) == 4:
@@ -212,6 +215,7 @@ with open(channel_info) as f:
             })
         else:
             link = grab(line)
+            logger.debug("Grabbed link: %s", link)
             if link and check_url(link):
                 channel_data.append({
                     'type': 'link',
@@ -225,6 +229,7 @@ with open("ARGENTINA.m3u", "w") as f:
     prev_item = None
 
     for item in channel_data:
+        logger.debug("Writing item to M3U: %s", item)
         if item['type'] == 'info':
             prev_item = item
         if item['type'] == 'link' and item['url']:
@@ -262,9 +267,3 @@ for item in channel_data:
 # Opcional: Salvando dados JSON em arquivo
 with open("ARGENTINA.json", "w") as f:
     json.dump(channel_data_json, f, indent=4)
-
-    
-with open("playlist.json", "w") as f:
-    json_data = json.dumps(channel_data_json, indent=2)
-    f.write(json_data)
-
