@@ -526,9 +526,9 @@ with open(channel_info) as f:
 
 with open("CHILE.m3u", "w") as f:
     f.write(banner)
-
-    prev_item = None
     f.write(banner2)
+    prev_item = None
+    
     for item in channel_data:
         if item['type'] == 'info':
             prev_item = item
