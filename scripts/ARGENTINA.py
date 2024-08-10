@@ -136,6 +136,7 @@ import os
 import json
 import logging
 from logging.handlers import RotatingFileHandler
+import subprocess
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
@@ -159,6 +160,17 @@ def check_url(url):
     except requests.exceptions.RequestException as err:
         logger.error("URL Error %s: %s", url, err)
     return False
+
+def get_streamlink_url(youtube_url):
+    try:
+        # Execute o comando do streamlink e capture a saída
+        result = subprocess.run(['streamlink', youtube_url, 'best'], capture_output=True, text=True)
+        output = result.stdout.strip()
+        if output:
+            return output.split()[0]
+    except Exception as e:
+        logger.error(f"Erro ao obter o link de {youtube_url}: {e}")
+    return None
 
 channel_data = []
 channel_data_json = []
@@ -194,11 +206,21 @@ with open(channel_info) as f:
         else:
             link = line  # Use the link directly
             logger.debug("Processing link: %s", link)
-            if check_url(link):
-                channel_data.append({
-                    'type': 'link',
-                    'url': link
-                })
+            # Tenta obter o URL do stream ao vivo se o link for do YouTube
+            if 'youtube.com' in link:
+                stream_url = get_streamlink_url(link)
+                if stream_url:
+                    if check_url(stream_url):
+                        channel_data.append({
+                            'type': 'link',
+                            'url': stream_url
+                        })
+            else:
+                if check_url(link):
+                    channel_data.append({
+                        'type': 'link',
+                        'url': link
+                    })
 
 # Salvando em arquivo M3U
 with open("ARGENTINA.m3u", "w") as f:
