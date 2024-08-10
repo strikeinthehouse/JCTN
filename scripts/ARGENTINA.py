@@ -133,7 +133,7 @@ with open("playlist.json", "a") as f:
 
 import requests
 import os
-import streamlink
+import json
 import logging
 from logging.handlers import RotatingFileHandler
 
@@ -149,24 +149,6 @@ formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
-
-def grab(url):
-    try:
-        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
-            logger.debug("Returning URL as is: %s", url)
-            return url
-
-        session = streamlink.Streamlink()
-        streams = session.streams(url)
-        logger.debug("URL Streams %s: %s", url, streams)
-        if "best" in streams:
-            return streams["best"].url
-        return None
-    except streamlink.exceptions.NoPluginError as err:
-        logger.error("URL Error No PluginError %s: %s", url, err)
-    except streamlink.StreamlinkError as err:
-        logger.error("URL Error %s: %s", url, err)
-    return None
 
 def check_url(url):
     try:
@@ -186,10 +168,6 @@ channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../chann
 logger.debug("Reading channel info from: %s", channel_info)
 
 banner = r'''
-#EXTM3U
-'''
-
-banner2 = r'''
 #EXTM3U
 '''
 
@@ -214,9 +192,9 @@ with open(channel_info) as f:
                 'tvg_id': tvg_id
             })
         else:
-            link = grab(line)
-            logger.debug("Grabbed link: %s", link)
-            if link and check_url(link):
+            link = line  # Use the link directly
+            logger.debug("Processing link: %s", link)
+            if check_url(link):
                 channel_data.append({
                     'type': 'link',
                     'url': link
@@ -225,7 +203,6 @@ with open(channel_info) as f:
 # Salvando em arquivo M3U
 with open("ARGENTINA.m3u", "w") as f:
     f.write(banner)
-    f.write(banner2)
     prev_item = None
 
     for item in channel_data:
@@ -267,3 +244,4 @@ for item in channel_data:
 # Opcional: Salvando dados JSON em arquivo
 with open("ARGENTINA.json", "w") as f:
     json.dump(channel_data_json, f, indent=4)
+
