@@ -637,18 +637,6 @@ https://chromecast.cvattv.com.ar/live/c7eds/CronicaTV/SA_Live_dash_enc_2A/Cronic
 http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52487.ts
 
 #EXTINF:-1 tvg-id="Encuentro.ar" tvg-country="AR" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/encuentro.png" group-title="Argentina",CANAL ENCUENTRO 22.1
-https://bvsat02.cdn.rcs.net.ar/mnp/encuentro/output.mpd
-
-#EXTINF:-1 tvg-id="Encuentro.ar" tvg-country="AR" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/encuentro.png" group-title="Argentina", CANAL ENCUENTRO 22.1
-https://538d0bde28ccf.streamlock.net/live-cont.ar/encuentro/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Encuentro.ar" tvg-country="AR" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/encuentro.png" group-title="Argentina", ENCUENTRO
-http://190.11.130.46/mnp/encuentro/output.mpd
-
-#EXTINF:-1 tvg-id="Encuentro.ar" tvg-country="AR" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/encuentro.png" group-title="Argentina", ENCUENTRO
-https://538d0bde28ccf.streamlock.net/live-cont.ar/encuentro/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Encuentro.ar" tvg-country="AR" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/encuentro.png" group-title="Argentina", ENCUENTRO
 http://cord-cutter.net:8080/live/j3McKd/673709/164878.m3u8
 
 EXTINF:-1 tvg-logo="https://i.ibb.co/41CYHm1/La-Naci-n.png",LA NACION
