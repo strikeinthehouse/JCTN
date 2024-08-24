@@ -359,12 +359,6 @@ http://edge02-fdo-py.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD.m3u8
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/Canal9/SA_SAGEMCOM/Canal9.m3u8
 #EXTINF:-1  group-title="Argentina",Todo Noticias
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/TodoNoticias/SA_SAGEMCOM/TodoNoticias.m3u8
-#EXTINF:-1  group-title="N/A",El 13 Argentina
-http://blackaddon.com/play/pl-228.php?c=239&f=.m3u8
-#EXTINF:-1  group-title="N/A",El Trece
-http://blackaddon.com/play/pl-228.php?c=765&f=.m3u8
-#EXTINF:-1  group-title="N/A",El Trece
-http://blackaddon.com/play/pl-228.php?c=767&f=.m3u8
 #EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/HbV9HoX.png" group-title="Radios Internacionales",Norte | Bahía Blanca | Argentina
 http://icecast.hostingbahia.com.ar:8002/live?28344
 #EXTINF:0 tvg-id="ext" group-title="Locales",Camaras de Villa Gesell (Av. 3 y 104)
