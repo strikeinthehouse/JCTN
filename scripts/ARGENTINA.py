@@ -598,13 +598,10 @@ https://cdn.cvattv.com.ar/live/c7eds/Investigacion_Periodistica/SA_Live_dash_enc
 #EXTINF:-1 tvg-name="TN" tvg-id="NTN24" tvg-logo="http://www.radiosargentina.com.ar/png/VI----TN.png" group-title="Argentina",TN Todo Noticias - TDA 20.1
 http://tutv.online:8080/f7g9h8b7/j3s7x7q8/184400
 
-#EXTINF:-1 tvg-id="tn-noticias.ar" tvg-name="TN NOTICIAS" tvg-logo="http://yourlogourl.com/tn-noticias.png" group-title="Argentina",TN NOTICIAS
+#EXTINF:-1 tvg-id="TN.ar" tvg-name="TNNOT" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TNARG.png?raw=true" group-title="Argentina",TN
 http://cord-cutter.net:8080/live/j3McKd/673709/164873.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7ceb1cd0622cd7e88fcdc99fe3a55de6:951637093d41c7388a1ef3f620cfea21
-#EXTINF:-1 tvg-chno="3" tvg-id="TN.ar" tvg-name="TNNOT" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TNARG.png?raw=true" group-title="Argentina", TN
-https://cdn.cvattv.com.ar/live/c7eds/TodoNoticias/SA_Live_dash_enc_2A/TodoNoticias.mpd
+
 
 #EXTINF:-1 tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/unife.png" group-title="Argentina",UNIFE 25.1 - TDA 25.1
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/f512804f6e6641e38106a47f681cfffa/chunklist_b4628000.m3u8?p=79&s=1694000298&e=1694000418&h=39bea3dca2e5ba6c6e0fcda0b14067b8
