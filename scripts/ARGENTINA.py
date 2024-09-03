@@ -276,18 +276,8 @@ http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8
 https://stream.ichibantv.com:3741/live/aniplustvlive.m3u8
 #EXTINF:-1  group-title="Argentina",DeporTV
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/DeporTVHD/SA_SAGEMCOM/DeporTVHD.m3u8
-#EXTINF:-1  group-title="Argentina",TyC Sport
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/TyCSport/SA_SAGEMCOM/TyCSport.m3u8
-#EXTINF:-1  group-title="Argentina",ESPN 2
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/ESPN2HD/SA_SAGEMCOM/ESPN2HD.m3u8
-#EXTINF:-1  group-title="Argentina",ESPN 3
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/ESPN3/SA_SAGEMCOM/ESPN3.m3u8
-#EXTINF:-1  group-title="Argentina",ESPN
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/ESPNHD/SA_SAGEMCOM/ESPNHD.m3u8
-#EXTINF:-1  group-title="Argentina",ESPN 4
-http://edge02-fdo-py.cvattv.com.ar/live/c7eds/ESPN4/SA_SAGEMCOM/ESPN4.m3u8
-#EXTINF:-1  group-title="Argentina",Fox Sports
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/FoxSports/SA_SAGEMCOM/FoxSports.m3u8
+
+
 #EXTINF:-1  group-title="Argentina",Fox Sports 3
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_SAGEMCOM/FoxSports3HD.m3u8
 #EXTINF:-1  group-title="Argentina",Fox Sports Premiun
