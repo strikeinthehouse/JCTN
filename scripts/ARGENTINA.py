@@ -212,16 +212,14 @@ http://azxtv.com/hls/stream.m3u8?PlaylistM3UCL
 https://stmv1.voxhdnet.com/aniplus/aniplus/playlist.m3u8?PlaylistM3UCL
 
 
-#EXTINF:-1 tvg-id="Glitz" tvg-name="Glitz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Glitzlogo.png" group-title="Argentina",Glitz | Argentina
-http://198.27.117.10:8080/Carlos2022/Carlos2022/362535
 
-#EXTINF:-1 tvg-id="C5N" tvg-name="C5N" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" group-title="Argentina",C5N | Argentina
-http://198.27.117.10:8080/Carlos2022/Carlos2022/362522
+
+
+
 #EXTINF:-1 tvg-id="America TV Argentina" tvg-name="America TV Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina.png" group-title="Argentina",America TV | Argentina
 http://198.27.117.10:8080/Carlos2022/Carlos2022/362475
 
-#EXTINF:-1 tvg-id="C5N" tvg-name="C5N" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" group-title="Argentina",C5N | Argentina
-http://177.128.115.10:8000/play/a0a6/22097
+
 
 #EXTINF:-1 tvg-logo="Radio.png" group-title="RADIOS",Radio Proyecto Magic Kids
 http://argentina.republicahosting.com:8158/;
@@ -618,8 +616,12 @@ https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 #EXTINF:-1 tvg-id="C5N" tvg-name="C5N" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" group-title="Argentina",C5N | Argentina - TDA 26.1
 http://cord-cutter.net:8080/live/j3McKd/673709/164876.m3u8
 
+#EXTINF:-1 tvg-id="C5N.ar" tvg-name="C5NOT" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/C5NAR.png?raw=true" group-title="Argentina",C5N
+http://cord-cutter.net:8080/live/j3McKd/673709/164876.m3u8
+
 #EXTINF:-1 tvg-id="c5n-hd.ar" tvg-name="C5N HD" tvg-logo="http://yourlogourl.com/c5n-hd.png" group-title="Argentina",C5N HD
 http://181.209.114.13:8000/play/a01p/index.m3u8
+
 
 #EXTINF:-1 tvg-id="A24" tvg-name="America 24" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" group-title="Argentina",America 24 | Argentina - TDA 27.1
 http://45.5.151.151:8000/play/a0dy/index.m3u8
@@ -847,10 +849,7 @@ https://5f700d5b2c46f.streamlock.net:443/sublime/sublime/playlist.m3u8?PlaylistM
 
 
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=050df5c6e78c774e78c3e99eef8a1b29:0e4141d6ab21a36cbc4da777ab3096d4
-#EXTINF:-1 tvg-chno="5" tvg-id="C5N.ar" tvg-name="C5NOT" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/C5NAR.png?raw=true" tvg-group="Noticias", C5N
-https://cdn.cvattv.com.ar/live/c7eds/C5N/SA_Live_dash_enc_2A/C5N.mpd
+
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f4eade7bbc39b25402acfa301bbad04a:a74d1df4235a74878327aa8d53ff283c
@@ -1236,12 +1235,7 @@ https://rtvelivestream.akamaized.net/rtvesec/int/star_main_dvr.m3u8
 #EXTINF:-1 tvg-chno="518" tvg-id="ArgentinisimaSatelital.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/ARGST.png?raw=true" group-title="Variedades", Argentinísima Satelital
 https://chromecast.cvattv.com.ar/live/c6eds/Argentinisima/SA_Live_dash_enc_2A/Argentinisima.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b02c568163c14cfda4ddb958a0aab742:ef64a70ac85a663a3308be6476610aad
-#EXTINF:-1 tvg-chno="601" tvg-id="CanalRural.ar" tvg-logo="https://3.bp.blogspot.com/-kRrQVEhftUU/V-_RmD35S8I/AAAAAAAABB0/3CbSCG5SblctjXDXlMkNc8V0bZHVAfFZACLcB/s1600/canalrural-2016.png" group-title="Agro", Canal Rural
-https://chromecast.cvattv.com.ar/live/c6eds/Canal_Rural/SA_Live_dash_enc_2A/Canal_Rural.mpd
-
-#EXTINF:-1 tvg-chno="602" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/10/Canal-Chacra-TV-en-vivo-Online.png" group-title="Agro", Chacra TV
+#EXTINF:-1 tvg-chno="602" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/10/Canal-Chacra-TV-en-vivo-Online.png" group-title="Argentina", Chacra TV
 https://s8.stweb.tv/chacra/live/playlist.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
