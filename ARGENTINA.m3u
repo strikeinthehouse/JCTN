@@ -101,8 +101,6 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 #EXTINF:-1 tvg-id="NET TV" tvg-name="NET TV" tvg-logo="https://www.canalnet.tv/_templates/desktop/includes/img/logo.png" group-title="FAMILIARES",NET TV | Argentina
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
 
-#EXTINF:-1 tvg-id="Tec TV" tvg-name="Tec TV" tvg-logo="https://www.tec.gob.ar/wp-content/uploads/2022/05/Tec-logo.png" group-title="FAMILIARES",Tec TV | Argentina
-https://tv.initium.net.ar:3939/live/tectvmainlive.m3u8
 #EXTINF:-1 tvg-id="DeporTV Argentina" tvg-name="DeporTV Argentina" tvg-logo="https://i2.paste.pics/7b99edf751cc110abb5fd3f040e558b8.png" group-title="DEPORTES",DeporTV | Argentina
 https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/playlist.m3u8
 #EXTINF:-1 tvg-id="DirecTV Sports" tvg-name="DirecTV Sports" tvg-logo="http://192.99.63.87/LogosCanales/Directv%20Sports.jpg" group-title="DEPORTES",DirecTV Sports | Argentina
@@ -112,13 +110,11 @@ http://latinosiptv.online:8090/live/notocar/xmauc84bx1/2289.m3u8
 #EXTINF:-1 tvg-id="DirecTV Sports +" tvg-name="DirecTV Sports +" tvg-logo="http://192.99.63.87/LogosCanales/Directv%20Sports.jpg" group-title="DEPORTES",DirecTV Sports + | Argentina
 http://latinosiptv.online:8090/live/notocar/xmauc84bx1/2285.m3u8
 
-#EXTINF:-1 tvg-id="Canal 4 Jujuy" tvg-name="Canal 4 Jujuy" tvg-logo="https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png" group-title="FAMILIARES",Canal 4 Jujuy | Argentina
-https://5cd577a3dd8ec.streamlock.net/canal4/manifest.smil/chunklist_w92188071_b316000.m3u8
 
-#EXTINF:-1 tvg-id="Canal 4 Jujuy" tvg-name="Canal 4 Jujuy" tvg-logo="https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png" group-title="FAMILIARES",Canal 4 Jujuy | Argentina
-https://5cd577a3dd8ec.streamlock.net/canal4/smil:manifest.smil/chunklist_w1908572533_b316000.m3u8
 
-#EXTINF:-1 tvg-id="Canal 4 San Juan" tvg-name="Canal 4 San Juan" tvg-logo="http://www.canal4sanjuan.com.ar/digital/images/logo-cir.png" group-title="FAMILIARES",Canal 4 San Juan | Argentina
+
+
+#EXTINF:-1 tvg-id="Canal 4 San Juan" tvg-name="Canal 4 San Juan" tvg-logo="http://www.canal4sanjuan.com.ar/digital/images/logo-cir.png" group-title="Argentina",Canal 4 San Juan | Argentina
 http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8
 #EXTINF:-1 tvg-name="AnimeStation" tvg-id="AnimeStation" tvg-logo="https://i.imgur.com/z780GyN.png" group-title="JOVENES Y ADULTOS",AnimeStation | Argentina
 https://stream.ichibantv.com:3741/live/aniplustvlive.m3u8
