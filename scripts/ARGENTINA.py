@@ -216,8 +216,7 @@ https://stmv1.voxhdnet.com/aniplus/aniplus/playlist.m3u8?PlaylistM3UCL
 
 
 
-#EXTINF:-1 tvg-id="America TV Argentina" tvg-name="America TV Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina.png" group-title="Argentina",America TV | Argentina
-http://198.27.117.10:8080/Carlos2022/Carlos2022/362475
+
 
 
 
@@ -255,6 +254,16 @@ https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
 
 #EXTINF:-1 tvg-id="DeporTV Argentina" tvg-name="DeporTV Argentina" tvg-logo="https://i2.paste.pics/7b99edf751cc110abb5fd3f040e558b8.png" group-title="DEPORTES",DeporTV | Argentina
 https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/playlist.m3u8
+#EXTINF:-1  group-title="Argentina",DeporTV
+http://edge02-fdo-py.cvattv.com.ar/live/c3eds/DeporTVHD/SA_SAGEMCOM/DeporTVHD.m3u8
+#EXTINF:-1 tvg-id="DeporTV.ar" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/deportv.png" group-title="Argentina", DEPORTV 24.1
+https://538d0bde28ccf.streamlock.net/live-cont.ar/deportv/playlist.m3u8
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f362097815892a4b83950f1d106ff0b2:4349e42e81c31a8389f4a42fcd298928
+#EXTINF:-1 tvg-id="DeporTVHD.ar" tvg-logo="https://git.io/JOTOg" group-title="Deportes", DeporTV
+https://chromecast.cvattv.com.ar/live/c3eds/DeporTVHD/SA_Live_dash_enc_2A/DeporTVHD.mpd
+#EXTINF:-1 tvg-id="DeporTV Argentina" tvg-name="DeporTV Argentina" tvg-logo="https://i2.paste.pics/7b99edf751cc110abb5fd3f040e558b8.png" group-title="Argentina",DeporTV | Argentina - TDA 24.1
+https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/playlist.m3u8
 #EXTINF:-1 tvg-id="DirecTV Sports" tvg-name="DirecTV Sports" tvg-logo="http://192.99.63.87/LogosCanales/Directv%20Sports.jpg" group-title="DEPORTES",DirecTV Sports | Argentina
 http://latinosiptv.online:8090/live/notocar/xmauc84bx1/2690.m3u8
 #EXTINF:-1 tvg-id="DirecTV Sports 2" tvg-name="DirecTV Sports 2" tvg-logo="http://192.99.63.87/LogosCanales/Directv%20Sports.jpg" group-title="DEPORTES",DirecTV Sports 2 | Argentina
@@ -266,16 +275,19 @@ http://latinosiptv.online:8090/live/notocar/xmauc84bx1/2285.m3u8
 
 
 
-#EXTINF:-1 tvg-id="Canal 4 San Juan" tvg-name="Canal 4 San Juan" tvg-logo="http://www.canal4sanjuan.com.ar/digital/images/logo-cir.png" group-title="Argentina",Canal 4 San Juan | Argentina
-http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8
+
+
 #EXTINF:-1 tvg-name="AnimeStation" tvg-id="AnimeStation" tvg-logo="https://i.imgur.com/z780GyN.png" group-title="JOVENES Y ADULTOS",AnimeStation | Argentina
 https://stream.ichibantv.com:3741/live/aniplustvlive.m3u8
-#EXTINF:-1  group-title="Argentina",DeporTV
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/DeporTVHD/SA_SAGEMCOM/DeporTVHD.m3u8
+
 
 
 #EXTINF:-1  group-title="Argentina",Fox Sports 3
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_SAGEMCOM/FoxSports3HD.m3u8
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=55b47390cf9e4997dae6dac85e057875:fa39e855543c5d70f30600d59e5e4c1b
+#EXTINF:-1 tvg-id="FoxSports3Argentina.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FXSP3.png?raw=true" group-title="Deportes", FOX Sports 3
+https://chromecast.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_Live_dash_enc_2A/FoxSports3HD.mpd
 #EXTINF:-1  group-title="Argentina",Fox Sports Premiun
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/Fox_Sports_Premiun_HD/SA_SAGEMCOM/Fox_Sports_Premiun_HD.m3u8
 
@@ -325,8 +337,7 @@ http://edge02-fdo-py.cvattv.com.ar/live/c3eds/Fox_Sports_Premiun_HD/SA_SAGEMCOM/
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/TNT_Sports_HD/SA_SAGEMCOM/TNT_Sports_HD.m3u8
 #EXTINF:-1  group-title="Argentina",Canal Universidad
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/Canal_Universidad/SA_SAGEMCOM/Canal_Universidad.m3u8
-#EXTINF:-1  group-title="Argentina",America TV
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.m3u8
+
 
 #EXTINF:-1  group-title="Argentina",Canal 7
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/Canal7/SA_SAGEMCOM/Canal7.m3u8
@@ -380,8 +391,7 @@ https://538d0bde28ccf.streamlock.net/live-cont.ar/mirador/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.construirtv.com/wp-content/uploads/2020/03/Logo_300.png" group-title="Argentina", CONSTRUIR TV
 https://bvsat02.cdn.rcs.net.ar/mnp/construiriptv/output.mpd
 
-#EXTINF:-1 tvg-id="DeporTV.ar" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/deportv.png" group-title="Argentina", DEPORTV 24.1
-https://538d0bde28ccf.streamlock.net/live-cont.ar/deportv/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="https://pbs.twimg.com/profile_images/1571906658581856258/_Yrzet08_400x400.jpg" group-title="Argentina", TyC SPORTS 
 https://d3055hobuue3je.cloudfront.net/out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8
@@ -403,11 +413,19 @@ https://github.com/mortal251/archivos_m3u8/raw/main/america_hls.m3u8
 #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net
 https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
 
+#EXTINF:-1 tvg-id="america-tv-hd.ar" tvg-name="AMERICA TV HD" tvg-logo="http://yourlogourl.com/america-tv-hd.png" group-title="Argentina",AMERICA TV HD
+http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8
+
+#EXTINF:-1  group-title="Argentina",America TV
+http://edge02-fdo-py.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.m3u8
+#EXTINF:-1 tvg-id="America TV Argentina" tvg-name="America TV Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina.png" group-title="Argentina",America TV | Argentina
+http://198.27.117.10:8080/Carlos2022/Carlos2022/362475
+
 #EXTINF:-1 tvg-id="America 24" tvg-name="America 24" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" group-title="Argentina",America 24 | Argentina
 https://ythls.onrender.com/channel/UCR9120YBAqMfntqgRTKmkjQ.m3u8
 
-#EXTINF:-1 tvg-id="america-tv-hd.ar" tvg-name="AMERICA TV HD" tvg-logo="http://yourlogourl.com/america-tv-hd.png" group-title="Argentina",AMERICA TV HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8
+
+
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ea235ce0826408b221c498115a9b62d:7aa9266ed91ea4510483370029dfcf45
@@ -680,8 +698,7 @@ http://panel.dattalive.com:1935/8204/8204/playlist.m3u8
 #EXTINF:-1  tvg-id="284" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/284_Multivision.png",Multivisi n | AR
 https://panel.dattalive.com:443/8250/8250/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="Canal 4 San Juan" tvg-name="Canal 4 San Juan" tvg-logo="http://www.canal4sanjuan.com.ar/digital/images/logo-cir.png" group-title="Argentina",Canal 4 San Juan | Argentina - TDA 22.1
-http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8
+
 
 #EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal 26 (San Justo-Arg.) - TDA 22.2
 http://live-edge01.telecentro.net.ar/live/smil:c26.smil/chunklist_w858131162_b414000_sleng.m3u8
@@ -689,8 +706,7 @@ http://live-edge01.telecentro.net.ar/live/smil:c26.smil/chunklist_w858131162_b41
 #EXTINF:-1 tvg-id="Tec TV" tvg-name="Tec TV" tvg-logo="https://www.tec.gob.ar/wp-content/uploads/2022/05/Tec-logo.png" group-title="Argentina",Tec TV | Argentina - TDA 22.4
 https://tv.initium.net.ar:3939/live/tectvmainlive.m3u8
 
-#EXTINF:-1 tvg-id="DeporTV Argentina" tvg-name="DeporTV Argentina" tvg-logo="https://i2.paste.pics/7b99edf751cc110abb5fd3f040e558b8.png" group-title="Argentina",DeporTV | Argentina - TDA 24.1
-https://5fb24b460df87.streamlock.net/live-cont.ar/deportv/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/d800ee1a28bbee6769de24c5c050c40c.webp",Canal Once - TDA 24.3
@@ -913,10 +929,7 @@ https://chromecast.cvattv.com.ar/live/c3eds/FoxSports/SA_Live_dash_enc_2A/FoxSpo
 https://chromecast.cvattv.com.ar/live/c3eds/FoxSports2HD/SA_Live_dash_enc_2A/FoxSports2HD.mpd
 
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=55b47390cf9e4997dae6dac85e057875:fa39e855543c5d70f30600d59e5e4c1b
-#EXTINF:-1 tvg-chno="204" tvg-id="FoxSports3Argentina.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FXSP3.png?raw=true" group-title="Deportes", FOX Sports 3
-https://chromecast.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_Live_dash_enc_2A/FoxSports3HD.mpd
+
 
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -959,10 +972,7 @@ https://chromecast.cvattv.com.ar/live/c6eds/El_Garage/SA_Live_dash_enc_2A/El_Gar
 https://chromecast.cvattv.com.ar/live/c7eds//DiscoveryTurbo/SA_Live_dash_enc_2A/DiscoveryTurbo.mpd
 
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f362097815892a4b83950f1d106ff0b2:4349e42e81c31a8389f4a42fcd298928
-#EXTINF:-1 tvg-chno="212" tvg-id="DeporTVHD.ar" tvg-logo="https://git.io/JOTOg" group-title="Deportes", DeporTV
-https://chromecast.cvattv.com.ar/live/c3eds/DeporTVHD/SA_Live_dash_enc_2A/DeporTVHD.mpd
+
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=d0c38de3c9844e4e9f975dffb3eff8ad:141ca0fdf6ebadfa7107576b8e09e117
@@ -1737,6 +1747,9 @@ https://s8.stweb.tv/observador/live/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="1233" tvg-logo="https://urbanaplayfm.com/file/2023/09/logo-web-blanco.png" group-title="Música y Radios", Urbana Play (FM 104.3)
 http://www.radiosargentina.com.ar/php/tvm3uYT.php?id=YTAR0022
+
+#EXTINF:-1 tvg-id="Canal 4 San Juan" tvg-name="Canal 4 San Juan" tvg-logo="http://www.canal4sanjuan.com.ar/digital/images/logo-cir.png" group-title="Argentina",Canal 4 San Juan | Argentina
+http://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w1603184235.m3u8
 __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=5317283f4110fac3fb3a0becd9f648bc:0754a03c926b1247216e01d9dbcfac28
