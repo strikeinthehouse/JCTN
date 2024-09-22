@@ -160,58 +160,57 @@ banner = r'''
 #EXTM3U
 #EXTM3U url-tvg="https://www.bevy.be/bevyfiles/argentina.xml"
 
-#EXTINF:-1 ,Litus HD Argentina
+#EXTINF:-1 group-title="Argentina",Litus HD Argentina
 http://192.99.38.174:1935/litustv/ngrp:litustv_all/playlist.m3u8
 
 
 
-#EXTINF:-1 ,Canal Provincial | AR
+#EXTINF:-1 group-title="Argentina",Canal Provincial | AR
 https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Sublime Gracia TV | AR
+#EXTINF:-1 group-title="Argentina",Sublime Gracia TV | AR
 https://5f700d5b2c46f.streamlock.net:443/sublime/sublime/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 ,Canal 9 Litoral | AR
+#EXTINF:-1 group-title="Argentina",Canal 9 Litoral | AR
 https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 907 FM Comunicar | AR
+#EXTINF:-1 group-title="Argentina",Canal 907 FM Comunicar | AR
 https://panel.dattalive.com/canal907/canal907/chunklist_w1205944599.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 6 Posadas | AR
+#EXTINF:-1 group-title="Argentina",Canal 6 Posadas | AR
 https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 7 Jujuy | AR
+#EXTINF:-1 group-title="Argentina",Canal 7 Jujuy | AR
 https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 4 Posadas | AR
+#EXTINF:-1 group-title="Argentina",Canal 4 Posadas | AR
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 21 TV | AR
+#EXTINF:-1 group-title="Argentina",Canal 21 TV | AR
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 22 Buenos Aires | AR
+#EXTINF:-1 group-title="Argentina",Canal 22 Buenos Aires | AR
 https://5f700d5b2c46f.streamlock.net:443/canal22/canal22/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 2 Jujuy | AR
+#EXTINF:-1 group-title="Argentina",Canal 2 Jujuy | AR
 http://api.new.livestream.com/accounts/679322/events/3782013/live.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 10 Nortevision | AR
+#EXTINF:-1 group-title="Argentina",Canal 10 Nortevision | AR
 https://vivo.solumedia.com:19360/nortevision/nortevision.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 10 Rio Negro | AR
+#EXTINF:-1 group-title="Argentina",Canal 10 Rio Negro | AR
 https://panel.dattalive.com:443/8204/8204/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 12 Madryn TV | AR
+#EXTINF:-1 group-title="Argentina",Canal 12 Madryn TV | AR
 https://5f700d5b2c46f.streamlock.net:443/madryntv/madryntv/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Canal 13 La Rioja | AR
+#EXTINF:-1 group-title="Argentina",Canal 13 La Rioja | AR
 http://arcast.net:1935/mp/mp/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Cadena 103 | AR
+#EXTINF:-1 group-title="Argentina",Cadena 103 | AR
 http://arcast.net:1935/cadena103/cadena103/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Azahares Radio Multimedia | AR
+#EXTINF:-1 group-title="Argentina",Azahares Radio Multimedia | AR
 http://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,5R TV Santa Fe | AR
+#EXTINF:-1 group-title="Argentina",5R TV Santa Fe | AR
 http://api.new.livestream.com/accounts/22636012/events/8242619/live.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,5TV | AR
+#EXTINF:-1 group-title="Argentina",5TV | AR
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,13 Max Television | AR
+#EXTINF:-1 group-title="Argentina" ,13 Max Television | AR
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Aire de Santa Fe | AR
+#EXTINF:-1 group-title="Argentina" ,Aire de Santa Fe | AR
 https://sc1.stweb.tv/airedigital/live/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Anime Zone TV | AR
+#EXTINF:-1 group-title="Argentina",Anime Zone TV | AR
 http://azxtv.com/hls/stream.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Aniplus | AR
+#EXTINF:-1 group-title="Argentina",Aniplus | AR
 https://stmv1.voxhdnet.com/aniplus/aniplus/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/MusictopArgentina/picture?width=200&height=200" group-title="Argentina",Musicales: Music Top Argentina
-https://live-edge01.telecentro.net.ar/live/smil:musictop.smil/playlist.m3u8
+
 
 
 
