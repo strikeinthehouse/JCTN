@@ -106,7 +106,7 @@ with open(channel_info) as f:
         i += 1
 
 with open("MASTER.m3u", "w") as f:
-    f.write(banner)
+    f.write(banner)  # Adicionando o banner ao início do arquivo
 
     for channel in channel_data:
         extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}"'
@@ -118,6 +118,8 @@ with open("MASTER.m3u", "w") as f:
         f.write('\n')
         f.write(channel['url'])
         f.write('\n')
+
+
 
 with open("playlist.json", "a") as f:
     json_data = json.dumps(channel_data, indent=2)
@@ -525,8 +527,8 @@ with open(channel_info) as f:
                 })
 
 with open("CHILE.m3u", "w") as f:
-    f.write(banner)
-    f.write(banner2)
+    f.write(banner)  # Adicionando o banner
+    f.write(banner2)  # Adicionando o banner2
     prev_item = None
     
     for item in channel_data:
@@ -537,6 +539,8 @@ with open("CHILE.m3u", "w") as f:
             f.write('\n')
             f.write(item['url'])
             f.write('\n')
+
+
     
 prev_item = None
 
