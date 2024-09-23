@@ -172,12 +172,7 @@ https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8?PlaylistM3UCL
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 group-title="Argentina",Canal 22 Buenos Aires | AR
 https://5f700d5b2c46f.streamlock.net:443/canal22/canal22/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 group-title="Argentina",Canal 2 Jujuy | AR
-http://api.new.livestream.com/accounts/679322/events/3782013/live.m3u8?PlaylistM3UCL
-#EXTINF:-1 group-title="Argentina",Canal 10 Nortevision | AR
-https://vivo.solumedia.com:19360/nortevision/nortevision.m3u8?PlaylistM3UCL
-#EXTINF:-1 group-title="Argentina",Canal 10 Rio Negro | AR
-https://panel.dattalive.com:443/8204/8204/playlist.m3u8?PlaylistM3UCL
+
 #EXTINF:-1 group-title="Argentina",Canal 12 Madryn TV | AR
 https://5f700d5b2c46f.streamlock.net:443/madryntv/madryntv/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 group-title="Argentina",Canal 13 La Rioja | AR
