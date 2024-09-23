@@ -162,15 +162,12 @@ banner = r'''
 
 
 
-#EXTINF:-1 group-title="Argentina",Canal 9 Litoral | AR
-https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL
+
 
 #EXTINF:-1 group-title="Argentina",Canal 6 Posadas | AR
 https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 group-title="Argentina",Canal 7 Jujuy | AR
-https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 group-title="Argentina",Canal 4 Posadas | AR
-http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
+
+
 #EXTINF:-1 group-title="Argentina",Canal 21 TV | AR
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 group-title="Argentina",Canal 22 Buenos Aires | AR
@@ -331,6 +328,7 @@ http://edge02-fdo-py.cvattv.com.ar/live/c3eds/Canal_Universidad/SA_SAGEMCOM/Cana
 
 #EXTINF:-1  group-title="Argentina",Canal 7
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/Canal7/SA_SAGEMCOM/Canal7.m3u8
+
 #EXTINF:-1  group-title="Argentina",Artear
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD.m3u8
 #EXTINF:-1  group-title="Argentina",Canal 9
@@ -410,6 +408,9 @@ http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8
 http://edge02-fdo-py.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.m3u8
 #EXTINF:-1 tvg-id="America TV Argentina" tvg-name="America TV Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina.png" group-title="Argentina",America TV | Argentina
 http://198.27.117.10:8080/Carlos2022/Carlos2022/362475
+
+#EXTINF:-1 group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/259_Canal_4_Posadas.png",América Canal 4 Posadas | AR
+http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="America 24" tvg-name="America 24" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" group-title="Argentina",America 24 | Argentina
 https://ythls.onrender.com/channel/UCR9120YBAqMfntqgRTKmkjQ.m3u8
@@ -493,6 +494,8 @@ https://cdn.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd
 #EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/telefe_argentina.png" group-title="Argentina",Telefe | Argentina
 http://198.27.117.10:8080/Carlos2022/Carlos2022/362541
 
+#EXTINF:-1 group-title="Argentina",Telefe Canal 7 Jujuy
+https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
 
 #EXTINF:-1 tvg-id="13 de Argentina" tvg-name="13 de Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png" group-title="Argentina", El Trece - TDA 13.1
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
@@ -515,6 +518,10 @@ https://cdn.cvattv.com.ar/live/c3eds/ArtearHD/SA_Live_dash_enc/ArtearHD.mpd
 http://177.128.115.10:8000/play/a0a6/116200
 #EXTINF:-1 tvg-id="13 de Argentina" tvg-name="13 de Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_argentina.png" group-title="Argentina",El Trece | Argentina
 http://198.27.117.10:8080/Carlos2022/Carlos2022/362529
+
+#EXTINF:-1 group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/236_Canal_9_Litoral.png",El Trece Canal 9 Litoral
+https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL
+
 
 #EXTINF:-1 tvg-id="El Nueve AR" tvg-name="El Nueve AR" tvg-country="AR" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/f/f7/Canal-nueve-ar2017.png" group-title="Argentina", CANAL 9 35.1 - TDA 35.1
 http://168.197.196.98:9981/stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com
@@ -796,10 +803,8 @@ http://arcast.net:1935/mp/mp/playlist.m3u8?PlaylistM3UCL
 http://api.new.livestream.com/accounts/679322/events/3782013/live.m3u8?PlaylistM3UCL
 #EXTINF:-1  tvg-id="230" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/230_Canal_22_Buenos_Aires.jpg",Canal 22 Buenos Aires | AR
 https://5f700d5b2c46f.streamlock.net:443/canal22/canal22/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1  tvg-id="259" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/259_Canal_4_Posadas.png",Canal 4 Posadas | AR
-http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1  tvg-id="236" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/236_Canal_9_Litoral.png",Canal 9 Litoral | AR
-https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL
+
+
 #EXTINF:-1  tvg-id="273" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/273_Canal_907_FM_Comunicar.png",Canal 907 FM Comunicar | AR
 https://panel.dattalive.com/canal907/canal907/chunklist_w1205944599.m3u8?PlaylistM3UCL
 #EXTINF:-1  tvg-id="275" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/275_Canal_Coop.png",Canal Coop | AR
