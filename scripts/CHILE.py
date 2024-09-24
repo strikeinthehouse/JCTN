@@ -17,7 +17,9 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
-
+banner = r'''
+#EXTM3U
+'''
 
 def grab(url):
     try:
@@ -106,7 +108,7 @@ with open(channel_info) as f:
         i += 1
 
 with open("MASTER.m3u", "w") as f:
-    f.write(banner)  # Adicionando o banner
+    f.write(banner)
 
     for channel in channel_data:
         extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}"'
@@ -118,8 +120,6 @@ with open("MASTER.m3u", "w") as f:
         f.write('\n')
         f.write(channel['url'])
         f.write('\n')
-
-
 
 with open("playlist.json", "a") as f:
     json_data = json.dumps(channel_data, indent=2)
