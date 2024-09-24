@@ -498,7 +498,7 @@ def check_url(url):
 channel_data = []
 channel_data_json = []
 
-channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_chile.txt'))
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_argentina.txt'))
 
 with open(channel_info) as f:
     for line in f:
@@ -527,10 +527,11 @@ with open(channel_info) as f:
                 })
 
 with open("CHILE.m3u", "w") as f:
-    f.write(banner)  # Adicionando o banner
-    f.write(banner2)  # Adicionando o banner2
+    f.write(banner)
+    f.write(banner2)
+
     prev_item = None
-    
+
     for item in channel_data:
         if item['type'] == 'info':
             prev_item = item
@@ -540,8 +541,6 @@ with open("CHILE.m3u", "w") as f:
             f.write(item['url'])
             f.write('\n')
 
-
-    
 prev_item = None
 
 for item in channel_data:
@@ -567,8 +566,7 @@ for item in channel_data:
             "website": item['url'],
             "logo": prev_item["tvg_logo"]
         })
-    
-with open("playlist.json", "w") as f:
+
+with open("CHILE.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
-    
