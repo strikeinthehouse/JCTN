@@ -160,38 +160,29 @@ banner = r'''
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
 #EXTM3U url-tvg="https://www.bevy.be/bevyfiles/chile.xml"
 
-#EXTINF:-1 ,13 Prime | CL
-https://unlimited2-cl-isp.dps.live/13p/13p.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,13 Teleseries | CL
-https://unlimited1-cl-isp.dps.live/13t/13t.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,ADN | CL
-https://unlimited2-cl-isp.dps.live/adntv/adntv.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 ,Alternativa TV | CL
-https://srv2.zcast.com.br/carlos2469/carlos2469/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="TVN Chile" tvg-name="TVN Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/tvn_chile.png" group-title="CHILE",TVN | Chile
 
-#EXTINF:-1 tvg-id="TVN Chile" tvg-name="TVN Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/tvn_chile.png" group-title="FAMILIARES",TVN | Chile
-http://198.27.117.10:8080/Carlos2022/Carlos2022/363512
 
-#EXTINF:-1 tvg-id="Solo Stand Up" tvg-name="Solo Stand Up" tvg-logo="https://lh3.googleusercontent.com/-vs6bQTy4Dns/X30TqJ-CdrI/AAAAAAAA6M4/WUtqB3d4eiEp7oHE44DkOhh5V0NNTDMSACK8BGAsYHg/s0/2020-10-06.png" group-title="FAMILIARES",Solo Stand Up | Chile
-https://paneltv.online:1936/8116/8116/chunklist_w1465366289.m3u8
+#EXTINF:-1 tvg-id="Solo Stand Up" tvg-name="Solo Stand Up" tvg-logo="https://lh3.googleusercontent.com/-vs6bQTy4Dns/X30TqJ-CdrI/AAAAAAAA6M4/WUtqB3d4eiEp7oHE44DkOhh5V0NNTDMSACK8BGAsYHg/s0/2020-10-06.png" group-title="CHILE",Solo Stand Up | Chile
 
-#EXTINF:-1 tvg-id="13 de Chile" tvg-name="13 de Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_chile.png" group-title="FAMILIARES",Canal 13 | Chile
-http://198.27.117.10:8080/Carlos2022/Carlos2022/363490
-#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevision" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/chilevision.png" group-title="FAMILIARES",Chilevision | Chile
-http://198.27.117.10:8080/Carlos2022/Carlos2022/363489
 
-#EXTINF:-1 tvg-id="TVN Chile" tvg-name="TVN Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/tvn_chile.png" group-title="FAMILIARES",TVN | Chile
-http://177.128.115.10:8000/play/a07v
+#EXTINF:-1 tvg-id="13 de Chile" tvg-name="13 de Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_chile.png" group-title="CHILE",Canal 13 | Chile
 
-#EXTINF:-1 tvg-id="ETC TV" tvg-name="ETC TV" tvg-logo="https://i.imgur.com/QVC28lh.png" group-title="INFANTILES",ETC TV | Chile
-http://198.27.117.10:8080/Carlos2022/Carlos2022/
+#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevision" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/chilevision.png" group-title="CHILE",Chilevision | Chile
 
-#EXTINF:-1 tvg-id="13 de Chile" tvg-name="13 de Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_chile.png" group-title="FAMILIARES",Canal 13 | Chile
-http://177.128.115.10:8000/play/a097
-#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevision" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/chilevision.png" group-title="FAMILIARES",Chilevision | Chile
-http://177.128.115.10:8000/play/a07w
 
-#EXTINF:-1 tvg-logo="http://www.radiosplay.com/logos/3/2/6/7/32679.png" group-title="RADIOS",Radio Portal FoxMix Chile
+#EXTINF:-1 tvg-id="TVN Chile" tvg-name="TVN Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/tvn_chile.png" group-title="CHILE",TVN | Chile
+
+
+#EXTINF:-1 tvg-id="ETC TV" tvg-name="ETC TV" tvg-logo="https://i.imgur.com/QVC28lh.png" group-title="CHILE",ETC TV | Chile
+
+
+#EXTINF:-1 tvg-id="13 de Chile" tvg-name="13 de Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_chile.png" group-title="CHILE",Canal 13 | Chile
+
+#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevision" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/chilevision.png" group-title="CHILE",Chilevision | Chile
+
+
+#EXTINF:-1 tvg-logo="http://www.radiosplay.com/logos/3/2/6/7/32679.png" group-title="CHILE",Radio Portal FoxMix Chile
 https://sonic.portalfoxmix.cl/8002/stream
 
 #EXTINF:-1 tvg-id="ETC TV" tvg-name="ETC TV" tvg-logo="https://i.imgur.com/QVC28lh.png" group-title="INFANTILES",ETC TV | Chile
