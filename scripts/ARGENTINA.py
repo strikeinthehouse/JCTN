@@ -223,16 +223,14 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
 #EXTINF:-1 tvg-id="america-tv-hd.ar" tvg-name="AMERICA TV HD" tvg-logo="http://yourlogourl.com/america-tv-hd.png" group-title="Argentina",AMERICA TV HD
 http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8
 
-#EXTINF:-1 tvg-id="AmericaTV.ar" group-title="Argentina",America TV
-http://edge02-fdo-py.cvattv.com.ar/live/c3eds/AmericaTV/SA_SAGEMCOM/AmericaTV.m3u8
-#EXTINF:-1 tvg-id="America TV Argentina" tvg-name="America TV Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina.png" group-title="Argentina",America TV | Argentina
-http://198.27.117.10:8080/Carlos2022/Carlos2022/362475
+
+
 
 #EXTINF:-1 group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/259_Canal_4_Posadas.png",América Canal 4 Posadas | AR
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-id="America 24" tvg-name="America 24" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" group-title="Argentina",America 24 | Argentina
-https://ythls.onrender.com/channel/UCR9120YBAqMfntqgRTKmkjQ.m3u8
+
+
 
 
 
@@ -440,6 +438,7 @@ http://cord-cutter.net:8080/live/j3McKd/673709/164876.m3u8
 #EXTINF:-1 tvg-id="C5N.ar" tvg-name="C5NOT" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/C5NAR.png?raw=true" group-title="Argentina",C5N
 http://181.209.114.13:8000/play/a01p/index.m3u8
 
+#EXTINF:-1 tvg-id="America 24" tvg-name="America 24" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" group-title="Argentina",America 24 | Argentina
 
 #EXTINF:-1 tvg-id="A24" tvg-name="America 24" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" group-title="Argentina",America 24 | Argentina - TDA 27.1
 http://45.5.151.151:8000/play/a0dy/index.m3u8
