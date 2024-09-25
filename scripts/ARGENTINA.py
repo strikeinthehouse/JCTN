@@ -1173,7 +1173,7 @@ https://rtvelivestream.akamaized.net/rtvesec/int/star_main_dvr.m3u8
 #EXTINF:-1 tvg-chno="518" tvg-id="ArgentinisimaSatelital.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/ARGST.png?raw=true" group-title="Variedades", Argentinísima Satelital
 https://chromecast.cvattv.com.ar/live/c6eds/Argentinisima/SA_Live_dash_enc_2A/Argentinisima.mpd
 
-#EXTINF:-1 tvg-chno="602" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/10/Canal-Chacra-TV-en-vivo-Online.png" group-title="Argentina", Chacra TV
+#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/10/Canal-Chacra-TV-en-vivo-Online.png" group-title="Argentina", Chacra TV
 https://s8.stweb.tv/chacra/live/playlist.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
