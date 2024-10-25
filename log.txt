@@ -1,87 +1,87 @@
-2024-10-25 14:19:09,813 - debug - URL Streams https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL: <Response [200]>
-2024-10-25 14:19:39,846 - error - URL Error http://168.197.196.98:9981/stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com: HTTPConnectionPool(host='168.197.196.98', port=9981): Max retries exceeded with url: /stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b44602110>, 'Connection to 168.197.196.98 timed out. (connect timeout=15)'))
-2024-10-25 14:20:10,883 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/elnueve/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/elnueve/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3b44603250>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
-2024-10-25 14:21:10,945 - error - URL Error http://lobo-tv.live:8080/Rodolfo01/Rodolfo01/210850: HTTPConnectionPool(host='lobo-tv.live', port=8080): Max retries exceeded with url: /Rodolfo01/Rodolfo01/210850 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b44664100>, 'Connection to lobo-tv.live timed out. (connect timeout=15)'))
-2024-10-25 14:21:37,275 - error - URL Error http://cord-cutter.net:8080/live/j3McKd/673709/164869.m3u8: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2024-10-25 14:21:37,686 - debug - URL Streams https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg/live: {}
-2024-10-25 14:21:37,686 - debug - URL Streams https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg/live: {}
-2024-10-25 14:21:37,888 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
-2024-10-25 14:21:37,888 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
-2024-10-25 14:21:38,416 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
-2024-10-25 14:21:38,416 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
-2024-10-25 14:21:39,217 - debug - URL Streams https://www.youtube.com/c/cronicatv/live: {}
-2024-10-25 14:21:39,217 - debug - URL Streams https://www.youtube.com/c/cronicatv/live: {}
-2024-10-25 14:21:39,845 - debug - URL Streams https://www.youtube.com/user/c5n/live: {}
-2024-10-25 14:21:39,845 - debug - URL Streams https://www.youtube.com/user/c5n/live: {}
-2024-10-25 14:21:40,336 - debug - URL Streams https://www.youtube.com/c/americaenvivo/live: {}
-2024-10-25 14:21:40,336 - debug - URL Streams https://www.youtube.com/c/americaenvivo/live: {}
-2024-10-25 14:21:40,892 - debug - URL Streams https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA/live: {}
-2024-10-25 14:21:40,892 - debug - URL Streams https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA/live: {}
-2024-10-25 14:21:41,488 - debug - URL Streams https://www.youtube.com/channel/UC3OQ66wEJaOPHK25IBdWR_g/live: {}
-2024-10-25 14:21:41,488 - debug - URL Streams https://www.youtube.com/channel/UC3OQ66wEJaOPHK25IBdWR_g/live: {}
-2024-10-25 14:21:41,648 - debug - URL Streams https://www.youtube.com/channel/UCPr0HEFKN8wtDIfcPsVB10Q/live: {}
-2024-10-25 14:21:41,648 - debug - URL Streams https://www.youtube.com/channel/UCPr0HEFKN8wtDIfcPsVB10Q/live: {}
-2024-10-25 14:21:42,156 - debug - URL Streams https://www.youtube.com/channel/UCy-r-BQ5BQRU6rzGS73-WBQ/live: {}
-2024-10-25 14:21:42,156 - debug - URL Streams https://www.youtube.com/channel/UCy-r-BQ5BQRU6rzGS73-WBQ/live: {}
-2024-10-25 14:21:42,382 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
-2024-10-25 14:21:42,382 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
-2024-10-25 14:21:42,893 - debug - URL Streams https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw/live: {}
-2024-10-25 14:21:42,893 - debug - URL Streams https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw/live: {}
-2024-10-25 14:21:43,262 - debug - URL Streams https://www.youtube.com/user/encuentro/live: {}
-2024-10-25 14:21:43,262 - debug - URL Streams https://www.youtube.com/user/encuentro/live: {}
-2024-10-25 14:21:43,992 - debug - URL Streams https://www.youtube.com/c/TEC_ciencia_ar/live: {}
-2024-10-25 14:21:43,992 - debug - URL Streams https://www.youtube.com/c/TEC_ciencia_ar/live: {}
-2024-10-25 14:21:44,615 - debug - URL Streams https://www.youtube.com/channel/UCBQnpH3GKOKRGg4O8PpqQSw/live: {}
-2024-10-25 14:21:44,615 - debug - URL Streams https://www.youtube.com/channel/UCBQnpH3GKOKRGg4O8PpqQSw/live: {}
-2024-10-25 14:21:45,455 - debug - URL Streams https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/live: {}
-2024-10-25 14:21:45,455 - debug - URL Streams https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/live: {}
-2024-10-25 14:21:46,085 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
-2024-10-25 14:21:46,085 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
-2024-10-25 14:21:46,607 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
-2024-10-25 14:21:46,607 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
-2024-10-25 14:21:47,057 - debug - URL Streams https://www.youtube.com/channel/UC5UKMEIoqvNDMSDz2_6Sn9g/live: {}
-2024-10-25 14:21:47,057 - debug - URL Streams https://www.youtube.com/channel/UC5UKMEIoqvNDMSDz2_6Sn9g/live: {}
-2024-10-25 14:21:47,312 - debug - URL Streams https://www.youtube.com/channel/UCMy706Rhe2swaTmljCgiYVg/live: {}
-2024-10-25 14:21:47,312 - debug - URL Streams https://www.youtube.com/channel/UCMy706Rhe2swaTmljCgiYVg/live: {}
-2024-10-25 14:21:47,785 - debug - URL Streams https://www.youtube.com/c/canal26/live: {}
-2024-10-25 14:21:47,785 - debug - URL Streams https://www.youtube.com/c/canal26/live: {}
-2024-10-25 14:21:48,278 - debug - URL Streams https://www.youtube.com/c/CanalKZO/live: {}
-2024-10-25 14:21:48,278 - debug - URL Streams https://www.youtube.com/c/CanalKZO/live: {}
-2024-10-25 14:21:48,823 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
-2024-10-25 14:21:48,823 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
-2024-10-25 14:21:49,085 - debug - URL Streams https://www.youtube.com/user/diariodemocracia/live: {}
-2024-10-25 14:21:49,085 - debug - URL Streams https://www.youtube.com/user/diariodemocracia/live: {}
-2024-10-25 14:21:49,344 - debug - URL Streams https://www.youtube.com/channel/UC_7PDO6CCrynKPkFoOyLHOQ/live: {}
-2024-10-25 14:21:49,344 - debug - URL Streams https://www.youtube.com/channel/UC_7PDO6CCrynKPkFoOyLHOQ/live: {}
-2024-10-25 14:21:49,439 - error - URL Error https://www.youtube.com/c/showdelafe/live: Unable to open URL: https://www.youtube.com/c/showdelafe/live (404 Client Error: Not Found for url: https://www.youtube.com/c/showdelafe/live)
-2024-10-25 14:21:49,439 - error - URL Error https://www.youtube.com/c/showdelafe/live: Unable to open URL: https://www.youtube.com/c/showdelafe/live (404 Client Error: Not Found for url: https://www.youtube.com/c/showdelafe/live)
-2024-10-25 14:21:49,929 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
-2024-10-25 14:21:49,929 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
-2024-10-25 14:21:50,245 - error - URL Error No PluginError https://www.youtube.com/user/CanalPakapaka/LIVE: 
-2024-10-25 14:21:50,245 - error - URL Error No PluginError https://www.youtube.com/user/CanalPakapaka/LIVE: 
-2024-10-25 14:21:50,754 - error - URL Error No PluginError https://www.youtube.com/c/SenadoTVArgentina/LIVE: 
-2024-10-25 14:21:50,754 - error - URL Error No PluginError https://www.youtube.com/c/SenadoTVArgentina/LIVE: 
-2024-10-25 14:21:50,974 - debug - URL Streams https://www.youtube.com/channel/UC5KfW9_wv4tqbIPgY8tMG-w/live: {}
-2024-10-25 14:21:50,974 - debug - URL Streams https://www.youtube.com/channel/UC5KfW9_wv4tqbIPgY8tMG-w/live: {}
-2024-10-25 14:21:51,836 - debug - URL Streams https://www.youtube.com/channel/UC1h8_HKc5wScqeRw1HV6a6w/live: {}
-2024-10-25 14:21:51,836 - debug - URL Streams https://www.youtube.com/channel/UC1h8_HKc5wScqeRw1HV6a6w/live: {}
-2024-10-25 14:21:52,304 - debug - URL Streams https://www.youtube.com/channel/UCftan3cVkKKfxXpRN9JUX7A/live: {}
-2024-10-25 14:21:52,304 - debug - URL Streams https://www.youtube.com/channel/UCftan3cVkKKfxXpRN9JUX7A/live: {}
-2024-10-25 14:21:52,923 - debug - URL Streams https://www.youtube.com/c/SISEArgentina/live: {}
-2024-10-25 14:21:52,923 - debug - URL Streams https://www.youtube.com/c/SISEArgentina/live: {}
-2024-10-25 14:21:53,195 - debug - URL Streams https://www.youtube.com/channel/UCjeImUhRB1SLqN-svqDRJJw/live: {}
-2024-10-25 14:21:53,195 - debug - URL Streams https://www.youtube.com/channel/UCjeImUhRB1SLqN-svqDRJJw/live: {}
-2024-10-25 14:21:53,787 - debug - URL Streams https://www.youtube.com/channel/UCvCTWHCbBC0b9UIeLeNs8ug/live: {}
-2024-10-25 14:21:53,787 - debug - URL Streams https://www.youtube.com/channel/UCvCTWHCbBC0b9UIeLeNs8ug/live: {}
-2024-10-25 14:21:54,422 - debug - URL Streams https://www.youtube.com/channel/UCC1kfsMJko54AqxtcFECt-A/live: {}
-2024-10-25 14:21:54,422 - debug - URL Streams https://www.youtube.com/channel/UCC1kfsMJko54AqxtcFECt-A/live: {}
-2024-10-25 14:21:54,952 - debug - URL Streams https://www.youtube.com/channel/UC2zO2jZCDplwm8SVsXUcxCQ/live: {}
-2024-10-25 14:21:54,952 - debug - URL Streams https://www.youtube.com/channel/UC2zO2jZCDplwm8SVsXUcxCQ/live: {}
-2024-10-25 14:21:55,422 - debug - URL Streams https://www.youtube.com/channel/UCDSr0_1523BrSqQSm7Y4kHA/live: {}
-2024-10-25 14:21:55,422 - debug - URL Streams https://www.youtube.com/channel/UCDSr0_1523BrSqQSm7Y4kHA/live: {}
-2024-10-25 14:21:55,963 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
-2024-10-25 14:21:55,963 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
-2024-10-25 14:21:56,578 - debug - URL Streams https://www.youtube.com/c/Radio10am/live: {}
-2024-10-25 14:21:56,578 - debug - URL Streams https://www.youtube.com/c/Radio10am/live: {}
-2024-10-25 14:21:57,109 - debug - URL Streams https://www.youtube.com/channel/UCuJvDPQIaUhvdHiH275WjNA/live: {}
-2024-10-25 14:21:57,109 - debug - URL Streams https://www.youtube.com/channel/UCuJvDPQIaUhvdHiH275WjNA/live: {}
+2024-10-25 16:15:25,560 - debug - URL Streams https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL: <Response [200]>
+2024-10-25 16:15:55,592 - error - URL Error http://168.197.196.98:9981/stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com: HTTPConnectionPool(host='168.197.196.98', port=9981): Max retries exceeded with url: /stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8165e0e0e0>, 'Connection to 168.197.196.98 timed out. (connect timeout=15)'))
+2024-10-25 16:16:26,602 - error - URL Error https://bvsat02.cdn.rcs.net.ar/mnp/elnueve/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/elnueve/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f8165e0f220>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
+2024-10-25 16:17:26,688 - error - URL Error http://lobo-tv.live:8080/Rodolfo01/Rodolfo01/210850: HTTPConnectionPool(host='lobo-tv.live', port=8080): Max retries exceeded with url: /Rodolfo01/Rodolfo01/210850 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8165e640d0>, 'Connection to lobo-tv.live timed out. (connect timeout=15)'))
+2024-10-25 16:17:53,038 - error - URL Error http://cord-cutter.net:8080/live/j3McKd/673709/164869.m3u8: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-10-25 16:17:53,410 - debug - URL Streams https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg/live: {}
+2024-10-25 16:17:53,410 - debug - URL Streams https://www.youtube.com/channel/UCs231K71Bnu5295_x0MB5Pg/live: {}
+2024-10-25 16:17:53,621 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
+2024-10-25 16:17:53,621 - debug - URL Streams https://www.youtube.com/user/TVPublicaArgentina/live: {}
+2024-10-25 16:17:54,134 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
+2024-10-25 16:17:54,134 - debug - URL Streams https://www.youtube.com/channel/UCaU_cKHQ4IFHvBzQ-tKS1-Q/live: {}
+2024-10-25 16:17:56,061 - debug - URL Streams https://www.youtube.com/c/cronicatv/live: {}
+2024-10-25 16:17:56,061 - debug - URL Streams https://www.youtube.com/c/cronicatv/live: {}
+2024-10-25 16:17:56,634 - debug - URL Streams https://www.youtube.com/user/c5n/live: {}
+2024-10-25 16:17:56,634 - debug - URL Streams https://www.youtube.com/user/c5n/live: {}
+2024-10-25 16:17:57,251 - debug - URL Streams https://www.youtube.com/c/americaenvivo/live: {}
+2024-10-25 16:17:57,251 - debug - URL Streams https://www.youtube.com/c/americaenvivo/live: {}
+2024-10-25 16:17:57,823 - debug - URL Streams https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA/live: {}
+2024-10-25 16:17:57,823 - debug - URL Streams https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA/live: {}
+2024-10-25 16:17:58,492 - debug - URL Streams https://www.youtube.com/channel/UC3OQ66wEJaOPHK25IBdWR_g/live: {}
+2024-10-25 16:17:58,492 - debug - URL Streams https://www.youtube.com/channel/UC3OQ66wEJaOPHK25IBdWR_g/live: {}
+2024-10-25 16:17:58,673 - debug - URL Streams https://www.youtube.com/channel/UCPr0HEFKN8wtDIfcPsVB10Q/live: {}
+2024-10-25 16:17:58,673 - debug - URL Streams https://www.youtube.com/channel/UCPr0HEFKN8wtDIfcPsVB10Q/live: {}
+2024-10-25 16:17:59,259 - debug - URL Streams https://www.youtube.com/channel/UCy-r-BQ5BQRU6rzGS73-WBQ/live: {}
+2024-10-25 16:17:59,259 - debug - URL Streams https://www.youtube.com/channel/UCy-r-BQ5BQRU6rzGS73-WBQ/live: {}
+2024-10-25 16:17:59,460 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
+2024-10-25 16:17:59,460 - error - URL Error No PluginError https://www.youtube.com/channel/UC1bBjOZieJWHbsFA0LwjjJA/Live: 
+2024-10-25 16:18:00,104 - debug - URL Streams https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw/live: {}
+2024-10-25 16:18:00,104 - debug - URL Streams https://www.youtube.com/channel/UCj6PcyLvpnIRT_2W_mwa9Aw/live: {}
+2024-10-25 16:18:00,508 - debug - URL Streams https://www.youtube.com/user/encuentro/live: {}
+2024-10-25 16:18:00,508 - debug - URL Streams https://www.youtube.com/user/encuentro/live: {}
+2024-10-25 16:18:01,130 - debug - URL Streams https://www.youtube.com/c/TEC_ciencia_ar/live: {}
+2024-10-25 16:18:01,130 - debug - URL Streams https://www.youtube.com/c/TEC_ciencia_ar/live: {}
+2024-10-25 16:18:01,675 - debug - URL Streams https://www.youtube.com/channel/UCBQnpH3GKOKRGg4O8PpqQSw/live: {}
+2024-10-25 16:18:01,675 - debug - URL Streams https://www.youtube.com/channel/UCBQnpH3GKOKRGg4O8PpqQSw/live: {}
+2024-10-25 16:18:02,343 - debug - URL Streams https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/live: {}
+2024-10-25 16:18:02,343 - debug - URL Streams https://www.youtube.com/channel/UCR9120YBAqMfntqgRTKmkjQ/live: {}
+2024-10-25 16:18:02,879 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
+2024-10-25 16:18:02,879 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
+2024-10-25 16:18:03,528 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
+2024-10-25 16:18:03,528 - debug - URL Streams https://www.youtube.com/channel/UC64ZNqX0FQHabP8iIkmnR3A/live: {}
+2024-10-25 16:18:04,120 - debug - URL Streams https://www.youtube.com/channel/UC5UKMEIoqvNDMSDz2_6Sn9g/live: {}
+2024-10-25 16:18:04,120 - debug - URL Streams https://www.youtube.com/channel/UC5UKMEIoqvNDMSDz2_6Sn9g/live: {}
+2024-10-25 16:18:04,349 - debug - URL Streams https://www.youtube.com/channel/UCMy706Rhe2swaTmljCgiYVg/live: {}
+2024-10-25 16:18:04,349 - debug - URL Streams https://www.youtube.com/channel/UCMy706Rhe2swaTmljCgiYVg/live: {}
+2024-10-25 16:18:04,904 - debug - URL Streams https://www.youtube.com/c/canal26/live: {}
+2024-10-25 16:18:04,904 - debug - URL Streams https://www.youtube.com/c/canal26/live: {}
+2024-10-25 16:18:05,457 - debug - URL Streams https://www.youtube.com/c/CanalKZO/live: {}
+2024-10-25 16:18:05,457 - debug - URL Streams https://www.youtube.com/c/CanalKZO/live: {}
+2024-10-25 16:18:06,001 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
+2024-10-25 16:18:06,001 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
+2024-10-25 16:18:06,241 - debug - URL Streams https://www.youtube.com/user/diariodemocracia/live: {}
+2024-10-25 16:18:06,241 - debug - URL Streams https://www.youtube.com/user/diariodemocracia/live: {}
+2024-10-25 16:18:06,474 - debug - URL Streams https://www.youtube.com/channel/UC_7PDO6CCrynKPkFoOyLHOQ/live: {}
+2024-10-25 16:18:06,474 - debug - URL Streams https://www.youtube.com/channel/UC_7PDO6CCrynKPkFoOyLHOQ/live: {}
+2024-10-25 16:18:06,563 - error - URL Error https://www.youtube.com/c/showdelafe/live: Unable to open URL: https://www.youtube.com/c/showdelafe/live (404 Client Error: Not Found for url: https://www.youtube.com/c/showdelafe/live)
+2024-10-25 16:18:06,563 - error - URL Error https://www.youtube.com/c/showdelafe/live: Unable to open URL: https://www.youtube.com/c/showdelafe/live (404 Client Error: Not Found for url: https://www.youtube.com/c/showdelafe/live)
+2024-10-25 16:18:07,209 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
+2024-10-25 16:18:07,209 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
+2024-10-25 16:18:07,567 - error - URL Error No PluginError https://www.youtube.com/user/CanalPakapaka/LIVE: 
+2024-10-25 16:18:07,567 - error - URL Error No PluginError https://www.youtube.com/user/CanalPakapaka/LIVE: 
+2024-10-25 16:18:08,049 - error - URL Error No PluginError https://www.youtube.com/c/SenadoTVArgentina/LIVE: 
+2024-10-25 16:18:08,049 - error - URL Error No PluginError https://www.youtube.com/c/SenadoTVArgentina/LIVE: 
+2024-10-25 16:18:08,307 - debug - URL Streams https://www.youtube.com/channel/UC5KfW9_wv4tqbIPgY8tMG-w/live: {}
+2024-10-25 16:18:08,307 - debug - URL Streams https://www.youtube.com/channel/UC5KfW9_wv4tqbIPgY8tMG-w/live: {}
+2024-10-25 16:18:08,910 - debug - URL Streams https://www.youtube.com/channel/UC1h8_HKc5wScqeRw1HV6a6w/live: {}
+2024-10-25 16:18:08,910 - debug - URL Streams https://www.youtube.com/channel/UC1h8_HKc5wScqeRw1HV6a6w/live: {}
+2024-10-25 16:18:09,426 - debug - URL Streams https://www.youtube.com/channel/UCftan3cVkKKfxXpRN9JUX7A/live: {}
+2024-10-25 16:18:09,426 - debug - URL Streams https://www.youtube.com/channel/UCftan3cVkKKfxXpRN9JUX7A/live: {}
+2024-10-25 16:18:10,046 - debug - URL Streams https://www.youtube.com/c/SISEArgentina/live: {}
+2024-10-25 16:18:10,046 - debug - URL Streams https://www.youtube.com/c/SISEArgentina/live: {}
+2024-10-25 16:18:10,309 - debug - URL Streams https://www.youtube.com/channel/UCjeImUhRB1SLqN-svqDRJJw/live: {}
+2024-10-25 16:18:10,309 - debug - URL Streams https://www.youtube.com/channel/UCjeImUhRB1SLqN-svqDRJJw/live: {}
+2024-10-25 16:18:10,858 - debug - URL Streams https://www.youtube.com/channel/UCvCTWHCbBC0b9UIeLeNs8ug/live: {}
+2024-10-25 16:18:10,858 - debug - URL Streams https://www.youtube.com/channel/UCvCTWHCbBC0b9UIeLeNs8ug/live: {}
+2024-10-25 16:18:11,430 - debug - URL Streams https://www.youtube.com/channel/UCC1kfsMJko54AqxtcFECt-A/live: {}
+2024-10-25 16:18:11,430 - debug - URL Streams https://www.youtube.com/channel/UCC1kfsMJko54AqxtcFECt-A/live: {}
+2024-10-25 16:18:12,047 - debug - URL Streams https://www.youtube.com/channel/UC2zO2jZCDplwm8SVsXUcxCQ/live: {}
+2024-10-25 16:18:12,047 - debug - URL Streams https://www.youtube.com/channel/UC2zO2jZCDplwm8SVsXUcxCQ/live: {}
+2024-10-25 16:18:12,619 - debug - URL Streams https://www.youtube.com/channel/UCDSr0_1523BrSqQSm7Y4kHA/live: {}
+2024-10-25 16:18:12,619 - debug - URL Streams https://www.youtube.com/channel/UCDSr0_1523BrSqQSm7Y4kHA/live: {}
+2024-10-25 16:18:13,154 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
+2024-10-25 16:18:13,154 - debug - URL Streams https://www.youtube.com/c/canalciudadba/live: {}
+2024-10-25 16:18:13,691 - debug - URL Streams https://www.youtube.com/c/Radio10am/live: {}
+2024-10-25 16:18:13,691 - debug - URL Streams https://www.youtube.com/c/Radio10am/live: {}
+2024-10-25 16:18:14,311 - debug - URL Streams https://www.youtube.com/channel/UCuJvDPQIaUhvdHiH275WjNA/live: {}
+2024-10-25 16:18:14,311 - debug - URL Streams https://www.youtube.com/channel/UCuJvDPQIaUhvdHiH275WjNA/live: {}
