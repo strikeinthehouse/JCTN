@@ -191,6 +191,9 @@ https://538d0bde28ccf.streamlock.net/live-cont.ar/cinear/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/aunar.png" group-title="Argentina", AUNAR  22.3
 https://538d0bde28ccf.streamlock.net/live-cont.ar/mirador/playlist.m3u8
 
+#EXTINF:-1 tvg-chno="702" tvg-id="" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/AUNAR.png?raw=true" group-title="Argentina", Aunar
+https://538d0bde28ccf.streamlock.net/live-cont.ar/mirador/.m3u8
+
 #EXTINF:-1 tvg-logo="https://www.construirtv.com/wp-content/uploads/2020/03/Logo_300.png" group-title="Argentina", CONSTRUIR TV
 https://bvsat02.cdn.rcs.net.ar/mnp/construiriptv/output.mpd
 
@@ -1093,8 +1096,7 @@ https://chromecast.cvattv.com.ar/live/c6eds/Encuentro/SA_Live_dash_enc_2A/Encuen
 #EXTINF:-1 tvg-chno="703" tvg-id="TECTV.ar" tvg-logo="https://www.tec.gob.ar/wp-content/uploads/2022/05/Tec-logo.png" group-title="Culturales", TEC
 https://vd01.streaminghd.net.ar:3787/live/jcslppmtlive.m3u8
 
-#EXTINF:-1 tvg-chno="702" tvg-id="" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/AUNAR.png?raw=true" group-title="Culturales", Aunar
-https://538d0bde28ccf.streamlock.net/live-cont.ar/mirador/.m3u8
+
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=e82318e518ba70cea3d7b37bef99e692:a05fcb634c071a514e3039e1c274b4db
