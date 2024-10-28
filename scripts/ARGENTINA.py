@@ -213,7 +213,7 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
 #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net
 https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
 
-#EXTINF:-1 tvg-id="america-tv-hd.ar" tvg-name="AMERICA TV HD" tvg-logo="http://yourlogourl.com/america-tv-hd.png" group-title="Argentina",AMERICA TV HD
+#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/AMERICA.png" group-title="Argentina",America TV | Argentina - TDA 2.1
 http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8
 
 
