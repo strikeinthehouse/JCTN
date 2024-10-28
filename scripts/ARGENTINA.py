@@ -624,8 +624,7 @@ https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8?PlaylistM3UCL
 http://204.199.3.2/.m3u8?PlaylistM3UCL
 #EXTINF:-1  tvg-id="308" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/308_Tele_Estrella.png",Tele Estrella | AR
 https://stmvideo2.livecastv.com/telestrella/telestrella/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1  tvg-id="290" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/290_Telecreativa.png",Telecreativa | AR
-https://panel.dattalive.com:443/8012/8012/playlist.m3u8?PlaylistM3UCL
+
 #EXTINF:-1  tvg-id="245" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/245_Telediez.jpg",Telediez | AR
 https://videohd.live:19360/8020/8020.m3u8?PlaylistM3UCL
 #EXTINF:-1  tvg-id="814" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/814_TeleNord.jpg",TeleNord | AR
