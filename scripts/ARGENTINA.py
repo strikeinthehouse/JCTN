@@ -396,11 +396,11 @@ https://d1nmqgphjn0y4.cloudfront.net/live/ip/live.isml/live-audio_1=128000-video
 #KODIPROP:inputstream.adaptive.license_key=5299f96f873aa0f0e47edc4e15784717:9d53176b0969492f2d93f1867be1dce1
 
 
-#EXTINF:-1 tvg-id="TN.ar" tvg-name="TNNOT" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TNARG.png?raw=true" group-title="Argentina",TN
-http://cord-cutter.net:8080/live/j3McKd/673709/164873.m3u8
+
+
 
 #EXTINF:-1 tvg-id="TN.ar" tvg-name="TNNOT" tvg-logo="http://www.radiosargentina.com.ar/png/VI----TN.png" group-title="Argentina",TN Todo Noticias - TDA 20.1
-http://tutv.online:8080/f7g9h8b7/j3s7x7q8/184400
+http://cord-cutter.net:8080/live/j3McKd/673709/164873.m3u8
 
 
 
