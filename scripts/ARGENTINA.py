@@ -374,6 +374,9 @@ http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52487.ts
 #EXTINF:-1 tvg-id="Encuentro.ar" tvg-country="AR" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/encuentro.png" group-title="Argentina",CANAL ENCUENTRO 22.1
 http://cord-cutter.net:8080/live/j3McKd/673709/164878.m3u8
 
+#EXTINF:-1 tvg-id="Encuentro.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CENC.png?raw=true" group-title="Argentina", Encuentro
+
+
 EXTINF:-1 tvg-logo="https://i.ibb.co/41CYHm1/La-Naci-n.png",LA NACION
 http://45.5.151.151:8000/play/a0e2/index.m3u8
 
@@ -1087,8 +1090,7 @@ https://chromecast.cvattv.com.ar/live/c7eds//ID/SA_Live_dash_enc_2A/ID.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=ac3ae78beb64478ab390b4ad70e3e0c9:c7d669761c3516d852a0edf9e07c9198
-#EXTINF:-1 tvg-chno="701" tvg-id="Encuentro.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CENC.png?raw=true" group-title="Culturales", Encuentro
-https://chromecast.cvattv.com.ar/live/c6eds/Encuentro/SA_Live_dash_enc_2A/Encuentro.mpd
+
 
 #EXTINF:-1 tvg-chno="703" tvg-id="TECTV.ar" tvg-logo="https://www.tec.gob.ar/wp-content/uploads/2022/05/Tec-logo.png" group-title="Culturales", TEC
 https://vd01.streaminghd.net.ar:3787/live/jcslppmtlive.m3u8
