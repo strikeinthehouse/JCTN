@@ -160,6 +160,77 @@ banner = r'''
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
 #EXTM3U url-tvg="https://www.bevy.be/bevyfiles/chile.xml"
 
+#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVN
+https://marine2.miplay.cl/tvnchile/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVChile
+http://45.181.123.233:8000/play/a0qg
+
+#EXTINF:-1 tvg-id="NTV.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/ntv-cl.png" group-title="CHILE",NTV
+https://marine2.miplay.cl/ntv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" group-title="CHILE",La Red HD
+https://unlimited2-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" group-title="CHILE",La Red
+https://marine2.miplay.cl/lared/playlist.m3u8
+
+#EXTINF:-1 tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" group-title="CHILE",UCV HD
+https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" group-title="CHILE",UCV
+https://marine2.miplay.cl/ucv3/playlist.m3u8
+
+#EXTINF:-1 tvg-id="tvmas.cl" tvg-logo="https://img.soy-chile.cl/Fotos/2018/10/29/file_20181029173540.jpg" group-title="CHILE",TV+
+https://marine2.miplay.cl/tvmas/playlist.m3u8
+
+#EXTINF:-1 tvg-id="24Horas.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tvn_24_horas_cl.png" group-title="CHILE",24 Horas
+https://marine2.miplay.cl/24horas/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega
+https://marine2.miplay.cl/megacl/playlist.m3u8
+#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega SD
+http://45.181.123.233:8000/play/a0qh
+#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega HD
+http://45.181.123.233:8000/play/a0is
+
+#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV
+https://marine2.miplay.cl/chvchile/playlist.m3u8
+#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV SD
+http://45.181.123.233:8000/play/a0qi
+#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV HD
+http://45.181.123.233:8000/play/a0kl
+
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13
+https://marine2.miplay.cl/c13/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13 SD
+http://45.181.123.233:8000/play/a0qj
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13 HD
+http://45.181.123.233:8000/play/a0lh
+
+#EXTINF:-1 tvg-id="13C.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",T13
+https://marine2.miplay.cl/t13/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ZonaLatina.cl" tvg-logo="https://zonalatinatv.com/wp-content/uploads/2023/04/ZL-Lateral-NO-OFICIAL.png" group-title="CHILE",Zona Latina
+http://45.181.123.233:8000/play/a15n
+#EXTINF:-1 tvg-id="ViaX.cl" tvg-logo="https://cdn.mitvstatic.com/channels/cl_via-x_m.png" group-title="CHILE",ViaX HD
+http://45.181.123.233:8000/play/a0oh
+
+#EXTINF:-1 tvg-id="TVU.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_tvu.png/1024px-Logo_tvu.png" group-title="CHILE",TVU
+https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="UChile.cl" tvg-logo="https://www.uchile.cl/.imaging/default/dam/imagenes/Uchile/imagenes-noticias/172128_1_u-chile-tv-logo-1200px-fondo-negro_S/jcr:content.png" group-title="CHILE",U Chile TV (geo)
+https://unlimited1-cl-isp.dps.live/uchiletv/uchiletv.smil/uchiletv/livestream0/chunks.m3u8?nimblesessionid=9302469
+
+#EXTINF:-1 tvg-id="TVR.cl" tvg-logo="https://www.televisiongratis.tv/components/com_televisiongratis/images/televisin-regional-de-chile-1483.png" group-title="CHILE",TVR HD
+https://pantera1-100gb-cl-movistar.dps.live/tvr/tvr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVR.cl" tvg-logo="https://www.televisiongratis.tv/components/com_televisiongratis/images/televisin-regional-de-chile-1483.png" group-title="CHILE",TVR
+https://marine2.miplay.cl/tvr/playlist.m3u8
+
+#EXTINF:-1 tvg-id="STGOTV.cl" tvg-logo="https://pbs.twimg.com/media/DmuwuKqXsAUevyn.jpg" group-title="CHILE",STGO TV
+https://stv4.janus.cl/playlist/stream.m3u8?s=lq&t=3&id=m30upk7m&q=&d=w
+
+#EXTINF:-1 tvg-id="CNNChile.cl" tvg-logo="http://i.imgur.com/Dd9PMar.png" group-title="CHILE",CNN Chile
+http://45.181.123.233:8000/play/a15o
+
 #EXTINF:-1 tvg-id="TVN Chile" tvg-name="TVN Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/tvn_chile.png" group-title="CHILE",TVN | Chile
 
 
