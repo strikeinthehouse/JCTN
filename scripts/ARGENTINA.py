@@ -164,30 +164,6 @@ banner = r'''
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/HbV9HoX.png" group-title="Argentina",Norte | Bahía Blanca | Argentina
 http://icecast.hostingbahia.com.ar:8002/live?28344
 #EXTINF:0 tvg-id="ext" group-title="Argentina",Camaras de Villa Gesell (Av. 3 y 104)
