@@ -201,3 +201,35 @@ for item in channel_data:
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
+
+
+#teste
+import subprocess
+import json
+
+# URL do canal
+channel_url = "https://www.youtube.com/c/americaenvivo"
+
+# Comando para usar o yt-dlp e obter informações em JSON
+command = ["yt-dlp", "--dump-json", channel_url]
+
+try:
+    # Executa o yt-dlp e captura a saída
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+    # Carrega a saída como JSON
+    video_info = json.loads(result.stdout)
+    
+    # Obtém o ID do canal
+    channel_id = video_info.get("channel_id")
+    
+    if channel_id:
+        # Gera o link no formato solicitado
+        m3u8_link = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
+        print("Link gerado:", m3u8_link)
+    else:
+        print("Não foi possível encontrar o ID do canal.")
+
+except subprocess.CalledProcessError as e:
+    print("Erro ao executar yt-dlp:", e.stderr)
+except json.JSONDecodeError:
+    print("Erro ao processar a saída do yt-dlp como JSON.")
