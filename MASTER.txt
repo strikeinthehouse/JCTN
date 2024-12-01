@@ -1,15 +1,4 @@
-#EXTINF:-1 group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/236_Canal_9_Litoral.png",El Trece Canal 9 Litoral
-https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL
-
-
-#EXTINF:-1 tvg-id="El Nueve AR" tvg-name="El Nueve AR" tvg-country="AR" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/f/f7/Canal-nueve-ar2017.png" group-title="Argentina", CANAL 9 35.1 - TDA 35.1
-http://168.197.196.98:9981/stream/channelid/369719429?profile=pass&checkedby:alliptvlinks.com
-
-#EXTINF:-1 tvg-id="ElNueve.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/CANAL_9.jpg" group-title="Argentina", CANAL 9  35.1
-https://bvsat02.cdn.rcs.net.ar/mnp/elnueve/output.mpd
-
-#EXTINF:-1 tvg-id="ElNueve.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/CANAL_9.jpg" group-title="Argentina", CANAL 9  35.1 
-http://lobo-tv.live:8080/Rodolfo01/Rodolfo01/210850
-
-#EXTINF:-1 tvg-id="el-nueve-hd.ar" tvg-name="EL NUEVE HD" tvg-logo="http://yourlogourl.com/el-nueve-hd.png" group-title="Argentina",EL NUEVE HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164869.m3u8
+#EXTINF:-1 , RBC RUSSIA
+http://e4.online.video.rbc.ru/online2/rbctv_480p/index.m3u8
+#EXTINF:-1 ,100 Automoto HD
+http://100automoto.tv:1935/bgtv1/autotv/playlist.m3u8
