@@ -22,6 +22,7 @@ banner = r'''
 #EXTM3U
 '''
 
+
 def grab(url):
     try:
         if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
@@ -61,27 +62,29 @@ def check_url(url):
     
     return False
 
+
 def parse_extinf_line(line):
     # Default values
     group_title = "Undefined"
     tvg_logo = "Undefined.png"
     epg = ""
+    ch_name = "Undefined"
     
     # Split the line to extract metadata
-    meta_info = line.split(',')
-    if len(meta_info) > 1:
-        meta_info = meta_info[1].strip()
-        meta_parts = meta_info.split('|')
-        if len(meta_parts) > 0:
-            ch_name = meta_parts[0].strip()
-        if len(meta_parts) > 1:
-            group_title = meta_parts[1].strip()
-        if len(meta_parts) > 2:
-            tvg_logo = meta_parts[2].strip()
-        if len(meta_parts) > 3:
-            epg = meta_parts[3].strip()
+    meta_parts = line.split(' ')
+    for part in meta_parts:
+        if 'group-title=' in part:
+            group_title = part.split('="')[1].rstrip('"')
+        elif 'tvg-logo=' in part:
+            tvg_logo = part.split('="')[1].rstrip('"')
+        elif 'tvg-id=' in part:
+            epg = part.split('="')[1].rstrip('"')
+    
+    if ',' in line:
+        ch_name = line.split(',')[-1].strip()
     
     return ch_name, group_title, tvg_logo, epg
+
 
 channel_data = []
 
@@ -96,7 +99,17 @@ with open(channel_info) as f:
             # Extract information from #EXTINF line
             ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
             
-            link = lines[i+1].strip()
+            link = None
+            while i + 1 < len(lines):
+                i += 1
+                next_line = lines[i].strip()
+                # Ignore special options like #EXTVLCOPT or #KODIPROP
+                if next_line.startswith('#'):
+                    continue
+                else:
+                    link = next_line
+                    break
+            
             if link and check_url(link):
                 channel_data.append({
                     'name': ch_name,
@@ -105,7 +118,6 @@ with open(channel_info) as f:
                     'logo': tvg_logo,
                     'epg': epg
                 })
-            i += 1  # Skip the next line (URL) because it's already processed
         i += 1
 
 with open("MASTER.m3u", "w") as f:
@@ -122,9 +134,10 @@ with open("MASTER.m3u", "w") as f:
         f.write(channel['url'])
         f.write('\n')
 
-with open("playlist.json", "a") as f:
+with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data, indent=2)
     f.write(json_data)
+
 
 
 
