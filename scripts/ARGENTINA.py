@@ -1,6 +1,5 @@
 import requests
 import os
-import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
 import json
@@ -23,25 +22,6 @@ banner = r'''
 '''
 
 
-def grab(url):
-    try:
-        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
-            return url
-
-        session = streamlink.Streamlink()
-        streams = session.streams(url)
-        logger.debug("URL Streams %s: %s", url, streams)
-        if "best" in streams:
-            return streams["best"].url
-        return None
-    except streamlink.exceptions.NoPluginError as err:
-        logger.error("URL Error No PluginError %s: %s", url, err)
-        return None
-    except streamlink.StreamlinkError as err:
-        logger.error("URL Error %s: %s", url, err)
-        return None
-
-
 def check_url(url):
     try:
         response = requests.head(url, timeout=15)
@@ -50,7 +30,7 @@ def check_url(url):
             return True
     except requests.exceptions.RequestException as err:
         pass
-    
+
     try:
         response = requests.head(url, timeout=15, verify=False)
         if response.status_code == 200:
@@ -59,7 +39,7 @@ def check_url(url):
     except requests.exceptions.RequestException as err:
         logger.error("URL Error %s: %s", url, err)
         return False
-    
+
     return False
 
 
@@ -67,23 +47,17 @@ def parse_extinf_line(line):
     # Default values
     group_title = "Undefined"
     tvg_logo = "Undefined.png"
-    epg = ""
     ch_name = "Undefined"
     
-    # Split the line to extract metadata
-    meta_parts = line.split(' ')
-    for part in meta_parts:
-        if 'group-title=' in part:
-            group_title = part.split('="')[1].rstrip('"')
-        elif 'tvg-logo=' in part:
-            tvg_logo = part.split('="')[1].rstrip('"')
-        elif 'tvg-id=' in part:
-            epg = part.split('="')[1].rstrip('"')
-    
+    # Extract group-title, tvg-logo, and channel name
+    if 'group-title' in line:
+        group_title = line.split('group-title="')[1].split('"')[0]
+    if 'tvg-logo' in line:
+        tvg_logo = line.split('tvg-logo="')[1].split('"')[0]
     if ',' in line:
         ch_name = line.split(',')[-1].strip()
-    
-    return ch_name, group_title, tvg_logo, epg
+
+    return ch_name, group_title, tvg_logo
 
 
 channel_data = []
@@ -97,26 +71,25 @@ with open(channel_info) as f:
         line = lines[i].strip()
         if line.startswith('#EXTINF'):
             # Extract information from #EXTINF line
-            ch_name, group_title, tvg_logo, epg = parse_extinf_line(line)
-            
+            ch_name, group_title, tvg_logo = parse_extinf_line(line)
+
+            # Get the URL (next line)
             link = None
             while i + 1 < len(lines):
                 i += 1
                 next_line = lines[i].strip()
-                # Ignore special options like #EXTVLCOPT or #KODIPROP
                 if next_line.startswith('#'):
                     continue
                 else:
                     link = next_line
                     break
-            
+
             if link and check_url(link):
                 channel_data.append({
                     'name': ch_name,
                     'url': link,
                     'group': group_title,
-                    'logo': tvg_logo,
-                    'epg': epg
+                    'logo': tvg_logo
                 })
         i += 1
 
@@ -124,11 +97,7 @@ with open("MASTER.m3u", "w") as f:
     f.write(banner)
 
     for channel in channel_data:
-        extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}"'
-        if channel["epg"]:
-            extinf_line += f' tvg-id="{channel["epg"]}"'
-        extinf_line += f', {channel["name"]}'
-        
+        extinf_line = f'\n#EXTINF:-1 group-title="{channel["group"]}" tvg-logo="{channel["logo"]}",{channel["name"]}'
         f.write(extinf_line)
         f.write('\n')
         f.write(channel['url'])
@@ -137,6 +106,7 @@ with open("MASTER.m3u", "w") as f:
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data, indent=2)
     f.write(json_data)
+
 
 
 
