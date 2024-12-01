@@ -47,7 +47,7 @@ try:
             tvg_id = card.find('img', class_='search-result-card__img tw-image')['alt']
             
             # Format the output in the desired style
-            output_line = f"{channel_name} | Reality Show'S Live | {logo_url}"
+            output_line = f"{channel_name} | Reality Show's Live | {logo_url}"
             
             # Write to file
             file.write(output_line + " | \n")
