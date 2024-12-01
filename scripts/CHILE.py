@@ -51,10 +51,7 @@ channel_data = []
 channel_data_json = []
 
 banner = r'''
-###########################################################################
-#                                                                         #
-#                                  >> https://github.com/cqcbrasil        #
-###########################################################################
+
 
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
 #EXTM3U url-tvg="https://www.bevy.be/bevyfiles/chile.xml"
