@@ -103,7 +103,8 @@ with open("ARGENTINA.m3u", "w") as f:
             f.write('\n')
             f.write(item['url'])
             f.write('\n')
-            f.write(banner)
+    f.write(banner2)
+            
           
 # Escreve no arquivo JSON (opcional, mantém o formato detalhado)
 prev_item = None
