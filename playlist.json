@@ -1,37 +1,23 @@
 [
   {
-    "name": "SIC",
-    "url": "https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8",
-    "group": "TV",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png\",SIC",
-    "epg": "SIC.pt"
+    "name": "Nazar\u00e9 - Forte S. Miguel Arcanjo - Ba\u00eda",
+    "url": "https://video-auth1.iol.pt/beachcam/bcarcanjo1/playlist.m3u8",
+    "group": "Beachcam",
+    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png\",Nazar\u00e9",
+    "epg": ""
   },
   {
-    "name": "TVI",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMS8yMDI0IDEyOjM0OjkgQU0maGFzaF92YWx1ZT0zUUZXczRzN1U2L2t2M0JBZzVlKzR3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmIzMTU0NWUtNDZmMS00NTEyLWFkYTQtM2EyYmEzNTdjOGM4/",
-    "group": "TV",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png\",TVI",
-    "epg": "TVI.pt"
+    "name": "Nazar\u00e9 - Praia do Norte",
+    "url": "https://video-auth1.iol.pt/beachcam/canhaonazare/playlist.m3u8",
+    "group": "Beachcam",
+    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png\",Nazar\u00e9",
+    "epg": ""
   },
   {
-    "name": "SIC Not\u00edcias",
-    "url": "https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8",
-    "group": "TV",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Not\u00edcias.png\",SIC",
-    "epg": "SICNoticias.pt"
-  },
-  {
-    "name": "CNN Portugal",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMS8yMDI0IDEyOjM0OjEwIEFNJmhhc2hfdmFsdWU9VlcySStzQzQ5aVd3TlB1TENHSlVPUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWU5OTdjMDI4LWYzMmYtNGU0Yi04NjQ3LTY0YWRjMzM5YjY0YQ==/",
-    "group": "TV",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png\",CNN",
-    "epg": "CNNPortugal.pt"
-  },
-  {
-    "name": "ARTV",
-    "url": "https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8",
-    "group": "TV",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png\",ARTV",
-    "epg": "ARTV.pt"
+    "name": "Nazar\u00e9 - Praia do Norte panor\u00e2mica",
+    "url": "https://video-auth1.iol.pt/beachcam/nazareparadonorte/playlist.m3u8",
+    "group": "Beachcam",
+    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png\",Nazar\u00e9",
+    "epg": ""
   }
 ]
