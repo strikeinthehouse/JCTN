@@ -13,7 +13,7 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
 
     # URL of the Twitch search page
-    url_twitch = "https://www.twitch.tv/search?term=GRAN%20HERMANO"
+    url_twitch = "https://www.twitch.tv/search?term=gh"
 
     # Open the desired URL
     driver.get(url_twitch)
