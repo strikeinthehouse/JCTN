@@ -8,6 +8,7 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
+# Mantém a mesma configuração do Selenium e BeautifulSoup já definida
 try:
     # Inicializa o WebDriver
     driver = webdriver.Chrome(options=chrome_options)
@@ -38,7 +39,7 @@ try:
 
             # Extrai o logo do canal
             img_tag = card.find('img', class_='search-result-card__img')
-            logo_url = img_tag['src'] if img_tag else "Logo Not Found"
+            logo_url = img_tag['src'] if img_tag else ""
 
             # Escreve os dados no arquivo
             output_line = f"{channel_title} | Reality Show's Live | {logo_url}"
@@ -51,6 +52,7 @@ except Exception as e:
 finally:
     if 'driver' in locals():
         driver.quit()
+
 
 
 import requests
