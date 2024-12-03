@@ -131,6 +131,3 @@ finally:
     # Fecha o WebDriver
     if 'driver' in locals():
         driver.quit()
-
-
-
