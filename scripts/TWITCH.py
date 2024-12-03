@@ -2,12 +2,61 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
+
+# Configuração do Selenium
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
+
+try:
+    # Inicializa o WebDriver
+    driver = webdriver.Chrome(options=chrome_options)
+
+    # URL da página de busca no Twitch
+    url_twitch = "https://www.twitch.tv/search?term=gh"
+    driver.get(url_twitch)
+    time.sleep(5)
+
+    # Faz o parse do HTML da página
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    cards = soup.find_all('div', class_='InjectLayout-sc-1i43xsx-0 fMQokC search-result-card')
+
+    # Criação do arquivo .txt
+    with open('channel_twitch.txt', 'w', encoding='utf-8') as file:
+        for card in cards:
+            # Extrai o `tvg-id` do link do canal
+            link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0')
+            if not link_tag or 'href' not in link_tag.attrs:
+                continue
+            tvg_id = link_tag['href'].strip('/')
+
+            # Extrai o título do canal
+            title_tag = card.find('p', {'data-test-selector': 'search-result-live-channel__title'})
+            if not title_tag:
+                continue
+            channel_title = title_tag.text.strip()
+
+            # Extrai o logo do canal
+            img_tag = card.find('img', class_='search-result-card__img')
+            logo_url = img_tag['src'] if img_tag else "Logo Not Found"
+
+            # Escreve os dados no arquivo
+            output_line = f"{channel_title} | Reality Show's Live | {logo_url}"
+            file.write(output_line + " | \n")
+            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
+
+except Exception as e:
+    print(f"Erro: {e}")
+
+finally:
+    if 'driver' in locals():
+        driver.quit()
+
+
 import requests
-import os
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
-import json
 
 # Configurando logging
 logger = logging.getLogger(__name__)
@@ -67,67 +116,45 @@ def check_url(url):
 
     return False
 
-# Configuração do Selenium para coleta dos dados do Twitch
-chrome_options = Options()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
+# Processamento para criar o arquivo .m3u
+channel_data = []
 
-try:
-    # Inicializa o WebDriver
-    driver = webdriver.Chrome(options=chrome_options)
+# Lendo o arquivo .txt gerado na primeira parte
+with open('channel_twitch.txt', 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+    for i in range(0, len(lines), 2):  # Cada canal ocupa duas linhas no arquivo .txt
+        info_line = lines[i].strip()
+        url_line = lines[i + 1].strip()
 
-    # URL da página de busca no Twitch
-    url_twitch = "https://www.twitch.tv/search?term=gh"
-    driver.get(url_twitch)
-    time.sleep(5)
+        if not info_line or not url_line:
+            continue
 
-    # Faz o parse do HTML da página
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    cards = soup.find_all('div', class_='InjectLayout-sc-1i43xsx-0 fMQokC search-result-card')
+        # Extrai informações do arquivo .txt
+        parts = info_line.split('|')
+        if len(parts) < 3:
+            continue
 
-    # Criação do arquivo .txt
-    channel_data = []
-    channel_info_path = 'channel_twitch.txt'
+        ch_name = parts[0].strip()
+        tvg_logo = parts[2].strip()
+        tvg_id = url_line.split('/')[-1].strip()
+        url = url_line.strip()
 
-    with open(channel_info_path, 'w', encoding='utf-8') as file:
-        for card in cards:
-            link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0')
-            title_tag = card.find('p', class_='CoreText-sc-1txzju1-0')
+        channel_data.append({
+            'type': 'info',
+            'ch_name': ch_name,
+            'tvg_logo': tvg_logo,
+            'tvg_id': tvg_id,
+            'url': url
+        })
 
-            if not link_tag or not title_tag or 'href' not in link_tag.attrs:
-                continue
+# Geração do arquivo M3U
+with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
+    m3u_file.write(banner)
 
-            tvg_id = link_tag['href'].strip('/')
-            channel_name = title_tag.text.strip()
-
-            output_line = f"{channel_name} | Reality Show's Live | Logo Not Found"
-            file.write(output_line + " | \n")
-            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
-
-            channel_data.append({
-                'type': 'info',
-                'ch_name': channel_name,
-                'tvg_id': tvg_id,
-                'url': f"https://www.twitch.tv/{tvg_id}"
-            })
-
-    # Criação do arquivo .m3u
-    with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
-        m3u_file.write(banner)
-        prev_item = None
-
-        for item in channel_data:
-            link = grab(item['url'])
-            if link and check_url(link):
-                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}", {item["ch_name"]}')
-                m3u_file.write('\n')
-                m3u_file.write(link)
-                m3u_file.write('\n')
-
-except Exception as e:
-    logger.error(f"Erro: {e}")
-
-finally:
-    # Fecha o WebDriver
-    if 'driver' in locals():
-        driver.quit()
+    for item in channel_data:
+        link = grab(item['url'])
+        if link and check_url(link):
+            m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}" tvg-logo="{item["tvg_logo"]}", {item["ch_name"]}')
+            m3u_file.write('\n')
+            m3u_file.write(link)
+            m3u_file.write('\n')
