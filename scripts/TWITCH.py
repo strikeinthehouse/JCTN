@@ -14,7 +14,7 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
 
     # URL da página de busca no Twitch
-    url_twitch = "https://www.twitch.tv/search?term=gh"
+    url_twitch = "https://www.twitch.tv/search?term=gran%20hremano"
     driver.get(url_twitch)
     time.sleep(5)
 
@@ -151,12 +151,17 @@ with open('channel_twitch.txt', 'r', encoding='utf-8') as f:
 
 # Geração do arquivo M3U
 with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
-    m3u_file.write(banner)
+    m3u_file.write("#EXTM3U\n")
 
     for item in channel_data:
+        # Validação de URL do stream
         link = grab(item['url'])
         if link and check_url(link):
-            m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}" tvg-logo="{item["tvg_logo"]}", {item["ch_name"]}')
-            m3u_file.write('\n')
-            m3u_file.write(link)
-            m3u_file.write('\n')
+            # Validação do logo
+            tvg_logo = item["tvg_logo"]
+            if not tvg_logo.startswith("http"):  # Checa se é URL
+                tvg_logo = ""  # Deixa vazio se não for válido
+
+            # Escreve no arquivo
+            m3u_file.write(f'#EXTINF:-1 tvg-id="{item["tvg_id"]}" tvg-logo="{tvg_logo}", {item["ch_name"]}\n')
+            m3u_file.write(link + '\n')
