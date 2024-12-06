@@ -3,11 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import requests
-import os
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
-import json
 
 # Configurando logging
 logger = logging.getLogger(__name__)
@@ -108,7 +106,8 @@ try:
                 'type': 'info',
                 'ch_name': channel_name,
                 'tvg_id': tvg_id,
-                'url': f"https://www.twitch.tv/{tvg_id}"
+                'url': f"https://www.twitch.tv/{tvg_id}",
+                'live_title': channel_name  # Adiciona o título da live
             })
 
     # Criação do arquivo .m3u
@@ -119,7 +118,8 @@ try:
         for item in channel_data:
             link = grab(item['url'])
             if link and check_url(link):
-                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}", {item["ch_name"]}')
+                # Agora o nome do canal vai em tvg-url e o título da live após a vírgula
+                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}" tvg-url="{item["ch_name"]}", {item["live_title"]}')
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
