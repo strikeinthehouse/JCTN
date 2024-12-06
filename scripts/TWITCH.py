@@ -15,7 +15,7 @@ log_file = "log.txt"
 file_handler = RotatingFileHandler(log_file)
 file_handler.setLevel(logging.DEBUG)
 
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s")
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
@@ -90,7 +90,8 @@ try:
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for card in cards:
             link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0 jLbNQX tw-link')
-            title_tag = card.find('p', class_='CoreText-sc-1txzju1-0 MveHm')
+            # Pegando o segundo título da live, que está dentro da tag <p> com o data-test-selector="search-result-live-channel__title"
+            title_tag = card.find_all('p', class_='CoreText-sc-1txzju1-0 MveHm')[1]  # Agora usando o segundo título
 
             if not link_tag or not title_tag or 'href' not in link_tag.attrs:
                 continue
