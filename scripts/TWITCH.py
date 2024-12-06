@@ -89,25 +89,28 @@ try:
 
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for card in cards:
-            link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0')
-            title_tag = card.find('p', class_='CoreText-sc-1txzju1-0')
+            link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0 jLbNQX tw-link')
+            title_tag = card.find('p', class_='CoreText-sc-1txzju1-0 MveHm')
 
             if not link_tag or not title_tag or 'href' not in link_tag.attrs:
                 continue
 
+            # Obter o tvg-id (nome do canal)
             tvg_id = link_tag['href'].strip('/')
-            channel_name = title_tag.text.strip()
+            # Obter o título da live
+            live_title = title_tag.text.strip()
 
-            output_line = f"{channel_name} | Reality Show's Live | Logo Not Found"
+            # Escrever as informações no arquivo txt
+            output_line = f"{live_title} | Reality Show's Live | Logo Not Found"
             file.write(output_line + " | \n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
 
             channel_data.append({
                 'type': 'info',
-                'ch_name': channel_name,
-                'tvg_id': tvg_id,
+                'ch_name': tvg_id,  # Nome do canal
+                'tvg_id': tvg_id,  # tvg-id agora é o nome do canal
                 'url': f"https://www.twitch.tv/{tvg_id}",
-                'live_title': channel_name  # Adiciona o título da live
+                'live_title': live_title  # Título da live
             })
 
     # Criação do arquivo .m3u
@@ -118,8 +121,8 @@ try:
         for item in channel_data:
             link = grab(item['url'])
             if link and check_url(link):
-                # Agora o nome do canal vai em tvg-url e o título da live após a vírgula
-                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}" tvg-url="{item["ch_name"]}", {item["live_title"]}')
+                # Escrever no formato desejado
+                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}", {item["live_title"]}')
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
