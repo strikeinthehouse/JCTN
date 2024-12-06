@@ -3,9 +3,11 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import requests
+import os
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
+import json
 
 # Configurando logging
 logger = logging.getLogger(__name__)
@@ -15,7 +17,7 @@ log_file = "log.txt"
 file_handler = RotatingFileHandler(log_file)
 file_handler.setLevel(logging.DEBUG)
 
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s")
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
@@ -89,29 +91,24 @@ try:
 
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for card in cards:
-            link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0 jLbNQX tw-link')
-            # Pegando o segundo título da live, que está dentro da tag <p> com o data-test-selector="search-result-live-channel__title"
-            title_tag = card.find_all('p', class_='CoreText-sc-1txzju1-0 MveHm')[1]  # Agora usando o segundo título
+            link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0')
+            title_tag = card.find('p', class_='CoreText-sc-1txzju1-0')
 
             if not link_tag or not title_tag or 'href' not in link_tag.attrs:
                 continue
 
-            # Obter o tvg-id (nome do canal)
             tvg_id = link_tag['href'].strip('/')
-            # Obter o título da live
-            live_title = title_tag.text.strip()
+            channel_name = title_tag.text.strip()
 
-            # Escrever as informações no arquivo txt
-            output_line = f"{live_title} | Reality Show's Live | Logo Not Found"
+            output_line = f"{channel_name} | Reality Show's Live | Logo Not Found"
             file.write(output_line + " | \n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
 
             channel_data.append({
                 'type': 'info',
-                'ch_name': tvg_id,  # Nome do canal
-                'tvg_id': tvg_id,  # tvg-id agora é o nome do canal
-                'url': f"https://www.twitch.tv/{tvg_id}",
-                'live_title': live_title  # Título da live
+                'ch_name': channel_name,
+                'tvg_id': tvg_id,
+                'url': f"https://www.twitch.tv/{tvg_id}"
             })
 
     # Criação do arquivo .m3u
@@ -122,8 +119,7 @@ try:
         for item in channel_data:
             link = grab(item['url'])
             if link and check_url(link):
-                # Escrever no formato desejado
-                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}", {item["live_title"]}')
+                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}", {item["ch_name"]}')
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
