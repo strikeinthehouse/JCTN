@@ -34,8 +34,11 @@ try:
     with open('channel_twitch.txt', 'w', encoding='utf-8') as file:
         # Iterate through the found cards
         for card in cards:
-            # Extract channel name
+            # Extrai o canal nome como já feito
             channel_name = card.find('strong', class_='CoreText-sc-1txzju1-0 fMRfVf').text.strip()
+            
+            # Agora, extraímos os nomes de 'live_name' que estão nas tags <p> com o atributo especificado
+            live_names = card.find_all('p', class_='CoreText-sc-1txzju1-0 MveHm', attrs={'data-test-selector': 'search-result-live-channel__title'})
             
             # Extract group name (if available)
             group_name = card.find('p', class_='CoreText-sc-1txzju1-0 exdYde').text.strip()
@@ -167,7 +170,7 @@ with open("TWITCH.m3u", "w") as f:
         if item['type'] == 'info':
             prev_item = item
         if item['type'] == 'link' and item['url']:
-            f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
+            f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}",{prev_item["live_name"]}')
             f.write('\n')
             f.write(item['url'])
             f.write('\n')
