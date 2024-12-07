@@ -93,14 +93,19 @@ try:
         for card in cards:
             link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0')
             title_tag = card.find('p', class_='CoreText-sc-1txzju1-0')
+            thumb_tag = card.find('img', class_='search-result-card__img')
+            group_tag = card.find('p', class_='CoreText-sc-1txzju1-0 exdYde')
 
             if not link_tag or not title_tag or 'href' not in link_tag.attrs:
                 continue
 
+            # Extraindo o nome do canal, o link, a imagem e o título
             tvg_id = link_tag['href'].strip('/')
             channel_name = title_tag.text.strip()
+            thumb_url = thumb_tag['src'] if thumb_tag else ''
+            group_title = group_tag.text.strip() if group_tag else 'Unknown'
 
-            output_line = f"{channel_name} | Reality Show's Live | Logo Not Found"
+            output_line = f"{channel_name} | {group_title} | Logo Not Found"
             file.write(output_line + " | \n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
 
@@ -108,7 +113,9 @@ try:
                 'type': 'info',
                 'ch_name': channel_name,
                 'tvg_id': tvg_id,
-                'url': f"https://www.twitch.tv/{tvg_id}"
+                'url': f"https://www.twitch.tv/{tvg_id}",
+                'thumb': thumb_url,
+                'group_title': group_title
             })
 
     # Criação do arquivo .m3u
@@ -119,7 +126,7 @@ try:
         for item in channel_data:
             link = grab(item['url'])
             if link and check_url(link):
-                m3u_file.write(f'\n#EXTINF:-1 tvg-id="{item["tvg_id"]}", {item["ch_name"]}')
+                m3u_file.write(f'\n#EXTINF:-1 group-title="{item["group_title"]}" tvg-id="{item["tvg_id"]}" thumb="{item["thumb"]}", {item["ch_name"]}')
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
