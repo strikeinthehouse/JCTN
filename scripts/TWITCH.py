@@ -122,14 +122,15 @@ try:
     with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         m3u_file.write(banner)
         prev_item = None
-
+    
         for item in channel_data:
             link = grab(item['url'])
             if link and check_url(link):
-                m3u_file.write(f'\n#EXTINF:-1 group-title="{item["group_title"]}" tvg-id="{item["tvg_id"]}" thumb="{item["thumb"]}", {item["ch_name"]}')
+                m3u_file.write(f'\n#EXTINF:-1 group-title="RealityShow's Live" tvg-id="{item["tvg_id"]}", {item["ch_name"]}')
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
+
 
 except Exception as e:
     logger.error(f"Erro: {e}")
