@@ -3,18 +3,16 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import requests
-import os
 import streamlink
 import logging
 from logging.handlers import RotatingFileHandler
-import json
 
 # Configurando logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 log_file = "log.txt"
-file_handler = RotatingFileHandler(log_file)
+file_handler = RotatingFileHandler(log_file, maxBytes=10**6, backupCount=5)
 file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
@@ -33,17 +31,16 @@ def grab(url):
         if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
             return url
 
-        session = streamlink.Streamlink()
-        streams = session.streams(url)
-        logger.debug("URL Streams %s: %s", url, streams)
+        streams = streamlink.streams(url)
+        logger.debug("Streams disponíveis para %s: %s", url, streams)
         if "best" in streams:
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError as err:
-        logger.error("URL Error No PluginError %s: %s", url, err)
+        logger.error("Plugin não encontrado para %s: %s", url, err)
         return None
     except streamlink.StreamlinkError as err:
-        logger.error("URL Error %s: %s", url, err)
+        logger.error("Erro do Streamlink para %s: %s", url, err)
         return None
 
 # Função para verificar URL
@@ -51,62 +48,46 @@ def check_url(url):
     try:
         response = requests.head(url, timeout=15)
         if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
+            logger.debug("URL válida: %s", url)
             return True
-    except requests.exceptions.RequestException as err:
-        pass
-
-    try:
-        response = requests.head(url, timeout=15, verify=False)
-        if response.status_code == 200:
-            logger.debug("URL Streams %s: %s", url, response)
-            return True
-    except requests.exceptions.RequestException as err:
-        logger.error("URL Error %s: %s", url, err)
-        return False
-
+    except requests.RequestException as err:
+        logger.warning("Erro ao verificar URL %s: %s", url, err)
     return False
 
-# Configuração do Selenium para coleta dos dados do Twitch
+# Configuração do Selenium
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
 try:
-    # Inicializa o WebDriver
     driver = webdriver.Chrome(options=chrome_options)
-
-    # URL da página de busca no Twitch
     url_twitch = "https://www.twitch.tv/search?term=gran%20hermano"
     driver.get(url_twitch)
     time.sleep(5)
 
-    # Faz o parse do HTML da página
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    cards = soup.find_all('div', class_='InjectLayout-sc-1i43xsx-0 fMQokC search-result-card')
+    cards = soup.find_all('div', class_='search-result-card')
 
-    # Criação do arquivo .txt
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
 
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for card in cards:
-            link_tag = card.find('a', class_='ScCoreLink-sc-16kq0mq-0')
+            link_tag = card.find('a', href=True)
             title_tag = card.find('p', class_='CoreText-sc-1txzju1-0')
-            thumb_tag = card.find('img', class_='search-result-card__img')
-            group_tag = card.find('p', class_='CoreText-sc-1txzju1-0 exdYde')
+            thumb_tag = card.find('img')
+            group_tag = card.find('p', class_='CoreText-sc-1txzju1-0.exdYde')
 
-            if not link_tag or not title_tag or 'href' not in link_tag.attrs:
+            if not link_tag or not title_tag:
                 continue
 
-            # Extraindo o nome do canal, o link, a imagem e o título
             tvg_id = link_tag['href'].strip('/')
             channel_name = title_tag.text.strip()
             thumb_url = thumb_tag['src'] if thumb_tag else ''
             group_title = group_tag.text.strip() if group_tag else 'Unknown'
 
             output_line = f"{channel_name} | {group_title} | Logo Not Found"
-            file.write(output_line + " | \n")
+            file.write(output_line + "\n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
 
             channel_data.append({
@@ -117,25 +98,24 @@ try:
                 'thumb': thumb_url,
                 'group_title': group_title
             })
-
-    # Criação do arquivo .m3u
+    # Gerar arquivo M3U
     with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         m3u_file.write(banner)
-        prev_item = None
     
         for item in channel_data:
             link = grab(item['url'])
             if link and check_url(link):
-                m3u_file.write(f'\n#EXTINF:-1 group-title="RealityShow's Live" tvg-id="{item["tvg_id"]}", {item["ch_name"]}')
+                m3u_file.write(
+                    f'\n#EXTINF:-1 group-title="Reality\'s Show\'s" tvg-id="{item["tvg_id"]}", {item["ch_name"]}'
+                )
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
 
 
 except Exception as e:
-    logger.error(f"Erro: {e}")
+    logger.error("Erro geral: %s", e)
 
 finally:
-    # Fecha o WebDriver
     if 'driver' in locals():
         driver.quit()
