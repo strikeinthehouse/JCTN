@@ -1,17 +1,14 @@
 
 #EXTM3U
 
-#EXTINF:-1 tvg-id="rodrisofoo", Live
-https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CtsEUOtR2ItlIhF8DPPx78nMORWzVfwqc5U20NV_o5AAdn0xgxsHzfPadbtE7N4oRoTXgT4i4efYED3nbosW4qz5AYHFR19_BeZcoQsDHm29I7dU1yDfn8B_sswN2wNZ0rG2YCoOFXgX92_VAa1B4ih3wBySzjljdFt3r753nxSK1k83yMo5RTdh4VQmGUqbKI6HRUGQ7RcPnia4Eq5EjFdSUm0lIMnFCubQ4n3Gsn0X8IsioEBUmP1un1hhgFYMS7zl53cU3-c7SK25ZOFTY6xuXB2CzzRm-2v-oqtq79VlgPKSqav1hIHKAzT75jPWEyCvxBm0mgdCFc1fVsSmFEQeTGirHKSiUPFnSACJvqqcTBgyPCNyGwG6YoIwAO42FWz8juJKZbWT5dnvSX-tVzoJGyBvkhXUwEdeOTyEbYEDryKgWFJbS3WBZWen7Rx7YoQ_He_4rD6tpQWKV_ixIiix5M1fPw1lvTLIIMJCtk3N8uHvgthvNbi1EO3CPflrhRADy4k7oR0senkJWMTF6xs2TzH1rXS5cz8zPaOcXprq6urzkngh6X7gxGhrjAOWxLWC_Yf3AI3--kRUchWgu3xo8ueDClhRCOVsyEApAh9e41TO_QkJm0HcUXlVkacRszCrtzDsFqfJrDn9N2DZd_51Bj-T8VYZAzuk3lWD65MmlqvDe46EljgTrYpg0qcUv_M30BVtEE3-5T8sxRhp-1iug0y6j9hknLEKIWO_Wa4g2PtGJ5hHDXRVAuMRGZUtW_cXQ3EO5ObCWQFR5dreMy4AqxfkHc9I3PWkCecNGgx24HYRSQa0gNqw8zUgASoJdXMtZWFzdC0xMLoJ.m3u8
-
-#EXTINF:-1 tvg-id="gran_hermano_2025_arg/video/2316885891", gran_hermano_2025_arg
+#EXTINF:-1 group-title="gran_hermano_2025_arg" tvg-id="gran_hermano_2025_arg/video/2316885891" thumb="https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/f61ae268444bd40d978f_gran_hermano_2025_arg_45107714411_1733185509//thumb/thumb0-214x120.jpg", gran_hermano_2025_arg
 https://dqrpb9wgowsf5.cloudfront.net/f61ae268444bd40d978f_gran_hermano_2025_arg_45107714411_1733185509/chunked/index-muted-DLD02BN7Q3.m3u8
 
-#EXTINF:-1 tvg-id="fedelezcano/video/2317373891", FedeLezcano
+#EXTINF:-1 group-title="FedeLezcano" tvg-id="fedelezcano/video/2317373891" thumb="https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/0a5f595f951357216d69_fedelezcano_43274219641_1733246561//thumb/thumb0-214x120.jpg", FedeLezcano
 https://d2vjef5jvl6bfs.cloudfront.net/0a5f595f951357216d69_fedelezcano_43274219641_1733246561/chunked/index-muted-1KWIK697ZV.m3u8
 
-#EXTINF:-1 tvg-id="albertossanchez97/video/2317526561", albertossanchez97
+#EXTINF:-1 group-title="albertossanchez97" tvg-id="albertossanchez97/video/2317526561" thumb="https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/53e165b3335fb28f78f3_albertossanchez97_52578810669_1733259147//thumb/thumb0-214x120.jpg", albertossanchez97
 https://d2vjef5jvl6bfs.cloudfront.net/53e165b3335fb28f78f3_albertossanchez97_52578810669_1733259147/chunked/index-muted-4J36VIPF8L.m3u8
 
-#EXTINF:-1 tvg-id="titasama/video/2316967982", TitaSama
+#EXTINF:-1 group-title="TitaSama" tvg-id="titasama/video/2316967982" thumb="https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/af439b453905e9507466_titasama_45108499291_1733191866//thumb/thumb0-214x120.jpg", TitaSama
 https://dqrpb9wgowsf5.cloudfront.net/af439b453905e9507466_titasama_45108499291_1733191866/chunked/index-dvr.m3u8
