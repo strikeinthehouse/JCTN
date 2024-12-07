@@ -98,7 +98,7 @@ try:
                 'thumb': thumb_url,
                 'group_title': group_title
             })
-    # Gerar arquivo M3U
+    # Gerar arquivo M3U com thumbnails
     with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         m3u_file.write(banner)
     
@@ -106,11 +106,12 @@ try:
             link = grab(item['url'])
             if link and check_url(link):
                 m3u_file.write(
-                    f'\n#EXTINF:-1 group-title="Reality\'s Show\'s" tvg-id="{item["tvg_id"]}", {item["ch_name"]}'
+                    f'\n#EXTINF:-1 group-title="Reality\'s Show\'s" tvg-logo="{item["thumb"]}",{item["ch_name"]}'
                 )
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
+
 
 
 except Exception as e:
