@@ -34,11 +34,11 @@ jobs:
         run: |
           rm -rf ./log.txt
 
-      - name: Run YT.py script
+      - name: Instalando coisas
         run: |
           # Install required Python dependencies
           python3 -m pip install --upgrade pip
-          python3 -m pip install requests streamlink beautifulsoup4 selenium
+          python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
     
     # Step to run the Python script YT.py
       - name: Run YT.py script
