@@ -1,9 +1,10 @@
 import os
+import time
+import re
+import subprocess
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import time
 from selenium.webdriver.common.by import By
-import re
 
 # Configurações do navegador Selenium
 chrome_options = Options()
@@ -46,25 +47,36 @@ with open(m3u_filename, 'w') as m3u_file:
                 if link_href and link_href not in processed_links:  # Verifica se o link já foi processado
                     processed_links.add(link_href)  # Adiciona o link ao conjunto
                     
-                    # Extrair o ID do canal da URL
-                    match = re.search(r"youtube\.com/(?:@([^/]+)|channel/([^/]+))", link_href)
-                    if match:
-                        channel_id = match.group(1) if match.group(1) else match.group(2)
-                        video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
+                    # Usar yt-dlp para extrair a ID do canal
+                    try:
+                        result = subprocess.run(
+                            ['yt-dlp', '--get-id', link_href],
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE,
+                            text=True
+                        )
+                        # O comando yt-dlp vai retornar o ID do canal ou erro
+                        channel_id = result.stdout.strip()
+                        
+                        if channel_id:
+                            # Extrair o título do vídeo
+                            title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
+                            video_title = title_element.text if title_element else "Título Desconhecido"
+                            
+                            # Thumbnail fixa
+                            thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
+                            
+                            # Gerar a URL do canal com o ID extraído
+                            video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
 
-                        # Extrair o título do vídeo
-                        title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
-                        video_title = title_element.text if title_element else "Título Desconhecido"
-                        
-                        # Thumbnail fixa
-                        thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
-                        
-                        # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                        m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
-                        m3u_file.write(f"{video_url}\n")
-                        print(f"Adicionado vídeo: {video_title} ({video_url})")
-                    else:
-                        print("ID do canal não encontrado para o link:", link_href)
+                            # Escrever a linha EXTINF para cada vídeo no arquivo M3U
+                            m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
+                            m3u_file.write(f"{video_url}\n")
+                            print(f"Adicionado vídeo: {video_title} ({video_url})")
+                        else:
+                            print("Não foi possível extrair o ID do canal.")
+                    except Exception as e:
+                        print(f"Erro ao extrair o ID do canal: {e}")
         else:
             print("Elementos de link não encontrados")
     except Exception as e:
