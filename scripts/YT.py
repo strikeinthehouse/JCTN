@@ -5,6 +5,7 @@ import subprocess
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
 # Configurações do navegador Selenium
 chrome_options = Options()
@@ -21,6 +22,20 @@ driver.get(url_youtube)
 
 # Esperar a página carregar
 time.sleep(5)
+
+# Função para rolar para baixo e carregar mais vídeos
+def scroll_to_load_more_videos():
+    last_height = driver.execute_script("return document.documentElement.scrollHeight")
+    while True:
+        driver.execute_script("window.scrollTo(0, document.documentElement.scrollHeight);")
+        time.sleep(3)  # Espera os vídeos carregarem
+        new_height = driver.execute_script("return document.documentElement.scrollHeight")
+        if new_height == last_height:  # Se não houver mais vídeos para carregar
+            break
+        last_height = new_height
+
+# Rolando a página para carregar mais vídeos
+scroll_to_load_more_videos()
 
 # Definir o diretório pai
 parent_directory = os.path.abspath(os.path.join(os.getcwd(), '..'))
@@ -74,9 +89,9 @@ with open(m3u_filename, 'w') as m3u_file:
                             m3u_file.write(f"{video_url}\n")
                             print(f"Adicionado vídeo: {video_title} ({video_url})")
                         else:
-                            print("Não foi possível extrair o ID do canal.")
+                            print(f"Não foi possível extrair o ID do canal para o vídeo {link_href}.")
                     except Exception as e:
-                        print(f"Erro ao extrair o ID do canal: {e}")
+                        print(f"Erro ao extrair o ID do canal para o vídeo {link_href}: {e}")
         else:
             print("Elementos de link não encontrados")
     except Exception as e:
