@@ -3,8 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.webdriver import WebDriver
+import re
 
 # Configurações do navegador Selenium
 chrome_options = Options()
@@ -30,9 +29,14 @@ try:
         second_link_element = link_elements[1]
         link_href = second_link_element.get_attribute("href")
         if link_href:
-            # Usar o link diretamente sem duplicação
-            video_url = link_href
-            print(f"Link do vídeo: {video_url}")
+            # Extrair o ID do canal da URL (exemplo: @experimentx5279 ou /channel/UCOV_Vx1baZJY9Tfvgm-UI3w)
+            match = re.search(r"youtube\.com/(?:@([^/]+)|channel/([^/]+))", link_href)
+            if match:
+                channel_id = match.group(1) if match.group(1) else match.group(2)
+                video_url = f"https://ythlsgo.onrender.com/channel/{channel_id}.m3u8"
+                print(f"Link do vídeo (m3u8): {video_url}")
+            else:
+                print("ID do canal não encontrado")
             
             # Thumbnail fixa (conforme solicitado)
             thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
@@ -44,7 +48,7 @@ try:
 
 except Exception as e:
     print(f"Erro: {e}")
-    video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"
+    video_url = "https://ythlsgo.onrender.com/channel/UCOV_Vx1baZJY9Tfvgm-UI3w.m3u8"
     print(f"Link de fallback: {video_url}")
     
     # Thumbnail fixa em caso de erro
