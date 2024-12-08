@@ -30,7 +30,7 @@ try:
         second_link_element = link_elements[1]
         link_href = second_link_element.get_attribute("href")
         if link_href:
-            # Construir o link final para o vídeo ao vivo
+            # Construir o link final para o vídeo
             video_url = "https://www.youtube.com" + link_href
             print(f"Link do vídeo: {video_url}")
             
@@ -41,35 +41,50 @@ try:
             except Exception as e:
                 print(f"Erro ao capturar a thumbnail: {e}")
                 thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão, caso falhe
+
+            # Capturar informações do canal
+            try:
+                channel_url = second_link_element.find_element(By.XPATH, "..//ytd-channel-name/a").get_attribute("href")
+                channel_thumbnail_url = second_link_element.find_element(By.XPATH, "..//ytd-channel-name//yt-img-shadow/img").get_attribute("src")
+                channel_name = second_link_element.find_element(By.XPATH, "..//ytd-channel-name//yt-formatted-string").text
+                print(f"Canal: {channel_name}, URL do Canal: {channel_url}, Thumbnail do Canal: {channel_thumbnail_url}")
+            except Exception as e:
+                print(f"Erro ao capturar as informações do canal: {e}")
+                channel_name = "Unknown"
+                channel_url = "https://www.youtube.com/channel/Unknown"
+                channel_thumbnail_url = "https://www.example.com/default-channel-thumbnail.jpg"
+
         else:
             print("Link href não encontrado")
             video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"  # Fallback para um vídeo padrão
             thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão
+            channel_name = "Unknown"
+            channel_url = "https://www.youtube.com/channel/Unknown"
+            channel_thumbnail_url = "https://www.example.com/default-channel-thumbnail.jpg"
     else:
         print("Elementos de link não encontrados")
         video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"  # Fallback para um vídeo padrão
         thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão
+        channel_name = "Unknown"
+        channel_url = "https://www.youtube.com/channel/Unknown"
+        channel_thumbnail_url = "https://www.example.com/default-channel-thumbnail.jpg"
 
 except Exception as e:
     print(f"Erro: {e}")
     video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"  # Fallback para um vídeo padrão
     thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão
+    channel_name = "Unknown"
+    channel_url = "https://www.youtube.com/channel/Unknown"
+    channel_thumbnail_url = "https://www.example.com/default-channel-thumbnail.jpg"
 
-# Gerar o arquivo .m3u
-m3u_filename = "TWITCH.m3u"
-with open(m3u_filename, 'w') as m3u_file:
-    # Escrever o cabeçalho do arquivo M3U
-    m3u_file.write("#EXTM3U\n")
-    
-    # Linha EXTINF com título do vídeo, thumbnail e URL do vídeo
-    title = "Elita uzivo [HD] Experiment X"  # Você pode ajustar isso para pegar o título real do vídeo
-    stream_url = video_url  # URL do vídeo
-
-    # Escrever a linha EXTINF no arquivo M3U
-    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {title}\n")
-    m3u_file.write(f"{stream_url}\n")
+# Gerar o arquivo channel_yt.txt
+txt_filename = "channel_yt.txt"
+with open(txt_filename, 'w') as txt_file:
+    # Escrever no arquivo .txt no formato desejado
+    txt_file.write(f"{channel_name} | CHILE | {channel_thumbnail_url} | {channel_url}/live\n")
+    txt_file.write(f"{channel_name} | CHILE | {channel_thumbnail_url} | {video_url}\n")
 
 # Fechar o navegador após o processo
 driver.quit()
 
-print(f"Arquivo {m3u_filename} gerado com sucesso.")
+print(f"Arquivo {txt_filename} gerado com sucesso.")
