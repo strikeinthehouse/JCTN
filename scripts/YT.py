@@ -4,7 +4,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 from selenium.webdriver.common.by import By
-import re
 
 # Configurações do navegador Selenium
 chrome_options = Options()
@@ -23,57 +22,56 @@ driver.get(url_youtube)
 time.sleep(5)
 
 # Capturar os links dos vídeos
+videos = []
 try:
     link_elements = driver.find_elements(By.XPATH, "//a[@class='yt-simple-endpoint style-scope yt-formatted-string']")
     if link_elements:
-        # Pegar o segundo vídeo da lista de resultados
-        second_link_element = link_elements[1]
-        link_href = second_link_element.get_attribute("href")
-        if link_href:
-            # Extrair o ID do canal usando yt-dlp
+        for link_element in link_elements:
+            link_href = link_element.get_attribute("href")
+            if link_href and 'watch' in link_href:
+                videos.append(link_href)
+    else:
+        print("Elementos de link não encontrados")
+except Exception as e:
+    print(f"Erro ao capturar vídeos: {e}")
+
+# Gerar o arquivo M3U na pasta anterior ao diretório do script
+script_dir = os.path.dirname(os.path.abspath(__file__))  # Diretório do script
+parent_dir = os.path.abspath(os.path.join(script_dir, os.pardir))  # Diretório pai
+
+m3u_filename = os.path.join(parent_dir, "TWITCH.m3u")
+
+# Abrir o arquivo M3U para escrita
+with open(m3u_filename, 'w') as m3u_file:
+    # Escrever o cabeçalho do arquivo M3U
+    m3u_file.write("#EXTM3U\n")
+    
+    for video_url in videos:
+        try:
+            # Extrair informações do vídeo usando yt-dlp
             ydl_opts = {
                 'quiet': True,
                 'extract_flat': True,  # Não baixar o vídeo, apenas extrair informações
             }
 
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                info_dict = ydl.extract_info(link_href, download=False)
+                info_dict = ydl.extract_info(video_url, download=False)
                 if 'channel' in info_dict:
                     channel_id = info_dict['channel_id']
-                    video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
-                    print(f"Link do vídeo (m3u8): {video_url}")
+                    stream_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
+                    title = info_dict.get('title', 'Título do vídeo')
+                    thumbnail_url = info_dict.get('thumbnail', 'https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg')  # Thumbnail do vídeo
                 else:
-                    print("ID do canal não encontrado com yt-dlp")
+                    stream_url = "https://ythlsgo.onrender.com/channel/UCOV_Vx1baZJY9Tfvgm-UI3w.m3u8"  # URL de fallback
+                    title = "Vídeo sem canal identificado"
+                    thumbnail_url = 'https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg'  # Thumbnail fixa
 
-            # Thumbnail fixa (conforme solicitado)
-            thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
-            print(f"Thumbnail: {thumbnail_url}")
-        else:
-            print("Link href não encontrado")
-    else:
-        print("Elementos de link não encontrados")
+                # Escrever a linha EXTINF no arquivo M3U
+                m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {title}\n")
+                m3u_file.write(f"{stream_url}\n")
 
-except Exception as e:
-    print(f"Erro: {e}")
-    video_url = "https://ythlsgo.onrender.com/channel/UCOV_Vx1baZJY9Tfvgm-UI3w.m3u8"
-    print(f"Link de fallback: {video_url}")
-    
-    # Thumbnail fixa em caso de erro
-    thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
-
-# Gerar o arquivo .m3u
-m3u_filename = "TWITCH.m3u"
-with open(m3u_filename, 'w') as m3u_file:
-    # Escrever o cabeçalho do arquivo M3U
-    m3u_file.write("#EXTM3U\n")
-    
-    # Linha EXTINF com título do vídeo, thumbnail e URL do vídeo
-    title = "Elita uzivo [HD] Experiment X"  # Você pode ajustar isso para pegar o título real do vídeo
-    stream_url = video_url  # URL do vídeo
-
-    # Escrever a linha EXTINF no arquivo M3U
-    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {title}\n")
-    m3u_file.write(f"{stream_url}\n")
+        except Exception as e:
+            print(f"Erro ao processar o vídeo {video_url}: {e}")
 
 # Fechar o navegador após o processo
 driver.quit()
