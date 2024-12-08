@@ -1,4 +1,5 @@
 import os
+import yt_dlp
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
@@ -29,15 +30,21 @@ try:
         second_link_element = link_elements[1]
         link_href = second_link_element.get_attribute("href")
         if link_href:
-            # Extrair o ID do canal da URL (exemplo: @experimentx5279 ou /channel/UCOV_Vx1baZJY9Tfvgm-UI3w)
-            match = re.search(r"youtube\.com/(?:@([^/]+)|channel/([^/]+))", link_href)
-            if match:
-                channel_id = match.group(1) if match.group(1) else match.group(2)
-                video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
-                print(f"Link do vídeo (m3u8): {video_url}")
-            else:
-                print("ID do canal não encontrado")
-            
+            # Extrair o ID do canal usando yt-dlp
+            ydl_opts = {
+                'quiet': True,
+                'extract_flat': True,  # Não baixar o vídeo, apenas extrair informações
+            }
+
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info_dict = ydl.extract_info(link_href, download=False)
+                if 'channel' in info_dict:
+                    channel_id = info_dict['channel_id']
+                    video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
+                    print(f"Link do vídeo (m3u8): {video_url}")
+                else:
+                    print("ID do canal não encontrado com yt-dlp")
+
             # Thumbnail fixa (conforme solicitado)
             thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
             print(f"Thumbnail: {thumbnail_url}")
