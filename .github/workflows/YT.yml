@@ -34,7 +34,13 @@ jobs:
         run: |
           rm -rf ./log.txt
 
-      # Step to run the Python script YT.py
+      - name: Run YT.py script
+        run: |
+          # Install required Python dependencies
+          python3 -m pip install --upgrade pip
+          python3 -m pip install requests streamlink beautifulsoup4 selenium
+    
+    # Step to run the Python script YT.py
       - name: Run YT.py script
         run: |
           # Ensure Python is installed
@@ -44,6 +50,7 @@ jobs:
           cd scripts
           python3 YT.py
 
+        
       - name: git pull
         run: |
           git pull origin main
