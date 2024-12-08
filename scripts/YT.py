@@ -1,10 +1,10 @@
 import os
+import yt_dlp
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 from selenium.webdriver.common.by import By
 import re
-import yt_dlp
 
 # Configurações do navegador Selenium
 chrome_options = Options()
@@ -48,30 +48,41 @@ with open(m3u_filename, 'w') as m3u_file:
                     processed_links.add(link_href)  # Adiciona o link ao conjunto
                     
                     # Extrair o ID do canal usando yt-dlp
-                    try:
-                        with yt_dlp.YoutubeDL() as ydl:
-                            info_dict = ydl.extract_info(link_href, download=False)
-                            if 'channel' in info_dict:
-                                channel_id = info_dict['channel_id']
-                                video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
-                            else:
-                                print(f"Canal não encontrado para o vídeo: {link_href}")
-                                continue
-                    except Exception as e:
-                        print(f"Erro ao obter informações do vídeo: {link_href} - {e}")
-                        continue
+                    ydl_opts = {
+                        'quiet': True,
+                        'force_generic_extractor': True,
+                    }
 
-                    # Extrair o título do vídeo
-                    title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
-                    video_title = title_element.text if title_element else "Título Desconhecido"
-                    
-                    # Thumbnail fixa
-                    thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
-                    
-                    # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
-                    m3u_file.write(f"{video_url}\n")
-                    print(f"Adicionado vídeo: {video_title} ({video_url})")
+                    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                        try:
+                            result = ydl.extract_info(link_href, download=False)
+                            if 'channel' in result:
+                                channel_id = result['channel_id']
+                            elif 'uploader_id' in result:
+                                channel_id = result['uploader_id']
+                            else:
+                                channel_id = None
+
+                            if channel_id:
+                                # Construir a URL do canal no formato desejado
+                                video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
+
+                                # Extrair o título do vídeo
+                                title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
+                                video_title = title_element.text if title_element else "Título Desconhecido"
+                                
+                                # Thumbnail fixa
+                                thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
+                                
+                                # Escrever a linha EXTINF para cada vídeo no arquivo M3U
+                                m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
+                                m3u_file.write(f"{video_url}\n")
+                                print(f"Adicionado vídeo: {video_title} ({video_url})")
+                            else:
+                                print(f"ID do canal não encontrado para o link: {link_href}")
+                        except Exception as e:
+                            print(f"Erro ao processar {link_href}: {e}")
+
         else:
             print("Elementos de link não encontrados")
     except Exception as e:
