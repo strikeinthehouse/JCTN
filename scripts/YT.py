@@ -47,8 +47,8 @@ with open(m3u_filename, 'w') as m3u_file:
                         channel_id = match.group(1) if match.group(1) else match.group(2)
                         video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
 
-                        # Extrair o título do vídeo real (usando o título contido no link)
-                        title_element = link_element.find_element(By.XPATH, "//yt-formatted-string[@class='style-scope ytd-video-renderer']")
+                        # Extrair o título do vídeo real (a partir da estrutura do HTML)
+                        title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
                         video_title = title_element.text if title_element else "Título Desconhecido"
                         
                         # Thumbnail fixa (conforme solicitado)
