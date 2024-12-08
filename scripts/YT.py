@@ -24,7 +24,8 @@ time.sleep(5)
 # Capturar os links dos vídeos
 videos = []
 try:
-    link_elements = driver.find_elements(By.XPATH, "//a[@class='yt-simple-endpoint style-scope yt-formatted-string']")
+    # Alterado o XPath para capturar corretamente os links dos vídeos do YouTube
+    link_elements = driver.find_elements(By.XPATH, "//a[@href and contains(@href, '/watch?v=')]")
     if link_elements:
         for link_element in link_elements:
             link_href = link_element.get_attribute("href")
@@ -62,7 +63,8 @@ with open(m3u_filename, 'w') as m3u_file:
                     title = info_dict.get('title', 'Título do vídeo')
                     thumbnail_url = info_dict.get('thumbnail', 'https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg')  # Thumbnail do vídeo
                 else:
-                    stream_url = "https://ythlsgo.onrender.com/channel/UCOV_Vx1baZJY9Tfvgm-UI3w.m3u8"  # URL de fallback
+                    # URL de fallback para vídeos que não possuem canal identificado
+                    stream_url = f"https://ythlsgo.onrender.com/channel/{info_dict['id']}.m3u8"
                     title = "Vídeo sem canal identificado"
                     thumbnail_url = 'https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg'  # Thumbnail fixa
 
