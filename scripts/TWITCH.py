@@ -1,64 +1,123 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
+import requests
+import streamlink
+import logging
+from logging.handlers import RotatingFileHandler
 
-# Configurações do navegador Selenium
+# Configurando logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+log_file = "log.txt"
+file_handler = RotatingFileHandler(log_file, maxBytes=10**6, backupCount=5)
+file_handler.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+
+# Banner do M3U
+banner = r'''
+#EXTM3U
+'''
+
+# Função para obter URL do stream usando Streamlink
+def grab(url):
+    try:
+        if url.endswith('.m3u') or url.endswith('.m3u8') or ".ts" in url:
+            return url
+
+        streams = streamlink.streams(url)
+        logger.debug("Streams disponíveis para %s: %s", url, streams)
+        if "best" in streams:
+            return streams["best"].url
+        return None
+    except streamlink.exceptions.NoPluginError as err:
+        logger.error("Plugin não encontrado para %s: %s", url, err)
+        return None
+    except streamlink.StreamlinkError as err:
+        logger.error("Erro do Streamlink para %s: %s", url, err)
+        return None
+
+# Função para verificar URL
+def check_url(url):
+    try:
+        response = requests.head(url, timeout=15)
+        if response.status_code == 200:
+            logger.debug("URL válida: %s", url)
+            return True
+    except requests.RequestException as err:
+        logger.warning("Erro ao verificar URL %s: %s", url, err)
+    return False
+
+# Configuração do Selenium
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # Executa sem abrir o navegador
-chrome_options.add_argument("--disable-gpu")  # Necessário para o headless funcionar bem
-
-# Inicializa o driver do Chrome
-driver = webdriver.Chrome(options=chrome_options)
-
-# URL da pesquisa no YouTube (ajuste conforme necessário)
-url_youtube = "https://www.youtube.com/results?search_query=zadruga&sp=CAMSAkAB"
-
-# Abrir a página de resultados no navegador
-driver.get(url_youtube)
-
-# Esperar a página carregar
-time.sleep(5)
-
-# Capturar os dados dos vídeos e canais
-videos_info = []
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
 try:
-    # Encontrar os elementos de vídeo
-    video_elements = driver.find_elements(By.XPATH, "//ytd-video-renderer")
+    driver = webdriver.Chrome(options=chrome_options)
+    url_twitch = "https://www.twitch.tv/search?term=gran%20hermano"
+    driver.get(url_twitch)
+    time.sleep(5)
 
-    for video in video_elements:
-        # Tentar encontrar o título do vídeo (aria-label)
-        title_element = video.find_element(By.XPATH, ".//yt-formatted-string[@class='style-scope ytd-video-renderer']")
-        video_title = title_element.get_attribute("aria-label") if title_element else "Desconhecido"
-        
-        # Tentar encontrar o nome do canal
-        channel_element = video.find_element(By.XPATH, ".//a[@class='yt-simple-endpoint style-scope yt-formatted-string']")
-        channel_name = channel_element.text.strip() if channel_element else "Desconhecido"
-        
-        # Tentar encontrar a URL da miniatura
-        thumbnail_element = video.find_element(By.XPATH, ".//img[@class='yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded']")
-        thumbnail_url = thumbnail_element.get_attribute("src") if thumbnail_element else "https://www.example.com/default-thumbnail.jpg"
-        
-        # Adicionar as informações coletadas na lista
-        videos_info.append({
-            'title': video_title,
-            'channel': channel_name,
-            'thumbnail': thumbnail_url,
-            'url': "https://www.youtube.com" + video.find_element(By.XPATH, ".//a[@id='thumbnail']").get_attribute("href")
-        })
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    # Filtrar apenas itens com data-a-target="search-result-live-channel"
+    live_channels = soup.find_all('div', {'data-a-target': 'search-result-live-channel'})
+
+    channel_data = []
+    channel_info_path = 'channel_twitch.txt'
+
+    with open(channel_info_path, 'w', encoding='utf-8') as file:
+        for channel in live_channels:
+            # Selecionar elementos dentro do bloco live-channel
+            link_tag = channel.find('a', href=True)
+            title_tag = channel.find('strong', {'data-test-selector': 'search-result-live-channel__name'})
+            category_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__category'})
+            thumb_tag = channel.find('img', class_='search-result-card__img')
+
+            if not link_tag or not title_tag:
+                continue
+
+            tvg_id = link_tag['href'].strip('/')
+            channel_name = title_tag.text.strip()
+            thumb_url = thumb_tag['src'] if thumb_tag else ''
+            group_title = category_tag.text.strip() if category_tag else 'Unknown'
+
+            output_line = f"{channel_name} | {group_title} | Logo Not Found"
+            file.write(output_line + "\n")
+            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
+
+            channel_data.append({
+                'type': 'info',
+                'ch_name': channel_name,
+                'tvg_id': tvg_id,
+                'url': f"https://www.twitch.tv/{tvg_id}",
+                'thumb': thumb_url,
+                'group_title': group_title
+            })
+
+    # Gerar arquivo M3U com thumbnails
+    with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
+        m3u_file.write(banner)
+    
+        for item in channel_data:
+            link = grab(item['url'])
+            if link and check_url(link):
+                m3u_file.write(
+                    f'\n#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="{item["thumb"]}",{item["ch_name"]}'
+                )
+                m3u_file.write('\n')
+                m3u_file.write(link)
+                m3u_file.write('\n')
 
 except Exception as e:
-    print(f"Erro ao capturar dados: {e}")
-    videos_info = []
+    logger.error("Erro geral: %s", e)
 
-# Gerar o arquivo channel_yt.txt com os dados extraídos
-txt_filename = "channel_yt.txt"
-with open(txt_filename, 'w') as txt_file:
-    for video in videos_info:
-        txt_file.write(f"{video['title']} | CHILE | {video['thumbnail']} | {video['url']}\n")
-
-# Fechar o navegador
-driver.quit()
-
-print(f"Arquivo {txt_filename} gerado com sucesso.")
+finally:
+    if 'driver' in locals():
+        driver.quit()
