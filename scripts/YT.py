@@ -1,71 +1,68 @@
-import time
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+import time
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.webdriver import WebDriver
 
 # Configurações do navegador Selenium
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # Executa sem abrir o navegador
-chrome_options.add_argument("--disable-gpu")  # Necessário para o headless funcionar bem
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
-# Inicializa o driver do Chrome
 driver = webdriver.Chrome(options=chrome_options)
 
-# URL da pesquisa no YouTube
+# URL da página desejada (YouTube com resultados de busca)
 url_youtube = "https://www.youtube.com/results?search_query=zadruga&sp=CAMSAkAB"
 
-# Abrir a página de resultados no navegador
+# Abrir a página no navegador
 driver.get(url_youtube)
 
 # Esperar a página carregar
 time.sleep(5)
 
-# Capturar os dados dos canais
-channels_info = []
-
+# Capturar os links dos vídeos
 try:
-    # Encontrar os elementos que contêm informações sobre os canais ao vivo
-    channel_elements = driver.find_elements(By.XPATH, "//ytd-channel-renderer//a[@id='channel-info']")
-    
-    for element in channel_elements:
-        channel_url = element.get_attribute("href")  # URL do canal
-        if channel_url:
-            # Extrair o nome do canal (se disponível) e a URL da miniatura
-            channel_name = element.get_attribute("aria-label") or element.text.strip()
-            thumbnail_url = element.find_element(By.XPATH, "..//yt-image").get_attribute("src")
+    link_elements = driver.find_elements(By.XPATH, "//a[@class='yt-simple-endpoint style-scope yt-formatted-string']")
+    if link_elements:
+        # Pegar o segundo vídeo da lista de resultados
+        second_link_element = link_elements[1]
+        link_href = second_link_element.get_attribute("href")
+        if link_href:
+            # Construir o link final para o vídeo ao vivo
+            video_url = "https://www.youtube.com" + link_href
+            print(f"Link do vídeo: {video_url}")
             
-            # Adicionar as informações do canal à lista
-            channels_info.append({
-                'name': channel_name,
-                'country': 'CHILE',  # País fixo, mas você pode adicionar lógica para extrair o país se necessário
-                'thumbnail': thumbnail_url,
-                'url': channel_url
-            })
-    
-    # Procurar pelo vídeo ao vivo, caso exista
-    video_elements = driver.find_elements(By.XPATH, "//ytd-video-renderer//a[@id='thumbnail']")
-    
-    if len(video_elements) > 0:
-        live_video_url = video_elements[0].get_attribute("href")  # Pega o primeiro vídeo encontrado
+            # Capturar a thumbnail do vídeo
+            thumbnail_url = second_link_element.find_element(By.XPATH, "..//yt-image").get_attribute("src")
+            print(f"Thumbnail: {thumbnail_url}")
+        else:
+            print("Link href não encontrado")
     else:
-        live_video_url = "https://www.youtube.com/watch?v=default_video"  # Fallback caso não encontre
+        print("Elementos de link não encontrados")
 
 except Exception as e:
-    print(f"Erro ao capturar dados: {e}")
-    channels_info = []
-    live_video_url = "https://www.youtube.com/watch?v=default_video"
+    print(f"Erro: {e}")
+    video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"
+    print(f"Link de fallback: {video_url}")
 
-# Gerar o arquivo channel_yt.txt com os dados extraídos
-txt_filename = "channel_yt.txt"
-with open(txt_filename, 'w') as txt_file:
-    # Escrever os dados dos canais ao vivo no arquivo
-    for channel in channels_info:
-        txt_file.write(f"{channel['name']} | {channel['country']} | {channel['thumbnail']} | {channel['url']}\n")
+# Gerar o arquivo .m3u
+m3u_filename = "TWITCH.m3u"
+with open(m3u_filename, 'w') as m3u_file:
+    # Escrever o cabeçalho do arquivo M3U
+    m3u_file.write("#EXTM3U\n")
     
-    # Adicionar o link do vídeo ao vivo encontrado
-    txt_file.write(f"Unknown | CHILE | https://www.example.com/default-thumbnail.jpg | {live_video_url}\n")
+    # Linha EXTINF com título do vídeo, thumbnail e URL do vídeo
+    title = "Elita uzivo [HD] Experiment X"  # Você pode ajustar isso para pegar o título real do vídeo
+    thumbnail = thumbnail_url  # Thumbnail capturada
+    stream_url = video_url  # URL do vídeo
 
-# Fechar o navegador
+    # Escrever a linha EXTINF no arquivo M3U
+    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\" group-title=\"Live\", {title}\n")
+    m3u_file.write(f"{stream_url}\n")
+
+# Fechar o navegador após o processo
 driver.quit()
 
-print(f"Arquivo {txt_filename} gerado com sucesso.")
+print(f"Arquivo {m3u_filename} gerado com sucesso.")
