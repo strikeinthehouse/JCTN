@@ -60,7 +60,7 @@ with open(m3u_filename, 'w') as m3u_file:
                         thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
                         
                         # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                        m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
+                        m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\", {video_title}\n")
                         m3u_file.write(f"{video_url}\n")
                         print(f"Adicionado vídeo: {video_title} ({video_url})")
                     else:
