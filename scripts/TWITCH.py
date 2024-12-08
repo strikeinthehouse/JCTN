@@ -66,17 +66,19 @@ try:
     time.sleep(5)
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    cards = soup.find_all('div', class_='search-result-card')
+    # Filtrar apenas itens com data-a-target="search-result-live-channel"
+    live_channels = soup.find_all('div', {'data-a-target': 'search-result-live-channel'})
 
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
 
     with open(channel_info_path, 'w', encoding='utf-8') as file:
-        for card in cards:
-            link_tag = card.find('a', href=True)
-            title_tag = card.find('p', class_='CoreText-sc-1txzju1-0')
-            thumb_tag = card.find('img')
-            group_tag = card.find('p', class_='CoreText-sc-1txzju1-0.exdYde')
+        for channel in live_channels:
+            # Selecionar elementos dentro do bloco live-channel
+            link_tag = channel.find('a', href=True)
+            title_tag = channel.find('strong', {'data-test-selector': 'search-result-live-channel__name'})
+            category_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__category'})
+            thumb_tag = channel.find('img', class_='search-result-card__img')
 
             if not link_tag or not title_tag:
                 continue
@@ -84,7 +86,7 @@ try:
             tvg_id = link_tag['href'].strip('/')
             channel_name = title_tag.text.strip()
             thumb_url = thumb_tag['src'] if thumb_tag else ''
-            group_title = group_tag.text.strip() if group_tag else 'Unknown'
+            group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
             output_line = f"{channel_name} | {group_title} | Logo Not Found"
             file.write(output_line + "\n")
@@ -98,6 +100,7 @@ try:
                 'thumb': thumb_url,
                 'group_title': group_title
             })
+
     # Gerar arquivo M3U com thumbnails
     with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         m3u_file.write(banner)
@@ -112,11 +115,10 @@ try:
                 m3u_file.write(link)
                 m3u_file.write('\n')
 
-
-
 except Exception as e:
     logger.error("Erro geral: %s", e)
 
 finally:
     if 'driver' in locals():
         driver.quit()
+
