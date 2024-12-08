@@ -34,18 +34,26 @@ try:
             video_url = "https://www.youtube.com" + link_href
             print(f"Link do vídeo: {video_url}")
             
-            # Capturar a thumbnail do vídeo
-            thumbnail_url = second_link_element.find_element(By.XPATH, "..//yt-image").get_attribute("src")
-            print(f"Thumbnail: {thumbnail_url}")
+            # Tentar capturar a thumbnail do vídeo
+            try:
+                thumbnail_url = second_link_element.find_element(By.XPATH, "..//yt-image").get_attribute("src")
+                print(f"Thumbnail: {thumbnail_url}")
+            except Exception as e:
+                print(f"Erro ao capturar a thumbnail: {e}")
+                thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão, caso falhe
         else:
             print("Link href não encontrado")
+            video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"  # Fallback para um vídeo padrão
+            thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão
     else:
         print("Elementos de link não encontrados")
+        video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"  # Fallback para um vídeo padrão
+        thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão
 
 except Exception as e:
     print(f"Erro: {e}")
-    video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"
-    print(f"Link de fallback: {video_url}")
+    video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"  # Fallback para um vídeo padrão
+    thumbnail_url = "https://www.example.com/default-thumbnail.jpg"  # Thumbnail padrão
 
 # Gerar o arquivo .m3u
 m3u_filename = "TWITCH.m3u"
@@ -55,11 +63,10 @@ with open(m3u_filename, 'w') as m3u_file:
     
     # Linha EXTINF com título do vídeo, thumbnail e URL do vídeo
     title = "Elita uzivo [HD] Experiment X"  # Você pode ajustar isso para pegar o título real do vídeo
-    thumbnail = thumbnail_url  # Thumbnail capturada
     stream_url = video_url  # URL do vídeo
 
     # Escrever a linha EXTINF no arquivo M3U
-    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\" group-title=\"Live\", {title}\n")
+    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {title}\n")
     m3u_file.write(f"{stream_url}\n")
 
 # Fechar o navegador após o processo
