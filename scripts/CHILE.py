@@ -29,12 +29,13 @@ def download_channel_file(url):
         logger.error("Erro ao baixar o arquivo: %s", err)
         sys.exit("Erro ao baixar o arquivo .txt")
 
-def extract_youtube_id(url):
-    """Extrai o ID do canal do YouTube ou do vídeo a partir da URL."""
-    # Para URLs do tipo "/channel/<ID>"
-    channel_match = re.search(r"youtube\.com/channel/([a-zA-Z0-9_-]+)", url)
-    if channel_match:
-        return channel_match.group(1)
+
+
+def extract_youtube_id(line):
+    # Example regex pattern for YouTube video IDs
+    video_match = re.search(r"(?:v=|\/)([0-9A-Za-z_-]{11})", line)
+    if video_match is None:
+        raise ValueError(f"No valid YouTube ID found in: {line}")
     
     # Para URLs do tipo "/watch?v=<ID>" ou "/live/<ID>"
     video_match = re.search(r"(?:youtube\.com/watch\?v=|youtube\.com/live/|youtube\.com/live/\S+)[a-zA-Z0-9_-]+", url)
