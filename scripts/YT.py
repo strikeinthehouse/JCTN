@@ -54,8 +54,12 @@ except Exception as e:
     # Thumbnail fixa em caso de erro
     thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
 
-# Gerar o arquivo .m3u
-m3u_filename = "TWITCH.m3u"
+# Definir o diretório pai
+parent_directory = os.path.abspath(os.path.join(os.getcwd(), '..'))
+
+# Gerar o arquivo .m3u no diretório pai
+m3u_filename = os.path.join(parent_directory, "TWITCH.m3u")
+
 with open(m3u_filename, 'w') as m3u_file:
     # Escrever o cabeçalho do arquivo M3U
     m3u_file.write("#EXTM3U\n")
