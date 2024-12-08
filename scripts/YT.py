@@ -1,5 +1,4 @@
 import os
-import yt_dlp
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
@@ -47,42 +46,25 @@ with open(m3u_filename, 'w') as m3u_file:
                 if link_href and link_href not in processed_links:  # Verifica se o link já foi processado
                     processed_links.add(link_href)  # Adiciona o link ao conjunto
                     
-                    # Extrair o ID do canal usando yt-dlp
-                    ydl_opts = {
-                        'quiet': True,
-                        'force_generic_extractor': True,
-                    }
+                    # Extrair o ID do canal da URL
+                    match = re.search(r"youtube\.com/(?:@([^/]+)|channel/([^/]+))", link_href)
+                    if match:
+                        channel_id = match.group(1) if match.group(1) else match.group(2)
+                        video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
 
-                    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                        try:
-                            result = ydl.extract_info(link_href, download=False)
-                            if 'channel' in result:
-                                channel_id = result['channel_id']
-                            elif 'uploader_id' in result:
-                                channel_id = result['uploader_id']
-                            else:
-                                channel_id = None
-
-                            if channel_id:
-                                # Construir a URL do canal no formato desejado
-                                video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
-
-                                # Extrair o título do vídeo
-                                title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
-                                video_title = title_element.text if title_element else "Título Desconhecido"
-                                
-                                # Thumbnail fixa
-                                thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
-                                
-                                # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                                m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
-                                m3u_file.write(f"{video_url}\n")
-                                print(f"Adicionado vídeo: {video_title} ({video_url})")
-                            else:
-                                print(f"ID do canal não encontrado para o link: {link_href}")
-                        except Exception as e:
-                            print(f"Erro ao processar {link_href}: {e}")
-
+                        # Extrair o título do vídeo
+                        title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
+                        video_title = title_element.text if title_element else "Título Desconhecido"
+                        
+                        # Thumbnail fixa
+                        thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
+                        
+                        # Escrever a linha EXTINF para cada vídeo no arquivo M3U
+                        m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
+                        m3u_file.write(f"{video_url}\n")
+                        print(f"Adicionado vídeo: {video_title} ({video_url})")
+                    else:
+                        print("ID do canal não encontrado para o link:", link_href)
         else:
             print("Elementos de link não encontrados")
     except Exception as e:
@@ -90,5 +72,3 @@ with open(m3u_filename, 'w') as m3u_file:
 
 # Fechar o navegador após o processo
 driver.quit()
-
-print(f"Arquivo {m3u_filename} gerado com sucesso.")
