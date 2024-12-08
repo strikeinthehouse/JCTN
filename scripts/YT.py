@@ -46,17 +46,18 @@ with open(m3u_filename, 'w') as m3u_file:
                     if match:
                         channel_id = match.group(1) if match.group(1) else match.group(2)
                         video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
+
+                        # Extrair o título do vídeo real (usando o título contido no link)
+                        title_element = link_element.find_element(By.XPATH, "//yt-formatted-string[@class='style-scope ytd-video-renderer']")
+                        video_title = title_element.text if title_element else "Título Desconhecido"
                         
                         # Thumbnail fixa (conforme solicitado)
                         thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
                         
-                        # Título do vídeo - você pode ajustar isso conforme necessário
-                        title = "Elita uzivo [HD] Experiment X"
-                        
                         # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                        m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {title}\n")
+                        m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {video_title}\n")
                         m3u_file.write(f"{video_url}\n")
-                        print(f"Adicionado vídeo: {title} ({video_url})")
+                        print(f"Adicionado vídeo: {video_title} ({video_url})")
                     else:
                         print("ID do canal não encontrado para o link:", link_href)
         else:
