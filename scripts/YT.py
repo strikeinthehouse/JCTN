@@ -33,7 +33,7 @@ try:
             match = re.search(r"youtube\.com/(?:@([^/]+)|channel/([^/]+))", link_href)
             if match:
                 channel_id = match.group(1) if match.group(1) else match.group(2)
-                video_url = f"https://ythlsgo.onrender.com/channel/{channel_id}.m3u8"
+                video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
                 print(f"Link do vídeo (m3u8): {video_url}")
             else:
                 print("ID do canal não encontrado")
