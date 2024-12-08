@@ -32,6 +32,9 @@ with open(m3u_filename, 'w') as m3u_file:
     # Escrever o cabeçalho do arquivo M3U
     m3u_file.write("#EXTM3U\n")
 
+    # Conjunto para armazenar links já processados (evitar duplicação)
+    processed_links = set()
+
     try:
         # Capturar os links dos vídeos
         link_elements = driver.find_elements(By.XPATH, "//a[@class='yt-simple-endpoint style-scope yt-formatted-string']")
@@ -40,18 +43,20 @@ with open(m3u_filename, 'w') as m3u_file:
             # Iterar sobre os links de vídeo encontrados
             for link_element in link_elements:
                 link_href = link_element.get_attribute("href")
-                if link_href:
-                    # Extrair o ID do canal da URL (exemplo: @experimentx5279 ou /channel/UCOV_Vx1baZJY9Tfvgm-UI3w)
+                if link_href and link_href not in processed_links:  # Verifica se o link já foi processado
+                    processed_links.add(link_href)  # Adiciona o link ao conjunto
+                    
+                    # Extrair o ID do canal da URL
                     match = re.search(r"youtube\.com/(?:@([^/]+)|channel/([^/]+))", link_href)
                     if match:
                         channel_id = match.group(1) if match.group(1) else match.group(2)
                         video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
 
-                        # Extrair o título do vídeo real (a partir da estrutura do HTML)
+                        # Extrair o título do vídeo
                         title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
                         video_title = title_element.text if title_element else "Título Desconhecido"
                         
-                        # Thumbnail fixa (conforme solicitado)
+                        # Thumbnail fixa
                         thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
                         
                         # Escrever a linha EXTINF para cada vídeo no arquivo M3U
