@@ -30,12 +30,12 @@ try:
         second_link_element = link_elements[1]
         link_href = second_link_element.get_attribute("href")
         if link_href:
-            # Construir o link final para o vídeo ao vivo
-            video_url = "https://www.youtube.com" + link_href
+            # Usar o link diretamente sem duplicação
+            video_url = link_href
             print(f"Link do vídeo: {video_url}")
             
-            # Capturar a thumbnail do vídeo
-            thumbnail_url = second_link_element.find_element(By.XPATH, "..//yt-image").get_attribute("src")
+            # Thumbnail fixa (conforme solicitado)
+            thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
             print(f"Thumbnail: {thumbnail_url}")
         else:
             print("Link href não encontrado")
@@ -46,6 +46,9 @@ except Exception as e:
     print(f"Erro: {e}")
     video_url = "https://www.youtube.com/watch?v=_9Grp5tYrYI"
     print(f"Link de fallback: {video_url}")
+    
+    # Thumbnail fixa em caso de erro
+    thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
 
 # Gerar o arquivo .m3u
 m3u_filename = "TWITCH.m3u"
@@ -55,11 +58,10 @@ with open(m3u_filename, 'w') as m3u_file:
     
     # Linha EXTINF com título do vídeo, thumbnail e URL do vídeo
     title = "Elita uzivo [HD] Experiment X"  # Você pode ajustar isso para pegar o título real do vídeo
-    thumbnail = thumbnail_url  # Thumbnail capturada
     stream_url = video_url  # URL do vídeo
 
     # Escrever a linha EXTINF no arquivo M3U
-    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\" group-title=\"Live\", {title}\n")
+    m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Live\", {title}\n")
     m3u_file.write(f"{stream_url}\n")
 
 # Fechar o navegador após o processo
