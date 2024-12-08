@@ -1,0 +1,59 @@
+name: M3U generator
+
+# Controls when the action will run.
+on:
+  schedule:
+    - cron: '0 0/1 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a set of commands using the runner's shell 
+      - name: config
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Delete log
+        run: |
+          rm -rf ./log.txt
+
+      # Step to run the Python script YT.py
+      - name: Run YT.py script
+        run: |
+          # Ensure Python is installed
+          python3 --version || sudo apt-get install python3
+          
+          # Navigate to the scripts folder and run the YT.py script
+          cd scripts
+          python3 YT.py
+
+      - name: git pull
+        run: |
+          git pull origin main
+
+      - name: git add
+        run: |
+          git add -A
+          ls -la
+
+      - name: commit & push
+        run: |
+          git commit -m "links are updated"
+          git push
