@@ -32,18 +32,16 @@ def download_channel_file(url):
 
 
 def extract_youtube_id(line):
-    # Example regex pattern for YouTube video IDs
+    # Regex pattern to extract YouTube video IDs
     video_match = re.search(r"(?:v=|\/)([0-9A-Za-z_-]{11})", line)
-    if video_match is None:
-        raise ValueError(f"No valid YouTube ID found in: {line}")
-    
-    # Para URLs do tipo "/watch?v=<ID>" ou "/live/<ID>"
-    video_match = re.search(r"(?:youtube\.com/watch\?v=|youtube\.com/live/|youtube\.com/live/\S+)[a-zA-Z0-9_-]+", url)
     if video_match:
         return video_match.group(1)
     
-    logger.warning("ID não encontrado para URL: %s", url)
+    # Log a warning if no valid YouTube ID is found
+    logger.warning("No valid YouTube ID found in: %s", line)
     return None
+
+
 
 # Baixa e processa o arquivo de canais
 lines = download_channel_file(CHANNEL_FILE_URL)
@@ -431,13 +429,13 @@ for line in lines:
             'tvg_id': tvg_id
         })
     else:
-        # Pega o ID do canal a partir da URL do YouTube
         youtube_id = extract_youtube_id(line)
         if youtube_id:
             channel_data.append({
                 'type': 'link',
                 'url': f"https://ythls.armelin.one/channel/{youtube_id}.m3u8"
             })
+
 
 # Escreve no arquivo .m3u
 with open("CHILE.m3u", "w") as f:
