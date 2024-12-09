@@ -156,7 +156,7 @@ with open(m3u_filename, 'a') as m3u_file:
                             video_title = title_element.text if title_element else "Título Desconhecido"
                             
                             # Thumbnail fixa
-                            thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
+                            thumbnail_url = "https://yt3.googleusercontent.com/u6H_TO65Atxmpc98XR-HcMFZ16o1UVppXqO7gj4hMUfz6H6YHjXZh4rLGTkyMHXNmeOfRFa0=s160-c-k-c0x00ffffff-no-rj"
                             
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
                             m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\", {video_title}\n")
