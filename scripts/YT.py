@@ -64,11 +64,12 @@ with open(m3u_filename, 'a') as m3u_file:
                             title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
                             video_title = title_element.text if title_element else "Título Desconhecido"
                             
-                            # Thumbnail fixa
-                            thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
+                            # Extrair a URL da thumbnail do vídeo
+                            thumbnail_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//img[contains(@class, 'yt-core-image--fill-parent-height')]")
+                            thumbnail_url = thumbnail_element.get_attribute("src") if thumbnail_element else "https://i.ytimg.com/vi/placeholder/hqdefault.jpg"
                             
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                            m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\", {video_title}\n")
+                            m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\",{video_title}\n")
                             m3u_file.write(f"{video_url}\n")
                             print(f"Adicionado vídeo: {video_title} ({video_url})")
                         else:
@@ -80,6 +81,7 @@ with open(m3u_filename, 'a') as m3u_file:
 
 # Fechar o navegador após o processo
 driver.quit()
+
 
 
 
