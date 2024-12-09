@@ -56,26 +56,23 @@ with open(m3u_filename, 'a') as m3u_file:
 
                     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                         info_dict = ydl.extract_info(link_href, download=False)
-                        if 'id' in info_dict:  # Garantir que 'id' do vídeo seja encontrado
-                            video_id = info_dict['id']
-                            video_url = f"https://ythls.armelin.one/video/{video_id}.m3u8"
+                        if 'channel_id' in info_dict:
+                            channel_id = info_dict['channel_id']
+                            video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
 
                             # Extrair o título do vídeo
                             title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
                             video_title = title_element.text if title_element else "Título Desconhecido"
-
-                            # Usar yt-dlp para pegar a thumbnail do vídeo diretamente
-                            thumbnail_url = info_dict.get('thumbnail', None)
-
-                            if not thumbnail_url:  # Se não encontrar a thumbnail, usar a imagem padrão
-                                thumbnail_url = "https://i.ytimg.com/vi/default_thumbnail.jpg"
+                            
+                            # Thumbnail fixa
+                            thumbnail_url = "https://i.ytimg.com/vi/FjBntFoMIuc/hqdefault.jpg"
                             
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
                             m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\", {video_title}\n")
                             m3u_file.write(f"{video_url}\n")
                             print(f"Adicionado vídeo: {video_title} ({video_url})")
                         else:
-                            print("ID do vídeo não encontrado para o link:", link_href)
+                            print("ID do canal não encontrado para o link:", link_href)
         else:
             print("Elementos de link não encontrados")
     except Exception as e:
@@ -83,6 +80,8 @@ with open(m3u_filename, 'a') as m3u_file:
 
 # Fechar o navegador após o processo
 driver.quit()
+
+
 
 
 
