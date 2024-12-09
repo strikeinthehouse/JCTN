@@ -56,8 +56,8 @@ with open(m3u_filename, 'w') as m3u_file:
 
                     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                         info_dict = ydl.extract_info(link_href, download=False)
-                        if 'uploader_id' in info_dict:
-                            channel_id = info_dict['uploader_id']
+                        if 'channel_id' in info_dict:
+                            channel_id = info_dict['channel_id']
                             video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
 
                             # Extrair o título do vídeo
