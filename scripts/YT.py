@@ -63,10 +63,10 @@ with open(m3u_filename, 'a') as m3u_file:
                             # Extrair o título do vídeo
                             title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
                             video_title = title_element.text if title_element else "Título Desconhecido"
-                            
-                            # Extração correta da thumbnail com base no `video_id`
-                            thumbnail_url = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
-                            
+
+                            # Usar yt-dlp para pegar a thumbnail do vídeo diretamente
+                            thumbnail_url = info_dict.get('thumbnail', 'https://i.ytimg.com/vi/default_thumbnail.jpg')
+
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
                             m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\", {video_title}\n")
                             m3u_file.write(f"{video_url}\n")
@@ -80,6 +80,7 @@ with open(m3u_filename, 'a') as m3u_file:
 
 # Fechar o navegador após o processo
 driver.quit()
+
 
 
 
