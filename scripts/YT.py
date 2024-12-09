@@ -66,7 +66,7 @@ with open(m3u_filename, 'a') as m3u_file:
                             
                             # Extrair a URL da thumbnail do vídeo
                             thumbnail_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//img[contains(@class, 'yt-core-image--fill-parent-height')]")
-                            thumbnail_url = thumbnail_element.get_attribute("src") if thumbnail_element else "https://i.ytimg.com/vi/placeholder/hqdefault.jpg"
+                            thumbnail_url = thumbnail_element.get_attribute("src") if thumbnail_element else "https://yt3.googleusercontent.com/u6H_TO65Atxmpc98XR-HcMFZ16o1UVppXqO7gj4hMUfz6H6YHjXZh4rLGTkyMHXNmeOfRFa0=s900-c-k-c0x00ffffff-no-rj"
                             
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
                             m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\",{video_title}\n")
