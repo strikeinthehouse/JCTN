@@ -56,16 +56,15 @@ with open(m3u_filename, 'a') as m3u_file:
 
                     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                         info_dict = ydl.extract_info(link_href, download=False)
-                        if 'channel_id' in info_dict:
-                            channel_id = info_dict['channel_id']
-                            video_url = f"https://ythls.armelin.one/channel/{channel_id}.m3u8"
+                        if 'id' in info_dict:  # Garantir que 'id' do vídeo seja encontrado
+                            video_id = info_dict['id']
+                            video_url = f"https://ythls.armelin.one/video/{video_id}.m3u8"
 
                             # Extrair o título do vídeo
                             title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
                             video_title = title_element.text if title_element else "Título Desconhecido"
                             
-                            # Extrair a thumbnail específica do vídeo
-                            video_id = info_dict['id']
+                            # Extração correta da thumbnail com base no `video_id`
                             thumbnail_url = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
                             
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
@@ -73,7 +72,7 @@ with open(m3u_filename, 'a') as m3u_file:
                             m3u_file.write(f"{video_url}\n")
                             print(f"Adicionado vídeo: {video_title} ({video_url})")
                         else:
-                            print("ID do canal não encontrado para o link:", link_href)
+                            print("ID do vídeo não encontrado para o link:", link_href)
         else:
             print("Elementos de link não encontrados")
     except Exception as e:
@@ -81,6 +80,7 @@ with open(m3u_filename, 'a') as m3u_file:
 
 # Fechar o navegador após o processo
 driver.quit()
+
 
 
 import os
