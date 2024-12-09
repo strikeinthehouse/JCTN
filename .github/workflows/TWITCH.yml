@@ -40,12 +40,30 @@ jobs:
         run: |
           rm -rf ./log.txt
 
+      - name: Instalando coisas
+        run: |
+          # Install required Python dependencies
+          python3 -m pip install --upgrade pip
+          python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
+          
+          
       - name: Main
         run: |
           pwd
           chmod +x TWITCH.sh
           ./TWITCH.sh
 
+  
+    # Step to run the Python script YT.py
+      - name: Run YT.py script
+        run: |
+          # Ensure Python is installed
+          python3 --version || sudo apt-get install python3
+          
+          # Navigate to the scripts folder and run the YT.py script
+          cd scripts
+          python3 YT.py
+          
       - name: git pull
         run: |
           git pull origin main
