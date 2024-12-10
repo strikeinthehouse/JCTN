@@ -121,7 +121,7 @@ http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ea235ce0826408b221c498115a9b62d:7aa9266ed91ea4510483370029dfcf45
-#EXTINF:-1 tvg-chno="102" tvg-id="AmericaTV.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/AMER2.png?raw=true" tvg-group="Nacionales", América
+#EXTINF:-1 tvg-chno="102" tvg-id="AmericaTV.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/AMER2.png?raw=true" group-title="Nacionales", América
 https://chromecast.cvattv.com.ar/live/c3eds/AmericaTV/SA_Live_dash_enc_2A/AmericaTV.mpd
 
 #EXTINF:-1 tvg-logo="https://scontent.fepa11-1.fna.fbcdn.net/v/t1.6435-9/206638151_10223169123710059_3666810289391430657_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=825194&_nc_eui2=AeGxugJ54qa7RhgKBnLTrHOu14OonvQq8lrXg6ie9CryWkCQzaYyrufVmZGkiprZVM0&_nc_ohc=dbLCQPiMFxEAX9X0jrT&_nc_ht=scontent.fepa11-1.fna&oh=afeef92e5377cb7720df7b2f4afc60c8&oe=6127F95F" group-title="Argentina",SSIPTV ARG TV - TDA 6.2
@@ -187,10 +187,7 @@ https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS
 #EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" tvg-country="AR" tvg-logo="http://x.playerlatino.live/telefe.png" group-title="Argentina", Telefe (VPN) 2 - TDA 11.1
 https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=3cec1b1ea9799dda5596e64f37e5ed20:c69f3afde2085dcaaaddbf55246a0323
-#EXTINF:-1 tvg-chno="111" tvg-id="TelefeHD.ar" tvg-logo="https://git.io/JOTOu" group-title="Nacionales", Telefe
-https://cdn.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc/TelefeHD.mpd
+
 
 #EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/telefe_argentina.png" group-title="Argentina",Telefe | Argentina
 http://198.27.117.10:8080/Carlos2022/Carlos2022/362541
@@ -225,10 +222,7 @@ https://live-01-02-eltrece.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/CANAL_13.jpg" group-title="Argentina", CANAL 13 33.1 
 https://live-01-02-eltrece.vodgc.net/eltrecetv_noti/index.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5179017f49326d14af0a9ceec831aee6:09b4a463b029ebc28a288bed2da70a76
-#EXTINF:-1 tvg-chno="113" tvg-id="ElTrece.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/EL13.png?raw=true" group-title="Nacionales", Eltrece
-https://cdn.cvattv.com.ar/live/c3eds/ArtearHD/SA_Live_dash_enc/ArtearHD.mpd
+
 
 #EXTINF:-1 tvg-id="13 de Argentina" tvg-name="13 de Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_argentina.png" group-title="Argentina",El Trece | Argentina
 http://177.128.115.10:8000/play/a0a6/116200
@@ -252,10 +246,7 @@ https://bvsat02.cdn.rcs.net.ar/mnp/elnueve/output.mpd
 
 
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=24f4ff211136ae6512a1b552200db405:602122f8426c5c942b8c18d299cc6020
-#EXTINF:-1 tvg-chno="109" tvg-id="ElNueve.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CAN9.png?raw=true" tvg-group="Nacionales", Elnueve
-https://chromecast.cvattv.com.ar/live/c3eds/Canal9/SA_Live_dash_enc_2A/Canal9.mpd
+
 
 #EXTINF:-1 tvg-id="ElNueve.ar" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/el-nueve-ar.png" group-title="Argentina",El Nueve
 http://181.13.173.86:8000/play/a0ae/index.m3u8
@@ -381,7 +372,7 @@ https://pantera1-100gb-cl-movistar.dps.live/nettv/nettv.smil/nettv/livestream2/c
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=89d433166edd31d56df2a59df8ec6704:b2015faded0a456d10aa8db1b4cbac68
-#EXTINF:-1 tvg-chno="112" tvg-id="NETTVHD.ar" tvg-logo="https://media.canalnet.tv/2018/08/N-600x720.png" tvg-group="Nacionales", Net TV
+#EXTINF:-1 tvg-chno="112" tvg-id="NETTVHD.ar" tvg-logo="https://media.canalnet.tv/2018/08/N-600x720.png" group-title="Nacionales", Net TV
 https://chromecast.cvattv.com.ar/live/c6eds/Net_TV/SA_Live_dash_enc_2A/Net_TV.mpd
 
 #EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal Net TV (Argentina)
@@ -641,7 +632,7 @@ https://chromecast.cvattv.com.ar/live/c6eds/CNN_en_Espanol/SA_Live_dash_enc_2A/C
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=9666b195171442afd4551a8de01291a6:1c0061df9b4b098e40355167e97cfbf0
-#EXTINF:-1 tvg-chno="151" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/HCDTV.png?raw=true" tvg-group="Nacionales", Diputados TV
+#EXTINF:-1 tvg-chno="151" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/HCDTV.png?raw=true" group-title="Nacionales", Diputados TV
 https://chromecast.cvattv.com.ar/live/c6eds/Diputados_TV/SA_Live_dash_enc_2A/Diputados_TV.mpd
 
 
