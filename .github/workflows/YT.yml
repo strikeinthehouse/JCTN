@@ -48,7 +48,7 @@ jobs:
           
           # Navigate to the scripts folder and run the YT.py script
           cd scripts
-          python3 YT.py
+          python3 TESTLINKS.py
 
         
       - name: git pull
