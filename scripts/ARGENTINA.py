@@ -168,18 +168,7 @@ http://181.13.173.86:8000/play/a06c/index.m3u8
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg" group-title="Argentina",Telefe | Argentina - TDA 11.1
 http://181.209.114.13:8000/play/a06c/index.m3u8
 
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg" group-title="Argentina",TELEFE FHD4
-http://181.191.140.2:8000/play/a0it/index.m3u8
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg" group-title="Argentina",TELEFE FHD5
-http://181.191.140.2:8000/play/a0hu/index.m3u8
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg" group-title="Argentina",TELEFE FHD6
-http://181.191.140.229:8000/play/a0hu/index.m3u8
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg" group-title="Argentina",TELEFE FHD7
-http://181.191.140.229:8000/play/a0it/index.m3u8
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg" group-title="Argentina",TELEFE FHD8
-http://45.172.16.186:8000/play/a0qt/index.m3u8
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg" group-title="Argentina",TELEFE FHD9
-http://45.172.16.186:8000/play/a0qt
+
 
 #EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" tvg-logo="https://telefe-static.akamaized.net/media/18154476/logo-telefe-twitter.png" group-title="Argentina", Telefe (VPN) - TDA 11.1
 https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS
@@ -189,8 +178,7 @@ https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
 
 
 
-#EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/telefe_argentina.png" group-title="Argentina",Telefe | Argentina
-http://198.27.117.10:8080/Carlos2022/Carlos2022/362541
+
 
 
 
