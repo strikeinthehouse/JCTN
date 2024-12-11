@@ -40,17 +40,15 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
     
-    # Step to run the Python script YT.py
+    # Step to run the Python script YT.py (assumed to be in the root directory)
       - name: Run YT.py script
         run: |
           # Ensure Python is installed
           python3 --version || sudo apt-get install python3
           
-          # Navigate to the scripts folder and run the YT.py script
-          cd scripts
-          python3 TESTLINKS.py
+          # Directly run the YT.py script from the root directory
+          python3 YT.py
 
-        
       - name: git pull
         run: |
           git pull origin main
