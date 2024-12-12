@@ -1,4 +1,3 @@
-
 import os
 import time
 import yt_dlp
@@ -14,7 +13,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada (YouTube com resultados de busca)
-url_youtube = "https://www.youtube.com/results?search_query=univision&sp=EgJAAQ%253D%253D"
+url_youtube = "https://www.youtube.com/results?search_query=zadruga&sp=CAMSAkAB"
 
 # Abrir a página no navegador
 driver.get(url_youtube)
@@ -65,11 +64,12 @@ with open(m3u_filename, 'a') as m3u_file:
                             title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
                             video_title = title_element.text if title_element else "Título Desconhecido"
                             
-                            # Thumbnail fixa
-                            thumbnail_url = "https://yt3.googleusercontent.com/u6H_TO65Atxmpc98XR-HcMFZ16o1UVppXqO7gj4hMUfz6H6YHjXZh4rLGTkyMHXNmeOfRFa0=s160-c-k-c0x00ffffff-no-rj"
+                            # Extrair a URL da thumbnail do vídeo
+                            thumbnail_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//img[contains(@class, 'yt-core-image--fill-parent-height')]")
+                            thumbnail_url = thumbnail_element.get_attribute("src") if thumbnail_element else "https://yt3.googleusercontent.com/u6H_TO65Atxmpc98XR-HcMFZ16o1UVppXqO7gj4hMUfz6H6YHjXZh4rLGTkyMHXNmeOfRFa0=s900-c-k-c0x00ffffff-no-rj"
                             
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                            m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\", {video_title}\n")
+                            m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\",{video_title}\n")
                             m3u_file.write(f"{video_url}\n")
                             print(f"Adicionado vídeo: {video_title} ({video_url})")
                         else:
@@ -81,4 +81,3 @@ with open(m3u_filename, 'a') as m3u_file:
 
 # Fechar o navegador após o processo
 driver.quit()
-
