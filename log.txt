@@ -1,17 +1,4 @@
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/TVPublicaArgentina/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/cronicatv/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/c5n/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/americaenvivo/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/encuentro/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/TEC_ciencia_ar/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canal26/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/CanalKZO/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/diariodemocracia/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/showdelafe/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/CanalPakapaka/LIVE
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SenadoTVArgentina/LIVE
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SISEArgentina/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2024-12-14 20:22:00,820 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/Radio10am/live
+2024-12-14 20:23:30,678 - ERROR - URL Error http://masplay.net:80/play/oEcPdncA1OherpWq1eyfNlhxX8lV088kyGE9Jl3AwBo/ts: HTTPConnectionPool(host='masplay.net', port=80): Max retries exceeded with url: /play/oEcPdncA1OherpWq1eyfNlhxX8lV088kyGE9Jl3AwBo/ts (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f356b5c25d0>: Failed to resolve 'masplay.net' ([Errno -2] Name or service not known)"))
+2024-12-14 20:23:45,694 - ERROR - URL Error http://200.37.59.35:8000/play/a034/index.m3u8: HTTPConnectionPool(host='200.37.59.35', port=8000): Max retries exceeded with url: /play/a034/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f356b5e3dd0>, 'Connection to 200.37.59.35 timed out. (connect timeout=15)'))
+2024-12-14 20:24:00,710 - ERROR - URL Error http://181.65.197.187:8000/play/a0nj/index.m3u8: HTTPConnectionPool(host='181.65.197.187', port=8000): Max retries exceeded with url: /play/a0nj/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f356b614560>, 'Connection to 181.65.197.187 timed out. (connect timeout=15)'))
+2024-12-14 20:24:00,845 - ERROR - URL Error http://209.45.103.201:8000/play/a067/index.m3u8: HTTPConnectionPool(host='209.45.103.201', port=8000): Max retries exceeded with url: /play/a067/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f356b614ce0>: Failed to establish a new connection: [Errno 111] Connection refused'))
