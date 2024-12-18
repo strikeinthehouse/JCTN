@@ -13,7 +13,7 @@ chrome_options.add_argument("--disable-gpu")
 driver = webdriver.Chrome(options=chrome_options)
 
 # URL da página desejada (YouTube com resultados de busca)
-url_youtube = "https://www.youtube.com/results?search_query=zadruga&sp=CAMSAkAB"
+url_youtube = "https://www.youtube.com/results?search_query=news&sp=CAMSAkAB"
 
 # Abrir a página no navegador
 driver.get(url_youtube)
