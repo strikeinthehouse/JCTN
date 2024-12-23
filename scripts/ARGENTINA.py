@@ -396,25 +396,7 @@ http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52509.ts
 '''
 
 banner2 = r'''
-#EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal Nueve Multivisión (AR) - TDA 20.1
-http://panel.dattalive.com:1935/8250/8250/playlist.m3u8
 
-#EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal Nueve Multivisión (AR) - Feed 1
-http://api.new.livestream.com/accounts/679322/events/3782013/live.m3u8
-
-#EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal Nueve Multivisión (AR) - Feed 2
-http://panel.dattalive.com:1935/8204/8204/playlist.m3u8
-
-#EXTINF:-1  tvg-id="284" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/284_Multivision.png",Multivisi n | AR
-https://panel.dattalive.com:443/8250/8250/playlist.m3u8?PlaylistM3UCL
-
-
-
-#EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal 26 (San Justo-Arg.) - TDA 22.2
-http://live-edge01.telecentro.net.ar/live/smil:c26.smil/chunklist_w858131162_b414000_sleng.m3u8
-
-#EXTINF:-1 tvg-id="TECTV.ar" tvg-logo="https://www.tec.gob.ar/wp-content/uploads/2022/05/Tec-logo.png" group-title="Argentina",Tec TV | Argentina - TDA 22.4
-https://tv.initium.net.ar:3939/live/tectvmainlive.m3u8
 
 
 
@@ -423,23 +405,10 @@ https://tv.initium.net.ar:3939/live/tectvmainlive.m3u8
 https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="Canal 4 Jujuy" tvg-name="Canal 4 Jujuy" tvg-logo="https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png" group-title="Argentina",Canal 4 Jujuy | Argentina - TDA 26.1
-https://5cd577a3dd8ec.streamlock.net/canal4/manifest.smil/chunklist_w92188071_b316000.m3u8
-
-#EXTINF:-1 tvg-id="Canal 4 Jujuy" tvg-name="Canal 4 Jujuy" tvg-logo="https://s3.amazonaws.com/static-c4-1/assets/img/logos/elcuatro-logo-100x124.png" group-title="Argentina",Canal 4 Jujuy | Argentina - TDA 26.2
-https://5cd577a3dd8ec.streamlock.net/canal4/smil:manifest.smil/chunklist_w1908572533_b316000.m3u8
-
-#EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal 3ABN latino - TDA 32.1
-http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
-
-
 #EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal 5ATV (Argentina)
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
 
 
-
-#EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal Fenix TV (Argentina)
-http://stmv4.questreaming.com/fenixlarioja/fenixlarioja/playlist.m3u8
 
 #EXTINF:-1 tvg-id="N/A" group-title="Argentina" tvg-logo="https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",Canal Madryn TV (Argentina)
 https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8
