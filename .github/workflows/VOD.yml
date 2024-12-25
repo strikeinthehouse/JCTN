@@ -35,7 +35,7 @@ jobs:
     - name: Executar script Python
       run: |
         source venv/bin/activate
-        python pt.py
+        python vod.py
         if [ $? -ne 0 ]; then
           echo "Erro na execução do script Python."
           exit 1
