@@ -141,7 +141,7 @@ def write_m3u_file(details, filename):
             title = entry.get('title', 'No Title')
 
             if video_url:
-                file.write(f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="VOD",{title}\n')
+                file.write(f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="VOD PT",{title}\n')
                 file.write(f"{video_url}\n")
             else:
                 print("URL do vídeo não encontrada.")
