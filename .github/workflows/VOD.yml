@@ -41,6 +41,24 @@ jobs:
           exit 1
         fi
 
+    - name: Executar script Python
+      run: |
+        source venv/bin/activate
+        python pt.py
+        if [ $? -ne 0 ]; then
+          echo "Erro na execução do script Python."
+          exit 1
+        fi
+        
+    - name: Executar script Python
+      run: |
+        source venv/bin/activate
+        python it.py
+        if [ $? -ne 0 ]; then
+          echo "Erro na execução do script Python."
+          exit 1
+        fi
+        
     - name: Adicionar arquivos ao controle de versão
       run: |
         git add -A
