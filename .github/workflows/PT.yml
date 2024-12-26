@@ -1,0 +1,5 @@
+    - name: Executar Script pt.py
+      run: |
+        source venv/bin/activate
+        python pt.py || { echo "Erro ao executar pt.py"; exit 1; }
+
