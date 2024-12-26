@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # Executa a cada 35 minutos
+    - cron: '*/30 * * * *'  # Executa a cada 35 minutos
   pull_request:
     branches:
       - main
@@ -38,7 +38,17 @@ jobs:
         python vod.py || { echo "Erro ao executar vod.py"; exit 1; }
 
 
+    - name: Executar Script pt.py
+      run: |
+        source venv/bin/activate
+        python pt.py || { echo "Erro ao executar pt.py"; exit 1; }
 
+    - name: Executar Script it.py
+      run: |
+        source venv/bin/activate
+        python it.py || { echo "Erro ao executar it.py"; exit 1; }
+
+        
     # Adiciona mudanças ao controle de versão
     - name: Adicionar Mudanças
       run: |
