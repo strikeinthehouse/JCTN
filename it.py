@@ -227,7 +227,7 @@ def process_urls_from_file(input_file):
     print(f"Arquivo {filename} criado com sucesso.")
 
 if __name__ == "__main__":
-    input_file = 'pt.txt'
+    input_file = 'it.txt'
     process_urls_from_file(input_file)
 
 from selenium import webdriver
