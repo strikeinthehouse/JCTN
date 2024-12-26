@@ -36,3 +36,16 @@ jobs:
         source venv/bin/activate
         python pt.py || { echo "Erro ao executar pt.py"; exit 1; }
 
+    # Adiciona mudanças ao controle de versão
+    - name: Adicionar Mudanças
+      run: |
+        git add -A
+        git status
+
+    # Faz commit e push das mudanças
+    - name: Commit e Push
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
+        git push origin main
