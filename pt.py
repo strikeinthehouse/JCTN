@@ -15,7 +15,7 @@ options.add_argument("--disable-infobars")
 # Create the webdriver instance
 driver = webdriver.Chrome(options=options)
 
-for i in range(1, 6):
+for i in range(1, 2):
     url_archive = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
     
    
