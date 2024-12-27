@@ -4,15 +4,24 @@ from selenium.webdriver.common.by import By
 import time
 import os
 import requests
-import time
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
-import streamlink
+
+# List of URLs to skip
+urls_to_skip = [
+    "https://support.google.com/websearch/answer/181196?hl=en",
+    "https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwi3mdXAlseKAxVDrokEHfj9JY4QPQgI",
+    "https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwi3mdXAlseKAxVDrokEHfj9JY4QpYkNCAo",
+    "https://www.google.com/intl/en/about/products?tab=wh",
+    "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Drai%26sca_esv%3D90c55360f106269f%26udm%3D7%26tbs%3Dqdr:w,srcf:H4sIAAAAAAAAAMvMKy5JTC9KzNVLzs9Vq8wvLSlNSgWzSzKzS_1KzwUztosTMgpzESr3MErWU1Jz8zJISiJq0xOTUpHyoKgCLxGqdSwAAAA%26source%3Dlnt%26sa%3DX%26ved%3D2ahUKEwiGsuLGzLeKAxXwK7kGHWyILAQQpwV6BAgBECw%26biw%3D1920%26bih%3D936%26dpr%3D1&ec=GAZAAQ",
+    "https://maps.google.com/maps?sca_esv=90c55360f106269f&biw=1920&bih=936&output=search&tbs=qdr:w&q=rai&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3JyJJclJuzBPl12qJyPx7ESIHU8IX0cuOdT1ZCkYs8shgKbfMHCv7SAqoPQhqBubAyyMFEy4IKeXyplQ1QxX1k5tZOtBS0AqkXZ-3eqh-HcjdN8eWa7uAfOWs7K4WvDb2BdoWzIFRWxcnk8w1x1eEQUnl43mV-FTTRfMbydI2kMeGtS_HsA&entry=mc&ved=1t:200715&ictx=111",
+    "https://www.google.com/advanced_video_search?q=rai&sca_esv=90c55360f106269f&udm=7&biw=1920&bih=936&dpr=1&tbs=qdr:w,srcf:H4sIAAAAAAAAAMvMKy5JTC9KzNVLzs9Vq8wvLSlNSgWzSzKzS_1KzwUztosTMgpzESr3MErWU1Jz8zJISiJq0xOTUpHyoKgCLxGqdSwAAAA",
+    "https://support.google.com/websearch/?p=dsrp_search_hc&hl=en",
+    "https://policies.google.com/privacy?hl=en&fg=1",
+    "https://policies.google.com/terms?hl=en&fg=1"
+]
 
 # Configure Chrome options
 options = Options()
@@ -41,7 +50,7 @@ def extract_links(url):
     links = []
     for a_tag in soup.find_all('a', href=True):
         href = a_tag['href']
-        if href.startswith('http') and not href.startswith('https://www.youtube.com') or href.startswith('https://secure2.rtve.es'):
+        if href.startswith('http') and not href.startswith('https://www.youtube.com') and not href.startswith('https://secure2.rtve.es'):
             links.append(href)
     return links
 
@@ -80,7 +89,8 @@ try:
     links = []
     for a_tag in driver.find_elements(By.CSS_SELECTOR, "a[href^='http']"):
         href = a_tag.get_attribute("href")
-        if href and not href.startswith("https://www.youtube.com"):
+        # Skip the unwanted URLs
+        if href and not any(skip_url in href for skip_url in urls_to_skip):
             links.append(href)
 except NoSuchElementException:
     print("Failed to find the 'body' element.")
@@ -94,6 +104,7 @@ m3u_file_path = os.path.join(os.getcwd(), "it.txt")
 write_m3u_file(links, m3u_file_path)
 
 print(f"Arquivo M3U foi criado: {m3u_file_path}")
+
 
 import subprocess
 import json
