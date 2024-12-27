@@ -354,7 +354,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (substitua com a URL real)
-base_url = "https://www.google.com/search?q=le+iene&sca_esv=08ffe395be8e979a&udm=7&tbas=0&tbs=dur:l,srcf:H4sIAAAAAAAAANPOTU3JTCxOLdHLLFGrzC8tKU1K1UvOz1UrSswsyEmsBAmnJSanJuXnZ4PFDU1zM_1P0ckrUKsoyU1Lzi_1VSi9UAegAofEUAAAA&source=lnt&sa=X&ved=2ahUKEwjQlqnSgMSKAxVzHrkGHSEDN94QpwV6BAgBECk&biw=1912&bih=1002&dpr=1"
+base_url = "https://www.google.com/search?q=puntata&sca_esv=08ffe395be8e979a&udm=7&tbs=dur:l&tbas=0&source=lnt&sa=X&ved=2ahUKEwi93-3bqMeKAxV_EbkGHfqZMPoQpwV6BAgBECg&biw=1912&bih=1000&dpr=1"
 
 # Load the page
 driver.get(base_url)
