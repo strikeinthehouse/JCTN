@@ -323,7 +323,7 @@ with open("lista1.M3U", "a") as output_file:
 
             if m3u8_url:
                 # Escrever no formato extinf iptv
-                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD TV", {title}\n')
+                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD IT", {title}\n')
                 output_file.write(f"{m3u8_url}\n")
                 print(f"M3U8 link encontrado: {m3u8_url}")
             else:
@@ -354,7 +354,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (substitua com a URL real)
-base_url = "https://www.google.com/search?q=a&sca_esv=08ffe395be8e979a&udm=7&tbs=srcf:H4sIAAAAAAAAAKvMLy0pTUrVS87PVdPOTU3JTCxOLdHLLFFLS0xOTcrPzwbLpOfkJ-WDWSWZ2SVQwcy84pLE9KLEXDAPANX1fbRJAAAA,dur:l,qdr:d&source=lnt&sa=X&ved=2ahUKEwjEid7e_sOKAxXbALkGHWlPKswQpwV6BAgBEBQ&biw=1912&bih=1002&dpr=1"
+base_url = "https://www.google.com/search?q=le+iene&sca_esv=08ffe395be8e979a&udm=7&tbas=0&tbs=dur:l,srcf:H4sIAAAAAAAAANPOTU3JTCxOLdHLLFGrzC8tKU1K1UvOz1UrSswsyEmsBAmnJSanJuXnZ4PFDU1zM_1P0ckrUKsoyU1Lzi_1VSi9UAegAofEUAAAA&source=lnt&sa=X&ved=2ahUKEwjQlqnSgMSKAxVzHrkGHSEDN94QpwV6BAgBECk&biw=1912&bih=1002&dpr=1"
 
 # Load the page
 driver.get(base_url)
@@ -428,7 +428,7 @@ with open("lista1.M3U", "a") as output_file:
 
             if m3u8_url:
                 # Escrever no formato extinf iptv
-                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD TV", {title}\n')
+                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD IT", {title}\n')
                 output_file.write(f"{m3u8_url}\n")
                 print(f"M3U8 link encontrado: {m3u8_url}")
             else:
