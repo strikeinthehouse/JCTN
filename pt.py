@@ -15,27 +15,26 @@ options.add_argument("--disable-infobars")
 # Create the webdriver instance
 driver = webdriver.Chrome(options=options)
 
-for i in range(1, 2):
-    url_archive = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
-    
-   
-    # Open the desired page
-    driver.get(url_archive)
-    
-    # Wait for the page to load
-    time.sleep(5)  # Adjust the sleep time if needed to ensure page load
-    
-    # Find all relevant video links
-    video_elements = driver.find_elements(By.CSS_SELECTOR, 'a.item')
-    
-    # Prepare to write the links to a file
-    with open('pt.txt', 'a') as file:
-        for element in video_elements:
-            link = element.get_attribute('href')
-            # Check if the link is valid and not empty
-            if link:
-                full_link = f"{link}"
-                file.write(full_link + '\n')
+
+url_archive = f"https://tviplayer.iol.pt/videos/ultimos/1/canal:"
+
+# Open the desired page
+driver.get(url_archive)
+
+# Wait for the page to load
+time.sleep(5)  # Adjust the sleep time if needed to ensure page load
+
+# Find all relevant video links
+video_elements = driver.find_elements(By.CSS_SELECTOR, 'a.item')
+
+# Prepare to write the links to a file
+with open('pt.txt', 'a') as file:
+    for element in video_elements:
+        link = element.get_attribute('href')
+        # Check if the link is valid and not empty
+        if link:
+            full_link = f"{link}"
+            file.write(full_link + '\n')
 
 # Close the driver
 driver.quit()
