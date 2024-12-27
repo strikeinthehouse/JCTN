@@ -320,7 +320,7 @@ with open("links_video.txt", "r") as file:
     links = file.readlines()
 
 # Criar ou abrir o arquivo lista1.m3u para escrever os links e títulos
-with open("lista1.M3U", "a") as output_file:
+with open("lista1.m3u", "a") as output_file:
     for link in links:
         link = link.strip()  # Remover espaços em branco e quebras de linha
 
