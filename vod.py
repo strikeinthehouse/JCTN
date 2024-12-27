@@ -13,13 +13,14 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://cbn.globo.com/ao-vivo/video/cbn-sp/",
-    "https://cbn.globo.com/ao-vivo/video/cbn-rj/",
+
     "https://globoplay.globo.com/v/6120663/",
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/2168377/",
     "https://globoplay.globo.com/v/2923546/",
-    "https://globoplay.globo.com/v/3383021/"
+    "https://globoplay.globo.com/v/3383021/",
+    "https://cbn.globo.com/ao-vivo/video/cbn-sp/",
+    "https://cbn.globo.com/ao-vivo/video/cbn-rj/"
 ]
 
 # Função para extrair o link m3u8, título e favicon
