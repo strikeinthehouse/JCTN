@@ -13,8 +13,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://www.cxtv.com.br/tv-ao-vivo/tvi",
-    "https://www.nmas.com.mx/guadalajara/",
     "https://cbn.globo.com/ao-vivo/video/cbn-sp/",
     "https://cbn.globo.com/ao-vivo/video/cbn-rj/",
     "https://globoplay.globo.com/v/6120663/",
