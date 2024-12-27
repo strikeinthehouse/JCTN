@@ -884,67 +884,7 @@ https://latamvosliveclarovideo.akamaized.net/Content/DASH_DASH_FK/Live/Channel(C
 #EXTINF:-1 tvg-id="NicktoonsLatinAmerica.us" tvg-chno="1117" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/NKMUS.png?raw=true" group-title="Música y Radios", Nick Music
 https://latamvosliveclarovideo.akamaized.net/Content/DASH_DASH_FK/Live/Channel(NICKTOONS)/manifest.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b2aae44a74144be8b2118e20d1412bab:8a7ae996d12d8d5d5637d1044f8e08b7
-#EXTINF:-1 tvg-chno="1150" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMEVT.png?raw=true" group-title="Música y Radios", Flow Music Eventos
-https://chromecast.cvattv.com.ar/live/c7eds/Flow_Music_XP/SA_Live_dash_enc_2A/Flow_Music_XP.mpd
 
-#EXTINF:-1 tvg-chno="1151" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMCLS.png?raw=true" group-title="Música y Radios", Flow Music Clásicos
-https://musicsrc.cvattv.com.ar/RM03
-
-#EXTINF:-1 tvg-chno="1152" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMELT.png?raw=true" group-title="Música y Radios", Flow Music Electrónica
-https://musicsrc.cvattv.com.ar/RM41
-
-#EXTINF:-1 tvg-chno="1153" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMRCK.png?raw=true" group-title="Música y Radios", Flow Music Rock
-https://musicsrc.cvattv.com.ar/RM18
-
-#EXTINF:-1 tvg-chno="1154" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMRGT.png?raw=true" group-title="Música y Radios", Flow Music Reggaeton
-https://musicsrc.cvattv.com.ar/RM30
-
-#EXTINF:-1 tvg-chno="1155" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMRG2.png?raw=true" group-title="Música y Radios", Flow Music Reggaeton 2
-https://musicsrc.cvattv.com.ar/RM29
-
-#EXTINF:-1 tvg-chno="1156" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMLAT.png?raw=true" group-title="Música y Radios", Flow Music Latinos
-https://musicsrc.cvattv.com.ar/RM31
-
-#EXTINF:-1 tvg-chno="1157" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMRNA.png?raw=true" group-title="Música y Radios", Flow Music Rock Nacional
-https://musicsrc.cvattv.com.ar/RM17
-
-#EXTINF:-1 tvg-chno="1158" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FM70S.png?raw=true" group-title="Música y Radios", Flow Music 70's Hits
-https://musicsrc.cvattv.com.ar/RM07
-
-#EXTINF:-1 tvg-chno="1159" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FM80S.png?raw=true" group-title="Música y Radios", Flow Music 80's Hits
-https://musicsrc.cvattv.com.ar/RM05
-
-#EXTINF:-1 tvg-chno="1160" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FM90S.png?raw=true" group-title="Música y Radios", Flow Music 90's Hits
-https://musicsrc.cvattv.com.ar/RM04
-
-#EXTINF:-1 tvg-chno="1161" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMHIT.png?raw=true" group-title="Música y Radios", Flow Music Grandes Éxitos
-https://musicsrc.cvattv.com.ar/RM06
-
-#EXTINF:-1 tvg-chno="1162" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMTNG.png?raw=true" group-title="Música y Radios", Flow Music Tango
-https://musicsrc.cvattv.com.ar/RM46
-
-#EXTINF:-1 tvg-chno="1163" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMDSC.png?raw=true" group-title="Música y Radios", Flow Music Disco
-https://musicsrc.cvattv.com.ar/RM14
-
-#EXTINF:-1 tvg-chno="1164" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMJZZ.png?raw=true" group-title="Música y Radios", Flow Music Jazz
-https://musicsrc.cvattv.com.ar/RM37
-
-#EXTINF:-1 tvg-chno="1165" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMREG.png?raw=true" group-title="Música y Radios", Flow Music Reggae
-https://musicsrc.cvattv.com.ar/RM23
-
-#EXTINF:-1 tvg-chno="1166" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMRTR.png?raw=true" group-title="Música y Radios", Flow Music Retro
-https://musicsrc.cvattv.com.ar/RM16
-
-#EXTINF:-1 tvg-chno="1167" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMCIN.png?raw=true" group-title="Música y Radios", Flow Music Cine
-https://musicsrc.cvattv.com.ar/RM24
-
-#EXTINF:-1 tvg-chno="1168" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMCLC.png?raw=true" group-title="Música y Radios", Flow Music Cine Clásico
-https://musicsrc.cvattv.com.ar/RM25
-
-#EXTINF:-1 tvg-chno="1169" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/FMLNT.png?raw=true" group-title="Música y Radios", Flow Music Lentos
-https://musicsrc.cvattv.com.ar/RM27
 
 #EXTINF:-1 tvg-chno="1201" tvg-logo="https://www.continental.com.ar/img/logo-night.png" tvg-logo-fallback="https://github.com/masterentertainment/listas/blob/main/Fondos/RLS4.jpg?raw=true" group-title="Música y Radios", Continental (AM 590)
 http://www.radiosargentina.com.ar/php/tvm3uYT.php?id=YTAR0001
