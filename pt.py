@@ -28,7 +28,7 @@ time.sleep(5)  # Adjust the sleep time if needed to ensure page load
 video_elements = driver.find_elements(By.CSS_SELECTOR, 'a.item')
 
 # Prepare to write the links to a file
-with open('pt.txt', 'a') as file:
+with open('pt.txt', 'w') as file:
     for element in video_elements:
         link = element.get_attribute('href')
         # Check if the link is valid and not empty
