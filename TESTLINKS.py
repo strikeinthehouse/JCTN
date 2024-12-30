@@ -5,13 +5,14 @@ import subprocess
 import json
 import requests
 from bs4 import BeautifulSoup
+import streamlink
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 log_file = "log.txt"
-file_handler = RotatingFileHandler(log_file)
+file_handler = RotatingFileHandler(log_file, maxBytes=1000000, backupCount=5)
 file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
