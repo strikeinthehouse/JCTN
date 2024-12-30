@@ -34,6 +34,7 @@ def check_url_with_streamlink(url):
 
         # Se o Streamlink retornar código 0, significa que o stream é válido
         if result.returncode == 0:
+            logger.info("Streamlink success: %s", url)
             return True
         else:
             logger.error("Streamlink Error %s: %s", url, result.stderr.decode())
