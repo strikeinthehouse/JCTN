@@ -1,12 +1,7 @@
-import requests
 import os
-import json
 import logging
 from logging.handlers import RotatingFileHandler
-from PIL import Image
-from io import BytesIO
-from bs4 import BeautifulSoup
-
+import subprocess
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
@@ -23,36 +18,29 @@ logger.addHandler(file_handler)
 # Cabeçalho do arquivo M3U
 banner = "#EXTM3U\n"
 
-# Função para verificar URLs
-def check_url(url):
+# Função para verificar URLs usando Streamlink
+def check_url_with_streamlink(url):
     try:
-        response = requests.head(url, timeout=15)
-        if response.status_code == 200:
-            return True
-    except requests.exceptions.RequestException as err:
-        logger.error("URL Error %s: %s", url, err)
-    return False
+        # Executa o Streamlink para verificar o stream
+        result = subprocess.run(
+            ['streamlink', url, 'best'],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=30
+        )
 
-# Função para buscar imagem no Google
-def search_google_images(query):
-    search_url = f"https://www.google.com/search?hl=pt-BR&q={query}&tbm=isch"  # URL de busca de imagens
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
-    }
-    
-    try:
-        response = requests.get(search_url, headers=headers)
-        soup = BeautifulSoup(response.text, "html.parser")
-        # Buscar a primeira imagem
-        img_tags = soup.find_all("img")
-        if img_tags:
-            # A primeira imagem no Google geralmente é a mais relevante
-            img_url = img_tags[1]['src']  # O primeiro item é o logo do Google
-            return img_url
+        # Se o Streamlink retornar código 0, significa que o stream é válido
+        if result.returncode == 0:
+            return True
+        else:
+            logger.error("Streamlink Error %s: %s", url, result.stderr.decode())
+            return False
+    except subprocess.TimeoutExpired:
+        logger.error("Streamlink timeout for URL: %s", url)
+        return False
     except Exception as e:
-        logger.error("Error searching Google images: %s", e)
-    
-    return None
+        logger.error("Error running Streamlink: %s", e)
+        return False
 
 # Função para processar uma linha #EXTINF
 def parse_extinf_line(line):
@@ -97,8 +85,8 @@ def process_m3u_file(input_file, output_file):
                     link = next_line
                     break
             
-            # Verifica a URL antes de adicionar
-            if link and check_url(link):
+            # Verifica a URL antes de adicionar usando Streamlink
+            if link and check_url_with_streamlink(link):
                 # Se o canal não tiver logotipo, buscar o logo automaticamente
                 if tvg_logo in ["", "N/A", "Undefined.png"]:  # Condição para logo vazio ou "N/A"
                     logo_url = search_google_images(ch_name)
@@ -134,6 +122,27 @@ def process_m3u_file(input_file, output_file):
     # Salva os dados em JSON para análise posterior
     with open("playlist.json", "w") as f:
         json.dump(channel_data, f, indent=2)
+
+# Função para buscar imagem no Google (não modificada)
+def search_google_images(query):
+    search_url = f"https://www.google.com/search?hl=pt-BR&q={query}&tbm=isch"  # URL de busca de imagens
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+    }
+    
+    try:
+        response = requests.get(search_url, headers=headers)
+        soup = BeautifulSoup(response.text, "html.parser")
+        # Buscar a primeira imagem
+        img_tags = soup.find_all("img")
+        if img_tags:
+            # A primeira imagem no Google geralmente é a mais relevante
+            img_url = img_tags[1]['src']  # O primeiro item é o logo do Google
+            return img_url
+    except Exception as e:
+        logger.error("Error searching Google images: %s", e)
+    
+    return None
 
 # Configuração dos arquivos de entrada e saída
 input_file = "MASTER.txt"
