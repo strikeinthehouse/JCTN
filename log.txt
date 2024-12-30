@@ -101,3 +101,20 @@
 2024-12-30 09:25:38,806 - WARNING - URL Error https://tglmp03.akamaized.net/out/v1/1057d89ee3d94148b430b5866e3a540a/manifest.mpd: Status Code 403
 2024-12-30 09:25:39,242 - WARNING - URL Error http://32.shqiptv.org/korca/albplus/index.m3u8: Status Code 404
 2024-12-30 09:25:39,355 - ERROR - Request Error https://edge.vedge.infomaniak.com/livecast/ik:latele/playlist.m3u8: HTTPSConnectionPool(host='edge.vedge.infomaniak.com', port=443): Max retries exceeded with url: /livecast/ik:latele/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff6e4bb2480>: Failed to resolve 'edge.vedge.infomaniak.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:28:54,316 - WARNING - URL Error https://tv.iill.top/kbs/11&p=0: Status Code 403
+2024-12-30 09:28:54,910 - WARNING - URL Error http://mytv.dothome.co.kr/ch/catv/2.php: Status Code 302
+2024-12-30 09:28:55,509 - WARNING - URL Error http://mytv.dothome.co.kr/ch/catv/3.php: Status Code 302
+2024-12-30 09:28:56,110 - WARNING - URL Error http://mytv.dothome.co.kr/ch/catv/6.php: Status Code 302
+2024-12-30 09:28:56,718 - WARNING - URL Error http://mytv.dothome.co.kr/ch/catv/5.php: Status Code 302
+2024-12-30 09:28:58,948 - INFO - URL OK: http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
+2024-12-30 09:28:59,305 - INFO - URL OK: https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV61.m3u8
+2024-12-30 09:29:00,219 - WARNING - URL Error http://mytv.dothome.co.kr/ch/catv/4.php: Status Code 302
+2024-12-30 09:29:00,599 - INFO - URL OK: http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
+2024-12-30 09:29:02,187 - INFO - URL OK: https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+2024-12-30 09:29:03,520 - INFO - URL OK: http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
+2024-12-30 09:29:04,211 - WARNING - URL Error http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8: Status Code 403
+2024-12-30 09:29:05,395 - INFO - URL OK: https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8
+2024-12-30 09:29:06,561 - INFO - URL OK: http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8?zshijd
+2024-12-30 09:29:10,165 - INFO - URL OK: https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
+2024-12-30 09:29:10,512 - INFO - URL OK: https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV16.m3u8
+2024-12-30 09:29:11,505 - INFO - URL OK: http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
