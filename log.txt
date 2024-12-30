@@ -107,3 +107,15 @@ streamlink: error: unrecognized arguments: --http-user-agent best
 2024-12-30 08:26:16,542 - ERROR - Request Error http://cord-cutter.net:8080/live/j3McKd/673709/78441.m3u8: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 2024-12-30 08:26:16,624 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
 2024-12-30 08:26:17,291 - INFO - URL OK: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMzAvMjAyNCA2OjI0OjQzIEFNJmhhc2hfdmFsdWU9RkdibDVXbmxKSGczK2wzZnkxS0Zhdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVjNTYyMmM1LTM4ZWEtNDIxZi1iYTBlLTU4ZjhjMGYxZDMxMQ==/
+2024-12-30 08:47:11,918 - ERROR - Request Error http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/7244?checkedby:ahlakid.com: HTTPConnectionPool(host='satelliteiptv.xyz', port=8080): Max retries exceeded with url: /iptvpoint/85g7sjaS6t/7244?checkedby:ahlakid.com (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68a7a808f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-12-30 08:47:12,562 - INFO - URL OK: http://canalmalaga-tv-live.flumotion.com/playlist.m3u8?checkedby:ahlakid.com
+2024-12-30 08:47:12,652 - INFO - URL OK: http://canalmalaga-tv-live.flumotion.com/chunks.m3u8?checkedby:ahlakid.com
+2024-12-30 08:47:12,921 - ERROR - Request Error http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/53156?checkedby:ahlakid.com: HTTPConnectionPool(host='satelliteiptv.xyz', port=8080): Max retries exceeded with url: /iptvpoint/85g7sjaS6t/53156?checkedby:ahlakid.com (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68a76cdee0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-12-30 08:47:13,063 - WARNING - URL Error http://congresodirecto-f.akamaihd.net/i/congreso6_1@54665/master.m3u8?checkedby:ahlakid.com: Status Code 405
+2024-12-30 08:47:13,353 - ERROR - Request Error https://elastic10.todostreaming.es/live/sanroque-livestream.m3u8?checkedby:ahlakid.com: HTTPSConnectionPool(host='elastic10.todostreaming.es', port=443): Max retries exceeded with url: /live/sanroque-livestream.m3u8?checkedby:ahlakid.com (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')))
+2024-12-30 08:47:13,621 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+2024-12-30 08:47:13,865 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8
+2024-12-30 08:47:13,915 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8: Status Code 204
+2024-12-30 08:47:14,420 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8: Status Code 429
+2024-12-30 08:47:14,443 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8: Status Code 204
+2024-12-30 08:47:14,470 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8: Status Code 429
