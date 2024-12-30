@@ -156,3 +156,18 @@
 2024-12-30 22:28:28,284 - WARNING - URL Error http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad42: Status Code 400
 2024-12-30 22:28:28,599 - WARNING - URL Error http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad11: Status Code 400
 2024-12-30 22:28:28,900 - WARNING - URL Error https://cdn.instream.audio/:9085/stream: Status Code 502
+2024-12-30 22:43:04,584 - INFO - URL OK: https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8
+2024-12-30 22:43:05,832 - INFO - URL OK: https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/nettv/livestream1/chunks.m3u8
+2024-12-30 22:43:06,563 - INFO - URL OK: https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8
+2024-12-30 22:43:06,956 - INFO - URL OK: https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
+2024-12-30 22:43:07,099 - INFO - URL OK: https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+2024-12-30 22:43:07,610 - INFO - URL OK: https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream3/chunks.m3u8
+2024-12-30 22:43:08,580 - INFO - URL OK: https://pantera1-100gb-cl-movistar.dps.live/nettv/nettv.smil/playlist.m3u8
+2024-12-30 22:43:09,198 - INFO - URL OK: https://pantera1-100gb-cl-movistar.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
+2024-12-30 22:43:09,499 - INFO - URL OK: https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8
+2024-12-30 22:43:10,008 - WARNING - URL Error https://g5.proy-hor.transport.edge-access.net/a09/ngrp:CM_CanaldelaMusica-100044_all/CM_CanaldelaMusica-100044_540p.m3u8: Status Code 403
+2024-12-30 22:43:10,354 - INFO - URL OK: http://190.11.130.46/mnp/canal26/output.mpd
+2024-12-30 22:43:10,713 - ERROR - Request Error https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8: HTTPSConnectionPool(host='stream-gtlc.telecentro.net.ar', port=443): Max retries exceeded with url: /hls/canal26hls/0/playlist.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2024-12-30 22:43:11,026 - INFO - URL OK: http://181.13.173.86:8000/play/a01r/index.m3u8
+2024-12-30 22:43:26,687 - ERROR - Request Error https://cdn.cvattv.com.ar/live/c6eds/26_TV_HD/SA_Live_dash_enc_2A/26_TV_HD.mpd: HTTPSConnectionPool(host='cdn.cvattv.com.ar', port=443): Max retries exceeded with url: /live/c6eds/26_TV_HD/SA_Live_dash_enc_2A/26_TV_HD.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f89335ceed0>, 'Connection to cdn.cvattv.com.ar timed out. (connect timeout=15)'))
+2024-12-30 22:43:41,708 - ERROR - Request Error http://tv.dominiotv.xyz:25461/live/Rolando/Rolando2021/52509.ts: HTTPConnectionPool(host='tv.dominiotv.xyz', port=25461): Max retries exceeded with url: /live/Rolando/Rolando2021/52509.ts (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f89335cf650>, 'Connection to tv.dominiotv.xyz timed out. (connect timeout=15)'))
