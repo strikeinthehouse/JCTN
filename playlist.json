@@ -1,90 +1,374 @@
 [
   {
-    "name": "NET TV 27.2 - TDA 27.2",
-    "group": "Argentina",
-    "tvg_id": "NetTV.ar",
-    "logo": "https://raw.githubusercontent.com/mortal251/logos/main/NET_TV.jpg",
-    "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NET TV 27.2 - TDA 27.2",
-    "group": "Argentina",
-    "tvg_id": "NetTV.ar",
-    "logo": "https://raw.githubusercontent.com/mortal251/logos/main/NET_TV.jpg",
-    "url": "https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/nettv/livestream1/chunks.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NET TV 27.2 - TDA 27.2",
-    "group": "Argentina",
-    "tvg_id": "NetTV.ar",
-    "logo": "https://raw.githubusercontent.com/mortal251/logos/main/NET_TV.jpg",
-    "url": "https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NET TV | Argentina - TDA 27.2",
-    "group": "Argentina",
-    "tvg_id": "NET TV",
-    "logo": "https://www.canalnet.tv/_templates/desktop/includes/img/logo.png",
-    "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Net TV HD",
-    "group": "Argentina",
-    "tvg_id": "NETTV.ar",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/nn/net-tv-ar.png",
-    "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Net TV SD1",
-    "group": "Argentina",
-    "tvg_id": "NETTV.ar",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/nn/net-tv-ar.png",
-    "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream3/chunks.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Net TV FHD",
-    "group": "Argentina",
-    "tvg_id": "NETTV.ar",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/nn/net-tv-ar.png",
-    "url": "https://pantera1-100gb-cl-movistar.dps.live/nettv/nettv.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Net TV SD2",
-    "group": "Argentina",
-    "tvg_id": "NETTV.ar",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/nn/net-tv-ar.png",
-    "url": "https://pantera1-100gb-cl-movistar.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Canal Net TV (Argentina)",
-    "group": "Argentina",
-    "tvg_id": "N/A",
+    "name": "QVC Japan (720p)",
+    "group": "JAP\u00c3O",
+    "tvg_id": "Undefined",
     "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
-    "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8",
+    "url": "https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "Red Bull TV (1080p)",
+    "group": "JAP\u00c3O",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "NHK BS1 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "nhkbs1",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/NHKBS1%E3%83%AD%E3%82%B42020-.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS101&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
     "extra": []
   },
   {
-    "name": "CANAL 26",
-    "group": "Argentina",
-    "tvg_id": "Canal26.ar",
-    "logo": "https://yt3.googleusercontent.com/qiB2U_CZaAY_4IdZydkjJwMxnGCpr0v-tLoJmKrjG0KeqA3rLdj5hQ73jnOIjq2kmUcPajCvCTA=s176-c-k-c0x00ffffff-no-rj",
-    "url": "http://190.11.130.46/mnp/canal26/output.mpd",
+    "name": "NHK BS\u30d7\u30ec\u30df\u30a2\u30e0 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "nhkbsp",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BS%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0_%E6%96%B0%E3%83%AD%E3%82%B4.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS103&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
     "extra": []
   },
   {
-    "name": "Canal 26",
-    "group": "Argentina",
-    "tvg_id": "Canal26.ar",
-    "logo": "http://i.imgur.com/m504ZL8.png",
-    "url": "http://181.13.173.86:8000/play/a01r/index.m3u8",
+    "name": "BS\u65e5\u30c6\u30ec (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "bsntv",
+    "logo": "https://i.postimg.cc/wvCmCc2p/t-i-xu-ng.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS141&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "BS\u671d\u65e5 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "bsasahi",
+    "logo": "https://company.tv-asahi.co.jp/saiyo/group/img/company/logo-bsasahi.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS151&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "BS-TBS (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "bstbs",
+    "logo": "https://pbs.twimg.com/profile_images/1260862250295812096/a6-UyLc__400x400.jpg",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS161&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "BS\u30c6\u30ec\u6771 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "bstvtokyo",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/bb/bs-tokyo-jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS171&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "BS\u30d5\u30b8 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "bsfuji",
+    "logo": "https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS181&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "WOWOW\u30d7\u30e9\u30a4\u30e0 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "wowowprime",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/ww/wowow_prime.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS191&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "WOWOW\u30e9\u30a4\u30d6 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "wowowlive",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/ww/wowow_live.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS192&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "WOWOW\u30b7\u30cd\u30de (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "wowowcinema",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/ww/wowow_cinema.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS193&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30b9\u30bf\u30fc\u30c1\u30e3\u30f3\u30cd\u30eb1 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "starch1",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/2560px-Star_Channel-Japan.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS200&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30b9\u30bf\u30fc\u30c1\u30e3\u30f3\u30cd\u30eb2 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "starch2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/2560px-Star_Channel-Japan.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS201&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30b9\u30bf\u30fc\u30c1\u30e3\u30f3\u30cd\u30eb3 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "starch3",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/2560px-Star_Channel-Japan.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "BS\u30a2\u30cb\u30de\u30c3\u30af\u30b9 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "animax",
+    "logo": "https://i.imgur.com/zpi6mQ3.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS236&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u91e3\u308a\u30d3\u30b8\u30e7\u30f3 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "fishing",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/tt/tsuri_vision.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS251&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "Mnet (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "\uff2d\uff4e\uff45\uff54.jp",
+    "logo": "https://www.lyngsat.com/logo/tv/mm/m_net_jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS241&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "JSPORTS 1 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "js1",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS242&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "JSPORTS 2 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "js2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS243&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "JSPORTS 3 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "js3",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS244&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "JSPORTS 4 (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "js4",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS245&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u65e5\u672c\u6620\u753b\u5c02\u9580\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
+    "group": "BS1 (720P)",
+    "tvg_id": "nihoneiga",
+    "logo": "https://i.postimg.cc/ydDMrbTZ/Nihon-Eiga-Senmon-Channel.jpg",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS255&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "AXN\u6d77\u5916\u30c9\u30e9\u30de (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "axn",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/aa/axn_global.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS311&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "FOX Japan (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "fox",
+    "logo": "https://foxnetworks.jp/core/img/logo_mainfox.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS312&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30c1\u30e3\u30f3\u30cd\u30eb\u9280\u6cb3 (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "gingach",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/cc/channel_ginga.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS305&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30d5\u30a1\u30df\u30ea\u30fc\u5287\u5834 (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "familygeki",
+    "logo": "https://i.postimg.cc/k5fXKzj3/o023302751417597653027.jpg",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS293&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "GAORA (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "gaora",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/GAORA_SPORTS_logo.svg/2560px-GAORA_SPORTS_logo.svg.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS254&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30b4\u30eb\u30d5\u30cd\u30c3\u30c8\u30ef\u30fc\u30af (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "golfnw",
+    "logo": "https://i.postimg.cc/sDY2HML1/logo-new.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS262&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u6b4c\u8b21\u30dd\u30c3\u30d7\u30b9\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "kayopops",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/kk/kayo-pops-jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS329&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30ad\u30c3\u30ba\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3 (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "kidsstation",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/kk/kidsstation.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS330&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30db\u30fc\u30e0\u30c9\u30e9\u30de\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "homedrama",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/hh/home-drama-channelpng-jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS294&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "LaLaTV (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "lalatv",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/ll/lala_tv.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS314&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u65e5\u30c6\u30ec\u30b8\u30fc\u30bf\u30b9 (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "ntvgplus",
+    "logo": "https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-166-400x400.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS257&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30c1\u30e3\u30f3\u30cd\u30ebNECO (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "neco",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/cc/channel-neco-jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS223&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30e0\u30fc\u30d3\u30fc\u30d7\u30e9\u30b9 (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "movieplus",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/mm/movie_plus_jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS240&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "Music ON TV! (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "musicon",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/mm/music_on_tv.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS325&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u6771\u6620\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "toeich",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/tt/toei_channel.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS218&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u6642\u4ee3\u5287\u5c02\u9580\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "jidaigeki",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/jj/jidaigeki.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS292&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u56f2\u7881\u30fb\u5c06\u68cb\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "igoshogi",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/ii/igoshogi.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS363&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30b9\u30fc\u30d1\u30fc!\u30c9\u30e9\u30deTV (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "superdramatv",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/ss/super_drama_tv.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS310&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u30b9\u30ab\u30a4A (720p Willfon)",
+    "group": "CS1 (720p)",
+    "tvg_id": "skya",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/ss/sky-a-jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS250&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "CNN J (720p Willfon)",
+    "group": "NEWS",
+    "tvg_id": "cnnj",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/cc/cnn-j-us-jp.png",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u65e5\u30c6\u30ecNEWS24 (720p Willfon)",
+    "group": "NEWS",
+    "tvg_id": "ntvnews24",
+    "logo": "https://i.imgur.com/Ya4yHpC.jpg",
+    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS349&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "extra": []
+  },
+  {
+    "name": "\u65e5\u30c6\u30ecNEWS24 (480p Official1)",
+    "group": "NEWS",
+    "tvg_id": "ntvnews24",
+    "logo": "https://i.imgur.com/Ya4yHpC.jpg",
+    "url": "https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u65e5\u30c6\u30ecNEWS24 (480p Official2)",
+    "group": "NEWS",
+    "tvg_id": "ntvnews24",
+    "logo": "https://i.imgur.com/Ya4yHpC.jpg",
+    "url": "https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8",
     "extra": []
   }
 ]
