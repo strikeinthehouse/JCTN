@@ -20,10 +20,13 @@ logger.addHandler(file_handler)
 # Cabeçalho do arquivo M3U
 banner = "#EXTM3U\n"
 
-# Função para verificar URLs via requisição HTTP
+# Função para verificar URLs via requisição HTTP com o agente de usuário do Firefox
 def check_url(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Firefox/89.0"
+    }
     try:
-        response = requests.head(url, timeout=15)  # Usando HEAD para verificar a URL rapidamente
+        response = requests.head(url, headers=headers, timeout=15)  # Usando HEAD para verificar a URL rapidamente
         if response.status_code == 200:
             logger.info("URL OK: %s", url)
             return True
