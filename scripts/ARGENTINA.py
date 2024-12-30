@@ -190,6 +190,9 @@ http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/chunklist_w2131508282.m3u8
 #EXTINF:-1 tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png" group-title="Argentina",13 Max FHD
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 
+#EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png" group-title="Argentina",El Trece - TDA 13.1
+http://181.13.173.86:8000/play/a06d/index.m3u8
+
 #EXTINF:-1 tvg-id="13 de Argentina" tvg-name="13 de Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png" group-title="Argentina", El Trece - TDA 13.1
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 
@@ -198,8 +201,7 @@ http://181.191.140.2:8000/play/a0ir/index.m3u8
 
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png" group-title="Argentina",El Trece
 https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
-#EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png" group-title="Argentina",El Trece HD
-http://181.13.173.86:8000/play/a06d/index.m3u8
+
 
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/CANAL_13.jpg" group-title="Argentina", CANAL 13 33.1 
 https://live-01-02-eltrece.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
