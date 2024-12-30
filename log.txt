@@ -198,3 +198,351 @@
 2024-12-30 09:40:19,035 - WARNING - URL Error https://mdstrm.com/live-stream-playlist/58dc3d471cbe05ff3c8e463e.m3u8: Status Code 400
 2024-12-30 09:40:19,495 - INFO - URL OK: https://live.playstop.me/1816184091/index.m3u8
 2024-12-30 09:40:19,866 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+2024-12-30 09:45:28,321 - INFO - URL OK: https://tv.nknews.org/tvdash/stream.mpd
+2024-12-30 09:45:29,260 - INFO - URL OK: http://dzcdn.vood.top/hls/479_.m3u8
+2024-12-30 09:45:29,659 - INFO - URL OK: https://stream1.freetv.fun/f8abfabde50425ec3bbe6cf961f0e757092d5db61b0a228900d613e5066af8a0.m3u8
+2024-12-30 09:45:30,352 - WARNING - URL Error https://cdn-1.nxplay.com.br/BAND_NEWS_TK/tracks-v1a1/mono.m3u8?ManoTV: Status Code 403
+2024-12-30 09:45:30,425 - INFO - URL OK: https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
+2024-12-30 09:45:31,365 - WARNING - URL Error https://stitcher.pluto.tv/stitch/hls/channel/666c9c60a7efd40008f552f0/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=84656b24-9ad2-11ef-8827-66fe5cfa5133: Status Code 302
+2024-12-30 09:45:31,415 - WARNING - URL Error https://stitcher.pluto.tv/stitch/hls/channel/645a99282858cb0008ea8378/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=84656b24-9ad2-11ef-8827-66fe5cfa5133: Status Code 302
+2024-12-30 09:45:31,582 - WARNING - URL Error https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8: Status Code 302
+2024-12-30 09:45:31,692 - INFO - URL OK: https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+2024-12-30 09:45:32,012 - INFO - URL OK: http://bccdn.xyz:80/594023850943868/897489270938609/588
+2024-12-30 09:45:32,074 - WARNING - URL Error https://ythls.armelin.one/channel/UCqfm5IQhpMlfeAWMmVL_uNg.m3u8: Status Code 404
+2024-12-30 09:45:32,311 - INFO - URL OK: https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
+2024-12-30 09:45:33,024 - INFO - URL OK: https://jireh-3-hls-video-us-isp.dps.live/hls-video/lvcl5/cnn/cnn.smil/cnn/livestream1/chunks.m3u8?dpssid=b272750573767297b77e2b13&sid=ba5t1l1xb28311768867297b78a0f50&ndvc=0
+2024-12-30 09:45:33,060 - INFO - URL OK: https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+2024-12-30 09:45:33,090 - INFO - URL OK: https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+2024-12-30 09:45:33,127 - INFO - URL OK: https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+2024-12-30 09:45:33,179 - ERROR - Request Error http://204.157.251.250:8000/play/a068/index.m3u8: HTTPConnectionPool(host='204.157.251.250', port=8000): Max retries exceeded with url: /play/a068/index.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb641596510>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-12-30 09:45:33,993 - WARNING - URL Error https://jmp2.uk/SamsungTVPlus/GBBD8000016N.m3u8: Status Code 404
+2024-12-30 09:45:34,605 - WARNING - URL Error https://jmp2.uk/SamsungTVPlus/ATBD190000101.m3u8: Status Code 404
+2024-12-30 09:45:34,641 - INFO - URL OK: https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
+2024-12-30 09:45:34,695 - ERROR - Request Error https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='cnn-cnninternational-1-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb6415973e0>: Failed to resolve 'cnn-cnninternational-1-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 09:45:35,170 - WARNING - URL Error https://d1yx2biofua75q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-agcuky3hp0j0j/index.m3u8: Status Code 404
+2024-12-30 09:45:35,543 - WARNING - URL Error https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8: Status Code 404
+2024-12-30 09:45:36,442 - INFO - URL OK: https://deathlesstg.serv00.net/Youtube-Live/index.php?id=X_EWYemclKA&m3u8
+2024-12-30 09:45:37,401 - INFO - URL OK: https://live.cnnindonesia.com/livecnn/cnntv.smil/chunklist_w1719934476_b384000_sleng.m3u8
+2024-12-30 09:45:38,317 - INFO - URL OK: https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+2024-12-30 09:45:39,220 - INFO - URL OK: https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+2024-12-30 09:45:40,004 - INFO - URL OK: https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1hrv&u=n1info&p=n1Sh4redSecre7iNf0
+2024-12-30 09:45:40,067 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/57619.m3u8
+2024-12-30 09:45:40,505 - WARNING - URL Error https://redirector.rudo.video/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8: Status Code 302
+2024-12-30 09:45:41,462 - INFO - URL OK: https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w891045790_b384000_sleng.m3u8
+2024-12-30 09:45:42,425 - INFO - URL OK: https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+2024-12-30 09:45:43,260 - INFO - URL OK: https://newsource-live.warnermediacdn.com/hls/live/2005450/intl01/master.m3u8
+2024-12-30 09:45:43,576 - INFO - URL OK: https://newsource-live.warnermediacdn.com/hls/live/2005451/intl02/master.m3u8
+2024-12-30 09:45:43,857 - INFO - URL OK: https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8
+2024-12-30 09:45:44,091 - INFO - URL OK: https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
+2024-12-30 09:45:44,230 - INFO - URL OK: https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+2024-12-30 09:45:45,144 - INFO - URL OK: https://cbsn-2.cbsnstream.cbsnews.com/out/v1/a6a897e8f4f74cfc896223dfd822482f/master.m3u8
+2024-12-30 09:45:45,270 - INFO - URL OK: https://cbsn-3-fastly.cbsnstream.cbsnews.com/out/v1/f081461c65494eeaa9ec596d0fe96a14/master.m3u8
+2024-12-30 09:45:45,291 - WARNING - URL Error https://ythls.armelin.one/channel/UCCTpf5c_9HDo_OSu3aX8uFQ.m3u8: Status Code 404
+2024-12-30 09:45:45,312 - WARNING - URL Error https://ythls.armelin.one/channel/UCRnFGOp_mjaCYEhMzsE2iHA.m3u8: Status Code 404
+2024-12-30 09:45:45,430 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023569/abcnews10/master.m3u8
+2024-12-30 09:45:45,544 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023565/abcnews6/master.m3u8
+2024-12-30 09:45:45,659 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8
+2024-12-30 09:45:45,718 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master_4000.m3u8
+2024-12-30 09:45:45,848 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
+2024-12-30 09:45:45,945 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8
+2024-12-30 09:45:46,057 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master_4000.m3u8
+2024-12-30 09:45:46,359 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8
+2024-12-30 09:45:46,484 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master_4000.m3u8
+2024-12-30 09:45:46,586 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
+2024-12-30 09:45:46,808 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master_4000.m3u8
+2024-12-30 09:45:46,923 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8
+2024-12-30 09:45:47,035 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master_4000.m3u8
+2024-12-30 09:45:47,170 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master.m3u8
+2024-12-30 09:45:47,235 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master_4000.m3u8
+2024-12-30 09:45:47,373 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master.m3u8
+2024-12-30 09:45:47,490 - INFO - URL OK: https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master_4000.m3u8
+2024-12-30 09:45:48,321 - INFO - URL OK: https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+2024-12-30 09:45:49,056 - INFO - URL OK: https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
+2024-12-30 09:45:49,645 - INFO - URL OK: https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+2024-12-30 09:45:50,065 - INFO - URL OK: https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
+2024-12-30 09:45:50,739 - INFO - URL OK: https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8
+2024-12-30 09:45:51,635 - INFO - URL OK: https://ynet-live-02.ynet-pic1.yit.co.il/ynet/live.m3u8
+2024-12-30 09:45:52,161 - INFO - URL OK: https://ynet-live-03.ynet-pic1.yit.co.il/ynet/live.m3u8
+2024-12-30 09:45:53,218 - INFO - URL OK: https://ynet-live-04.ynet-pic1.yit.co.il/ynet/live.m3u8
+2024-12-30 09:45:53,846 - INFO - URL OK: https://ynet-live-05.ynet-pic1.yit.co.il/ynet/live.m3u8
+2024-12-30 09:45:54,655 - INFO - URL OK: https://603c568fccdf5.streamlock.net/live/dhaweb1/playlist.m3u8
+2024-12-30 09:45:55,433 - INFO - URL OK: https://603c568fccdf5.streamlock.net/live2/dhaweb2/playlist.m3u8
+2024-12-30 09:45:55,935 - INFO - URL OK: http://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8
+2024-12-30 09:45:56,357 - INFO - URL OK: http://41.205.93.154:80/MSNBC/index.m3u8
+2024-12-30 09:45:56,396 - INFO - URL OK: https://liveprodusphoenixeast.global.ssl.fastly.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8
+2024-12-30 09:45:56,720 - WARNING - URL Error https://tv.ensonhaber.com/tv/tr/bloomberght/index.m3u8: Status Code 500
+2024-12-30 09:45:58,557 - INFO - URL OK: https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8
+2024-12-30 09:45:58,597 - INFO - URL OK: https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/primary/2.m3u8
+2024-12-30 09:45:58,701 - ERROR - Request Error https://streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net/live/S76890577/tDoFkZD3T1Lw/chunklist_b1728000.m3u8: HTTPSConnectionPool(host='streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net', port=443): Max retries exceeded with url: /live/S76890577/tDoFkZD3T1Lw/chunklist_b1728000.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640efb9e0>: Failed to resolve 'streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net' ([Errno -2] Name or service not known)"))
+2024-12-30 09:45:58,872 - INFO - URL OK: https://yahoo-samsung.amagi.tv/playlist.m3u8
+2024-12-30 09:45:59,202 - INFO - URL OK: https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8
+2024-12-30 09:45:59,463 - WARNING - URL Error https://tv.ensonhaber.com/tv/tr/bloomberght/index.m3u8: Status Code 500
+2024-12-30 09:45:59,680 - INFO - URL OK: https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/stream05/streamPlaylist.m3u8
+2024-12-30 09:45:59,938 - INFO - URL OK: https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+2024-12-30 09:45:59,949 - INFO - URL OK: https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?cc
+2024-12-30 09:46:00,045 - WARNING - URL Error https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8: Status Code 403
+2024-12-30 09:46:00,286 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+2024-12-30 09:46:15,445 - ERROR - Request Error http://cloud.logicwebs.in:1935/live/malabarnews/playlist.m3u8: HTTPConnectionPool(host='cloud.logicwebs.in', port=1935): Max retries exceeded with url: /live/malabarnews/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb640f9f170>, 'Connection to cloud.logicwebs.in timed out. (connect timeout=15)'))
+2024-12-30 09:46:30,449 - ERROR - Request Error http://103.199.161.254/Content/manoramanews/Live/Channel(ManoramaNews)/index.m3u8: HTTPConnectionPool(host='103.199.161.254', port=80): Max retries exceeded with url: /Content/manoramanews/Live/Channel(ManoramaNews)/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb640f9f530>, 'Connection to 103.199.161.254 timed out. (connect timeout=15)'))
+2024-12-30 09:46:45,465 - ERROR - Request Error http://103.199.161.254/Content/mathrubhuminews/Live/Channel(Mathrubhuminews)/index.m3u8: HTTPConnectionPool(host='103.199.161.254', port=80): Max retries exceeded with url: /Content/mathrubhuminews/Live/Channel(Mathrubhuminews)/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb640f9fe60>, 'Connection to 103.199.161.254 timed out. (connect timeout=15)'))
+2024-12-30 09:46:46,165 - INFO - URL OK: https://streaming.meteonews.net/hls/stream.m3u8
+2024-12-30 09:46:46,823 - ERROR - Request Error http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8: HTTPConnectionPool(host='edge.metrotvnews.com', port=1935): Max retries exceeded with url: /live-edge/smil:metro.smil/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb640f9ef60>: Failed to resolve 'edge.metrotvnews.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:46:46,957 - INFO - URL OK: http://oneamericanews-roku-us.amagi.tv/playlist.m3u8
+2024-12-30 09:46:47,813 - INFO - URL OK: https://streamcdng18-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_2400/chunklist.m3u8
+2024-12-30 09:46:48,370 - INFO - URL OK: https://streamcdne2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_2400/chunklist.m3u8
+2024-12-30 09:46:48,447 - ERROR - Request Error https://rakuten-euronews-8-pt.samsung.wurl.com/manifest/playlist.m3u8: HTTPSConnectionPool(host='rakuten-euronews-8-pt.samsung.wurl.com', port=443): Max retries exceeded with url: /manifest/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640f9e8a0>: Failed to resolve 'rakuten-euronews-8-pt.samsung.wurl.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:46:48,629 - INFO - URL OK: https://stream.skynewsarabia.com/hls/sna_720.m3u8
+2024-12-30 09:46:49,086 - WARNING - URL Error https://livear.cgtn.com/1000a/prog_index.m3u8: Status Code 404
+2024-12-30 09:46:49,218 - INFO - URL OK: https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8
+2024-12-30 09:46:49,389 - INFO - URL OK: https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
+2024-12-30 09:46:49,783 - INFO - URL OK: https://rakuten-africanews-1-eu.rakuten.wurl.tv/playlist.m3u8
+2024-12-30 09:46:49,841 - INFO - URL OK: https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+2024-12-30 09:46:49,909 - INFO - URL OK: https://live-hls-web-aja.getaj.net/AJA/01.m3u8
+2024-12-30 09:46:49,985 - INFO - URL OK: https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
+2024-12-30 09:46:50,573 - INFO - URL OK: https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+2024-12-30 09:46:50,966 - INFO - URL OK: https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+2024-12-30 09:46:51,565 - INFO - URL OK: https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
+2024-12-30 09:46:51,595 - ERROR - Request Error https://d2xqcdx4c8vu9s.cloudfront.net/out/v1/15b8393e9a9240b8bedd4c79ccefb301/index.m3u8: HTTPSConnectionPool(host='d2xqcdx4c8vu9s.cloudfront.net', port=443): Max retries exceeded with url: /out/v1/15b8393e9a9240b8bedd4c79ccefb301/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640e05460>: Failed to resolve 'd2xqcdx4c8vu9s.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:46:53,327 - WARNING - URL Error https://tglmp03.akamaized.net/out/v1/435d5ae6f4734fde963642147a852bfb/manifest.mpd: Status Code 403
+2024-12-30 09:46:53,642 - INFO - URL OK: https://rakuten-euronews-4-es.samsung.wurl.tv/playlist.m3u8
+2024-12-30 09:46:54,227 - INFO - URL OK: https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
+2024-12-30 09:46:54,448 - INFO - URL OK: http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+2024-12-30 09:46:54,471 - WARNING - URL Error https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/rainews_1800/chunklist.m3u8: Status Code 403
+2024-12-30 09:46:54,487 - WARNING - URL Error https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/rainews_1800/chunklist.m3u8: Status Code 403
+2024-12-30 09:46:55,569 - WARNING - URL Error https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8: Status Code 405
+2024-12-30 09:46:55,683 - WARNING - URL Error https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_us_skynewsamericas_001.m3u8?ads.caid=nbcuskynews&ads.csid=samsungtvplus_us_nbcuskynews_ssai&ads.xumo_platform=samsung&ads._fw_is_lat=%7BTARGETOPT%7D&ads._fw_us_privacy=1YNY&ads._fw_coppa=0&ads._fw_did=%7BPSID%7D&ads._fw_content_category=IAB12&ads._fw_content_genre=News&ads._fw_content_language=en&ads._fw_content_rating=tv-g&ads._fw_deviceMake=samsung&ads._fw_gdpr=0&ads._fw_h_x_country=US&ads.appName=%7BAPP_NAME%7D&ads.xumo_contentId=3455&ads.xumo_contentName=skynews&ads.xumo_providerI: Status Code 404
+2024-12-30 09:46:55,706 - WARNING - URL Error https://ythls.armelin.one/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8: Status Code 404
+2024-12-30 09:46:56,098 - WARNING - URL Error http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8: Status Code 301
+2024-12-30 09:46:56,585 - INFO - URL OK: https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
+2024-12-30 09:46:56,696 - INFO - URL OK: https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
+2024-12-30 09:46:57,281 - INFO - URL OK: http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8
+2024-12-30 09:46:57,294 - INFO - URL OK: https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+2024-12-30 09:46:57,529 - INFO - URL OK: https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+2024-12-30 09:46:58,902 - WARNING - URL Error https://rt-glb.rttv.com/live/rtnews/playlist.m3u8: Status Code 405
+2024-12-30 09:46:59,384 - INFO - URL OK: https://list.iptvcat.com/my_list/s/f4111eb523f441da59566bd3a5592750.m3u8
+2024-12-30 09:47:00,139 - WARNING - URL Error https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8: Status Code 404
+2024-12-30 09:47:00,649 - INFO - URL OK: https://30a-tv.com/feeds/xodglobal/30atv.m3u8
+2024-12-30 09:47:00,825 - INFO - URL OK: https://tdameritrade-vizio.amagi.tv/playlist.m3u8
+2024-12-30 09:47:01,223 - INFO - URL OK: https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8
+2024-12-30 09:47:01,416 - INFO - URL OK: https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/6203311941001/playlist.m3u8
+2024-12-30 09:47:13,060 - INFO - URL OK: http://live-atameken.cdnvideo.ru/atameken/atameken.sdp/playlist.m3u8
+2024-12-30 09:47:13,314 - WARNING - URL Error https://tv.ensonhaber.com/tv/tr/bloomberght/index.m3u8: Status Code 500
+2024-12-30 09:47:13,360 - ERROR - Request Error https://bloomberg-bloomberg-1-be.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='bloomberg-bloomberg-1-be.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640efaf90>: Failed to resolve 'bloomberg-bloomberg-1-be.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 09:47:13,454 - WARNING - URL Error https://bloomberg.com/media-manifest/streams/eu-event.m3u8: Status Code 301
+2024-12-30 09:47:13,569 - WARNING - URL Error https://bloomberg.com/media-manifest/streams/eu.m3u8: Status Code 301
+2024-12-30 09:47:13,660 - WARNING - URL Error https://bloomberg.com/media-manifest/streams/us-event.m3u8: Status Code 301
+2024-12-30 09:47:13,735 - WARNING - URL Error https://bloomberg.com/media-manifest/streams/politics.m3u8: Status Code 301
+2024-12-30 09:47:14,200 - WARNING - URL Error https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/business24_tv/hls_video/index.m3u8: Status Code 404
+2024-12-30 09:47:15,051 - WARNING - URL Error http://ott-cdn.ucom.am/s65/index.m3u8: Status Code 403
+2024-12-30 09:47:19,352 - WARNING - URL Error https://a.jsrdn.com/broadcast/7582ed85f7/+0000/c.m3u8: Status Code 504
+2024-12-30 09:47:19,441 - ERROR - Request Error https://jobtvvideo.space/hls/stream/index.m3u8: HTTPSConnectionPool(host='jobtvvideo.space', port=443): Max retries exceeded with url: /hls/stream/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640f9e930>: Failed to resolve 'jobtvvideo.space' ([Errno -2] Name or service not known)"))
+2024-12-30 09:47:23,675 - WARNING - URL Error https://a.jsrdn.com/broadcast/2a755012a8/+0000/c.m3u8: Status Code 504
+2024-12-30 09:47:23,766 - INFO - URL OK: https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+2024-12-30 09:47:23,792 - ERROR - Request Error https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8: HTTPSConnectionPool(host='d8gy12azhr71i.cloudfront.net', port=443): Max retries exceeded with url: /out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640e75c40>: Failed to resolve 'd8gy12azhr71i.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:47:24,127 - INFO - URL OK: http://92.50.128.180/utv/1358/index.m3u8
+2024-12-30 09:47:34,142 - ERROR - Request Error https://securecontributions.sechls01.visionip.tv/live/securecontributions-securecontributions-92_news-hsslive-25f-16x9-SD/chunklist.m3u8: HTTPSConnectionPool(host='securecontributions.sechls01.visionip.tv', port=443): Max retries exceeded with url: /live/securecontributions-securecontributions-92_news-hsslive-25f-16x9-SD/chunklist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640e765d0>: Failed to resolve 'securecontributions.sechls01.visionip.tv' ([Errno -3] Temporary failure in name resolution)"))
+2024-12-30 09:47:34,421 - INFO - URL OK: http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
+2024-12-30 09:47:49,584 - ERROR - Request Error https://evpp.mm.uol.com.br/geob_band/agromais/playlist.m3u8: HTTPSConnectionPool(host='evpp.mm.uol.com.br', port=443): Max retries exceeded with url: /geob_band/agromais/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb640e77050>, 'Connection to evpp.mm.uol.com.br timed out. (connect timeout=15)'))
+2024-12-30 09:47:49,619 - WARNING - URL Error https://live-hls-web-ajd.getaj.net/AJD/index.m3u8: Status Code 302
+2024-12-30 09:47:49,803 - INFO - URL OK: https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
+2024-12-30 09:47:50,177 - INFO - URL OK: http://85.132.81.184:8080/arb/live/index.m3u8
+2024-12-30 09:47:50,259 - INFO - URL OK: https://d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8
+2024-12-30 09:47:50,812 - WARNING - URL Error https://edge1.socialsmart.tv/aznews/smil/aznews/720p/chunks.m3u8: Status Code 404
+2024-12-30 09:47:51,298 - WARNING - URL Error https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8: Status Code 301
+2024-12-30 09:47:51,494 - INFO - URL OK: http://78.129.193.20/tsstreamer/TVP_SD.ts
+2024-12-30 09:47:51,641 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8
+2024-12-30 09:47:51,925 - WARNING - URL Error https://pubads.g.doubleclick.net/ssai/event/pJrzNyDoT_K_GwYQsijTsQ/master.m3u8: Status Code 405
+2024-12-30 09:47:52,326 - WARNING - URL Error http://stream1.profit.ro:1935/profit/livestream/chunklist.m3u8: Status Code 404
+2024-12-30 09:47:54,312 - WARNING - URL Error http://online.video.rbc.ru/online/rbctv_480p/index.m3u8: Status Code 302
+2024-12-30 09:47:54,733 - WARNING - URL Error https://m3u-editor.com/serve/tchtviptvplaylist/767388514: Status Code 404
+2024-12-30 09:47:54,769 - ERROR - Request Error https://streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net/live/S76890577/tDoFkZD3T1Lw/chunklist_b1728000.m3u8: HTTPSConnectionPool(host='streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net', port=443): Max retries exceeded with url: /live/S76890577/tDoFkZD3T1Lw/chunklist_b1728000.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640e778f0>: Failed to resolve 'streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net' ([Errno -2] Name or service not known)"))
+2024-12-30 09:47:54,796 - ERROR - Request Error https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_5.m3u8: HTTPSConnectionPool(host='d8gy12azhr71i.cloudfront.net', port=443): Max retries exceeded with url: /out/v1/45be109c5b4f44319e882da947377364/index_5.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640e77d40>: Failed to resolve 'd8gy12azhr71i.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:47:55,715 - WARNING - URL Error https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END: Status Code 302
+2024-12-30 09:47:55,763 - INFO - URL OK: http://cord-cutter.net:8080/k4Svp2/645504/1818#checkedby:alliptvlinks.com
+2024-12-30 09:47:56,044 - WARNING - URL Error https://cdnapisec.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_e442lsh5/protocol/https/format/applehttp/a.m3u8: Status Code 404
+2024-12-30 09:47:56,359 - INFO - URL OK: https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
+2024-12-30 09:47:56,425 - ERROR - Request Error https://reuters-reuters-1-eu.rakuten.wurl.com/manifest/playlist.m3u8: HTTPSConnectionPool(host='reuters-reuters-1-eu.rakuten.wurl.com', port=443): Max retries exceeded with url: /manifest/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640fbfe30>: Failed to resolve 'reuters-reuters-1-eu.rakuten.wurl.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:47:56,475 - ERROR - Request Error https://reuters-reutersnow-1.plex.wurl.com/manifest/playlist.m3u8: HTTPSConnectionPool(host='reuters-reutersnow-1.plex.wurl.com', port=443): Max retries exceeded with url: /manifest/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb641597800>: Failed to resolve 'reuters-reutersnow-1.plex.wurl.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:47:56,479 - ERROR - Request Error https://reuters-reutersnow-1.plex.wurl.com/manifest/c0c0829237382f291cc46a0368586aa7.m3u8: HTTPSConnectionPool(host='reuters-reutersnow-1.plex.wurl.com', port=443): Max retries exceeded with url: /manifest/c0c0829237382f291cc46a0368586aa7.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640e77ce0>: Failed to resolve 'reuters-reutersnow-1.plex.wurl.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:47:57,217 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041583/IRTVE01_AKA_HLS_GL0/master.m3u8
+2024-12-30 09:47:57,533 - INFO - URL OK: https://rtvelivestream.akamaized.net/rtvesec/oca/irtve02_main_1080.m3u8
+2024-12-30 09:47:57,911 - INFO - URL OK: https://rtvelivestream.akamaized.net/rtvesec/oca/irtve03_main_1080.m3u8
+2024-12-30 09:47:58,142 - INFO - URL OK: https://rtvelivestream.akamaized.net/rtvesec/oca/irtve04_main_1080.m3u8
+2024-12-30 09:47:58,972 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041587/IRTVE04_AKA_HLS_GL0/master.m3u8
+2024-12-30 09:47:59,338 - WARNING - URL Error https://rtvelivestream.akamaized.net/segments/oca/irtve20_main.m3u8: Status Code 404
+2024-12-30 09:47:59,711 - WARNING - URL Error https://rtvelivestream.akamaized.net/hls/nxrtgolumi/mastdp/stream2.m3u8: Status Code 404
+2024-12-30 09:48:00,062 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108703.m3u8: Status Code 302
+2024-12-30 09:48:00,302 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108696.m3u8: Status Code 302
+2024-12-30 09:48:00,313 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108704.m3u8: Status Code 302
+2024-12-30 09:48:00,324 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108720.m3u8: Status Code 302
+2024-12-30 09:48:00,681 - WARNING - URL Error https://rtvelivestream.akamaized.net/hls/nxrtgolumi/mastdp/stream1.m3u8: Status Code 404
+2024-12-30 09:48:00,849 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041583/IRTVE01_AKA_HLS_GL0/master.m3u8
+2024-12-30 09:48:01,402 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041585/IRTVE02_AKA_HLS_GL0/master.m3u8
+2024-12-30 09:48:02,906 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041586/IRTVE03_AKA_HLS_GL0/master.m3u8
+2024-12-30 09:48:03,045 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041587/IRTVE04_AKA_HLS_GL0/master.m3u8
+2024-12-30 09:48:03,771 - WARNING - URL Error https://rtvehlslivestream.akamaized.net/hls/live/2041611/IRTVE16_AKA_HLS_GL0/master.m3u8: Status Code 404
+2024-12-30 09:48:04,007 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108706.m3u8: Status Code 302
+2024-12-30 09:48:04,245 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108721.m3u8: Status Code 302
+2024-12-30 09:48:04,256 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108696.m3u8: Status Code 302
+2024-12-30 09:48:04,267 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108706.m3u8: Status Code 302
+2024-12-30 09:48:04,278 - WARNING - URL Error https://ztnr.rtve.es/ztnr/6108721.m3u8: Status Code 302
+2024-12-30 09:48:04,619 - WARNING - URL Error https://rtvelivestream.akamaized.net/hls/nxrtgolumi/mastdp/stream1.m3u8: Status Code 404
+2024-12-30 09:48:05,435 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041627/IRTVE23_AKA_HLS_GL1/master.m3u8
+2024-12-30 09:48:06,147 - INFO - URL OK: https://rtvehlslivestream.akamaized.net/hls/live/2041619/IRTVE19_AKA_HLS_GL1/master.m3u8
+2024-12-30 09:48:06,846 - WARNING - URL Error https://rtvelivestream.akamaized.net/segments/oca/ocasional04_main.m3u8: Status Code 404
+2024-12-30 09:48:07,393 - WARNING - URL Error https://rtvelivestream.akamaized.net/segments/oca/ocasional05_main.m3u8: Status Code 404
+2024-12-30 09:48:07,571 - WARNING - URL Error https://hlsliveamdgl1-lh.akamaihd.net/i/hlslive_1@125699/master.m3u8: Status Code 404
+2024-12-30 09:48:07,704 - WARNING - URL Error https://hlsliveamdgl1-lh.akamaihd.net/i/hlslive_1@125702/master.m3u8: Status Code 404
+2024-12-30 09:48:07,836 - WARNING - URL Error https://hlsliveamdgl1-lh.akamaihd.net/i/hlslive_1@125698/master.m3u8: Status Code 404
+2024-12-30 09:48:07,934 - WARNING - URL Error https://hlsliveamdgl1-lh.akamaihd.net/i/hlslive_1@143656/master.m3u8: Status Code 404
+2024-12-30 09:48:08,035 - WARNING - URL Error https://hlsliveamdgl1-lh.akamaihd.net/i/hlslive_1@125703/master.m3u8: Status Code 404
+2024-12-30 09:48:08,605 - INFO - URL OK: https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
+2024-12-30 09:48:08,648 - WARNING - URL Error https://congresodirecto-f.akamaihd.net/i/congreso1_1@71529/master.m3u8: Status Code 405
+2024-12-30 09:48:08,672 - WARNING - URL Error https://congresodirecto-f.akamaihd.net/i/congreso2_1@72033/master.m3u8: Status Code 405
+2024-12-30 09:48:08,687 - WARNING - URL Error https://congresodirecto-f.akamaihd.net/i/congreso3_1@72034/master.m3u8: Status Code 405
+2024-12-30 09:48:08,712 - WARNING - URL Error https://congresodirecto-f.akamaihd.net/i/congreso4_1@53937/master.m3u8: Status Code 405
+2024-12-30 09:48:08,738 - WARNING - URL Error https://congresodirecto-f.akamaihd.net/i/congreso5_1@51923/master.m3u8: Status Code 405
+2024-12-30 09:48:23,881 - ERROR - Request Error https://cdnswitch-mediahub.overon.es/stream/stream.m3u8?key=R6w5wbcxW3dLF9aNOGEsHuoNhqfSJoiRWNDWLLfNslI&pwd=QheEdHkaeHFGDHJgIwzUDoqcVjjFMef8TMGuGvkMets&stream=y3-IxQxNk4XjlfJDtBjIh7tfO628d9gbkd010uKioms&output=ginkIjHWeyffMLRZNMVovht3RnH_feedjshkMm7sr14&channel=D1tXjvcs_5NeEEMxP6mrmSggh3Uyu3kE5jyqGlgCZ4A&protocol=4CMm-Q0epGZ0SHQGeELoqqA2gfzFVCFwoiACYszyPM4&type=3pIgQ1TALsxZg7Zf0kZLkA4InWPfKONROAImuoufxKg: HTTPSConnectionPool(host='cdnswitch-mediahub.overon.es', port=443): Max retries exceeded with url: /stream/stream.m3u8?key=R6w5wbcxW3dLF9aNOGEsHuoNhqfSJoiRWNDWLLfNslI&pwd=QheEdHkaeHFGDHJgIwzUDoqcVjjFMef8TMGuGvkMets&stream=y3-IxQxNk4XjlfJDtBjIh7tfO628d9gbkd010uKioms&output=ginkIjHWeyffMLRZNMVovht3RnH_feedjshkMm7sr14&channel=D1tXjvcs_5NeEEMxP6mrmSggh3Uyu3kE5jyqGlgCZ4A&protocol=4CMm-Q0epGZ0SHQGeELoqqA2gfzFVCFwoiACYszyPM4&type=3pIgQ1TALsxZg7Zf0kZLkA4InWPfKONROAImuoufxKg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb640d20a70>, 'Connection to cdnswitch-mediahub.overon.es timed out. (connect timeout=15)'))
+2024-12-30 09:48:38,899 - ERROR - Request Error https://cdnswitch-mediahub.overon.es/stream/stream.m3u8?key=R6w5wbcxW3dLF9aNOGEsHuoNhqfSJoiRWNDWLLfNslI&pwd=QheEdHkaeHFGDHJgIwzUDoqcVjjFMef8TMGuGvkMets&stream=o0RCNMRf-BPdBiuDSId7vbxANj4YFVpbXkxNkFKm35s&output=z3mwepuDBMOnja63VsgAcCGwmmOPD-I5yFYOiyCvBcc&channel=FBDoImE2NP77XpNbdycjnwCkI0YjxLeqTKr8QGV9bAI&protocol=4CMm-Q0epGZ0SHQGeELoqqA2gfzFVCFwoiACYszyPM4&type=3pIgQ1TALsxZg7Zf0kZLkA4InWPfKONROAImuoufxKg: HTTPSConnectionPool(host='cdnswitch-mediahub.overon.es', port=443): Max retries exceeded with url: /stream/stream.m3u8?key=R6w5wbcxW3dLF9aNOGEsHuoNhqfSJoiRWNDWLLfNslI&pwd=QheEdHkaeHFGDHJgIwzUDoqcVjjFMef8TMGuGvkMets&stream=o0RCNMRf-BPdBiuDSId7vbxANj4YFVpbXkxNkFKm35s&output=z3mwepuDBMOnja63VsgAcCGwmmOPD-I5yFYOiyCvBcc&channel=FBDoImE2NP77XpNbdycjnwCkI0YjxLeqTKr8QGV9bAI&protocol=4CMm-Q0epGZ0SHQGeELoqqA2gfzFVCFwoiACYszyPM4&type=3pIgQ1TALsxZg7Zf0kZLkA4InWPfKONROAImuoufxKg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb640f95f70>, 'Connection to cdnswitch-mediahub.overon.es timed out. (connect timeout=15)'))
+2024-12-30 09:48:38,910 - WARNING - URL Error https://ztnr.rtve.es/ztnr/1938076.m3u8: Status Code 302
+2024-12-30 09:48:39,142 - WARNING - URL Error https://ztnr.rtve.es/ztnr/2795617.m3u8: Status Code 302
+2024-12-30 09:48:40,035 - INFO - URL OK: https://prisaradio-live.prisasd.com/live-content/directo40al1/master.m3u8
+2024-12-30 09:48:40,300 - WARNING - URL Error https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay/hls/raiplay_2400/chunklist.m3u8: Status Code 302
+2024-12-30 09:48:40,752 - INFO - URL OK: https://streamcdne3-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/raiplay2_2400/chunklist.m3u8
+2024-12-30 09:48:41,018 - WARNING - URL Error https://streamcdne3-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay3/hls/raiplay3_2400/chunklist.m3u8: Status Code 403
+2024-12-30 09:48:41,064 - WARNING - URL Error https://channel02-notusa.akamaized.net/hls/live/2023914-b/event01/index.m3u8: Status Code 400
+2024-12-30 09:48:41,250 - WARNING - URL Error https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8: Status Code 302
+2024-12-30 09:48:41,261 - WARNING - URL Error https://ztnr.rtve.es/ztnr/1694255.m3u8: Status Code 302
+2024-12-30 09:48:41,405 - INFO - URL OK: https://d3r7ms2cd6ecbc.cloudfront.net/out/v1/302f9e67d0524c55a01f2aece2e77872/index.m3u8
+2024-12-30 09:48:41,498 - INFO - URL OK: https://do7ujvb4kwqvb.cloudfront.net/out/v1/434726d616804d87ae523d226d2b6afd/index.m3u8
+2024-12-30 09:48:46,376 - INFO - URL OK: https://janus-tv-ply.senado.cl/playlist/stream.m3u8?s=tvsenado-sd&id=d8120437-2c2b-4596-9f1a-9d06f0ab0b6d
+2024-12-30 09:48:47,214 - INFO - URL OK: https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/chunklist_w1725487474_b1000000.m3u8
+2024-12-30 09:48:47,846 - INFO - URL OK: https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/chunklist_w846841112_b300000.m3u8
+2024-12-30 09:48:48,332 - INFO - URL OK: https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL3.smil/chunklist_w1502015261_b1000000.m3u8
+2024-12-30 09:48:48,852 - INFO - URL OK: https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL4.smil/chunklist_w883309104_b1000000.m3u8
+2024-12-30 09:48:48,867 - ERROR - Request Error http://cdnh4.iblups.com/hls/RMuwrdk7M9.m3u8: HTTPConnectionPool(host='cdnh4.iblups.com', port=80): Max retries exceeded with url: /hls/RMuwrdk7M9.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb640e75b20>: Failed to resolve 'cdnh4.iblups.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:48:49,020 - ERROR - Request Error https://cu.onliv3.com/livevd1/user2.m3u8?PlaylistM3UCL: HTTPSConnectionPool(host='cu.onliv3.com', port=443): Max retries exceeded with url: /livevd1/user2.m3u8?PlaylistM3UCL (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2024-12-30 09:48:49,060 - ERROR - Request Error https://dysmuyxh5vstv.cloudfront.net/hls/atv2.m3u8: HTTPSConnectionPool(host='dysmuyxh5vstv.cloudfront.net', port=443): Max retries exceeded with url: /hls/atv2.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb640f95610>: Failed to resolve 'dysmuyxh5vstv.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:48:49,157 - WARNING - URL Error http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/619d59b7cbef25000728221c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus: Status Code 302
+2024-12-30 09:48:49,262 - WARNING - URL Error https://d3i0aurg3nyoct.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-25zej4uwofrfd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE: Status Code 404
+2024-12-30 09:48:49,420 - WARNING - URL Error https://d202koqm588atp.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched-publica/samsungtvplus_us_telemundoaldia_001.m3u8?ads.caid=TelemundoAlDia&ads.csid=samsungtvplus_us_telemundoaldia_ssai&ads.xumo_platform=samsung&ads._fw_is_lat=%7BTARGETOPT%7D&ads._fw_us_privacy=1YNY&ads._fw_coppa=0&ads._fw_did=%7BPSID%7D&ads._fw_content_category=IAB12&ads._fw_content_genre=news&ads._fw_content_language=es&ads._fw_content_rating=tv-g&ads._fw_deviceMake=samsung&ads._fw_gdpr=0&ads.appName=%7BAPP_NAME%7D&ads.xumo_contentId=2561&ads.xumo_contentName=TelemundoAlDia&ads.xumo_providerId=2561&ads.xumo_providerName=TelemundoAlDia&ads.xumo_channelId=9999544&ads.xumo_channelName=Telemundoaldia&ads.xumo_adsystem=mediatailor&ads.tpcl=MIDROLL&ads._fw_app_store_url=%7BAPP_DOMAIN%7D: Status Code 404
+2024-12-30 09:48:49,546 - WARNING - URL Error https://cdn-ue1-prod.tsv2.amagi.tv/linear/estrellaa-estrellanews-samsungus/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D: Status Code 302
+2024-12-30 09:48:50,062 - INFO - URL OK: http://live.gtrk.tv/hls/b24-hls.m3u8
+2024-12-30 09:48:50,580 - INFO - URL OK: http://live.gtrk.tv/hls/b24-hls.m3u8
+2024-12-30 09:48:51,345 - INFO - URL OK: https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
+2024-12-30 09:48:51,560 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2035366/philadelphia/stream5/master.m3u8
+2024-12-30 09:48:51,932 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037094/mcallen/stream1/master.m3u8
+2024-12-30 09:48:52,133 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8
+2024-12-30 09:48:52,271 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037083/newyork/stream7/master.m3u8
+2024-12-30 09:48:52,929 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8
+2024-12-30 09:48:53,077 - WARNING - URL Error https://dai2-playlistserver.aws.syncbak.com/cpl/20475903/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDQ3NTkwMyIsImNpZCI6MjA5NzQsInNpZCI6MTU4LCJtZDUiOiJiMTgwM2ExYTIxMzA5ZTEwNzNlOGJjMDQyOGU5NDkzOCIsImlhdCI6MTY1Mjg5MjgyMSwiZXhwIjoxNjg0NDI4ODIxLCJpc3MiOiJTeW5jYmFrIChURykifQ.ngWlxw_iUrju6oMpQl73BYHMCl7c6reypSqqP5nLbL8: Status Code 403
+2024-12-30 09:48:53,167 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037097/bayarea/stream3/master.m3u8
+2024-12-30 09:48:53,555 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037085/chicago/stream1/master.m3u8
+2024-12-30 09:48:53,726 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037085/chicago/stream4/master.m3u8
+2024-12-30 09:48:54,050 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037095/dallas/stream1/master.m3u8
+2024-12-30 09:48:54,712 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037092/denver/stream1/master.m3u8
+2024-12-30 09:48:55,134 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037500/elpaso/stream1/master.m3u8
+2024-12-30 09:48:55,714 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8
+2024-12-30 09:48:56,061 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037088/houston/stream1/master.m3u8
+2024-12-30 09:48:56,645 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8
+2024-12-30 09:48:56,919 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream6/master.m3u8
+2024-12-30 09:48:57,417 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037500/elpaso/stream2/master.m3u8
+2024-12-30 09:48:58,018 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037089/phoenix/stream1/master.m3u8
+2024-12-30 09:48:58,723 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037604/sacramento/stream1/master.m3u8
+2024-12-30 09:48:59,561 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037605/saltlakecity/stream1/master.m3u8
+2024-12-30 09:48:59,897 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037091/sanantonio/stream1/master.m3u8
+2024-12-30 09:49:00,126 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream3/master.m3u8
+2024-12-30 09:49:00,329 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037606/tampa/stream1/master.m3u8
+2024-12-30 09:49:00,475 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037099/washingtondc/stream4/master.m3u8
+2024-12-30 09:49:00,589 - INFO - URL OK: https://dai2-playlistserver.aws.syncbak.com/playlist/13355198/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTE2NDc1MDIsImlzcyI6IldMUyIsIm1kNSI6IjQwMWRkMDY2YjUyOGEwZWIxYzcxMzMxNjBhNDgyMGE5IiwibWlkIjoiMTMzNTUxOTgifQ.piLwptYMsquOvh5kVgvpuj2wYSd6SDOblXdfIXGk7PE
+2024-12-30 09:49:00,692 - WARNING - URL Error https://dai2-playlistserver.aws.syncbak.com/playlist/19106378/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIxOTEwNjM3OCIsImNpZCI6MTgwMjMsInNpZCI6MTU4LCJtZDUiOiIyMmMxY2M4MTVmMmY1YzJmMjZhZDEzYmQ2MTI1NjFhYSIsImlhdCI6MTY0NDM1Njk4MSwiZXhwIjoxNjc1ODkyOTgxLCJpc3MiOiJTeW5jYmFrIChURykifQ.FluzuQn2DLfJeSKreT0h2OHKpoBGNSkmeu7RKb3O2h0: Status Code 403
+2024-12-30 09:49:01,398 - INFO - URL OK: https://content.uplynk.com/channel/d8ebf84aa99d430980a7995d658ece0a.m3u8
+2024-12-30 09:49:01,719 - WARNING - URL Error https://video.cbs58.com:443/live/wdjt/live4/live4_720p.m3u8: Status Code 404
+2024-12-30 09:49:01,795 - WARNING - URL Error https://dai2-playlistserver.aws.syncbak.com/cpl/20965226/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDk2NTIyNiIsImNpZCI6MjE4ODgsInNpZCI6MTU4LCJtZDUiOiJjYTU5Nzc4YjUxZjZkNTZjODFmOWZiZjJjZmQzNDNiMiIsImlhdCI6MTY2MDkyOTM0NywiZXhwIjoxNjkyNDY1MzQ3LCJpc3MiOiJTeW5jYmFrIChURykifQ.5heNHIgDbrnFzfBjH4qmNs3sFGUl1iewhcB-Iru-4ok: Status Code 403
+2024-12-30 09:49:01,870 - WARNING - URL Error https://dai2-playlistserver.aws.syncbak.com/cpl/20979933/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDk3OTkzMyIsImNpZCI6MjE5MDAsInNpZCI6MTU4LCJtZDUiOiJmNDhkOTMzZGZiNWQyY2RjNWU1NTcyNjQ3MmQ1YjFlNSIsImlhdCI6MTY2MTQ0NjY2OCwiZXhwIjoxNjkyOTgyNjY4LCJpc3MiOiJTeW5jYmFrIChURykifQ.C51yBQc-ZSAkhWe0zCXWP3tUJ8MzijUNOaes6Zddk0w: Status Code 403
+2024-12-30 09:49:02,128 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
+2024-12-30 09:49:02,170 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037085/chicago/stream1/master.m3u8
+2024-12-30 09:49:02,380 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037095/dallas/stream5/master.m3u8
+2024-12-30 09:49:02,620 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream1/master.m3u8
+2024-12-30 09:49:02,776 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037083/newyork/stream1/master.m3u8
+2024-12-30 09:49:02,793 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
+2024-12-30 09:49:02,917 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2035366/philadelphia/stream2/master.m3u8
+2024-12-30 09:49:03,039 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037099/washingtondc/stream1/master.m3u8
+2024-12-30 09:49:03,129 - INFO - URL OK: https://content.uplynk.com/channel/8e7504962da04956953c874a7ad11c6b.m3u8
+2024-12-30 09:49:03,446 - WARNING - URL Error https://livevideo.tegnadigital.com/kpnx/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/KPNX/elvs/live.m3u8: Status Code 404
+2024-12-30 09:49:03,508 - INFO - URL OK: https://content.uplynk.com/channel/5545aa8a7e5a480d85fd1cff8d0cf610.m3u8
+2024-12-30 09:49:03,609 - WARNING - URL Error https://livevideo.tegnadigital.com/kusa/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/KUSA/elvs/live.m3u8: Status Code 404
+2024-12-30 09:49:03,667 - INFO - URL OK: https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
+2024-12-30 09:49:03,757 - ERROR - Request Error http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=MJB6CUxvZcU: HTTPConnectionPool(host='free.fullspeed.tv', port=80): Max retries exceeded with url: /iptv-query?streaming-ip=https://www.youtube.com/watch?v=MJB6CUxvZcU (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb640f94e30>: Failed to resolve 'free.fullspeed.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 09:49:03,850 - WARNING - URL Error https://livevideo.tegnadigital.com/wxia/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/WXIA/elvs/live.m3u8: Status Code 404
+2024-12-30 09:49:03,975 - WARNING - URL Error https://livevideo.tegnadigital.com/ktvb/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/KTVB/elvs/live.m3u8: Status Code 404
+2024-12-30 09:49:04,813 - INFO - URL OK: https://unlimited2-cl-isp.dps.live/mediabanco2/mediabanco2.smil/playlist.m3u8
+2024-12-30 09:49:05,595 - INFO - URL OK: https://unlimited1-cl-isp.dps.live/mediabanco/mediabanco.smil/playlist.m3u8
+2024-12-30 09:49:06,440 - INFO - URL OK: https://unlimited1-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream1/chunks.m3u8
+2024-12-30 09:49:07,179 - INFO - URL OK: https://unlimited2-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/ucvtveventos/livestream1/chunks.m3u8
+2024-12-30 09:49:07,548 - WARNING - URL Error https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/13live/13live.smil/playlist.m3u8: Status Code 302
+2024-12-30 09:49:07,794 - INFO - URL OK: https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8
+2024-12-30 09:49:08,232 - INFO - URL OK: https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+2024-12-30 09:49:08,443 - INFO - URL OK: https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+2024-12-30 09:49:08,521 - INFO - URL OK: https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+2024-12-30 09:49:08,607 - INFO - URL OK: https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
+2024-12-30 09:49:08,675 - INFO - URL OK: https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8
+2024-12-30 09:49:09,294 - WARNING - URL Error https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index_45.m3u8: Status Code 403
+2024-12-30 09:49:09,313 - WARNING - URL Error https://ythls.armelin.one/channel/UCgBAPAcLsh_MAPvJprIz89w.m3u8: Status Code 404
+2024-12-30 09:49:09,342 - WARNING - URL Error https://ythls.armelin.one/channel/UCPW-5qfYGNR8XYrvESrqJKA.m3u8: Status Code 404
+2024-12-30 09:49:09,365 - WARNING - URL Error https://ythls.armelin.one/channel/UC0vn8ISa4LKMunLbzaXLnOQ.m3u8: Status Code 404
+2024-12-30 09:49:09,386 - WARNING - URL Error https://ythls.armelin.one/channel/UChx_y6aLWNkifSDUt2TVAzg.m3u8: Status Code 404
+2024-12-30 09:49:09,414 - WARNING - URL Error https://ythls.armelin.one/channel/UCkinYTS9IHqOEwR1Sze2JTw.m3u8: Status Code 404
+2024-12-30 09:49:09,445 - WARNING - URL Error https://ythls.armelin.one/channel/UCtbo6_eDG7zEtaOtcSltJkA.m3u8: Status Code 404
+2024-12-30 09:49:09,475 - WARNING - URL Error https://ythls.armelin.one/channel/UCXp6JTdq7-WwBK09S7SzmxQ.m3u8: Status Code 404
+2024-12-30 09:49:09,810 - INFO - URL OK: https://live.playstop.me/LS-63503-4/index.m3u8
+2024-12-30 09:49:19,824 - ERROR - Request Error http://hw1.jemtv.com/app/NTVTurkey/playlist.m3u8: HTTPConnectionPool(host='hw1.jemtv.com', port=80): Max retries exceeded with url: /app/NTVTurkey/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb640f644a0>: Failed to resolve 'hw1.jemtv.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-12-30 09:49:19,914 - INFO - URL OK: https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
+2024-12-30 09:49:20,620 - INFO - URL OK: https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index_3.m3u8
+2024-12-30 09:49:20,872 - WARNING - URL Error http://pubads.g.doubleclick.net/ssai/event/XZLLJIhJRNqz33DGp6NdkA/master.m3u8: Status Code 405
+2024-12-30 09:49:20,986 - INFO - URL OK: https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+2024-12-30 09:49:20,999 - INFO - URL OK: https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+2024-12-30 09:49:21,585 - INFO - URL OK: http://news1.live14.com/stream/news1_hi.m3u8
+2024-12-30 09:49:21,675 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8
+2024-12-30 09:49:21,738 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8
+2024-12-30 09:49:21,811 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8
+2024-12-30 09:49:21,910 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8
+2024-12-30 09:49:22,062 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream6/master.m3u8
+2024-12-30 09:49:22,290 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream3/master.m3u8
+2024-12-30 09:49:22,398 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037099/washingtondc/stream4/master.m3u8
+2024-12-30 09:49:22,474 - INFO - URL OK: https://mrgmaw.github.io/enlaces/xy/dwes.m3u8
+2024-12-30 09:49:22,897 - INFO - URL OK: https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+2024-12-30 09:49:22,944 - INFO - URL OK: https://mrgmaw.github.io/enlaces/xy/rtes.m3u8
+2024-12-30 09:49:22,998 - INFO - URL OK: https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+2024-12-30 09:49:23,268 - INFO - URL OK: https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+2024-12-30 09:49:23,321 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+2024-12-30 09:49:23,686 - INFO - URL OK: https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8
+2024-12-30 09:49:23,964 - INFO - URL OK: https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
+2024-12-30 09:49:24,007 - INFO - URL OK: https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
+2024-12-30 09:49:24,051 - INFO - URL OK: https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8
+2024-12-30 09:49:24,128 - INFO - URL OK: https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
+2024-12-30 09:49:24,352 - INFO - URL OK: http://tv.balkanweb.com/news24/livestream/playlist.m3u8
+2024-12-30 09:49:24,471 - INFO - URL OK: https://newsmax-plex.amagi.tv/hls/amagi_hls_data_plexAAAAA-newsmax-plex/CDN/playlist.m3u8
+2024-12-30 09:49:24,535 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8
+2024-12-30 09:49:24,700 - INFO - URL OK: https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
+2024-12-30 09:49:26,000 - INFO - URL OK: https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
+2024-12-30 09:49:26,767 - INFO - URL OK: https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
+2024-12-30 09:49:27,312 - INFO - URL OK: https://30a-tv.com/feeds/xodglobal/30atv.m3u8
+2024-12-30 09:49:27,498 - INFO - URL OK: https://tdameritrade-vizio.amagi.tv/playlist.m3u8
+2024-12-30 09:49:27,978 - INFO - URL OK: https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8
+2024-12-30 09:49:28,175 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
+2024-12-30 09:49:28,573 - INFO - URL OK: https://liveprodapnortheast.global.ssl.fastly.net/oz1/Channel-OZTVqvs-AWS-tokyo-1/Source-OZTVqvs-1000-1_live.m3u8
+2024-12-30 09:49:28,654 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
+2024-12-30 09:49:28,887 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
+2024-12-30 09:49:29,064 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/politics.m3u8
+2024-12-30 09:49:30,023 - INFO - URL OK: https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
+2024-12-30 09:49:30,937 - INFO - URL OK: https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
+2024-12-30 09:49:31,004 - INFO - URL OK: https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
+2024-12-30 09:49:31,252 - INFO - URL OK: https://v4.tustreaming.cl/tevexinter/index.m3u8
+2024-12-30 09:49:31,316 - INFO - URL OK: https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+2024-12-30 09:49:31,438 - INFO - URL OK: https://247wlive.foxweather.com/stream/index.m3u8
+2024-12-30 09:49:31,652 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8
+2024-12-30 09:49:31,668 - INFO - URL OK: https://247wlive.foxweather.com/stream/index.m3u8
+2024-12-30 09:49:32,585 - INFO - URL OK: https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
+2024-12-30 09:49:33,071 - INFO - URL OK: https://live.playstop.me/1816184091/index.m3u8
+2024-12-30 09:49:33,122 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
