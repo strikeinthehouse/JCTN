@@ -410,7 +410,7 @@ def extract_m3u8_url_and_title(driver, url):
     m3u8_url = None
     logo_url = None
     for entry in log_entries:
-        if ".mpd" in entry['name']:
+        if ".m3u8" in entry['name']:
             m3u8_url = entry['name']
         if ".jpg" in entry['name']:
             logo_url = entry['name']
