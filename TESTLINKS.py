@@ -4,8 +4,7 @@ from logging.handlers import RotatingFileHandler
 import subprocess
 import json
 import requests
-from bs4 import BeautifulSoup  # Importação correta
-import streamlink
+from bs4 import BeautifulSoup
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
@@ -22,12 +21,12 @@ logger.addHandler(file_handler)
 # Cabeçalho do arquivo M3U
 banner = "#EXTM3U\n"
 
-# Função para verificar URLs usando Streamlink
+# Função para verificar URLs usando Streamlink com o cabeçalho User-Agent
 def check_url_with_streamlink(url):
     try:
-        # Executa o Streamlink para verificar o stream
+        # Executa o Streamlink para verificar o stream com o User-Agent especificado
         result = subprocess.run(
-            ['streamlink', url, 'best'],
+            ['streamlink', '--http-user-agent', 'Firefox', url, 'best'],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             timeout=30
