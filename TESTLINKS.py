@@ -31,22 +31,24 @@ def check_url(url):
     return False
 
 # Função para processar uma linha #EXTINF
+# Função para processar uma linha #EXTINF
 def parse_extinf_line(line):
     group_title = "Undefined"
     tvg_id = "Undefined"
     tvg_logo = "Undefined.png"
     ch_name = "Undefined"
     
-    if 'group-title' in line:
+    if 'group-title="' in line:
         group_title = line.split('group-title="')[1].split('"')[0]
-    if 'tvg-id' in line:
+    if 'tvg-id="' in line:
         tvg_id = line.split('tvg-id="')[1].split('"')[0]
-    if 'tvg-logo' in line:
+    if 'tvg-logo="' in line:
         tvg_logo = line.split('tvg-logo="')[1].split('"')[0]
     if ',' in line:
         ch_name = line.split(',')[-1].strip()
     
     return ch_name, group_title, tvg_id, tvg_logo
+
 
 # Função principal para processar o arquivo de entrada
 def process_m3u_file(input_file, output_file):
