@@ -143,3 +143,9 @@ streamlink: error: unrecognized arguments: --http-user-agent best
 2024-12-30 08:51:56,705 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8: Status Code 429
 2024-12-30 08:51:56,717 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8: Status Code 204
 2024-12-30 08:51:56,728 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8: Status Code 429
+2024-12-30 08:54:29,040 - ERROR - Request Error http://cdn2.cyclingnews.live/hls/P2.m3u8: HTTPConnectionPool(host='cdn2.cyclingnews.live', port=80): Max retries exceeded with url: /hls/P2.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fd8071cdaf0>: Failed to resolve 'cdn2.cyclingnews.live' ([Errno -2] Name or service not known)"))
+2024-12-30 08:54:29,286 - INFO - URL OK: https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
+2024-12-30 08:54:29,828 - INFO - URL OK: https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
+2024-12-30 08:54:30,536 - INFO - URL OK: http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8
+2024-12-30 08:54:30,867 - INFO - URL OK: https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+2024-12-30 08:54:31,529 - INFO - URL OK: https://live-hls-web-ajm.getaj.net/AJM/index.m3u8

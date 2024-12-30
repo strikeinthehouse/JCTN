@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="Local" tvg-id="Undefined" tvg-logo="https://i.imgur.com/BXmmroM.jpg",ahlakid.com - Canal Málaga
-http://canalmalaga-tv-live.flumotion.com/playlist.m3u8?checkedby:ahlakid.com
-#EXTINF:-1 group-title="Local;Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/BXmmroM.jpg",ahlakid.com - Canal M�laga
-http://canalmalaga-tv-live.flumotion.com/chunks.m3u8?checkedby:ahlakid.com
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1 - 2
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQgUdCTlQNlFIuILolibTDGGltOyJpXfG2vMSb5SH0m74yUXa9L6v-fX3-qY&s",Al Iraqiya News (720p) [Not 24/7]
+https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkT0tg4O-NefacE1y22n0CKXxd8Gw3hWILTrHfW86Pskfn4dtgqmhU_Xg6Lw&s",Al Jazeera Balkans (1080p)
+https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWO9rWVaKNpjNO_1r4PjETMTwd8lLgEKxQ-v7EkoTihCit72BPqgK7zeHyQ&s",Al Jazeera Documentary (576p) [Not 24/7]
+http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZ8_W14BlNYEj_xftyvrz3HPK5eLuxKHymCGMGHU0NSCfbwdLyBb04ZGfz8c&s",Al Jazeera English (1080p)
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbfM4Bv_G96pIjvIJxDZ4i4kc6y-IafQzBRKxTkhfxfQCdRALicR-GA0r-Q&s",Al Jazeera Mubasher (1080p)
+https://live-hls-web-ajm.getaj.net/AJM/index.m3u8

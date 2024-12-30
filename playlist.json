@@ -1,38 +1,42 @@
 [
   {
-    "name": "ahlakid.com - Canal M\u00e1laga",
-    "group": "Local",
+    "name": "Al Iraqiya News (720p) [Not 24/7]",
+    "group": "NEWS WORLD",
     "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/BXmmroM.jpg",
-    "url": "http://canalmalaga-tv-live.flumotion.com/playlist.m3u8?checkedby:ahlakid.com",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQgUdCTlQNlFIuILolibTDGGltOyJpXfG2vMSb5SH0m74yUXa9L6v-fX3-qY&s",
+    "url": "https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "ahlakid.com - Canal M\ufffdlaga",
-    "group": "Local;Undefined",
+    "name": "Al Jazeera Balkans (1080p)",
+    "group": "NEWS WORLD",
     "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/BXmmroM.jpg",
-    "url": "http://canalmalaga-tv-live.flumotion.com/chunks.m3u8?checkedby:ahlakid.com",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkT0tg4O-NefacE1y22n0CKXxd8Gw3hWILTrHfW86Pskfn4dtgqmhU_Xg6Lw&s",
+    "url": "https://live-hls-web-ajb.getaj.net/AJB/index.m3u8",
     "extra": []
   },
   {
-    "name": "RTP 1",
-    "group": "PORTUGAL",
-    "tvg_id": "RTP1.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
-    ]
+    "name": "Al Jazeera Documentary (576p) [Not 24/7]",
+    "group": "N/A",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWO9rWVaKNpjNO_1r4PjETMTwd8lLgEKxQ-v7EkoTihCit72BPqgK7zeHyQ&s",
+    "url": "http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8",
+    "extra": []
   },
   {
-    "name": "RTP 1 - 2",
-    "group": "PORTUGAL",
-    "tvg_id": "rtp1hd.tv.vodafone.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
-    ]
+    "name": "Al Jazeera English (1080p)",
+    "group": "NEWS WORLD",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZ8_W14BlNYEj_xftyvrz3HPK5eLuxKHymCGMGHU0NSCfbwdLyBb04ZGfz8c&s",
+    "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Al Jazeera Mubasher (1080p)",
+    "group": "NEWS WORLD",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbfM4Bv_G96pIjvIJxDZ4i4kc6y-IafQzBRKxTkhfxfQCdRALicR-GA0r-Q&s",
+    "url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+    "extra": []
   }
 ]
