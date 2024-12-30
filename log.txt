@@ -122,3 +122,9 @@
 2024-12-30 07:29:02,909 - ERROR - URL Error http://170.82.37.21:8000/play/a02h/index.m3u8: HTTPConnectionPool(host='170.82.37.21', port=8000): Max retries exceeded with url: /play/a02h/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f1a129f5ee0>, 'Connection to 170.82.37.21 timed out. (connect timeout=15)'))
 2024-12-30 07:29:18,808 - ERROR - URL Error http://38.7.24.161:8000/play/a028: HTTPConnectionPool(host='38.7.24.161', port=8000): Max retries exceeded with url: /play/a028 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f1a12888dd0>, 'Connection to 38.7.24.161 timed out. (connect timeout=15)'))
 2024-12-30 07:29:33,825 - ERROR - URL Error http://38.7.24.161:8000/play/a028: HTTPConnectionPool(host='38.7.24.161', port=8000): Max retries exceeded with url: /play/a028 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f1a129f5fa0>, 'Connection to 38.7.24.161 timed out. (connect timeout=15)'))
+2024-12-30 08:04:54,510 - ERROR - Streamlink Error https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8: 
+2024-12-30 08:04:55,080 - ERROR - Streamlink Error https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8: 
+2024-12-30 08:04:55,528 - ERROR - Streamlink Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8: 
+2024-12-30 08:04:56,583 - ERROR - Streamlink Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8: 
+2024-12-30 08:04:57,133 - ERROR - Streamlink Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8: 
+2024-12-30 08:04:57,501 - ERROR - Streamlink Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8: 
