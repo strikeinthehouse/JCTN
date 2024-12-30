@@ -1,174 +1,86 @@
 [
   {
-    "name": "RTP 1",
-    "group": "TV",
-    "tvg_id": "RTP1.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
+    "name": "Norte | Bah\u00eda Blanca | Argentina",
+    "group": "Argentina",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/HbV9HoX.png",
+    "url": "http://icecast.hostingbahia.com.ar:8002/live?28344",
+    "extra": []
+  },
+  {
+    "name": "Camaras de Villa Gesell (Av. 3 y 104)",
+    "group": "Argentina",
+    "tvg_id": "ext",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDuahOnWWlOYyXxDG06AjPNNbloMrSP3Jp27gssjJTTNyL22bTlI9_3B_ikgw&s",
+    "url": "http://cam104y3.gesell.com.ar/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Camaras de Villa Gesell (Buenos Aires y Playa)",
+    "group": "Argentina",
+    "tvg_id": "ext",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcLeOH4M9sdPlrWP0eHmQKfJTBMrULDwI-0VS-AG9pztqWI4Sm_ONWDiTDU7s&s",
+    "url": "http://cambsasyplaya.gesell.com.ar/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Camaras de Villa Gesell (La Pinocha)",
+    "group": "Argentina",
+    "tvg_id": "ext",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cJSBszES8cDQO6Dq51JiL1h1i3QiobX7Wi_02BLUbro56R7h1QJDQUOwPXY&s",
+    "url": "http://camlapinocha.gesell.com.ar/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "GARAGE TV",
+    "group": "Argentina",
+    "tvg_id": "ElGarageTV.ar",
+    "logo": "https://lh3.googleusercontent.com/-2gN4wEv_qPI/XjtKDwMuIQI/AAAAAAAAvrY/VTtJwZALBykDRnM8ia0Xbqi0FbREvdrZACK8BGAsYHg/s0/2020-02-05.png",
+    "url": "https://stream1.sersat.com/hls/garagetv.m3u8",
+    "extra": []
+  },
+  {
+    "name": "America TV | Argentina - TDA 2.1",
+    "group": "Argentina",
+    "tvg_id": "America TV Argentina",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina.png",
+    "url": "https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
+      "#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net"
     ]
   },
   {
-    "name": "RTP 2",
-    "group": "TV",
-    "tvg_id": "RTP2.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8",
+    "name": "America TV | Argentina - TDA 2.1",
+    "group": "Argentina",
+    "tvg_id": "AmericaTV.ar",
+    "logo": "https://raw.githubusercontent.com/mortal251/logos/main/AMERICA.png",
+    "url": "https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
+      "#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net"
     ]
   },
   {
-    "name": "SIC",
-    "group": "TV",
-    "tvg_id": "SIC.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",
-    "url": "https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
+    "name": "America TV | Argentina - TDA 2.1",
+    "group": "Argentina",
+    "tvg_id": "AmericaTV.ar",
+    "logo": "https://raw.githubusercontent.com/mortal251/logos/main/AMERICA.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8",
+    "extra": []
   },
   {
-    "name": "TVI",
-    "group": "TV",
-    "tvg_id": "TVI.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
-    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMzAvMjAyNCA4OjY6MzAgUE0maGFzaF92YWx1ZT12ZVByRGxQdkJJdWhlZjJ5WCtqdlBnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzY4MjA4ZTUtOWIzOC00NWExLThjMjAtMGMxNmY3N2NiN2M5/",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
+    "name": "Am\u00e9rica TV",
+    "group": "Argentina",
+    "tvg_id": "AmericaTV.ar",
+    "logo": "https://www.lyngsat-logo.com/logo/tv/aa/america-tv-ar.png",
+    "url": "http://181.13.173.86:8000/play/a0a7/index.m3u8",
+    "extra": []
   },
   {
-    "name": "RTP 3",
-    "group": "TV",
-    "tvg_id": "RTP3.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
-    ]
-  },
-  {
-    "name": "SIC Not\u00edcias",
-    "group": "TV",
-    "tvg_id": "SICNoticias.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Not\u00edcias.png",
-    "url": "https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive",
-      "#EXTVLCOPT:http-referrer=https://sic.pt/",
-      "#https://sicnot.live.impresa.pt/sicnot.m3u8"
-    ]
-  },
-  {
-    "name": "CNN Portugal",
-    "group": "TV",
-    "tvg_id": "CNNPortugal.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",
-    "url": "https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMzAvMjAyNCA4OjY6MzEgUE0maGFzaF92YWx1ZT1DN1VTNGNQT1ZDN3BPQ1ZXdC93OFN3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDU1YjJmZGEtMWYyNy00ODMyLTg4ZTEtN2IxZGIwMTlkMjM2/",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
-  },
-  {
-    "name": "ARTV",
-    "group": "TV",
-    "tvg_id": "ARTV.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",
-    "url": "https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
-  },
-  {
-    "name": "RTP A\u00e7ores",
-    "group": "TV",
-    "tvg_id": "RTPAcores.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-A\u00e7ores.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
-    ]
-  },
-  {
-    "name": "RTP Madeira",
-    "group": "TV",
-    "tvg_id": "RTPMadeira.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
-    ]
-  },
-  {
-    "name": "RTP Internacional",
-    "group": "TV",
-    "tvg_id": "RTPInternacional.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Firefox"
-    ]
-  },
-  {
-    "name": "TVI Internacional",
-    "group": "TV",
-    "tvg_id": "TVIInt.pt",
-    "logo": "https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",
-    "url": "https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMzAvMjAyNCA4OjY6MzEgUE0maGFzaF92YWx1ZT1SdlZ5NVMwMU1jcCt5bTNOT1hsWkZRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDQ4YTZhYTgtMjM1Yi00NDI5LTgxODUtNTMyMTIzMWI4MjY4/",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
-  },
-  {
-    "name": "V+ TVI",
-    "group": "TV",
-    "tvg_id": "VPlusTVI.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/vmaistvi.png",
-    "url": "https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
-  },
-  {
-    "name": "TVI Reality",
-    "group": "TV",
-    "tvg_id": "TVIReality.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Reality.png",
-    "url": "https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
-  },
-  {
-    "name": "Porto Canal",
-    "group": "TV",
-    "tvg_id": "PortoCanal.pt",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",
-    "url": "https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist_dvr.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
-  },
-  {
-    "name": "Fama TV",
-    "group": "TV",
-    "tvg_id": "",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fama-TV.jpg",
-    "url": "https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/playlist.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
-  },
-  {
-    "name": "Cam\u00f5es TV",
-    "group": "TV",
-    "tvg_id": "",
-    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CamoesTV.png",
-    "url": "https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive"
-    ]
+    "name": "Am\u00e9rica Canal 4 Posadas | AR",
+    "group": "Argentina",
+    "tvg_id": "Undefined",
+    "logo": "https://www.m3u.cl/logo/259_Canal_4_Posadas.png",
+    "url": "http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL",
+    "extra": []
   }
 ]

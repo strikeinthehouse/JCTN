@@ -159,3 +159,17 @@
 2024-12-30 22:00:31,049 - INFO - URL OK: https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist_dvr.m3u8
 2024-12-30 22:00:31,218 - INFO - URL OK: https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/playlist.m3u8
 2024-12-30 22:00:31,528 - INFO - URL OK: https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8
+2024-12-30 22:04:32,652 - INFO - URL OK: http://icecast.hostingbahia.com.ar:8002/live?28344
+2024-12-30 22:04:33,454 - INFO - URL OK: http://cam104y3.gesell.com.ar/playlist.m3u8
+2024-12-30 22:04:34,697 - INFO - URL OK: http://cambsasyplaya.gesell.com.ar/playlist.m3u8
+2024-12-30 22:04:35,925 - INFO - URL OK: http://camlapinocha.gesell.com.ar/playlist.m3u8
+2024-12-30 22:04:36,501 - WARNING - URL Error https://ythlsgo.onrender.com/channel/UCOV_Vx1baZJY9Tfvgm-UI3w.m3u8: Status Code 503
+2024-12-30 22:04:37,023 - ERROR - Request Error https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/0/playlist.m3u8: HTTPSConnectionPool(host='stream-gtlc.telecentro.net.ar', port=443): Max retries exceeded with url: /hls/telemaxhls/0/playlist.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2024-12-30 22:04:52,578 - ERROR - Request Error https://bvsat02.cdn.rcs.net.ar/mnp/construiriptv/output.mpd: HTTPSConnectionPool(host='bvsat02.cdn.rcs.net.ar', port=443): Max retries exceeded with url: /mnp/construiriptv/output.mpd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fcfb81bce00>, 'Connection to bvsat02.cdn.rcs.net.ar timed out. (connect timeout=15)'))
+2024-12-30 22:04:52,603 - ERROR - Request Error https://d3055hobuue3je.cloudfront.net/out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8: HTTPSConnectionPool(host='d3055hobuue3je.cloudfront.net', port=443): Max retries exceeded with url: /out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fcfb81bd700>: Failed to resolve 'd3055hobuue3je.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 22:04:53,141 - INFO - URL OK: https://stream1.sersat.com/hls/garagetv.m3u8
+2024-12-30 22:04:53,673 - INFO - URL OK: https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
+2024-12-30 22:04:54,207 - INFO - URL OK: https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
+2024-12-30 22:04:54,418 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8
+2024-12-30 22:04:54,765 - INFO - URL OK: http://181.13.173.86:8000/play/a0a7/index.m3u8
+2024-12-30 22:05:01,387 - INFO - URL OK: http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
