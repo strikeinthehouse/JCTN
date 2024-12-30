@@ -291,3 +291,9 @@
 2024-12-30 10:33:01,116 - INFO - URL OK: https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/26/976378/master/720p/stream.m3u8
 2024-12-30 10:33:01,164 - INFO - URL OK: https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/23/975973/master/720p/stream.m3u8
 2024-12-30 10:33:01,202 - INFO - URL OK: https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/20/975237/master/720p/stream.m3u8
+2024-12-30 10:34:45,125 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+2024-12-30 10:34:45,266 - INFO - URL OK: https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+2024-12-30 10:34:45,487 - INFO - URL OK: https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+2024-12-30 10:34:45,581 - ERROR - Request Error https://cheddar.samsung.wurl.com/manifest/playlist.m3u8: HTTPSConnectionPool(host='cheddar.samsung.wurl.com', port=443): Max retries exceeded with url: /manifest/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f1dfe0d94f0>: Failed to resolve 'cheddar.samsung.wurl.com' ([Errno -2] Name or service not known)"))
+2024-12-30 10:34:45,749 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/us.m3u8
+2024-12-30 10:34:46,100 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
