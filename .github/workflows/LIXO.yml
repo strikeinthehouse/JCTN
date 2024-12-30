@@ -37,15 +37,7 @@ jobs:
         source venv/bin/activate
         python vod.py || { echo "Erro ao executar vod.py"; exit 1; }
 
-    - name: Executar Script pt.py
-      run: |
-        source venv/bin/activate
-        python pt.py || { echo "Erro ao executar pt.py"; exit 1; }
 
-    - name: Executar Script it.py
-      run: |
-        source venv/bin/activate
-        python it.py || { echo "Erro ao executar it.py"; exit 1; }
 
     # Adiciona mudanças ao controle de versão
     - name: Adicionar Mudanças
