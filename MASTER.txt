@@ -1,40 +1,12 @@
-#EXTINF:-1 group-title= "ESPANHA",ahlakid.com - Canal Cocina ES
-http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/7244?checkedby:ahlakid.com
-#EXTINF:-1 group-title="Local" tvg-logo="https://i.imgur.com/BXmmroM.jpg",ahlakid.com - Canal Málaga
-http://canalmalaga-tv-live.flumotion.com/playlist.m3u8?checkedby:ahlakid.com
-#EXTINF:-1 group-title="Local;Undefined" tvg-logo="https://i.imgur.com/BXmmroM.jpg",ahlakid.com - Canal M�laga
-http://canalmalaga-tv-live.flumotion.com/chunks.m3u8?checkedby:ahlakid.com
-#EXTINF:-1 group-title= "ESPANHA",ahlakid.com - Canal Panda ES
-http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/53156?checkedby:ahlakid.com
-#EXTINF:-1 group-title="Undefined" tvg-logo="https://i.imgur.com/U842Z2c.png",ahlakid.com - Canal Parlamento (Opt-2)
-http://congresodirecto-f.akamaihd.net/i/congreso6_1@54665/master.m3u8?checkedby:ahlakid.com
-#EXTINF:-1 group-title="Undefined" tvg-logo="https://i.imgur.com/QBzvCJc.png",ahlakid.com - Canal San Roque
-https://elastic10.todostreaming.es/live/sanroque-livestream.m3u8?checkedby:ahlakid.com
-
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1 - 2
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
-
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8
-
-
-
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+#EXTINF:-1  group-title="N/A", Algum canal
+http://cdn2.cyclingnews.live/hls/P2.m3u8
+#EXTINF:-1  group-title="NEWS WORLD",Al Iraqiya News (720p) [Not 24/7]
+https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
+#EXTINF:-1  group-title="NEWS WORLD",Al Jazeera Balkans (1080p)
+https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
+#EXTINF:-1  group-title="N/A",Al Jazeera Documentary (576p) [Not 24/7]
+http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8
+#EXTINF:-1  group-title="NEWS WORLD",Al Jazeera English (1080p)
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1  group-title="NEWS WORLD",Al Jazeera Mubasher (1080p)
+https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
