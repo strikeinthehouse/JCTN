@@ -62,56 +62,7 @@ banner = r'''
 
 
 
-#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/HbV9HoX.png" group-title="Argentina",Norte | Bahía Blanca | Argentina
-http://icecast.hostingbahia.com.ar:8002/live?28344
-#EXTINF:0 tvg-id="ext" group-title="Argentina",Camaras de Villa Gesell (Av. 3 y 104)
-http://cam104y3.gesell.com.ar/playlist.m3u8
-#EXTINF:0 tvg-id="ext" group-title="Argentina",Camaras de Villa Gesell (Buenos Aires y Playa)
-http://cambsasyplaya.gesell.com.ar/playlist.m3u8
-#EXTINF:0 tvg-id="ext" group-title="Argentina",Camaras de Villa Gesell (La Pinocha)
-http://camlapinocha.gesell.com.ar/playlist.m3u8
 
-#EXTM3U
-
-
-
-#EXTINF:-1 group-title="Argentina" tvg-logo="https://i.postimg.cc/xdsxNVXq/609-Canal-Ciudad.png", CANAL DE LA CIUDAD
-https://ythlsgo.onrender.com/channel/UCOV_Vx1baZJY9Tfvgm-UI3w.m3u8
-
-
-
-#EXTINF:-1 tvg-id="Telemax.ar" tvg-logo="http://tvabierta.weebly.com/uploads/5/1/3/4/51344345/telemax.png" group-title="Argentina", TELEMAX  26.3
-https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/0/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://www.construirtv.com/wp-content/uploads/2020/03/Logo_300.png" group-title="Argentina", CONSTRUIR TV
-https://bvsat02.cdn.rcs.net.ar/mnp/construiriptv/output.mpd
-
-
-
-#EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="https://pbs.twimg.com/profile_images/1571906658581856258/_Yrzet08_400x400.jpg" group-title="Argentina", TyC SPORTS 
-https://d3055hobuue3je.cloudfront.net/out/v1/188a8f3baf914a35868453bd5d0b0fd2/index_4.m3u8
-
-#EXTINF:-1 tvg-id="ElGarageTV.ar" tvg-logo="https://lh3.googleusercontent.com/-2gN4wEv_qPI/XjtKDwMuIQI/AAAAAAAAvrY/VTtJwZALBykDRnM8ia0Xbqi0FbREvdrZACK8BGAsYHg/s0/2020-02-05.png" group-title="Argentina", GARAGE TV
-https://stream1.sersat.com/hls/garagetv.m3u8
-
-#EXTINF:-1 tvg-id="America TV Argentina" tvg-name="America TV Argentina" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/america_tv_argentina.png" group-title="Argentina",America TV | Argentina - TDA 2.1
-#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net
-https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
-
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/AMERICA.png" group-title="Argentina",America TV | Argentina - TDA 2.1
-#EXTVLCOPT:http-referrer=https://vmf.edge-apps.net
-https://prepublish.f.qaotic.net/a07/americahls-100056/Playlist.m3u8
-
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-country="AR" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/AMERICA.png" group-title="Argentina",America TV | Argentina - TDA 2.1
-http://cord-cutter.net:8080/live/j3McKd/673709/164881.m3u8
-
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/america-tv-ar.png" group-title="Argentina",América TV
-http://181.13.173.86:8000/play/a0a7/index.m3u8
-
-
-#EXTINF:-1 group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/259_Canal_4_Posadas.png",América Canal 4 Posadas | AR
-http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
 
 
 
