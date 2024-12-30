@@ -1,11 +1,9 @@
 import os
 import logging
 from logging.handlers import RotatingFileHandler
-import subprocess
-import json
 import requests
+import json
 from bs4 import BeautifulSoup
-import streamlink
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
@@ -22,29 +20,18 @@ logger.addHandler(file_handler)
 # Cabeçalho do arquivo M3U
 banner = "#EXTM3U\n"
 
-# Função para verificar URLs usando Streamlink com o cabeçalho User-Agent
-def check_url_with_streamlink(url):
+# Função para verificar URLs via requisição HTTP
+def check_url(url):
     try:
-        # Executa o Streamlink para verificar o stream com o User-Agent especificado
-        result = subprocess.run(
-            ['streamlink', '--http-user-agent', 'Firefox', url, 'best'],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            timeout=30
-        )
-
-        # Se o Streamlink retornar código 0, significa que o stream é válido
-        if result.returncode == 0:
-            logger.info("Streamlink success: %s", url)
+        response = requests.head(url, timeout=15)  # Usando HEAD para verificar a URL rapidamente
+        if response.status_code == 200:
+            logger.info("URL OK: %s", url)
             return True
         else:
-            logger.error("Streamlink Error %s: %s", url, result.stderr.decode())
+            logger.warning("URL Error %s: Status Code %d", url, response.status_code)
             return False
-    except subprocess.TimeoutExpired:
-        logger.error("Streamlink timeout for URL: %s", url)
-        return False
-    except Exception as e:
-        logger.error("Error running Streamlink: %s", e)
+    except requests.exceptions.RequestException as e:
+        logger.error("Request Error %s: %s", url, str(e))
         return False
 
 # Função para processar uma linha #EXTINF
@@ -90,8 +77,8 @@ def process_m3u_file(input_file, output_file):
                     link = next_line  # Caso contrário, é a URL do canal
                     break
             
-            # Verifica a URL antes de adicionar usando Streamlink
-            if link and check_url_with_streamlink(link):
+            # Verifica a URL antes de adicionar
+            if link and check_url(link):
                 # Se o canal não tiver logotipo, buscar o logo automaticamente
                 if tvg_logo in ["", "N/A", "Undefined.png"]:  # Condição para logo vazio ou "N/A"
                     logo_url = search_google_images(ch_name)
@@ -128,7 +115,7 @@ def process_m3u_file(input_file, output_file):
     with open("playlist.json", "w") as f:
         json.dump(channel_data, f, indent=2)
 
-# Função para buscar imagem no Google (não modificada)
+# Função para buscar imagem no Google
 def search_google_images(query):
     search_url = f"https://www.google.com/search?hl=pt-BR&q={query}&tbm=isch"  # URL de busca de imagens
     headers = {
