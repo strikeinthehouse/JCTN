@@ -546,3 +546,95 @@
 2024-12-30 09:49:32,585 - INFO - URL OK: https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 2024-12-30 09:49:33,071 - INFO - URL OK: https://live.playstop.me/1816184091/index.m3u8
 2024-12-30 09:49:33,122 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+2024-12-30 09:57:22,304 - INFO - URL OK: https://stream1.aswifi.it/italiachannel/stream/index.m3u8
+2024-12-30 09:57:22,823 - INFO - URL OK: https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
+2024-12-30 09:57:23,525 - INFO - URL OK: https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+2024-12-30 09:57:23,736 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8
+2024-12-30 09:57:23,890 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/airtv.sdp/playlist.m3u8
+2024-12-30 09:57:24,052 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
+2024-12-30 09:57:24,243 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/houngfa.sdp/playlist.m3u8
+2024-12-30 09:57:24,456 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
+2024-12-30 09:57:24,597 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/lonesinhlao.sdp/playlist.m3u8
+2024-12-30 09:57:24,825 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
+2024-12-30 09:57:25,050 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
+2024-12-30 09:57:25,607 - INFO - URL OK: https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8?latency=low
+2024-12-30 09:57:25,823 - INFO - URL OK: http://stream1.ai-net.net:1935/gtv1/_definst_/smil:gtv.smil/playlist.m3u8
+2024-12-30 09:57:25,909 - WARNING - URL Error https://cdn3.wowza.com/1/eUdsNEcyMmRvckor/K3pydHZw/hls/live/playlist.m3u8: Status Code 404
+2024-12-30 09:57:25,934 - ERROR - Request Error https://stream.persiantv1.com/ptv1/playlist1/index.m3u8: HTTPSConnectionPool(host='stream.persiantv1.com', port=443): Max retries exceeded with url: /ptv1/playlist1/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e7753aa20>: Failed to resolve 'stream.persiantv1.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:57:26,012 - WARNING - URL Error https://stitcher.pluto.tv/stitch/hls/channel/5bdcdf1e851dd5632e2c11d1/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=89e01bb7-336a-11ee-9e1a-c634ae62b640: Status Code 302
+2024-12-30 09:57:26,038 - WARNING - URL Error https://stitcher.pluto.tv/stitch/hls/channel/5f8a02476b72230007e62b7d/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=89e01bb7-336a-11ee-9e1a-c634ae62b640: Status Code 302
+2024-12-30 09:57:26,225 - WARNING - URL Error https://dai.google.com/linear/hls/event/akursTHNTo6qGf1TtlHNsw/master.m3u8: Status Code 405
+2024-12-30 09:57:26,256 - ERROR - Request Error https://d2mn03dhv5o3g8.cloudfront.net/live/qvcde_main_clean/bitrate1.isml/live.m3u8: HTTPSConnectionPool(host='d2mn03dhv5o3g8.cloudfront.net', port=443): Max retries exceeded with url: /live/qvcde_main_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e7753b7d0>: Failed to resolve 'd2mn03dhv5o3g8.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:57:26,404 - ERROR - Request Error http://live.qvcde.simplestreamcdn.com/live/qvcde_plus_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcde.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcde_plus_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e7753bdd0>: Failed to resolve 'live.qvcde.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:57:26,425 - ERROR - Request Error https://d2mn03dhv5o3g8.cloudfront.net/live/qvcde_beauty_clean/bitrate1.isml/live.m3u8: HTTPSConnectionPool(host='d2mn03dhv5o3g8.cloudfront.net', port=443): Max retries exceeded with url: /live/qvcde_beauty_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e7753ba10>: Failed to resolve 'd2mn03dhv5o3g8.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:57:26,444 - ERROR - Request Error https://d2mn03dhv5o3g8.cloudfront.net/live/qvcde_plus_clean/bitrate1.isml/live.m3u8: HTTPSConnectionPool(host='d2mn03dhv5o3g8.cloudfront.net', port=443): Max retries exceeded with url: /live/qvcde_plus_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e7753be90>: Failed to resolve 'd2mn03dhv5o3g8.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:57:26,472 - ERROR - Request Error http://live.qvcde.simplestreamcdn.com/live/qvcde_beauty_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcde.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcde_beauty_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e774fc860>: Failed to resolve 'live.qvcde.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:57:26,532 - INFO - URL OK: https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+2024-12-30 09:57:26,552 - ERROR - Request Error https://d1txbbj1u9asam.cloudfront.net/live/qvcuk_main_clean/bitrate1.isml/live.m3u8: HTTPSConnectionPool(host='d1txbbj1u9asam.cloudfront.net', port=443): Max retries exceeded with url: /live/qvcuk_main_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e774fd2e0>: Failed to resolve 'd1txbbj1u9asam.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:57:26,656 - ERROR - Request Error http://live.qvcuk.simplestreamcdn.com/live/qvcuk_beauty_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcuk.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcuk_beauty_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e774fdb50>: Failed to resolve 'live.qvcuk.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:57:26,664 - ERROR - Request Error http://live.qvcuk.simplestreamcdn.com/live/qvcuk_style_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcuk.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcuk_style_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e774fe4e0>: Failed to resolve 'live.qvcuk.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:57:26,695 - ERROR - Request Error https://aos01-evine.secure.footprint.net/evine/clean/appleman.m3u8: HTTPSConnectionPool(host='aos01-evine.secure.footprint.net', port=443): Max retries exceeded with url: /evine/clean/appleman.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e7753b230>: Failed to resolve 'aos01-evine.secure.footprint.net' ([Errno -2] Name or service not known)"))
+2024-12-30 09:57:26,728 - ERROR - Request Error https://aos01-evine.secure.footprint.net/evine/cleanfeed/master.m3u8: HTTPSConnectionPool(host='aos01-evine.secure.footprint.net', port=443): Max retries exceeded with url: /evine/cleanfeed/master.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e778f60f0>: Failed to resolve 'aos01-evine.secure.footprint.net' ([Errno -2] Name or service not known)"))
+2024-12-30 09:57:26,978 - INFO - URL OK: https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
+2024-12-30 09:57:27,501 - INFO - URL OK: http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
+2024-12-30 09:57:27,541 - WARNING - URL Error https://d2xcv44k8d8mlk.cloudfront.net/v1/channel/Website/index.m3u8: Status Code 404
+2024-12-30 09:57:27,853 - INFO - URL OK: https://live-hochanda.simplestreamcdn.com/hochanda/live.m3u8
+2024-12-30 09:57:27,927 - WARNING - URL Error https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8: Status Code 302
+2024-12-30 09:57:28,294 - INFO - URL OK: http://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
+2024-12-30 09:57:28,875 - INFO - URL OK: https://tvwarehouse.r.worldssl.net/mystream.m3u8
+2024-12-30 09:57:28,984 - WARNING - URL Error https://rpn1.bozztv.com/36bay2/gusa-ConsumerDirect/index.m3u8: Status Code 404
+2024-12-30 09:57:29,087 - WARNING - URL Error https://rpn1.bozztv.com/36bay2/gusa-tvsrarecollectibles/index.m3u8: Status Code 404
+2024-12-30 09:57:29,259 - WARNING - URL Error https://rpn1.bozztv.com/36bay2/gusa-tvssilodiscount/index.m3u8: Status Code 404
+2024-12-30 09:57:29,391 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
+2024-12-30 09:57:29,531 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8
+2024-12-30 09:57:29,706 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/airtv.sdp/playlist.m3u8
+2024-12-30 09:57:29,972 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
+2024-12-30 09:57:30,184 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
+2024-12-30 09:57:30,298 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/houngfa.sdp/playlist.m3u8
+2024-12-30 09:57:30,451 - WARNING - URL Error https://livefta.malimarcdn.com/ftaedge00/lstv2.sdp/playlist.m3u8: Status Code 404
+2024-12-30 09:57:30,565 - WARNING - URL Error https://livefta.malimarcdn.com/ftaedge00/pntv.sdp/playlist.m3u8: Status Code 404
+2024-12-30 09:57:30,683 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/lonesinhlao.sdp/playlist.m3u8
+2024-12-30 09:57:30,811 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
+2024-12-30 09:57:30,927 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
+2024-12-30 09:57:31,146 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8
+2024-12-30 09:57:31,336 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
+2024-12-30 09:57:31,367 - INFO - URL OK: https://install.telfarcontrol.com/speed/broadcast/12/file-4692k.m3u8
+2024-12-30 09:57:32,447 - INFO - URL OK: https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
+2024-12-30 09:57:33,102 - INFO - URL OK: https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
+2024-12-30 09:57:33,873 - INFO - URL OK: https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
+2024-12-30 09:57:49,854 - ERROR - Request Error https://stream4.sehradar.de/jenatv/ngrp:livestream_all/playlist.m3u8: HTTPSConnectionPool(host='stream4.sehradar.de', port=443): Max retries exceeded with url: /jenatv/ngrp:livestream_all/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3e774fe870>, 'Connection to stream4.sehradar.de timed out. (connect timeout=15)'))
+2024-12-30 09:57:50,132 - INFO - URL OK: https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
+2024-12-30 09:58:05,391 - ERROR - Request Error http://51.15.2.151/hls/kanalavrupa.m3u8: HTTPConnectionPool(host='51.15.2.151', port=80): Max retries exceeded with url: /hls/kanalavrupa.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3e76dc51c0>, 'Connection to 51.15.2.151 timed out. (connect timeout=15)'))
+2024-12-30 09:58:05,701 - INFO - URL OK: https://api.alpaca.t62a.com/hls/9103/index.m3u8
+2024-12-30 09:58:06,921 - INFO - URL OK: https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
+2024-12-30 09:58:07,529 - WARNING - URL Error https://5926fc9c7c5b2.streamlock.net/9354/9354/playlist.m3u8: Status Code 404
+2024-12-30 09:58:07,627 - INFO - URL OK: https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
+2024-12-30 09:58:07,692 - WARNING - URL Error https://cdn3.wowza.com/1/eUdsNEcyMmRvckor/K3pydHZw/hls/live/playlist.m3u8: Status Code 404
+2024-12-30 09:58:07,807 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8
+2024-12-30 09:58:07,941 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
+2024-12-30 09:58:08,070 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laosplanet.sdp/playlist.m3u8
+2024-12-30 09:58:08,213 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8
+2024-12-30 09:58:08,252 - WARNING - URL Error https://mediashop.akamaized.net/hls/live/2032402/Meine_Einkaufswelt/1.m3u8: Status Code 400
+2024-12-30 09:58:08,396 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8
+2024-12-30 09:58:08,415 - ERROR - Request Error http://live.qvcde.simplestreamcdn.com/live/qvcde_plus_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcde.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcde_plus_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e76de2ed0>: Failed to resolve 'live.qvcde.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:08,465 - INFO - URL OK: https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
+2024-12-30 09:58:08,496 - ERROR - Request Error https://d2mn03dhv5o3g8.cloudfront.net/live/qvcde_main_clean/bitrate1.isml/3/prog_index.m3u8: HTTPSConnectionPool(host='d2mn03dhv5o3g8.cloudfront.net', port=443): Max retries exceeded with url: /live/qvcde_main_clean/bitrate1.isml/3/prog_index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e77416630>: Failed to resolve 'd2mn03dhv5o3g8.cloudfront.net' ([Errno -5] No address associated with hostname)"))
+2024-12-30 09:58:09,514 - INFO - URL OK: https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+2024-12-30 09:58:09,532 - ERROR - Request Error http://live.qvcde.simplestreamcdn.com/live/qvcde_beauty_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcde.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcde_beauty_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e77416f90>: Failed to resolve 'live.qvcde.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:09,549 - ERROR - Request Error http://live.qvcuk.simplestreamcdn.com/live/qvcuk_main_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcuk.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcuk_main_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e774172f0>: Failed to resolve 'live.qvcuk.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:09,603 - ERROR - Request Error https://live-qvcuk.simplestreamcdn.com/hera/remote/qvcuk_primary_sdi1/live.m3u8: HTTPSConnectionPool(host='live-qvcuk.simplestreamcdn.com', port=443): Max retries exceeded with url: /hera/remote/qvcuk_primary_sdi1/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e77417c20>: Failed to resolve 'live-qvcuk.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:09,622 - ERROR - Request Error http://live.qvcuk.simplestreamcdn.com/live/qvcuk_beauty_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcuk.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcuk_beauty_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e77417c20>: Failed to resolve 'live.qvcuk.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:09,628 - ERROR - Request Error https://live-qvcuk.simplestreamcdn.com/live/qvcuk_extra_clean/bitrate1.isml/live.m3u8: HTTPSConnectionPool(host='live-qvcuk.simplestreamcdn.com', port=443): Max retries exceeded with url: /live/qvcuk_extra_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e77417320>: Failed to resolve 'live-qvcuk.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:09,644 - ERROR - Request Error http://live.qvcuk.simplestreamcdn.com/live/qvcuk_style_clean/bitrate1.isml/live.m3u8: HTTPConnectionPool(host='live.qvcuk.simplestreamcdn.com', port=80): Max retries exceeded with url: /live/qvcuk_style_clean/bitrate1.isml/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f3e77416b70>: Failed to resolve 'live.qvcuk.simplestreamcdn.com' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:09,679 - ERROR - Request Error https://aos01-evine.secure.footprint.net/evine/clean/appleman.m3u8: HTTPSConnectionPool(host='aos01-evine.secure.footprint.net', port=443): Max retries exceeded with url: /evine/clean/appleman.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3e774165a0>: Failed to resolve 'aos01-evine.secure.footprint.net' ([Errno -2] Name or service not known)"))
+2024-12-30 09:58:09,992 - INFO - URL OK: https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
+2024-12-30 09:58:10,246 - INFO - URL OK: http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
+2024-12-30 09:58:10,398 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8
+2024-12-30 09:58:10,522 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
+2024-12-30 09:58:10,711 - INFO - URL OK: https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8
+2024-12-30 09:58:11,285 - INFO - URL OK: https://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
+2024-12-30 09:58:11,368 - WARNING - URL Error https://rpn1.bozztv.com/36bay2/gusa-tvsrarecollectibles/index.m3u8: Status Code 404
+2024-12-30 09:58:11,535 - WARNING - URL Error https://rpn1.bozztv.com/36bay2/gusa-tvssilodiscount/index.m3u8: Status Code 404
+2024-12-30 09:58:11,677 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
+2024-12-30 09:58:11,835 - INFO - URL OK: https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
+2024-12-30 09:58:12,236 - INFO - URL OK: https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
