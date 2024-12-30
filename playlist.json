@@ -1,1768 +1,282 @@
 [
   {
-    "name": "Korean Central Television (KCTV) (576p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "KCTV.kp",
-    "logo": "https://i.imgur.com/O6G4tJ8.png",
-    "url": "https://tv.nknews.org/tvdash/stream.mpd",
-    "extra": []
-  },
-  {
-    "name": "Globo News HD",
-    "group": "NEWS WORLD",
-    "tvg_id": "GLOBO NEWS",
-    "logo": "https://imgur.com/Wu4ykxo.png",
-    "url": "http://dzcdn.vood.top/hls/479_.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Globo News HD",
-    "group": "NEWS WORLD",
-    "tvg_id": "GLOBO NEWS",
-    "logo": "https://imgur.com/Wu4ykxo.png",
-    "url": "https://stream1.freetv.fun/f8abfabde50425ec3bbe6cf961f0e757092d5db61b0a228900d613e5066af8a0.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Jovem Pan News",
-    "group": "NEWS WORLD",
-    "tvg_id": "JovemPanNews.br",
-    "logo": "https://i.imgur.com/QWazNSS.png",
-    "url": "https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN Brasil",
-    "group": "NEWS WORLD",
-    "tvg_id": "cnn.brasil.br",
-    "logo": "https://i.ibb.co/7kD8t97/cnn-brasil.png",
-    "url": "https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN Brasil",
-    "group": "CNN's",
-    "tvg_id": "CNNBrasil.br",
-    "logo": "https://i.ibb.co/7kD8t97/cnn-brasil.png",
-    "url": "http://bccdn.xyz:80/594023850943868/897489270938609/588",
-    "extra": []
-  },
-  {
-    "name": "CNN INTERNACIONAL",
-    "group": "CNN's",
-    "tvg_id": "LCH35",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCXg3w_lCcX81-Prwhx-_QOIfR1mHI2LXg866TEnyGVoGR3yDgb7GybgnSKw&s",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN CHILE",
-    "group": "CNN's",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiTkPJC_fKm9WoQ0o0JAf0YWPaYBTgk2QwIEX4Hubnh5A-_tMRAK2XIosyLg&s",
-    "url": "https://jireh-3-hls-video-us-isp.dps.live/hls-video/lvcl5/cnn/cnn.smil/cnn/livestream1/chunks.m3u8?dpssid=b272750573767297b77e2b13&sid=ba5t1l1xb28311768867297b78a0f50&ndvc=0",
-    "extra": []
-  },
-  {
-    "name": "CNN US",
-    "group": "CNN's",
-    "tvg_id": "CNN.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/1920px-CNN.svg.png",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN US",
-    "group": "CNN's",
-    "tvg_id": "cnn.tv.vodafone.pt",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Cnn_logo_red_background.png",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN",
-    "group": "CNN's",
-    "tvg_id": "10142",
-    "logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/CNN.png",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-      "#EXTVLCOPT:http-origin=https://www.n12.co.il"
-    ]
-  },
-  {
-    "name": "CNN",
-    "group": "CNN's",
-    "tvg_id": "10142",
-    "logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/CNN.png",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-      "#EXTVLCOPT:http-origin=https://www.n12.co.il"
-    ]
-  },
-  {
-    "name": "CNN T\u00dcRK",
-    "group": "CNN's",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/JqWCczW/cnnturk1.png",
-    "url": "https://deathlesstg.serv00.net/Youtube-Live/index.php?id=X_EWYemclKA&m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN INDONESIA",
-    "group": "CNN's",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIFOiTu3AdvEbMU59ITXCkJbPTkymY1zAqt9JQlb87Cb8wliVDDnbY9ITMVrpAex3gOUk&usqp=CAU",
-    "url": "https://live.cnnindonesia.com/livecnn/cnntv.smil/chunklist_w1719934476_b384000_sleng.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN INDONESIA 2",
-    "group": "CNN's",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIFOiTu3AdvEbMU59ITXCkJbPTkymY1zAqt9JQlb87Cb8wliVDDnbY9ITMVrpAex3gOUk&usqp=CAU",
-    "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN Indonesia",
-    "group": "CNN's",
-    "tvg_id": "(no tvg-id)",
-    "logo": "https://www.cnnbrasil.com.br/wp-content/themes/cnnbrasil/assets/favicon/apple-touch-icon.png",
-    "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "N1 CNN",
-    "group": "CNN's",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3cKE6zfz9RIUTCS0obU-EleqWvrNmZrAPg&s",
-    "url": "https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1hrv&u=n1info&p=n1Sh4redSecre7iNf0",
-    "extra": []
-  },
-  {
-    "name": "CNN CHILE",
-    "group": "NEWS WORLD",
-    "tvg_id": "CNN en Espanol",
-    "logo": "https://monitortv.vercel.app/Monitores/Imagenes/Logo_CNNCHILE2.svg",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/57619.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN Indonesia",
-    "group": "CNN's",
-    "tvg_id": "CNNIndonesia.id",
-    "logo": "https://i.imgur.com/aBk06sY.png",
-    "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w891045790_b384000_sleng.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN Indonesia (720p)",
-    "group": "CNN's",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF-3GTZUHYpp892anEIyZeCiI3y71ytSwJ2g7PB2JPilMCCu_VhpyMLXokKg&s",
-    "url": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",
-    "url": "https://newsource-live.warnermediacdn.com/hls/live/2005450/intl01/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN SERVI\u00c7O 2",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",
-    "url": "https://newsource-live.warnermediacdn.com/hls/live/2005451/intl02/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN SERVI\u00c7O 3",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",
-    "url": "https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNN SERVI\u00c7O 4",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",
-    "url": "https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "HLN",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9Yb9QCVtauk3US5ywf3Avc-r3yPhnHyb4nPSL_m2zBe-83bLGrhK-i2e3Q&s",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS NEWS SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://assets3.cbsnewsstatic.com/hub/i/r/2022/01/19/e6521679-1e8a-4522-af30-b416193d8414/thumbnail/1920x1080/d73c8305850f4e4a85a25627a616d62b/cbsnews-1920x1080.jpg",
-    "url": "https://cbsn-2.cbsnstream.cbsnews.com/out/v1/a6a897e8f4f74cfc896223dfd822482f/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS NEWS SERVI\u00c7O 2",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://assets3.cbsnewsstatic.com/hub/i/r/2022/01/19/e6521679-1e8a-4522-af30-b416193d8414/thumbnail/1920x1080/d73c8305850f4e4a85a25627a616d62b/cbsnews-1920x1080.jpg",
-    "url": "https://cbsn-3-fastly.cbsnstream.cbsnews.com/out/v1/f081461c65494eeaa9ec596d0fe96a14/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 1 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider10.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023569/abcnews10/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 2 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider6.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnews6/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 3 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "ABCNewsLive3.us",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider3.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 3 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider3.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master_4000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 4 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider1.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 5 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "ABCNewsLive5.us",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider4.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 5 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider4.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master_4000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 6 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider9.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 6 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider9.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master_4000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 7 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider2.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 7 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider2.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master_4000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 8 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider5.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 8 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider5.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master_4000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 9 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "ABCNewsLive9.us",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider2.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 9 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider2.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master_4000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 10 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider8.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News Live 10 (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://keyframe-cdn.abcnews.com/streamprovider8.jpg",
-    "url": "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master_4000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "SKY NEWS - SERVI\u00c7O 1",
-    "group": "NEWS WORLD",
-    "tvg_id": "Sky News",
-    "logo": "https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-sky-news.png",
-    "url": "https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "SKY NEWS - SERVI\u00c7O 2",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-sky-news.png",
-    "url": "https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "SKY NEWS - SERVI\u00c7O 3",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.skymedia.ie/wp-content/uploads/sites/4/2016/01/channel-logo-sky-news.png",
-    "url": "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NOT\u00cdCIAS TELEMUNDO - SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphY_KpFPFb8iogvRqi49zAdBcqcSIYwHm_qKyhjSI8l0tcXw2wRRVtl65lA&s",
-    "url": "https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8",
-    "extra": []
-  },
-  {
-    "name": "The Wall Street Journal Live (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "TheWallStreetJournalLive.us",
-    "logo": "https://i.imgur.com/4xSEoNK.png",
-    "url": "https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "YNET NEWS SERVI\u00c7O 1",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/kq4XM0Y/ynet.png",
-    "url": "https://ynet-live-02.ynet-pic1.yit.co.il/ynet/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "YNET NEWS SERVI\u00c7O 2",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/kq4XM0Y/ynet.png",
-    "url": "https://ynet-live-03.ynet-pic1.yit.co.il/ynet/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "YNET NEWS SERVI\u00c7O 3",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/kq4XM0Y/ynet.png",
-    "url": "https://ynet-live-04.ynet-pic1.yit.co.il/ynet/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "YNET NEWS SERVI\u00c7O 4",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/kq4XM0Y/ynet.png",
-    "url": "https://ynet-live-05.ynet-pic1.yit.co.il/ynet/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "DHA SERVI\u00c7O 1",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/K6BKFqY/dha.png",
-    "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "DHA SERVI\u00c7O 2",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/K6BKFqY/dha.png",
-    "url": "https://603c568fccdf5.streamlock.net/live2/dhaweb2/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "DW Espa\u00f1ol",
-    "group": "NEWS WORLD",
-    "tvg_id": "DWEspanol.de",
-    "logo": "https://i.imgur.com/A1xzjOI.png",
-    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "DW Espa\u00f1ol 2",
-    "group": "NEWS WORLD",
-    "tvg_id": "DWEspanol.de",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKKi31T-cpbQpBKDo3Qblf-6Joj8DEtQxjjmoY3d6uD838_ix2Z7PWyXUxzQ&s",
-    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive",
-      "#KODIPROP:inputstream.adaptive.manifest_type=hls"
-    ]
-  },
-  {
-    "name": "MSNBC",
-    "group": "NEWS WORLD",
-    "tvg_id": "MSNBC.us",
-    "logo": "https://iili.io/JmKvove.png",
-    "url": "http://41.205.93.154:80/MSNBC/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX NEWS USA",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEc4MyZIWvx3nNPOVwlUwvivpu_VLsknHjgtCwEvUVl4sJKazM0LiHDbNRSE&s",
-    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC News",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9QzyI-bCW4uHTCx0-PEAxBlyKKx36upBu8aLu9XYeNnSQ2jCOUJuI0N-BNQ&s",
-    "url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS News Dallas Ft Worth (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDsGoNCDNAqBEbxFjD9an1-ndTATebh_JldfR_wgQhajSUwHt7ErJ2ChN9Q&s",
-    "url": "https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS News Los Angeles (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvj8FVFNBydMlIKbIx_3nkEhBfD31p3FB4NVR8FG3VpjZhnQBmQUIsksNTRV4&s",
-    "url": "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS News Miami (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaIrWYMViPoK9xEaUGRqryEDP5SUT4OwJcLH2jz6Ed8AHQDXQGFhLSqNIxuQ&s",
-    "url": "https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS News New York (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmjWcpVPEPwlAmjpapmSi0gWE5vSqzPHh7TvGD6L73vFgkpnNNvEIp3Gn1dY&s",
-    "url": "https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBSN Boston (720p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHnTZSnxim9GDGlnUdSyDLHu2jNIMGOm6mdarU41HKT4FPdt6e-O1LiQXYWKY&s",
-    "url": "https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Bloomberg Television",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "BloombergTelevision.us",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAMx5ocyi-5mmkLQHwD0w1vteFbhZwme0iLwR4F1Aos64MpycYMYVHThM_Ic&s",
-    "url": "https://liveprodusphoenixeast.global.ssl.fastly.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Bloomberg TV Mongolia",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "BloombergTVMongolia.mn",
-    "logo": "https://i.imgur.com/nSj18g1.png",
-    "url": "https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CHEDDAR NEWS",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "SkyNews.uk",
-    "logo": "https://play-lh.googleusercontent.com/mXoCR2LDPQhX_oNPJfwRYsyzjN8OmDBMljfGGtBBzfj9vkVY8Hg4vPf-N2JaiAvSoIzd",
-    "url": "https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/primary/2.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Yahoo! Finance",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/Y3vQaf5.png",
-    "url": "https://yahoo-samsung.amagi.tv/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "tagesschau24 - ALEM\u00c3O",
-    "group": "NEWS WORLD",
-    "tvg_id": "SkyNews.uk",
-    "logo": "https://www.tagesschau.de/res/assets/image/favicon/apple-touch-icon-152x152.png",
-    "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8",
-    "extra": []
-  },
-  {
-    "name": "DW Arabe",
-    "group": "NEWS WORLD",
-    "tvg_id": "DWArabic.de",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDQGrn_7OecJwZG45681ZyIam-pApP5a9bufduU-gbs16C7_aKm-tceUwaWg&s",
-    "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/stream05/streamPlaylist.m3u8",
-    "extra": [
-      "#KODIPROP:inputstream=inputstream.adaptive",
-      "#KODIPROP:inputstream.adaptive.manifest_type=hls"
-    ]
-  },
-  {
-    "name": "CNA",
-    "group": "NEWS WORLD",
-    "tvg_id": "CNA.sg",
-    "logo": "https://i.imgur.com/xJZ9ChT.png",
-    "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNA",
-    "group": "NEWS WORLD",
-    "tvg_id": "cna",
-    "logo": "https://i.ibb.co/NTKgPfv/cna.png",
-    "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?cc",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
-    ]
-  },
-  {
-    "name": "LiveNow Fox",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/GRfQZMK.png",
-    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Meteonews (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoj1sadr0FQYsXmpWpE7a9pQ4HnwZKZiTThvQJh3zWly1NOHze43PNGE_ZYxA&s",
-    "url": "https://streaming.meteonews.net/hls/stream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "OAN (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6jAiU5gDsaARVIiLaR6Gq84_-TwAuB9dn0r-99AZgJ1DDTv58NR3vfTFkQ&s",
-    "url": "http://oneamericanews-roku-us.amagi.tv/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "RAI NEWS24",
-    "group": "TV",
-    "tvg_id": "rainews.tv.vodafone.pt",
-    "logo": "https://www.raiplay.it/resizegd/300x-/dl/img/2023/01/19/1674083857577_1.jpg",
-    "url": "https://streamcdng18-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_2400/chunklist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "RAI NEWS24",
-    "group": "TV",
-    "tvg_id": "rainews.tv.vodafone.pt",
-    "logo": "https://www.raiplay.it/resizegd/300x-/dl/img/2023/01/19/1674083857577_1.jpg",
-    "url": "https://streamcdne2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_2400/chunklist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Sky News Arabe",
-    "group": "NEWS WORLD",
-    "tvg_id": "SkyNewsArabia.ae",
-    "logo": "https://i.imgur.com/okkmsZK.png",
-    "url": "https://stream.skynewsarabia.com/hls/sna_720.m3u8",
-    "extra": []
-  },
-  {
-    "name": "teleSUR English",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/49/TeleSUR.jpg",
-    "url": "https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Africanews",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/jHJR3LN.png",
-    "url": "https://rakuten-africanews-1-eu.rakuten.wurl.tv/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Aljazeera English",
-    "group": "NEWS WORLD",
-    "tvg_id": "AlJazeeraEnglish.qa",
-    "logo": "https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/1200px-Aljazeera_eng.svg.png",
-    "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Aljazeera Channel",
-    "group": "NEWS WORLD",
-    "tvg_id": "AlJazeeraChannel.qa",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D9WOAaoPC8yyCvYzHJpvW8L72lbzeA_1Rk2-f3J4P3pczmQXR1UyFtSehA&s",
-    "url": "https://live-hls-web-aja.getaj.net/AJA/01.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Jazeera",
-    "group": "NEWS WORLD",
-    "tvg_id": "AlJazeeraEnglish.qa",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D9WOAaoPC8yyCvYzHJpvW8L72lbzeA_1Rk2-f3J4P3pczmQXR1UyFtSehA&s",
-    "url": "https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Arabiya (Arabic)",
-    "group": "NEWS WORLD",
-    "tvg_id": "AlArabiya.uk",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFxyDXvMqzluYDtpAGClZQ2Rl7SWcurIjsz2rg8F71u4sJLxnxvJfeegYL24&s",
-    "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Jazeera Arabic",
-    "group": "NEWS WORLD",
-    "tvg_id": "AlJazeeraArabic.qa",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D9WOAaoPC8yyCvYzHJpvW8L72lbzeA_1Rk2-f3J4P3pczmQXR1UyFtSehA&s",
-    "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Aljazeera Balkans",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/2D9tAmC.png",
-    "url": "https://live-hls-web-ajb.getaj.net/AJB/01.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Euronews | Union Europea",
-    "group": "NEWS WORLD",
-    "tvg_id": "Euronews",
-    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/euronews.png",
-    "url": "https://rakuten-euronews-4-es.samsung.wurl.tv/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "France 24 Espanol | Francia",
-    "group": "NEWS WORLD",
-    "tvg_id": "France24Espanol(English).mx",
-    "logo": "http://i.imgur.com/BFMMPwP.png",
-    "url": "https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8",
-    "extra": []
-  },
-  {
-    "name": "France 24 | Francia",
-    "group": "NEWS WORLD",
-    "tvg_id": "France 24",
-    "logo": "http://i.imgur.com/BFMMPwP.png",
-    "url": "http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Iraqiya News (720p) [Not 24/7]",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQgUdCTlQNlFIuILolibTDGGltOyJpXfG2vMSb5SH0m74yUXa9L6v-fX3-qY&s",
-    "url": "https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Jazeera Balkans (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkT0tg4O-NefacE1y22n0CKXxd8Gw3hWILTrHfW86Pskfn4dtgqmhU_Xg6Lw&s",
-    "url": "https://live-hls-web-ajb.getaj.net/AJB/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Jazeera Documentary (576p) [Not 24/7]",
-    "group": "N/A",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWO9rWVaKNpjNO_1r4PjETMTwd8lLgEKxQ-v7EkoTihCit72BPqgK7zeHyQ&s",
-    "url": "http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Jazeera English (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZ8_W14BlNYEj_xftyvrz3HPK5eLuxKHymCGMGHU0NSCfbwdLyBb04ZGfz8c&s",
-    "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Al Jazeera Mubasher (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbfM4Bv_G96pIjvIJxDZ4i4kc6y-IafQzBRKxTkhfxfQCdRALicR-GA0r-Q&s",
-    "url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "GBNews (alternative stream)",
-    "group": "NEWS WORLD",
-    "tvg_id": "GBNews.uk",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDwq8_L8He_4u7BiMaFJdwC6pzevV92u00EymzOWzdmX8O5HtKEG4LXRvnqg&s",
-    "url": "https://list.iptvcat.com/my_list/s/f4111eb523f441da59566bd3a5592750.m3u8",
-    "extra": []
-  },
-  {
-    "name": "30A Investment Pitch (720p)",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "30AInvestmentPitch.us",
-    "logo": "https://i.imgur.com/CKCtZo7.png",
-    "url": "https://30a-tv.com/feeds/xodglobal/30atv.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Ameritrade (1080p) [Not 24/7]",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "Ameritrade.us",
-    "logo": "https://images-na.ssl-images-amazon.com/images/I/71CZKwin9mL.png",
-    "url": "https://tdameritrade-vizio.amagi.tv/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Asharq News (1080p)",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "AsharqNews.sa",
-    "logo": "https://i.imgur.com/bqRC3sl.png",
-    "url": "https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Asharq News Portrait (1280p)",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "AsharqNewsPortrait.sa",
-    "logo": "https://i.imgur.com/bqRC3sl.png",
-    "url": "https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/6203311941001/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Atameken Business (1080p) [Not 24/7]",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "AtamekenBusiness.kz",
-    "logo": "https://i.imgur.com/CfRvm8i.png",
-    "url": "http://live-atameken.cdnvideo.ru/atameken/atameken.sdp/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Yahoo! Finance (1080p)",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "YahooFinance.us",
-    "logo": "https://i.imgur.com/43oHsHL.png",
-    "url": "https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0420\u0411\u041a (560p)",
-    "group": "BUSINESS NEWS",
-    "tvg_id": "RBKTV.ru",
-    "logo": "https://i.imgur.com/CwhmJby.png",
-    "url": "http://92.50.128.180/utv/1358/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "100% News (576p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "100News.ua",
-    "logo": "https://i.imgur.com/wEou5az.png",
-    "url": "http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8",
-    "extra": []
-  },
-  {
-    "name": "AMX Noticias (720p) [Not 24/7]",
-    "group": "NEWS WORLD",
-    "tvg_id": "AMXNoticias.mx",
-    "logo": "https://i.imgur.com/snIU1UA.jpg",
-    "url": "https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ARB 24 (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "ARB24.az",
-    "logo": "https://i.imgur.com/mtvIFyq.png",
-    "url": "http://85.132.81.184:8080/arb/live/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ATN News (720p) [Not 24/7]",
-    "group": "NEWS WORLD",
-    "tvg_id": "ATNNews.af",
-    "logo": "https://i.imgur.com/QenemOL.png",
-    "url": "https://d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TVP",
-    "group": "NEWS WORLD",
-    "tvg_id": "TVPWorld.pl",
-    "logo": "https://i.imgur.com/lB4MgRI.png",
-    "url": "http://78.129.193.20/tsstreamer/TVP_SD.ts",
-    "extra": []
-  },
-  {
-    "name": "W14DK-D 14.2 NEWSNET",
-    "group": "NEWS WORLD",
-    "tvg_id": "W14DKD2.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png",
-    "url": "https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Fox News",
-    "group": "NEWS WORLD",
-    "tvg_id": "",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Fox_News_Channel_logo.svg",
-    "url": "http://cord-cutter.net:8080/k4Svp2/645504/1818#checkedby:alliptvlinks.com",
-    "extra": []
-  },
-  {
-    "name": "UN Web TV 2",
-    "group": "NEWS WORLD",
-    "tvg_id": "UNWebTV.us",
-    "logo": "https://i.imgur.com/lPyJhBN.png",
-    "url": "https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24 - 1",
-    "group": "TV",
-    "tvg_id": "Undefined",
-    "logo": "https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041583/IRTVE01_AKA_HLS_GL0/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24 - 2",
-    "group": "TV",
-    "tvg_id": "Undefined",
-    "logo": "https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",
-    "url": "https://rtvelivestream.akamaized.net/rtvesec/oca/irtve02_main_1080.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24 - 3",
-    "group": "TV",
-    "tvg_id": "Undefined",
-    "logo": "https://img2.rtve.es/resources/thumbslive/1938069.jpg",
-    "url": "https://rtvelivestream.akamaized.net/rtvesec/oca/irtve03_main_1080.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24 - 4",
-    "group": "TV",
-    "tvg_id": "Undefined",
-    "logo": "https://img2.rtve.es/resources/thumbslive/1938070.jpg",
-    "url": "https://rtvelivestream.akamaized.net/rtvesec/oca/irtve04_main_1080.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24 - 5",
-    "group": "TV",
-    "tvg_id": "Undefined",
-    "logo": "https://img2.rtve.es/resources/thumbslive/1938070.jpg",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041587/IRTVE04_AKA_HLS_GL0/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041583/IRTVE01_AKA_HLS_GL0/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041585/IRTVE02_AKA_HLS_GL0/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041586/IRTVE03_AKA_HLS_GL0/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041587/IRTVE04_AKA_HLS_GL0/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales:RTVE - 2",
-    "group": "TV",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vWDZz1YlhZVuU0IZF0XyTvhLdVhBBg040kir4fQi8FWgkEcwSzSm8UoNNg&s",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041627/IRTVE23_AKA_HLS_GL1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales:RTVE - 3",
-    "group": "TV",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQknCQdNeXtcIED5-9zmKlXixHzzZohr9cKRF8q5UXN6aWLRJgfZe6qFQkmESI&s",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041619/IRTVE19_AKA_HLS_GL1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: Canal Parlamento",
-    "group": "NEWS WORLD",
+    "name": "Assistir G1 RS - Assista aos telejornais da RBS TV online | Globoplay",
+    "group": "GLOBO AO VIVO",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200",
-    "url": "https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8",
+    "logo": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/favicon-9805031.ico",
+    "url": "https://live-as-08-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzM1NjM2MzE1LCJpYXQiOjE3MzU1NDk5MTUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9udS9mKGR2cj0xMjAsaT0yKS9nbG9iby1yczEvcGxheWxpc3QubTN1OCJ9.fK6uATom4f5oCO4ioSUQ9FM84WKFOVy20eS7HslRKbawAoXvpEo6IkVeV6qMT1KQ6Zkheuv8LOY5xuO-AxeeON9exYG8uNgGGnz4FRq4gEmmk3Dl1XxxlI1798LlTYAAtS4Fu5glwEuCgW_03rZtwY7-RbvfXZgv5xoSYrTh5l9LHXFQof1mI5qoSQTaGc0ygSyy6r6WI2udKEbiqAxVGOVsJiGetVYgOaa_OK6I7p_NvOmgK609iORZa-8-rw-ZMQnZH0ukoj1MsFWypWwJX9Jt9ycuRI03b6sHd6UxvO2wgBmOFqBmVVMp8rdKRdinkn3Vp8KDQm6YqUpETpWMHA/nu/f(dvr=120,i=2)/globo-rs1/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Eventuales: Del 40 al 1",
-    "group": "NEWS WORLD",
+    "name": "Assistir G1 PA - Assista aos telejornais da TV Liberal online | Globoplay",
+    "group": "GLOBO AO VIVO",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/del40al1/picture?width=200&height=200",
-    "url": "https://prisaradio-live.prisasd.com/live-content/directo40al1/master.m3u8",
+    "logo": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/favicon-9805031.ico",
+    "url": "https://live-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzM1NjM2MzM1LCJpYXQiOjE3MzU1NDk5MzUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9udS9mKGJNaW49NTU4OTc2KS90dmxpYmVyYWwvcGxheWxpc3QubTN1OCJ9.IP_eTHDtfZPeaPVrHFicruGr2XyZtzm5wmtWxZ6TTkBMdZirIdm4SEJBa7VNxk7jW0N6s5T0Zg5_fRTZa4lk-PSih6UfxqJcWVRbWNJcYWCKYo023pJxjEkWPQU_I6ARL9ivDi8VHvPegz38sw0APj0CjxVPwx_fzc6I4Y0IE-jhlPlrbB2-y2ghqFLmZE8p0RE5HVo0jYc3P883TvGepIJS8FgljLVULBnR09UxYoAV_eDhPAyAkr5fX2Aif9N3mAgnDq18-zG7H7PXk9jzgwTsKMFRQPTItataBNYJ731rdtMGqX_j2ytrs-KWpdUKo0cnvMYQZLgXNQzPGNZRjg/nu/f(bMin=558976)/tvliberal/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Rai Play 2",
-    "group": "NEWS WORLD",
+    "name": "Assistir G1 AC - Assista aos jornais da Rede Amaz\u00f4nica online | Globoplay",
+    "group": "GLOBO AO VIVO",
     "tvg_id": "Undefined",
-    "logo": "https://www.raiplay.it/dl/components/img/logo-app.png",
-    "url": "https://streamcdne3-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/raiplay2_2400/chunklist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "PRESIDENCIA USA",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://flagcdn.com/us.svg",
-    "url": "https://d3r7ms2cd6ecbc.cloudfront.net/out/v1/302f9e67d0524c55a01f2aece2e77872/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "PENTAGONO USA",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://flagcdn.com/us.svg",
-    "url": "https://do7ujvb4kwqvb.cloudfront.net/out/v1/434726d616804d87ae523d226d2b6afd/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "SENADO CHILE SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://ainmcl.github.io/MonitorTV/Monitores/imagenes/Logo_GOB.svg",
-    "url": "https://janus-tv-ply.senado.cl/playlist/stream.m3u8?s=tvsenado-sd&id=d8120437-2c2b-4596-9f1a-9d06f0ab0b6d",
-    "extra": []
-  },
-  {
-    "name": "CCTV +1 SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://ainmcl.github.io/MonitorTV/Monitores/imagenes/Logo_GOB.svg",
-    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/chunklist_w1725487474_b1000000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CCTV +2 SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://ainmcl.github.io/MonitorTV/Monitores/imagenes/Logo_GOB.svg",
-    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/chunklist_w846841112_b300000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CCTV +3 SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://ainmcl.github.io/MonitorTV/Monitores/imagenes/Logo_GOB.svg",
-    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL3.smil/chunklist_w1502015261_b1000000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CCTV +4 SERVI\u00c7O",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://ainmcl.github.io/MonitorTV/Monitores/imagenes/Logo_GOB.svg",
-    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL4.smil/chunklist_w883309104_b1000000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d 24 (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Bashkortostan24.ru",
-    "logo": "https://i.imgur.com/s34Wtz6.png",
-    "url": "http://live.gtrk.tv/hls/b24-hls.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d 24 (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Bashkortostan24.ru",
-    "logo": "https://i.imgur.com/s34Wtz6.png",
-    "url": "http://live.gtrk.tv/hls/b24-hls.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c 24 (1080p)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Belarus24.by",
-    "logo": "https://i.imgur.com/iVIlgrj.png",
-    "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Filadelfia / [Philadelphia]",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2035366/philadelphia/stream5/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo McAllen TX",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037094/mcallen/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Miami FL",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo New York",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037083/newyork/stream7/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Orlando FL",
-    "group": "NEWS WORLD",
-    "tvg_id": "WRDQDT3.us",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo \u00c1rea De La Bah\u00eda",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037097/bayarea/stream3/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Chicago",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037085/chicago/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Chicago",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037085/chicago/stream4/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Dallas Fort-Worth TX",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037095/dallas/stream1/master.m3u8",
+    "logo": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/favicon-9805031.ico",
+    "url": "https://live-as-11-10.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTAudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzM1NjM2MzU2LCJpYXQiOjE3MzU1NDk5NTYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9udS9mKGk9MikvcmVkZWFjL3BsYXlsaXN0Lm0zdTgifQ.vCAx6rdWuV79-KiXU2iLAFTLnMBOXMOFn6GMWaUIP2IiAilxs4epTVO6LOGgrB6LtnmsF0zLmVpnfCgGnIjJebeOJmHaahH-6zSsjLGQx8cwr5mnmjk87zS2rhr2TySpndTc2IBziMVn-vlL9qLkF06PQBowf0JGmUGYcSTmwdewmeyzP81I7JKhlVrPZZ4wYXzl5kSGVbZp-myMFKMN6k9oCJd6d2qJM0RotFamRGxx1yP1dSgVGbunUxZiAeNmaxTsZonG0Uy6NLkRyK2cNgIJEYKDBEpFDFq3XizFb9KeQBg7tyng1C0uxThpcbQQEZwaqHpHszc_QPSwJKxVuA/nu/f(i=2)/redeac/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Telemundo Denver CO",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037092/denver/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo El Paso TX",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037500/elpaso/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Fresno CA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Houston TX",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037088/houston/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Las Vegas NV",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Los Angeles CA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream6/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Nuevo M\u00e9xico",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037500/elpaso/stream2/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Phoenix AZ",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037089/phoenix/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Sacramento CA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037604/sacramento/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Salt Lake City UT",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037605/saltlakecity/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo San Antonio TX",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037091/sanantonio/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo San Diego CA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream3/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Tampa FL",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037606/tampa/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Washington DC",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037099/washingtondc/stream4/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Laredo TX",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://dai2-playlistserver.aws.syncbak.com/playlist/13355198/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTE2NDc1MDIsImlzcyI6IldMUyIsIm1kNSI6IjQwMWRkMDY2YjUyOGEwZWIxYzcxMzMxNjBhNDgyMGE5IiwibWlkIjoiMTMzNTUxOTgifQ.piLwptYMsquOvh5kVgvpuj2wYSd6SDOblXdfIXGk7PE",
-    "extra": []
-  },
-  {
-    "name": "Telemundo 3 Yuma AZ (KESE-LD)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",
-    "url": "https://content.uplynk.com/channel/d8ebf84aa99d430980a7995d658ece0a.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC SOUTH FLORIDA NEWS",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 5 Chicago",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037085/chicago/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 5 Dallas Fort-Worth",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037095/dallas/stream5/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 4 Los Angeles",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 4 New York",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037083/newyork/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 6 South Florida [Miami FL]",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 10 Philadelphia",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2035366/philadelphia/stream2/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 4 Washington DC",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037099/washingtondc/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 13 Birmingham AL (WVTM)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://content.uplynk.com/channel/8e7504962da04956953c874a7ad11c6b.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 6 San Luis Obispo CA (KSBY)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://content.uplynk.com/channel/5545aa8a7e5a480d85fd1cff8d0cf610.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 5 West Palm Beach FL (WPTV)",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",
-    "url": "https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8",
-    "extra": []
-  },
-  {
-    "name": "UNIVERSIDAD CHILE 1",
-    "group": "NEWS WORLD",
+    "name": "CBN | Est\u00fadio ao Vivo - SP",
+    "group": "GLOBO AO VIVO",
     "tvg_id": "Undefined",
-    "logo": "https://ucvtv.cl/imagenes/logo-ucv-200.png",
-    "url": "https://unlimited1-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream1/chunks.m3u8",
+    "logo": "https://s2.glbimg.com/7sLV4OQ1BuefK4KTbOFsixr20vo=/16x16/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2021/z/M/JpDF4cRs6ZHPip8YMKNw/cbn.png",
+    "url": "https://live-as-02-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzM1NjM2Mzk5LCJpYXQiOjE3MzU1NDk5OTksImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9udS9mKGJNaW49NTU4OTc2LGR2cj0xMjApL2NibnNwMjRoYS9wbGF5bGlzdC5tM3U4In0.V9WWENP-qNXYE-rV8cJwmRdVvi10l3aaXmIRHxamd0nFrT6D2Z0nCTkL8peaplbii_TPGi2PWB90gEEuBWX8ZCp1G4yTfGUDlU_M9ki3TF6EWVNLYcAk9QanfRhVn6dG4xmHWwXbLNGZhxiWQZlyPOh8X_k6ZiBak2SOgK_zlTWa_JvDitaY2wuGeurAUUp2q_AAzUYyNtFIu5xYWNkEkrOZES6KpyFtPNc_xVxkSpwEtmor1HQwfg_OhA1gBqbAVDH8UWDlGQvZ8Fj-piBnBVps5Ef0ArUkd3PQfm2d-qwN7gcrM8z2GdqvOR9xw5e9qRKg3lCtQsScJGocV_Cu0w/nu/f(bMin=558976,dvr=120)/cbnsp24ha/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "UNIVERSIDAD CHILE 2",
-    "group": "NEWS WORLD",
+    "name": "CBN | Est\u00fadio ao Vivo - RJ",
+    "group": "GLOBO AO VIVO",
     "tvg_id": "Undefined",
-    "logo": "https://ucvtv.cl/imagenes/logo-ucv-200.png",
-    "url": "https://unlimited2-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/ucvtveventos/livestream1/chunks.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Aaj Tak",
-    "group": "NEWS WORLD",
-    "tvg_id": "Aajtak.in",
-    "logo": "https://i.imgur.com/o3rBa0e.png",
-    "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8",
+    "logo": "https://s2.glbimg.com/7sLV4OQ1BuefK4KTbOFsixr20vo=/16x16/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2021/z/M/JpDF4cRs6ZHPip8YMKNw/cbn.png",
+    "url": "https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzM1NjM2NDIzLCJpYXQiOjE3MzU1NTAwMjMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9udS9mKGJNaW49NTU4OTc2LGR2cj0xMjApL2NibnJqMjRoYS9wbGF5bGlzdC5tM3U4In0.x5YR7psFIVYYt0ZzexlwCGaUgHz38D6yC2NB6VXjaC3X--F2tQiVND3IKyDYs7y8P7P5S-xsGa6Wu3ggUO9BqWdnrJIzY8AeGyzx-DIhZ1iL-5z9Hw3TQag3HJIe8kIDLPv5bUPxTbk_GacMeyp2NkoB-q1Jhtw4nQ1z-A91SA8RVXsWzFKWr_EWK8pPPMU3fg5ijfovnIWHbCzJKpqVmqn6Y3rp-5BrlWFUFm4OEZTkk23Mhz_MRJlI27EvlO1dNBYgaKkIpsYQRt_Jl2HE2S-nTlMMfSt-ILVZDRkAu4lsY8VazhYDeWQnKG1wUZdkIUrBrxdJ-_tg9zIoLSdwhw/nu/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "News 24 - ALBANIA",
-    "group": "NEWS WORLD",
+    "name": "Domenica In - Puntata del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/News_24_%28Albania%29.svg/1920px-News_24_%28Albania%29.svg.png",
-    "url": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/26/1735236343231_DomenicaIN-29122024.jpg",
+    "url": "https://StreamCdnG11-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom1/podcastcdn/raiuno_2/Domenica_In/Domenica_In_EP_Puntate/25075765_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Al Arabiya",
-    "group": "NEWS WORLD",
+    "name": "Domenica In - Puntata del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/f/fd/AlArabiya2020.png",
-    "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/26/1735236343231_DomenicaIN-29122024.jpg",
+    "url": "https://StreamCdnG11-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom1/podcastcdn/raiuno_2/Domenica_In/Domenica_In_EP_Puntate/25075765_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Newsmax TV",
-    "group": "NEWS WORLD",
-    "tvg_id": "NewsmaxTV.us",
-    "logo": "https://i.imgur.com/4nMN9xm.png",
-    "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Global News",
-    "group": "NEWS WORLD",
+    "name": "L'oroscopo di Paolo Fox del 2025 - Domenica in 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/IZFEJsu.png",
-    "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/28/1735343293762_1536x2048_logo%203.jpg",
+    "url": "https://StreamCdnG14-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom1/podcastcdn/raiuno_2/Domenica_In/Domenica_In_EP_Puntate/25079548_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Global News 2",
-    "group": "NEWS WORLD",
+    "name": "L'oroscopo di Paolo Fox del 2025 - Domenica in 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/IZFEJsu.png",
-    "url": "https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/28/1735343293762_1536x2048_logo%203.jpg",
+    "url": "https://StreamCdnG14-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom1/podcastcdn/raiuno_2/Domenica_In/Domenica_In_EP_Puntate/25079548_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Iran International",
-    "group": "NEWS WORLD",
+    "name": "Affari tuoi - Puntata del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Iran_International.svg/1200px-Iran_International.svg.png",
-    "url": "https://live.playstop.me/LS-63503-4/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TRT Haber",
-    "group": "NEWS WORLD",
-    "tvg_id": "TRTHaber.tr",
-    "logo": "https://i.ibb.co/NCvRHC3/trt-haber.png",
-    "url": "https://tv-trthaber.medya.trt.com.tr/master_720.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Astro Awani",
-    "group": "NEWS WORLD",
-    "tvg_id": "AstroAwani.my",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/3/34/Astro_Awani_501.png",
-    "url": "https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index_3.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/28/1735408257600_rai1.jpg",
+    "url": "https://StreamCdnM4-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom2/podcastcdn/raiuno_2/Affari_Tuoi/Affarituoi_puntate/25096285_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "RTU",
-    "group": "NEWS WORLD",
+    "name": "Affari tuoi - Puntata del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "http://imgfz.com/i/xnMeKG6.png",
-    "url": "https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/28/1735408257600_rai1.jpg",
+    "url": "https://StreamCdnM4-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom1/podcastcdn/raiuno_2/Affari_Tuoi/Affarituoi_puntate/25096285_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "teleSUR",
-    "group": "NEWS WORLD",
+    "name": "Linea Verde - A Bari con San Nicola - 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/49/TeleSUR.jpg",
-    "url": "https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/27/1735305425362_linea%20verde%20del%2029%20dicembre%202024.jpg",
+    "url": "https://StreamCdnR13-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom9/podcastcdn/raiuno/lineaverde/Linea_Verde_EP_Puntate/25093262_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "News1 Tailandia",
-    "group": "NEWS WORLD",
+    "name": "Linea Verde - A Bari con San Nicola - 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://www.dropbox.com/s/8at5psc3p5xax7y/news1.png?dl=1",
-    "url": "http://news1.live14.com/stream/news1_hi.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Orlando FL",
-    "group": "NEWS WORLD",
-    "tvg_id": "WRDQDT3.us",
-    "logo": "https://media.telemundo31.com/2022/01/WTMO-31.png?resize=400%2C225&quality=85&strip=all",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/27/1735305425362_linea%20verde%20del%2029%20dicembre%202024.jpg",
+    "url": "https://StreamCdnR13-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom9/podcastcdn/raiuno/lineaverde/Linea_Verde_EP_Puntate/25093262_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Telemundo Miami FL",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.telemundo51.com/wp-content/themes/nbc-station/static/images/TelemundoLiveTV-Desktop.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Fresno CA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.telemundo51.com/wp-content/themes/nbc-station/static/images/TelemundoLiveTV-Desktop.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Las Vegas NV",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.telemundo51.com/wp-content/themes/nbc-station/static/images/TelemundoLiveTV-Desktop.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Los Angeles CA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.telemundo51.com/wp-content/themes/nbc-station/static/images/TelemundoLiveTV-Desktop.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream6/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo San Diego CA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.telemundo51.com/wp-content/themes/nbc-station/static/images/TelemundoLiveTV-Desktop.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream3/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Telemundo Washington DC",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://www.telemundo51.com/wp-content/themes/nbc-station/static/images/TelemundoLiveTV-Desktop.png",
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037099/washingtondc/stream4/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "DW",
-    "group": "NEWS WORLD",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBAf7iwr2D0X6V5E0ICZRYzObpWE-mZUSloRrbR0UFCNpxdXXH340AAmaLZ9I&s",
-    "url": "https://mrgmaw.github.io/enlaces/xy/dwes.m3u8",
-    "extra": []
-  },
-  {
-    "name": "RT",
-    "group": "NEWS WORLD",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnzeBew1dZKHxOGp1AkqGQKdZTxIy6A1QBO7_epA5HDTPljfZw80S0xPtCUA&s",
-    "url": "https://mrgmaw.github.io/enlaces/xy/rtes.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Channel News Asia",
-    "group": "NEWS WORLD",
+    "name": "Il mare che avanza - Report 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfF0rcAGGYaYB1NSlW68AdLeVl6ZoZSqzYOUnezq283StsZ6eZTGb0rtkZA&s",
-    "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/25096382.png",
+    "url": "https://StreamCdnG20-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom7/podcastcdn/raitre/report/Report_EP_Puntate/25096379_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "News 24 (392p) [Not 24/7]",
-    "group": "NEWS WORLD",
+    "name": "Il mare che avanza - Report 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu2TMAJTcMig7uz6yRwNYio0PDVPadRg7Xfu3LaEoAh1rBWzyOwGDDNo_jtDs&s",
-    "url": "http://tv.balkanweb.com/news24/livestream/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/25096382.png",
+    "url": "https://StreamCdnG20-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom6/podcastcdn/raitre/report/Report_EP_Puntate/25096379_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Newsmax (1080p)",
-    "group": "NEWS WORLD",
+    "name": "il documento esclusivo",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0_w2Iy8Mi7iAat5JujZO8wadVHX6p4O3lq_QS3Nvolqk-9MRfhS04zEK1kY&s",
-    "url": "https://newsmax-plex.amagi.tv/hls/amagi_hls_data_plexAAAAA-newsmax-plex/CDN/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/25096369.png",
+    "url": "https://StreamCdnG17-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom7/podcastcdn/raitre/report/Report_EP_Puntate/25096366_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "NewsNet (720p) [Not 24/7]",
-    "group": "NEWS WORLD",
+    "name": "il documento esclusivo",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-Dya3snfqyb3LPParzS1SPbvniP3FKPxvKuC1ssnFKj4FMvu7xypqTTUTA&s",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/25096369.png",
+    "url": "https://StreamCdnG17-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom6/podcastcdn/raitre/report/Report_EP_Puntate/25096366_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Newsy (1080p)",
-    "group": "NEWS WORLD",
+    "name": "Tg1 ore 08:00 del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pr6zTBCL576bJrJVqlKLXKYiCCSjXM-ZReid3YrQaK5_Hqd5uX30qI7c1js&s",
-    "url": "https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2021/03/21/1616315208134_2048x1152.jpg",
+    "url": "https://vod3-rai-it.akamaized.net/podcastcdn/Rai/TG1_RAIPLAY/25091811_,1800,2400/chunklist_b2344000_slita_t64MjQwMA==.m3u8",
     "extra": []
   },
   {
-    "name": "NTV News24 (480p)",
-    "group": "NEWS WORLD",
+    "name": "Tg1 ore 08:00 del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRah75VZQ3aWeAD7MQ8DRPhUx1ZWKYlR9bav_6-sHKOVb7wRfph2Aoy58IH_yA&s",
-    "url": "https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2021/03/21/1616315208134_2048x1152.jpg",
+    "url": "https://vod3-rai-it.akamaized.net/podcastcdn/Rai/TG1_RAIPLAY/25091811_,1800,2400/chunklist_b2344000_slita_t64MjQwMA==.m3u8",
     "extra": []
   },
   {
-    "name": "30A TV",
-    "group": "NEWS WORLD",
+    "name": "A Sua immagine - Puntata del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPFKepS5IzroGpD5aOTzpKO8cm0NCdST0IXE60PGDK77MmvQ_5h1kwd5tKS0&s",
-    "url": "https://30a-tv.com/feeds/xodglobal/30atv.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/29/1735467745654_1735467737106.png",
+    "url": "https://StreamCdnG15-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom2/podcastcdn/raiuno_2/asuaimmagine/A_Sua_Immagine_domenica/25092493_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "TD Ameritrade",
-    "group": "NEWS WORLD",
+    "name": "A Sua immagine - Puntata del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXKHx0J9Qr9T9ifWmHcOWSP-_SPKviChiqHYoc6ocZbpHdToz3hJXeB21Tm-M&s",
-    "url": "https://tdameritrade-vizio.amagi.tv/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/29/1735467745654_1735467737106.png",
+    "url": "https://StreamCdnG15-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom1/podcastcdn/raiuno_2/asuaimmagine/A_Sua_Immagine_domenica/25092493_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Akamai Live Event",
-    "group": "NEWS WORLD",
+    "name": "La Domenica Sportiva... al 90\u00b0 del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqX5Mi38dVfJgzVLT-15qyO8Q3x3lRFQuvungakW6NYfWIwzQFjqBWoKIlhg8&s",
-    "url": "https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/18/1734524262623_Serie-A-Domenica-Sportiva-2024-2.png",
+    "url": "https://StreamCdnR18-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/ostr8/podcastcdn/Raisport/Domenica_Sportiva/25098037_,1800,2400/chunklist_b2344000_slita_t64MjQwMA==.m3u8",
     "extra": []
   },
   {
-    "name": "Bloomberg Asia",
-    "group": "NEWS WORLD",
+    "name": "La Domenica Sportiva... al 90\u00b0 del 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cLOvhE4vAfbn064HhmbDax8pU48W-2jZP2ZdTd2P0vG4afZpOFL_BHmTGg&s",
-    "url": "https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/18/1734524262623_Serie-A-Domenica-Sportiva-2024-2.png",
+    "url": "https://StreamCdnR18-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/ostr9/podcastcdn/Raisport/Domenica_Sportiva/25098037_,1800,2400/chunklist_b2344000_slita_t64MjQwMA==.m3u8",
     "extra": []
   },
   {
-    "name": "OZTV Channel (Asia)",
-    "group": "NEWS WORLD",
+    "name": "Santa Messa dalla Basilica San Nicola in Bari - 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGzb3YQYgqUAQIFeh5RWoCHF0pB73KNU6xmVP49stWKEgHnmaysy-W3ShSDQ&s",
-    "url": "https://liveprodapnortheast.global.ssl.fastly.net/oz1/Channel-OZTVqvs-AWS-tokyo-1/Source-OZTVqvs-1000-1_live.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/29/1735467680469_1735467638531.png",
+    "url": "https://StreamCdnR17-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom1/podcastcdn/raiuno_2/LA_SANTA_MESSA/LA_SANTA_MESSA_PUNTATE/25092292_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Bloomberg EU",
-    "group": "NEWS WORLD",
+    "name": "Santa Messa dalla Basilica San Nicola in Bari - 29/12/2024",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZS8rzrmFoRuvQby6YSaja-ScGunpB-TRFCbWt4RcbfJaapuk4R6Q4C9MGohY&s",
-    "url": "https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8",
+    "logo": "https://www.raiplay.it/dl/img/2024/12/29/1735467680469_1735467638531.png",
+    "url": "https://StreamCdnR17-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom2/podcastcdn/raiuno_2/LA_SANTA_MESSA/LA_SANTA_MESSA_PUNTATE/25092292_,1800,2400,.mp4.csmil/chunklist-f2-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "Bloomberg US",
-    "group": "NEWS WORLD",
+    "name": "il meglio della terza puntata | Video Sky",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1kltagitQcwkA-Swoye2NcTBiLqKUTQfaAMEkhrjDCZKAQtA5B7jTRXgUAQ&s",
-    "url": "https://www.bloomberg.com/media-manifest/streams/us-event.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550231289&plid=2fb4ebee-2bd0-408d-8d82-67547af0ce98&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A17%3A11+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22MasterChef+14%2C+il+meglio+della+terza+puntata%22%2C%22duration%22%3A579000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F27%2F976631%2F976631_1735322106812_thumb_494.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A976631%7D&pvid=b36e37e8-a928-40d1-bd8a-fc6f95d61920&vsid=24f9e17c-921b-4707-aad2-072fbf3c1161&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/27/976631/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "Bloomberg Politics",
-    "group": "NEWS WORLD",
+    "name": "Giulio eliminato al Pressure Test a tema polpette",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6WmgQx4WREPuRYDFcRnf4Oz468lCbUG4lKboK13mdLMWw3od6-CGztn9O6g&s",
-    "url": "https://www.bloomberg.com/media-manifest/streams/politics.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550241621&plid=0e3b38c6-4a1c-49ec-8b9f-5a3c696cb770&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fgiulio-eliminato-pressure-test-masterchef-14-video-976391&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A17%3A21+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22MasterChef+14%2C+Giulio+eliminato+al+Pressure+Test%22%2C%22duration%22%3A67000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F26%2F976391%2F976391_1735237819201_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A976391%7D&pvid=852d4709-ebf2-4995-ac40-a4a6a4c20ec6&vsid=9e6a2299-7965-4a4a-97f6-47b78bc0f262&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/26/976391/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "CNBC Indonesia",
-    "group": "NEWS WORLD",
+    "name": "Video news di economia - Sky TG24 | Sky",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAeJYyEmBdlSEpqGbHClZ4Zt97Plj6cU-rQ8v7HxMnF6SgANvyQesnoC4QuX8&s",
-    "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8",
+    "logo": "https://videoplatform.sky.it/captures/494/2024/12/29/976861/976861_1735469496000_thumb_494.0000001.jpg",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/29/976861/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "CNBC Indonesia (Alternate)",
-    "group": "NEWS WORLD",
+    "name": "la brigata blu vince a Marano Lagunare",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0SSW0c9HKhLOEIyVXxYbghdOFUWc5DzHwXV7DFVqcxJZLnl0pNysapwVd1I&s",
-    "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550264535&plid=5727c3c0-4e6a-45c6-8f9b-3f1a239cf08a&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fblu-vittoria-esterna-marano-lagunare-masterchef-14-video-976382&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A17%3A44+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22MasterChef+14%2C+la+brigata+blu+vince+in+esterna%22%2C%22duration%22%3A60000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F26%2F976382%2F976382_1735235418257_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A976382%7D&pvid=449ec541-22d3-4f82-9397-67c4b9becedc&vsid=28e366d1-4d56-42bd-94f2-879e12a531b5&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/26/976382/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "Uplynk Channel",
-    "group": "NEWS WORLD",
+    "name": "Prova in esterna a Marano Lagunare con Chef Chiara Pavan",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQa_zaJHcTvV_4OXmTofbbAe2UywPKQlGe5CLHq13cVKrKsNTHCcL-0yAVu0&s",
-    "url": "https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550275697&plid=331030f4-e2b5-4342-9159-6298a2b6eb09&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Festerna-marano-lagunare-chiara-pavan-masterchef-14-video-976377&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A17%3A55+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22MasterChef+14%2C+esterna+a+Marano+Lagunare+con+Chef+Pavan%22%2C%22duration%22%3A104000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F26%2F976377%2F976377_1735233846156_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A976377%7D&pvid=82959ab6-2d76-4c77-a23f-0cc47d406ca1&vsid=5aa0d739-8f30-49d2-97dc-ae729c2dbe7e&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/26/976377/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "Tustreaming - Tevex Inter",
-    "group": "NEWS WORLD",
+    "name": "nona puntata | Video Sky",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6e2UESRrJK1NtDCXRR0q47jDHN-VB01K_yvVPoG9a7PVi2HcV2H8Po2ecoMA&s",
-    "url": "https://v4.tustreaming.cl/tevexinter/index.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550286852&plid=ec496180-c053-4f8c-b487-f9c32e2394fc&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fsport%2Faltri-sport%2Fvideo%2Fsky-sport-doctor-nona-puntata-975017&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A18%3A06+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22%5C%22Sky+Sport+Doctor%5C%22%2C+nona+puntata%22%2C%22duration%22%3A301000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F19%2F975017%2F975017_1734607652938_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A975017%7D&pvid=f3ddd23a-78fc-4311-a063-8e8ab6b276db&vsid=cc2d80cc-39be-4e62-83d5-e38fa6873bd8&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/19/975017/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "CloudFront Stream",
-    "group": "NEWS WORLD",
+    "name": "decima puntata | Video Sky",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_oIltQpXICh1WhBl8QAEwcEoMUkjT0DJb9shOLhFV0s7XVsP6R9pB_KKyVQ&s",
-    "url": "https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550298305&plid=dbee8012-37da-4517-922f-ec96c23c30f4&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fsport%2Faltri-sport%2Fvideo%2Fsky-sport-doctor-decima-puntata-975018&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A18%3A18+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22%5C%22Sky+Sport+Doctor%5C%22%2C+decima+puntata%22%2C%22duration%22%3A363000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F19%2F975018%2F975018_1734608316221_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A975018%7D&pvid=cb0675c9-01a9-4a92-9590-a8e8cd38a230&vsid=a630cf86-1a42-41e0-a610-6ec995b5f592&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/19/975018/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "Fox Weather",
-    "group": "NEWS WORLD",
+    "name": "la formazione delle brigate",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFe6qTjABj7RYZE4WqxKgtbHtJtIoh_OFWXTxgFgAyIR_bIbkKxRShNvIoIg&s",
-    "url": "https://247wlive.foxweather.com/stream/index.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550308995&plid=79566a80-d2a6-4fda-a58a-2ba1095d37cb&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fbrigate-prima-esterna-masterchef-14-video-976378&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A18%3A28+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22MasterChef+14%2C+la+formazione+delle+brigate%22%2C%22duration%22%3A113000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F26%2F976378%2F976378_1735234566511_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A976378%7D&pvid=ede3298c-d424-44ec-8b64-ac06df8dcfeb&vsid=157d1b44-74e8-44b0-99fe-59ad07897d33&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/26/976378/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "Xumo - Redbox Weather",
-    "group": "NEWS WORLD",
+    "name": "MasterChef 14: tra pernici e salse bruciate | Video Sky",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ylJURvhqAYqRvBIUuqW_iHDFGeuReVeXjDxFIj0K-B85vGUK0xgfgL-gIAQ&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550321616&plid=97dad3ba-bb44-484d-abd5-7b6cfb06af18&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fmasterchef-14-tra-pernici-e-salse-bruciate-975973&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A18%3A41+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22MasterChef+14%3A+tra+pernici+e+salse+bruciate%22%2C%22duration%22%3A97000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F23%2F975973%2F975973_1734960922984_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A975973%7D&pvid=249b869f-4379-43a4-968a-517875c361dd&vsid=06b991a3-7ba3-4df6-8b0d-719e63c5f995&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/23/975973/master/720p/stream.m3u8",
     "extra": []
   },
   {
-    "name": "FOX WEATHER",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFe6qTjABj7RYZE4WqxKgtbHtJtIoh_OFWXTxgFgAyIR_bIbkKxRShNvIoIg&s",
-    "url": "https://247wlive.foxweather.com/stream/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CNBC Indonesia",
-    "group": "NEWS WORLD",
+    "name": "una clip della puntata 4 | Video Sky",
+    "group": "VOD IT",
     "tvg_id": "Undefined",
-    "logo": "https://www.lyngsat.com/logo/tv/cc/cmbc-indonesia-us-id.png",
-    "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "IRAN TV INTERNACIONAL",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yB6IKighgeiOzJDgn4N59HxeW8vYJ-yZvnJ09beDbczjKzF89ObFvcNIgQ&s",
-    "url": "https://live.playstop.me/1816184091/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX NEWS USA",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEc4MyZIWvx3nNPOVwlUwvivpu_VLsknHjgtCwEvUVl4sJKazM0LiHDbNRSE&s",
-    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8",
+    "logo": "https://p1.parsely.com/px/?rand=1735550331832&plid=69033247-921e-463d-836e-2340b308c921&idsite=video.sky.it&url=https%3A%2F%2Fvideo.sky.it%2Fcinema%2Fquesto-e-sky%2Fvideo%2Fpiedone-uno-sbirro-a-napoli-clip-puntata-4-975237&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fvideo.sky.it%2Fmasterchef%2Fpuntate%2Fvideo%2Fterza-puntata-meglio-masterchef-14-video-976631&sref=&sts=1735550229574&slts=0&date=Mon+Dec+30+2024+09%3A18%3A51+GMT%2B0000+(Coordinated+Universal+Time)&action=videostart&metadata=%7B%22title%22%3A%22Piedone+-+Uno+sbirro+a+Napoli%2C+una+clip+della+puntata+4%22%2C%22duration%22%3A44000%2C%22image_url%22%3A%22https%3A%2F%2Fvideoplatform.sky.it%2Fcaptures%2F494%2F2024%2F12%2F20%2F975237%2F975237_1734686362154_thumb_494.0000001.jpg%22%2C%22video_platform%22%3A%22skyplayer%22%2C%22link%22%3A975237%7D&pvid=a0b65527-e803-4bbf-af51-5c4a8a4ec152&vsid=994bb40f-1082-4774-af80-3d1a5881723f&u=pid%3D316e8423-e8bd-4569-b2b0-5ad764c6952d",
+    "url": "https://acdn.ak-stream-videoplatform.sky.it/hls/2024/12/20/975237/master/720p/stream.m3u8",
     "extra": []
   }
 ]
