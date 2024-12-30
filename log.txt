@@ -131,3 +131,15 @@ streamlink: error: unrecognized arguments: --http-user-agent best
 2024-12-30 08:48:59,123 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8: Status Code 429
 2024-12-30 08:48:59,133 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8: Status Code 204
 2024-12-30 08:48:59,143 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8: Status Code 429
+2024-12-30 08:51:53,680 - ERROR - Request Error http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/7244?checkedby:ahlakid.com: HTTPConnectionPool(host='satelliteiptv.xyz', port=8080): Max retries exceeded with url: /iptvpoint/85g7sjaS6t/7244?checkedby:ahlakid.com (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f19f9c03710>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-12-30 08:51:54,247 - INFO - URL OK: http://canalmalaga-tv-live.flumotion.com/playlist.m3u8?checkedby:ahlakid.com
+2024-12-30 08:51:54,448 - INFO - URL OK: http://canalmalaga-tv-live.flumotion.com/chunks.m3u8?checkedby:ahlakid.com
+2024-12-30 08:51:54,604 - ERROR - Request Error http://satelliteiptv.xyz:8080/iptvpoint/85g7sjaS6t/53156?checkedby:ahlakid.com: HTTPConnectionPool(host='satelliteiptv.xyz', port=8080): Max retries exceeded with url: /iptvpoint/85g7sjaS6t/53156?checkedby:ahlakid.com (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f19f9885370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-12-30 08:51:54,636 - WARNING - URL Error http://congresodirecto-f.akamaihd.net/i/congreso6_1@54665/master.m3u8?checkedby:ahlakid.com: Status Code 405
+2024-12-30 08:51:54,965 - ERROR - Request Error https://elastic10.todostreaming.es/live/sanroque-livestream.m3u8?checkedby:ahlakid.com: HTTPSConnectionPool(host='elastic10.todostreaming.es', port=443): Max retries exceeded with url: /live/sanroque-livestream.m3u8?checkedby:ahlakid.com (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')))
+2024-12-30 08:51:55,872 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+2024-12-30 08:51:55,993 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8
+2024-12-30 08:51:56,003 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8: Status Code 204
+2024-12-30 08:51:56,705 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8: Status Code 429
+2024-12-30 08:51:56,717 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8: Status Code 204
+2024-12-30 08:51:56,728 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8: Status Code 429
