@@ -2,6 +2,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 import subprocess
+import json  # Adicionando a importação do módulo json
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
