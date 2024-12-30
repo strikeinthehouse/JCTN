@@ -149,3 +149,106 @@ streamlink: error: unrecognized arguments: --http-user-agent best
 2024-12-30 08:54:30,536 - INFO - URL OK: http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8
 2024-12-30 08:54:30,867 - INFO - URL OK: https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 2024-12-30 08:54:31,529 - INFO - URL OK: https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+2024-12-30 08:57:32,650 - INFO - URL OK: http://100automoto.tv:1935/bgtv1/autotv/playlist.m3u8
+2024-12-30 08:57:32,819 - INFO - URL OK: https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+2024-12-30 08:57:33,994 - INFO - URL OK: http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8?cc
+2024-12-30 08:57:34,118 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/chunklist_b600000.m3u8?cc
+2024-12-30 08:57:34,252 - INFO - URL OK: https://hncfree-samsungau.amagi.tv/playlist.m3u8
+2024-12-30 08:57:34,264 - ERROR - Request Error https://app.m4stream.live/mfourmalayalamhls/live.m3u8: HTTPSConnectionPool(host='app.m4stream.live', port=443): Max retries exceeded with url: /mfourmalayalamhls/live.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171ab5a0f0>: Failed to resolve 'app.m4stream.live' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:34,423 - INFO - URL OK: http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
+2024-12-30 08:57:34,676 - WARNING - URL Error https://main.clickstreamcdn.com/agm/star-canada/playlist.m3u8: Status Code 400
+2024-12-30 08:57:35,491 - WARNING - URL Error https://hls.savoir.media/live/stream.m3u8: Status Code 502
+2024-12-30 08:57:35,583 - ERROR - Request Error http://dhx-degrassi-2-ca.samsung.wurl.tv/playlist.m3u8: HTTPConnectionPool(host='dhx-degrassi-2-ca.samsung.wurl.tv', port=80): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f171ab5a8d0>: Failed to resolve 'dhx-degrassi-2-ca.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:35,653 - ERROR - Request Error https://mavtv-1-ca.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='mavtv-1-ca.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171ab5b230>: Failed to resolve 'mavtv-1-ca.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:35,697 - ERROR - Request Error https://rakuten-actionmovies-6-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-actionmovies-6-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171bbe2cf0>: Failed to resolve 'rakuten-actionmovies-6-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:35,733 - ERROR - Request Error https://rakuten-comedymovies-6-it.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-comedymovies-6-it.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171ab59700>: Failed to resolve 'rakuten-comedymovies-6-it.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:35,781 - ERROR - Request Error https://rakuten-comedymovies-6-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-comedymovies-6-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171ab5a330>: Failed to resolve 'rakuten-comedymovies-6-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:35,843 - ERROR - Request Error https://rakuten-spotlight-6-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-spotlight-6-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171ab5bef0>: Failed to resolve 'rakuten-spotlight-6-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:35,902 - ERROR - Request Error https://rakuten-topfree-6-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-topfree-6-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171ab24890>: Failed to resolve 'rakuten-topfree-6-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:40,778 - WARNING - URL Error https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8: Status Code 404
+2024-12-30 08:57:41,695 - INFO - URL OK: https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+2024-12-30 08:57:42,545 - INFO - URL OK: https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8
+2024-12-30 08:57:44,046 - INFO - URL OK: http://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+2024-12-30 08:57:44,643 - INFO - URL OK: http://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+2024-12-30 08:57:45,236 - INFO - URL OK: http://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
+2024-12-30 08:57:45,893 - INFO - URL OK: http://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
+2024-12-30 08:57:46,509 - INFO - URL OK: http://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+2024-12-30 08:57:48,060 - INFO - URL OK: http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/playlist.m3u8
+2024-12-30 08:57:49,017 - INFO - URL OK: https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+2024-12-30 08:57:49,209 - ERROR - Request Error https://dacastmmd.mmdlive.lldns.net/dacastmmd/1c94dc9f1c08487a97995571800b9667/index.m3u8: HTTPSConnectionPool(host='dacastmmd.mmdlive.lldns.net', port=443): Max retries exceeded with url: /dacastmmd/1c94dc9f1c08487a97995571800b9667/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171a9e9a90>: Failed to resolve 'dacastmmd.mmdlive.lldns.net' ([Errno -2] Name or service not known)"))
+2024-12-30 08:57:49,711 - WARNING - URL Error https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8: Status Code 301
+2024-12-30 08:57:50,133 - WARNING - URL Error https://v2.catcast.tv/content/37925/index.m3u8: Status Code 404
+2024-12-30 08:57:50,802 - WARNING - URL Error http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8: Status Code 403
+2024-12-30 08:57:51,366 - WARNING - URL Error https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8: Status Code 301
+2024-12-30 08:57:52,688 - ERROR - Request Error https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8: HTTPSConnectionPool(host='bsttv.bonus-tv.ru', port=443): Max retries exceeded with url: /cdn/kurai/playlist.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f171a9ea930>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-12-30 08:57:53,876 - INFO - URL OK: https://cdn.universmotri.ru/live/kfu.sdp/playlist.m3u8
+2024-12-30 08:57:54,710 - INFO - URL OK: http://kiev1-cdn.lanet.tv/live/1008.m3u8
+2024-12-30 08:57:55,210 - WARNING - URL Error https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8: Status Code 301
+2024-12-30 08:57:56,223 - INFO - URL OK: https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+2024-12-30 08:57:56,723 - WARNING - URL Error http://212.77.128.179:8089/www_mezhdunet/mezhdunet/playlist.m3u8: Status Code 404
+2024-12-30 08:57:57,982 - WARNING - URL Error http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8: Status Code 503
+2024-12-30 08:57:58,141 - WARNING - URL Error http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8: Status Code 301
+2024-12-30 08:57:58,292 - WARNING - URL Error http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8: Status Code 403
+2024-12-30 08:57:58,451 - WARNING - URL Error http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8: Status Code 403
+2024-12-30 08:57:59,406 - WARNING - URL Error http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8: Status Code 403
+2024-12-30 08:57:59,994 - WARNING - URL Error http://88b9da48.kazmazpaz.ru/iptv/D7M94NBVB5DLFS/742/index.m3u8: Status Code 404
+2024-12-30 08:58:01,638 - ERROR - Request Error https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8: HTTPSConnectionPool(host='radio-live-mg.rtr-vesti.ru', port=443): Max retries exceeded with url: /hls/moscow_24/playlist.m3u8 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'radio-live-mg.rtr-vesti.ru'. (_ssl.c:1000)")))
+2024-12-30 08:58:02,049 - INFO - URL OK: http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+2024-12-30 08:58:02,451 - INFO - URL OK: http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
+2024-12-30 08:58:02,855 - INFO - URL OK: https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
+2024-12-30 08:58:03,484 - INFO - URL OK: http://nadiya.home-net.com.ua/mob/mystream.m3u8
+2024-12-30 08:58:03,700 - ERROR - Request Error http://nano.teleservice.su:8080/hls/nano.m3u8: HTTPConnectionPool(host='nano.teleservice.su', port=8080): Max retries exceeded with url: /hls/nano.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f171a9d2360>: Failed to resolve 'nano.teleservice.su' ([Errno -2] Name or service not known)"))
+2024-12-30 08:58:04,448 - WARNING - URL Error http://ott-cdn.ucom.am/s98/index.m3u8: Status Code 403
+2024-12-30 08:58:04,987 - WARNING - URL Error http://ba5729d5.krasnafhg.ru/iptv/EAEWFFWBXPVVLY/915/index.m3u8: Status Code 404
+2024-12-30 08:58:05,789 - WARNING - URL Error https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8: Status Code 404
+2024-12-30 08:58:06,424 - INFO - URL OK: https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
+2024-12-30 08:58:06,842 - INFO - URL OK: https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
+2024-12-30 08:58:07,103 - WARNING - URL Error http://stream.studio360.tv/nw/nw_576p/playlist.m3u8: Status Code 404
+2024-12-30 08:58:07,748 - WARNING - URL Error https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8: Status Code 301
+2024-12-30 08:58:08,591 - WARNING - URL Error http://ott-cdn.ucom.am/s77/index.m3u8: Status Code 403
+2024-12-30 08:58:09,041 - INFO - URL OK: https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+2024-12-30 08:58:09,592 - INFO - URL OK: https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
+2024-12-30 08:58:09,845 - INFO - URL OK: http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
+2024-12-30 08:58:10,092 - INFO - URL OK: http://hz1.teleport.cc/HLS/SD.m3u8
+2024-12-30 08:58:10,343 - WARNING - URL Error http://5.164.24.83/tula/1tv_low/index.m3u8: Status Code 404
+2024-12-30 08:58:10,847 - WARNING - URL Error https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8: Status Code 301
+2024-12-30 08:58:11,848 - INFO - URL OK: https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
+2024-12-30 08:58:12,360 - WARNING - URL Error https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8: Status Code 301
+2024-12-30 08:58:12,707 - INFO - URL OK: http://video.govoritmoskva.ru:8080/live/rufmbk-1/index.m3u8
+2024-12-30 08:58:13,891 - INFO - URL OK: http://lova.me/hls/hithd.m3u8
+2024-12-30 08:58:15,110 - INFO - URL OK: http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+2024-12-30 08:58:15,657 - WARNING - URL Error http://uiptv.do.am/1ufc/701293058/playlist.m3u8: Status Code 301
+2024-12-30 08:58:16,240 - WARNING - URL Error https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8: Status Code 301
+2024-12-30 08:58:16,780 - WARNING - URL Error http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8: Status Code 301
+2024-12-30 08:58:17,969 - WARNING - URL Error http://live-rostovpapa.cdnvideo.ru/rostovpapa/rostovpapa.sdp/playlist.m3u8: Status Code 503
+2024-12-30 08:58:33,125 - ERROR - Request Error http://ott-cdn.ucom.am/s15/index.m3u8: HTTPConnectionPool(host='ott-cdn.ucom.am', port=80): Max retries exceeded with url: /s15/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f171af885c0>, 'Connection to ott-cdn.ucom.am timed out. (connect timeout=15)'))
+2024-12-30 08:58:33,392 - WARNING - URL Error http://185.186.142.16/streams.rs.m3u8: Status Code 301
+2024-12-30 08:58:48,858 - ERROR - Request Error http://ott-cdn.ucom.am/s55/index.m3u8: HTTPConnectionPool(host='ott-cdn.ucom.am', port=80): Max retries exceeded with url: /s55/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f171a9d1580>, 'Connection to ott-cdn.ucom.am timed out. (connect timeout=15)'))
+2024-12-30 08:58:49,148 - WARNING - URL Error http://ott-cdn.ucom.am/s57/index.m3u8: Status Code 403
+2024-12-30 08:58:49,150 - ERROR - Request Error https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8: HTTPSConnectionPool(host='bsttv.bonus-tv.ru', port=443): Max retries exceeded with url: /cdn/salyam/playlist.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f171a9d3740>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-12-30 08:58:49,421 - INFO - URL OK: http://45.67.57.9:8080/new/new/playlist.m3u8
+2024-12-30 08:59:04,437 - ERROR - Request Error http://80.91.177.102:1935/live/live1/playlist.m3u8: HTTPConnectionPool(host='80.91.177.102', port=1935): Max retries exceeded with url: /live/live1/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f171aa10200>, 'Connection to 80.91.177.102 timed out. (connect timeout=15)'))
+2024-12-30 08:59:19,453 - ERROR - Request Error http://90.188.37.86/live/playlist.m3u8: HTTPConnectionPool(host='90.188.37.86', port=80): Max retries exceeded with url: /live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f171aa10c50>, 'Connection to 90.188.37.86 timed out. (connect timeout=15)'))
+2024-12-30 08:59:20,258 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+2024-12-30 08:59:20,656 - WARNING - URL Error https://live.rtva.nl/live/zender.m3u8: Status Code 404
+2024-12-30 08:59:21,238 - INFO - URL OK: https://ms2.mx-cd.net/dtv-02/107-475823/RTV_Dordrecht.smil/playlist.m3u8
+2024-12-30 08:59:21,581 - INFO - URL OK: https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
+2024-12-30 08:59:21,869 - INFO - URL OK: http://stream.rtvmaastricht.nl:8081/rtvm_live/tv/playlist.m3u8
+2024-12-30 08:59:22,131 - INFO - URL OK: https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8
+2024-12-30 08:59:22,237 - INFO - URL OK: https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8
+2024-12-30 08:59:22,380 - INFO - URL OK: https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
+2024-12-30 08:59:22,923 - INFO - URL OK: https://ms2.mx-cd.net/dtv-10/268-2641474/RTV_Purmerend_TV.smil/playlist.m3u8
+2024-12-30 08:59:23,072 - INFO - URL OK: https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
+2024-12-30 08:59:23,676 - INFO - URL OK: https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8
+2024-12-30 08:59:24,115 - INFO - URL OK: https://ms7.mx-cd.net/dtv-10/105-475831/RTV_Slingeland.smil/playlist.m3u8
+2024-12-30 08:59:24,253 - INFO - URL OK: https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8
+2024-12-30 08:59:24,895 - INFO - URL OK: https://media.rtvwesterwolde.nl/hls/live/index.m3u8
+2024-12-30 08:59:25,027 - ERROR - Request Error https://liveanevia.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd: HTTPSConnectionPool(host='liveanevia.mncnow.id', port=443): Max retries exceeded with url: /live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171a9d2690>: Failed to resolve 'liveanevia.mncnow.id' ([Errno -2] Name or service not known)"))
+2024-12-30 08:59:25,058 - ERROR - Request Error https://liveanevia.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd: HTTPSConnectionPool(host='liveanevia.mncnow.id', port=443): Max retries exceeded with url: /live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171a9d2330>: Failed to resolve 'liveanevia.mncnow.id' ([Errno -2] Name or service not known)"))
+2024-12-30 08:59:25,089 - ERROR - Request Error https://liveanevia.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd: HTTPSConnectionPool(host='liveanevia.mncnow.id', port=443): Max retries exceeded with url: /live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171a9eb350>: Failed to resolve 'liveanevia.mncnow.id' ([Errno -2] Name or service not known)"))
+2024-12-30 08:59:40,105 - ERROR - Request Error http://117.103.69.219:8080/live/streaming/index.m3u8: HTTPConnectionPool(host='117.103.69.219', port=8080): Max retries exceeded with url: /live/streaming/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f171aa11340>, 'Connection to 117.103.69.219 timed out. (connect timeout=15)'))
+2024-12-30 08:59:41,777 - WARNING - URL Error https://tglmp02.akamaized.net/out/v1/5081e069e08140c9b95f89a1659cf4dd/manifest.mpd: Status Code 403
+2024-12-30 08:59:43,376 - WARNING - URL Error https://tglmp02.akamaized.net/out/v1/4f6561ad194b49ae93f4e1b075afdf41/manifest.mpd: Status Code 403
+2024-12-30 08:59:47,142 - WARNING - URL Error https://tglmp03.akamaized.net/out/v1/1057d89ee3d94148b430b5866e3a540a/manifest.mpd: Status Code 403
+2024-12-30 08:59:47,524 - WARNING - URL Error http://32.shqiptv.org/korca/albplus/index.m3u8: Status Code 404
+2024-12-30 08:59:47,705 - ERROR - Request Error https://edge.vedge.infomaniak.com/livecast/ik:latele/playlist.m3u8: HTTPSConnectionPool(host='edge.vedge.infomaniak.com', port=443): Max retries exceeded with url: /livecast/ik:latele/playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f171aa10530>: Failed to resolve 'edge.vedge.infomaniak.com' ([Errno -2] Name or service not known)"))
