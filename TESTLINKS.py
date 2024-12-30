@@ -2,7 +2,10 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 import subprocess
-import json  # Adicionando a importação do módulo json
+import json
+import requests
+from bs4 import BeautifulSoup  # Importação correta
+import streamlink
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
@@ -80,10 +83,10 @@ def process_m3u_file(input_file, output_file):
             while i + 1 < len(lines):
                 i += 1
                 next_line = lines[i].strip()
-                if next_line.startswith('#'):
-                    extra_lines.append(next_line)
+                if next_line.startswith('#'):  # Verifica se a linha começa com '#'
+                    extra_lines.append(next_line)  # Armazena a linha extra
                 else:
-                    link = next_line
+                    link = next_line  # Caso contrário, é a URL do canal
                     break
             
             # Verifica a URL antes de adicionar usando Streamlink
