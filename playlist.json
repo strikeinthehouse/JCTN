@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "name": "SIC SEM VPN",
+    "group": "PORTUGAL",
+    "tvg_id": "SIC.pt",
+    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",
+    "url": "https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8",
+    "extra": [
+      "#EXTM3U",
+      "#EXT-X-VERSION:3",
+      "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000"
+    ]
+  },
+  {
+    "name": "TVI",
+    "group": "Portugal",
+    "tvg_id": "tvihd.tv.vodafone.pt",
+    "logo": "https://github.com/inspirationlinks/m3u/raw/live/Logos/tvi.png",
+    "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TVI",
+    "group": "PORTUGAL",
+    "tvg_id": "tvihd.tv.vodafone.pt",
+    "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",
+    "url": "https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMzAvMjAyNCA2OjI0OjQzIEFNJmhhc2hfdmFsdWU9RkdibDVXbmxKSGczK2wzZnkxS0Zhdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVjNTYyMmM1LTM4ZWEtNDIxZi1iYTBlLTU4ZjhjMGYxZDMxMQ==/",
+    "extra": [
+      "#KODIPROP:inputstream=inputstream.adaptive",
+      "#KODIPROP:inputstream.adaptive.manifest_type=hls"
+    ]
+  }
+]

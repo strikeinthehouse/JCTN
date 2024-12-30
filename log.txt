@@ -94,3 +94,16 @@ streamlink: error: unrecognized arguments: --http-user-agent best
 2024-12-30 08:25:04,240 - error - Streamlink Error https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMzAvMjAyNCA2OjI0OjQzIEFNJmhhc2hfdmFsdWU9RkdibDVXbmxKSGczK2wzZnkxS0Zhdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVjNTYyMmM1LTM4ZWEtNDIxZi1iYTBlLTU4ZjhjMGYxZDMxMQ==/: usage: streamlink [OPTIONS] <URL> [STREAM]
 streamlink: error: unrecognized arguments: --http-user-agent best
 
+2024-12-30 08:26:02,088 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8: Status Code 204
+2024-12-30 08:26:02,102 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/inspiration.m3u8: Status Code 204
+2024-12-30 08:26:02,116 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8: Status Code 204
+2024-12-30 08:26:02,284 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2.smil/rtp_playlist.m3u8: Status Code 429
+2024-12-30 08:26:02,297 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/inspiration.m3u8: Status Code 204
+2024-12-30 08:26:02,311 - WARNING - URL Error https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8: Status Code 429
+2024-12-30 08:26:02,479 - INFO - URL OK: https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+2024-12-30 08:26:03,071 - WARNING - URL Error https://sic.live.impresa.pt/sic.m3u8: Status Code 403
+2024-12-30 08:26:03,088 - WARNING - URL Error https://sic.live.impresa.pt/sic540p.m3u8: Status Code 403
+2024-12-30 08:26:03,445 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9ae705b449477523ec/channels/d9070446-8448-455e-8075-773b1ba12562/f083c6ea-33af-458e-82c5-f27f6b42f9ec/media_.m3u8: Status Code 404
+2024-12-30 08:26:16,542 - ERROR - Request Error http://cord-cutter.net:8080/live/j3McKd/673709/78441.m3u8: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-12-30 08:26:16,624 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
+2024-12-30 08:26:17,291 - INFO - URL OK: https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMzAvMjAyNCA2OjI0OjQzIEFNJmhhc2hfdmFsdWU9RkdibDVXbmxKSGczK2wzZnkxS0Zhdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWVjNTYyMmM1LTM4ZWEtNDIxZi1iYTBlLTU4ZjhjMGYxZDMxMQ==/
