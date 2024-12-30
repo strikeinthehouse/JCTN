@@ -341,39 +341,29 @@ https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9Z6cf5QAjTDyhklY3sDH2YoSMiZt
 
 banner2 = r'''
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/S8VPPgr.png" group-title="Radios Chilenas Con Video",Red Fueguina Medios | SD | Porvenir
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/S8VPPgr.png",Red Fueguina Medios | SD | Porvenir
 https://inliveserver.com:1936/11012/11012/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ilCiqga.png" group-title="CHILE",Canal 21 | HD | Chillan
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/ilCiqga.png",Canal 21 | HD | Chillan
 https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sL057W6.png" group-title="CHILE",Cámara De Diputados| FHD | Valparaíso
-http://camara.03.cl.cdnz.cl/camara19/live/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/saLbzvM.png" group-title="CHILE",Iquique TV | HD | Iquique
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/saLbzvM.png",Iquique TV | HD | Iquique
 https://marine2.miplay.cl/arcatel/iquiquetv720/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FMFLFIL.png" group-title="CHILE",Atacama TV | HD | Copiapó
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/FMFLFIL.png",Atacama TV | HD | Copiapó
 https://v2.tustreaming.cl/atacamatv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/aPA11ts.png" group-title="CHILE",Holvoet TV | SD | Copiapó
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/aPA11ts.png",Holvoet TV | SD | Copiapó
 https://pantera1-100gb-cl-movistar.dps.live/holvoettv/holvoettv.smil/holvoettv/livestream3/chunks.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/VsfXiJy.png" group-title="CHILE",Pop Media | HD | Santiago
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/VsfXiJy.png",Pop Media | HD | Santiago
 https://v4.tustreaming.cl/poptv/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jL7zgG5.png" group-title="CHILE",Tele Angol | HD | Angol
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/jL7zgG5.png",Tele Angol | HD | Angol
 https://pantera1-100gb-cl-movistar.dps.live/teleangol/teleangol.smil/teleangol/livestream1/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/phbDD2v.png" group-title="CHILE",Pucón TV | FHD | Pucón
-https://unlimited1-cl-isp.dps.live/pucontv/pucontv.smil/pucontv/livestream2/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GG8zE02.png" group-title="CHILE",T-Vinet | HD | Osorno
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/GG8zE02.png",T-Vinet | HD | Osorno
 https://unlimited1-cl-isp.dps.live/inet2/inet2.smil/inet2/livestream1/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Vm9LuU5.jpg" group-title="CHILE",Décima TV| FHD | Ancud
-http://unlimited10-cl.dps.live/decimatv/decimatv.smil/decimatv/livestream1/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/JHG0k6v.png" group-title="CHILE",Santa María Televisión | SD | Coyhaique
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JHG0k6v.png",Santa María Televisión | SD | Coyhaique
 https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/VhOolgs.png" group-title="CHILE",El Pingüino | HD | Punta Arenas
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/VhOolgs.png",El Pingüino | HD | Punta Arenas
 http://streaming.elpinguino.com:1935/live/pinguinotv_720p/livestream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/mjX7HC0.png" group-title="CHILE",Soberanía| HD | Punta Arenas
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/mjX7HC0.png",Soberanía| HD | Punta Arenas
 https://tls-cl.cdnz.cl/radiosoberania/live/chunklist_w1753930486.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Vx20KSy.jpg" group-title="CHILE",Umag TV 2| HD | Punta Arenas
+#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/Vx20KSy.jpg",Umag TV 2| HD | Punta Arenas
 https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
 '''
 
