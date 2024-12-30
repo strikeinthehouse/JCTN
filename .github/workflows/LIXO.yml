@@ -35,7 +35,7 @@ jobs:
     - name: Executar Script vod.py
       run: |
         source venv/bin/activate
-        python vod.py || { echo "Erro ao executar vod.py"; exit 1; }
+        python TESTLINKS.py || { echo "Erro ao executar vod.py"; exit 1; }
 
 
 
