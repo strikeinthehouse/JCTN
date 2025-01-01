@@ -6,3 +6,11 @@
 2025-01-01 22:20:09,361 - WARNING - URL Error https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8: Status Code 404
 2025-01-01 22:20:10,040 - WARNING - URL Error https://streamer-a01.videos.sapo.pt/live/santuario/chunklist.m3u8?wowzasessionid=inspiration: Status Code 502
 2025-01-01 22:20:10,173 - WARNING - URL Error https://bit.ly/SantuarioFatima?/chunklist.m3u8?wowzasessionid=inspiration: Status Code 301
+2025-01-01 22:46:45,549 - INFO - URL OK: https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
+2025-01-01 22:46:46,444 - WARNING - URL Error http://196.28.226.121:1935/live/smil:Channel2.smil/chunklist_b714000_slpor.m3u8: Status Code 404
+2025-01-01 22:46:47,165 - WARNING - URL Error http://196.28.226.121:1935/live/smil:Channel1.smil/chunklist_w539729195_b714000_slpor.m3u8: Status Code 404
+2025-01-01 22:47:02,903 - ERROR - Request Error http://live4.tdm.com.mo:80/ch2/_definst_/ch2.live/chunklist_w1683699584.m3u8: HTTPConnectionPool(host='live4.tdm.com.mo', port=80): Read timed out. (read timeout=15)
+2025-01-01 22:47:11,827 - WARNING - URL Error http://live4.tdm.com.mo/ch3/_definst_/ch3.live/chunklist_w1384254171.m3u8: Status Code 404
+2025-01-01 22:47:12,588 - WARNING - URL Error https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova/playlist.m3u8: Status Code 404
+2025-01-01 22:47:13,277 - WARNING - URL Error https://streamer-a01.videos.sapo.pt/live/santuario/chunklist.m3u8?wowzasessionid=inspiration: Status Code 502
+2025-01-01 22:47:13,316 - WARNING - URL Error https://bit.ly/SantuarioFatima?/chunklist.m3u8?wowzasessionid=inspiration: Status Code 301
