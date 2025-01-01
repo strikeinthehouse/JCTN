@@ -1,374 +1,1082 @@
 [
   {
-    "name": "QVC Japan (720p)",
-    "group": "JAP\u00c3O",
+    "name": "\ud83c\uddee\ud83c\uddf9 \u25cf| Rai 3\u1d34\u1d30",
+    "group": "Italia",
+    "tvg_id": "",
+    "logo": "https://www.raiplay.it/dl/img/2016/09/1473662801274Logo-Rai3.png",
+    "url": "http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8?wowzasessionid=inspiration",
+    "extra": []
+  },
+  {
+    "name": "RAI 1",
+    "group": "Italy",
+    "tvg_id": "rai1.it",
+    "logo": "http://yourlogourl.com/rai1.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212895.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI 2",
+    "group": "Italy",
+    "tvg_id": "rai2.it",
+    "logo": "http://yourlogourl.com/rai2.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212896.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI 3",
+    "group": "Italy",
+    "tvg_id": "rai3.it",
+    "logo": "http://yourlogourl.com/rai3.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212897.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI 4",
+    "group": "Italy",
+    "tvg_id": "rai4.it",
+    "logo": "http://yourlogourl.com/rai4.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212898.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI ITALIA",
+    "group": "Italy",
+    "tvg_id": "rai-italia.it",
+    "logo": "http://yourlogourl.com/rai-italia.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212900.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI PREMIUM",
+    "group": "Italy",
+    "tvg_id": "rai-premium.it",
+    "logo": "http://yourlogourl.com/rai-premium.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212901.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI MOVIE",
+    "group": "Italy",
+    "tvg_id": "rai-movie.it",
+    "logo": "http://yourlogourl.com/rai-movie.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212902.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CANALE 5",
+    "group": "Italy",
+    "tvg_id": "canale5.it",
+    "logo": "http://yourlogourl.com/canale5.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212903.m3u8",
+    "extra": []
+  },
+  {
+    "name": "MEDIASET ITALIA 1",
+    "group": "Italy",
+    "tvg_id": "mediaset-italia1.it",
+    "logo": "http://yourlogourl.com/mediaset-italia1.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212906.m3u8",
+    "extra": []
+  },
+  {
+    "name": "MEDIASET ITALIA 2",
+    "group": "Italy",
+    "tvg_id": "mediaset-italia2.it",
+    "logo": "http://yourlogourl.com/mediaset-italia2.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212907.m3u8",
+    "extra": []
+  },
+  {
+    "name": "LA 5",
+    "group": "Italy",
+    "tvg_id": "la5.it",
+    "logo": "http://yourlogourl.com/la5.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212911.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI NEWS 24",
+    "group": "Italy",
+    "tvg_id": "rai-news24.it",
+    "logo": "http://yourlogourl.com/rai-news24.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212913.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TGCOM 24",
+    "group": "Italy",
+    "tvg_id": "tgcom24.it",
+    "logo": "http://yourlogourl.com/tgcom24.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212915.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TG LA 7",
+    "group": "Italy",
+    "tvg_id": "tg-la7.it",
+    "logo": "http://yourlogourl.com/tg-la7.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212916.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RETE 4",
+    "group": "Italy",
+    "tvg_id": "rete4.it",
+    "logo": "http://yourlogourl.com/rete4.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212920.m3u8",
+    "extra": []
+  },
+  {
+    "name": "REAL TIME",
+    "group": "Italy",
+    "tvg_id": "real-time.it",
+    "logo": "http://yourlogourl.com/real-time.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212923.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI GULP",
+    "group": "Italy",
+    "tvg_id": "rai-gulp.it",
+    "logo": "http://yourlogourl.com/rai-gulp.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212925.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI YOYO",
+    "group": "Italy",
+    "tvg_id": "rai-yoyo.it",
+    "logo": "http://yourlogourl.com/rai-yoyo.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212926.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CARTOONITO",
+    "group": "Italy",
+    "tvg_id": "cartoonito.it",
+    "logo": "http://yourlogourl.com/cartoonito.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212928.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FRISBEE",
+    "group": "Italy",
+    "tvg_id": "frisbee.it",
+    "logo": "http://yourlogourl.com/frisbee.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212929.m3u8",
+    "extra": []
+  },
+  {
+    "name": "SUPER!",
+    "group": "Italy",
+    "tvg_id": "super.it",
+    "logo": "http://yourlogourl.com/super.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212931.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI STORIA",
+    "group": "Italy",
+    "tvg_id": "rai-storia.it",
+    "logo": "http://yourlogourl.com/rai-storia.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212933.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RAI SCUOLA",
+    "group": "Italy",
+    "tvg_id": "rai-scuola.it",
+    "logo": "http://yourlogourl.com/rai-scuola.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212934.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FISHING TV",
+    "group": "Italy",
+    "tvg_id": "fishing-tv.it",
+    "logo": "http://yourlogourl.com/fishing-tv.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212940.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FOCUS",
+    "group": "Italy",
+    "tvg_id": "focus.it",
+    "logo": "http://yourlogourl.com/focus.png",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/212941.m3u8",
+    "extra": []
+  },
+  {
+    "name": "UniNettuno University TV \u24bc",
+    "group": "Undefined",
     "tvg_id": "Undefined",
     "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
-    "url": "https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "url": "https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "Red Bull TV (1080p)",
-    "group": "JAP\u00c3O",
+    "name": "Uninettuno University Tv",
+    "group": "Undefined",
     "tvg_id": "Undefined",
     "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
-    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "NHK BS1 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "nhkbs1",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/NHKBS1%E3%83%AD%E3%82%B42020-.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS101&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "url": "https://stream6-rai-it.akamaized.net/live/uninettuno/chunklist.m3u8",
     "extra": []
   },
   {
-    "name": "NHK BS\u30d7\u30ec\u30df\u30a2\u30e0 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "nhkbsp",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/NHK_BS%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0_%E6%96%B0%E3%83%AD%E3%82%B4.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS103&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "TV UNO (240p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://ftp.tiscali.it/francescovernata/TVUNO/monoscopioTvUNOint-1.wmv",
     "extra": []
   },
   {
-    "name": "BS\u65e5\u30c6\u30ec (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "bsntv",
-    "logo": "https://i.postimg.cc/wvCmCc2p/t-i-xu-ng.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS141&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tv Uno",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://ftp.tiscali.it/francescovernata/TVUNO/monoscopioTvUNOint-1.wmv",
     "extra": []
   },
   {
-    "name": "BS\u671d\u65e5 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "bsasahi",
-    "logo": "https://company.tv-asahi.co.jp/saiyo/group/img/company/logo-bsasahi.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS151&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tv Qui Modena",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "BS-TBS (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "bstbs",
-    "logo": "https://pbs.twimg.com/profile_images/1260862250295812096/a6-UyLc__400x400.jpg",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS161&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "TV Qui (Modena) (480p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "BS\u30c6\u30ec\u6771 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "bstvtokyo",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/bb/bs-tokyo-jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS171&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tv Campane 1",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://eu1.servers10.com:8081/8032/index.m3u8",
     "extra": []
   },
   {
-    "name": "BS\u30d5\u30b8 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "bsfuji",
-    "logo": "https://www.zne-iptv.com/wp-content/uploads/2017/10/22-BS-FUJI-770x480.jpg",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS181&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tuscia Sabina 2000Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8",
     "extra": []
   },
   {
-    "name": "WOWOW\u30d7\u30e9\u30a4\u30e0 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "wowowprime",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/ww/wowow_prime.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS191&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tris News",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5db313b643fd8.streamlock.net/WLTV/WLTV/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "WOWOW\u30e9\u30a4\u30d6 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "wowowlive",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/ww/wowow_live.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS192&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Thriller \u2013 Rakuten TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://rakuten-thriller-6-eu.rakuten.wurl.tv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "WOWOW\u30b7\u30cd\u30de (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "wowowcinema",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/ww/wowow_cinema.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS193&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "TeleTusciaSabina 2000 (576p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30b9\u30bf\u30fc\u30c1\u30e3\u30f3\u30cd\u30eb1 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "starch1",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/2560px-Star_Channel-Japan.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS200&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Teletricolore (480p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30b9\u30bf\u30fc\u30c1\u30e3\u30f3\u30cd\u30eb2 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "starch2",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/2560px-Star_Channel-Japan.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS201&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "TeleMia (576p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8",
     "extra": []
   },
   {
-    "name": "\u30b9\u30bf\u30fc\u30c1\u30e3\u30f3\u30cd\u30eb3 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "starch3",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Star_Channel-Japan.svg/2560px-Star_Channel-Japan.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "TeleMajg",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/telemajg/telemajg/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "BS\u30a2\u30cb\u30de\u30c3\u30af\u30b9 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "animax",
-    "logo": "https://i.imgur.com/zpi6mQ3.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS236&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Telefoggia (480p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u91e3\u308a\u30d3\u30b8\u30e7\u30f3 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "fishing",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/tt/tsuri_vision.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS251&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Tricolore",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Mnet (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "\uff2d\uff4e\uff45\uff54.jp",
-    "logo": "https://www.lyngsat.com/logo/tv/mm/m_net_jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS241&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Sirio",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://www.telesirio.it/live/stream.m3u8",
     "extra": []
   },
   {
-    "name": "JSPORTS 1 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "js1",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS242&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Quattro Trieste",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "JSPORTS 2 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "js2",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS243&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Quattro (480p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "JSPORTS 3 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "js3",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS244&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Piadena",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://stream3.xdevel.com/video0s975441-151/stream/playlist_dvr.m3u8",
     "extra": []
   },
   {
-    "name": "JSPORTS 4 (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "js4",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/J_Sports_Logo.svg/2560px-J_Sports_Logo.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS245&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Pavia",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8",
     "extra": []
   },
   {
-    "name": "\u65e5\u672c\u6620\u753b\u5c02\u9580\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
-    "group": "BS1 (720P)",
-    "tvg_id": "nihoneiga",
-    "logo": "https://i.postimg.cc/ydDMrbTZ/Nihon-Eiga-Senmon-Channel.jpg",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS255&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Pace Trento",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "AXN\u6d77\u5916\u30c9\u30e9\u30de (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "axn",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/aa/axn_global.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS311&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Pace Roma",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://live.mariatvcdn.com/mariatvpoint/d36592901d5429dd7f9ec1e7bbeda8c2.sdp/index.m3u8",
     "extra": []
   },
   {
-    "name": "FOX Japan (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "fox",
-    "logo": "https://foxnetworks.jp/core/img/logo_mainfox.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS312&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Oltre",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://1se1.troydesign.eu/np_teleoltre/_definst_/channel1_np_teleoltre/playlist.m3u8?ext=.m3u8",
     "extra": []
   },
   {
-    "name": "\u30c1\u30e3\u30f3\u30cd\u30eb\u9280\u6cb3 (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "gingach",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/cc/channel_ginga.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS305&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Mistretta Radio",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://stream.mariatvcdn.com/telemistrettaradio/900bfcc0f9012ea272584fd5ff5281b8.sdp/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30d5\u30a1\u30df\u30ea\u30fc\u5287\u5834 (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "familygeki",
-    "logo": "https://i.postimg.cc/k5fXKzj3/o023302751417597653027.jpg",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS293&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Mistretta",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "GAORA (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "gaora",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/GAORA_SPORTS_logo.svg/2560px-GAORA_SPORTS_logo.svg.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS254&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Mantova",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30b4\u30eb\u30d5\u30cd\u30c3\u30c8\u30ef\u30fc\u30af (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "golfnw",
-    "logo": "https://i.postimg.cc/sDY2HML1/logo-new.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS262&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Jonio",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://59d7d6f47d7fc.streamlock.net/telejonio/telejonio/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u6b4c\u8b21\u30dd\u30c3\u30d7\u30b9\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "kayopops",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/kk/kayo-pops-jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS329&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Tele Foggia",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30ad\u30c3\u30ba\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3 (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "kidsstation",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/kk/kidsstation.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS330&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "T.R.L Tele Radio Leo",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30db\u30fc\u30e0\u30c9\u30e9\u30de\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "homedrama",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/hh/home-drama-channelpng-jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS294&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Supertv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8",
     "extra": []
   },
   {
-    "name": "LaLaTV (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "lalatv",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/ll/lala_tv.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS314&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "SuperSix Lombardia (720p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u65e5\u30c6\u30ec\u30b8\u30fc\u30bf\u30b9 (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "ntvgplus",
-    "logo": "https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-166-400x400.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS257&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Super! POP \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f7b5bb49b90007cecaad/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
     "extra": []
   },
   {
-    "name": "\u30c1\u30e3\u30f3\u30cd\u30ebNECO (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "neco",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/cc/channel-neco-jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS223&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Super TV (720p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30e0\u30fc\u30d3\u30fc\u30d7\u30e9\u30b9 (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "movieplus",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/mm/movie_plus_jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS240&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Super Six",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Music ON TV! (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "musicon",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/mm/music_on_tv.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS325&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Stereo 5 TV (720p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://stream1.aswifi.it/stereo5/live/index.m3u8",
     "extra": []
   },
   {
-    "name": "\u6771\u6620\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "toeich",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/tt/toei_channel.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS218&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Set Tv Cilento",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://stream1.aswifi.it/settv/live/index.m3u8",
     "extra": []
   },
   {
-    "name": "\u6642\u4ee3\u5287\u5c02\u9580\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "jidaigeki",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/jj/jidaigeki.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS292&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "San Marino RTV Sport (720p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8",
     "extra": []
   },
   {
-    "name": "\u56f2\u7881\u30fb\u5c06\u68cb\u30c1\u30e3\u30f3\u30cd\u30eb (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "igoshogi",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/ii/igoshogi.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS363&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "RTTR Trento (720p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30b9\u30fc\u30d1\u30fc!\u30c9\u30e9\u30deTV (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "superdramatv",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/ss/super_drama_tv.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS310&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Rttr",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u30b9\u30ab\u30a4A (720p Willfon)",
-    "group": "CS1 (720p)",
-    "tvg_id": "skya",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/ss/sky-a-jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS250&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Rtp Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CNN J (720p Willfon)",
-    "group": "NEWS",
-    "tvg_id": "cnnj",
-    "logo": "https://www.lyngsat-logo.com/logo/tv/cc/cnn-j-us-jp.png",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "RTP (404p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u65e5\u30c6\u30ecNEWS24 (720p Willfon)",
-    "group": "NEWS",
-    "tvg_id": "ntvnews24",
-    "logo": "https://i.imgur.com/Ya4yHpC.jpg",
-    "url": "https://stream01.willfonk.com/live_playlist.m3u8?cid=CS349&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
+    "name": "Reteveneta (480p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u65e5\u30c6\u30ecNEWS24 (480p Official1)",
-    "group": "NEWS",
-    "tvg_id": "ntvnews24",
-    "logo": "https://i.imgur.com/Ya4yHpC.jpg",
-    "url": "https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8",
+    "name": "Rete Veneta",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "\u65e5\u30c6\u30ecNEWS24 (480p Official2)",
-    "group": "NEWS",
-    "tvg_id": "ntvnews24",
-    "logo": "https://i.imgur.com/Ya4yHpC.jpg",
-    "url": "https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8",
+    "name": "Rete Oro Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Rete Oro (720p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Rete Biella TV (720p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://sb.top-ix.org/retebiella/streaming/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Rete Biella",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://sb.top-ix.org/retebiella/streaming/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Rete 8 Vga",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Radio Radicale TV (240p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://video-ar.radioradicale.it/diretta/padtv2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Radio KISS KISS TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59253971be783.streamlock.net/KissKissTV/KissKissTV.stream/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Radio Italia Cina Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Radio Iglesias Sardegna (576p) [Geo-blocked]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Radio Iglesias (576p) [Geo-blocked]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Radio 51 TV (480p) [Geo-blocked]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://178.32.140.155/canale51/canale51/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "R.T.C. Quarta Rete",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Primocanale (1080p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Primocanale",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Prima Tv Sicilia",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Prima Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://flash2.streaming.xdevel.com/primatv/primatv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Passione Lotto Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://185.63.52.103:8080/hls/passionelotto/1_2/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ora Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Onda Web Radio",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Onda Tv Sicilia",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Onda Novara TV (720p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://585b674743bbb.streamlock.net/9006/9006/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Onda Novara Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Minformo Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Medjugorje Italia Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Le sorelle mcleod \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60a2837f8154ab0007c4dcdf/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "La TR3 Marsala (720p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "La tr3 Marsala",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Just for laughs \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "Iunior TV (720p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Iunior Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Italia 7",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Italia 2 TV (480p) [Geo-blocked]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Italia 2",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Il banco dei pugni \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60e4507a06171800072339a3/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "Icaro Tv Rimini",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Gold Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Giovanni Paolo Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Film Azione \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa20a2e7f270007c4878d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "FailArmy",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Euro TV (720p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Euro Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Euro Indie Music Chart TV (360p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Etv Rete7",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Etv Marche",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Esperia TV (480p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Entella TV (720p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Entella Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://5f22d76e220e1.streamlock.net:443/EntellaTV/EntellaTV/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Elive TV Brescia (720p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "E'live Brescia Tv",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Documentari \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa8a5709d6b0007b132fe/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "Digital Tv7 Benevento",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Crime \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa777b907770007e5d05d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "Classico \u2013 Rakuten TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://rakuten-classico-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Catfish \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f9ed2c75660007322bb7/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "Canale 8 (480p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canale 7 (480p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/canale7/canale7/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canale 7",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it:80/canale7/canale7/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canale 2 Altamura (576p) [Not 24/7]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canale 2",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Camera dei Deputati (via RR) (240p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Azzurra Tv Vco",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/azzurratv/azzurratv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Aurora Arte (480p)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Aurora Arte",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Anime \u2013 Pluto TV",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612375086abc84000738fc03/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+    "extra": []
+  },
+  {
+    "name": "51 Radio TV (480p) [Geo-blocked]",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg",
+    "url": "http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8",
     "extra": []
   }
 ]
