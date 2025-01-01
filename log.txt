@@ -570,3 +570,169 @@
 2025-01-01 05:53:41,683 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
 2025-01-01 05:53:41,728 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612375086abc84000738fc03/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 2025-01-01 05:53:41,939 - INFO - URL OK: http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
+2025-01-01 05:56:43,839 - INFO - URL OK: http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8?wowzasessionid=inspiration
+2025-01-01 05:56:43,880 - WARNING - URL Error https://d15umi5iaezxgx.cloudfront.net/LA7/CLN/HLS-B/Live.m3u8: Status Code 403
+2025-01-01 05:56:44,108 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212895.m3u8
+2025-01-01 05:56:44,848 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212896.m3u8
+2025-01-01 05:56:45,411 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212897.m3u8
+2025-01-01 05:56:45,940 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212898.m3u8
+2025-01-01 05:56:46,469 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212900.m3u8
+2025-01-01 05:56:46,977 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212901.m3u8
+2025-01-01 05:56:47,607 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212902.m3u8
+2025-01-01 05:56:48,149 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212903.m3u8
+2025-01-01 05:56:48,657 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212906.m3u8
+2025-01-01 05:56:49,139 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212907.m3u8
+2025-01-01 05:56:49,623 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212911.m3u8
+2025-01-01 05:56:50,189 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212913.m3u8
+2025-01-01 05:56:50,746 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212915.m3u8
+2025-01-01 05:56:51,237 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212916.m3u8
+2025-01-01 05:56:51,700 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212920.m3u8
+2025-01-01 05:56:52,191 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212923.m3u8
+2025-01-01 05:56:52,690 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212925.m3u8
+2025-01-01 05:56:53,154 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212926.m3u8
+2025-01-01 05:56:53,637 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212928.m3u8
+2025-01-01 05:56:54,181 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212929.m3u8
+2025-01-01 05:56:54,673 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212931.m3u8
+2025-01-01 05:56:55,121 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212933.m3u8
+2025-01-01 05:56:55,639 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212934.m3u8
+2025-01-01 05:56:56,097 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212940.m3u8
+2025-01-01 05:56:56,670 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/212941.m3u8
+2025-01-01 05:56:57,686 - ERROR - Request Error http://livestreaming.videolina.it/live/Videolina/playlist.m3u8: HTTPConnectionPool(host='livestreaming.videolina.it', port=80): Max retries exceeded with url: /live/Videolina/playlist.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f07a2fdfc50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 05:56:58,196 - ERROR - Request Error http://livestreaming.videolina.it/live/Videolina/playlist.m3u8: HTTPConnectionPool(host='livestreaming.videolina.it', port=80): Max retries exceeded with url: /live/Videolina/playlist.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f07a291b830>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 05:56:58,832 - WARNING - URL Error http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8: Status Code 404
+2025-01-01 05:56:59,457 - WARNING - URL Error http://wms.shared.streamshow.it/veratv/mp4:veratv/playlist.m3u8: Status Code 404
+2025-01-01 05:56:59,917 - WARNING - URL Error http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8: Status Code 404
+2025-01-01 05:57:00,697 - INFO - URL OK: https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
+2025-01-01 05:57:01,481 - INFO - URL OK: https://stream6-rai-it.akamaized.net/live/uninettuno/chunklist.m3u8
+2025-01-01 05:57:02,060 - WARNING - URL Error http://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/mono.m3u8: Status Code 404
+2025-01-01 05:57:02,084 - WARNING - URL Error https://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8: Status Code 404
+2025-01-01 05:57:03,483 - INFO - URL OK: http://ftp.tiscali.it/francescovernata/TVUNO/monoscopioTvUNOint-1.wmv
+2025-01-01 05:57:04,753 - INFO - URL OK: http://ftp.tiscali.it/francescovernata/TVUNO/monoscopioTvUNOint-1.wmv
+2025-01-01 05:57:05,946 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8
+2025-01-01 05:57:07,191 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/tvqui/tvqui/playlist.m3u8
+2025-01-01 05:57:08,381 - INFO - URL OK: https://eu1.servers10.com:8081/8032/index.m3u8
+2025-01-01 05:57:09,819 - INFO - URL OK: http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8
+2025-01-01 05:57:11,239 - INFO - URL OK: https://5db313b643fd8.streamlock.net/WLTV/WLTV/playlist.m3u8
+2025-01-01 05:57:11,740 - INFO - URL OK: https://rakuten-thriller-6-eu.rakuten.wurl.tv/playlist.m3u8
+2025-01-01 05:57:12,575 - INFO - URL OK: http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8
+2025-01-01 05:57:13,596 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8
+2025-01-01 05:57:14,497 - INFO - URL OK: https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
+2025-01-01 05:57:15,649 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/telemajg/telemajg/playlist.m3u8
+2025-01-01 05:57:16,556 - INFO - URL OK: http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8
+2025-01-01 05:57:19,535 - WARNING - URL Error https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8: Status Code 502
+2025-01-01 05:57:20,354 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8
+2025-01-01 05:57:21,602 - INFO - URL OK: https://www.telesirio.it/live/stream.m3u8
+2025-01-01 05:57:22,271 - INFO - URL OK: http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8
+2025-01-01 05:57:22,888 - INFO - URL OK: http://wms.shared.streamshow.it/telequattro/telequattro/playlist.m3u8
+2025-01-01 05:57:24,214 - INFO - URL OK: https://stream3.xdevel.com/video0s975441-151/stream/playlist_dvr.m3u8
+2025-01-01 05:57:25,286 - INFO - URL OK: http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8
+2025-01-01 05:57:26,527 - INFO - URL OK: https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8
+2025-01-01 05:57:27,388 - INFO - URL OK: https://live.mariatvcdn.com/mariatvpoint/d36592901d5429dd7f9ec1e7bbeda8c2.sdp/index.m3u8
+2025-01-01 05:57:27,872 - WARNING - URL Error https://live.mariatvcdn.com/teleradiopace6/d289fe76f16ad32afec471ea1b941583.sdp/index.m3u8: Status Code 404
+2025-01-01 05:57:27,904 - WARNING - URL Error https://live.mariatvcdn.com/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/mono.m3u8: Status Code 404
+2025-01-01 05:57:28,055 - WARNING - URL Error https://live.mariatvcdn.com/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/mono.m3u8: Status Code 404
+2025-01-01 05:57:28,133 - WARNING - URL Error https://live.mariatvcdn.com/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/mono.m3u8: Status Code 404
+2025-01-01 05:57:29,565 - INFO - URL OK: http://1se1.troydesign.eu/np_teleoltre/_definst_/channel1_np_teleoltre/playlist.m3u8?ext=.m3u8
+2025-01-01 05:57:30,605 - INFO - URL OK: https://stream.mariatvcdn.com/telemistrettaradio/900bfcc0f9012ea272584fd5ff5281b8.sdp/playlist.m3u8
+2025-01-01 05:57:31,334 - INFO - URL OK: https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8
+2025-01-01 05:57:32,230 - INFO - URL OK: https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8
+2025-01-01 05:57:32,878 - INFO - URL OK: http://59d7d6f47d7fc.streamlock.net/telejonio/telejonio/playlist.m3u8
+2025-01-01 05:57:33,802 - INFO - URL OK: http://wms.shared.streamshow.it/telefoggia/mp4:telefoggia/playlist.m3u8
+2025-01-01 05:57:36,168 - WARNING - URL Error https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8: Status Code 502
+2025-01-01 05:57:37,409 - WARNING - URL Error https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8: Status Code 404
+2025-01-01 05:57:38,414 - INFO - URL OK: https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8
+2025-01-01 05:57:39,439 - INFO - URL OK: http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
+2025-01-01 05:57:40,833 - INFO - URL OK: https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8
+2025-01-01 05:57:41,249 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f7b5bb49b90007cecaad/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:57:42,201 - INFO - URL OK: http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8
+2025-01-01 05:57:43,599 - INFO - URL OK: https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8
+2025-01-01 05:57:45,091 - INFO - URL OK: https://stream1.aswifi.it/stereo5/live/index.m3u8
+2025-01-01 05:57:46,230 - WARNING - URL Error http://media.velcom.it:1935/sl48/sl48/playlist.m3u8: Status Code 404
+2025-01-01 05:57:47,342 - INFO - URL OK: https://stream1.aswifi.it/settv/live/index.m3u8
+2025-01-01 05:57:48,061 - INFO - URL OK: https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
+2025-01-01 05:57:48,952 - INFO - URL OK: https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8
+2025-01-01 05:57:49,668 - INFO - URL OK: https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8
+2025-01-01 05:57:50,599 - INFO - URL OK: http://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
+2025-01-01 05:57:52,152 - INFO - URL OK: https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
+2025-01-01 05:57:52,482 - ERROR - Request Error https://rakuten-romance-6-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-romance-6-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f07a3093bc0>: Failed to resolve 'rakuten-romance-6-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-01 05:57:53,937 - WARNING - URL Error https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8: Status Code 404
+2025-01-01 05:57:54,756 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8
+2025-01-01 05:57:55,269 - INFO - URL OK: http://wms.shared.streamshow.it/reteveneta/reteveneta/playlist.m3u8
+2025-01-01 05:57:56,443 - INFO - URL OK: https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
+2025-01-01 05:57:57,620 - INFO - URL OK: https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
+2025-01-01 05:57:59,805 - INFO - URL OK: https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
+2025-01-01 05:58:01,257 - INFO - URL OK: https://sb.top-ix.org/retebiella/streaming/playlist.m3u8
+2025-01-01 05:58:02,943 - INFO - URL OK: https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8
+2025-01-01 05:58:04,597 - INFO - URL OK: https://video-ar.radioradicale.it/diretta/padtv2/playlist.m3u8
+2025-01-01 05:58:05,507 - WARNING - URL Error https://router.xdevel.com/video0s975360-67/stream/playlist_dvr.m3u8: Status Code 302
+2025-01-01 05:58:05,980 - INFO - URL OK: https://59253971be783.streamlock.net/KissKissTV/KissKissTV.stream/playlist.m3u8
+2025-01-01 05:58:07,363 - INFO - URL OK: https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8
+2025-01-01 05:58:08,495 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8
+2025-01-01 05:58:09,050 - WARNING - URL Error http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8: Status Code 403
+2025-01-01 05:58:09,359 - INFO - URL OK: http://178.32.140.155/canale51/canale51/playlist.m3u8
+2025-01-01 05:58:10,928 - INFO - URL OK: https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8
+2025-01-01 05:58:13,052 - WARNING - URL Error http://live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8: Status Code 502
+2025-01-01 05:58:14,375 - INFO - URL OK: https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
+2025-01-01 05:58:15,622 - INFO - URL OK: https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
+2025-01-01 05:58:16,937 - INFO - URL OK: https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8
+2025-01-01 05:58:17,692 - INFO - URL OK: http://flash2.streaming.xdevel.com/primatv/primatv/playlist.m3u8
+2025-01-01 05:58:18,424 - INFO - URL OK: http://185.63.52.103:8080/hls/passionelotto/1_2/index.m3u8
+2025-01-01 05:58:19,816 - INFO - URL OK: https://5db313b643fd8.streamlock.net/OraTv/OraTv/playlist.m3u8
+2025-01-01 05:58:20,521 - INFO - URL OK: http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8
+2025-01-01 05:58:21,676 - INFO - URL OK: https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8
+2025-01-01 05:58:22,851 - INFO - URL OK: https://585b674743bbb.streamlock.net/9006/9006/master.m3u8
+2025-01-01 05:58:23,953 - INFO - URL OK: https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8
+2025-01-01 05:58:24,470 - WARNING - URL Error https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/610a9ebe8c2ac2000734776e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel: Status Code 302
+2025-01-01 05:58:25,458 - INFO - URL OK: https://5db313b643fd8.streamlock.net:443/MinformoTV/MinformoTV/playlist.m3u8
+2025-01-01 05:58:26,845 - INFO - URL OK: https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
+2025-01-01 05:58:27,490 - WARNING - URL Error http://59d7d6f47d7fc.streamlock.net/loveinvenice/loveinvenice/playlist.m3u8: Status Code 404
+2025-01-01 05:58:27,592 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60a2837f8154ab0007c4dcdf/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:58:28,234 - WARNING - URL Error http://stucazz.com:8888/hls/cronache.m3u8: Status Code 301
+2025-01-01 05:58:28,262 - WARNING - URL Error https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8: Status Code 403
+2025-01-01 05:58:28,274 - WARNING - URL Error https://d15umi5iaezxgx.cloudfront.net/LA7/CLN/HLS-B/Live.m3u8: Status Code 403
+2025-01-01 05:58:29,284 - INFO - URL OK: https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
+2025-01-01 05:58:30,383 - INFO - URL OK: https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
+2025-01-01 05:58:30,732 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:58:32,144 - INFO - URL OK: https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
+2025-01-01 05:58:33,579 - INFO - URL OK: https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
+2025-01-01 05:58:35,019 - INFO - URL OK: https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
+2025-01-01 05:58:36,017 - INFO - URL OK: http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8
+2025-01-01 05:58:37,237 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
+2025-01-01 05:58:37,818 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60e4507a06171800072339a3/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:58:38,922 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
+2025-01-01 05:58:40,148 - INFO - URL OK: https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
+2025-01-01 05:58:41,010 - WARNING - URL Error http://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8: Status Code 404
+2025-01-01 05:58:41,612 - WARNING - URL Error https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8: Status Code 404
+2025-01-01 05:58:42,997 - INFO - URL OK: https://media2021.rtvweb.com/giovannipaolotv/web/chunklist_w663456797.m3u8
+2025-01-01 05:58:43,325 - ERROR - Request Error https://rakuten-topfree-6-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-topfree-6-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f07a29b7890>: Failed to resolve 'rakuten-topfree-6-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-01 05:58:43,433 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa20a2e7f270007c4878d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:58:43,981 - INFO - URL OK: https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8
+2025-01-01 05:58:45,349 - INFO - URL OK: https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
+2025-01-01 05:58:46,801 - INFO - URL OK: https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
+2025-01-01 05:58:47,500 - INFO - URL OK: http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
+2025-01-01 05:58:48,497 - INFO - URL OK: https://live.ipstream.it/etv/etv.stream/playlist.m3u8
+2025-01-01 05:58:49,276 - INFO - URL OK: https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8
+2025-01-01 05:58:49,917 - INFO - URL OK: http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8
+2025-01-01 05:58:51,336 - INFO - URL OK: https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8
+2025-01-01 05:58:52,655 - INFO - URL OK: https://5f22d76e220e1.streamlock.net:443/EntellaTV/EntellaTV/playlist.m3u8
+2025-01-01 05:58:53,818 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
+2025-01-01 05:58:54,950 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
+2025-01-01 05:58:55,438 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa8a5709d6b0007b132fe/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:58:57,048 - INFO - URL OK: http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
+2025-01-01 05:58:58,060 - WARNING - URL Error https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8: Status Code 302
+2025-01-01 05:58:58,827 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa777b907770007e5d05d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:58:59,247 - INFO - URL OK: https://rakuten-classico-1-eu.rakuten.wurl.tv/playlist.m3u8
+2025-01-01 05:58:59,711 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f9ed2c75660007322bb7/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:59:00,524 - WARNING - URL Error http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8: Status Code 404
+2025-01-01 05:59:01,141 - WARNING - URL Error https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8: Status Code 302
+2025-01-01 05:59:01,455 - INFO - URL OK: http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8
+2025-01-01 05:59:02,125 - INFO - URL OK: http://wms.shared.streamshow.it/canale7/canale7/playlist.m3u8
+2025-01-01 05:59:02,758 - INFO - URL OK: http://wms.shared.streamshow.it:80/canale7/canale7/playlist.m3u8
+2025-01-01 05:59:03,909 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8
+2025-01-01 05:59:04,994 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8
+2025-01-01 05:59:06,400 - INFO - URL OK: https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8
+2025-01-01 05:59:07,490 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/azzurratv/azzurratv/playlist.m3u8
+2025-01-01 05:59:08,667 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
+2025-01-01 05:59:09,749 - INFO - URL OK: https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
+2025-01-01 05:59:10,334 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612375086abc84000738fc03/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+2025-01-01 05:59:11,005 - INFO - URL OK: http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
