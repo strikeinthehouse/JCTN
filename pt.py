@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
-
+import youtube_dl
+import concurrent.futures
 
 # Configure Chrome options
 options = Options()
@@ -12,167 +13,77 @@ options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1280,720")
 options.add_argument("--disable-infobars")
 
+
 # Create the webdriver instance
 driver = webdriver.Chrome(options=options)
 
-
-url_archive = f"https://tviplayer.iol.pt/videos/ultimos/1/canal:"
+# URL of the desired page
+url_archive = "https://archive.org/details/tvarchive?query=trump&sort=-date"
 
 # Open the desired page
 driver.get(url_archive)
 
 # Wait for the page to load
-time.sleep(5)  # Adjust the sleep time if needed to ensure page load
+time.sleep(5)
 
-# Find all relevant video links
-video_elements = driver.find_elements(By.CSS_SELECTOR, 'a.item')
+# Scroll to the bottom of the page
+#for _ in range(1):
+#    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+#    time.sleep(2)
 
-# Prepare to write the links to a file
-with open('pt.txt', 'w') as file:
-    for element in video_elements:
-        link = element.get_attribute('href')
-        # Check if the link is valid and not empty
-        if link:
-            full_link = f"{link}"
-            file.write(full_link + '\n')
+# Find all elements with the specified <a> tags
+elements = driver.find_elements(By.CSS_SELECTOR, 'a[title][data-event-click-tracking="GenericNonCollection|ItemTile"]')
 
-# Close the driver
+# Create a list to store the video URLs and thumbnails
+video_infos = []
+
+# Print the href attributes, thumbnails, and add them to video_infos
+for element in elements:
+    href = element.get_attribute("href")
+    if href:
+        # Extract the thumbnail URL
+        img_element = element.find_element(By.XPATH, './/img')
+        thumbnail_src = img_element.get_attribute('src') if img_element else ''
+        # Ensure the thumbnail URL is absolute
+        if thumbnail_src and not thumbnail_src.startswith('http'):
+            thumbnail_src = 'https://archive.org' + thumbnail_src
+        video_infos.append((href, thumbnail_src))
+        print("Adicionando URL:", href)
+        print("Thumbnail:", thumbnail_src)
+
+# Close the webdriver
 driver.quit()
 
 
-
-import subprocess
-import json
-import os
-import requests
-from bs4 import BeautifulSoup
-
-def get_video_details_youtube(url):
-    """Obtém os detalhes dos vídeos usando youtube-dl."""
+# Function to get the direct stream URL and title with error handling
+def get_stream_info(url):
+    ydl_opts = {
+        'quiet': True,
+        'format': 'best',
+        'noplaylist': True,
+        'outtmpl': '/dev/null',
+        'geturl': True
+    }
     try:
-        result = subprocess.run(
-            ['youtube-dl', '-j', '--flat-playlist', url],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        entries = result.stdout.strip().split('\n')
-        details = [json.loads(entry) for entry in entries]
-        return details
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            info_dict = ydl.extract_info(url, download=False)
+            video_title = info_dict.get('title', 'Video Desconhecido')
+            stream_url = info_dict.get('url', '')
+            return video_title, stream_url
+    except Exception as e:
+        print(f"Error fetching info for {url}: {e}")
+        return None, None  # Return None for failed entries
 
-    except subprocess.CalledProcessError:
-        return []
+# Generate the EXTINF lines with tvg-logo and URLs
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    results = list(executor.map(lambda info: get_stream_info(info[0]), video_infos))
 
-def get_video_details_yt_dlp(url):
-    """Obtém os detalhes dos vídeos usando yt-dlp."""
-    try:
-        result = subprocess.run(
-            ['yt-dlp', '-j', '--flat-playlist', url],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        entries = result.stdout.strip().split('\n')
-        details = [json.loads(entry) for entry in entries]
-        return details
+# Write the EXTINF formatted lines to a file
+with open('lista1.m3u', 'r') as file:
+    file.write('#EXTM3U\n')  # Add the EXT3MU header
+    for (url, thumbnail), (title, stream_url) in zip(video_infos, results):
+        if stream_url:
+            tvg_logo = f'tvg-logo="{thumbnail}"' if thumbnail else ''
+            file.write(f'#EXTINF:-1 tvg-group="VOD TRUMP" {tvg_logo},{title}\n{stream_url}\n')
 
-    except subprocess.CalledProcessError:
-        return []
-
-def get_video_details_streamlink(url):
-    """Obtém os detalhes dos vídeos usando streamlink."""
-    try:
-        # Usa o streamlink para obter a URL do stream
-        result = subprocess.run(
-            ['streamlink', '--stream-url', url, 'best'],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        stream_url = result.stdout.strip()
-        
-        # Faz uma requisição para obter o título da página
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        title = get_title(soup)
-        
-        if stream_url and title:
-            return [{'url': stream_url, 'title': title, 'thumbnail': 'N/A'}]
-        else:
-            return []
-
-    except subprocess.CalledProcessError:
-        return []
-    except requests.RequestException:
-        return []
-
-def get_title(soup):
-    """Obtém o título do vídeo a partir da BeautifulSoup."""
-    title_element = soup.title
-    if title_element:
-        return title_element.string.strip()
-    return "No Title"
-
-def get_video_details(url):
-    """Obtém os detalhes dos vídeos usando youtube-dl, yt-dlp ou streamlink."""
-    details = get_video_details_youtube(url)
-    if details:
-        return details
-
-    details = get_video_details_yt_dlp(url)
-    if details:
-        return details
-
-    details = get_video_details_streamlink(url)
-    if details:
-        return details
-
-    print(f"Falha ao obter detalhes para a URL {url}.")
-    return []
-
-def write_m3u_file(details, filename):
-    """Escreve os detalhes dos vídeos no formato M3U em um arquivo."""
-    with open(filename, 'a', encoding='utf-8') as file:
-        file.write("#EXTM3U\n")
-        
-        for entry in details:
-            video_url = entry.get('url')
-            thumbnail_url = entry.get('thumbnail', 'N/A')
-            title = entry.get('title', 'No Title')
-
-            if video_url:
-                file.write(f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="VOD PT",{title}\n')
-                file.write(f"{video_url}\n")
-            else:
-                print("URL do vídeo não encontrada.")
-
-def process_urls_from_file(input_file):
-    """Lê URLs de um arquivo e processa cada uma para criar um único arquivo M3U."""
-    if not os.path.exists(input_file):
-        print(f"O arquivo {input_file} não foi encontrado.")
-        return
-    
-    all_details = []
-    
-    with open(input_file, 'r') as file:
-        urls = file.readlines()
-    
-    urls = [url.strip() for url in urls if url.strip()]
-    
-    for i, url in enumerate(urls):
-        print(f"Processando URL {i + 1}: {url}")
-        details = get_video_details(url)
-        
-        if details:
-            all_details.extend(details)
-        else:
-            print(f"Nenhum URL encontrado para a URL {url}.")
-    
-    filename = 'lista1.m3u'
-    write_m3u_file(all_details, filename)
-    print(f"Arquivo {filename} criado com sucesso.")
-
-if __name__ == "__main__":
-    input_file = 'pt.txt'
-    process_urls_from_file(input_file)
-
+print("A playlist M3U foi gerada com sucesso.")
