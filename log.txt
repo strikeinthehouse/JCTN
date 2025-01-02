@@ -1,10 +1,17 @@
-2025-01-02 12:35:35,943 - WARNING - URL Error https://bit.ly/3otT401?/index.m3u8: Status Code 410
-2025-01-02 12:35:36,054 - WARNING - URL Error https://bit.ly/Netflixinsp?/playlist720p.m3u8: Status Code 301
-2025-01-02 12:35:51,166 - ERROR - Request Error http://sensea.xyz:8880/ExPrEssVoDpaNNel02/CGaY9mDT42/137492: HTTPConnectionPool(host='sensea.xyz', port=8880): Max retries exceeded with url: /ExPrEssVoDpaNNel02/CGaY9mDT42/137492 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd1242d1ac0>, 'Connection to sensea.xyz timed out. (connect timeout=15)'))
-2025-01-02 12:36:06,221 - ERROR - Request Error http://sensea.xyz:8880/ExPrEssVoDpaNNel02/CGaY9mDT42/137510: HTTPConnectionPool(host='sensea.xyz', port=8880): Max retries exceeded with url: /ExPrEssVoDpaNNel02/CGaY9mDT42/137510 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd1242d22a0>, 'Connection to sensea.xyz timed out. (connect timeout=15)'))
-2025-01-02 12:36:21,238 - ERROR - Request Error http://190.2.143.146/foxlife/index.m3u8: HTTPConnectionPool(host='190.2.143.146', port=80): Max retries exceeded with url: /foxlife/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd1242d2a50>, 'Connection to 190.2.143.146 timed out. (connect timeout=15)'))
-2025-01-02 12:36:21,443 - WARNING - URL Error http://85.50.168.40:8001/1:0:1:7796:424:1:C00000:0:0:0:: Status Code 400
-2025-01-02 12:36:21,642 - INFO - URL OK: https://appletree-mytime-samsungbrazil.amagi.tv/playlist720p.m3u8
-2025-01-02 12:36:22,187 - ERROR - Request Error https://runtimebrazil-samsungbrazil.amagi.tv/playlist720p.m3u8: HTTPSConnectionPool(host='runtimebrazil-samsungbrazil.amagi.tv', port=443): Max retries exceeded with url: /playlist720p.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fd1242d3230>: Failed to resolve 'runtimebrazil-samsungbrazil.amagi.tv' ([Errno -2] Name or service not known)"))
-2025-01-02 12:36:37,204 - ERROR - Request Error http://189.91.128.146:4444/udp/227.10.20.139:1234: HTTPConnectionPool(host='189.91.128.146', port=4444): Max retries exceeded with url: /udp/227.10.20.139:1234 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fd12415d910>, 'Connection to 189.91.128.146 timed out. (connect timeout=15)'))
-2025-01-02 12:36:37,263 - WARNING - URL Error https://bit.ly/3ocj9k9?/playlist720p.m3u8: Status Code 301
+2025-01-02 12:39:29,015 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/TVPublicaArgentina/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/cronicatv/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/c5n/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/americaenvivo/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/encuentro/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/TEC_ciencia_ar/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canal26/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/CanalKZO/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/diariodemocracia/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/showdelafe/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/CanalPakapaka/LIVE
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SenadoTVArgentina/LIVE
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SISEArgentina/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-02 12:39:29,016 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/Radio10am/live
