@@ -52,7 +52,7 @@ for url in all_m3u_urls:
 
 # Verifica se há conteúdo para escrever no arquivo .m3u
 if all_content:
-    with open('ARGENTINA.M3U', 'a', encoding='utf-8') as f:
+    with open('ARGENTINA.m3u', 'a', encoding='utf-8') as f:
         f.write('#EXTM3U\n')  # Cabeçalho obrigatório para arquivos .m3u
         for content in all_content:
             f.write(content + '\n')
