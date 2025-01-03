@@ -65,16 +65,21 @@ jobs:
           python3 YT.py
 
           
-      - name: git pull
-        run: |
-          git pull origin main
-
-      - name: git add
+      # Adiciona mudanças ao controle de versão
+      - name: Adicionar Mudanças
         run: |
           git add -A
-          ls -la
+          git status
 
-      - name: commit & push
+    # Faz pull para garantir que temos as últimas mudanças do repositório remoto
+      - name: Garantir alterações mais recentes do repositório remoto
         run: |
-          git commit -m "links are updated"
-          git push
+          git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
+
+    # Faz commit e push das mudanças
+      - name: Commit e Push
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
+          git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
