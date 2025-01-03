@@ -97,14 +97,20 @@ try:
                 link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
                 title_tag = article_tag.find('h3')
                 category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
-                thumb_tag = article_tag.find('img', class_='tw-image-avatar')
+
+                # Alteração na extração da thumbnail para pegar da estrutura dada
+                thumb_tag = article_tag.find('div', {'class': 'Layout-sc-1xcs6mc-0 eFvOkl'})
+                if thumb_tag:
+                    img_tag = thumb_tag.find('img', class_='tw-image')
+                    thumb_url = img_tag['src'] if img_tag else ''
+                else:
+                    thumb_url = ''
 
                 if not link_tag or not title_tag:
                     continue
 
                 tvg_id = link_tag['href'].strip('/').split('/')[-1]
                 channel_name = title_tag.text.strip()
-                thumb_url = thumb_tag['src'] if thumb_tag else ''
                 group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
                 # Acumular os dados de cada canal
