@@ -214,6 +214,7 @@ try:
             thumb_url = thumb_tag['src'] if thumb_tag else ''
             group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
+            # Adicionar todos os canais encontrados ao arquivo
             output_line = f"{channel_name} | {group_title} | Logo Not Found"
             file.write(output_line + "\n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
@@ -247,5 +248,4 @@ except Exception as e:
 finally:
     if 'driver' in locals():
         driver.quit()
-
 
