@@ -1,42 +1,15 @@
 
 #EXTM3U
-#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",NOTÍCIAS TELEMUNDO - SERVIÇO
-https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="http://aovivo.radioliberal.com.br/logo_liberal_fm.png" radio="true",LIBERAL RÁDIO - BELÉM
-https://www.grupoliberalmedia.com.br/radiolive/_definst_/liveradio/playlist.m3u8
-#EXTINF:-1 tvg-id="tvireality.tv.vodafone.pt" group-title="Reality Show's Live" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
-https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="TheWallStreetJournalLive.us" tvg-logo="https://i.imgur.com/4xSEoNK.png",The Wall Street Journal Live (720p)
-https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ibb.co/kq4XM0Y/ynet.png",YNET NEWS SERVIÇO 1
-https://ynet-live-02.ynet-pic1.yit.co.il/ynet/live.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ibb.co/kq4XM0Y/ynet.png",YNET NEWS SERVIÇO 2
-https://ynet-live-03.ynet-pic1.yit.co.il/ynet/live.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ibb.co/kq4XM0Y/ynet.png",YNET NEWS SERVIÇO 3
-https://ynet-live-04.ynet-pic1.yit.co.il/ynet/live.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ibb.co/kq4XM0Y/ynet.png",YNET NEWS SERVIÇO 4
-https://ynet-live-05.ynet-pic1.yit.co.il/ynet/live.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ibb.co/K6BKFqY/dha.png",DHA SERVIÇO 1
-https://603c568fccdf5.streamlock.net/live/dhaweb1/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ibb.co/K6BKFqY/dha.png",DHA SERVIÇO 2
-https://603c568fccdf5.streamlock.net/live2/dhaweb2/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO
-https://newsource-live.warnermediacdn.com/hls/live/2005450/intl01/master.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 2
-https://newsource-live.warnermediacdn.com/hls/live/2005451/intl02/master.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 3
-https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 4
-https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
+
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_dolcedasousa-440x248.jpg" group-title="Reality Show's Live",grandefratello - Viernes en casita
-https://video-weaver.ord56.hls.ttvnw.net/v1/playlist/CukEM6Lyxwo-oyGmK3gmSlWzs9Hy0hErTid7LIG2efDbQCGSqk-wNm38sVdDF7NMc88kgg3QMNx7XnkOACQYUsSWZJNz6Y8kxsZm-SOxOcxTB1SFREniy__GFS8zwM-30ue5Dk-yn-R4YaLS_JuYmHx7UFPaOQjqhJ6jGbdaKEeJkL38YClvWWvyeVellcHWdFm8ZV2OxaNtJNNT1Ec5iMGg7x9myZTC9HQdDI-CkGULJndCDUIunyYWyDytu0ocJnN3kedB9uS_2GGZswxy39iEgpKFL-dW1T1jU-nhOWM8KFBFLN_7gmLp7wvmHAJD-3iwsCKuzDwARbz2HdbdFAwuaXpJIZepRUQYwXMqwpLi7aesoN3Bm40-9EUAzEa9104thsmyaCLEPTqmVPPnQ6q_fFYD2QIo-b1Bo_0w2i0UE88Y4daZxy4I2tSKxA8SMro8KTB7fSxKvjxfRHQPkiEOJhU9HgYFWZrfsJxC1Py3raJ4vXItaPFT7VzCOY1WXWcC74pwctwZHnTx6jq6Z7YxhGuKaFUxegmfGhebmJ2Lzz7jilABEnNibJkPac_YpzF4FCh8YauXwlE1wjd_c5RuLSFojRJspbnygOs6XJhrBKldh5ZGXwLjAcjrFXVIGQBfLRyqlmi3vTdoPpy8dN9pDjgNLMO5BUxOE66m39lNPY8NIqNplCryAkgSFPLK3gcke8HdaBO8usDZ_MPm6pPHV1tY3Ak6HlIkVa9fA7ygG-pTk_s2KAcJIIrYyI5toDwXDSUGOjlZQIw5RKlj6e6P1oZM481syhu7pWp8eDsBuk1Omc2pft0ECGkaDM_g3YR6WKBmrbPcJyABKgl1cy1lYXN0LTEw1Qk.m3u8
+https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CugEZN3Wtb_5vT0NIt2GNMyRTsZh51twE5_LKqRdrvHFYqTiZoIMhbuh-kcxVw4CShvZMbjEVGmzIiYLVJmrCJRaIXEixOBGVWbHj6C8ckBOD2N7l8Kbyxo76PxVB2cfMHQ2cPsSdB1jcZYRhqyTmvb__m0pAsz7rdnJU_ttAS8WLiH7VGgpZPB417fUTPP84bjhxR_2MK-rnKR5y72Mq1M6hwHsmkwCXrd0RkppAkflq6D6LXc7xkWRUAgcaLvZv5uDVYFJTad4zaFPC17u5U3UPMdAcfce2Db6N9N5aFKdrlD8EqDREdbJLhRDjEN99V0m0r4cVbzC_-HemItYRrO0Z95jsFk5XONRzdXxRD3dKnwoLu0I-rNsGfraN5OUKsF8MeoXqQwaqEpl3B-hmnBfTj9fSdEA6Lp26qLCqWFSxOP8T8ywQEhs0GYBPGjUP82jVk-8-fO6_jq5mGRD9PYGy-taQEpMBVCMbv2rKsEaIKxGN_xmi7qiCzkZI8UgwLTx9gUEvIfYwbPMt2wp2ViXGvb2LC0Nn0dpKu_h0zkxvqsftGCDOmet841d2mhNtKmA3Xg6oSKnKflU8q-7cy8u5gm5vONkQaU3Ca53IjOnttwqc1rdnvEr7fdY4FCyXyOVudqhR4Z0QwVdNDbxoRpqIUCMfQQUh7pSSxmL7tBhSzv4JdmPqh7lJVXdBb7265m1OXuJqPgYlU64nqDsD5ZFDGBJeCQ1CXDmss4m9BxHt5yrxTHWgY_4kkiZaic18t8aeD1BiQVEDUKpQyVlbrve_dHK7UbpC5GhasQ5b_4lKFkNahGtIfyLAhoMWxWF3PpM_tVUaObjIAEqCXVzLXdlc3QtMjCfCw.m3u8
 
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_cuxixu_stream-440x248.jpg" group-title="Reality Show's Live",grandefratello - | CUXIXU LIVE  | BRASIL STREAM |  🏳‍🌈 ❗Instagram ❗Tiktok ❗Twitter ❗Votar
-https://sae11.playlist.ttvnw.net/v1/playlist/CssEsC8yzLdyhz0GskbNdUWzptvuT897PbgRxpek5CaUypyWJQOur66PDQsE-h45HrwmnGlEuCM8GCBF9CFYfJA6jMB32MaVkvYK1Ei8h2ETEMFwmgpHeBktt1ljgpjLHUJzY5oummxWN98tdbljFfns3v9gxrPqeuSdLRhItZ_FV2VjdGD_zABaiVkoWnNcM6sFSkRGNMamnl1hMpX7CLvPKWq7qxwRY-RW7lau-EVUVExUfZWgIA6qq4WS4-dQV4N4JFgW3Oev6fMOPh8rlREnM-ZJlmQiPE8vNqDh6-Gfheu17HWKcAqwUEc51aQ8e4gWnpvt0ri-_Rbpf84wLyhYCi5UsWGkJUj-96ZHKifIauWuhIBv61VYOxhxvf15S6OVufFGvLri8P64Btk_TlAnNuiJagNlzkdSQW2-dl5xq815ir7ENrv0IE_OWMumIwYEQxLK3hs9QFkK1B8Egu5dBMWI4srnGhrKxLEAyMPFdg7m5wEgR5tTFYc7dZ3FpASUiNDlsIKdRUTyr2f_76HBMIOvMfSfZbdygkFbQI-M2sy3VB_-Q3orUf75LvIglLsK4lWg802EZh_YhED8yU_bN1EgOMJDvzOtedPXaDiQ5l01Vy-mz0csLg7afhJprWnc2O2_frhRLlb1U4NaeTKr9WuoLl9Tzax95y466jaPN8YT--PEYFaCgiuzDnLNQBeGAaXZsy1lLfF_iNokKJXcnlst-Gi7mBmGnBD__oMp9oJQ0740K7XQlSL24jExB6Il6z5m--5ZgDUfLcMaDLDvn_j9B4CHQUkt4CABKgl1cy1lYXN0LTEw1Qk.m3u8
+https://sae11.playlist.ttvnw.net/v1/playlist/CsoEaVFkl9Srt0HK71GiMzPu7c9Us34ZlpO9r9DdX8Ycstm90Gl6pPSQhzYDdriyaZKmB2Ij6TWev0OLsx1bz9mDu8hvfqnAL_cvU1-v8pELUt_b31zEF1lBZ4SNzcKh-WZGkXEE88ta5feUTW67pq1scXRFkCTZhkX8MACq2T2sZdBTCn0UAPovzVM620CgkCb9ZrDQ3HJE5Tzfgpx1sAAVTvJFVsVsMpvk37lE9e4Xr6g7ZVWaULrgcuCJiHe5-GWWZegCAP0Z-zMC5f6_v7A3IhAZ9Lus6OGvhwazB1lvFkm1ZW75evG1LjzuvoCc0-qp6NlY_ezXkiB6b9r5FdSa-UVqwmShiHBuOjx9WXoICJt6EZ3SN3LC2zm5Xj8abkwpR0FO822Ow-OF5foJeMif-ou18gdzX51GiI3dMuL9bNvaR2_DY4roSNw4nRY-BwruwBFYl1HsMt3WXGLbhzZOnJh2qiIof8xKJAR_3nnvrsfvGLRef0EWGIY3-EvcK0uVgAYpvZNohE7YojAD7oNY7qidPoQ5pAy1MZnl-oaQxVfcc973ZrYS19P5qMqyao7hhzkRQBpm2ZyOLRJ-BLwD25d-B_Q5VnB7MtkaEouFZfQg0yA3cPUiW2P9tvBfh5RPnS6RybBGvUzxfUiaWoDDrrawCCAAsjEyyLd3llyetKtk8tCsdxaP1tY3Avr3Me0z23GZbKXbs6E8Uj5qaJldoqcJnFk_CPyEv0CuRAgvlZu29fGHVfIlD03tWmwS20V2JbSYYNjr48bXAxoMOk9hVr-1At66OzgPIAEqCXVzLXdlc3QtMjCfCw.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/M8fKOLmPN3Y/hqdefault.jpg?v=6777323a&sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBjWTx-X3-JSLtvzmVeUBRNp1a65g" group-title="Reality Show's Live",ZADRUGA 8 Uzivo CHAT 24/7 Podrske
 https://ythls.kekikakademi.org/youtube/channel/UCTGoE7LoZCEI1FuwJ2lLqqw.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/gZXj0_HVsMM/hq720.jpg?v=67658c9c&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB5gTg2kZFZTCUlicGApPrhsSWodA" group-title="Reality Show's Live",Live Chat Zadruga Uzivo Elita 8 24/7
-https://ythls.kekikakademi.org/youtube/channel/UCVklt1DoNwbIBa3_TPwEg_Q.m3u8
-#EXTINF:-1 tvg-logo="None" group-title="Reality Show's Live",🔴 CHAT UZIVO I ZDRAVO DRUZENJE ZADRUGA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/IqPp2OXVW_0/hqdefault.jpg?v=6775366d&sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBicMMGP2ONGW5yp873bjRwpewQqQ" group-title="Reality Show's Live",🔴 CHAT UZIVO I ZDRAVO DRUZENJE ZADRUGA
 https://ythls.kekikakademi.org/youtube/channel/UCVaFR84f-9fkIaf591Con1Q.m3u8
+#EXTINF:-1 tvg-logo="None" group-title="Reality Show's Live",Live Chat Zadruga Uzivo Elita 8 24/7
+https://ythls.kekikakademi.org/youtube/channel/UCVklt1DoNwbIBa3_TPwEg_Q.m3u8
