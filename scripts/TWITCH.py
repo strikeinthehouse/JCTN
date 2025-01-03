@@ -71,8 +71,8 @@ try:
 
     # URLs de tags fornecidas
     urls_twitch = [
-        "https://www.twitch.tv/directory/all/tags/bigbrother",
-        "https://www.twitch.tv/directory/all/tags/한국어",
+        "https://www.twitch.tv/directory/all/tags/grandefratello",
+        "https://www.twitch.tv/directory/all/tags/granhermano",
         "https://www.twitch.tv/directory/all/tags/granhermanoargentina"
     ]
 
