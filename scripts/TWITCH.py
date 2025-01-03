@@ -67,10 +67,7 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
     # URLs de tags fornecidas
     urls_twitch = [
-        "https://www.twitch.tv/directory/all/tags/grandefratello",
-        "https://www.twitch.tv/directory/all/tags/granhermano?sort=RELEVANCE",
-        "https://www.twitch.tv/directory/all/tags/granhermanochile",
-        "https://www.twitch.tv/directory/all/tags/luanz7"
+        "https://www.twitch.tv/directory/all/tags/grandefratello"
     ]
 
     for url_twitch in urls_twitch:
