@@ -65,67 +65,76 @@ chrome_options.add_argument("--disable-gpu")
 
 try:
     driver = webdriver.Chrome(options=chrome_options)
-    url_twitch = "https://www.twitch.tv/directory/all/tags/grandefratello?sort=RELEVANCE"
-    driver.get(url_twitch)
+    
+    # URLs de tags fornecidas
+    urls_twitch = [
+        "https://www.twitch.tv/directory/all/tags/grandefratello",
+        "https://www.twitch.tv/directory/all/tags/granhermano?sort=RELEVANCE",
+        "https://www.twitch.tv/directory/all/tags/granhermanochile",
+        "https://www.twitch.tv/directory/all/tags/luanz7"
+    ]
 
-    # Esperar até que os elementos dos canais estejam carregados
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
-    )
+    for url_twitch in urls_twitch:
+        driver.get(url_twitch)
 
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
+        # Esperar até que os elementos dos canais estejam carregados
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
+        )
 
-    channel_data = []
-    channel_info_path = 'channel_twitch.txt'
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
 
-    with open(channel_info_path, 'w', encoding='utf-8') as file:
-        for channel in live_channels:
-            # Dentro de cada item de canal, encontrar os detalhes do canal
-            article_tag = channel.find('article', {'data-a-target': True})
-            if not article_tag:
-                continue
+        channel_data = []
+        channel_info_path = 'channel_twitch.txt'
 
-            link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
-            title_tag = article_tag.find('h3')
-            category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
-            thumb_tag = article_tag.find('img', class_='tw-image-avatar')
+        with open(channel_info_path, 'w', encoding='utf-8') as file:
+            for channel in live_channels:
+                # Dentro de cada item de canal, encontrar os detalhes do canal
+                article_tag = channel.find('article', {'data-a-target': True})
+                if not article_tag:
+                    continue
 
-            if not link_tag or not title_tag:
-                continue
+                link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
+                title_tag = article_tag.find('h3')
+                category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
+                thumb_tag = article_tag.find('img', class_='tw-image-avatar')
 
-            tvg_id = link_tag['href'].strip('/')
-            channel_name = title_tag.text.strip()
-            thumb_url = thumb_tag['src'] if thumb_tag else ''
-            group_title = category_tag.text.strip() if category_tag else 'Unknown'
+                if not link_tag or not title_tag:
+                    continue
 
-            # Grava os dados de cada canal no arquivo
-            output_line = f"{channel_name} | {group_title} | Logo Not Found"
-            file.write(output_line + "\n")
-            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
+                tvg_id = link_tag['href'].strip('/')
+                channel_name = title_tag.text.strip()
+                thumb_url = thumb_tag['src'] if thumb_tag else ''
+                group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
-            channel_data.append({
-                'type': 'info',
-                'ch_name': channel_name,
-                'tvg_id': tvg_id,
-                'url': f"https://www.twitch.tv/{tvg_id}",
-                'thumb': thumb_url,
-                'group_title': group_title
-            })
+                # Grava os dados de cada canal no arquivo
+                output_line = f"{channel_name} | {group_title} | Logo Not Found"
+                file.write(output_line + "\n")
+                file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
 
-    # Gerar arquivo M3U com thumbnails
-    with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
-        m3u_file.write(banner)
-        
-        for item in channel_data:
-            link = grab(item['url'])
-            if link and check_url(link):
-                m3u_file.write(
-                    f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"Reality Show's Live\",{item['ch_name']}"
-                )
-                m3u_file.write('\n')
-                m3u_file.write(link)
-                m3u_file.write('\n')
+                channel_data.append({
+                    'type': 'info',
+                    'ch_name': channel_name,
+                    'tvg_id': tvg_id,
+                    'url': f"https://www.twitch.tv/{tvg_id}",
+                    'thumb': thumb_url,
+                    'group_title': group_title
+                })
+
+        # Gerar arquivo M3U com thumbnails
+        with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
+            m3u_file.write(banner)
+
+            for item in channel_data:
+                link = grab(item['url'])
+                if link and check_url(link):
+                    m3u_file.write(
+                        f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"Reality Show's Live\",{item['ch_name']}"
+                    )
+                    m3u_file.write('\n')
+                    m3u_file.write(link)
+                    m3u_file.write('\n')
 
 except Exception as e:
     logger.error("Erro geral: %s", e)
