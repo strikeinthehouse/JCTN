@@ -127,9 +127,6 @@ finally:
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import requests
 import streamlink
@@ -190,48 +187,37 @@ chrome_options.add_argument("--disable-gpu")
 
 try:
     driver = webdriver.Chrome(options=chrome_options)
-    url_twitch = "https://www.twitch.tv/directory/all/tags/grandefratello"
+    url_twitch = "https://www.twitch.tv/directory/all/tags/grandefratello?sort=RELEVANCE"
     driver.get(url_twitch)
-
-    # Esperar até que a página carregue completamente e tenha o conteúdo desejado
-    WebDriverWait(driver, 15).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, 'a[data-a-target="preview-card-image-link"]'))
-    )
+    time.sleep(5)
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-
-    # Filtrar elementos com a classe que contém a URL e o nome do canal
-    live_channels = soup.find_all('a', {'data-a-target': 'preview-card-image-link'})
+    # Filtrar os canais ao vivo usando o novo seletor
+    live_channels = soup.find_all('div', {'data-target': 'directory-first-item'})
 
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
 
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for channel in live_channels:
-            # Extração de dados do canal
-            link_tag = channel['href']
-            title_tag = channel.find('h3')  # Nome do canal
-            category_tag = channel.find('p', class_='CoreText-sc-1txzju1-0')  # Categoria
-            thumb_tag = channel.find('img', class_='tw-image')  # Imagem do canal
+            # Alterar a extração conforme a nova estrutura HTML
+            link_tag = channel.find('a', {'data-test-selector': 'TitleAndChannel'})
+            title_tag = channel.find('h3')
+            category_tag = channel.find('p', {'data-test-selector': 'GameLink'})
+            thumb_tag = channel.find('img', class_='tw-image')
 
-            if not title_tag or not link_tag:
+            if not link_tag or not title_tag:
                 continue
 
-            # Nome do canal
-            channel_name = title_tag.text.strip() if title_tag else 'Desconhecido'
-            # URL do canal
-            tvg_id = link_tag.strip('/')
-            # URL da thumbnail
+            tvg_id = link_tag['href'].strip('/')
+            channel_name = title_tag.text.strip()
             thumb_url = thumb_tag['src'] if thumb_tag else ''
-            # Categoria, caso esteja presente
             group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
-            # Formato a ser gravado no arquivo
             output_line = f"{channel_name} | {group_title} | Logo Not Found"
             file.write(output_line + "\n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
 
-            # Armazenar os dados do canal
             channel_data.append({
                 'type': 'info',
                 'ch_name': channel_name,
