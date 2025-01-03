@@ -70,11 +70,11 @@ try:
 
     # Esperar até que os elementos dos canais estejam carregados
     WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-first-item"]'))
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
     )
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    live_channels = soup.find_all('div', {'data-target': 'directory-first-item'})
+    live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
 
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
