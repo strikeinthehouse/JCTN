@@ -1,11 +1,15 @@
 import time
+import logging
+from logging.handlers import RotatingFileHandler
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import requests
 import streamlink
-import logging
-from logging.handlers import RotatingFileHandler
+
 
 # Configurando logging
 logger = logging.getLogger(__name__)
@@ -63,10 +67,13 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
     url_twitch = "https://www.twitch.tv/search?term=gran%20hermano&type=channels"
     driver.get(url_twitch)
-    time.sleep(5)
+
+    # Esperar até que os elementos dos canais estejam carregados
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-first-item"]'))
+    )
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    # Filtrar todos os elementos com data-target="directory-first-item"
     live_channels = soup.find_all('div', {'data-target': 'directory-first-item'})
 
     channel_data = []
