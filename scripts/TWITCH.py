@@ -242,7 +242,7 @@ try:
             })
 
     # Gerar arquivo M3U com thumbnails
-    with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
+    with open("TWITCH2.m3u", "w", encoding="utf-8") as m3u_file:
         m3u_file.write(banner)
         
         for item in channel_data:
