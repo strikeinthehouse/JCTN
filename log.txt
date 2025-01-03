@@ -1,17 +1,4 @@
-2025-01-03 01:38:45,584 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/TVPublicaArgentina/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/cronicatv/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/c5n/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/americaenvivo/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/encuentro/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/TEC_ciencia_ar/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canal26/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/CanalKZO/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/diariodemocracia/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/showdelafe/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/CanalPakapaka/LIVE
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SenadoTVArgentina/LIVE
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SISEArgentina/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2025-01-03 01:38:45,585 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/Radio10am/live
+2025-01-03 01:43:53,861 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9VTVNpb0Ty6APnEPt0h4YBN-QdWvfzXcmwCqNlLe77eJ/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9VTVNpb0Ty6APnEPt0h4YBN-QdWvfzXcmwCqNlLe77eJ/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa885662e70>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
+2025-01-03 01:43:53,943 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9U3VvRIXL7HaW-FbHrzwKyPiuztYG1AN5PMmsGlPN9Ry/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9U3VvRIXL7HaW-FbHrzwKyPiuztYG1AN5PMmsGlPN9Ry/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa885663620>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
+2025-01-03 01:43:53,979 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9cJ27zzRXaUVifkaTkP6RywvEgUce_3dNBoNeiMKinhX/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9cJ27zzRXaUVifkaTkP6RywvEgUce_3dNBoNeiMKinhX/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa885663d70>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
+2025-01-03 01:43:53,986 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9Z6cf5QAjTDyhklY3sDH2YoSMiZtRs2Xqoh9XnYGyMA0/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9Z6cf5QAjTDyhklY3sDH2YoSMiZtRs2Xqoh9XnYGyMA0/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa884f24500>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
