@@ -106,6 +106,10 @@ try:
                 else:
                     thumb_url = ''
 
+                # Extração do texto da tag extra (categoria/tag)
+                tag_tag = article_tag.find('div', {'class': 'ScTagContent-sc-14s7ciu-1 VkjPH'})
+                tag_text = tag_tag.find('span').text.strip() if tag_tag else 'Unknown'
+
                 if not link_tag or not title_tag:
                     continue
 
@@ -120,7 +124,8 @@ try:
                     'tvg_id': tvg_id,
                     'url': f"https://www.twitch.tv/{tvg_id}",
                     'thumb': thumb_url,
-                    'group_title': group_title
+                    'group_title': group_title,
+                    'tag_text': tag_text  # Adicionando o texto extra
                 })
 
             # Verificar se há uma página seguinte e navegar para ela
@@ -142,15 +147,16 @@ finally:
     if driver:
         driver.quit()
 
-# Gerar arquivo M3U com thumbnails
+# Gerar arquivo M3U com thumbnails e texto extra
 with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
     m3u_file.write(banner)
 
     for item in channel_data:
         link = grab(item['url'])
         if link and check_url(link):
+            # Adicionando o texto extra (tag) antes do nome do canal
             m3u_file.write(
-                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"Reality Show's Live\",{item['ch_name']}"
+                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"Reality Show's Live\" tag=\"{item['tag_text']}\",{item['ch_name']}"
             )
             m3u_file.write('\n')
             m3u_file.write(link)
