@@ -127,6 +127,9 @@ finally:
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import requests
 import streamlink
@@ -189,7 +192,11 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
     url_twitch = "https://www.twitch.tv/directory/all/tags/grandefratello"
     driver.get(url_twitch)
-    time.sleep(5)
+
+    # Esperar até que a página carregue completamente e tenha o conteúdo desejado
+    WebDriverWait(driver, 15).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, 'a[data-a-target="preview-card-image-link"]'))
+    )
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
@@ -235,7 +242,7 @@ try:
             })
 
     # Gerar arquivo M3U com thumbnails
-    with open("TWITCH2.m3u", "a", encoding="utf-8") as m3u_file:
+    with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         m3u_file.write(banner)
         
         for item in channel_data:
@@ -254,4 +261,5 @@ except Exception as e:
 finally:
     if 'driver' in locals():
         driver.quit()
+
 
