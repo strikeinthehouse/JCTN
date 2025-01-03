@@ -1,4 +1,17 @@
-2025-01-03 18:26:07,870 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9VTVNpb0Ty6APnEPt0h4YBN-QdWvfzXcmwCqNlLe77eJ/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9VTVNpb0Ty6APnEPt0h4YBN-QdWvfzXcmwCqNlLe77eJ/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6c38f35b80>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
-2025-01-03 18:26:07,970 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9U3VvRIXL7HaW-FbHrzwKyPiuztYG1AN5PMmsGlPN9Ry/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9U3VvRIXL7HaW-FbHrzwKyPiuztYG1AN5PMmsGlPN9Ry/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6c38f36300>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
-2025-01-03 18:26:07,999 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9cJ27zzRXaUVifkaTkP6RywvEgUce_3dNBoNeiMKinhX/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9cJ27zzRXaUVifkaTkP6RywvEgUce_3dNBoNeiMKinhX/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6c38f369f0>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
-2025-01-03 18:26:08,028 - ERROR - Request Error https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9Z6cf5QAjTDyhklY3sDH2YoSMiZtRs2Xqoh9XnYGyMA0/ts: HTTPSConnectionPool(host='normielista.cl', port=443): Max retries exceeded with url: /play/0Bu2UVekNecKvoeYhzqb9Z6cf5QAjTDyhklY3sDH2YoSMiZtRs2Xqoh9XnYGyMA0/ts (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6c38f37170>: Failed to resolve 'normielista.cl' ([Errno -2] Name or service not known)"))
+2025-01-03 18:27:29,049 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/TVPublicaArgentina/live
+2025-01-03 18:27:29,049 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/cronicatv/live
+2025-01-03 18:27:29,049 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/c5n/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/americaenvivo/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/encuentro/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/TEC_ciencia_ar/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canal26/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/CanalKZO/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/diariodemocracia/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/showdelafe/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/CanalPakapaka/LIVE
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SenadoTVArgentina/LIVE
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SISEArgentina/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-03 18:27:29,050 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/Radio10am/live
