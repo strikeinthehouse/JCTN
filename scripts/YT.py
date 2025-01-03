@@ -58,7 +58,7 @@ with open(m3u_filename, 'a') as m3u_file:
                         info_dict = ydl.extract_info(link_href, download=False)
                         if 'channel_id' in info_dict:
                             channel_id = info_dict['channel_id']
-                            video_url = f"https://ythls.kekikakademi.org/youtube/channel/{channel_id}.m3u8"
+                            video_url = f"https://ythls-v3.onrender.com/channel/{channel_id}.m3u8"
 
                             # Extrair o título do vídeo
                             title_element = link_element.find_element(By.XPATH, "ancestor::ytd-video-renderer//yt-formatted-string[@class='style-scope ytd-video-renderer']")
