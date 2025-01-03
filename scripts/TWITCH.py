@@ -1,9 +1,6 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import requests
 import streamlink
@@ -64,19 +61,12 @@ chrome_options.add_argument("--disable-gpu")
 
 try:
     driver = webdriver.Chrome(options=chrome_options)
-    url_twitch = "https://www.twitch.tv/directory/all/tags/grandefratello?sort=RELEVANCE"
+    url_twitch = "https://www.twitch.tv/search?term=gran%20hermano&type=channels"
     driver.get(url_twitch)
-
-    # Esperar até que os canais estejam visíveis
-    WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.XPATH, '//div[@data-target="directory-first-item"]'))
-    )
-
-    # Aguardar o carregamento completo da página
     time.sleep(5)
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    # Filtrar todos os canais ao vivo usando o seletor correto
+    # Filtrar todos os elementos com data-target="directory-first-item"
     live_channels = soup.find_all('div', {'data-target': 'directory-first-item'})
 
     channel_data = []
@@ -84,11 +74,15 @@ try:
 
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for channel in live_channels:
-            # Alterar a extração conforme a nova estrutura HTML
-            link_tag = channel.find('a', {'data-test-selector': 'TitleAndChannel'})
-            title_tag = channel.find('h3')
-            category_tag = channel.find('p', {'data-test-selector': 'GameLink'})
-            thumb_tag = channel.find('img', class_='tw-image')
+            # Dentro de cada item de canal, encontrar os detalhes do canal
+            article_tag = channel.find('article', {'data-a-target': True})
+            if not article_tag:
+                continue
+
+            link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
+            title_tag = article_tag.find('h3')
+            category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
+            thumb_tag = article_tag.find('img', class_='tw-image-avatar')
 
             if not link_tag or not title_tag:
                 continue
@@ -98,7 +92,7 @@ try:
             thumb_url = thumb_tag['src'] if thumb_tag else ''
             group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
-            # Adicionar todos os canais encontrados ao arquivo
+            # Grava os dados de cada canal no arquivo
             output_line = f"{channel_name} | {group_title} | Logo Not Found"
             file.write(output_line + "\n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
@@ -113,9 +107,9 @@ try:
             })
 
     # Gerar arquivo M3U com thumbnails
-    with open("TWITCH2.m3u", "w", encoding="utf-8") as m3u_file:
+    with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         m3u_file.write(banner)
-
+        
         for item in channel_data:
             link = grab(item['url'])
             if link and check_url(link):
