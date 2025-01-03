@@ -66,19 +66,23 @@ try:
     time.sleep(5)
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    # Filtrar apenas itens com data-a-target="search-result-live-channel"
-    live_channels = soup.find_all('div', {'data-a-target': 'search-result-live-channel'})
+    # Filtrar todos os elementos com data-target="directory-first-item"
+    live_channels = soup.find_all('div', {'data-target': 'directory-first-item'})
 
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
 
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for channel in live_channels:
-            # Selecionar elementos dentro do bloco live-channel
-            link_tag = channel.find('a', href=True)
-            title_tag = channel.find('strong', {'data-test-selector': 'search-result-live-channel__name'})
-            category_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__category'})
-            thumb_tag = channel.find('img', class_='search-result-card__img')
+            # Dentro de cada item de canal, encontrar os detalhes do canal
+            article_tag = channel.find('article', {'data-a-target': True})
+            if not article_tag:
+                continue
+
+            link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
+            title_tag = article_tag.find('h3')
+            category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
+            thumb_tag = article_tag.find('img', class_='tw-image-avatar')
 
             if not link_tag or not title_tag:
                 continue
@@ -88,6 +92,7 @@ try:
             thumb_url = thumb_tag['src'] if thumb_tag else ''
             group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
+            # Grava os dados de cada canal no arquivo
             output_line = f"{channel_name} | {group_title} | Logo Not Found"
             file.write(output_line + "\n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
@@ -114,7 +119,6 @@ try:
                 m3u_file.write('\n')
                 m3u_file.write(link)
                 m3u_file.write('\n')
-
 
 except Exception as e:
     logger.error("Erro geral: %s", e)
