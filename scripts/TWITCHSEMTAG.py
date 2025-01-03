@@ -1,13 +1,16 @@
 import time
+import logging
+from logging.handlers import RotatingFileHandler
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import requests
 import streamlink
-import logging
-from logging.handlers import RotatingFileHandler
 
-# Configurando logging
+# Configuração de logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
@@ -63,11 +66,14 @@ try:
     driver = webdriver.Chrome(options=chrome_options)
     url_twitch = "https://www.twitch.tv/search?term=gran%20hermano&type=channels"
     driver.get(url_twitch)
-    time.sleep(5)
+
+    # Esperar até que os elementos dos canais estejam carregados
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
+    )
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    # Filtrar todos os elementos com data-target="directory-first-item"
-    live_channels = soup.find_all('div', {'data-target': 'directory-first-item'})
+    live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
 
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
@@ -81,8 +87,9 @@ try:
 
             link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
             title_tag = article_tag.find('h3')
-            category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
+            category_tag = article_tag.find('a', {'data-test-selector': 'GameLink'})
             thumb_tag = article_tag.find('img', class_='tw-image-avatar')
+            viewers_tag = article_tag.find('div', {'class': 'tw-media-card-stat'})
 
             if not link_tag or not title_tag:
                 continue
@@ -91,9 +98,10 @@ try:
             channel_name = title_tag.text.strip()
             thumb_url = thumb_tag['src'] if thumb_tag else ''
             group_title = category_tag.text.strip() if category_tag else 'Unknown'
+            viewers_count = viewers_tag.text.strip() if viewers_tag else 'Unknown'
 
             # Grava os dados de cada canal no arquivo
-            output_line = f"{channel_name} | {group_title} | Logo Not Found"
+            output_line = f"{channel_name} | {group_title} | {viewers_count} viewers | Logo Not Found"
             file.write(output_line + "\n")
             file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
 
@@ -103,7 +111,8 @@ try:
                 'tvg_id': tvg_id,
                 'url': f"https://www.twitch.tv/{tvg_id}",
                 'thumb': thumb_url,
-                'group_title': group_title
+                'group_title': group_title,
+                'viewers': viewers_count
             })
 
     # Gerar arquivo M3U com thumbnails
@@ -114,7 +123,7 @@ try:
             link = grab(item['url'])
             if link and check_url(link):
                 m3u_file.write(
-                    f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"Reality Show's Live\",{item['ch_name']}"
+                    f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"Reality Show's Live\",{item['ch_name']} ({item['viewers']} viewers)"
                 )
                 m3u_file.write('\n')
                 m3u_file.write(link)
