@@ -65,7 +65,7 @@ chrome_options.add_argument("--disable-gpu")
 
 try:
     driver = webdriver.Chrome(options=chrome_options)
-    url_twitch = "https://www.twitch.tv/search?term=gran%20hermano&type=channels"
+    url_twitch = "https://www.twitch.tv/directory/all/tags/grandefratello?sort=RELEVANCE"
     driver.get(url_twitch)
 
     # Esperar até que os elementos dos canais estejam carregados
