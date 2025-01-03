@@ -73,7 +73,7 @@ try:
     urls_twitch = [
         "https://www.twitch.tv/directory/all/tags/grandefratello",
         "https://www.twitch.tv/directory/all/tags/granhermano",
-        "https://www.twitch.tv/directory/all/tags/zeudi"
+        "https://www.twitch.tv/directory/all/tags/granhermanoargentina"
     ]
 
     for url_twitch in urls_twitch:
