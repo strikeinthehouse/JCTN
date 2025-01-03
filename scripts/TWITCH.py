@@ -76,51 +76,64 @@ try:
 
     for url_twitch in urls_twitch:
         driver.get(url_twitch)
-        
+
         # Esperar até que os elementos dos canais estejam carregados
         WebDriverWait(driver, 10).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
         )
 
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
-
         channel_data = []
         channel_info_path = 'channel_twitch.txt'
 
         with open(channel_info_path, 'w', encoding='utf-8') as file:
-            for channel in live_channels:
-                # Dentro de cada item de canal, encontrar os detalhes do canal
-                article_tag = channel.find('article', {'data-a-target': True})
-                if not article_tag:
-                    continue
+            while True:
+                soup = BeautifulSoup(driver.page_source, 'html.parser')
+                live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
 
-                link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
-                title_tag = article_tag.find('h3')
-                category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
-                thumb_tag = article_tag.find('img', class_='tw-image-avatar')
+                for channel in live_channels:
+                    # Dentro de cada item de canal, encontrar os detalhes do canal
+                    article_tag = channel.find('article', {'data-a-target': True})
+                    if not article_tag:
+                        continue
 
-                if not link_tag or not title_tag:
-                    continue
+                    link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
+                    title_tag = article_tag.find('h3')
+                    category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
+                    thumb_tag = article_tag.find('img', class_='tw-image-avatar')
 
-                tvg_id = link_tag['href'].strip('/').split('/')[-1]
-                channel_name = title_tag.text.strip()
-                thumb_url = thumb_tag['src'] if thumb_tag else ''
-                group_title = category_tag.text.strip() if category_tag else 'Unknown'
+                    if not link_tag or not title_tag:
+                        continue
 
-                # Grava os dados de cada canal no arquivo
-                output_line = f"{channel_name} | {group_title} | Logo Not Found"
-                file.write(output_line + "\n")
-                file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
+                    tvg_id = link_tag['href'].strip('/').split('/')[-1]
+                    channel_name = title_tag.text.strip()
+                    thumb_url = thumb_tag['src'] if thumb_tag else ''
+                    group_title = category_tag.text.strip() if category_tag else 'Unknown'
 
-                channel_data.append({
-                    'type': 'info',
-                    'ch_name': channel_name,
-                    'tvg_id': tvg_id,
-                    'url': f"https://www.twitch.tv/{tvg_id}",
-                    'thumb': thumb_url,
-                    'group_title': group_title
-                })
+                    # Grava os dados de cada canal no arquivo
+                    output_line = f"{channel_name} | {group_title} | Logo Not Found"
+                    file.write(output_line + "\n")
+                    file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
+
+                    channel_data.append({
+                        'type': 'info',
+                        'ch_name': channel_name,
+                        'tvg_id': tvg_id,
+                        'url': f"https://www.twitch.tv/{tvg_id}",
+                        'thumb': thumb_url,
+                        'group_title': group_title
+                    })
+
+                # Verificar se há uma página seguinte e navegar para ela
+                try:
+                    next_button = driver.find_element(By.CSS_SELECTOR, 'button[data-a-target="pagination-forward-button"]')
+                    if next_button.is_enabled():
+                        next_button.click()
+                        time.sleep(3)  # Esperar carregar a próxima página
+                    else:
+                        break  # Não há mais páginas
+                except Exception as e:
+                    logger.error("Erro ao tentar navegar para a próxima página: %s", e)
+                    break  # Se não houver próximo botão ou houver erro, saímos do loop
 
         # Gerar arquivo M3U com thumbnails
         with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
