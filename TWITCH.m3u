@@ -2,6 +2,10 @@
 #EXTM3U
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",NOTÍCIAS TELEMUNDO - SERVIÇO
 https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
+#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="http://aovivo.radioliberal.com.br/logo_liberal_fm.png" radio="true",LIBERAL RÁDIO - BELÉM
+https://www.grupoliberalmedia.com.br/radiolive/_definst_/liveradio/playlist.m3u8
+#EXTINF:-1 tvg-id="tvireality.tv.vodafone.pt" group-title="Reality Show's Live" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
+https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="TheWallStreetJournalLive.us" tvg-logo="https://i.imgur.com/4xSEoNK.png",The Wall Street Journal Live (720p)
 https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ibb.co/kq4XM0Y/ynet.png",YNET NEWS SERVIÇO 1
