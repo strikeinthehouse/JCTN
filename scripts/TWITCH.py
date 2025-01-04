@@ -160,9 +160,9 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
     m3u_file.write(banner)
 
     for item in channel_data:
-        # Ignorar o canal https://www.twitch.tv/jibarook
-        if item['url'] == "https://www.twitch.tv/jibarook":
-            logger.info("Canal https://www.twitch.tv/jibarook ignorado.")
+        # Ignorar canais específicos
+        if item['url'] in ["https://www.twitch.tv/jibarook", "https://www.twitch.tv/daniveintiuno"]:
+            logger.info(f"Canal {item['url']} ignorado.")
             continue  # Pular para o próximo canal
         
         link = grab(item['url'])
@@ -174,3 +174,4 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
             m3u_file.write('\n')
             m3u_file.write(link)
             m3u_file.write('\n')
+
