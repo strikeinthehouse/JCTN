@@ -65,6 +65,7 @@ chrome_options.add_argument("--disable-gpu")
 
 driver = None
 channel_data = []
+processed_channels = set()  # Usando um conjunto para armazenar IDs já processados
 
 try:
     driver = webdriver.Chrome(options=chrome_options)
@@ -116,6 +117,13 @@ try:
                 tvg_id = link_tag['href'].strip('/').split('/')[-1]
                 channel_name = title_tag.text.strip()
                 group_title = category_tag.text.strip() if category_tag else 'Unknown'
+
+                # Verificar se o canal já foi processado
+                if tvg_id in processed_channels:
+                    continue  # Ignorar canais duplicados
+
+                # Adicionar o canal ao conjunto de canais processados
+                processed_channels.add(tvg_id)
 
                 # Acumular os dados de cada canal
                 channel_data.append({
