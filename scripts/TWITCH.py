@@ -152,6 +152,11 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
     m3u_file.write(banner)
 
     for item in channel_data:
+        # Ignorar o canal https://www.twitch.tv/jibarook
+        if item['url'] == "https://www.twitch.tv/jibarook":
+            logger.info("Canal https://www.twitch.tv/jibarook ignorado.")
+            continue  # Pular para o próximo canal
+        
         link = grab(item['url'])
         if link and check_url(link):
             # Adicionando o texto extra (tag) antes do nome do canal
