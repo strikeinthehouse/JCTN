@@ -13,7 +13,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1",
     "https://globoplay.globo.com/v/6120663/",
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/2168377/",
@@ -26,7 +25,7 @@ globoplay_urls = [
 # Função para extrair o link m3u8, título e favicon
 def extract_globoplay_data(driver, url):
     driver.get(url)
-    time.sleep(25)  # Aguarde a página carregar completamente
+    time.sleep(30)  # Aguarde a página carregar completamente
     
     # Obter o título da página
     title = driver.title
