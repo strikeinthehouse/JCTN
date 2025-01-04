@@ -17,10 +17,6 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/s
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/YX3ln1g.png",🇵🇹 SIC NOTICIAS
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/SPR2SDK/RTP.png",🇵🇹 RTP INTERNACIONAL
-#EXTVLCOPT:http-user-agent=Android
-#EXTVLCOPT:http-referrer=https://rtp.pt/
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/9GMzcw7/rtpaco.jpg",🇵🇹 RTP AÇORES
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
@@ -33,6 +29,10 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/vZ9S4rV/rtpmem.jpg",🇵🇹 RTP MEMÓRIA
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Logo_Porto_Canal.jpg/200px-Logo_Porto_Canal.jpg",🇵🇹 PORTO CANAL
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -133,7 +133,7 @@ http://178.219.128.68:64889/BBCBRITHD
 https://lives.tkstv.co.uk/hls/0/stream.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnDUlRTxPS690VpCKqgzFyDDVROqp-PHphaNeZBix1uIAvqcsRkewARYsG_w&s",🇺🇸 ABC USA
 https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegCrI0u2q6dH1aCll_tSUnCkXSkZgYgDIHnYr-nBi39eRO_NZ8EAb5yPvSg&s",🇺🇸 ABC NEWS
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGE4ctTMKf77pkAkPZ68E4P6nXnXW4I8_uEawBd78mHbUTOaJ6mix3mwd2Tg&s",🇺🇸 ABC NEWS
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoyS44WRIUrQewKHW_9eLouAvQ8o09YhMrJd0l7tI6ThgkbsFMn-qYu20Gp7Q&s",🇺🇸 CBS BOSTON Ⓧ
 https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/18329
@@ -239,7 +239,7 @@ https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaQTp7oV_wNN5rgv4u6oBoO1qnOQB9C2KZ9zG7sCbaGDDnw-gcLfg3Pqj7og&s",⚽ ONE GOLF
 http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVyNtTBEv0MQZTR9zUeTZVq1obSx4H2SGKzDCtoapAD6f8JKRPHP5j0OmM294&s",⚽ REDBULL TV
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7O7YFoJInnHzi7N6FH7wYlWZ0Fe6gPwhodWsTjMosN9438H5ChngpYVeMA&s",⚽ REDBULL TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0w6ZnT7iUB7iLvCUJpn_FGfiyXvyRHs_zS33JqOYKD3V0s9c7HnNPPuwSwA&s",⚽ TRACE SPORT STARS
 https://lightning-tracesport-samsungau.amagi.tv/playlist720p.m3u8
