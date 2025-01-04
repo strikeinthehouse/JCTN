@@ -3,6 +3,10 @@
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/EWbaWA6.png",🇵🇹 RTP 2
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/AE5d2lq.png",🇵🇹 RTP 3
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
@@ -29,6 +33,10 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/BsdgH54/rtpafr.webp",🇵🇹 RTP ÁFRICA
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/bvwwcB9/rtpmad.jpg",🇵🇹 RTP MADEIRA
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
@@ -113,6 +121,8 @@ https://rtmp.bredanu.nl/live/tv.m3u8
 https://live.salto.nl/hls/malive_high.m3u8?hls_ctx=r59oqm43
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Tagesschau24_Cornerlogo.png",🇩🇪 TAGESSCHAU24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="http://s3.i3ns.net/portal/picon/2021-06/7c5e59621054cf39b4bf3abc24a4dcba.png",🇩🇪 WDR
+https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWNDZ-PcgoTBuiKaEe6qk4nuwwjw3h9p-MJ0IXA-66saH8oreSWg99xsXA8A&s",🇩🇪 ProSieben
 http://176.10.117.3:5000/play/a00l/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/fDWuLPv.png",🇩🇪 ProSieben MAXX
@@ -211,7 +221,7 @@ https://2-fss-2.streamhoster.com/pl_140/200914-1298290-1/playlist.m3u8
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSdCXec4cX1aYbqTCqnxF9eT5FPmHIX4y5x-Cba6uryQkc01Pzs6tFRL9mw&s",😊 K
 https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index_1.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkqQSnm4mnb2WAujFV2rudjoQI-u9kL-QOYdTGesYuS9eWYmS9FpbJ2dC-c0&s",😊 ANIME TV
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX-_7rJJvZTzxySanDZwmdGp1ss33HjsHn7P729UOneUfrdhB6Ud94wMskd9A&s",😊 ANIME TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zdx1429eajxxo4U0lISqk03uDF5p_GvC4xx-kzz89wUBFNktbq76SqrwXg&s",😊 Toonami Aftermath East
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
@@ -239,7 +249,7 @@ https://bloomberg-quicktake-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
 https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz4tvx-lG8Oc-yrfQyFhwaefqQBuUaOnGxSyxM_7oGeMmZzR2N1uIzPJvcDas&s",📡 CHEDDAR
 https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4DEVD_sOnghjxYfMzWelzwCwaVXcwtaM4ZvOx2v-r7Z1INapbGhtcgVdEpU&s",⚽ ONE GOLF
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXot33awRajcTaKP1d0xslRBa0fqim-QYPWhR_QW-Gbiq3ypPcAkXek1jCaQ&s",⚽ ONE GOLF
 http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVyNtTBEv0MQZTR9zUeTZVq1obSx4H2SGKzDCtoapAD6f8JKRPHP5j0OmM294&s",⚽ REDBULL TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
