@@ -57,7 +57,7 @@ banner = r'''
 
 ###########################################################################
 #EXTM3U
-#EXTM3U url-tvg="https://www.open-epg.com/files/argentina.xml"
+#EXTM3U url-tvg="https://www.open-epg.com/files/argentina1.xml"
 
 
 
