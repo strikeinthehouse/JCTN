@@ -51,7 +51,7 @@ channel_data_json = []
 
 banner = r'''
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
-#EXTM3U url-tvg="https://www.open-epg.com/files/chile.xml"
+#EXTM3U url-tvg="https://www.open-epg.com/files/chile1.xml"
 
 #EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVN
 https://marine2.miplay.cl/tvnchile/playlist.m3u8
