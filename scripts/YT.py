@@ -69,7 +69,7 @@ with open(m3u_filename, 'a') as m3u_file:
                             thumbnail_url = thumbnail_element.get_attribute("src") if thumbnail_element else "https://yt3.googleusercontent.com/u6H_TO65Atxmpc98XR-HcMFZ16o1UVppXqO7gj4hMUfz6H6YHjXZh4rLGTkyMHXNmeOfRFa0=s900-c-k-c0x00ffffff-no-rj"
                             
                             # Escrever a linha EXTINF para cada vídeo no arquivo M3U
-                            m3u_file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\" group-title=\"Reality Show's Live\",{video_title}\n")
+                            m3u_file.write(f"#EXTINF:-1 group-title=\"Reality Show's Live\" tvg-logo=\"{thumbnail_url}\" tvg-id=\"Zadruga live 1.rs\" ,{video_title}\n")
                             m3u_file.write(f"{video_url}\n")
                             print(f"Adicionado vídeo: {video_title} ({video_url})")
                         else:
