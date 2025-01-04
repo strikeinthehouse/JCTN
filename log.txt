@@ -1,286 +1,75 @@
-2025-01-04 09:20:27,103 - ERROR - Request Error https://ZAPIPTV.m3u8?channel=00: HTTPSConnectionPool(host='zapiptv.m3u8', port=443): Max retries exceeded with url: /?channel=00 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7312d89040>: Failed to resolve 'zapiptv.m3u8' ([Errno -2] Name or service not known)"))
-2025-01-04 09:20:28,099 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-2025-01-04 09:20:28,338 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-2025-01-04 09:20:28,485 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
-2025-01-04 09:20:28,804 - INFO - URL OK: https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-2025-01-04 09:20:28,856 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
-2025-01-04 09:20:29,708 - INFO - URL OK: https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-480p/chunks.m3u8
-2025-01-04 09:20:30,430 - INFO - URL OK: https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
-2025-01-04 09:20:30,884 - WARNING - URL Error https://video-auth6.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/chunks.m3u8|user-agent=user-agent=Opera: Status Code 404
-2025-01-04 09:20:30,928 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tviint.m3u8
-2025-01-04 09:20:30,970 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8
-2025-01-04 09:20:31,280 - INFO - URL OK: https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
-2025-01-04 09:20:31,564 - WARNING - URL Error https://sicnot.live.impresa.pt/sicnot.m3u8: Status Code 403
-2025-01-04 09:20:31,730 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9ae705b449477523ec/channels/d9070446-8448-455e-8075-773b1ba12562/f083c6ea-33af-458e-82c5-f27f6b42f9ec/media_.m3u8: Status Code 404
-2025-01-04 09:20:31,882 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8: Status Code 307
-2025-01-04 09:20:31,978 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8: Status Code 307
-2025-01-04 09:20:32,227 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-2025-01-04 09:20:32,462 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
-2025-01-04 09:20:32,704 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
-2025-01-04 09:20:32,946 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
-2025-01-04 09:20:32,995 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8: Status Code 204
-2025-01-04 09:20:33,282 - INFO - URL OK: https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/profile_0/chunklist_dvr.m3u8
-2025-01-04 09:20:33,995 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@FamaTVradio: Status Code 400
-2025-01-04 09:20:34,419 - ERROR - Request Error https://joaocaiado.com:1443/ies_tv/ngrp:ies_tv_all/playlist.m3u8: HTTPSConnectionPool(host='joaocaiado.com', port=1443): Max retries exceeded with url: /ies_tv/ngrp:ies_tv_all/playlist.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
-2025-01-04 09:20:35,169 - INFO - URL OK: https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8
-2025-01-04 09:20:35,570 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=WkhCfPPgqWc: Status Code 400
-2025-01-04 09:20:36,236 - INFO - URL OK: https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
-2025-01-04 09:20:36,569 - ERROR - Request Error https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-family-14-pt.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f73125bafc0>: Failed to resolve 'rakuten-family-14-pt.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
-2025-01-04 09:20:37,218 - INFO - URL OK: https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
-2025-01-04 09:20:37,441 - INFO - URL OK: http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
-2025-01-04 09:20:38,429 - INFO - URL OK: https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
-2025-01-04 09:20:38,540 - INFO - URL OK: https://appletree-mytime-samsungbrazil.amagi.tv/playlist720p.m3u8
-2025-01-04 09:20:38,895 - INFO - URL OK: https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
-2025-01-04 09:20:39,691 - INFO - URL OK: https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/chunklist_w273627653.m3u8
-2025-01-04 09:20:40,883 - INFO - URL OK: https://rakuten-euronews-8-pt.samsung.wurl.tv/manifest/playlist.m3u8
-2025-01-04 09:20:41,393 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@vitecazorestv: Status Code 400
-2025-01-04 09:20:41,466 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@CNNbrasil: Status Code 302
-2025-01-04 09:20:41,591 - ERROR - Request Error http://ns5010206.ip-15-235-15.net:14481: HTTPConnectionPool(host='ns5010206.ip-15-235-15.net', port=14481): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f73124363f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2025-01-04 09:20:43,845 - ERROR - Request Error http://conexaoonline.top/307443/key5f0e5x0L/365.ts: HTTPConnectionPool(host='conexaoonline.top', port=80): Max retries exceeded with url: /307443/key5f0e5x0L/365.ts (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f7312436b70>: Failed to resolve 'conexaoonline.top' ([Errno -3] Temporary failure in name resolution)"))
-2025-01-04 09:20:48,599 - INFO - URL OK: http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
-2025-01-04 09:20:49,111 - INFO - URL OK: https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8
-2025-01-04 09:20:49,962 - INFO - URL OK: https://streaming.gruporba.com.br/rba.m3u8
-2025-01-04 09:20:50,620 - ERROR - Request Error http://cdn.connectbr.com.br/Band-News/index.m3u8: HTTPConnectionPool(host='cdn.connectbr.com.br', port=80): Max retries exceeded with url: /Band-News/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f7312437950>: Failed to resolve 'cdn.connectbr.com.br' ([Errno -2] Name or service not known)"))
-2025-01-04 09:20:50,713 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@SBTRJ: Status Code 302
-2025-01-04 09:20:50,919 - INFO - URL OK: http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
-2025-01-04 09:20:51,160 - WARNING - URL Error https://srv4.zcast.com.br/telavivatv/telavivatv/playlist.m3u8: Status Code 404
-2025-01-04 09:20:51,543 - INFO - URL OK: https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/playlist.m3u8
-2025-01-04 09:20:51,782 - ERROR - Request Error http://cdn.connectbr.com.br/Band-Sports/index.m3u8: HTTPConnectionPool(host='cdn.connectbr.com.br', port=80): Max retries exceeded with url: /Band-Sports/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f73123036b0>: Failed to resolve 'cdn.connectbr.com.br' ([Errno -2] Name or service not known)"))
-2025-01-04 09:20:52,030 - WARNING - URL Error https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8: Status Code 404
-2025-01-04 09:20:52,507 - INFO - URL OK: https://d3pfmk89wc0vm9.cloudfront.net/24H_ES.m3u8
-2025-01-04 09:20:52,694 - INFO - URL OK: https://dh6vo1bovy43s.cloudfront.net/La_1_ES.m3u8
-2025-01-04 09:20:53,171 - INFO - URL OK: https://di2qeq48iv8ps.cloudfront.net/La_2_ES.m3u8
-2025-01-04 09:20:53,217 - WARNING - URL Error http://vavoo.to/play/254679370/index.m3u8: Status Code 404
-2025-01-04 09:20:53,687 - INFO - URL OK: https://d3nnqrdb77sy13.cloudfront.net/Clan_ES.m3u8
-2025-01-04 09:20:54,135 - INFO - URL OK: https://d2a02gfcid1k4a.cloudfront.net/Teledeporte_ES.m3u8
-2025-01-04 09:20:54,358 - ERROR - Request Error http://812439342386321290.of1030ok.xyz:80/play/vi829693/Wan6cEwDvt/321290.ts: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2025-01-04 09:20:54,622 - INFO - URL OK: https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
-2025-01-04 09:20:55,070 - WARNING - URL Error https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8: Status Code 404
-2025-01-04 09:20:55,290 - INFO - URL OK: https://cdnlive.codev8.net/rtvalive/smil:DtRLVjt1.smil/playlist.m3u8
-2025-01-04 09:20:55,732 - INFO - URL OK: https://streamcdnb4-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_2400/chunklist.m3u8
-2025-01-04 09:20:55,961 - INFO - URL OK: http://154.54.220.67:34780/play/a046
-2025-01-04 09:20:56,184 - INFO - URL OK: http://154.54.220.67:34780/play/a047
-2025-01-04 09:20:56,889 - INFO - URL OK: http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
-2025-01-04 09:20:57,110 - INFO - URL OK: http://45.65.112.49:8000/play/a0m0
-2025-01-04 09:20:57,507 - WARNING - URL Error https://is.gd/bgAH9K: Status Code 301
-2025-01-04 09:20:57,784 - INFO - URL OK: https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/chunklist.m3u8
-2025-01-04 09:20:57,864 - WARNING - URL Error https://d15umi5iaezxgx.cloudfront.net/LA7/CLN/HLS-B/Live.m3u8: Status Code 403
-2025-01-04 09:20:58,745 - INFO - URL OK: https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
-2025-01-04 09:20:58,970 - WARNING - URL Error https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8: Status Code 403
-2025-01-04 09:20:59,727 - INFO - URL OK: https://ren1-cdn-edge-live00.pfd.sfr.net/bfm-ncdn-live-pal1.pfd.sfr.net/sid=04djlslsvrskffma009g/shls/LIVE$BFM_PARIS/index.m3u8?start=LIVE&end=END
-2025-01-04 09:20:59,788 - INFO - URL OK: http://212.102.60.80/TF1/mono.m3u8
-2025-01-04 09:21:15,123 - ERROR - Request Error https://s14.tntendirect.com/m6/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /m6/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7312412360>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
-2025-01-04 09:21:15,465 - WARNING - URL Error https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/FHD.m3u8: Status Code 404
-2025-01-04 09:21:15,580 - ERROR - Request Error https://origin2-6play.live.6cloud.fr/pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8: HTTPSConnectionPool(host='origin2-6play.live.6cloud.fr', port=443): Max retries exceeded with url: /pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f73124114c0>: Failed to resolve 'origin2-6play.live.6cloud.fr' ([Errno -5] No address associated with hostname)"))
-2025-01-04 09:21:15,601 - WARNING - URL Error http://vavoo.to/play/1666352419/index.m3u8: Status Code 404
-2025-01-04 09:21:30,649 - ERROR - Request Error https://s14.tntendirect.com/d8/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /d8/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7312411040>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
-2025-01-04 09:21:45,683 - ERROR - Request Error https://s14.tntendirect.com/w9/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /w9/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7312411460>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
-2025-01-04 09:22:00,775 - ERROR - Request Error https://s14.tntendirect.com/tmc/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /tmc/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f73124124e0>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
-2025-01-04 09:22:01,209 - WARNING - URL Error https://takeoff.jetstre.am/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8: Status Code 307
-2025-01-04 09:22:01,334 - ERROR - Request Error https://gineu10.bozztv.com/trn01/gin-bvntv/tracks-v1a1/mono.m3u8: HTTPSConnectionPool(host='gineu10.bozztv.com', port=443): Max retries exceeded with url: /trn01/gin-bvntv/tracks-v1a1/mono.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7312410e30>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2025-01-04 09:22:01,572 - INFO - URL OK: https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/2103d417/index.m3u8
-2025-01-04 09:22:01,719 - INFO - URL OK: https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8
-2025-01-04 09:22:01,940 - INFO - URL OK: https://d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/video-960x540p25-1600/index.m3u8
-2025-01-04 09:22:02,567 - INFO - URL OK: https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
-2025-01-04 09:22:03,134 - INFO - URL OK: https://ms2.mx-cd.net/tv/272-2641704/Hoeksche_Waard_TV.smil/playlist.m3u8
-2025-01-04 09:22:03,525 - INFO - URL OK: https://rtmp.bredanu.nl/live/tv.m3u8
-2025-01-04 09:22:04,097 - WARNING - URL Error https://593aed234297b.streamlock.net/gotvsjoerd/gotvsjoerd/playlist.m3u8: Status Code 403
-2025-01-04 09:22:04,833 - WARNING - URL Error https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8: Status Code 404
-2025-01-04 09:22:05,439 - INFO - URL OK: https://live.salto.nl/hls/malive_high.m3u8?hls_ctx=r59oqm43
-2025-01-04 09:22:05,795 - WARNING - URL Error https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8: Status Code 302
-2025-01-04 09:22:06,366 - ERROR - Request Error https://mcdn.daserste.de/daserste/de/master.m3u8: HTTPSConnectionPool(host='mcdn.daserste.de', port=443): Max retries exceeded with url: /daserste/de/master.m3u8 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
-2025-01-04 09:22:06,762 - INFO - URL OK: https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
-2025-01-04 09:22:07,100 - WARNING - URL Error https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8: Status Code 302
-2025-01-04 09:22:07,129 - WARNING - URL Error http://vavoo.to/play/2357166742/index.m3u8: Status Code 404
-2025-01-04 09:22:07,342 - WARNING - URL Error http://154.58.202.194:8000/play/a0fq/index.m3u8: Status Code 403
-2025-01-04 09:22:07,370 - WARNING - URL Error http://vavoo.to/play/3017451059/index.m3u8: Status Code 404
-2025-01-04 09:22:07,575 - INFO - URL OK: http://176.10.117.3:5000/play/a00l/index.m3u8
-2025-01-04 09:22:08,025 - INFO - URL OK: http://176.10.117.3:5000/play/a00q/index.m3u8
-2025-01-04 09:22:08,228 - INFO - URL OK: http://176.10.117.3:5000/play/a00n/index.m3u8
-2025-01-04 09:22:08,435 - INFO - URL OK: http://176.10.117.3:5000/play/a00r/index.m3u8
-2025-01-04 09:22:08,641 - INFO - URL OK: http://176.10.117.3:5000/play/a01e/index.m3u8
-2025-01-04 09:22:09,406 - INFO - URL OK: https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist720p.m3u8
-2025-01-04 09:22:09,777 - INFO - URL OK: https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-2025-01-04 09:22:09,867 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbcone#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
-2025-01-04 09:22:09,920 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbctwo#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
-2025-01-04 09:22:09,972 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbcthree#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
-2025-01-04 09:22:10,024 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=cbeebies#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
-2025-01-04 09:22:10,309 - INFO - URL OK: https://bcovlive-a.akamaihd.net/4e7f273ae0a04ad6b7d2e543df61e362/us-west-2/6240731308001/playlist.m3u8
-2025-01-04 09:22:10,935 - INFO - URL OK: http://178.219.128.68:64889/BBCBRITHD
-2025-01-04 09:22:11,327 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USBD1700001RW.m3u8: Status Code 404
-2025-01-04 09:22:11,850 - INFO - URL OK: https://lives.tkstv.co.uk/hls/0/stream.m3u8
-2025-01-04 09:22:12,122 - INFO - URL OK: https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
-2025-01-04 09:22:12,593 - INFO - URL OK: https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-2025-01-04 09:22:13,144 - INFO - URL OK: https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/18329
-2025-01-04 09:22:13,541 - WARNING - URL Error https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8: Status Code 405
-2025-01-04 09:22:28,585 - ERROR - Request Error http://budtvlight.com:25461/jaime/3DbdkaKhwZEd/164193: HTTPConnectionPool(host='budtvlight.com', port=25461): Max retries exceeded with url: /jaime/3DbdkaKhwZEd/164193 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f731221bb00>, 'Connection to budtvlight.com timed out. (connect timeout=15)'))
-2025-01-04 09:22:28,721 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
-2025-01-04 09:22:28,914 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@NBC2swfl: Status Code 302
-2025-01-04 09:22:29,005 - WARNING - URL Error https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_us_nbcnewsnow_001.m3u8: Status Code 404
-2025-01-04 09:22:29,268 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
-2025-01-04 09:22:29,351 - WARNING - URL Error https://c.mjh.nz/abc-news.m3u8: Status Code 307
-2025-01-04 09:22:29,536 - WARNING - URL Error https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsweb-ono/playlist.m3u8: Status Code 302
-2025-01-04 09:22:29,591 - WARNING - URL Error https://c.mjh.nz/abc-sa.m3u8: Status Code 307
-2025-01-04 09:22:29,647 - WARNING - URL Error https://c.mjh.nz/abc-me.m3u8: Status Code 307
-2025-01-04 09:22:30,135 - WARNING - URL Error https://c.mjh.nz/abc-tv-plus.m3u8: Status Code 307
-2025-01-04 09:22:30,836 - INFO - URL OK: https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8
-2025-01-04 09:22:31,479 - WARNING - URL Error https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-reallifenz-samsungnz/playlist.m3u8: Status Code 302
-2025-01-04 09:22:31,876 - INFO - URL OK: https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
-2025-01-04 09:22:31,933 - WARNING - URL Error https://vavoo.to/play/2429493156/index.m3u8: Status Code 404
-2025-01-04 09:22:32,013 - ERROR - Request Error https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='cnn-cnninternational-1-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7312219190>: Failed to resolve 'cnn-cnninternational-1-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
-2025-01-04 09:22:32,190 - INFO - URL OK: https://amg00453-reuters-amg00453c1-xumo-us-2073.playouts.now.amagi.tv/reuters-reuters-hls/playlist.m3u8
-2025-01-04 09:22:32,222 - WARNING - URL Error http://vavoo.to/play/3319946628/index.m3u8: Status Code 404
-2025-01-04 09:22:32,307 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
-2025-01-04 09:22:32,466 - INFO - URL OK: https://rakuten-africanews-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
-2025-01-04 09:22:32,568 - INFO - URL OK: http://live-hls-web-aje.getaj.net/AJE/index.m3u8
-2025-01-04 09:22:33,887 - INFO - URL OK: https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-2025-01-04 09:22:34,524 - INFO - URL OK: http://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-2025-01-04 09:22:35,073 - INFO - URL OK: https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-2025-01-04 09:22:35,293 - ERROR - Request Error https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8: HTTPSConnectionPool(host='api.trtworld.com', port=443): Max retries exceeded with url: /livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
-2025-01-04 09:22:35,595 - WARNING - URL Error https://bcovlive-a.akamaihd.net/6e3dd61ac4c34d6f8fb9698b565b9f50/eu-central-1/5377161796001/profile_0/chunklist_dvr.m3u8: Status Code 403
-2025-01-04 09:22:35,959 - WARNING - URL Error http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8: Status Code 301
-2025-01-04 09:22:36,055 - INFO - URL OK: https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/playlist.m3u8
-2025-01-04 09:22:36,615 - WARNING - URL Error https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8?iu=/8264/vaw-can/desktop/cbsnews: Status Code 405
-2025-01-04 09:22:36,790 - INFO - URL OK: https://d2dimalv43j51f.cloudfront.net/out/v1/52d3048e53eb42a7959dc347d2f810e2/index.m3u8
-2025-01-04 09:22:37,319 - INFO - URL OK: https://linear-12.frequency.stream/dist/localnow/12/hls/master/playlist.m3u8
-2025-01-04 09:22:37,345 - ERROR - Request Error https://failarmy-international-ca.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='failarmy-international-ca.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7312503aa0>: Failed to resolve 'failarmy-international-ca.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
-2025-01-04 09:22:37,481 - INFO - URL OK: https://jukin-peopleareawesome-2-in.samsung.wurl.tv/playlist.m3u8
-2025-01-04 09:22:37,886 - WARNING - URL Error https://stream.ads.ottera.tv/playlist.m3u8?network_id=773: Status Code 400
-2025-01-04 09:22:38,426 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c2d64ffbdf11b71587184b8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:38,487 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/633354b63df9700007f6a1b7/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:38,544 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6132619f9ddaa50007e7dd86/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:38,602 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61326275b3c86a00078e4833/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:38,659 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f778a052360b30007fa5e32/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:38,711 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d878d3d19b30007d2e782/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:38,772 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca525b650be2571e3943c63/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:38,850 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d86f519358a00072b978e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:53,866 - ERROR - Request Error http://124.29.225.205:8000/play/a03y/index.m3u8: HTTPConnectionPool(host='124.29.225.205', port=8000): Max retries exceeded with url: /play/a03y/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f731249adb0>, 'Connection to 124.29.225.205 timed out. (connect timeout=15)'))
-2025-01-04 09:22:53,912 - INFO - URL OK: https://raw.githubusercontent.com/kusnadipepenk/ntn/master/prv.m3u8
-2025-01-04 09:22:54,296 - WARNING - URL Error https://magnolia-cinelife.amagi.tv/hls/amagi_hls_data_magnoliaA-cinelife-oando/CDN/playlist.m3u8: Status Code 307
-2025-01-04 09:22:54,442 - INFO - URL OK: https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8
-2025-01-04 09:22:54,847 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefreemovies/CDN/playlist.m3u8
-2025-01-04 09:22:54,938 - INFO - URL OK: https://dqvu8d0acm4xt.cloudfront.net/playlist.m3u8
-2025-01-04 09:22:55,296 - INFO - URL OK: https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
-2025-01-04 09:22:55,859 - WARNING - URL Error https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8: Status Code 302
-2025-01-04 09:22:56,234 - INFO - URL OK: http://iptv.prosto.tv:7000/ch50/video.m3u8
-2025-01-04 09:22:56,291 - ERROR - Request Error https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='spi-filmstream-1-in.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7312575190>: Failed to resolve 'spi-filmstream-1-in.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
-2025-01-04 09:22:56,316 - INFO - URL OK: http://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-2025-01-04 09:22:56,489 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/documentary/master.m3u8: Status Code 404
-2025-01-04 09:22:56,556 - ERROR - Request Error https://rakuten-documentaries-14-pt.samsung.wurl.tv/3000.m3u8: HTTPSConnectionPool(host='rakuten-documentaries-14-pt.samsung.wurl.tv', port=443): Max retries exceeded with url: /3000.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f73125760f0>: Failed to resolve 'rakuten-documentaries-14-pt.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
-2025-01-04 09:22:57,069 - WARNING - URL Error https://n9.cl/smithsonian-channel-pt?stream=ZAPiptv.m3u8: Status Code 302
-2025-01-04 09:22:57,465 - WARNING - URL Error https://n9.cl/smithsonian-channel-us?stream=ZAPiptv.m3u8: Status Code 302
-2025-01-04 09:22:58,216 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ad8d1e9e738977e2c310925/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
-2025-01-04 09:22:58,316 - INFO - URL OK: https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
-2025-01-04 09:22:58,407 - WARNING - URL Error https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8: Status Code 404
-2025-01-04 09:22:58,498 - INFO - URL OK: https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
-2025-01-04 09:23:13,515 - ERROR - Request Error http://170.82.37.21:8000/play/a00n/index.m3u8: HTTPConnectionPool(host='170.82.37.21', port=8000): Max retries exceeded with url: /play/a00n/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7312574f20>, 'Connection to 170.82.37.21 timed out. (connect timeout=15)'))
-2025-01-04 09:23:13,564 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USBC44000072I.m3u8: Status Code 404
-2025-01-04 09:23:13,800 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_140/200914-1298290-1/playlist.m3u8
-2025-01-04 09:23:14,278 - INFO - URL OK: https://zoomoo-samsungau.amagi.tv/playlist.m3u8
-2025-01-04 09:23:14,690 - INFO - URL OK: https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index_1.m3u8
-2025-01-04 09:23:15,320 - INFO - URL OK: https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
-2025-01-04 09:23:16,126 - INFO - URL OK: http://api.toonamiaftermath.com:3000/est/playlist.m3u8
-2025-01-04 09:23:16,327 - ERROR - Request Error https://mondotv-mondotvkids-1-it.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='mondotv-mondotvkids-1-it.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f73125584a0>: Failed to resolve 'mondotv-mondotvkids-1-it.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
-2025-01-04 09:23:16,453 - WARNING - URL Error https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8: Status Code 302
-2025-01-04 09:23:16,819 - INFO - URL OK: https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
-2025-01-04 09:23:17,130 - WARNING - URL Error https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8: Status Code 302
-2025-01-04 09:23:17,621 - INFO - URL OK: http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-2025-01-04 09:23:18,244 - INFO - URL OK: https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
-2025-01-04 09:23:28,197 - WARNING - URL Error https://s.catcast.tv/content/39575/index.m3u8|Referer=https://photocall.cc/uf8q/l1?ch=viva_russia&User-Agent=Android: Status Code 403
-2025-01-04 09:23:31,342 - WARNING - URL Error https://s.catcast.tv/content/39575/index.m3u8#Referer=https://photocall.cc/uf8q/l1?ch=viva_russia#User-Agent=Android: Status Code 403
-2025-01-04 09:23:32,750 - INFO - URL OK: https://viva-russia.ru/iptv.m3u
-2025-01-04 09:23:32,850 - INFO - URL OK: http://45.5.117.182:8000/play/a0ie/index.m3u8
-2025-01-04 09:23:33,345 - INFO - URL OK: https://stream.ecable.tv/afrobeats/index.m3u8
-2025-01-04 09:23:33,482 - INFO - URL OK: https://cmc-ono.amagi.tv/playlist.m3u8
-2025-01-04 09:23:48,499 - ERROR - Request Error http://92.242.110.52:9835/udp/238.1.9.9:1234: HTTPConnectionPool(host='92.242.110.52', port=9835): Max retries exceeded with url: /udp/238.1.9.9:1234 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7312499250>, 'Connection to 92.242.110.52 timed out. (connect timeout=15)'))
-2025-01-04 09:23:49,249 - INFO - URL OK: https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
-2025-01-04 09:23:49,386 - INFO - URL OK: https://accuweatherx-lg.amagi.tv/playlist.m3u8
-2025-01-04 09:23:49,863 - INFO - URL OK: https://bloomberg-quicktake-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
-2025-01-04 09:23:50,278 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@dwnews: Status Code 302
-2025-01-04 09:23:50,377 - INFO - URL OK: https://247wlive.foxweather.com/stream/index_1280x720.m3u8
-2025-01-04 09:24:05,723 - ERROR - Request Error http://170.254.18.108/MSNBC/mono.m3u8: HTTPConnectionPool(host='170.254.18.108', port=80): Max retries exceeded with url: /MSNBC/mono.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f73124082f0>, 'Connection to 170.254.18.108 timed out. (connect timeout=15)'))
-2025-01-04 09:24:05,778 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USAJ4300005PJ.m3u8: Status Code 404
-2025-01-04 09:24:05,915 - INFO - URL OK: https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/index.m3u8
-2025-01-04 09:24:06,172 - WARNING - URL Error http://vavoo.to/play/3088351394/index.m3u8: Status Code 404
-2025-01-04 09:24:06,204 - INFO - URL OK: http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
-2025-01-04 09:24:06,643 - INFO - URL OK: https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-2025-01-04 09:24:07,009 - INFO - URL OK: https://lightning-tracesport-samsungau.amagi.tv/playlist720p.m3u8
-2025-01-04 09:24:07,494 - INFO - URL OK: https://d2p372oxiwmcn1.cloudfront.net/hls/720plo/playlist.m3u8
-2025-01-04 09:24:07,655 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/606c2f67-acff-4152-975a-e5bfef54eb61/2.m3u8: Status Code 404
-2025-01-04 09:24:07,807 - INFO - URL OK: https://pac12-roku-us.amagi.tv/playlist.m3u8
-2025-01-04 09:24:07,914 - WARNING - URL Error https://6953b888.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctcHRfRklGQVBsdXNfSExT/playlist.m3u8: Status Code 404
-2025-01-04 09:24:08,399 - WARNING - URL Error http://digicom.hls.iptvdc.com/canalmotor/pl.m3u8: Status Code 301
-2025-01-04 09:24:08,954 - INFO - URL OK: https://fash2043.cloudycdn.services//slive/_definst_/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
-2025-01-04 09:24:09,238 - INFO - URL OK: https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/chunklist_b3628000_t64MTA4MHA=.m3u8
-2025-01-04 09:24:09,965 - INFO - URL OK: https://fashs043.cloudycdn.services/scte/africa/africa_chunklist.m3u8
-2025-01-04 09:24:10,320 - WARNING - URL Error https://vcngfc1.teleosmedia.com/stream/globalfashionchannel/globalfashionchannel/playlist.m3u8: Status Code 404
-2025-01-04 09:24:10,852 - INFO - URL OK: https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/chunklist.m3u8
-2025-01-04 09:24:11,762 - WARNING - URL Error https://live-3.otcnet.ru/wfc-rus-master/index.m3u8: Status Code 404
-2025-01-04 09:24:11,896 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8: Status Code 404
-2025-01-04 09:24:12,332 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@IloveLx: Status Code 400
-2025-01-04 09:24:12,404 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@WebcamTaxi: Status Code 302
-2025-01-04 09:24:12,606 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=_0qsRgLv3AQ: Status Code 400
-2025-01-04 09:24:12,677 - WARNING - URL Error https://ythls.armelin.one/channel/UCRuyAVeVd7oUwh0LWmxxBBQ.m3u8: Status Code 404
-2025-01-04 09:24:12,751 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@ILoveYouVenice: Status Code 302
-2025-01-04 09:24:12,824 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=QTTTY_ra2Tg: Status Code 400
-2025-01-04 09:24:13,084 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8
-2025-01-04 09:24:13,345 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8
-2025-01-04 09:24:13,607 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8
-2025-01-04 09:24:13,770 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8
-2025-01-04 09:24:14,079 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8
-2025-01-04 09:24:14,245 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1memoria80a/playlist.m3u8
-2025-01-04 09:24:14,502 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1fado80a/playlist.m3u8
-2025-01-04 09:24:14,675 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/lusitania80a/playlist.m3u8
-2025-01-04 09:24:14,744 - WARNING - URL Error https://streaming-live.rtp.pt/liveradio/vida80a/playlist.m3u8: Status Code 204
-2025-01-04 09:24:14,900 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena2jazzin80a/playlist.m3u8
-2025-01-04 09:24:15,161 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena2opera80a/playlist.m3u8
-2025-01-04 09:24:15,423 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8
-2025-01-04 09:24:15,584 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8
-2025-01-04 09:24:16,073 - WARNING - URL Error http://link.radios.pt/amalia?1487014253471.mp3: Status Code 301
-2025-01-04 09:24:16,732 - INFO - URL OK: https://stream-hls.bauermedia.pt/cidade.aac/playlist.m3u8
-2025-01-04 09:24:17,243 - WARNING - URL Error http://centova.radio.com.pt:9462/: Status Code 302
-2025-01-04 09:24:17,824 - WARNING - URL Error http://centova.radios.pt:9476/: Status Code 302
-2025-01-04 09:24:18,239 - WARNING - URL Error http://famaradio.mywire.org:8000/digitalfm64: Status Code 400
-2025-01-04 09:24:19,119 - INFO - URL OK: http://stream-icy.bauermedia.pt/m80.mp3
-2025-01-04 09:24:19,356 - INFO - URL OK: http://137.74.160.250:8000/;stream/1
-2025-01-04 09:24:19,976 - WARNING - URL Error http://centova.radios.pt:8499/: Status Code 302
-2025-01-04 09:24:20,791 - WARNING - URL Error https://25703.live.streamtheworld.com/MEGA_HITSAAC_SC: Status Code 403
-2025-01-04 09:24:21,064 - WARNING - URL Error http://centova.radios.pt:9522/: Status Code 302
-2025-01-04 09:24:21,313 - INFO - URL OK: http://213.136.92.8:8030/stream
-2025-01-04 09:24:21,955 - WARNING - URL Error https://22673.live.streamtheworld.com/MEGA_HITSAAC.aac: Status Code 403
-2025-01-04 09:24:22,510 - ERROR - Request Error http://centova.radios.pt/proxy/495?mp=/stream: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2025-01-04 09:24:22,978 - ERROR - Request Error http://centova.radio.com.pt:9424/: HTTPConnectionPool(host='centova.radio.com.pt', port=9424): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7312245760>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2025-01-04 09:24:23,286 - ERROR - Request Error http://centova.radios.pt:8435: HTTPConnectionPool(host='centova.radios.pt', port=8435): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7312244a40>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2025-01-04 09:24:23,709 - WARNING - URL Error http://centova.radios.pt:9478/: Status Code 302
-2025-01-04 09:24:23,845 - WARNING - URL Error https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADOR_ADP.m3u8: Status Code 302
-2025-01-04 09:24:23,983 - INFO - URL OK: https://ec2.yesstreaming.net:3025/stream
-2025-01-04 09:24:24,239 - ERROR - Request Error https://proic1.evspt.com/oxigenio_aac: HTTPSConnectionPool(host='proic1.evspt.com', port=443): Max retries exceeded with url: /oxigenio_aac (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
-2025-01-04 09:24:24,521 - INFO - URL OK: http://centova.radios.pt:9492/stream
-2025-01-04 09:24:25,325 - WARNING - URL Error https://stream.radioquantica.com:8443/stream: Status Code 400
-2025-01-04 09:24:25,579 - ERROR - Request Error https://proic1.evspt.com/radar_aac: HTTPSConnectionPool(host='proic1.evspt.com', port=443): Max retries exceeded with url: /radar_aac (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
-2025-01-04 09:24:25,909 - WARNING - URL Error http://streaming.radioregional.pt:8000: Status Code 302
-2025-01-04 09:24:26,177 - WARNING - URL Error http://centova.radio.com.pt:8485/: Status Code 302
-2025-01-04 09:24:26,438 - WARNING - URL Error http://streaming.radioregional.pt:8064: Status Code 302
-2025-01-04 09:24:26,834 - WARNING - URL Error http://streaming.radioregional.pt:8058: Status Code 302
-2025-01-04 09:24:27,659 - WARNING - URL Error http://streaming.radioregional.pt:8052: Status Code 302
-2025-01-04 09:24:27,916 - WARNING - URL Error http://streaming.radioregional.pt:8040: Status Code 302
-2025-01-04 09:24:28,157 - WARNING - URL Error http://streaming.radioregional.pt:8046: Status Code 302
-2025-01-04 09:24:28,876 - WARNING - URL Error https://25643.live.streamtheworld.com/RADIO_RENASCENCAAAC: Status Code 403
-2025-01-04 09:24:29,620 - ERROR - Request Error https://centova.radios.pt/proxy/435?mp=/stream: ('Connection aborted.', BadStatusLine('RPC-ERR authentication failed\n'))
-2025-01-04 09:24:30,095 - INFO - URL OK: http://centova.radios.pt:9404/stream
-2025-01-04 09:24:30,524 - WARNING - URL Error https://stream.ruc.pt/high: Status Code 400
-2025-01-04 09:24:31,282 - ERROR - Request Error https://centova.radio.com.pt/proxy/558?mp=/stream: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2025-01-04 09:24:31,828 - WARNING - URL Error http://centova.radio.com.pt:9434/: Status Code 302
-2025-01-04 09:24:32,380 - INFO - URL OK: https://27873.live.streamtheworld.com/RFMAAC.aac
-2025-01-04 09:24:33,036 - WARNING - URL Error https://25443.live.streamtheworld.com/RFM_FRESCASAAC.aac: Status Code 403
-2025-01-04 09:24:33,594 - WARNING - URL Error https://22673.live.streamtheworld.com/DANCEONTHEFLOORAAC.aac: Status Code 403
-2025-01-04 09:24:34,464 - WARNING - URL Error https://25703.live.streamtheworld.com/RFMONTHEROCKAAC.aac: Status Code 403
-2025-01-04 09:24:34,972 - WARNING - URL Error https://22533.live.streamtheworld.com/GR80SRFMAAC: Status Code 403
-2025-01-04 09:24:35,536 - WARNING - URL Error https://22533.live.streamtheworld.com/RFM_90SAAC.aac: Status Code 403
-2025-01-04 09:24:36,136 - INFO - URL OK: https://27793.live.streamtheworld.com/LIVESTREAMAAC.aac
-2025-01-04 09:24:36,724 - WARNING - URL Error https://25533.live.streamtheworld.com/OCEANPACIFICAAC: Status Code 403
-2025-01-04 09:24:37,221 - WARNING - URL Error https://27913.live.streamtheworld.com/RFM_PORTUGALAAC.aac: Status Code 403
-2025-01-04 09:24:52,857 - WARNING - URL Error http://tsfdirecto.tsf.pt/tsfdirecto.mp3: Status Code 404
-2025-01-04 09:24:53,019 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8
-2025-01-04 09:24:53,702 - ERROR - Request Error https://centova.radio.com.pt/proxy/567?mp=/stream: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2025-01-04 09:25:08,714 - ERROR - Request Error http://46.10.150.243/z-rock.mp3?stream=m3u8: HTTPConnectionPool(host='46.10.150.243', port=80): Max retries exceeded with url: /z-rock.mp3?stream=m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f73125ec230>, 'Connection to 46.10.150.243 timed out. (connect timeout=15)'))
+2025-01-04 10:08:23,576 - error - Erro ao tentar navegar para a próxima página: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-a-target="pagination-forward-button"]"}
+  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5569b298231a <unknown>
+#1 0x5569b24986e0 <unknown>
+#2 0x5569b24e73e6 <unknown>
+#3 0x5569b24e7681 <unknown>
+#4 0x5569b252cb04 <unknown>
+#5 0x5569b250b48d <unknown>
+#6 0x5569b2529ed7 <unknown>
+#7 0x5569b250b203 <unknown>
+#8 0x5569b24d9cc0 <unknown>
+#9 0x5569b24dac9e <unknown>
+#10 0x5569b294fd0b <unknown>
+#11 0x5569b2953c92 <unknown>
+#12 0x5569b293cb3c <unknown>
+#13 0x5569b2954807 <unknown>
+#14 0x5569b29220df <unknown>
+#15 0x5569b2971578 <unknown>
+#16 0x5569b2971740 <unknown>
+#17 0x5569b2981196 <unknown>
+#18 0x7fc0a6c9ca94 <unknown>
+#19 0x7fc0a6d29c3c <unknown>
+
+2025-01-04 10:08:25,023 - error - Erro ao tentar navegar para a próxima página: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-a-target="pagination-forward-button"]"}
+  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5569b298231a <unknown>
+#1 0x5569b24986e0 <unknown>
+#2 0x5569b24e73e6 <unknown>
+#3 0x5569b24e7681 <unknown>
+#4 0x5569b252cb04 <unknown>
+#5 0x5569b250b48d <unknown>
+#6 0x5569b2529ed7 <unknown>
+#7 0x5569b250b203 <unknown>
+#8 0x5569b24d9cc0 <unknown>
+#9 0x5569b24dac9e <unknown>
+#10 0x5569b294fd0b <unknown>
+#11 0x5569b2953c92 <unknown>
+#12 0x5569b293cb3c <unknown>
+#13 0x5569b2954807 <unknown>
+#14 0x5569b29220df <unknown>
+#15 0x5569b2971578 <unknown>
+#16 0x5569b2971740 <unknown>
+#17 0x5569b2981196 <unknown>
+#18 0x7fc0a6c9ca94 <unknown>
+#19 0x7fc0a6d29c3c <unknown>
+
+2025-01-04 10:08:26,512 - error - Erro ao tentar navegar para a próxima página: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-a-target="pagination-forward-button"]"}
+  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5569b298231a <unknown>
+#1 0x5569b24986e0 <unknown>
+#2 0x5569b24e73e6 <unknown>
+#3 0x5569b24e7681 <unknown>
+#4 0x5569b252cb04 <unknown>
+#5 0x5569b250b48d <unknown>
+#6 0x5569b2529ed7 <unknown>
+#7 0x5569b250b203 <unknown>
+#8 0x5569b24d9cc0 <unknown>
+#9 0x5569b24dac9e <unknown>
+#10 0x5569b294fd0b <unknown>
+#11 0x5569b2953c92 <unknown>
+#12 0x5569b293cb3c <unknown>
+#13 0x5569b2954807 <unknown>
+#14 0x5569b29220df <unknown>
+#15 0x5569b2971578 <unknown>
+#16 0x5569b2971740 <unknown>
+#17 0x5569b2981196 <unknown>
+#18 0x7fc0a6c9ca94 <unknown>
+#19 0x7fc0a6d29c3c <unknown>
+
+2025-01-04 10:08:27,430 - debug - Streams disponíveis para https://www.twitch.tv/dolcedasousa: {'audio_only': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CrsEARDZV4dRJTZAdpHGZ0-HDjz6Mg0vGlQEeLh7t3o1snydOeOcqn-g76CuAxGladld9nEXrrBnMwSAfG6-vzjDEp1oRUKcSjETfhE4Q9hS-KbUjAdUB4emaLYTSUyHzJuvFEpKfdDDF1T0vVUs6nnFHCNXcJ8r_ARmD-amYynR7mwpsFHcB3tf6O5nm8GUPQoKP036l5ygDNvgtBk-KPlkB9weMz4eZ9eLwYYS3zy2s7gmdZVp7Qa3S5lqeyjhVhGMFHkb6goCJtjoptl7xXXdt876zsSmprDyG3a1y93d1RMMI6AovFbG3oDPYyM7mhkWVXq_3XsWFBs9z9aiadW4bd68-EzwU-ZNq1ipc1VXipAO904InEuzz-_kGNMfTaeklu_6B02Yb6TqdqeV9uogI8V2icZ4MkjYDHuiPsz-fB3cTNHDhdZYAPGZCHGYu3uMDU-RB52WLg90U6aY8blvFIKq7hOgTjMIDZG4RX1VfpD8UeWGY2ZsW7yb899MQtEGC5wToGmHSt9bOYHQ46vInAkZyDqOKCHhMnN7OMxAH1EK-XO7oR5-HatJWl8E22h3EGJ7vPJ9J0rwA6DGRrjm2gBAcQW128oa2EieTbzwJAJp1rOpOvWHjJn6TTz6peJbTYPf0YQmX1tUIhF0dDGeVKx9jP5Z4N2cO5p_Q5Jaf6OI0N4QW6qy1HbGespShmUhqeupDt0LwwLnlXql7g91Z-siklC-8TIy4Rv_cn5Xo7pjYN4s2SjVJZP54RoMzrcRB8ZfWQjWiMBMIAEqCXVzLXdlc3QtMjCgCw.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>, '160p': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CsUEVlWDz6rG9BhmVunhQc114jhoHtrfXppV5ANJwRymJOXvuPsR2UUJOC72d1SYhx5hlo-0RBuMUp2qrIy0dI6MFWZvvvQm682CM8GzqKG13SPcwgs2xTCPgqd2LKWQhmPtrxs3rhtHyJDFdEtXLaLdOxd6FVG3Y2VmoazJlCr8sb-jkDk-QRiSQOgaDQpAOhMOvp-oZT9xJElBXK7ta2cP_W2K6mahCCQ6wWq25WtNqeIDkp1pbGLz6h3PnQZdvGEy5PCTaSLVIVmIMsCZe_RXtcSIf4E011Lr3COj1biLaG_oomsia-DKy1kdCW8fvLDAJQy0vCL4D-bqmbaWkmHeGbmNokSckUeCUx5BKo4MtNqHOSiEu0zOfkQ7tB9LdyddUp2t9GY9bbJR3ZzDJcfjA1AwjFCGbon_tOaGNLKatS_MwUJ6On-18vDmdH6W58UzTbas4XB4nunlPQ5cV_UR83JBOBf9tjtwB7grAJfEeMnS-qZK2SzvADKw1kVIdU1crkJ3cRWb1lMqX6ec47WD8L4uXo0UqhId2TJSbLlDx_X3yA1rmq943a7sKgomUOz0DNbHpxzPgJSL6NwaCSqGcYAdRcQbnuSUSxzwOUNIf4a28xG_0Zb8fwEs41w8t9ToFpFiKicjQPe76sYgWsoei7OdDZIzPBAHa9M9tngTPy3zR57zz9o0v36dNotekbrGb9YgQHuWzTodeEGonZJ17feRqq2BZrJ9HNTxyxWvuhmyyo4Vj1EhHym0nJ9SlrnAk4sWwtoaDMGPvPZGkjWRvPVWoiABKgl1cy13ZXN0LTIwoAs.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>, '360p': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/Cs0EasjIpYwX3JYLma-bxmaze5uk5xy2z4SMbBfP9U8kW-UL8ftgWGwSQysEgn2cquJEaZUX4319_lXSYHAdX9EK8CA0tct__MdUjjHssTbjFhwzNm3OWh3d_Th0ZaEgXu6VLY9mb74ZstCHBxce0JND_stQkYZbYG97sH_X5SCxRGRU5awEcixNbTwBFdZsP6UTvq4WyZAhkus9fyVWFWHojim8Q1rFVh-0lt4NmjDnYCvNlsZY4a7bX5v1shS7ZMBv6OIPE0acU41F9fEh7KbT5lskFFr3LIIix01fcPbZ-J-pXI-orbOUOMnwTIvv_ihU0Mmb72iZS88WGK0D6T1JpxEXWfLeCJoNmHhpmxA9A9re4m6GQXhfJ3kQeUSZ0Qmu_kKTU-Bq1zs2-BnNrZGwiJck5g69CqElh2fFKKQYTWc1nSWf_aDHVHE3R0Wcxtc79jMKfxcO-GTrlnWHy56sKZmWtTOebvPDYNq8O7az4z19c-x_WljLI-_TdUvrmF0zCk4KB0YepBDcAbez2qIB430bVHnnc-Yj99d2nFhslEtKGjdnN79WFYpNM3Zeh_cmLScyExvpCLBwpfSDyXGULRIL1zXGTvf5bREVgxOqu8tBdot7SYaPVyi5scBHFu83hX1vM6-fZJYXqL8QaaWeAzGLeBmy6LJjhENBC7uikgWEupw0a3sNifmNVYZxG-UrAhg0H5ChSYF2G3xrpk2r68TKkz2XQHjQzyo3usIkqaORdMaKyE7XWRPv8LKghfBkN1MUFJkrhpNzHsyd3BoMW7hxCAFdd2kW8eMYIAEqCXVzLXdlc3QtMjCgCw.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>, '480p': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CtUE06K0AbwHqERWXBh6bqKyNeDMO4HvCAthMEkuQsS5HppjZLSGD8em1NqoB1HL9Geu7J_U1YivmQKe7-MaUWpo4eQGJ-gFjowM8DXR3Xhqyk9YtrKTpOaNi6ea8cDQlrLfIQNyqQHlhJXn8Gje2qXirUjBROxDkuzZRLK4N5JGPVB284hPW6iJlxenaCyowlsA6cgfLby3O4QeOVT83WF9rAmf_4EPXvZZJ_pSJbwzMFpwNVA779HwLqlLTaOMo8FWHWl0Md1xy4jgl0jjIDx06pvtMZR62g-AaoUiceLMa2067z3lPyKgi7GmuYp5X7MIfaLZ7_CUNyyeHVALcppOMiKE8DMeBuZQJth-QmloBR-HpW09Dldt_Qj74DXYVCnZ0yf4UJrO9Pz935cA6J9Z8orqYb15tQnLX2-KB_jI8ZkBOjrxqBfFCIVaqnQd6HBylkyeq4tqTZBHMyrG6YuvGq6q2Mtc09YYVtVDe43AfJLLQpxKWMYAH4CqEC2RiWlU-vSoOmUQmBuZ5Nw0ifq8b-fK73GpXTUkOLsu0zd5r7dJwtXYk3xe8BH13-CfoLiUHOyLfp4Iavbu4yMchBYmKclVNNk0ZJG4M7nNhicTW34CmS8SI1GS3lgeR9_DSmx9ymoTtU9QPlX8n0A81Uxuo_VnNTZm-STfl5Qost7M-Wg4ayiFEGGJujhlUOmz1YtYE086hCfOE2pBcUgbAKqvCdgAHvECjWAiqq2H0WkPF1lykLz7mt792UK0S4DpC-P6xblY7cMz1KC-vO5zXr94TXJr5Y1MGgyxpOy2tNywol2R29QgASoJdXMtd2VzdC0yMKAL.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>, '720p': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/Ct0E1AzC6c-q-I4O67f9psOWtoE-qfX_79fk_5VUoxzbZSJ0hAEoIqnuI6zXAR__Tn_PrElPGcLB-JB5lSxw9n9lMogAkuB8Ke7W9p6MTeuLXUeeaQYmrls80Wyy_NBnwUJFLyEa21H7XhkkQcsRqBkdkNrXBwY2xrCzTQdXncOYZb3-UgsQS5aK9hlUo3o6LgLZucKZ8Z6iv-_9AkIgPqc_2meV59GsFhFDgyG31r8O7hounNeZjtU3mcI2BdW588F9iPWioWxrwI3HIHwmyHLZAh03CXWsVJzv7BdT0m8bx8bg0gZI-9WsCRxYE4ep32O0Fc4--DnYoMsvW9hTL85cOT5upPTuK8duX_vaw8uPiL-iqs0J-AKPDKORjyNXbrxMH1qSFxEv1eNGxTaU7ouu2elFWVSU7HWInDbcbdYqoJRzkmYSW5Y_GkHOhebvgXBS8BtuUOvmBSLbaamDS3S1F6PGj8H9PfG6eVBQFBU0joRr_X3Nv_ntIpnD-O2GhPRh8w73pNu939K7pGkBEccVFlgqVjrqB2yc_p7F_ivUHB0ApcIiCLbRKamlguazuz-eicfKEGYY1mj7KuMxN2DZjmImRYRpr1Zf1WEyKsZ4u2VOgemI45YFZpyxn8WrfmxP1EZG1o43jy1ePtxjhiGaX9ZHD8Xh9kFYYVW2dvh9NEvGHhDOSHbE4xcH6QlVDqehQ-UEG0cTT6onDoGwojcjUf4z8USa_Hfg-q-bifXJfeUxZLqY9gqvDlG_h6S_g-EUxA_MzCMDeq7zkLxBxctbsbADrSIXR6oc3hJgftMaDBkh170XoMJZAFybiSABKgl1cy13ZXN0LTIwoAs.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>, '1080p': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CucE1nzq99NIe60jru7zPqKB5W5BKOJhMqcLRSZV6MmOor_8m0Z6rgHJaFkoa9ZTd3K7XW6D7cCRW04a4OLz9Ghjq9VotjYsJE46Cvg_XWZDTAfc5TSygfX7kIwyi1muLwWKfYK8BGCjHUXb6uo9lWqZ-b8rIpxLHXonfDkR1bbjLbp3EFVUg77KiJF_RrCk61M6qPXSCZV8zhG_u9qBttlQaQX25VD3vIykJWYFizlp0T4Mwc7JlYnV0h21LKrqQBQzWOkAS1lTzL9htEZp9pRa7N7xtQeaEoWygDINYhBJE5soLniwhfb-AzQJdOnsxMlKnOxdd3MejxviVh7CHSoHnrHDjvDEwxA86TkZ8ma4FTBMSbvwWjf_GsuXWyBDAsZ2NaJUMg3aVedYmZLTwEf-RhenQ9i-2S0CnVEQSVUbvwqQ2LbcODxt3y1h5wyTAhc5IS4_B0mBLUoTLsf8QC2EZG6oS9LgEPI3UJuV1Ajc5EPLewOUYvTHO_TCMz6J9h_nKzozp6_9n9oAUkL5AB9TLewg0F_wWb6j5BxBYhTkPtWTKd2deCSbYWASAIV2HARbwLljd1FfrHOaP699tF7v3KuIt9Kmt-kMDVl_OSpD5v_SSiLMh8roO_bJER5M-90psTxGY5btU8E0FM30ZW6y4_uf0Dnh_xXeKytX-Hpo3S9YM-7ON7SXvjmOfJZQueHFUq5wyh9Q-vkkHVC0MoDxa7Icg7CQj9ogRBt5Gbw0Am_tZsbDFz2Xyz1TuT6XtPYEi3czm1lAJzYIiH0RR6dXl9q9s5nYl6C6BXJmUuVBg9Oymf12UpOMGgwxXqKrEObKKZmQfvggASoJdXMtd2VzdC0yMKAL.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'worst': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CsUEVlWDz6rG9BhmVunhQc114jhoHtrfXppV5ANJwRymJOXvuPsR2UUJOC72d1SYhx5hlo-0RBuMUp2qrIy0dI6MFWZvvvQm682CM8GzqKG13SPcwgs2xTCPgqd2LKWQhmPtrxs3rhtHyJDFdEtXLaLdOxd6FVG3Y2VmoazJlCr8sb-jkDk-QRiSQOgaDQpAOhMOvp-oZT9xJElBXK7ta2cP_W2K6mahCCQ6wWq25WtNqeIDkp1pbGLz6h3PnQZdvGEy5PCTaSLVIVmIMsCZe_RXtcSIf4E011Lr3COj1biLaG_oomsia-DKy1kdCW8fvLDAJQy0vCL4D-bqmbaWkmHeGbmNokSckUeCUx5BKo4MtNqHOSiEu0zOfkQ7tB9LdyddUp2t9GY9bbJR3ZzDJcfjA1AwjFCGbon_tOaGNLKatS_MwUJ6On-18vDmdH6W58UzTbas4XB4nunlPQ5cV_UR83JBOBf9tjtwB7grAJfEeMnS-qZK2SzvADKw1kVIdU1crkJ3cRWb1lMqX6ec47WD8L4uXo0UqhId2TJSbLlDx_X3yA1rmq943a7sKgomUOz0DNbHpxzPgJSL6NwaCSqGcYAdRcQbnuSUSxzwOUNIf4a28xG_0Zb8fwEs41w8t9ToFpFiKicjQPe76sYgWsoei7OdDZIzPBAHa9M9tngTPy3zR57zz9o0v36dNotekbrGb9YgQHuWzTodeEGonZJ17feRqq2BZrJ9HNTxyxWvuhmyyo4Vj1EhHym0nJ9SlrnAk4sWwtoaDMGPvPZGkjWRvPVWoiABKgl1cy13ZXN0LTIwoAs.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'best': <TwitchHLSStream ['hls', 'https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CucE1nzq99NIe60jru7zPqKB5W5BKOJhMqcLRSZV6MmOor_8m0Z6rgHJaFkoa9ZTd3K7XW6D7cCRW04a4OLz9Ghjq9VotjYsJE46Cvg_XWZDTAfc5TSygfX7kIwyi1muLwWKfYK8BGCjHUXb6uo9lWqZ-b8rIpxLHXonfDkR1bbjLbp3EFVUg77KiJF_RrCk61M6qPXSCZV8zhG_u9qBttlQaQX25VD3vIykJWYFizlp0T4Mwc7JlYnV0h21LKrqQBQzWOkAS1lTzL9htEZp9pRa7N7xtQeaEoWygDINYhBJE5soLniwhfb-AzQJdOnsxMlKnOxdd3MejxviVh7CHSoHnrHDjvDEwxA86TkZ8ma4FTBMSbvwWjf_GsuXWyBDAsZ2NaJUMg3aVedYmZLTwEf-RhenQ9i-2S0CnVEQSVUbvwqQ2LbcODxt3y1h5wyTAhc5IS4_B0mBLUoTLsf8QC2EZG6oS9LgEPI3UJuV1Ajc5EPLewOUYvTHO_TCMz6J9h_nKzozp6_9n9oAUkL5AB9TLewg0F_wWb6j5BxBYhTkPtWTKd2deCSbYWASAIV2HARbwLljd1FfrHOaP699tF7v3KuIt9Kmt-kMDVl_OSpD5v_SSiLMh8roO_bJER5M-90psTxGY5btU8E0FM30ZW6y4_uf0Dnh_xXeKytX-Hpo3S9YM-7ON7SXvjmOfJZQueHFUq5wyh9Q-vkkHVC0MoDxa7Icg7CQj9ogRBt5Gbw0Am_tZsbDFz2Xyz1TuT6XtPYEi3czm1lAJzYIiH0RR6dXl9q9s5nYl6C6BXJmUuVBg9Oymf12UpOMGgwxXqKrEObKKZmQfvggASoJdXMtd2VzdC0yMKAL.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=236833&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=f8db3a98968351e62981563a0556b037ab61d1df&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1735986506%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.169.14.18%22%2C%22version%22%3A2%7D&fast_bread=True']>}
+2025-01-04 10:08:27,541 - debug - URL válida: https://video-weaver.lax03.hls.ttvnw.net/v1/playlist/CucE1nzq99NIe60jru7zPqKB5W5BKOJhMqcLRSZV6MmOor_8m0Z6rgHJaFkoa9ZTd3K7XW6D7cCRW04a4OLz9Ghjq9VotjYsJE46Cvg_XWZDTAfc5TSygfX7kIwyi1muLwWKfYK8BGCjHUXb6uo9lWqZ-b8rIpxLHXonfDkR1bbjLbp3EFVUg77KiJF_RrCk61M6qPXSCZV8zhG_u9qBttlQaQX25VD3vIykJWYFizlp0T4Mwc7JlYnV0h21LKrqQBQzWOkAS1lTzL9htEZp9pRa7N7xtQeaEoWygDINYhBJE5soLniwhfb-AzQJdOnsxMlKnOxdd3MejxviVh7CHSoHnrHDjvDEwxA86TkZ8ma4FTBMSbvwWjf_GsuXWyBDAsZ2NaJUMg3aVedYmZLTwEf-RhenQ9i-2S0CnVEQSVUbvwqQ2LbcODxt3y1h5wyTAhc5IS4_B0mBLUoTLsf8QC2EZG6oS9LgEPI3UJuV1Ajc5EPLewOUYvTHO_TCMz6J9h_nKzozp6_9n9oAUkL5AB9TLewg0F_wWb6j5BxBYhTkPtWTKd2deCSbYWASAIV2HARbwLljd1FfrHOaP699tF7v3KuIt9Kmt-kMDVl_OSpD5v_SSiLMh8roO_bJER5M-90psTxGY5btU8E0FM30ZW6y4_uf0Dnh_xXeKytX-Hpo3S9YM-7ON7SXvjmOfJZQueHFUq5wyh9Q-vkkHVC0MoDxa7Icg7CQj9ogRBt5Gbw0Am_tZsbDFz2Xyz1TuT6XtPYEi3czm1lAJzYIiH0RR6dXl9q9s5nYl6C6BXJmUuVBg9Oymf12UpOMGgwxXqKrEObKKZmQfvggASoJdXMtd2VzdC0yMKAL.m3u8
+2025-01-04 10:08:27,542 - info - Canal https://www.twitch.tv/jibarook ignorado.
