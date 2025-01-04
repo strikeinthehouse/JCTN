@@ -3,6 +3,10 @@
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/EWbaWA6.png",🇵🇹 RTP 2
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/AE5d2lq.png",🇵🇹 RTP 3
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
@@ -243,7 +247,7 @@ https://bloomberg-quicktake-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
 https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz4tvx-lG8Oc-yrfQyFhwaefqQBuUaOnGxSyxM_7oGeMmZzR2N1uIzPJvcDas&s",📡 CHEDDAR
 https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXot33awRajcTaKP1d0xslRBa0fqim-QYPWhR_QW-Gbiq3ypPcAkXek1jCaQ&s",⚽ ONE GOLF
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaQTp7oV_wNN5rgv4u6oBoO1qnOQB9C2KZ9zG7sCbaGDDnw-gcLfg3Pqj7og&s",⚽ ONE GOLF
 http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7O7YFoJInnHzi7N6FH7wYlWZ0Fe6gPwhodWsTjMosN9438H5ChngpYVeMA&s",⚽ REDBULL TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
