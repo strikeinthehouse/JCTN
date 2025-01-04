@@ -1,27 +1,5 @@
 [
   {
-    "name": "\ud83c\uddf5\ud83c\uddf9 RTP 1",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/Uex76Nx.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Android",
-      "#EXTVLCOPT:http-referrer=https://rtp.pt/"
-    ]
-  },
-  {
-    "name": "\ud83c\uddf5\ud83c\uddf9 RTP 2",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/EWbaWA6.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Android",
-      "#EXTVLCOPT:http-referrer=https://rtp.pt/"
-    ]
-  },
-  {
     "name": "\ud83c\uddf5\ud83c\uddf9 RTP 3",
     "group": "Undefined",
     "tvg_id": "Undefined",
@@ -213,14 +191,6 @@
     "tvg_id": "Undefined",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/200px-Euronews_2016_logo.svg.png",
     "url": "https://rakuten-euronews-8-pt.samsung.wurl.tv/manifest/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\ud83c\udde7\ud83c\uddf7 RECORD",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-BqORa8E0ozuXLnq4TVSol4qARY8_LPkjDxmANoI6jlO2qZBxOkWU9o-hA&s",
-    "url": "http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8",
     "extra": []
   },
   {
@@ -539,7 +509,7 @@
     "name": "\ud83c\uddfa\ud83c\uddf8 ABC NEWS",
     "group": "Undefined",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGE4ctTMKf77pkAkPZ68E4P6nXnXW4I8_uEawBd78mHbUTOaJ6mix3mwd2Tg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegCrI0u2q6dH1aCll_tSUnCkXSkZgYgDIHnYr-nBi39eRO_NZ8EAb5yPvSg&s",
     "url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8",
     "extra": []
   },
@@ -843,7 +813,7 @@
     "name": "\ud83d\ude0a ANIME TV",
     "group": "Undefined",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkqQSnm4mnb2WAujFV2rudjoQI-u9kL-QOYdTGesYuS9eWYmS9FpbJ2dC-c0&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX-_7rJJvZTzxySanDZwmdGp1ss33HjsHn7P729UOneUfrdhB6Ud94wMskd9A&s",
     "url": "https://stmv1.srvif.com/animetv/animetv/playlist.m3u8",
     "extra": []
   },
@@ -963,7 +933,7 @@
     "name": "\u26bd REDBULL TV",
     "group": "Undefined",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7O7YFoJInnHzi7N6FH7wYlWZ0Fe6gPwhodWsTjMosN9438H5ChngpYVeMA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVyNtTBEv0MQZTR9zUeTZVq1obSx4H2SGKzDCtoapAD6f8JKRPHP5j0OmM294&s",
     "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
     "extra": []
   },
