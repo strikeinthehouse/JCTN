@@ -3,10 +3,6 @@
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/EWbaWA6.png",🇵🇹 RTP 2
-#EXTVLCOPT:http-user-agent=Android
-#EXTVLCOPT:http-referrer=https://rtp.pt/
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/AE5d2lq.png",🇵🇹 RTP 3
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
@@ -63,7 +59,7 @@ https://rakuten-euronews-8-pt.samsung.wurl.tv/manifest/playlist.m3u8
 http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/HZDRG0K.png",🇧🇷 RECORD NEWS
 https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8l7EU-rFGzMFNRgLg_50j9hK6svchncBz57v-Q5ZJaMuv8HPBY5P06gGCDo&s",🇧🇷 BAND TV
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUpxQ5pe6iZf56ml_gOC1eMwavHd_UqHaACgAyNqbau4Btb0VIgPRFBk4pnQ&s",🇧🇷 BAND TV
 https://streaming.gruporba.com.br/rba.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/3/39/Logotipo_da_Rede_Brasil_de_Televis%C3%A3o.png/200px-Logotipo_da_Rede_Brasil_de_Televis%C3%A3o.png",🇧🇷 SANTA CECILIA TV
 http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
@@ -215,7 +211,7 @@ https://2-fss-2.streamhoster.com/pl_140/200914-1298290-1/playlist.m3u8
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSdCXec4cX1aYbqTCqnxF9eT5FPmHIX4y5x-Cba6uryQkc01Pzs6tFRL9mw&s",😊 K
 https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index_1.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX-_7rJJvZTzxySanDZwmdGp1ss33HjsHn7P729UOneUfrdhB6Ud94wMskd9A&s",😊 ANIME TV
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkqQSnm4mnb2WAujFV2rudjoQI-u9kL-QOYdTGesYuS9eWYmS9FpbJ2dC-c0&s",😊 ANIME TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zdx1429eajxxo4U0lISqk03uDF5p_GvC4xx-kzz89wUBFNktbq76SqrwXg&s",😊 Toonami Aftermath East
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
@@ -245,7 +241,7 @@ https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4DEVD_sOnghjxYfMzWelzwCwaVXcwtaM4ZvOx2v-r7Z1INapbGhtcgVdEpU&s",⚽ ONE GOLF
 http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7O7YFoJInnHzi7N6FH7wYlWZ0Fe6gPwhodWsTjMosN9438H5ChngpYVeMA&s",⚽ REDBULL TV
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVyNtTBEv0MQZTR9zUeTZVq1obSx4H2SGKzDCtoapAD6f8JKRPHP5j0OmM294&s",⚽ REDBULL TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0w6ZnT7iUB7iLvCUJpn_FGfiyXvyRHs_zS33JqOYKD3V0s9c7HnNPPuwSwA&s",⚽ TRACE SPORT STARS
 https://lightning-tracesport-samsungau.amagi.tv/playlist720p.m3u8
