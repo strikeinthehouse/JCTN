@@ -1,17 +1,589 @@
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/TVPublicaArgentina/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/cronicatv/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/c5n/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/americaenvivo/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/encuentro/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/TEC_ciencia_ar/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canal26/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/CanalKZO/live
-2025-01-05 06:27:07,963 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/diariodemocracia/live
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/showdelafe/live
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/CanalPakapaka/LIVE
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SenadoTVArgentina/LIVE
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SISEArgentina/live
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
-2025-01-05 06:27:07,964 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/Radio10am/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/TVPublicaArgentina/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/cronicatv/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/c5n/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/americaenvivo/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/encuentro/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/TEC_ciencia_ar/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canal26/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/CanalKZO/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/diariodemocracia/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/showdelafe/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/CanalPakapaka/LIVE
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SenadoTVArgentina/LIVE
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SISEArgentina/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-05 06:28:58,685 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/Radio10am/live
+2025-01-05 06:28:58,803 - ERROR - Request Error https://ZAPIPTV.m3u8?channel=00: HTTPSConnectionPool(host='zapiptv.m3u8', port=443): Max retries exceeded with url: /?channel=00 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa575d5eea0>: Failed to resolve 'zapiptv.m3u8' ([Errno -2] Name or service not known)"))
+2025-01-05 06:28:58,803 - ERROR - Request Error https://ZAPIPTV.m3u8?channel=00: HTTPSConnectionPool(host='zapiptv.m3u8', port=443): Max retries exceeded with url: /?channel=00 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa575d5eea0>: Failed to resolve 'zapiptv.m3u8' ([Errno -2] Name or service not known)"))
+2025-01-05 06:28:59,065 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8: Status Code 204
+2025-01-05 06:28:59,065 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8: Status Code 204
+2025-01-05 06:28:59,315 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+2025-01-05 06:28:59,315 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+2025-01-05 06:28:59,554 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+2025-01-05 06:28:59,554 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+2025-01-05 06:28:59,853 - INFO - URL OK: https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+2025-01-05 06:28:59,853 - INFO - URL OK: https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+2025-01-05 06:28:59,888 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
+2025-01-05 06:28:59,888 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8
+2025-01-05 06:29:00,564 - INFO - URL OK: https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-480p/chunks.m3u8
+2025-01-05 06:29:00,564 - INFO - URL OK: https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-480p/chunks.m3u8
+2025-01-05 06:29:01,309 - INFO - URL OK: https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
+2025-01-05 06:29:01,309 - INFO - URL OK: https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
+2025-01-05 06:29:02,090 - WARNING - URL Error https://video-auth6.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/chunks.m3u8|user-agent=user-agent=Opera: Status Code 404
+2025-01-05 06:29:02,090 - WARNING - URL Error https://video-auth6.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/chunks.m3u8|user-agent=user-agent=Opera: Status Code 404
+2025-01-05 06:29:02,123 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tviint.m3u8
+2025-01-05 06:29:02,123 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tviint.m3u8
+2025-01-05 06:29:02,155 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8
+2025-01-05 06:29:02,155 - INFO - URL OK: https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8
+2025-01-05 06:29:02,442 - INFO - URL OK: https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
+2025-01-05 06:29:02,442 - INFO - URL OK: https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
+2025-01-05 06:29:02,700 - WARNING - URL Error https://sicnot.live.impresa.pt/sicnot.m3u8: Status Code 403
+2025-01-05 06:29:02,700 - WARNING - URL Error https://sicnot.live.impresa.pt/sicnot.m3u8: Status Code 403
+2025-01-05 06:29:02,846 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9ae705b449477523ec/channels/d9070446-8448-455e-8075-773b1ba12562/f083c6ea-33af-458e-82c5-f27f6b42f9ec/media_.m3u8: Status Code 404
+2025-01-05 06:29:02,846 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9ae705b449477523ec/channels/d9070446-8448-455e-8075-773b1ba12562/f083c6ea-33af-458e-82c5-f27f6b42f9ec/media_.m3u8: Status Code 404
+2025-01-05 06:29:02,912 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8: Status Code 307
+2025-01-05 06:29:02,912 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8: Status Code 307
+2025-01-05 06:29:03,002 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8: Status Code 307
+2025-01-05 06:29:03,002 - WARNING - URL Error https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8: Status Code 307
+2025-01-05 06:29:03,241 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+2025-01-05 06:29:03,241 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+2025-01-05 06:29:03,481 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+2025-01-05 06:29:03,481 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+2025-01-05 06:29:03,778 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+2025-01-05 06:29:03,778 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+2025-01-05 06:29:03,926 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+2025-01-05 06:29:03,926 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+2025-01-05 06:29:03,975 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8: Status Code 204
+2025-01-05 06:29:03,975 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8: Status Code 204
+2025-01-05 06:29:04,426 - INFO - URL OK: https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/profile_0/chunklist_dvr.m3u8
+2025-01-05 06:29:04,426 - INFO - URL OK: https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/profile_0/chunklist_dvr.m3u8
+2025-01-05 06:29:04,984 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@FamaTVradio: Status Code 400
+2025-01-05 06:29:04,984 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@FamaTVradio: Status Code 400
+2025-01-05 06:29:05,456 - ERROR - Request Error https://joaocaiado.com:1443/ies_tv/ngrp:ies_tv_all/playlist.m3u8: HTTPSConnectionPool(host='joaocaiado.com', port=1443): Max retries exceeded with url: /ies_tv/ngrp:ies_tv_all/playlist.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2025-01-05 06:29:05,456 - ERROR - Request Error https://joaocaiado.com:1443/ies_tv/ngrp:ies_tv_all/playlist.m3u8: HTTPSConnectionPool(host='joaocaiado.com', port=1443): Max retries exceeded with url: /ies_tv/ngrp:ies_tv_all/playlist.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+2025-01-05 06:29:06,079 - INFO - URL OK: https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8
+2025-01-05 06:29:06,079 - INFO - URL OK: https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8
+2025-01-05 06:29:06,606 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=WkhCfPPgqWc: Status Code 400
+2025-01-05 06:29:06,606 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=WkhCfPPgqWc: Status Code 400
+2025-01-05 06:29:07,276 - INFO - URL OK: https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
+2025-01-05 06:29:07,276 - INFO - URL OK: https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
+2025-01-05 06:29:07,605 - ERROR - Request Error https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-family-14-pt.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa575e1f3b0>: Failed to resolve 'rakuten-family-14-pt.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:29:07,605 - ERROR - Request Error https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='rakuten-family-14-pt.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa575e1f3b0>: Failed to resolve 'rakuten-family-14-pt.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:29:08,327 - INFO - URL OK: https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+2025-01-05 06:29:08,327 - INFO - URL OK: https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+2025-01-05 06:29:08,553 - INFO - URL OK: http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
+2025-01-05 06:29:08,553 - INFO - URL OK: http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
+2025-01-05 06:29:09,688 - INFO - URL OK: https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+2025-01-05 06:29:09,688 - INFO - URL OK: https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+2025-01-05 06:29:09,800 - INFO - URL OK: https://appletree-mytime-samsungbrazil.amagi.tv/playlist720p.m3u8
+2025-01-05 06:29:09,800 - INFO - URL OK: https://appletree-mytime-samsungbrazil.amagi.tv/playlist720p.m3u8
+2025-01-05 06:29:10,207 - INFO - URL OK: https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+2025-01-05 06:29:10,207 - INFO - URL OK: https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+2025-01-05 06:29:11,004 - INFO - URL OK: https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/chunklist_w273627653.m3u8
+2025-01-05 06:29:11,004 - INFO - URL OK: https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/chunklist_w273627653.m3u8
+2025-01-05 06:29:11,135 - INFO - URL OK: https://rakuten-euronews-8-pt.samsung.wurl.tv/manifest/playlist.m3u8
+2025-01-05 06:29:11,135 - INFO - URL OK: https://rakuten-euronews-8-pt.samsung.wurl.tv/manifest/playlist.m3u8
+2025-01-05 06:29:11,682 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@vitecazorestv: Status Code 400
+2025-01-05 06:29:11,682 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@vitecazorestv: Status Code 400
+2025-01-05 06:29:11,842 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@CNNbrasil: Status Code 302
+2025-01-05 06:29:11,842 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@CNNbrasil: Status Code 302
+2025-01-05 06:29:11,949 - ERROR - Request Error http://ns5010206.ip-15-235-15.net:14481: HTTPConnectionPool(host='ns5010206.ip-15-235-15.net', port=14481): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa575742510>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:29:11,949 - ERROR - Request Error http://ns5010206.ip-15-235-15.net:14481: HTTPConnectionPool(host='ns5010206.ip-15-235-15.net', port=14481): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa575742510>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:29:13,729 - ERROR - Request Error http://conexaoonline.top/307443/key5f0e5x0L/365.ts: HTTPConnectionPool(host='conexaoonline.top', port=80): Max retries exceeded with url: /307443/key5f0e5x0L/365.ts (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fa575742ea0>: Failed to resolve 'conexaoonline.top' ([Errno -3] Temporary failure in name resolution)"))
+2025-01-05 06:29:13,729 - ERROR - Request Error http://conexaoonline.top/307443/key5f0e5x0L/365.ts: HTTPConnectionPool(host='conexaoonline.top', port=80): Max retries exceeded with url: /307443/key5f0e5x0L/365.ts (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fa575742ea0>: Failed to resolve 'conexaoonline.top' ([Errno -3] Temporary failure in name resolution)"))
+2025-01-05 06:29:14,248 - INFO - URL OK: http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
+2025-01-05 06:29:14,248 - INFO - URL OK: http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
+2025-01-05 06:29:14,928 - INFO - URL OK: https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8
+2025-01-05 06:29:14,928 - INFO - URL OK: https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8
+2025-01-05 06:29:15,839 - INFO - URL OK: https://streaming.gruporba.com.br/rba.m3u8
+2025-01-05 06:29:15,839 - INFO - URL OK: https://streaming.gruporba.com.br/rba.m3u8
+2025-01-05 06:29:16,382 - ERROR - Request Error http://cdn.connectbr.com.br/Band-News/index.m3u8: HTTPConnectionPool(host='cdn.connectbr.com.br', port=80): Max retries exceeded with url: /Band-News/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fa5757c1d00>: Failed to resolve 'cdn.connectbr.com.br' ([Errno -2] Name or service not known)"))
+2025-01-05 06:29:16,382 - ERROR - Request Error http://cdn.connectbr.com.br/Band-News/index.m3u8: HTTPConnectionPool(host='cdn.connectbr.com.br', port=80): Max retries exceeded with url: /Band-News/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fa5757c1d00>: Failed to resolve 'cdn.connectbr.com.br' ([Errno -2] Name or service not known)"))
+2025-01-05 06:29:16,484 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@SBTRJ: Status Code 302
+2025-01-05 06:29:16,484 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@SBTRJ: Status Code 302
+2025-01-05 06:29:16,713 - INFO - URL OK: http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
+2025-01-05 06:29:16,713 - INFO - URL OK: http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
+2025-01-05 06:29:16,949 - WARNING - URL Error https://srv4.zcast.com.br/telavivatv/telavivatv/playlist.m3u8: Status Code 404
+2025-01-05 06:29:16,949 - WARNING - URL Error https://srv4.zcast.com.br/telavivatv/telavivatv/playlist.m3u8: Status Code 404
+2025-01-05 06:29:17,392 - INFO - URL OK: https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/playlist.m3u8
+2025-01-05 06:29:17,392 - INFO - URL OK: https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/playlist.m3u8
+2025-01-05 06:29:17,644 - ERROR - Request Error http://cdn.connectbr.com.br/Band-Sports/index.m3u8: HTTPConnectionPool(host='cdn.connectbr.com.br', port=80): Max retries exceeded with url: /Band-Sports/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fa575dfec90>: Failed to resolve 'cdn.connectbr.com.br' ([Errno -2] Name or service not known)"))
+2025-01-05 06:29:17,644 - ERROR - Request Error http://cdn.connectbr.com.br/Band-Sports/index.m3u8: HTTPConnectionPool(host='cdn.connectbr.com.br', port=80): Max retries exceeded with url: /Band-Sports/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fa575dfec90>: Failed to resolve 'cdn.connectbr.com.br' ([Errno -2] Name or service not known)"))
+2025-01-05 06:29:17,924 - WARNING - URL Error https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8: Status Code 404
+2025-01-05 06:29:17,924 - WARNING - URL Error https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8: Status Code 404
+2025-01-05 06:29:18,354 - INFO - URL OK: https://d3pfmk89wc0vm9.cloudfront.net/24H_ES.m3u8
+2025-01-05 06:29:18,354 - INFO - URL OK: https://d3pfmk89wc0vm9.cloudfront.net/24H_ES.m3u8
+2025-01-05 06:29:18,835 - INFO - URL OK: https://dh6vo1bovy43s.cloudfront.net/La_1_ES.m3u8
+2025-01-05 06:29:18,835 - INFO - URL OK: https://dh6vo1bovy43s.cloudfront.net/La_1_ES.m3u8
+2025-01-05 06:29:19,034 - INFO - URL OK: https://di2qeq48iv8ps.cloudfront.net/La_2_ES.m3u8
+2025-01-05 06:29:19,034 - INFO - URL OK: https://di2qeq48iv8ps.cloudfront.net/La_2_ES.m3u8
+2025-01-05 06:29:19,146 - WARNING - URL Error http://vavoo.to/play/254679370/index.m3u8: Status Code 404
+2025-01-05 06:29:19,146 - WARNING - URL Error http://vavoo.to/play/254679370/index.m3u8: Status Code 404
+2025-01-05 06:29:19,582 - INFO - URL OK: https://d3nnqrdb77sy13.cloudfront.net/Clan_ES.m3u8
+2025-01-05 06:29:19,582 - INFO - URL OK: https://d3nnqrdb77sy13.cloudfront.net/Clan_ES.m3u8
+2025-01-05 06:29:20,026 - INFO - URL OK: https://d2a02gfcid1k4a.cloudfront.net/Teledeporte_ES.m3u8
+2025-01-05 06:29:20,026 - INFO - URL OK: https://d2a02gfcid1k4a.cloudfront.net/Teledeporte_ES.m3u8
+2025-01-05 06:29:20,116 - ERROR - Request Error http://812439342386321290.of1030ok.xyz:80/play/vi829693/Wan6cEwDvt/321290.ts: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-05 06:29:20,116 - ERROR - Request Error http://812439342386321290.of1030ok.xyz:80/play/vi829693/Wan6cEwDvt/321290.ts: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-05 06:29:20,347 - INFO - URL OK: https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
+2025-01-05 06:29:20,347 - INFO - URL OK: https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
+2025-01-05 06:29:20,778 - WARNING - URL Error https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8: Status Code 404
+2025-01-05 06:29:20,778 - WARNING - URL Error https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8: Status Code 404
+2025-01-05 06:29:20,942 - INFO - URL OK: https://cdnlive.codev8.net/rtvalive/smil:DtRLVjt1.smil/playlist.m3u8
+2025-01-05 06:29:20,942 - INFO - URL OK: https://cdnlive.codev8.net/rtvalive/smil:DtRLVjt1.smil/playlist.m3u8
+2025-01-05 06:29:21,281 - INFO - URL OK: https://streamcdnb4-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_2400/chunklist.m3u8
+2025-01-05 06:29:21,281 - INFO - URL OK: https://streamcdnb4-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_2400/chunklist.m3u8
+2025-01-05 06:29:21,507 - INFO - URL OK: http://154.54.220.67:34780/play/a046
+2025-01-05 06:29:21,507 - INFO - URL OK: http://154.54.220.67:34780/play/a046
+2025-01-05 06:29:21,720 - INFO - URL OK: http://154.54.220.67:34780/play/a047
+2025-01-05 06:29:21,720 - INFO - URL OK: http://154.54.220.67:34780/play/a047
+2025-01-05 06:29:22,258 - INFO - URL OK: http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
+2025-01-05 06:29:22,258 - INFO - URL OK: http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
+2025-01-05 06:29:22,475 - INFO - URL OK: http://45.65.112.49:8000/play/a0m0
+2025-01-05 06:29:22,475 - INFO - URL OK: http://45.65.112.49:8000/play/a0m0
+2025-01-05 06:29:22,833 - WARNING - URL Error https://is.gd/bgAH9K: Status Code 301
+2025-01-05 06:29:22,833 - WARNING - URL Error https://is.gd/bgAH9K: Status Code 301
+2025-01-05 06:29:23,083 - INFO - URL OK: https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/chunklist.m3u8
+2025-01-05 06:29:23,083 - INFO - URL OK: https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/chunklist.m3u8
+2025-01-05 06:29:23,163 - WARNING - URL Error https://d15umi5iaezxgx.cloudfront.net/LA7/CLN/HLS-B/Live.m3u8: Status Code 403
+2025-01-05 06:29:23,163 - WARNING - URL Error https://d15umi5iaezxgx.cloudfront.net/LA7/CLN/HLS-B/Live.m3u8: Status Code 403
+2025-01-05 06:29:23,796 - INFO - URL OK: https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
+2025-01-05 06:29:23,796 - INFO - URL OK: https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
+2025-01-05 06:29:24,803 - WARNING - URL Error https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8: Status Code 403
+2025-01-05 06:29:24,803 - WARNING - URL Error https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8: Status Code 403
+2025-01-05 06:29:25,608 - INFO - URL OK: https://ren1-cdn-edge-live00.pfd.sfr.net/bfm-ncdn-live-pal1.pfd.sfr.net/sid=04djlslsvrskffma009g/shls/LIVE$BFM_PARIS/index.m3u8?start=LIVE&end=END
+2025-01-05 06:29:25,608 - INFO - URL OK: https://ren1-cdn-edge-live00.pfd.sfr.net/bfm-ncdn-live-pal1.pfd.sfr.net/sid=04djlslsvrskffma009g/shls/LIVE$BFM_PARIS/index.m3u8?start=LIVE&end=END
+2025-01-05 06:29:25,664 - INFO - URL OK: http://212.102.60.80/TF1/mono.m3u8
+2025-01-05 06:29:25,664 - INFO - URL OK: http://212.102.60.80/TF1/mono.m3u8
+2025-01-05 06:29:41,066 - ERROR - Request Error https://s14.tntendirect.com/m6/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /m6/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575732cc0>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:29:41,066 - ERROR - Request Error https://s14.tntendirect.com/m6/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /m6/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575732cc0>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:29:41,955 - WARNING - URL Error https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/FHD.m3u8: Status Code 404
+2025-01-05 06:29:41,955 - WARNING - URL Error https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/FHD.m3u8: Status Code 404
+2025-01-05 06:29:42,006 - ERROR - Request Error https://origin2-6play.live.6cloud.fr/pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8: HTTPSConnectionPool(host='origin2-6play.live.6cloud.fr', port=443): Max retries exceeded with url: /pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa575732960>: Failed to resolve 'origin2-6play.live.6cloud.fr' ([Errno -5] No address associated with hostname)"))
+2025-01-05 06:29:42,006 - ERROR - Request Error https://origin2-6play.live.6cloud.fr/pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8: HTTPSConnectionPool(host='origin2-6play.live.6cloud.fr', port=443): Max retries exceeded with url: /pool_rnpls9by/gulli/sixplaysd/hls_short_q2hyb21h_gulli/index.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa575732960>: Failed to resolve 'origin2-6play.live.6cloud.fr' ([Errno -5] No address associated with hostname)"))
+2025-01-05 06:29:42,022 - WARNING - URL Error http://vavoo.to/play/1666352419/index.m3u8: Status Code 404
+2025-01-05 06:29:42,022 - WARNING - URL Error http://vavoo.to/play/1666352419/index.m3u8: Status Code 404
+2025-01-05 06:29:57,067 - ERROR - Request Error https://s14.tntendirect.com/d8/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /d8/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575732420>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:29:57,067 - ERROR - Request Error https://s14.tntendirect.com/d8/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /d8/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575732420>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:30:12,108 - ERROR - Request Error https://s14.tntendirect.com/w9/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /w9/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575731be0>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:30:12,108 - ERROR - Request Error https://s14.tntendirect.com/w9/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /w9/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575731be0>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:30:27,127 - ERROR - Request Error https://s14.tntendirect.com/tmc/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /tmc/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575626840>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:30:27,127 - ERROR - Request Error https://s14.tntendirect.com/tmc/live/playlist.m3u8: HTTPSConnectionPool(host='s14.tntendirect.com', port=443): Max retries exceeded with url: /tmc/live/playlist.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fa575626840>, 'Connection to s14.tntendirect.com timed out. (connect timeout=15)'))
+2025-01-05 06:30:28,535 - WARNING - URL Error https://takeoff.jetstre.am/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8: Status Code 307
+2025-01-05 06:30:28,535 - WARNING - URL Error https://takeoff.jetstre.am/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8: Status Code 307
+2025-01-05 06:30:28,696 - ERROR - Request Error https://gineu10.bozztv.com/trn01/gin-bvntv/tracks-v1a1/mono.m3u8: HTTPSConnectionPool(host='gineu10.bozztv.com', port=443): Max retries exceeded with url: /trn01/gin-bvntv/tracks-v1a1/mono.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa5757320c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:30:28,696 - ERROR - Request Error https://gineu10.bozztv.com/trn01/gin-bvntv/tracks-v1a1/mono.m3u8: HTTPSConnectionPool(host='gineu10.bozztv.com', port=443): Max retries exceeded with url: /trn01/gin-bvntv/tracks-v1a1/mono.m3u8 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa5757320c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:30:28,915 - INFO - URL OK: https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/2103d417/index.m3u8
+2025-01-05 06:30:28,915 - INFO - URL OK: https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/2103d417/index.m3u8
+2025-01-05 06:30:29,070 - INFO - URL OK: https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8
+2025-01-05 06:30:29,070 - INFO - URL OK: https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8
+2025-01-05 06:30:29,426 - INFO - URL OK: https://d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/video-960x540p25-1600/index.m3u8
+2025-01-05 06:30:29,426 - INFO - URL OK: https://d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/video-960x540p25-1600/index.m3u8
+2025-01-05 06:30:30,006 - INFO - URL OK: https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
+2025-01-05 06:30:30,006 - INFO - URL OK: https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
+2025-01-05 06:30:30,554 - INFO - URL OK: https://ms2.mx-cd.net/tv/272-2641704/Hoeksche_Waard_TV.smil/playlist.m3u8
+2025-01-05 06:30:30,554 - INFO - URL OK: https://ms2.mx-cd.net/tv/272-2641704/Hoeksche_Waard_TV.smil/playlist.m3u8
+2025-01-05 06:30:30,968 - INFO - URL OK: https://rtmp.bredanu.nl/live/tv.m3u8
+2025-01-05 06:30:30,968 - INFO - URL OK: https://rtmp.bredanu.nl/live/tv.m3u8
+2025-01-05 06:30:31,579 - WARNING - URL Error https://593aed234297b.streamlock.net/gotvsjoerd/gotvsjoerd/playlist.m3u8: Status Code 403
+2025-01-05 06:30:31,579 - WARNING - URL Error https://593aed234297b.streamlock.net/gotvsjoerd/gotvsjoerd/playlist.m3u8: Status Code 403
+2025-01-05 06:30:32,267 - WARNING - URL Error https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8: Status Code 404
+2025-01-05 06:30:32,267 - WARNING - URL Error https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8: Status Code 404
+2025-01-05 06:30:32,866 - INFO - URL OK: https://live.salto.nl/hls/malive_high.m3u8?hls_ctx=r59oqm43
+2025-01-05 06:30:32,866 - INFO - URL OK: https://live.salto.nl/hls/malive_high.m3u8?hls_ctx=r59oqm43
+2025-01-05 06:30:33,441 - WARNING - URL Error https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8: Status Code 302
+2025-01-05 06:30:33,441 - WARNING - URL Error https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8: Status Code 302
+2025-01-05 06:30:34,008 - ERROR - Request Error https://mcdn.daserste.de/daserste/de/master.m3u8: HTTPSConnectionPool(host='mcdn.daserste.de', port=443): Max retries exceeded with url: /daserste/de/master.m3u8 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
+2025-01-05 06:30:34,008 - ERROR - Request Error https://mcdn.daserste.de/daserste/de/master.m3u8: HTTPSConnectionPool(host='mcdn.daserste.de', port=443): Max retries exceeded with url: /daserste/de/master.m3u8 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)')))
+2025-01-05 06:30:34,506 - INFO - URL OK: https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+2025-01-05 06:30:34,506 - INFO - URL OK: https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+2025-01-05 06:30:34,871 - WARNING - URL Error https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8: Status Code 302
+2025-01-05 06:30:34,871 - WARNING - URL Error https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8: Status Code 302
+2025-01-05 06:30:34,889 - WARNING - URL Error http://vavoo.to/play/2357166742/index.m3u8: Status Code 404
+2025-01-05 06:30:34,889 - WARNING - URL Error http://vavoo.to/play/2357166742/index.m3u8: Status Code 404
+2025-01-05 06:30:35,104 - WARNING - URL Error http://154.58.202.194:8000/play/a0fq/index.m3u8: Status Code 403
+2025-01-05 06:30:35,104 - WARNING - URL Error http://154.58.202.194:8000/play/a0fq/index.m3u8: Status Code 403
+2025-01-05 06:30:35,121 - WARNING - URL Error http://vavoo.to/play/3017451059/index.m3u8: Status Code 404
+2025-01-05 06:30:35,121 - WARNING - URL Error http://vavoo.to/play/3017451059/index.m3u8: Status Code 404
+2025-01-05 06:30:35,319 - INFO - URL OK: http://176.10.117.3:5000/play/a00l/index.m3u8
+2025-01-05 06:30:35,319 - INFO - URL OK: http://176.10.117.3:5000/play/a00l/index.m3u8
+2025-01-05 06:30:35,733 - INFO - URL OK: http://176.10.117.3:5000/play/a00q/index.m3u8
+2025-01-05 06:30:35,733 - INFO - URL OK: http://176.10.117.3:5000/play/a00q/index.m3u8
+2025-01-05 06:30:35,931 - INFO - URL OK: http://176.10.117.3:5000/play/a00n/index.m3u8
+2025-01-05 06:30:35,931 - INFO - URL OK: http://176.10.117.3:5000/play/a00n/index.m3u8
+2025-01-05 06:30:36,128 - INFO - URL OK: http://176.10.117.3:5000/play/a00r/index.m3u8
+2025-01-05 06:30:36,128 - INFO - URL OK: http://176.10.117.3:5000/play/a00r/index.m3u8
+2025-01-05 06:30:36,348 - INFO - URL OK: http://176.10.117.3:5000/play/a01e/index.m3u8
+2025-01-05 06:30:36,348 - INFO - URL OK: http://176.10.117.3:5000/play/a01e/index.m3u8
+2025-01-05 06:30:37,084 - INFO - URL OK: https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist720p.m3u8
+2025-01-05 06:30:37,084 - INFO - URL OK: https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist720p.m3u8
+2025-01-05 06:30:37,563 - INFO - URL OK: https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+2025-01-05 06:30:37,563 - INFO - URL OK: https://vs-hls-push-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+2025-01-05 06:30:37,609 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbcone#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:37,609 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbcone#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:37,644 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbctwo#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:37,644 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbctwo#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:37,679 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbcthree#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:37,679 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=bbcthree#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:37,717 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=cbeebies#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:37,717 - WARNING - URL Error https://photocall.site/c8eg/fo.m3u8?ch=cbeebies#Referer=https://photocalltv.site/#User-Agent=Android: Status Code 403
+2025-01-05 06:30:38,140 - INFO - URL OK: https://bcovlive-a.akamaihd.net/4e7f273ae0a04ad6b7d2e543df61e362/us-west-2/6240731308001/playlist.m3u8
+2025-01-05 06:30:38,140 - INFO - URL OK: https://bcovlive-a.akamaihd.net/4e7f273ae0a04ad6b7d2e543df61e362/us-west-2/6240731308001/playlist.m3u8
+2025-01-05 06:30:38,734 - INFO - URL OK: http://178.219.128.68:64889/BBCBRITHD
+2025-01-05 06:30:38,734 - INFO - URL OK: http://178.219.128.68:64889/BBCBRITHD
+2025-01-05 06:30:39,212 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USBD1700001RW.m3u8: Status Code 404
+2025-01-05 06:30:39,212 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USBD1700001RW.m3u8: Status Code 404
+2025-01-05 06:30:39,749 - INFO - URL OK: https://lives.tkstv.co.uk/hls/0/stream.m3u8
+2025-01-05 06:30:39,749 - INFO - URL OK: https://lives.tkstv.co.uk/hls/0/stream.m3u8
+2025-01-05 06:30:39,842 - INFO - URL OK: https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
+2025-01-05 06:30:39,842 - INFO - URL OK: https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
+2025-01-05 06:30:40,575 - INFO - URL OK: https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+2025-01-05 06:30:40,575 - INFO - URL OK: https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+2025-01-05 06:30:40,978 - INFO - URL OK: https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/18329
+2025-01-05 06:30:40,978 - INFO - URL OK: https://6oclock.xyz:8443/gZpw5weynu/C6gJj6DfxV/18329
+2025-01-05 06:30:41,306 - WARNING - URL Error https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8: Status Code 405
+2025-01-05 06:30:41,306 - WARNING - URL Error https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8: Status Code 405
+2025-01-05 06:30:56,346 - ERROR - Request Error http://budtvlight.com:25461/jaime/3DbdkaKhwZEd/164193: HTTPConnectionPool(host='budtvlight.com', port=25461): Max retries exceeded with url: /jaime/3DbdkaKhwZEd/164193 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa5756a9040>, 'Connection to budtvlight.com timed out. (connect timeout=15)'))
+2025-01-05 06:30:56,346 - ERROR - Request Error http://budtvlight.com:25461/jaime/3DbdkaKhwZEd/164193: HTTPConnectionPool(host='budtvlight.com', port=25461): Max retries exceeded with url: /jaime/3DbdkaKhwZEd/164193 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa5756a9040>, 'Connection to budtvlight.com timed out. (connect timeout=15)'))
+2025-01-05 06:30:56,450 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+2025-01-05 06:30:56,450 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+2025-01-05 06:30:56,582 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@NBC2swfl: Status Code 302
+2025-01-05 06:30:56,582 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@NBC2swfl: Status Code 302
+2025-01-05 06:30:56,653 - WARNING - URL Error https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_us_nbcnewsnow_001.m3u8: Status Code 404
+2025-01-05 06:30:56,653 - WARNING - URL Error https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_us_nbcnewsnow_001.m3u8: Status Code 404
+2025-01-05 06:30:56,919 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
+2025-01-05 06:30:56,919 - INFO - URL OK: https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
+2025-01-05 06:30:57,002 - WARNING - URL Error https://c.mjh.nz/abc-news.m3u8: Status Code 307
+2025-01-05 06:30:57,002 - WARNING - URL Error https://c.mjh.nz/abc-news.m3u8: Status Code 307
+2025-01-05 06:30:57,193 - WARNING - URL Error https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsweb-ono/playlist.m3u8: Status Code 302
+2025-01-05 06:30:57,193 - WARNING - URL Error https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsweb-ono/playlist.m3u8: Status Code 302
+2025-01-05 06:30:57,228 - WARNING - URL Error https://c.mjh.nz/abc-sa.m3u8: Status Code 307
+2025-01-05 06:30:57,228 - WARNING - URL Error https://c.mjh.nz/abc-sa.m3u8: Status Code 307
+2025-01-05 06:30:57,272 - WARNING - URL Error https://c.mjh.nz/abc-me.m3u8: Status Code 307
+2025-01-05 06:30:57,272 - WARNING - URL Error https://c.mjh.nz/abc-me.m3u8: Status Code 307
+2025-01-05 06:30:57,314 - WARNING - URL Error https://c.mjh.nz/abc-tv-plus.m3u8: Status Code 307
+2025-01-05 06:30:57,314 - WARNING - URL Error https://c.mjh.nz/abc-tv-plus.m3u8: Status Code 307
+2025-01-05 06:30:57,989 - INFO - URL OK: https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8
+2025-01-05 06:30:57,989 - INFO - URL OK: https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8
+2025-01-05 06:30:58,585 - WARNING - URL Error https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-reallifenz-samsungnz/playlist.m3u8: Status Code 302
+2025-01-05 06:30:58,585 - WARNING - URL Error https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-reallifenz-samsungnz/playlist.m3u8: Status Code 302
+2025-01-05 06:30:58,916 - INFO - URL OK: https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+2025-01-05 06:30:58,916 - INFO - URL OK: https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+2025-01-05 06:30:58,956 - WARNING - URL Error https://vavoo.to/play/2429493156/index.m3u8: Status Code 404
+2025-01-05 06:30:58,956 - WARNING - URL Error https://vavoo.to/play/2429493156/index.m3u8: Status Code 404
+2025-01-05 06:30:59,008 - ERROR - Request Error https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='cnn-cnninternational-1-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa57571b2f0>: Failed to resolve 'cnn-cnninternational-1-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:30:59,008 - ERROR - Request Error https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='cnn-cnninternational-1-eu.rakuten.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa57571b2f0>: Failed to resolve 'cnn-cnninternational-1-eu.rakuten.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:30:59,120 - INFO - URL OK: https://amg00453-reuters-amg00453c1-xumo-us-2073.playouts.now.amagi.tv/reuters-reuters-hls/playlist.m3u8
+2025-01-05 06:30:59,120 - INFO - URL OK: https://amg00453-reuters-amg00453c1-xumo-us-2073.playouts.now.amagi.tv/reuters-reuters-hls/playlist.m3u8
+2025-01-05 06:30:59,136 - WARNING - URL Error http://vavoo.to/play/3319946628/index.m3u8: Status Code 404
+2025-01-05 06:30:59,136 - WARNING - URL Error http://vavoo.to/play/3319946628/index.m3u8: Status Code 404
+2025-01-05 06:30:59,223 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
+2025-01-05 06:30:59,223 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
+2025-01-05 06:30:59,351 - INFO - URL OK: https://rakuten-africanews-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
+2025-01-05 06:30:59,351 - INFO - URL OK: https://rakuten-africanews-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
+2025-01-05 06:30:59,398 - INFO - URL OK: http://live-hls-web-aje.getaj.net/AJE/index.m3u8
+2025-01-05 06:30:59,398 - INFO - URL OK: http://live-hls-web-aje.getaj.net/AJE/index.m3u8
+2025-01-05 06:31:00,525 - INFO - URL OK: https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+2025-01-05 06:31:00,525 - INFO - URL OK: https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+2025-01-05 06:31:01,115 - INFO - URL OK: http://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+2025-01-05 06:31:01,115 - INFO - URL OK: http://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+2025-01-05 06:31:01,682 - INFO - URL OK: https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+2025-01-05 06:31:01,682 - INFO - URL OK: https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+2025-01-05 06:31:01,767 - ERROR - Request Error https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8: HTTPSConnectionPool(host='api.trtworld.com', port=443): Max retries exceeded with url: /livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-01-05 06:31:01,767 - ERROR - Request Error https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8: HTTPSConnectionPool(host='api.trtworld.com', port=443): Max retries exceeded with url: /livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-01-05 06:31:02,095 - WARNING - URL Error https://bcovlive-a.akamaihd.net/6e3dd61ac4c34d6f8fb9698b565b9f50/eu-central-1/5377161796001/profile_0/chunklist_dvr.m3u8: Status Code 403
+2025-01-05 06:31:02,095 - WARNING - URL Error https://bcovlive-a.akamaihd.net/6e3dd61ac4c34d6f8fb9698b565b9f50/eu-central-1/5377161796001/profile_0/chunklist_dvr.m3u8: Status Code 403
+2025-01-05 06:31:02,420 - WARNING - URL Error http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8: Status Code 301
+2025-01-05 06:31:02,420 - WARNING - URL Error http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8: Status Code 301
+2025-01-05 06:31:02,526 - INFO - URL OK: https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/playlist.m3u8
+2025-01-05 06:31:02,526 - INFO - URL OK: https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/playlist.m3u8
+2025-01-05 06:31:02,973 - WARNING - URL Error https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8?iu=/8264/vaw-can/desktop/cbsnews: Status Code 405
+2025-01-05 06:31:02,973 - WARNING - URL Error https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8?iu=/8264/vaw-can/desktop/cbsnews: Status Code 405
+2025-01-05 06:31:03,107 - INFO - URL OK: https://d2dimalv43j51f.cloudfront.net/out/v1/52d3048e53eb42a7959dc347d2f810e2/index.m3u8
+2025-01-05 06:31:03,107 - INFO - URL OK: https://d2dimalv43j51f.cloudfront.net/out/v1/52d3048e53eb42a7959dc347d2f810e2/index.m3u8
+2025-01-05 06:31:03,507 - INFO - URL OK: https://linear-12.frequency.stream/dist/localnow/12/hls/master/playlist.m3u8
+2025-01-05 06:31:03,507 - INFO - URL OK: https://linear-12.frequency.stream/dist/localnow/12/hls/master/playlist.m3u8
+2025-01-05 06:31:03,550 - ERROR - Request Error https://failarmy-international-ca.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='failarmy-international-ca.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa57554e2d0>: Failed to resolve 'failarmy-international-ca.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:03,550 - ERROR - Request Error https://failarmy-international-ca.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='failarmy-international-ca.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa57554e2d0>: Failed to resolve 'failarmy-international-ca.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:03,646 - INFO - URL OK: https://jukin-peopleareawesome-2-in.samsung.wurl.tv/playlist.m3u8
+2025-01-05 06:31:03,646 - INFO - URL OK: https://jukin-peopleareawesome-2-in.samsung.wurl.tv/playlist.m3u8
+2025-01-05 06:31:04,259 - WARNING - URL Error https://stream.ads.ottera.tv/playlist.m3u8?network_id=773: Status Code 400
+2025-01-05 06:31:04,259 - WARNING - URL Error https://stream.ads.ottera.tv/playlist.m3u8?network_id=773: Status Code 400
+2025-01-05 06:31:04,349 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c2d64ffbdf11b71587184b8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:04,349 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c2d64ffbdf11b71587184b8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:04,392 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/633354b63df9700007f6a1b7/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:04,392 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/633354b63df9700007f6a1b7/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:04,837 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6132619f9ddaa50007e7dd86/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:04,837 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6132619f9ddaa50007e7dd86/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:04,882 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61326275b3c86a00078e4833/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:04,882 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61326275b3c86a00078e4833/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:05,827 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f778a052360b30007fa5e32/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:05,827 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f778a052360b30007fa5e32/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:05,874 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d878d3d19b30007d2e782/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:05,874 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d878d3d19b30007d2e782/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:08,199 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca525b650be2571e3943c63/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:08,199 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca525b650be2571e3943c63/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:08,250 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d86f519358a00072b978e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:08,250 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d86f519358a00072b978e/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:23,267 - ERROR - Request Error http://124.29.225.205:8000/play/a03y/index.m3u8: HTTPConnectionPool(host='124.29.225.205', port=8000): Max retries exceeded with url: /play/a03y/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa57570a7e0>, 'Connection to 124.29.225.205 timed out. (connect timeout=15)'))
+2025-01-05 06:31:23,267 - ERROR - Request Error http://124.29.225.205:8000/play/a03y/index.m3u8: HTTPConnectionPool(host='124.29.225.205', port=8000): Max retries exceeded with url: /play/a03y/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa57570a7e0>, 'Connection to 124.29.225.205 timed out. (connect timeout=15)'))
+2025-01-05 06:31:23,298 - INFO - URL OK: https://raw.githubusercontent.com/kusnadipepenk/ntn/master/prv.m3u8
+2025-01-05 06:31:23,298 - INFO - URL OK: https://raw.githubusercontent.com/kusnadipepenk/ntn/master/prv.m3u8
+2025-01-05 06:31:23,645 - WARNING - URL Error https://magnolia-cinelife.amagi.tv/hls/amagi_hls_data_magnoliaA-cinelife-oando/CDN/playlist.m3u8: Status Code 307
+2025-01-05 06:31:23,645 - WARNING - URL Error https://magnolia-cinelife.amagi.tv/hls/amagi_hls_data_magnoliaA-cinelife-oando/CDN/playlist.m3u8: Status Code 307
+2025-01-05 06:31:23,762 - INFO - URL OK: https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8
+2025-01-05 06:31:23,762 - INFO - URL OK: https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8
+2025-01-05 06:31:23,896 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefreemovies/CDN/playlist.m3u8
+2025-01-05 06:31:23,896 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefreemovies/CDN/playlist.m3u8
+2025-01-05 06:31:23,967 - INFO - URL OK: https://dqvu8d0acm4xt.cloudfront.net/playlist.m3u8
+2025-01-05 06:31:23,967 - INFO - URL OK: https://dqvu8d0acm4xt.cloudfront.net/playlist.m3u8
+2025-01-05 06:31:24,293 - INFO - URL OK: https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+2025-01-05 06:31:24,293 - INFO - URL OK: https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+2025-01-05 06:31:24,837 - WARNING - URL Error https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8: Status Code 302
+2025-01-05 06:31:24,837 - WARNING - URL Error https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8: Status Code 302
+2025-01-05 06:31:25,174 - INFO - URL OK: http://iptv.prosto.tv:7000/ch50/video.m3u8
+2025-01-05 06:31:25,174 - INFO - URL OK: http://iptv.prosto.tv:7000/ch50/video.m3u8
+2025-01-05 06:31:25,212 - ERROR - Request Error https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='spi-filmstream-1-in.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa5757a1760>: Failed to resolve 'spi-filmstream-1-in.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:25,212 - ERROR - Request Error https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='spi-filmstream-1-in.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa5757a1760>: Failed to resolve 'spi-filmstream-1-in.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:25,229 - INFO - URL OK: http://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+2025-01-05 06:31:25,229 - INFO - URL OK: http://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+2025-01-05 06:31:25,497 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/documentary/master.m3u8: Status Code 404
+2025-01-05 06:31:25,497 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/documentary/master.m3u8: Status Code 404
+2025-01-05 06:31:25,531 - ERROR - Request Error https://rakuten-documentaries-14-pt.samsung.wurl.tv/3000.m3u8: HTTPSConnectionPool(host='rakuten-documentaries-14-pt.samsung.wurl.tv', port=443): Max retries exceeded with url: /3000.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa5757a2f90>: Failed to resolve 'rakuten-documentaries-14-pt.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:25,531 - ERROR - Request Error https://rakuten-documentaries-14-pt.samsung.wurl.tv/3000.m3u8: HTTPSConnectionPool(host='rakuten-documentaries-14-pt.samsung.wurl.tv', port=443): Max retries exceeded with url: /3000.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa5757a2f90>: Failed to resolve 'rakuten-documentaries-14-pt.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:26,581 - WARNING - URL Error https://n9.cl/smithsonian-channel-pt?stream=ZAPiptv.m3u8: Status Code 302
+2025-01-05 06:31:26,581 - WARNING - URL Error https://n9.cl/smithsonian-channel-pt?stream=ZAPiptv.m3u8: Status Code 302
+2025-01-05 06:31:27,091 - WARNING - URL Error https://n9.cl/smithsonian-channel-us?stream=ZAPiptv.m3u8: Status Code 302
+2025-01-05 06:31:27,091 - WARNING - URL Error https://n9.cl/smithsonian-channel-us?stream=ZAPiptv.m3u8: Status Code 302
+2025-01-05 06:31:27,655 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ad8d1e9e738977e2c310925/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:27,655 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ad8d1e9e738977e2c310925/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1
+2025-01-05 06:31:27,755 - INFO - URL OK: https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
+2025-01-05 06:31:27,755 - INFO - URL OK: https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
+2025-01-05 06:31:27,851 - WARNING - URL Error https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8: Status Code 404
+2025-01-05 06:31:27,851 - WARNING - URL Error https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8: Status Code 404
+2025-01-05 06:31:27,997 - INFO - URL OK: https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+2025-01-05 06:31:27,997 - INFO - URL OK: https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+2025-01-05 06:31:43,009 - ERROR - Request Error http://170.82.37.21:8000/play/a00n/index.m3u8: HTTPConnectionPool(host='170.82.37.21', port=8000): Max retries exceeded with url: /play/a00n/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa5757a1b20>, 'Connection to 170.82.37.21 timed out. (connect timeout=15)'))
+2025-01-05 06:31:43,009 - ERROR - Request Error http://170.82.37.21:8000/play/a00n/index.m3u8: HTTPConnectionPool(host='170.82.37.21', port=8000): Max retries exceeded with url: /play/a00n/index.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa5757a1b20>, 'Connection to 170.82.37.21 timed out. (connect timeout=15)'))
+2025-01-05 06:31:43,049 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USBC44000072I.m3u8: Status Code 404
+2025-01-05 06:31:43,049 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USBC44000072I.m3u8: Status Code 404
+2025-01-05 06:31:43,191 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_140/200914-1298290-1/playlist.m3u8
+2025-01-05 06:31:43,191 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_140/200914-1298290-1/playlist.m3u8
+2025-01-05 06:31:43,562 - INFO - URL OK: https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+2025-01-05 06:31:43,562 - INFO - URL OK: https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+2025-01-05 06:31:44,148 - INFO - URL OK: https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index_1.m3u8
+2025-01-05 06:31:44,148 - INFO - URL OK: https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index_1.m3u8
+2025-01-05 06:31:44,716 - INFO - URL OK: https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+2025-01-05 06:31:44,716 - INFO - URL OK: https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+2025-01-05 06:31:45,793 - INFO - URL OK: http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+2025-01-05 06:31:45,793 - INFO - URL OK: http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+2025-01-05 06:31:46,029 - ERROR - Request Error https://mondotv-mondotvkids-1-it.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='mondotv-mondotvkids-1-it.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa5757083b0>: Failed to resolve 'mondotv-mondotvkids-1-it.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:46,029 - ERROR - Request Error https://mondotv-mondotvkids-1-it.samsung.wurl.tv/playlist.m3u8: HTTPSConnectionPool(host='mondotv-mondotvkids-1-it.samsung.wurl.tv', port=443): Max retries exceeded with url: /playlist.m3u8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fa5757083b0>: Failed to resolve 'mondotv-mondotvkids-1-it.samsung.wurl.tv' ([Errno -2] Name or service not known)"))
+2025-01-05 06:31:46,204 - WARNING - URL Error https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8: Status Code 302
+2025-01-05 06:31:46,204 - WARNING - URL Error https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8: Status Code 302
+2025-01-05 06:31:46,521 - INFO - URL OK: https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
+2025-01-05 06:31:46,521 - INFO - URL OK: https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
+2025-01-05 06:31:46,828 - WARNING - URL Error https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8: Status Code 302
+2025-01-05 06:31:46,828 - WARNING - URL Error https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8: Status Code 302
+2025-01-05 06:31:47,325 - INFO - URL OK: http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+2025-01-05 06:31:47,325 - INFO - URL OK: http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+2025-01-05 06:31:47,851 - INFO - URL OK: https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
+2025-01-05 06:31:47,851 - INFO - URL OK: https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
+2025-01-05 06:31:48,490 - WARNING - URL Error https://s.catcast.tv/content/39575/index.m3u8|Referer=https://photocall.cc/uf8q/l1?ch=viva_russia&User-Agent=Android: Status Code 403
+2025-01-05 06:31:48,490 - WARNING - URL Error https://s.catcast.tv/content/39575/index.m3u8|Referer=https://photocall.cc/uf8q/l1?ch=viva_russia&User-Agent=Android: Status Code 403
+2025-01-05 06:31:49,031 - WARNING - URL Error https://s.catcast.tv/content/39575/index.m3u8#Referer=https://photocall.cc/uf8q/l1?ch=viva_russia#User-Agent=Android: Status Code 403
+2025-01-05 06:31:49,031 - WARNING - URL Error https://s.catcast.tv/content/39575/index.m3u8#Referer=https://photocall.cc/uf8q/l1?ch=viva_russia#User-Agent=Android: Status Code 403
+2025-01-05 06:31:50,311 - INFO - URL OK: https://viva-russia.ru/iptv.m3u
+2025-01-05 06:31:50,311 - INFO - URL OK: https://viva-russia.ru/iptv.m3u
+2025-01-05 06:31:50,417 - INFO - URL OK: http://45.5.117.182:8000/play/a0ie/index.m3u8
+2025-01-05 06:31:50,417 - INFO - URL OK: http://45.5.117.182:8000/play/a0ie/index.m3u8
+2025-01-05 06:31:50,867 - INFO - URL OK: https://stream.ecable.tv/afrobeats/index.m3u8
+2025-01-05 06:31:50,867 - INFO - URL OK: https://stream.ecable.tv/afrobeats/index.m3u8
+2025-01-05 06:31:50,976 - INFO - URL OK: https://cmc-ono.amagi.tv/playlist.m3u8
+2025-01-05 06:31:50,976 - INFO - URL OK: https://cmc-ono.amagi.tv/playlist.m3u8
+2025-01-05 06:32:05,993 - ERROR - Request Error http://92.242.110.52:9835/udp/238.1.9.9:1234: HTTPConnectionPool(host='92.242.110.52', port=9835): Max retries exceeded with url: /udp/238.1.9.9:1234 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa57571a0c0>, 'Connection to 92.242.110.52 timed out. (connect timeout=15)'))
+2025-01-05 06:32:05,993 - ERROR - Request Error http://92.242.110.52:9835/udp/238.1.9.9:1234: HTTPConnectionPool(host='92.242.110.52', port=9835): Max retries exceeded with url: /udp/238.1.9.9:1234 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa57571a0c0>, 'Connection to 92.242.110.52 timed out. (connect timeout=15)'))
+2025-01-05 06:32:06,634 - INFO - URL OK: https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
+2025-01-05 06:32:06,634 - INFO - URL OK: https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
+2025-01-05 06:32:06,783 - INFO - URL OK: https://accuweatherx-lg.amagi.tv/playlist.m3u8
+2025-01-05 06:32:06,783 - INFO - URL OK: https://accuweatherx-lg.amagi.tv/playlist.m3u8
+2025-01-05 06:32:07,117 - INFO - URL OK: https://bloomberg-quicktake-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
+2025-01-05 06:32:07,117 - INFO - URL OK: https://bloomberg-quicktake-1-pt.samsung.wurl.tv/manifest/playlist.m3u8
+2025-01-05 06:32:07,439 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@dwnews: Status Code 302
+2025-01-05 06:32:07,439 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@dwnews: Status Code 302
+2025-01-05 06:32:07,481 - INFO - URL OK: https://247wlive.foxweather.com/stream/index_1280x720.m3u8
+2025-01-05 06:32:07,481 - INFO - URL OK: https://247wlive.foxweather.com/stream/index_1280x720.m3u8
+2025-01-05 06:32:22,709 - ERROR - Request Error http://170.254.18.108/MSNBC/mono.m3u8: HTTPConnectionPool(host='170.254.18.108', port=80): Max retries exceeded with url: /MSNBC/mono.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa575724890>, 'Connection to 170.254.18.108 timed out. (connect timeout=15)'))
+2025-01-05 06:32:22,709 - ERROR - Request Error http://170.254.18.108/MSNBC/mono.m3u8: HTTPConnectionPool(host='170.254.18.108', port=80): Max retries exceeded with url: /MSNBC/mono.m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa575724890>, 'Connection to 170.254.18.108 timed out. (connect timeout=15)'))
+2025-01-05 06:32:22,747 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USAJ4300005PJ.m3u8: Status Code 404
+2025-01-05 06:32:22,747 - WARNING - URL Error https://i.mjh.nz/SamsungTVPlus/USAJ4300005PJ.m3u8: Status Code 404
+2025-01-05 06:32:22,800 - INFO - URL OK: https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/index.m3u8
+2025-01-05 06:32:22,800 - INFO - URL OK: https://livestream.chdrstatic.com/b93e5b0d43ea306310a379971e384964acbe4990ce193c0bd50078275a9a657d/cheddar-42620/cheddarweblive/cheddar/index.m3u8
+2025-01-05 06:32:23,040 - WARNING - URL Error http://vavoo.to/play/3088351394/index.m3u8: Status Code 404
+2025-01-05 06:32:23,040 - WARNING - URL Error http://vavoo.to/play/3088351394/index.m3u8: Status Code 404
+2025-01-05 06:32:23,064 - INFO - URL OK: http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
+2025-01-05 06:32:23,064 - INFO - URL OK: http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
+2025-01-05 06:32:23,394 - INFO - URL OK: https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
+2025-01-05 06:32:23,394 - INFO - URL OK: https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
+2025-01-05 06:32:23,731 - INFO - URL OK: https://lightning-tracesport-samsungau.amagi.tv/playlist720p.m3u8
+2025-01-05 06:32:23,731 - INFO - URL OK: https://lightning-tracesport-samsungau.amagi.tv/playlist720p.m3u8
+2025-01-05 06:32:24,185 - INFO - URL OK: https://d2p372oxiwmcn1.cloudfront.net/hls/720plo/playlist.m3u8
+2025-01-05 06:32:24,185 - INFO - URL OK: https://d2p372oxiwmcn1.cloudfront.net/hls/720plo/playlist.m3u8
+2025-01-05 06:32:24,330 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/606c2f67-acff-4152-975a-e5bfef54eb61/2.m3u8: Status Code 404
+2025-01-05 06:32:24,330 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/606c2f67-acff-4152-975a-e5bfef54eb61/2.m3u8: Status Code 404
+2025-01-05 06:32:24,438 - INFO - URL OK: https://pac12-roku-us.amagi.tv/playlist.m3u8
+2025-01-05 06:32:24,438 - INFO - URL OK: https://pac12-roku-us.amagi.tv/playlist.m3u8
+2025-01-05 06:32:24,552 - WARNING - URL Error https://6953b888.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctcHRfRklGQVBsdXNfSExT/playlist.m3u8: Status Code 404
+2025-01-05 06:32:24,552 - WARNING - URL Error https://6953b888.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctcHRfRklGQVBsdXNfSExT/playlist.m3u8: Status Code 404
+2025-01-05 06:32:24,993 - WARNING - URL Error http://digicom.hls.iptvdc.com/canalmotor/pl.m3u8: Status Code 301
+2025-01-05 06:32:24,993 - WARNING - URL Error http://digicom.hls.iptvdc.com/canalmotor/pl.m3u8: Status Code 301
+2025-01-05 06:32:25,779 - INFO - URL OK: https://fash2043.cloudycdn.services//slive/_definst_/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+2025-01-05 06:32:25,779 - INFO - URL OK: https://fash2043.cloudycdn.services//slive/_definst_/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+2025-01-05 06:32:26,039 - INFO - URL OK: https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/chunklist_b3628000_t64MTA4MHA=.m3u8
+2025-01-05 06:32:26,039 - INFO - URL OK: https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/chunklist_b3628000_t64MTA4MHA=.m3u8
+2025-01-05 06:32:26,623 - INFO - URL OK: https://fashs043.cloudycdn.services/scte/africa/africa_chunklist.m3u8
+2025-01-05 06:32:26,623 - INFO - URL OK: https://fashs043.cloudycdn.services/scte/africa/africa_chunklist.m3u8
+2025-01-05 06:32:27,000 - WARNING - URL Error https://vcngfc1.teleosmedia.com/stream/globalfashionchannel/globalfashionchannel/playlist.m3u8: Status Code 404
+2025-01-05 06:32:27,000 - WARNING - URL Error https://vcngfc1.teleosmedia.com/stream/globalfashionchannel/globalfashionchannel/playlist.m3u8: Status Code 404
+2025-01-05 06:32:27,618 - INFO - URL OK: https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/chunklist.m3u8
+2025-01-05 06:32:27,618 - INFO - URL OK: https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/chunklist.m3u8
+2025-01-05 06:32:28,489 - WARNING - URL Error https://live-3.otcnet.ru/wfc-rus-master/index.m3u8: Status Code 404
+2025-01-05 06:32:28,489 - WARNING - URL Error https://live-3.otcnet.ru/wfc-rus-master/index.m3u8: Status Code 404
+2025-01-05 06:32:28,740 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8: Status Code 404
+2025-01-05 06:32:28,740 - WARNING - URL Error https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8: Status Code 404
+2025-01-05 06:32:28,982 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@IloveLx: Status Code 302
+2025-01-05 06:32:28,982 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@IloveLx: Status Code 302
+2025-01-05 06:32:29,161 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@WebcamTaxi: Status Code 302
+2025-01-05 06:32:29,161 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@WebcamTaxi: Status Code 302
+2025-01-05 06:32:29,326 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=_0qsRgLv3AQ: Status Code 400
+2025-01-05 06:32:29,326 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=_0qsRgLv3AQ: Status Code 400
+2025-01-05 06:32:29,380 - WARNING - URL Error https://ythls.armelin.one/channel/UCRuyAVeVd7oUwh0LWmxxBBQ.m3u8: Status Code 404
+2025-01-05 06:32:29,380 - WARNING - URL Error https://ythls.armelin.one/channel/UCRuyAVeVd7oUwh0LWmxxBBQ.m3u8: Status Code 404
+2025-01-05 06:32:29,505 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@ILoveYouVenice: Status Code 302
+2025-01-05 06:32:29,505 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=@ILoveYouVenice: Status Code 302
+2025-01-05 06:32:29,568 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=QTTTY_ra2Tg: Status Code 400
+2025-01-05 06:32:29,568 - WARNING - URL Error https://kister.net/mpl/yt2m3u8?w=QTTTY_ra2Tg: Status Code 400
+2025-01-05 06:32:29,811 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8
+2025-01-05 06:32:29,811 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8
+2025-01-05 06:32:29,956 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8
+2025-01-05 06:32:29,956 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8
+2025-01-05 06:32:30,208 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8
+2025-01-05 06:32:30,208 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8
+2025-01-05 06:32:30,447 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8
+2025-01-05 06:32:30,447 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8
+2025-01-05 06:32:30,684 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8
+2025-01-05 06:32:30,684 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8
+2025-01-05 06:32:30,929 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1memoria80a/playlist.m3u8
+2025-01-05 06:32:30,929 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1memoria80a/playlist.m3u8
+2025-01-05 06:32:31,082 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1fado80a/playlist.m3u8
+2025-01-05 06:32:31,082 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena1fado80a/playlist.m3u8
+2025-01-05 06:32:31,230 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/lusitania80a/playlist.m3u8
+2025-01-05 06:32:31,230 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/lusitania80a/playlist.m3u8
+2025-01-05 06:32:31,278 - WARNING - URL Error https://streaming-live.rtp.pt/liveradio/vida80a/playlist.m3u8: Status Code 204
+2025-01-05 06:32:31,278 - WARNING - URL Error https://streaming-live.rtp.pt/liveradio/vida80a/playlist.m3u8: Status Code 204
+2025-01-05 06:32:31,428 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena2jazzin80a/playlist.m3u8
+2025-01-05 06:32:31,428 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena2jazzin80a/playlist.m3u8
+2025-01-05 06:32:31,573 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena2opera80a/playlist.m3u8
+2025-01-05 06:32:31,573 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/antena2opera80a/playlist.m3u8
+2025-01-05 06:32:31,813 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8
+2025-01-05 06:32:31,813 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8
+2025-01-05 06:32:31,957 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8
+2025-01-05 06:32:31,957 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8
+2025-01-05 06:32:32,512 - WARNING - URL Error http://link.radios.pt/amalia?1487014253471.mp3: Status Code 301
+2025-01-05 06:32:32,512 - WARNING - URL Error http://link.radios.pt/amalia?1487014253471.mp3: Status Code 301
+2025-01-05 06:32:33,261 - INFO - URL OK: https://stream-hls.bauermedia.pt/cidade.aac/playlist.m3u8
+2025-01-05 06:32:33,261 - INFO - URL OK: https://stream-hls.bauermedia.pt/cidade.aac/playlist.m3u8
+2025-01-05 06:32:33,720 - WARNING - URL Error http://centova.radio.com.pt:9462/: Status Code 302
+2025-01-05 06:32:33,720 - WARNING - URL Error http://centova.radio.com.pt:9462/: Status Code 302
+2025-01-05 06:32:34,387 - WARNING - URL Error http://centova.radios.pt:9476/: Status Code 302
+2025-01-05 06:32:34,387 - WARNING - URL Error http://centova.radios.pt:9476/: Status Code 302
+2025-01-05 06:32:34,866 - WARNING - URL Error http://famaradio.mywire.org:8000/digitalfm64: Status Code 400
+2025-01-05 06:32:34,866 - WARNING - URL Error http://famaradio.mywire.org:8000/digitalfm64: Status Code 400
+2025-01-05 06:32:35,688 - INFO - URL OK: http://stream-icy.bauermedia.pt/m80.mp3
+2025-01-05 06:32:35,688 - INFO - URL OK: http://stream-icy.bauermedia.pt/m80.mp3
+2025-01-05 06:32:35,919 - INFO - URL OK: http://137.74.160.250:8000/;stream/1
+2025-01-05 06:32:35,919 - INFO - URL OK: http://137.74.160.250:8000/;stream/1
+2025-01-05 06:32:36,483 - WARNING - URL Error http://centova.radios.pt:8499/: Status Code 302
+2025-01-05 06:32:36,483 - WARNING - URL Error http://centova.radios.pt:8499/: Status Code 302
+2025-01-05 06:32:37,177 - WARNING - URL Error https://25703.live.streamtheworld.com/MEGA_HITSAAC_SC: Status Code 403
+2025-01-05 06:32:37,177 - WARNING - URL Error https://25703.live.streamtheworld.com/MEGA_HITSAAC_SC: Status Code 403
+2025-01-05 06:32:37,665 - WARNING - URL Error http://centova.radios.pt:9522/: Status Code 302
+2025-01-05 06:32:37,665 - WARNING - URL Error http://centova.radios.pt:9522/: Status Code 302
+2025-01-05 06:32:37,904 - INFO - URL OK: http://213.136.92.8:8030/stream
+2025-01-05 06:32:37,904 - INFO - URL OK: http://213.136.92.8:8030/stream
+2025-01-05 06:32:38,423 - WARNING - URL Error https://22673.live.streamtheworld.com/MEGA_HITSAAC.aac: Status Code 403
+2025-01-05 06:32:38,423 - WARNING - URL Error https://22673.live.streamtheworld.com/MEGA_HITSAAC.aac: Status Code 403
+2025-01-05 06:32:38,803 - ERROR - Request Error http://centova.radios.pt/proxy/495?mp=/stream: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-05 06:32:38,803 - ERROR - Request Error http://centova.radios.pt/proxy/495?mp=/stream: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-05 06:32:39,030 - ERROR - Request Error http://centova.radio.com.pt:9424/: HTTPConnectionPool(host='centova.radio.com.pt', port=9424): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa57567f020>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:32:39,030 - ERROR - Request Error http://centova.radio.com.pt:9424/: HTTPConnectionPool(host='centova.radio.com.pt', port=9424): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa57567f020>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:32:39,145 - ERROR - Request Error http://centova.radios.pt:8435: HTTPConnectionPool(host='centova.radios.pt', port=8435): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa57567fa40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:32:39,145 - ERROR - Request Error http://centova.radios.pt:8435: HTTPConnectionPool(host='centova.radios.pt', port=8435): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa57567fa40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-05 06:32:39,806 - WARNING - URL Error http://centova.radios.pt:9478/: Status Code 302
+2025-01-05 06:32:39,806 - WARNING - URL Error http://centova.radios.pt:9478/: Status Code 302
+2025-01-05 06:32:40,071 - WARNING - URL Error https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADOR_ADP.m3u8: Status Code 302
+2025-01-05 06:32:40,071 - WARNING - URL Error https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADOR_ADP.m3u8: Status Code 302
+2025-01-05 06:32:40,183 - INFO - URL OK: https://ec2.yesstreaming.net:3025/stream
+2025-01-05 06:32:40,183 - INFO - URL OK: https://ec2.yesstreaming.net:3025/stream
+2025-01-05 06:32:40,476 - ERROR - Request Error https://proic1.evspt.com/oxigenio_aac: HTTPSConnectionPool(host='proic1.evspt.com', port=443): Max retries exceeded with url: /oxigenio_aac (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-01-05 06:32:40,476 - ERROR - Request Error https://proic1.evspt.com/oxigenio_aac: HTTPSConnectionPool(host='proic1.evspt.com', port=443): Max retries exceeded with url: /oxigenio_aac (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-01-05 06:32:40,790 - INFO - URL OK: http://centova.radios.pt:9492/stream
+2025-01-05 06:32:40,790 - INFO - URL OK: http://centova.radios.pt:9492/stream
+2025-01-05 06:32:41,644 - WARNING - URL Error https://stream.radioquantica.com:8443/stream: Status Code 400
+2025-01-05 06:32:41,644 - WARNING - URL Error https://stream.radioquantica.com:8443/stream: Status Code 400
+2025-01-05 06:32:41,887 - ERROR - Request Error https://proic1.evspt.com/radar_aac: HTTPSConnectionPool(host='proic1.evspt.com', port=443): Max retries exceeded with url: /radar_aac (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-01-05 06:32:41,887 - ERROR - Request Error https://proic1.evspt.com/radar_aac: HTTPSConnectionPool(host='proic1.evspt.com', port=443): Max retries exceeded with url: /radar_aac (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-01-05 06:32:42,230 - WARNING - URL Error http://streaming.radioregional.pt:8000: Status Code 302
+2025-01-05 06:32:42,230 - WARNING - URL Error http://streaming.radioregional.pt:8000: Status Code 302
+2025-01-05 06:32:42,668 - WARNING - URL Error http://centova.radio.com.pt:8485/: Status Code 302
+2025-01-05 06:32:42,668 - WARNING - URL Error http://centova.radio.com.pt:8485/: Status Code 302
+2025-01-05 06:32:42,990 - WARNING - URL Error http://streaming.radioregional.pt:8064: Status Code 302
+2025-01-05 06:32:42,990 - WARNING - URL Error http://streaming.radioregional.pt:8064: Status Code 302
+2025-01-05 06:32:43,348 - WARNING - URL Error http://streaming.radioregional.pt:8058: Status Code 302
+2025-01-05 06:32:43,348 - WARNING - URL Error http://streaming.radioregional.pt:8058: Status Code 302
+2025-01-05 06:32:43,615 - WARNING - URL Error http://streaming.radioregional.pt:8052: Status Code 302
+2025-01-05 06:32:43,615 - WARNING - URL Error http://streaming.radioregional.pt:8052: Status Code 302
+2025-01-05 06:32:43,937 - WARNING - URL Error http://streaming.radioregional.pt:8040: Status Code 302
+2025-01-05 06:32:43,937 - WARNING - URL Error http://streaming.radioregional.pt:8040: Status Code 302
+2025-01-05 06:32:44,171 - WARNING - URL Error http://streaming.radioregional.pt:8046: Status Code 302
+2025-01-05 06:32:44,171 - WARNING - URL Error http://streaming.radioregional.pt:8046: Status Code 302
+2025-01-05 06:32:45,023 - WARNING - URL Error https://25643.live.streamtheworld.com/RADIO_RENASCENCAAAC: Status Code 403
+2025-01-05 06:32:45,023 - WARNING - URL Error https://25643.live.streamtheworld.com/RADIO_RENASCENCAAAC: Status Code 403
+2025-01-05 06:32:45,535 - ERROR - Request Error https://centova.radios.pt/proxy/435?mp=/stream: ('Connection aborted.', BadStatusLine('RPC-ERR authentication failed\n'))
+2025-01-05 06:32:45,535 - ERROR - Request Error https://centova.radios.pt/proxy/435?mp=/stream: ('Connection aborted.', BadStatusLine('RPC-ERR authentication failed\n'))
+2025-01-05 06:32:45,971 - INFO - URL OK: http://centova.radios.pt:9404/stream
+2025-01-05 06:32:45,971 - INFO - URL OK: http://centova.radios.pt:9404/stream
+2025-01-05 06:32:46,357 - WARNING - URL Error https://stream.ruc.pt/high: Status Code 400
+2025-01-05 06:32:46,357 - WARNING - URL Error https://stream.ruc.pt/high: Status Code 400
+2025-01-05 06:32:47,049 - ERROR - Request Error https://centova.radio.com.pt/proxy/558?mp=/stream: ('Connection aborted.', BadStatusLine('RPC-ERR authentication failed\n'))
+2025-01-05 06:32:47,049 - ERROR - Request Error https://centova.radio.com.pt/proxy/558?mp=/stream: ('Connection aborted.', BadStatusLine('RPC-ERR authentication failed\n'))
+2025-01-05 06:32:47,593 - WARNING - URL Error http://centova.radio.com.pt:9434/: Status Code 302
+2025-01-05 06:32:47,593 - WARNING - URL Error http://centova.radio.com.pt:9434/: Status Code 302
+2025-01-05 06:32:48,186 - INFO - URL OK: https://27873.live.streamtheworld.com/RFMAAC.aac
+2025-01-05 06:32:48,186 - INFO - URL OK: https://27873.live.streamtheworld.com/RFMAAC.aac
+2025-01-05 06:32:48,804 - WARNING - URL Error https://25443.live.streamtheworld.com/RFM_FRESCASAAC.aac: Status Code 403
+2025-01-05 06:32:48,804 - WARNING - URL Error https://25443.live.streamtheworld.com/RFM_FRESCASAAC.aac: Status Code 403
+2025-01-05 06:32:49,295 - WARNING - URL Error https://22673.live.streamtheworld.com/DANCEONTHEFLOORAAC.aac: Status Code 403
+2025-01-05 06:32:49,295 - WARNING - URL Error https://22673.live.streamtheworld.com/DANCEONTHEFLOORAAC.aac: Status Code 403
+2025-01-05 06:32:49,921 - WARNING - URL Error https://25703.live.streamtheworld.com/RFMONTHEROCKAAC.aac: Status Code 403
+2025-01-05 06:32:49,921 - WARNING - URL Error https://25703.live.streamtheworld.com/RFMONTHEROCKAAC.aac: Status Code 403
+2025-01-05 06:32:50,539 - WARNING - URL Error https://22533.live.streamtheworld.com/GR80SRFMAAC: Status Code 403
+2025-01-05 06:32:50,539 - WARNING - URL Error https://22533.live.streamtheworld.com/GR80SRFMAAC: Status Code 403
+2025-01-05 06:32:51,059 - WARNING - URL Error https://22533.live.streamtheworld.com/RFM_90SAAC.aac: Status Code 403
+2025-01-05 06:32:51,059 - WARNING - URL Error https://22533.live.streamtheworld.com/RFM_90SAAC.aac: Status Code 403
+2025-01-05 06:32:51,471 - INFO - URL OK: https://27793.live.streamtheworld.com/LIVESTREAMAAC.aac
+2025-01-05 06:32:51,471 - INFO - URL OK: https://27793.live.streamtheworld.com/LIVESTREAMAAC.aac
+2025-01-05 06:32:52,157 - WARNING - URL Error https://25533.live.streamtheworld.com/OCEANPACIFICAAC: Status Code 403
+2025-01-05 06:32:52,157 - WARNING - URL Error https://25533.live.streamtheworld.com/OCEANPACIFICAAC: Status Code 403
+2025-01-05 06:32:52,639 - WARNING - URL Error https://27913.live.streamtheworld.com/RFM_PORTUGALAAC.aac: Status Code 403
+2025-01-05 06:32:52,639 - WARNING - URL Error https://27913.live.streamtheworld.com/RFM_PORTUGALAAC.aac: Status Code 403
+2025-01-05 06:32:52,956 - WARNING - URL Error http://tsfdirecto.tsf.pt/tsfdirecto.mp3: Status Code 404
+2025-01-05 06:32:52,956 - WARNING - URL Error http://tsfdirecto.tsf.pt/tsfdirecto.mp3: Status Code 404
+2025-01-05 06:32:53,193 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8
+2025-01-05 06:32:53,193 - INFO - URL OK: https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8
+2025-01-05 06:32:53,756 - ERROR - Request Error https://centova.radio.com.pt/proxy/567?mp=/stream: ('Connection aborted.', BadStatusLine('RPC-ERR authentication failed\n'))
+2025-01-05 06:32:53,756 - ERROR - Request Error https://centova.radio.com.pt/proxy/567?mp=/stream: ('Connection aborted.', BadStatusLine('RPC-ERR authentication failed\n'))
+2025-01-05 06:33:08,772 - ERROR - Request Error http://46.10.150.243/z-rock.mp3?stream=m3u8: HTTPConnectionPool(host='46.10.150.243', port=80): Max retries exceeded with url: /z-rock.mp3?stream=m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa57567c2c0>, 'Connection to 46.10.150.243 timed out. (connect timeout=15)'))
+2025-01-05 06:33:08,772 - ERROR - Request Error http://46.10.150.243/z-rock.mp3?stream=m3u8: HTTPConnectionPool(host='46.10.150.243', port=80): Max retries exceeded with url: /z-rock.mp3?stream=m3u8 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa57567c2c0>, 'Connection to 46.10.150.243 timed out. (connect timeout=15)'))
