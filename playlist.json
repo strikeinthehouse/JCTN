@@ -11,6 +11,17 @@
     ]
   },
   {
+    "name": "\ud83c\uddf5\ud83c\uddf9 RTP 2",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/EWbaWA6.png",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:http-user-agent=Android",
+      "#EXTVLCOPT:http-referrer=https://rtp.pt/"
+    ]
+  },
+  {
     "name": "\ud83c\uddf5\ud83c\uddf9 RTP 3",
     "group": "Undefined",
     "tvg_id": "Undefined",
@@ -218,14 +229,6 @@
     "tvg_id": "Undefined",
     "logo": "https://i.imgur.com/HZDRG0K.png",
     "url": "https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\ud83c\udde7\ud83c\uddf7 BAND TV",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwU8rZ3iDNSeDvQj3sk3MMIgjADioLeOGiwcL_l-0nwE_WhGSwABiAfahwrk&s",
-    "url": "https://streaming.gruporba.com.br/rba.m3u8",
     "extra": []
   },
   {
@@ -874,6 +877,14 @@
     "tvg_id": "Undefined",
     "logo": "https://i.imgur.com/tI7n2ZP.png",
     "url": "https://viva-russia.ru/iptv.m3u",
+    "extra": []
+  },
+  {
+    "name": "\ud83c\udfb5 MTV LIVE \u24cd",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://i.pinimg.com/originals/78/d8/f1/78d8f180e810ce6e335dd3bc0e052fe8.gif",
+    "url": "http://45.5.117.182:8000/play/a0ie/index.m3u8",
     "extra": []
   },
   {
