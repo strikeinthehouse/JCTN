@@ -1,79 +1,781 @@
-2025-01-05 13:13:03,044 - error - Erro ao tentar navegar para a próxima página: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-a-target="pagination-forward-button"]"}
-  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-#0 0x55dd065f531a <unknown>
-#1 0x55dd0610b6e0 <unknown>
-#2 0x55dd0615a3e6 <unknown>
-#3 0x55dd0615a681 <unknown>
-#4 0x55dd0619fb04 <unknown>
-#5 0x55dd0617e48d <unknown>
-#6 0x55dd0619ced7 <unknown>
-#7 0x55dd0617e203 <unknown>
-#8 0x55dd0614ccc0 <unknown>
-#9 0x55dd0614dc9e <unknown>
-#10 0x55dd065c2d0b <unknown>
-#11 0x55dd065c6c92 <unknown>
-#12 0x55dd065afb3c <unknown>
-#13 0x55dd065c7807 <unknown>
-#14 0x55dd065950df <unknown>
-#15 0x55dd065e4578 <unknown>
-#16 0x55dd065e4740 <unknown>
-#17 0x55dd065f4196 <unknown>
-#18 0x7f014129ca94 <unknown>
-#19 0x7f0141329c3c <unknown>
-
-2025-01-05 13:13:04,800 - error - Erro ao tentar navegar para a próxima página: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-a-target="pagination-forward-button"]"}
-  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-#0 0x55dd065f531a <unknown>
-#1 0x55dd0610b6e0 <unknown>
-#2 0x55dd0615a3e6 <unknown>
-#3 0x55dd0615a681 <unknown>
-#4 0x55dd0619fb04 <unknown>
-#5 0x55dd0617e48d <unknown>
-#6 0x55dd0619ced7 <unknown>
-#7 0x55dd0617e203 <unknown>
-#8 0x55dd0614ccc0 <unknown>
-#9 0x55dd0614dc9e <unknown>
-#10 0x55dd065c2d0b <unknown>
-#11 0x55dd065c6c92 <unknown>
-#12 0x55dd065afb3c <unknown>
-#13 0x55dd065c7807 <unknown>
-#14 0x55dd065950df <unknown>
-#15 0x55dd065e4578 <unknown>
-#16 0x55dd065e4740 <unknown>
-#17 0x55dd065f4196 <unknown>
-#18 0x7f014129ca94 <unknown>
-#19 0x7f0141329c3c <unknown>
-
-2025-01-05 13:13:06,336 - error - Erro ao tentar navegar para a próxima página: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-a-target="pagination-forward-button"]"}
-  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-#0 0x55dd065f531a <unknown>
-#1 0x55dd0610b6e0 <unknown>
-#2 0x55dd0615a3e6 <unknown>
-#3 0x55dd0615a681 <unknown>
-#4 0x55dd0619fb04 <unknown>
-#5 0x55dd0617e48d <unknown>
-#6 0x55dd0619ced7 <unknown>
-#7 0x55dd0617e203 <unknown>
-#8 0x55dd0614ccc0 <unknown>
-#9 0x55dd0614dc9e <unknown>
-#10 0x55dd065c2d0b <unknown>
-#11 0x55dd065c6c92 <unknown>
-#12 0x55dd065afb3c <unknown>
-#13 0x55dd065c7807 <unknown>
-#14 0x55dd065950df <unknown>
-#15 0x55dd065e4578 <unknown>
-#16 0x55dd065e4740 <unknown>
-#17 0x55dd065f4196 <unknown>
-#18 0x7f014129ca94 <unknown>
-#19 0x7f0141329c3c <unknown>
-
-2025-01-05 13:13:09,173 - debug - Streams disponíveis para https://www.twitch.tv/cuxixu_stream: {'audio_only': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CsAEgkjMgbwKYbN98P580vg-U66IGcb5XgojgQqlMAoYWLfSMAr3UQTj4nmhZeCvVKyq-xtugr8xNsbbHcfp6nQ57rL8YCo1pXMpDEeEY2ntnlOHuyF3r6H2fj0NWX_-969eaoIJzBx4VARjgn4mTwRrLhQxheaFyM0iMxN2gitXXpNq_95r2SWaxSEVwI29qDiuFXuiDbcKVovKVmgOIIiSI7HWECcD6mvW6LCdXSfCUYFvFbQ5qj46T1WGHt4_GUta3DflmmyqlVqNiedey8P-_HICaIpmcmOd826rX0tkrSD30CAtngHyFhUvZYFeqr_PItqOBKoN02UblES2AwaedSPFpRdXASZAFezvn9Vjl-2zCiBQdyfjS4xM5tnXJ0vVvd5eTK7WnA4xC-4FkDWhnCXbkHIqsHCtud9hnIswkdeEP4YpCErpX4YE93Z7j6_BUdfUl9RRKvJEknzDVd7uck7JqbPfB6gp8LNjSw0iwOCMOXWP6LwMykdo_PTkkB2RQfTIwSPrXhVdpHDZqLoLkfEOwbfwmISNQ2_p100gsfiL65tJ723NdhexYqQsgV4NH3mlH5YrhQYD8tT_wvJ_FAoIny1M7RU70M1hEEvem8Jeg5lBGVCybu-qjjVzbBisyvLVsz9f0wdNLUPR7QV1RS4LmYyfsxbdXWZzSmst5wW84oiKSfKu_kzoYcm-ITTRrmxq8jxx3_cNh62uQAHEogUJs_FvjeC-MJWa8_uItplE5neQ9VEm2fa3Gw4T26xfGgzSRwC3O93sTzbpgzwgASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '160p': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CsoExYJ4oHBwMPdBA9JvHakf-QTo3FyOHVhrPUdX2SykAeEXBq25am-BEJgmQkmX5qWzDZmXehkxp4wyXxRM__F1v3Ao4Hjjr0kk6lIZj8l_s-0dLLsiZ95Jl5YP_IqYwc_N-lV5plauY8AGmZwP6egUr9CWK1Epc4GpamphJYpc6KLtYXm3oN0h9Ci4dzyTmI-66y08vN5KxOzckREg-qi0KuzvM1idb4EwIp16OOSZ3gRhIEHqcKhLu_oFKV1VMcnghfiqsqdP0kkQesX3YvyoXwRPABJUYiGipb-aHUnkDrY7TH-i8n1yG0xfpNjpBGEWzkZfi2ittFqSSpsUPFY44phFddhzPEIDpWfpyzF6tpfop8-C_SR_7KzIPbsKEhL6bWNJY_eH54GkvoCf9_6L1hh8HSS_nMp0lbBIqepLuVtIIeRZSUkxnjle_ui5vqb_VLguU3DssyHUkg72O1tobLdaUlWx5gAkh4NgU4ISEo9WRAlC8C7tvfdqx9bUwmJ_DQyn58pudtPXkQ_djtQQR6HHn6ZjDnvi5MKYlD_iPRZGz0mjTef93EIPRMonI3VF96jwmZBNv0utr7aNiretXyZKBiNnF7PDWKVTO0Tt_9zQvxIRtsnoajwr6UCTtq8Wv_gePtKsPrTv2ALz_pp805FaaM8Dx1Ds3looJc4WkRr0wp_hgcmgeYZKNpzqLy5W-hTcv20e8vUenKc-UETqUuwpOifQVKmm6wmJm4Ql2aI2FEMdz2oUkF4koJhB9V8QlTFBeuxT7ZHU-BoMYfMsQk9ylYn1VFUIIAEqCXVzLWVhc3QtMTDXCQ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '360p': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CtIEDE6bOap6uqGLOJm0sc5p3HarYHCLfRgD2Zz7Mjdhpq3OvQ8ZNuMJFx-ixamO9aiK6_S7Z5UVc4pU_UtXiXN4D9btrgoFM1LSu_LNPS5BCK5hCX7oDa4OG1tyrOFXwTohJ2I7i96uOrLnO6V-XjaGCq51pkKQZf4fMRfCViBPS6jB49dRTyiwqIH90vp9uoZQqvpgOkbyZ4UB9ri42iiEB4lNVpUm3dmtM_rx6aixyztjH8RiLt7a78HmYWlQC9fn-5UudG_ackaJpge44pROUOdbjSQNYrJDDBoX07kDzcRH1whILVJnk-fI7kvUPyXzV_WTIYRnDp53e_enik_qU6F1Q0Td01PEGWb2BUz-E-kaVG-b83Plhu4uUiDGIA6YBqzmkKqYmAiV3mxG3egiDIkiw2Nk_HHvknZe9hu8-dmG_SAIx3qUJONLOU2DfEu__7VI2PuCdRe652FKNbJ2zngJCRZF0PFLtoYXzy0uqZEiff1yB284a4zDUul-u2FUv41KB1QnVRXFQhv9Zb4RA-zYq0_njPAImVeepDMZ9STAhutex7zYzeikzt88pokNaIWWCxZHQ1bn6T9HY4toYrje0eHXqwQLaaPB6Jt69qq-NrDsJzuaWFnw5R1dU8hB5ZaPoXkfauWouWFlPBPyoQU3SLT2kU0NOfUAOPpEF5BZOQuuWgCwYvzeZbmQbeHpax7ZDIxVGlJuPlnzXCWUICXBCV-IynYtsVVdf46afmu2cJr2-QCZyAY4tYX9MoBXGHvl5S4hTpx8uks73jy6cC47GgyngLzsAawqn7DZDoggASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '480p': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CtoELOiFK7vNBtouiKZP1hn6G3nmfxe5UhoCuNYIMr8Ebmo-1tlMsMs9bdzvmhGODx8vbX0et0YwIOwwf6hYR8SPSiGHB3amS5pgd888NyrdTJhFu5yvbErcUBZ0DBORGlX2MfLPV5zLAAwZiDn8o7Yo_4_47XW9vNYsi8TJO9gQ7N9iiWIOnHBC6-eOmiiNtfmJnL5u4-OyAaRc4sa7wfTnNFjUe2G6XCQkRxdCbspiN7yf6QF2CY9_l5GG_Ar5SVZQea2uE9okFLpogqzxiX3NPEDntLe0iKfF2Y62pE1xdcxP8c8XvdT2DwdP8SHDszB5I55mU_NB-flUPZXCCvbmJUEX1Z04y7KXjIbe3fxxsRKVsWxVZy2kftDwMsH-xJJz8iDakqMlQPBy55paliOGsUs9k3w6tXHH8DClhVYJ3Y6jOF5TOU7gStTfxTW9YCtuNUOTmOL5VR8hicn2o3RsG49rUH_9T60Rn15UmkLXERFL4XDjGQ5zExS0yYw9nFb39RkFw3gJ_Q0HkfmMxTcUhn6qlq8WqdM-ggi-C7xXsYdWr9c-M_gEUmhe9r1u8iKGTSZ9lYGAyC_9yZXj2hJA3zxArQfEd6UoMJTsF1stYj0fP4zK4fFvm9AfaSfbx7S3D2feEF8UDU-a2lzSXNCzKGIQACqbU5qU7NHp_LLGpyEbImHdrpz8504lOOF5P1llp3aUQtY_66FThKV719cf_dTOkNfR74eBr99ygjalJlISFNnlcC3UV7IYBe5UyGwlcnlnpWD2S6VABT3ZjrMm1oqQyhhKtdN50TUaDOeq1JH_VbbkYg0FhiABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '720p_alt': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CuIE_Z5Ow-17GRvYPw8_K_dTsrROjj2jQz_5CXPRE5PA-1fU2-MveHHnvrUZdzcLQ2D9VO_MH8MCKOmraAL6Sn5CR0evt2Qukv1iFycTf5IjNY8DLsD_TqAgjqvaohVtEXYInJqwHy9QbJSpXZwOW_9dmR4vVHASmW9p6i59Xa-81OoHtZqaqldmDAy6yhwzo-3LTGhKvwzUpYnku3GyID-dLa63TrKsmV_SVvRzW2OC0TfUva_sjrQiNoO9G-riBbxQmAejRDnFaksrZ-OLttgExvMH0G_Ms50G2SzVHUUCfA2Vo2Nn9QgV4u5QpEOOc4SfDioSJje8C-ZzZaR13bFGIa6_c9lCXQITovTq64tfMGgICQ5S3Je9EaCGm72YA2DxarAjtgIeKYWLsfgosI3rdbyBAQxFtkKhlmFr1m3ZyFrnyC29fw5ukgcL30tr4D68XcuAiN6XxYu3w9fOA5xUqTf7_lfs3CUSpUbkN8Die5LncuGygBtcrvBTWYSLADhNCqZtDIwJLB3xQgg2kMnK7xvvZl4CZFyHOzb-Gk13n19w8aCqzaHU_ncy3tt_jCleO1Hn8XzTGGGUCQEENugNZh9m3NB-O6LAZQMRkLi7OVIyA3sk5VJ9EyAW3H5cNk9TneB4mjaCqZ5BIuPIXONQtdcGoyIIuMlHuplsnVYpzsqFK3C1FQWXQqGz3fOPjW5yH_vYcQw9ckeIr8P0TscLGSw9eyKSiK4k5xmr0LRxCsIY3hQuukQWn14ELrYILpAxa_08lgQM06hJZLgbptrlVSrMRAemFA2OyMP6n9z2JHyrUxoM245fAa9Pp0jtqwNYIAEqCXVzLWVhc3QtMTDXCQ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '720p': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CuwEvFAab_nt8zhJwSxPcqKOEO7wvLSDLov5iC6Qi4dXtrM7z24eWfEmPA53VG-png3Rk4x340UF8gfIAsCXDvFWOvtYXtgRF2yZNKohnLciCw37_3I-pa3UfSwXr0kkcKZhxjbBrObegHuzldqYMUCpCldHBEUHKxpUhUEEyDngmbNg6UJrdD5QzfNrdVwC5sDa1Mz1l9l2O-gziSDd-yplClhXqjf0KjEazMwHG_pTmTP8Ez7ILUoCH1lBVvT6EgC_FIJ4w8G6NhVF6kE61vuy1WeIxXAOvqEoZGXT6TOhTUX2APkt6E6xl_TvCw3dQSBlMu0XD_gPMtTy7wJmxCWcLMUnpYknB5-k6uCowXjnFD534L8LUZGft-08UW132NY9I-bvjc-tL1gMuJZk37RLp-BxjYMUGImsSyeSbHH1GEsz1zc8bUmGR98Kkv6qd93rA44g9ni0TrS0Jxb3Zx_YPLjJjCuy2_YCnOiD4XGf8CckoUbo-P-oUmpOLVGaMsyNvnXHrFHkXVFXOK8YRtIb_4CGE1LPjFFKDp1NduMVjuKMFqerTgdKOr6sjWZFdKIiUb3WC-UTcJeaC9ojz9y_BRyKBSQzLi-x0WueciANQ9ksmiAuJm4qluQ-f9dGj8IQXTLFHqDBB2m6so7BRq_LiNEddJ4u2dTMEesrmrG67_UJ6iSoqjBHHQ4myRjPonqbUFLWo5nbdTD4eEjSJMWK3ADL3yKeqdu-1VYt3iM6yLcaGp7PgN-VaMV_GbShC_fHbCW8it3dRAG01BvqeQdSypwQrSFuah_BN2v8FoShedxAy5uoYfo6KyFfoPgaDMgblYglLdnTgHtmwyABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'worst': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CsoExYJ4oHBwMPdBA9JvHakf-QTo3FyOHVhrPUdX2SykAeEXBq25am-BEJgmQkmX5qWzDZmXehkxp4wyXxRM__F1v3Ao4Hjjr0kk6lIZj8l_s-0dLLsiZ95Jl5YP_IqYwc_N-lV5plauY8AGmZwP6egUr9CWK1Epc4GpamphJYpc6KLtYXm3oN0h9Ci4dzyTmI-66y08vN5KxOzckREg-qi0KuzvM1idb4EwIp16OOSZ3gRhIEHqcKhLu_oFKV1VMcnghfiqsqdP0kkQesX3YvyoXwRPABJUYiGipb-aHUnkDrY7TH-i8n1yG0xfpNjpBGEWzkZfi2ittFqSSpsUPFY44phFddhzPEIDpWfpyzF6tpfop8-C_SR_7KzIPbsKEhL6bWNJY_eH54GkvoCf9_6L1hh8HSS_nMp0lbBIqepLuVtIIeRZSUkxnjle_ui5vqb_VLguU3DssyHUkg72O1tobLdaUlWx5gAkh4NgU4ISEo9WRAlC8C7tvfdqx9bUwmJ_DQyn58pudtPXkQ_djtQQR6HHn6ZjDnvi5MKYlD_iPRZGz0mjTef93EIPRMonI3VF96jwmZBNv0utr7aNiretXyZKBiNnF7PDWKVTO0Tt_9zQvxIRtsnoajwr6UCTtq8Wv_gePtKsPrTv2ALz_pp805FaaM8Dx1Ds3looJc4WkRr0wp_hgcmgeYZKNpzqLy5W-hTcv20e8vUenKc-UETqUuwpOifQVKmm6wmJm4Ql2aI2FEMdz2oUkF4koJhB9V8QlTFBeuxT7ZHU-BoMYfMsQk9ylYn1VFUIIAEqCXVzLWVhc3QtMTDXCQ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'best': <TwitchHLSStream ['hls', 'https://sae11.playlist.ttvnw.net/v1/playlist/CuwEvFAab_nt8zhJwSxPcqKOEO7wvLSDLov5iC6Qi4dXtrM7z24eWfEmPA53VG-png3Rk4x340UF8gfIAsCXDvFWOvtYXtgRF2yZNKohnLciCw37_3I-pa3UfSwXr0kkcKZhxjbBrObegHuzldqYMUCpCldHBEUHKxpUhUEEyDngmbNg6UJrdD5QzfNrdVwC5sDa1Mz1l9l2O-gziSDd-yplClhXqjf0KjEazMwHG_pTmTP8Ez7ILUoCH1lBVvT6EgC_FIJ4w8G6NhVF6kE61vuy1WeIxXAOvqEoZGXT6TOhTUX2APkt6E6xl_TvCw3dQSBlMu0XD_gPMtTy7wJmxCWcLMUnpYknB5-k6uCowXjnFD534L8LUZGft-08UW132NY9I-bvjc-tL1gMuJZk37RLp-BxjYMUGImsSyeSbHH1GEsz1zc8bUmGR98Kkv6qd93rA44g9ni0TrS0Jxb3Zx_YPLjJjCuy2_YCnOiD4XGf8CckoUbo-P-oUmpOLVGaMsyNvnXHrFHkXVFXOK8YRtIb_4CGE1LPjFFKDp1NduMVjuKMFqerTgdKOr6sjWZFdKIiUb3WC-UTcJeaC9ojz9y_BRyKBSQzLi-x0WueciANQ9ksmiAuJm4qluQ-f9dGj8IQXTLFHqDBB2m6so7BRq_LiNEddJ4u2dTMEesrmrG67_UJ6iSoqjBHHQ4myRjPonqbUFLWo5nbdTD4eEjSJMWK3ADL3yKeqdu-1VYt3iM6yLcaGp7PgN-VaMV_GbShC_fHbCW8it3dRAG01BvqeQdSypwQrSFuah_BN2v8FoShedxAy5uoYfo6KyFfoPgaDMgblYglLdnTgHtmwyABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/cuxixu_stream.m3u8?player=twitchweb&p=898139&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=060f86a9637c55f3036d7bb2d68a5f2633ee4b94&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22cuxixu_stream%22%2C%22channel_id%22%3A1225602334%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083986%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>}
-2025-01-05 13:13:09,646 - debug - URL válida: https://sae11.playlist.ttvnw.net/v1/playlist/CuwEvFAab_nt8zhJwSxPcqKOEO7wvLSDLov5iC6Qi4dXtrM7z24eWfEmPA53VG-png3Rk4x340UF8gfIAsCXDvFWOvtYXtgRF2yZNKohnLciCw37_3I-pa3UfSwXr0kkcKZhxjbBrObegHuzldqYMUCpCldHBEUHKxpUhUEEyDngmbNg6UJrdD5QzfNrdVwC5sDa1Mz1l9l2O-gziSDd-yplClhXqjf0KjEazMwHG_pTmTP8Ez7ILUoCH1lBVvT6EgC_FIJ4w8G6NhVF6kE61vuy1WeIxXAOvqEoZGXT6TOhTUX2APkt6E6xl_TvCw3dQSBlMu0XD_gPMtTy7wJmxCWcLMUnpYknB5-k6uCowXjnFD534L8LUZGft-08UW132NY9I-bvjc-tL1gMuJZk37RLp-BxjYMUGImsSyeSbHH1GEsz1zc8bUmGR98Kkv6qd93rA44g9ni0TrS0Jxb3Zx_YPLjJjCuy2_YCnOiD4XGf8CckoUbo-P-oUmpOLVGaMsyNvnXHrFHkXVFXOK8YRtIb_4CGE1LPjFFKDp1NduMVjuKMFqerTgdKOr6sjWZFdKIiUb3WC-UTcJeaC9ojz9y_BRyKBSQzLi-x0WueciANQ9ksmiAuJm4qluQ-f9dGj8IQXTLFHqDBB2m6so7BRq_LiNEddJ4u2dTMEesrmrG67_UJ6iSoqjBHHQ4myRjPonqbUFLWo5nbdTD4eEjSJMWK3ADL3yKeqdu-1VYt3iM6yLcaGp7PgN-VaMV_GbShC_fHbCW8it3dRAG01BvqeQdSypwQrSFuah_BN2v8FoShedxAy5uoYfo6KyFfoPgaDMgblYglLdnTgHtmwyABKgl1cy1lYXN0LTEw1wk.m3u8
-2025-01-05 13:13:10,586 - debug - Streams disponíveis para https://www.twitch.tv/dolcedasousa: {'audio_only': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CroEl51JMLzQyBx5hsF88jeFiX31iya_vdDFI9k6zen9-AVt0JkWhG7xA_TLwNleao3ZIoc_fy3m01BCca7DcBtdIyyRD6Di1jRrav05J6qVXCJXvk4-e0ZKzX77-LYSYT31e2cE__AguG4yO2AlZwvKf37xiF530fAeKnYFqRXnjCu7m_1PsZEdkR_2__nA39UbyR8VWHGQXV-PoElCjLmYtCc9ZDQp55l-KddEpm1cd8F70i9UstO1dHwqGvTXle3DJzotUOFU8gKyK0EEMUPC7BOAHCJAYkUQEl7uh4FS-q47xd_UEHj_y8RoDIRPG0dL1v727URabRdGD899JCee819sZsMqifFo1kI1FDutOJItSLmMF2cuxgmuy2la3eDl6m6eU58LRdcVTYRZO_o8NMRqMG9oT-7gPaUQRIvetPBO7SwX5uOIPolTc9fSmSezWEJh9_3YYVR5aiV_MVjWyoUKaSPz5zE8PMJEYxknHal3gu-n-PK_CcgNS57ZJMpJvTTURg2-y4q_TmZfqAsCEp40xXCAzDY3Nic-B5E5NdD0f9KWwnhZTXL4HMTmJxGABJ57vBJ5BOaTB4CeNeYZkX9o17J8UnDOOC-acEMOOwrtdVg1XlRFQ86egH4xjTcKQHQepewDx40T6aJW7ISwz3lKlGZskxO7DPCiPZVTIapU7b39PAl4l5UQKEe0aBinhN7CvGW_I7tREawjhgHMflaYkXAdORtxxyowywC7Ti8IK8fBcKODxcDAGgzeqpJU-bQPopApYwEgASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '160p': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CsQELHlZklwm-fyg738pKILdPHIQ-xyhzwcaG4WU0sYdUDIUSIlk06P8vYQLZD1DzvO6hifKHOiX8OAgryUOnj5jWDTiu96KH_GjwvcKEd8ZMYgEt0HwRrcLl9cBzsuyD0hxjOL8BnqoGkHpULt6ZNAKZF92kJM3Gf2ZaB6l2szOwTdotX4qQZSw4kNAEow50sWC23Ma_OTZK56ZiOF1xKWGdoJYg7qyAcqUNFNoK5nJOkaqV0kgf6YJ-xX9s3xR1ZoYf7ukxXrKMseAEGFVqAm_QfzUGWzJoBb7aRvwnlicSWa7bgp2Hyzke1NL0sSKGb8MiNHlhI6BUoHCfTTzQQGYAFw2My757VnaISx-SjTvIBsyuJ0AqC-iI9mwuNqOLwercqKBOxKQ3pf8UvcMwI0Ri9WleLanWtxQvvvBL07ltldGihfNWPmss5SgShksKWLIDIlcMAXLzn5un8NaURCtvhf3DuXNB-x6bG0cZo3mjZoJN0s42RfH7v2AEOq6nmHyZSyihCfoqe1sESgjbA5IEb5JtvugSpW-xKI0iB0DKOGOt4_o6ellXB9KCscNM2n9krhLmILSI5rOy_er3mzmY4EaDyS3EFFSlJQ7ehQtYTJyeySB20ojRLbsx_-8DHl54ec0_BlLjoosQ3rxcTzu_EWY-uhs3-7lVnrf3a6MYmQQR2_Ul7kfrvxcjPYVTcTxptus3m4cF8a0Q9UJTC2PArQ9mtsKpp2jDwH7BgFlRUgb_xRky3cUqzHzECoqt1XyButVJhoMGIo2IegP5eYH0X22IAEqCXVzLWVhc3QtMTDXCQ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '360p': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CswE5MODM4Mx1zxCVdNOQ4HKYMGd3FL9kVwIWigwtYCJStK6WqaiJsNCpgF3XoWZjxvj-kaQYEsNgtEQHBkLnzMdJmZSYCXXBWoDhD82wIsJZwK7qECB5wO4oOQi2IbAGp3Ga6uWP8TLpAKDnZOkWr7uq7jz654QUwBl-CojY3ByLHPnM1K0nspWERBl6nd999quXx49CUMDIp6Lg6yLqR8eGoy-ZgejVZ2ailsWNl1LV0iwigSt-HidK_6jEsVgrClBEQuK3mBU6ZmWpM72OKG7E7qMeZnO4ZtUB4bwLLyCko8KPt7sKc6EuYlkbGtrAuPGpQ13PMeFAS8nJSASiFSAK6uS5zQRYp7rYEYDkQYAafcxKfrMMG4tQHwklqUBte7uqbh1lA_WEGkB2oP9rBMdHDUtEw9ZT_XhbvSsg-QXrSseJF4tL8SGZ87sSdfnoJR5Y2EUZomdd7xJq29EiBjvFmMPAQ74Ny28-qFm7abNKwUohsFG4K8LVS4hJKhyg6Cx8pmXM7CaF-ShuGuqnEkGgLs62yWpd020kMnpXS9ddA9BaI53XSeANVlA7szf-hbGiIwVur7ha0WxhfLDr-WZn_PFh5-P7C2r-q9A7DyaCK87mEDTl1wIS8FVFJLqRHP51qbbA-Etix48b6hdMAdwxVBe5zpmcZJ0MoMIHAjoauthl_HvAYqrD3N0QBEeo38NNSMBlKrgrKBMxnC3_nrVlCSGZlItNfMmhZJ0lwHZ7UlCNPEPHiZZhQoI9SzZYHG4VvgNZGnTBBv34OihGgyfQ67UPTQXQUv8Kh8gASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '480p': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CtQEyagMnd6D1A3PtX8MRGeYW0gvxgJu8mK7FOL5fsn4TEf6kw1fYkhBDPkUQBclNhR9RblSOGTP8wt2nOXlTxt3prV3OjPlTFW5uSUuMmIAPd1kqWerCsWYHrmZL36YbGyYnKQ6ERP4wb1u0XkbLYbGEoyyWBHbv1nw4LmlMaYiq0D1DdvZPpOAbyOJWTg_N3ih8lhuqy8wlAk87VGs3todrS9hfsNN9ve-t9ZG20RitMCMLHadH7QjbChwfp-UuIJ7OUFhw6wiwkZGjQrXQLN1tnRnGGRaruk4KDIj8l5CGxmfufyI76EK-dd-WqzRJsBdF0oOrkLzsnuDYHIkMytI_V0ZqV1dqijnwRN0EiR-2HJSz9KVMhcKOaF9qRiUECvDa66Yrnb1KPGObqqL3b9vzyqgCdNJMXuQjQY45SbDj6J02d3rYlHR8benIxeZTO3Qz2TbOIPSrqAatzPBhRtkXuHD1i88ssfGbaKHzq9r5qio1HdtmSsTFOC99FpM3-Y58daQ0uopa4i6-Cnm2Zms9_pnek1QSn40wP9VjInv3Lm9eOZ12VJt2CJKgR5An6yeZPQjt38a3V1HDwe07lNPRgpaLR2tyq4uyXUW0cX-J4rDWuW4rkyeYBhmInP8dj3nJDKvgPul8AbEV2FrbVF0xzV1OOlcl_G1Z-rE6mvbpkNtuMTgw9va4JH-hknnLiJkmS23B95UxNEGwhJZ76Ra-7a06kyCgMDev5XzLgTCnvhcZemwS0sa1aUs8dgpEZXk4X-Z1oUCHioT8Lmtxnf8t5uxxRMaDFUxjL6JXJnZEdxx6iABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '720p': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CtwE5Ef9erpyTUFuXiGorJ4U6jx3-tZzeN7p3KOaHRBXGV8CrkI_z_mMWq7vH9ypPVo1g_fFbchMORSGX-EzwhK8PFRW2kv9d5wydl0I0JbB1fSOIoWvILB9VkQ_YxyZ72bw09xsDg70WaMC_BRwPxl7z-LdSfOR1yCcrY_iLLPe4_uhDlntxyCG3nmPuqUShEyuWcriaIsKtJew254WfHYgf43WsYs7it6xHFvUkiAbQzRaz68TdoYC1tQDlQaWzn1ov06A8EU1FR-vpVH2ZGs0Y9sgJwmx_FmJYy421Hw5Nz7a1nxG0Ga6dVCCMob7IgpgVfVXYVqhSNaDPW3JM33x8UmYHgPp7eB8GUUToEyL5B3KMsxzKRR8MHA2in32FG4aLM3HXyaqMDTtiVWjmHSb5D4pceG6bIs28pPpDyvTvv9L2oZCnetw0JK2IhIm-yEYi13H1V4RxMkRRXD9m1IRh3-f-dg3EbToCyhCiCMH4YDtu5YCyAk7ivHjHntvpqzE03Rtw5liTLkOlcBuwaERgEi4T1HHWj1WAj-jLMNFNM314h56k2cbSaKEi6Y6If7JKQ0kOcNxo5IhOdVAQgtZ1lHKfmklg_EPorw-_2-YAZ2-jILG5zYbITxVOr5ncc6EtOzwqhiaUcZ34UUyPvEPd29lRXhrn0ul6gcxIOQe4Wc57SYUlgdTyhf5c2lVLBWXnzNMpZ17WX4zn2v_aYVpAUKTu_knPzrhOy6hb5d7_zeVnNL1zIoVf8xY3bH16bQn0QXYy88lftwDa44nsmUJ-Z4UVgjrpXLLbK6aShoMNtSy8YwowmBMw468IAEqCXVzLWVhc3QtMTDXCQ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '1080p': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CuYEnsjyLXjmINvzBXrCidJHZw_iAk02qnpUPfo5XzKIbubB1F3dvCV5Oh2LhYKHM-WdHrbFsphAh1Bj2IKuc0uHlJZKM4-IhVPUKUp8-4mw8jNdqMsZZ7WK6u0w2ENGutyf4wXowQ8ggJXYLLt4SBNF3AAE8st8v0l3W_5oh4DMZQ81XR0xYXBl_YRZkG8Np1oaJtTXD3gYV1NrcSHEjhBNGM3X8tAgQPmXKvHBtWHHnv7HP5ieid-2NaT3ADL9_jq7F4-8jKvLta0Kmnk333DYbWVLQd81b1yqPlbLJ2Ul-kB3EyG0aj-jUKohacc3rxYYmcaMc8qWq9Dax3oQ0y8F4bcz0Vkm_8c-fnoSKfBgh8Nf_ybW2H8ZO5cy44E1n0aXyNZMNN3l8sPSd8b3h6eVqBtuxqSJiWu7SGkmAT6nOKKz8TTbpCcTnGDZdo4UPkORS1ziCoce_3jrIHqwgR3LmBG2xnPg-JW3DU3Jgop7FJ391OeRjcVScDZyyNmyg3agxjyuoI180V7grIwO3aP7kzsX7QNEUesHVd5_pFZfChOSc1Vt8hO_tdbOKMplzSS4bGBNs64ZhKzp_u4OzzWtqb2k50oIreBoJ7pYnuRNXn7mpocjYGTR9fWVuWK6qLf51p0b7KTmXRaPwz8A4GI1N2qiB0K_VO8cuFHLIDskFZ01HmKYuKHs9aj_-qxE-kQrLFQZ7u3xDfQphJCKe5CE0cjl40bJEl9HEQ8LRaxLFOQdzHLva5G6gUmyAKybbSNnK57hG1vIFqH5FmGhlW36jxHPduy-HuXxDAjY9z8uAXUraBwooW4aDMyBl3m012MCRYeyWCABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'worst': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CsQELHlZklwm-fyg738pKILdPHIQ-xyhzwcaG4WU0sYdUDIUSIlk06P8vYQLZD1DzvO6hifKHOiX8OAgryUOnj5jWDTiu96KH_GjwvcKEd8ZMYgEt0HwRrcLl9cBzsuyD0hxjOL8BnqoGkHpULt6ZNAKZF92kJM3Gf2ZaB6l2szOwTdotX4qQZSw4kNAEow50sWC23Ma_OTZK56ZiOF1xKWGdoJYg7qyAcqUNFNoK5nJOkaqV0kgf6YJ-xX9s3xR1ZoYf7ukxXrKMseAEGFVqAm_QfzUGWzJoBb7aRvwnlicSWa7bgp2Hyzke1NL0sSKGb8MiNHlhI6BUoHCfTTzQQGYAFw2My757VnaISx-SjTvIBsyuJ0AqC-iI9mwuNqOLwercqKBOxKQ3pf8UvcMwI0Ri9WleLanWtxQvvvBL07ltldGihfNWPmss5SgShksKWLIDIlcMAXLzn5un8NaURCtvhf3DuXNB-x6bG0cZo3mjZoJN0s42RfH7v2AEOq6nmHyZSyihCfoqe1sESgjbA5IEb5JtvugSpW-xKI0iB0DKOGOt4_o6ellXB9KCscNM2n9krhLmILSI5rOy_er3mzmY4EaDyS3EFFSlJQ7ehQtYTJyeySB20ojRLbsx_-8DHl54ec0_BlLjoosQ3rxcTzu_EWY-uhs3-7lVnrf3a6MYmQQR2_Ul7kfrvxcjPYVTcTxptus3m4cF8a0Q9UJTC2PArQ9mtsKpp2jDwH7BgFlRUgb_xRky3cUqzHzECoqt1XyButVJhoMGIo2IegP5eYH0X22IAEqCXVzLWVhc3QtMTDXCQ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'best': <TwitchHLSStream ['hls', 'https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CuYEnsjyLXjmINvzBXrCidJHZw_iAk02qnpUPfo5XzKIbubB1F3dvCV5Oh2LhYKHM-WdHrbFsphAh1Bj2IKuc0uHlJZKM4-IhVPUKUp8-4mw8jNdqMsZZ7WK6u0w2ENGutyf4wXowQ8ggJXYLLt4SBNF3AAE8st8v0l3W_5oh4DMZQ81XR0xYXBl_YRZkG8Np1oaJtTXD3gYV1NrcSHEjhBNGM3X8tAgQPmXKvHBtWHHnv7HP5ieid-2NaT3ADL9_jq7F4-8jKvLta0Kmnk333DYbWVLQd81b1yqPlbLJ2Ul-kB3EyG0aj-jUKohacc3rxYYmcaMc8qWq9Dax3oQ0y8F4bcz0Vkm_8c-fnoSKfBgh8Nf_ybW2H8ZO5cy44E1n0aXyNZMNN3l8sPSd8b3h6eVqBtuxqSJiWu7SGkmAT6nOKKz8TTbpCcTnGDZdo4UPkORS1ziCoce_3jrIHqwgR3LmBG2xnPg-JW3DU3Jgop7FJ391OeRjcVScDZyyNmyg3agxjyuoI180V7grIwO3aP7kzsX7QNEUesHVd5_pFZfChOSc1Vt8hO_tdbOKMplzSS4bGBNs64ZhKzp_u4OzzWtqb2k50oIreBoJ7pYnuRNXn7mpocjYGTR9fWVuWK6qLf51p0b7KTmXRaPwz8A4GI1N2qiB0K_VO8cuFHLIDskFZ01HmKYuKHs9aj_-qxE-kQrLFQZ7u3xDfQphJCKe5CE0cjl40bJEl9HEQ8LRaxLFOQdzHLva5G6gUmyAKybbSNnK57hG1vIFqH5FmGhlW36jxHPduy-HuXxDAjY9z8uAXUraBwooW4aDMyBl3m012MCRYeyWCABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/dolcedasousa.m3u8?player=twitchweb&p=358586&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=e083fe387789058d8ff48f2eab60eec8eb326fea&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22dolcedasousa%22%2C%22channel_id%22%3A1212616559%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083989%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>}
-2025-01-05 13:13:10,730 - debug - URL válida: https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/CuYEnsjyLXjmINvzBXrCidJHZw_iAk02qnpUPfo5XzKIbubB1F3dvCV5Oh2LhYKHM-WdHrbFsphAh1Bj2IKuc0uHlJZKM4-IhVPUKUp8-4mw8jNdqMsZZ7WK6u0w2ENGutyf4wXowQ8ggJXYLLt4SBNF3AAE8st8v0l3W_5oh4DMZQ81XR0xYXBl_YRZkG8Np1oaJtTXD3gYV1NrcSHEjhBNGM3X8tAgQPmXKvHBtWHHnv7HP5ieid-2NaT3ADL9_jq7F4-8jKvLta0Kmnk333DYbWVLQd81b1yqPlbLJ2Ul-kB3EyG0aj-jUKohacc3rxYYmcaMc8qWq9Dax3oQ0y8F4bcz0Vkm_8c-fnoSKfBgh8Nf_ybW2H8ZO5cy44E1n0aXyNZMNN3l8sPSd8b3h6eVqBtuxqSJiWu7SGkmAT6nOKKz8TTbpCcTnGDZdo4UPkORS1ziCoce_3jrIHqwgR3LmBG2xnPg-JW3DU3Jgop7FJ391OeRjcVScDZyyNmyg3agxjyuoI180V7grIwO3aP7kzsX7QNEUesHVd5_pFZfChOSc1Vt8hO_tdbOKMplzSS4bGBNs64ZhKzp_u4OzzWtqb2k50oIreBoJ7pYnuRNXn7mpocjYGTR9fWVuWK6qLf51p0b7KTmXRaPwz8A4GI1N2qiB0K_VO8cuFHLIDskFZ01HmKYuKHs9aj_-qxE-kQrLFQZ7u3xDfQphJCKe5CE0cjl40bJEl9HEQ8LRaxLFOQdzHLva5G6gUmyAKybbSNnK57hG1vIFqH5FmGhlW36jxHPduy-HuXxDAjY9z8uAXUraBwooW4aDMyBl3m012MCRYeyWCABKgl1cy1lYXN0LTEw1wk.m3u8
-2025-01-05 13:13:11,589 - debug - Streams disponíveis para https://www.twitch.tv/mrwojakofficial: {'audio_only': <TwitchHLSStream ['hls', 'https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CsIEnfViqK7Un2_tdYeqwajHru2lZoIwKn0HAaWBtnz-V-g9s64R81ac-g-o2DPVMP1dSBIxPSJAsh_rXlM5kZTf4OGDX2KTsnDbDS_4ugjNSM3I4M94aU7C507lVVHffofLobnTfxB6En0nSlH6ml1szcBohw2ytM0cyOWq1nVvY2cELnhCKwU4nkZQvDxRFvkfj473XNiIXQF69fptOB3DiBQ1ZqW-QVR4BdePolaQsJ6POWQG0r-7rcphZTkAmx5zW-1rpk2GNUojMCYVy1j0LnUVOU1EareuKG_sDmuaHlrgLJ8c8ilCqwBB0-3NsPBJeLivBH2x_jLeDxpQJPeFhwjFm-gx2r8ep7zkF_pGSJxjLZJoRuideGQGW7uHpl61h2UCE9SJ_41G0Awat4Y95HB7YOVfap1Zgw-oOyqdUhuewHfj8lRIBNyySBJ7ymXBCwHpu_QEYrCSXfW5tBMsxT69VFcqYL1Eo6avZLJAP0tsx_zSdpcmq02AStBX0xufvjak7mgp_XjXAcAO43YZR6Vug85N8IArRktXszew18HySGlIMqZeEXwJQULbAFhLK5DmCLo8n6pwO9jPzysC-aHxDeOH3zobYjhNICpwGc9A49V5fgMDdrMttEVkBR1yjZSrkBxLRBt8gIEAplGNPuVGgn0zRRNSd1t6iWJ-9HZQeeqmK7X9fhoV62I6mU-udyYVAFL_E3DIItOozVP8JaIda06A1B8LqKGG5x4WBf5L5EkmwpZnu_uxgvsdZWIHhKMaDGbqnGpdWDFkQj2qmCABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/mrwojakofficial.m3u8?player=twitchweb&p=113587&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=777116c4b89a635f0bc4263ed5af469da9f72ba8&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22mrwojakofficial%22%2C%22channel_id%22%3A626780613%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083990%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '160p': <TwitchHLSStream ['hls', 'https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CswE6kDdxNuvdcPeFOC83Bnvr97fVRiUGnOzrj39zLQQF43GczWrqmSZhom3kbK1rWkHACN3P-f8TlyA9MbwXWe3t2IXj-ZM69BDgTO8ZjS6D0gQaqtlT4GeIl9vlaEurwE-H_JFVJfLoOnqiY9u5onhave77sK9LbldTHiUigHy_u7EdMORkpZ2INbhHxQewj3-v29NvtOkl-NOzeJ5Ifcz3fVIzgvyAaKL3oVBTEBOLDZFsX_M5sOL26hfxV6KxBkdOTag6A4BOx8yaJJMuG5hkbDyeCKyR11yR0JrTk0tkEubj6PN9swv9KeCgbo6Uwu9Sg8EDFfFwLK33fMX8oTAkMhniBAuJ13Y7AxRmBXOFzHCSlce6xUpPDvfTShT_FoVYZIGJnyOcwUIqQ2ZqX76304hpelC7VOxukGEZKbTyX1o8MZrJLTSFk4Gzc7zEUxuVw1v8r7vSpO7asQf-WawyPMVgs-pghUIFb49yHv55JbcMO-fiJOANwFy_Ire5X9J_WYwocJeMNCtWYlq48c2rqJ4X9poSBEIjlmsjtiR4T1gfQ_s-6ocKhxmGxfGo0zJmBpfc5qVcXEA9kBK1aqSw2V8AvTI13mNEbHRnfREjClJBT50LnYQN34v4QANN-vXkIxPnr2Q7l6hgvD_cdlo26h0gyN5LIcW7v3HuluGtFj2HNE3_cL1lmzu4vRxJBrk7VCw-cYh4LIrGuiCwzqJFLSIAZjcLpsvnYQEd2sTewWXiMxEDqZXhq9sNjlGlNhDbHji7Dd8IlZYIwNvGgx_EsKXWgGPTgBsK24gASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/mrwojakofficial.m3u8?player=twitchweb&p=113587&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=777116c4b89a635f0bc4263ed5af469da9f72ba8&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22mrwojakofficial%22%2C%22channel_id%22%3A626780613%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083990%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '360p_alt': <TwitchHLSStream ['hls', 'https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CtQEcXcwXgztKrhqSXlEv4dIHqttHtq2vCVLgLMw1cQLPxOTqMFCb6IJlCxpTaPHZUzh2Q0F0j1z22IirW8Hgm9sRMAviFsOcId5SNbXvaxvGofUDkd4zUjmYi401PRpHtY1Vh6VYqg-6P7iJSUQkgaAaq1m3Px13ebB_cgRKSQGh31zIco4LpudO3mXHIzq3qwiRxocSJR_a5B3igHESVXl7kGDFYPw6HsIc7g2OscNJjhlZ_TOGZQsre3K7RiFQqNrbYw9ahqBoMDoa5bxmQNNpYTYO6IU9Zn9gNwWn7hBRMEHZJjBsj_a-GQULfstoztExsBcNzlmIn2U01JcX_7y36YEE1emDUuW0DPPeLJiuNS4DyVIbwa_nHLn4AVI1O3xcQ7IgT2EZ_EMpiTnv6UE3NyPgBSgdE-_Da7mBxxBAS_-96AYNZ5ErFxhMUmoCoLS1NzYUKJFY6uCiDuP_N9Rmb28jM3Z8POYo1DJcVOKZztIaKXDZ-AuOYIltJzPGtqtKDrEuLHONq2v1VswwA-4YWNxR-0_njO9x2tE3yS60ukFHZTk94qNqlJXH7AIjnbvXM35LIhaVSdtZS5mg97f3FztU0RmecRh20rrhArcZWHjcxtYqId3V2cXvuHePs87AbT4va1o2aGGml13IYqx50FgIl8HKF8Q_hAH12eBuLidXgD904C5VIb4emEHxARLaq8yTimjDx7N7x-VTodcbXZxgcMKmKrWuF3dscOIaWiGjIycUUf6ZnH-60qI8-ivzncqsk-U7fdodef2QNhc0tN9JPIaDK_sOQyMFnA0wMUzOyABKgl1cy1lYXN0LTEw1wk.m3u8', 'https://usher.ttvnw.net/api/channel/hls/mrwojakofficial.m3u8?player=twitchweb&p=113587&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=777116c4b89a635f0bc4263ed5af469da9f72ba8&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22mrwojakofficial%22%2C%22channel_id%22%3A626780613%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083990%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, '360p': <TwitchHLSStream ['hls', 'https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/Ct4ElEpy3qVtHAHJgna4lxZOXq8SK5UIu_Hmfqma0sH7Vohb5sQyy2_2KG0wzynOLQRLeeXwkLVLr5pljt3GkldcGzZ0W8dTdXqdHi-6TfE_hWyYY0zn-Tl-6pazYUA3t5jQStQbnZH6UZIItrAmgBdtINcaKFaQFzqnub7zLqun-Pgfl8ed_KxdkDgaIfBl3E7l_T0DVsa7F6Tadm7mZlXDWQsnADOCI7kqjZ97RCuZmwtHXz8-bvzWxxx3eWGhRD32PEPbO5keURLVaC8AL0stNPgI8BwmMnJ36PG7HDkUGRIpOFKiliAIRtci48dsYrfmJwJtfstIVY7EMNqE4iSdS2mIf0eJqx0SMaQzr0M45Te09WG04CYQXnBnlbznU716NuQCDv_LBRd8uNRcelqLcr0StSzEmLG06g_2Zk2qs45k6HCUS80C6OHnQPhOGnTUyMS6HZ2LVUTpEasWMLl6q-Y7WHnIY_k2EWDgVNc290R-C5xsnMfjoTaPWRdtyEIICDuF0JR6LbvcTGfXOhiVuOZ4gyMZcIJ355PO96tG0WT4eWlihqUunOQm8mUEAKpXVwEcsQS7wPPaB2PQRoJpiS4nmVoGztsQ6_cgdATdrRH_9vUfbdNCq5o63MOtrndLDTbrjPbVXKnmhuBTSNUwtWpUV0OIKnY22T3spQVmRuufNT_u3Wo0VZB-qPnqZ7M3iHRCZ-ByMOhol1szDg0Pt14lh_FpacTKyfEa7lvXUulv2UWtIzu_PGV3Rh5EyuM0ffqg5r4OyjCon15cu6qcs_v1pmCxZ_0VN6iR-g5jGgy3g_5JzuQ4JcJP-ZwgASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/mrwojakofficial.m3u8?player=twitchweb&p=113587&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=777116c4b89a635f0bc4263ed5af469da9f72ba8&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22mrwojakofficial%22%2C%22channel_id%22%3A626780613%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083990%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'worst': <TwitchHLSStream ['hls', 'https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CswE6kDdxNuvdcPeFOC83Bnvr97fVRiUGnOzrj39zLQQF43GczWrqmSZhom3kbK1rWkHACN3P-f8TlyA9MbwXWe3t2IXj-ZM69BDgTO8ZjS6D0gQaqtlT4GeIl9vlaEurwE-H_JFVJfLoOnqiY9u5onhave77sK9LbldTHiUigHy_u7EdMORkpZ2INbhHxQewj3-v29NvtOkl-NOzeJ5Ifcz3fVIzgvyAaKL3oVBTEBOLDZFsX_M5sOL26hfxV6KxBkdOTag6A4BOx8yaJJMuG5hkbDyeCKyR11yR0JrTk0tkEubj6PN9swv9KeCgbo6Uwu9Sg8EDFfFwLK33fMX8oTAkMhniBAuJ13Y7AxRmBXOFzHCSlce6xUpPDvfTShT_FoVYZIGJnyOcwUIqQ2ZqX76304hpelC7VOxukGEZKbTyX1o8MZrJLTSFk4Gzc7zEUxuVw1v8r7vSpO7asQf-WawyPMVgs-pghUIFb49yHv55JbcMO-fiJOANwFy_Ire5X9J_WYwocJeMNCtWYlq48c2rqJ4X9poSBEIjlmsjtiR4T1gfQ_s-6ocKhxmGxfGo0zJmBpfc5qVcXEA9kBK1aqSw2V8AvTI13mNEbHRnfREjClJBT50LnYQN34v4QANN-vXkIxPnr2Q7l6hgvD_cdlo26h0gyN5LIcW7v3HuluGtFj2HNE3_cL1lmzu4vRxJBrk7VCw-cYh4LIrGuiCwzqJFLSIAZjcLpsvnYQEd2sTewWXiMxEDqZXhq9sNjlGlNhDbHji7Dd8IlZYIwNvGgx_EsKXWgGPTgBsK24gASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/mrwojakofficial.m3u8?player=twitchweb&p=113587&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=777116c4b89a635f0bc4263ed5af469da9f72ba8&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22mrwojakofficial%22%2C%22channel_id%22%3A626780613%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083990%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>, 'best': <TwitchHLSStream ['hls', 'https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/Ct4ElEpy3qVtHAHJgna4lxZOXq8SK5UIu_Hmfqma0sH7Vohb5sQyy2_2KG0wzynOLQRLeeXwkLVLr5pljt3GkldcGzZ0W8dTdXqdHi-6TfE_hWyYY0zn-Tl-6pazYUA3t5jQStQbnZH6UZIItrAmgBdtINcaKFaQFzqnub7zLqun-Pgfl8ed_KxdkDgaIfBl3E7l_T0DVsa7F6Tadm7mZlXDWQsnADOCI7kqjZ97RCuZmwtHXz8-bvzWxxx3eWGhRD32PEPbO5keURLVaC8AL0stNPgI8BwmMnJ36PG7HDkUGRIpOFKiliAIRtci48dsYrfmJwJtfstIVY7EMNqE4iSdS2mIf0eJqx0SMaQzr0M45Te09WG04CYQXnBnlbznU716NuQCDv_LBRd8uNRcelqLcr0StSzEmLG06g_2Zk2qs45k6HCUS80C6OHnQPhOGnTUyMS6HZ2LVUTpEasWMLl6q-Y7WHnIY_k2EWDgVNc290R-C5xsnMfjoTaPWRdtyEIICDuF0JR6LbvcTGfXOhiVuOZ4gyMZcIJ355PO96tG0WT4eWlihqUunOQm8mUEAKpXVwEcsQS7wPPaB2PQRoJpiS4nmVoGztsQ6_cgdATdrRH_9vUfbdNCq5o63MOtrndLDTbrjPbVXKnmhuBTSNUwtWpUV0OIKnY22T3spQVmRuufNT_u3Wo0VZB-qPnqZ7M3iHRCZ-ByMOhol1szDg0Pt14lh_FpacTKyfEa7lvXUulv2UWtIzu_PGV3Rh5EyuM0ffqg5r4OyjCon15cu6qcs_v1pmCxZ_0VN6iR-g5jGgy3g_5JzuQ4JcJP-ZwgASoJdXMtZWFzdC0xMNcJ.m3u8', 'https://usher.ttvnw.net/api/channel/hls/mrwojakofficial.m3u8?player=twitchweb&p=113587&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=777116c4b89a635f0bc4263ed5af469da9f72ba8&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22mrwojakofficial%22%2C%22channel_id%22%3A626780613%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1736083990%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2220.57.79.84%22%2C%22version%22%3A2%7D&fast_bread=True']>}
-2025-01-05 13:13:11,777 - debug - URL válida: https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/Ct4ElEpy3qVtHAHJgna4lxZOXq8SK5UIu_Hmfqma0sH7Vohb5sQyy2_2KG0wzynOLQRLeeXwkLVLr5pljt3GkldcGzZ0W8dTdXqdHi-6TfE_hWyYY0zn-Tl-6pazYUA3t5jQStQbnZH6UZIItrAmgBdtINcaKFaQFzqnub7zLqun-Pgfl8ed_KxdkDgaIfBl3E7l_T0DVsa7F6Tadm7mZlXDWQsnADOCI7kqjZ97RCuZmwtHXz8-bvzWxxx3eWGhRD32PEPbO5keURLVaC8AL0stNPgI8BwmMnJ36PG7HDkUGRIpOFKiliAIRtci48dsYrfmJwJtfstIVY7EMNqE4iSdS2mIf0eJqx0SMaQzr0M45Te09WG04CYQXnBnlbznU716NuQCDv_LBRd8uNRcelqLcr0StSzEmLG06g_2Zk2qs45k6HCUS80C6OHnQPhOGnTUyMS6HZ2LVUTpEasWMLl6q-Y7WHnIY_k2EWDgVNc290R-C5xsnMfjoTaPWRdtyEIICDuF0JR6LbvcTGfXOhiVuOZ4gyMZcIJ355PO96tG0WT4eWlihqUunOQm8mUEAKpXVwEcsQS7wPPaB2PQRoJpiS4nmVoGztsQ6_cgdATdrRH_9vUfbdNCq5o63MOtrndLDTbrjPbVXKnmhuBTSNUwtWpUV0OIKnY22T3spQVmRuufNT_u3Wo0VZB-qPnqZ7M3iHRCZ-ByMOhol1szDg0Pt14lh_FpacTKyfEa7lvXUulv2UWtIzu_PGV3Rh5EyuM0ffqg5r4OyjCon15cu6qcs_v1pmCxZ_0VN6iR-g5jGgy3g_5JzuQ4JcJP-ZwgASoJdXMtZWFzdC0xMNcJ.m3u8
-2025-01-05 13:13:11,778 - info - Canal https://www.twitch.tv/jibarook ignorado.
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/TVPublicaArgentina/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/cronicatv/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/c5n/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/americaenvivo/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/encuentro/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/TEC_ciencia_ar/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canal26/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/CanalKZO/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/diariodemocracia/live
+2025-01-05 13:22:31,499 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/showdelafe/live
+2025-01-05 13:22:31,500 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-05 13:22:31,500 - WARNING - ID não encontrado para URL: https://www.youtube.com/user/CanalPakapaka/LIVE
+2025-01-05 13:22:31,500 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SenadoTVArgentina/LIVE
+2025-01-05 13:22:31,500 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/SISEArgentina/live
+2025-01-05 13:22:31,500 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/canalciudadba/live
+2025-01-05 13:22:31,500 - WARNING - ID não encontrado para URL: https://www.youtube.com/c/Radio10am/live
+2025-01-05 13:22:31,714 - INFO - URL OK: https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
+2025-01-05 13:22:31,714 - INFO - URL OK: https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
+2025-01-05 13:22:31,816 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/146291.m3u8
+2025-01-05 13:22:31,816 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/146291.m3u8
+2025-01-05 13:22:31,920 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140069.m3u8
+2025-01-05 13:22:31,920 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140069.m3u8
+2025-01-05 13:22:31,964 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120680.m3u8
+2025-01-05 13:22:31,964 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120680.m3u8
+2025-01-05 13:22:32,007 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120682.m3u8
+2025-01-05 13:22:32,007 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120682.m3u8
+2025-01-05 13:22:32,085 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120683.m3u8
+2025-01-05 13:22:32,085 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120683.m3u8
+2025-01-05 13:22:32,152 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120684.m3u8
+2025-01-05 13:22:32,152 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120684.m3u8
+2025-01-05 13:22:32,196 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120685.m3u8
+2025-01-05 13:22:32,196 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120685.m3u8
+2025-01-05 13:22:32,241 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120686.m3u8
+2025-01-05 13:22:32,241 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120686.m3u8
+2025-01-05 13:22:32,291 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120673.m3u8
+2025-01-05 13:22:32,291 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120673.m3u8
+2025-01-05 13:22:32,335 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120674.m3u8
+2025-01-05 13:22:32,335 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120674.m3u8
+2025-01-05 13:22:32,385 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120675.m3u8
+2025-01-05 13:22:32,385 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120675.m3u8
+2025-01-05 13:22:32,436 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120677.m3u8
+2025-01-05 13:22:32,436 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120677.m3u8
+2025-01-05 13:22:32,480 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120678.m3u8
+2025-01-05 13:22:32,480 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120678.m3u8
+2025-01-05 13:22:32,522 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120660.m3u8
+2025-01-05 13:22:32,522 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120660.m3u8
+2025-01-05 13:22:32,572 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120661.m3u8
+2025-01-05 13:22:32,572 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120661.m3u8
+2025-01-05 13:22:32,616 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120662.m3u8
+2025-01-05 13:22:32,616 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120662.m3u8
+2025-01-05 13:22:32,729 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120663.m3u8
+2025-01-05 13:22:32,729 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120663.m3u8
+2025-01-05 13:22:32,773 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120664.m3u8
+2025-01-05 13:22:32,773 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120664.m3u8
+2025-01-05 13:22:32,821 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120666.m3u8
+2025-01-05 13:22:32,821 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120666.m3u8
+2025-01-05 13:22:32,865 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120667.m3u8
+2025-01-05 13:22:32,865 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120667.m3u8
+2025-01-05 13:22:32,909 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120668.m3u8
+2025-01-05 13:22:32,909 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120668.m3u8
+2025-01-05 13:22:32,951 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120669.m3u8
+2025-01-05 13:22:32,951 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120669.m3u8
+2025-01-05 13:22:33,001 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120670.m3u8
+2025-01-05 13:22:33,001 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120670.m3u8
+2025-01-05 13:22:33,052 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120671.m3u8
+2025-01-05 13:22:33,052 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120671.m3u8
+2025-01-05 13:22:33,096 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120672.m3u8
+2025-01-05 13:22:33,096 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120672.m3u8
+2025-01-05 13:22:33,140 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122276.m3u8
+2025-01-05 13:22:33,140 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122276.m3u8
+2025-01-05 13:22:33,203 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122277.m3u8
+2025-01-05 13:22:33,203 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122277.m3u8
+2025-01-05 13:22:33,318 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120637.m3u8
+2025-01-05 13:22:33,318 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120637.m3u8
+2025-01-05 13:22:33,361 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120638.m3u8
+2025-01-05 13:22:33,361 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120638.m3u8
+2025-01-05 13:22:33,405 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120639.m3u8
+2025-01-05 13:22:33,405 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120639.m3u8
+2025-01-05 13:22:33,448 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120640.m3u8
+2025-01-05 13:22:33,448 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120640.m3u8
+2025-01-05 13:22:33,531 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120641.m3u8
+2025-01-05 13:22:33,531 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120641.m3u8
+2025-01-05 13:22:33,575 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120642.m3u8
+2025-01-05 13:22:33,575 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120642.m3u8
+2025-01-05 13:22:33,618 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120643.m3u8
+2025-01-05 13:22:33,618 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120643.m3u8
+2025-01-05 13:22:33,661 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120644.m3u8
+2025-01-05 13:22:33,661 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120644.m3u8
+2025-01-05 13:22:33,711 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120645.m3u8
+2025-01-05 13:22:33,711 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120645.m3u8
+2025-01-05 13:22:33,755 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120646.m3u8
+2025-01-05 13:22:33,755 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120646.m3u8
+2025-01-05 13:22:33,805 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120648.m3u8
+2025-01-05 13:22:33,805 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120648.m3u8
+2025-01-05 13:22:33,848 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120649.m3u8
+2025-01-05 13:22:33,848 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120649.m3u8
+2025-01-05 13:22:33,892 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120651.m3u8
+2025-01-05 13:22:33,892 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120651.m3u8
+2025-01-05 13:22:33,935 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120652.m3u8
+2025-01-05 13:22:33,935 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120652.m3u8
+2025-01-05 13:22:33,986 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120653.m3u8
+2025-01-05 13:22:33,986 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120653.m3u8
+2025-01-05 13:22:34,036 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120654.m3u8
+2025-01-05 13:22:34,036 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120654.m3u8
+2025-01-05 13:22:34,085 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120655.m3u8
+2025-01-05 13:22:34,085 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120655.m3u8
+2025-01-05 13:22:34,136 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120656.m3u8
+2025-01-05 13:22:34,136 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120656.m3u8
+2025-01-05 13:22:34,178 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120657.m3u8
+2025-01-05 13:22:34,178 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120657.m3u8
+2025-01-05 13:22:34,221 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120658.m3u8
+2025-01-05 13:22:34,221 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120658.m3u8
+2025-01-05 13:22:34,265 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120659.m3u8
+2025-01-05 13:22:34,265 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/120659.m3u8
+2025-01-05 13:22:34,308 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122064.m3u8
+2025-01-05 13:22:34,308 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122064.m3u8
+2025-01-05 13:22:34,350 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122270.m3u8
+2025-01-05 13:22:34,350 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122270.m3u8
+2025-01-05 13:22:34,394 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122271.m3u8
+2025-01-05 13:22:34,394 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122271.m3u8
+2025-01-05 13:22:34,438 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122272.m3u8
+2025-01-05 13:22:34,438 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122272.m3u8
+2025-01-05 13:22:34,481 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122273.m3u8
+2025-01-05 13:22:34,481 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122273.m3u8
+2025-01-05 13:22:34,524 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122274.m3u8
+2025-01-05 13:22:34,524 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122274.m3u8
+2025-01-05 13:22:34,568 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122275.m3u8
+2025-01-05 13:22:34,568 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122275.m3u8
+2025-01-05 13:22:34,611 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122001.m3u8
+2025-01-05 13:22:34,611 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122001.m3u8
+2025-01-05 13:22:34,662 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122002.m3u8
+2025-01-05 13:22:34,662 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122002.m3u8
+2025-01-05 13:22:34,712 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122003.m3u8
+2025-01-05 13:22:34,712 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122003.m3u8
+2025-01-05 13:22:34,756 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122004.m3u8
+2025-01-05 13:22:34,756 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122004.m3u8
+2025-01-05 13:22:34,800 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122005.m3u8
+2025-01-05 13:22:34,800 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122005.m3u8
+2025-01-05 13:22:34,843 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122006.m3u8
+2025-01-05 13:22:34,843 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122006.m3u8
+2025-01-05 13:22:34,886 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122007.m3u8
+2025-01-05 13:22:34,886 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122007.m3u8
+2025-01-05 13:22:34,929 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122057.m3u8
+2025-01-05 13:22:34,929 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122057.m3u8
+2025-01-05 13:22:34,972 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122058.m3u8
+2025-01-05 13:22:34,972 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/122058.m3u8
+2025-01-05 13:22:35,015 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121746.m3u8
+2025-01-05 13:22:35,015 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121746.m3u8
+2025-01-05 13:22:35,065 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121759.m3u8
+2025-01-05 13:22:35,065 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121759.m3u8
+2025-01-05 13:22:35,108 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121761.m3u8
+2025-01-05 13:22:35,108 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121761.m3u8
+2025-01-05 13:22:35,152 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121149.m3u8
+2025-01-05 13:22:35,152 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121149.m3u8
+2025-01-05 13:22:35,198 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121150.m3u8
+2025-01-05 13:22:35,198 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121150.m3u8
+2025-01-05 13:22:35,242 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121152.m3u8
+2025-01-05 13:22:35,242 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121152.m3u8
+2025-01-05 13:22:35,293 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121154.m3u8
+2025-01-05 13:22:35,293 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121154.m3u8
+2025-01-05 13:22:35,336 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121155.m3u8
+2025-01-05 13:22:35,336 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121155.m3u8
+2025-01-05 13:22:35,379 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121156.m3u8
+2025-01-05 13:22:35,379 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121156.m3u8
+2025-01-05 13:22:35,429 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121157.m3u8
+2025-01-05 13:22:35,429 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121157.m3u8
+2025-01-05 13:22:35,473 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121158.m3u8
+2025-01-05 13:22:35,473 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121158.m3u8
+2025-01-05 13:22:35,516 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121159.m3u8
+2025-01-05 13:22:35,516 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121159.m3u8
+2025-01-05 13:22:35,567 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121160.m3u8
+2025-01-05 13:22:35,567 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121160.m3u8
+2025-01-05 13:22:35,617 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121161.m3u8
+2025-01-05 13:22:35,617 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121161.m3u8
+2025-01-05 13:22:35,661 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121162.m3u8
+2025-01-05 13:22:35,661 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121162.m3u8
+2025-01-05 13:22:35,705 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121163.m3u8
+2025-01-05 13:22:35,705 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121163.m3u8
+2025-01-05 13:22:35,748 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121164.m3u8
+2025-01-05 13:22:35,748 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121164.m3u8
+2025-01-05 13:22:35,792 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121165.m3u8
+2025-01-05 13:22:35,792 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121165.m3u8
+2025-01-05 13:22:35,835 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121166.m3u8
+2025-01-05 13:22:35,835 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121166.m3u8
+2025-01-05 13:22:35,880 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121168.m3u8
+2025-01-05 13:22:35,880 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121168.m3u8
+2025-01-05 13:22:35,923 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121169.m3u8
+2025-01-05 13:22:35,923 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121169.m3u8
+2025-01-05 13:22:35,966 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121170.m3u8
+2025-01-05 13:22:35,966 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121170.m3u8
+2025-01-05 13:22:36,009 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121171.m3u8
+2025-01-05 13:22:36,009 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121171.m3u8
+2025-01-05 13:22:36,052 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121172.m3u8
+2025-01-05 13:22:36,052 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121172.m3u8
+2025-01-05 13:22:36,103 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121173.m3u8
+2025-01-05 13:22:36,103 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121173.m3u8
+2025-01-05 13:22:36,153 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121174.m3u8
+2025-01-05 13:22:36,153 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121174.m3u8
+2025-01-05 13:22:36,196 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121175.m3u8
+2025-01-05 13:22:36,196 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121175.m3u8
+2025-01-05 13:22:36,239 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121176.m3u8
+2025-01-05 13:22:36,239 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121176.m3u8
+2025-01-05 13:22:36,282 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121238.m3u8
+2025-01-05 13:22:36,282 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121238.m3u8
+2025-01-05 13:22:36,326 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121239.m3u8
+2025-01-05 13:22:36,326 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121239.m3u8
+2025-01-05 13:22:36,375 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121240.m3u8
+2025-01-05 13:22:36,375 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121240.m3u8
+2025-01-05 13:22:36,419 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121241.m3u8
+2025-01-05 13:22:36,419 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121241.m3u8
+2025-01-05 13:22:36,462 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121242.m3u8
+2025-01-05 13:22:36,462 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121242.m3u8
+2025-01-05 13:22:36,506 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121243.m3u8
+2025-01-05 13:22:36,506 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121243.m3u8
+2025-01-05 13:22:36,550 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121245.m3u8
+2025-01-05 13:22:36,550 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121245.m3u8
+2025-01-05 13:22:36,601 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121246.m3u8
+2025-01-05 13:22:36,601 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121246.m3u8
+2025-01-05 13:22:36,645 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121591.m3u8
+2025-01-05 13:22:36,645 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121591.m3u8
+2025-01-05 13:22:36,696 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121592.m3u8
+2025-01-05 13:22:36,696 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121592.m3u8
+2025-01-05 13:22:36,739 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121593.m3u8
+2025-01-05 13:22:36,739 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121593.m3u8
+2025-01-05 13:22:36,786 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121595.m3u8
+2025-01-05 13:22:36,786 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121595.m3u8
+2025-01-05 13:22:36,828 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121596.m3u8
+2025-01-05 13:22:36,828 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121596.m3u8
+2025-01-05 13:22:36,871 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121597.m3u8
+2025-01-05 13:22:36,871 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121597.m3u8
+2025-01-05 13:22:36,921 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121664.m3u8
+2025-01-05 13:22:36,921 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121664.m3u8
+2025-01-05 13:22:36,987 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121665.m3u8
+2025-01-05 13:22:36,987 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121665.m3u8
+2025-01-05 13:22:37,029 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121745.m3u8
+2025-01-05 13:22:37,029 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121745.m3u8
+2025-01-05 13:22:37,073 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135291.m3u8
+2025-01-05 13:22:37,073 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135291.m3u8
+2025-01-05 13:22:37,116 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135292.m3u8
+2025-01-05 13:22:37,116 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135292.m3u8
+2025-01-05 13:22:37,160 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135293.m3u8
+2025-01-05 13:22:37,160 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135293.m3u8
+2025-01-05 13:22:37,204 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135794.m3u8
+2025-01-05 13:22:37,204 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135794.m3u8
+2025-01-05 13:22:37,248 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135810.m3u8
+2025-01-05 13:22:37,248 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135810.m3u8
+2025-01-05 13:22:37,291 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135811.m3u8
+2025-01-05 13:22:37,291 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135811.m3u8
+2025-01-05 13:22:37,341 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135812.m3u8
+2025-01-05 13:22:37,341 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135812.m3u8
+2025-01-05 13:22:37,385 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135813.m3u8
+2025-01-05 13:22:37,385 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135813.m3u8
+2025-01-05 13:22:37,435 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135877.m3u8
+2025-01-05 13:22:37,435 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/135877.m3u8
+2025-01-05 13:22:37,478 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136589.m3u8
+2025-01-05 13:22:37,478 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136589.m3u8
+2025-01-05 13:22:37,524 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136612.m3u8
+2025-01-05 13:22:37,524 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136612.m3u8
+2025-01-05 13:22:37,570 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136613.m3u8
+2025-01-05 13:22:37,570 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136613.m3u8
+2025-01-05 13:22:37,613 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136640.m3u8
+2025-01-05 13:22:37,613 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136640.m3u8
+2025-01-05 13:22:37,657 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136641.m3u8
+2025-01-05 13:22:37,657 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136641.m3u8
+2025-01-05 13:22:37,700 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136726.m3u8
+2025-01-05 13:22:37,700 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136726.m3u8
+2025-01-05 13:22:37,743 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136739.m3u8
+2025-01-05 13:22:37,743 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136739.m3u8
+2025-01-05 13:22:37,787 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136740.m3u8
+2025-01-05 13:22:37,787 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136740.m3u8
+2025-01-05 13:22:37,831 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136741.m3u8
+2025-01-05 13:22:37,831 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136741.m3u8
+2025-01-05 13:22:37,874 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136883.m3u8
+2025-01-05 13:22:37,874 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136883.m3u8
+2025-01-05 13:22:37,924 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136884.m3u8
+2025-01-05 13:22:37,924 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136884.m3u8
+2025-01-05 13:22:37,968 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136909.m3u8
+2025-01-05 13:22:37,968 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/136909.m3u8
+2025-01-05 13:22:38,011 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137047.m3u8
+2025-01-05 13:22:38,011 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137047.m3u8
+2025-01-05 13:22:38,055 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137048.m3u8
+2025-01-05 13:22:38,055 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137048.m3u8
+2025-01-05 13:22:38,100 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137049.m3u8
+2025-01-05 13:22:38,100 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137049.m3u8
+2025-01-05 13:22:38,150 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137242.m3u8
+2025-01-05 13:22:38,150 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137242.m3u8
+2025-01-05 13:22:38,193 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137505.m3u8
+2025-01-05 13:22:38,193 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137505.m3u8
+2025-01-05 13:22:38,237 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137680.m3u8
+2025-01-05 13:22:38,237 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137680.m3u8
+2025-01-05 13:22:38,279 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137681.m3u8
+2025-01-05 13:22:38,279 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137681.m3u8
+2025-01-05 13:22:38,322 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137682.m3u8
+2025-01-05 13:22:38,322 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137682.m3u8
+2025-01-05 13:22:38,373 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137697.m3u8
+2025-01-05 13:22:38,373 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137697.m3u8
+2025-01-05 13:22:38,416 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137719.m3u8
+2025-01-05 13:22:38,416 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137719.m3u8
+2025-01-05 13:22:38,466 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137720.m3u8
+2025-01-05 13:22:38,466 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137720.m3u8
+2025-01-05 13:22:38,511 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137764.m3u8
+2025-01-05 13:22:38,511 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137764.m3u8
+2025-01-05 13:22:38,553 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137790.m3u8
+2025-01-05 13:22:38,553 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137790.m3u8
+2025-01-05 13:22:38,598 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137791.m3u8
+2025-01-05 13:22:38,598 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137791.m3u8
+2025-01-05 13:22:38,642 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137953.m3u8
+2025-01-05 13:22:38,642 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137953.m3u8
+2025-01-05 13:22:38,685 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137954.m3u8
+2025-01-05 13:22:38,685 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/137954.m3u8
+2025-01-05 13:22:38,735 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139149.m3u8
+2025-01-05 13:22:38,735 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139149.m3u8
+2025-01-05 13:22:38,786 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139272.m3u8
+2025-01-05 13:22:38,786 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139272.m3u8
+2025-01-05 13:22:38,830 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139462.m3u8
+2025-01-05 13:22:38,830 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139462.m3u8
+2025-01-05 13:22:38,873 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139752.m3u8
+2025-01-05 13:22:38,873 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139752.m3u8
+2025-01-05 13:22:38,924 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139753.m3u8
+2025-01-05 13:22:38,924 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139753.m3u8
+2025-01-05 13:22:38,967 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139754.m3u8
+2025-01-05 13:22:38,967 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139754.m3u8
+2025-01-05 13:22:39,011 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139755.m3u8
+2025-01-05 13:22:39,011 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139755.m3u8
+2025-01-05 13:22:39,055 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139756.m3u8
+2025-01-05 13:22:39,055 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139756.m3u8
+2025-01-05 13:22:39,099 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139757.m3u8
+2025-01-05 13:22:39,099 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/139757.m3u8
+2025-01-05 13:22:39,143 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140004.m3u8
+2025-01-05 13:22:39,143 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140004.m3u8
+2025-01-05 13:22:39,187 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140399.m3u8
+2025-01-05 13:22:39,187 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140399.m3u8
+2025-01-05 13:22:39,232 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140814.m3u8
+2025-01-05 13:22:39,232 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140814.m3u8
+2025-01-05 13:22:39,283 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140815.m3u8
+2025-01-05 13:22:39,283 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140815.m3u8
+2025-01-05 13:22:39,327 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140820.m3u8
+2025-01-05 13:22:39,327 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140820.m3u8
+2025-01-05 13:22:39,371 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140899.m3u8
+2025-01-05 13:22:39,371 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140899.m3u8
+2025-01-05 13:22:39,414 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140900.m3u8
+2025-01-05 13:22:39,414 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140900.m3u8
+2025-01-05 13:22:39,464 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140901.m3u8
+2025-01-05 13:22:39,464 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/140901.m3u8
+2025-01-05 13:22:39,508 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/146293.m3u8
+2025-01-05 13:22:39,508 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/146293.m3u8
+2025-01-05 13:22:39,558 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/146294.m3u8
+2025-01-05 13:22:39,558 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/146294.m3u8
+2025-01-05 13:22:39,601 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/147201.m3u8
+2025-01-05 13:22:39,601 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/147201.m3u8
+2025-01-05 13:22:39,644 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/147202.m3u8
+2025-01-05 13:22:39,644 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/147202.m3u8
+2025-01-05 13:22:39,688 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/147203.m3u8
+2025-01-05 13:22:39,688 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/147203.m3u8
+2025-01-05 13:22:39,739 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/148610.m3u8
+2025-01-05 13:22:39,739 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/148610.m3u8
+2025-01-05 13:22:39,790 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149593.m3u8
+2025-01-05 13:22:39,790 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149593.m3u8
+2025-01-05 13:22:39,840 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149621.m3u8
+2025-01-05 13:22:39,840 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149621.m3u8
+2025-01-05 13:22:39,889 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149622.m3u8
+2025-01-05 13:22:39,889 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149622.m3u8
+2025-01-05 13:22:39,936 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149745.m3u8
+2025-01-05 13:22:39,936 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/149745.m3u8
+2025-01-05 13:22:39,979 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/154792.m3u8
+2025-01-05 13:22:39,979 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/154792.m3u8
+2025-01-05 13:22:40,024 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158057.m3u8
+2025-01-05 13:22:40,024 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158057.m3u8
+2025-01-05 13:22:40,068 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158058.m3u8
+2025-01-05 13:22:40,068 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158058.m3u8
+2025-01-05 13:22:40,111 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158059.m3u8
+2025-01-05 13:22:40,111 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158059.m3u8
+2025-01-05 13:22:40,154 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158060.m3u8
+2025-01-05 13:22:40,154 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158060.m3u8
+2025-01-05 13:22:40,198 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158481.m3u8
+2025-01-05 13:22:40,198 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/158481.m3u8
+2025-01-05 13:22:40,241 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159091.m3u8
+2025-01-05 13:22:40,241 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159091.m3u8
+2025-01-05 13:22:40,284 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159117.m3u8
+2025-01-05 13:22:40,284 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159117.m3u8
+2025-01-05 13:22:40,329 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159118.m3u8
+2025-01-05 13:22:40,329 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159118.m3u8
+2025-01-05 13:22:40,372 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159119.m3u8
+2025-01-05 13:22:40,372 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159119.m3u8
+2025-01-05 13:22:40,423 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159120.m3u8
+2025-01-05 13:22:40,423 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159120.m3u8
+2025-01-05 13:22:40,473 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159246.m3u8
+2025-01-05 13:22:40,473 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/159246.m3u8
+2025-01-05 13:22:40,516 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160297.m3u8
+2025-01-05 13:22:40,516 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160297.m3u8
+2025-01-05 13:22:40,559 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8
+2025-01-05 13:22:40,559 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8
+2025-01-05 13:22:40,602 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8
+2025-01-05 13:22:40,602 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8
+2025-01-05 13:22:40,644 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8
+2025-01-05 13:22:40,644 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8
+2025-01-05 13:22:40,688 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160302.m3u8
+2025-01-05 13:22:40,688 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160302.m3u8
+2025-01-05 13:22:40,731 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160303.m3u8
+2025-01-05 13:22:40,731 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160303.m3u8
+2025-01-05 13:22:40,777 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160304.m3u8
+2025-01-05 13:22:40,777 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160304.m3u8
+2025-01-05 13:22:40,826 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160305.m3u8
+2025-01-05 13:22:40,826 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160305.m3u8
+2025-01-05 13:22:40,870 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160306.m3u8
+2025-01-05 13:22:40,870 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160306.m3u8
+2025-01-05 13:22:40,915 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160307.m3u8
+2025-01-05 13:22:40,915 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160307.m3u8
+2025-01-05 13:22:40,959 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160308.m3u8
+2025-01-05 13:22:40,959 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160308.m3u8
+2025-01-05 13:22:41,002 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160581.m3u8
+2025-01-05 13:22:41,002 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160581.m3u8
+2025-01-05 13:22:41,046 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160711.m3u8
+2025-01-05 13:22:41,046 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160711.m3u8
+2025-01-05 13:22:41,090 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160716.m3u8
+2025-01-05 13:22:41,090 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160716.m3u8
+2025-01-05 13:22:41,142 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160719.m3u8
+2025-01-05 13:22:41,142 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/160719.m3u8
+2025-01-05 13:22:41,193 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121131.m3u8
+2025-01-05 13:22:41,193 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121131.m3u8
+2025-01-05 13:22:41,237 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121132.m3u8
+2025-01-05 13:22:41,237 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121132.m3u8
+2025-01-05 13:22:41,280 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121133.m3u8
+2025-01-05 13:22:41,280 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121133.m3u8
+2025-01-05 13:22:41,323 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121135.m3u8
+2025-01-05 13:22:41,323 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121135.m3u8
+2025-01-05 13:22:41,373 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121136.m3u8
+2025-01-05 13:22:41,373 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121136.m3u8
+2025-01-05 13:22:41,424 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121138.m3u8
+2025-01-05 13:22:41,424 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121138.m3u8
+2025-01-05 13:22:41,467 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121139.m3u8
+2025-01-05 13:22:41,467 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121139.m3u8
+2025-01-05 13:22:41,511 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121140.m3u8
+2025-01-05 13:22:41,511 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121140.m3u8
+2025-01-05 13:22:41,555 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121141.m3u8
+2025-01-05 13:22:41,555 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121141.m3u8
+2025-01-05 13:22:41,599 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121142.m3u8
+2025-01-05 13:22:41,599 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121142.m3u8
+2025-01-05 13:22:41,642 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121144.m3u8
+2025-01-05 13:22:41,642 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121144.m3u8
+2025-01-05 13:22:41,686 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121145.m3u8
+2025-01-05 13:22:41,686 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121145.m3u8
+2025-01-05 13:22:41,730 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121147.m3u8
+2025-01-05 13:22:41,730 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121147.m3u8
+2025-01-05 13:22:41,773 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121148.m3u8
+2025-01-05 13:22:41,773 - INFO - URL OK: http://cord-cutter.net:8080/live/j3McKd/673709/121148.m3u8
+2025-01-05 13:22:41,855 - INFO - URL OK: https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
+2025-01-05 13:22:41,855 - INFO - URL OK: https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
+2025-01-05 13:22:41,936 - INFO - URL OK: https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
+2025-01-05 13:22:41,936 - INFO - URL OK: https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
+2025-01-05 13:22:42,012 - INFO - URL OK: https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8
+2025-01-05 13:22:42,012 - INFO - URL OK: https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8
+2025-01-05 13:22:42,094 - INFO - URL OK: https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8
+2025-01-05 13:22:42,094 - INFO - URL OK: https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8
+2025-01-05 13:22:42,192 - INFO - URL OK: https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
+2025-01-05 13:22:42,192 - INFO - URL OK: https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
+2025-01-05 13:22:42,405 - INFO - URL OK: https://cdn.igocast.com/channel3_hls/channel3_master.m3u8
+2025-01-05 13:22:42,405 - INFO - URL OK: https://cdn.igocast.com/channel3_hls/channel3_master.m3u8
+2025-01-05 13:22:42,569 - INFO - URL OK: https://cdn.igocast.com/channel4_hls/channel4_master.m3u8
+2025-01-05 13:22:42,569 - INFO - URL OK: https://cdn.igocast.com/channel4_hls/channel4_master.m3u8
+2025-01-05 13:22:43,187 - INFO - URL OK: https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+2025-01-05 13:22:43,187 - INFO - URL OK: https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+2025-01-05 13:22:43,352 - INFO - URL OK: https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+2025-01-05 13:22:43,352 - INFO - URL OK: https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+2025-01-05 13:22:43,497 - INFO - URL OK: https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+2025-01-05 13:22:43,497 - INFO - URL OK: https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+2025-01-05 13:22:43,631 - INFO - URL OK: https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
+2025-01-05 13:22:43,631 - INFO - URL OK: https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
+2025-01-05 13:22:43,752 - INFO - URL OK: http://media.smc-host.com:1935/alhorreya.tv/alhorreya.smil/playlist.m3u8
+2025-01-05 13:22:43,752 - INFO - URL OK: http://media.smc-host.com:1935/alhorreya.tv/alhorreya.smil/playlist.m3u8
+2025-01-05 13:22:43,846 - INFO - URL OK: http://209.133.209.195:1935/AlientoSD/smil:AlientoSD.smil/playlist.m3u8
+2025-01-05 13:22:43,846 - INFO - URL OK: http://209.133.209.195:1935/AlientoSD/smil:AlientoSD.smil/playlist.m3u8
+2025-01-05 13:22:44,157 - INFO - URL OK: https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8
+2025-01-05 13:22:44,157 - INFO - URL OK: https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8
+2025-01-05 13:22:44,234 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8
+2025-01-05 13:22:44,234 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8
+2025-01-05 13:22:44,309 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame1.smil/playlist.m3u8
+2025-01-05 13:22:44,309 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame1.smil/playlist.m3u8
+2025-01-05 13:22:44,389 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/playlist.m3u8
+2025-01-05 13:22:44,389 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/playlist.m3u8
+2025-01-05 13:22:44,467 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame2.smil/playlist.m3u8
+2025-01-05 13:22:44,467 - INFO - URL OK: https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame2.smil/playlist.m3u8
+2025-01-05 13:22:44,604 - INFO - URL OK: https://cdn.igocast.com/channel5_hls/channel5_master.m3u8
+2025-01-05 13:22:44,604 - INFO - URL OK: https://cdn.igocast.com/channel5_hls/channel5_master.m3u8
+2025-01-05 13:22:44,794 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxamericanclassics/CDN/playlist.m3u8
+2025-01-05 13:22:44,794 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxamericanclassics/CDN/playlist.m3u8
+2025-01-05 13:22:44,966 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
+2025-01-05 13:22:44,966 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
+2025-01-05 13:22:45,034 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxarchitecturaldigest/CDN/playlist.m3u8
+2025-01-05 13:22:45,034 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxarchitecturaldigest/CDN/playlist.m3u8
+2025-01-05 13:22:45,128 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/playlist.m3u8
+2025-01-05 13:22:45,128 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/playlist.m3u8
+2025-01-05 13:22:45,327 - INFO - URL OK: https://aweencore-vizio.amagi.tv/playlist.m3u8
+2025-01-05 13:22:45,327 - INFO - URL OK: https://aweencore-vizio.amagi.tv/playlist.m3u8
+2025-01-05 13:22:45,446 - INFO - URL OK: https://dikcfc9915kp8.cloudfront.net/hls/main.m3u8
+2025-01-05 13:22:45,446 - INFO - URL OK: https://dikcfc9915kp8.cloudfront.net/hls/main.m3u8
+2025-01-05 13:22:45,699 - INFO - URL OK: http://stream04.amp.csulb.edu:1935/Beach_TV/smil:BeachTV.smil/playlist.m3u8
+2025-01-05 13:22:45,699 - INFO - URL OK: http://stream04.amp.csulb.edu:1935/Beach_TV/smil:BeachTV.smil/playlist.m3u8
+2025-01-05 13:22:45,745 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
+2025-01-05 13:22:45,745 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
+2025-01-05 13:22:45,835 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
+2025-01-05 13:22:45,835 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
+2025-01-05 13:22:45,878 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8
+2025-01-05 13:22:45,878 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8
+2025-01-05 13:22:46,055 - INFO - URL OK: https://thegateway.app/BizAndYou/BizTV/playlist.m3u8
+2025-01-05 13:22:46,055 - INFO - URL OK: https://thegateway.app/BizAndYou/BizTV/playlist.m3u8
+2025-01-05 13:22:46,500 - INFO - URL OK: http://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8
+2025-01-05 13:22:46,500 - INFO - URL OK: http://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8
+2025-01-05 13:22:46,769 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
+2025-01-05 13:22:46,769 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
+2025-01-05 13:22:46,881 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/politics.m3u8
+2025-01-05 13:22:46,881 - INFO - URL OK: https://www.bloomberg.com/media-manifest/streams/politics.m3u8
+2025-01-05 13:22:47,041 - INFO - URL OK: https://bonappetit-samsung.amagi.tv/playlist.m3u8
+2025-01-05 13:22:47,041 - INFO - URL OK: https://bonappetit-samsung.amagi.tv/playlist.m3u8
+2025-01-05 13:22:47,250 - INFO - URL OK: https://cdn.igocast.com/channel1_hls/channel1_master.m3u8
+2025-01-05 13:22:47,250 - INFO - URL OK: https://cdn.igocast.com/channel1_hls/channel1_master.m3u8
+2025-01-05 13:22:47,314 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8
+2025-01-05 13:22:47,314 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8
+2025-01-05 13:22:47,397 - INFO - URL OK: https://content.uplynk.com/4a09fbea28ef4f32bce095e9eae04bd8.m3u8
+2025-01-05 13:22:47,397 - INFO - URL OK: https://content.uplynk.com/4a09fbea28ef4f32bce095e9eae04bd8.m3u8
+2025-01-05 13:22:47,708 - INFO - URL OK: https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
+2025-01-05 13:22:47,708 - INFO - URL OK: https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
+2025-01-05 13:22:47,935 - INFO - URL OK: https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8
+2025-01-05 13:22:47,935 - INFO - URL OK: https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8
+2025-01-05 13:22:48,370 - INFO - URL OK: https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
+2025-01-05 13:22:48,370 - INFO - URL OK: https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
+2025-01-05 13:22:48,872 - INFO - URL OK: https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
+2025-01-05 13:22:48,872 - INFO - URL OK: https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
+2025-01-05 13:22:49,006 - INFO - URL OK: https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8
+2025-01-05 13:22:49,006 - INFO - URL OK: https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8
+2025-01-05 13:22:49,430 - INFO - URL OK: https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
+2025-01-05 13:22:49,430 - INFO - URL OK: https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
+2025-01-05 13:22:49,474 - INFO - URL OK: http://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
+2025-01-05 13:22:49,474 - INFO - URL OK: http://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
+2025-01-05 13:22:49,560 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxchive/CDN/playlist.m3u8
+2025-01-05 13:22:49,560 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxchive/CDN/playlist.m3u8
+2025-01-05 13:22:49,710 - INFO - URL OK: http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
+2025-01-05 13:22:49,710 - INFO - URL OK: http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
+2025-01-05 13:22:49,881 - INFO - URL OK: https://circle-roku.amagi.tv/playlist.m3u8
+2025-01-05 13:22:49,881 - INFO - URL OK: https://circle-roku.amagi.tv/playlist.m3u8
+2025-01-05 13:22:50,088 - INFO - URL OK: https://cloudflare.tv/hls/live.m3u8
+2025-01-05 13:22:50,088 - INFO - URL OK: https://cloudflare.tv/hls/live.m3u8
+2025-01-05 13:22:50,130 - INFO - URL OK: http://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+2025-01-05 13:22:50,130 - INFO - URL OK: http://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+2025-01-05 13:22:50,399 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
+2025-01-05 13:22:50,399 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
+2025-01-05 13:22:50,545 - INFO - URL OK: http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
+2025-01-05 13:22:50,545 - INFO - URL OK: http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
+2025-01-05 13:22:50,737 - INFO - URL OK: http://video.ct-n.com/live/web2stream/playlist.m3u8
+2025-01-05 13:22:50,737 - INFO - URL OK: http://video.ct-n.com/live/web2stream/playlist.m3u8
+2025-01-05 13:22:50,846 - INFO - URL OK: http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8
+2025-01-05 13:22:50,846 - INFO - URL OK: http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8
+2025-01-05 13:22:50,909 - INFO - URL OK: http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
+2025-01-05 13:22:50,909 - INFO - URL OK: http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
+2025-01-05 13:22:50,978 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-electricnow/CDN/master.m3u8
+2025-01-05 13:22:50,978 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-electricnow/CDN/master.m3u8
+2025-01-05 13:22:51,157 - INFO - URL OK: https://estrellanews-plex.amagi.tv/playlist.m3u8
+2025-01-05 13:22:51,157 - INFO - URL OK: https://estrellanews-plex.amagi.tv/playlist.m3u8
+2025-01-05 13:22:51,222 - INFO - URL OK: https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+2025-01-05 13:22:51,222 - INFO - URL OK: https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+2025-01-05 13:22:51,255 - INFO - URL OK: https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
+2025-01-05 13:22:51,255 - INFO - URL OK: https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
+2025-01-05 13:22:51,374 - INFO - URL OK: http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
+2025-01-05 13:22:51,374 - INFO - URL OK: http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
+2025-01-05 13:22:51,455 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfailarmy/CDN/playlist.m3u8
+2025-01-05 13:22:51,455 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfailarmy/CDN/playlist.m3u8
+2025-01-05 13:22:51,527 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
+2025-01-05 13:22:51,527 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
+2025-01-05 13:22:51,676 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+2025-01-05 13:22:51,676 - INFO - URL OK: https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+2025-01-05 13:22:51,798 - INFO - URL OK: https://247wlive.foxweather.com/stream/index.m3u8
+2025-01-05 13:22:51,798 - INFO - URL OK: https://247wlive.foxweather.com/stream/index.m3u8
+2025-01-05 13:22:51,963 - INFO - URL OK: https://dai2-xumo.fubo.tv/amagi_hls_data_xumo1212A-fubo/CDN/master.m3u8
+2025-01-05 13:22:51,963 - INFO - URL OK: https://dai2-xumo.fubo.tv/amagi_hls_data_xumo1212A-fubo/CDN/master.m3u8
+2025-01-05 13:22:52,036 - INFO - URL OK: http://104.143.4.5:2080/funroads.m3u8
+2025-01-05 13:22:52,036 - INFO - URL OK: http://104.143.4.5:2080/funroads.m3u8
+2025-01-05 13:22:52,100 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfunnyordie/CDN/playlist.m3u8
+2025-01-05 13:22:52,100 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfunnyordie/CDN/playlist.m3u8
+2025-01-05 13:22:52,173 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxglamour/CDN/playlist.m3u8
+2025-01-05 13:22:52,173 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxglamour/CDN/playlist.m3u8
+2025-01-05 13:22:52,240 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgotraveler/CDN/playlist.m3u8
+2025-01-05 13:22:52,240 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgotraveler/CDN/playlist.m3u8
+2025-01-05 13:22:52,325 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgq/CDN/playlist.m3u8
+2025-01-05 13:22:52,325 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgq/CDN/playlist.m3u8
+2025-01-05 13:22:52,456 - INFO - URL OK: https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8
+2025-01-05 13:22:52,456 - INFO - URL OK: https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8
+2025-01-05 13:22:52,534 - INFO - URL OK: https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8
+2025-01-05 13:22:52,534 - INFO - URL OK: https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8
+2025-01-05 13:22:52,810 - INFO - URL OK: https://1111296894.rsc.cdn77.org/LS-ATL-56868-1/index.m3u8
+2025-01-05 13:22:52,810 - INFO - URL OK: https://1111296894.rsc.cdn77.org/LS-ATL-56868-1/index.m3u8
+2025-01-05 13:22:52,923 - INFO - URL OK: https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+2025-01-05 13:22:52,923 - INFO - URL OK: https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+2025-01-05 13:22:53,049 - INFO - URL OK: http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
+2025-01-05 13:22:53,049 - INFO - URL OK: http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8
+2025-01-05 13:22:53,189 - INFO - URL OK: http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/master.m3u8
+2025-01-05 13:22:53,189 - INFO - URL OK: http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/master.m3u8
+2025-01-05 13:22:53,302 - INFO - URL OK: http://66.242.170.53/hls/live/temp/index.m3u8
+2025-01-05 13:22:53,302 - INFO - URL OK: http://66.242.170.53/hls/live/temp/index.m3u8
+2025-01-05 13:22:53,398 - INFO - URL OK: https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8
+2025-01-05 13:22:53,398 - INFO - URL OK: https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8
+2025-01-05 13:22:53,682 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+2025-01-05 13:22:53,682 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+2025-01-05 13:22:53,774 - INFO - URL OK: https://content.uplynk.com/channel/5545aa8a7e5a480d85fd1cff8d0cf610.m3u8
+2025-01-05 13:22:53,774 - INFO - URL OK: https://content.uplynk.com/channel/5545aa8a7e5a480d85fd1cff8d0cf610.m3u8
+2025-01-05 13:22:53,860 - INFO - URL OK: https://content.uplynk.com/channel/ext/1efe3bfc4d1e4b5db5e5085a535b510b/ktrk_24x7_news.m3u8
+2025-01-05 13:22:53,860 - INFO - URL OK: https://content.uplynk.com/channel/ext/1efe3bfc4d1e4b5db5e5085a535b510b/ktrk_24x7_news.m3u8
+2025-01-05 13:22:53,966 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1309230/playlist.m3u8
+2025-01-05 13:22:53,966 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1309230/playlist.m3u8
+2025-01-05 13:22:54,044 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
+2025-01-05 13:22:54,044 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
+2025-01-05 13:22:54,642 - INFO - URL OK: https://1840769862.rsc.cdn77.org/FTF/LSN_SCTE.m3u8
+2025-01-05 13:22:54,642 - INFO - URL OK: https://1840769862.rsc.cdn77.org/FTF/LSN_SCTE.m3u8
+2025-01-05 13:22:54,792 - INFO - URL OK: https://lonestar-rakuten.amagi.tv/playlist.m3u8
+2025-01-05 13:22:54,792 - INFO - URL OK: https://lonestar-rakuten.amagi.tv/playlist.m3u8
+2025-01-05 13:22:54,920 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d51ddf0369acdb278dfb05e/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+2025-01-05 13:22:54,920 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d51ddf0369acdb278dfb05e/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+2025-01-05 13:22:54,987 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-maverickmovies/CDN/playlist.m3u8
+2025-01-05 13:22:54,987 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-maverickmovies/CDN/playlist.m3u8
+2025-01-05 13:22:55,105 - INFO - URL OK: https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MAIN.smil/Playlist.m3u8
+2025-01-05 13:22:55,105 - INFO - URL OK: https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MAIN.smil/Playlist.m3u8
+2025-01-05 13:22:55,223 - INFO - URL OK: https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8
+2025-01-05 13:22:55,223 - INFO - URL OK: https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8
+2025-01-05 13:22:55,343 - INFO - URL OK: https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
+2025-01-05 13:22:55,343 - INFO - URL OK: https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
+2025-01-05 13:22:55,657 - INFO - URL OK: http://c0.cdn.trinity-tv.net/stream/uq2t763988wmx82xs37vrzrtrvaz686y22jd9gcgvgbhu88g6dntdb82kggx9zgvpvwj5wisyi5mgwwgdqzm7d6xbf7yvctwzvhsu3t57ms3wa4qxwyeuqk3ayrdwx3k2b6cdtnrydx9qa3ezqzea===.m3u8
+2025-01-05 13:22:55,657 - INFO - URL OK: http://c0.cdn.trinity-tv.net/stream/uq2t763988wmx82xs37vrzrtrvaz686y22jd9gcgvgbhu88g6dntdb82kggx9zgvpvwj5wisyi5mgwwgdqzm7d6xbf7yvctwzvhsu3t57ms3wa4qxwyeuqk3ayrdwx3k2b6cdtnrydx9qa3ezqzea===.m3u8
+2025-01-05 13:22:55,872 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5812b821249444e05d09cc4c/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&us_privacy=1YNY
+2025-01-05 13:22:55,872 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5812b821249444e05d09cc4c/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&us_privacy=1YNY
+2025-01-05 13:22:56,116 - INFO - URL OK: https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8
+2025-01-05 13:22:56,116 - INFO - URL OK: https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8
+2025-01-05 13:22:56,223 - INFO - URL OK: http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+2025-01-05 13:22:56,223 - INFO - URL OK: http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+2025-01-05 13:22:56,429 - INFO - URL OK: https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
+2025-01-05 13:22:56,429 - INFO - URL OK: https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
+2025-01-05 13:22:56,642 - INFO - URL OK: https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+2025-01-05 13:22:56,642 - INFO - URL OK: https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
+2025-01-05 13:22:56,705 - INFO - URL OK: http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8
+2025-01-05 13:22:56,705 - INFO - URL OK: http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8
+2025-01-05 13:22:57,056 - INFO - URL OK: https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
+2025-01-05 13:22:57,056 - INFO - URL OK: https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
+2025-01-05 13:22:57,393 - INFO - URL OK: https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+2025-01-05 13:22:57,393 - INFO - URL OK: https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+2025-01-05 13:22:57,527 - INFO - URL OK: https://ad-playlistserver.aws.syncbak.com/playlist/899088/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjkxMDUsImlzcyI6IldMUyIsIm1kNSI6ImJhZTU4Y2ZlZWM2NmU1MjZkNmVjZmE1YmUzNTQxMzQ4IiwibWlkIjoiODk5MDg4In0.vBWkHmqS3z3dpq8UWfbk4wFd-vQlj6B0up-rpt7X_7Q
+2025-01-05 13:22:57,527 - INFO - URL OK: https://ad-playlistserver.aws.syncbak.com/playlist/899088/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjkxMDUsImlzcyI6IldMUyIsIm1kNSI6ImJhZTU4Y2ZlZWM2NmU1MjZkNmVjZmE1YmUzNTQxMzQ4IiwibWlkIjoiODk5MDg4In0.vBWkHmqS3z3dpq8UWfbk4wFd-vQlj6B0up-rpt7X_7Q
+2025-01-05 13:22:57,569 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/NOTVHD/playlist.m3u8
+2025-01-05 13:22:57,569 - INFO - URL OK: http://media4.tripsmarter.com:1935/LiveTV/NOTVHD/playlist.m3u8
+2025-01-05 13:22:57,664 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8
+2025-01-05 13:22:57,664 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8
+2025-01-05 13:22:57,864 - INFO - URL OK: https://cdn.igocast.com/channel2_hls/channel2_master.m3u8
+2025-01-05 13:22:57,864 - INFO - URL OK: https://cdn.igocast.com/channel2_hls/channel2_master.m3u8
+2025-01-05 13:22:58,135 - INFO - URL OK: http://c0.cdn.trinity-tv.net/stream/7tsewn83ddjifz69us9je7eftbm5nuausb4dsvz9g5aydin9672n734qbb9jgcfpiqtpwudvs9dpi2udjc3eh4h462eie5azjmfbfgfjeqfuhjmmgx9zuj736ijg7nffhf8rviq5svkgxbp639y9nfgc.m3u8
+2025-01-05 13:22:58,135 - INFO - URL OK: http://c0.cdn.trinity-tv.net/stream/7tsewn83ddjifz69us9je7eftbm5nuausb4dsvz9g5aydin9672n734qbb9jgcfpiqtpwudvs9dpi2udjc3eh4h462eie5azjmfbfgfjeqfuhjmmgx9zuj736ijg7nffhf8rviq5svkgxbp639y9nfgc.m3u8
+2025-01-05 13:22:58,195 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-nosey/CDN/playlist.m3u8
+2025-01-05 13:22:58,195 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-nosey/CDN/playlist.m3u8
+2025-01-05 13:22:58,259 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnowthis/CDN/playlist.m3u8
+2025-01-05 13:22:58,259 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnowthis/CDN/playlist.m3u8
+2025-01-05 13:22:58,480 - INFO - URL OK: https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
+2025-01-05 13:22:58,480 - INFO - URL OK: https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
+2025-01-05 13:22:58,575 - INFO - URL OK: http://oneamericanews-roku-us.amagi.tv/playlist.m3u8
+2025-01-05 13:22:58,575 - INFO - URL OK: http://oneamericanews-roku-us.amagi.tv/playlist.m3u8
+2025-01-05 13:22:59,190 - INFO - URL OK: http://livestream.5centscdn.com/shaditv/23abe62a446fc05ce0a6c810f4045308.sdp/index.m3u8
+2025-01-05 13:22:59,190 - INFO - URL OK: http://livestream.5centscdn.com/shaditv/23abe62a446fc05ce0a6c810f4045308.sdp/index.m3u8
+2025-01-05 13:22:59,400 - INFO - URL OK: http://otv3.ocfl.net:1936/OrangeTV/smil:OrangeTV.smil/playlist.m3u8
+2025-01-05 13:22:59,400 - INFO - URL OK: http://otv3.ocfl.net:1936/OrangeTV/smil:OrangeTV.smil/playlist.m3u8
+2025-01-05 13:22:59,465 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+2025-01-05 13:22:59,465 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+2025-01-05 13:22:59,612 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=64
+2025-01-05 13:22:59,612 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=64
+2025-01-05 13:22:59,811 - INFO - URL OK: https://d1mxoeplf1ak5a.cloudfront.net/index.m3u8
+2025-01-05 13:22:59,811 - INFO - URL OK: https://d1mxoeplf1ak5a.cloudfront.net/index.m3u8
+2025-01-05 13:23:00,005 - INFO - URL OK: https://2-fss-1.streamhoster.com/pl_134/amlst:200914-1282960/playlist.m3u8
+2025-01-05 13:23:00,005 - INFO - URL OK: https://2-fss-1.streamhoster.com/pl_134/amlst:200914-1282960/playlist.m3u8
+2025-01-05 13:23:00,369 - INFO - URL OK: https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est.m3u8
+2025-01-05 13:23:00,369 - INFO - URL OK: https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est.m3u8
+2025-01-05 13:23:00,438 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
+2025-01-05 13:23:00,438 - INFO - URL OK: https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
+2025-01-05 13:23:00,847 - INFO - URL OK: https://pbs.lls.cdn.pbs.org/est/index.m3u8
+2025-01-05 13:23:00,847 - INFO - URL OK: https://pbs.lls.cdn.pbs.org/est/index.m3u8
+2025-01-05 13:23:00,972 - INFO - URL OK: https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+2025-01-05 13:23:00,972 - INFO - URL OK: https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+2025-01-05 13:23:01,162 - INFO - URL OK: https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8
+2025-01-05 13:23:01,162 - INFO - URL OK: https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8
+2025-01-05 13:23:01,309 - INFO - URL OK: https://lds-realfamilies-plex.amagi.tv/playlist.m3u8
+2025-01-05 13:23:01,309 - INFO - URL OK: https://lds-realfamilies-plex.amagi.tv/playlist.m3u8
+2025-01-05 13:23:01,391 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxrealnosey/CDN/playlist.m3u8
+2025-01-05 13:23:01,391 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxrealnosey/CDN/playlist.m3u8
+2025-01-05 13:23:02,000 - INFO - URL OK: https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8
+2025-01-05 13:23:02,000 - INFO - URL OK: https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8
+2025-01-05 13:23:02,066 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxreelzchannel/CDN/playlist.m3u8
+2025-01-05 13:23:02,066 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxreelzchannel/CDN/playlist.m3u8
+2025-01-05 13:23:02,203 - INFO - URL OK: https://cdn.igocast.com/channel9_hls/channel9_master.m3u8
+2025-01-05 13:23:02,203 - INFO - URL OK: https://cdn.igocast.com/channel9_hls/channel9_master.m3u8
+2025-01-05 13:23:02,368 - INFO - URL OK: https://cdn.igocast.com/channel7_hls/channel7_master.m3u8
+2025-01-05 13:23:02,368 - INFO - URL OK: https://cdn.igocast.com/channel7_hls/channel7_master.m3u8
+2025-01-05 13:23:02,749 - INFO - URL OK: https://cloudfront.tubi.video/21df8036-fa23-49ff-9877-8af983546d2b/elw3phlf/stream.m3u8
+2025-01-05 13:23:02,749 - INFO - URL OK: https://cloudfront.tubi.video/21df8036-fa23-49ff-9877-8af983546d2b/elw3phlf/stream.m3u8
+2025-01-05 13:23:02,890 - INFO - URL OK: https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
+2025-01-05 13:23:02,890 - INFO - URL OK: https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
+2025-01-05 13:23:03,023 - INFO - URL OK: http://shoutfactory-redbox.amagi.tv/playlist.m3u8
+2025-01-05 13:23:03,023 - INFO - URL OK: http://shoutfactory-redbox.amagi.tv/playlist.m3u8
+2025-01-05 13:23:03,457 - INFO - URL OK: https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
+2025-01-05 13:23:03,457 - INFO - URL OK: https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
+2025-01-05 13:23:03,535 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1234A-stadiumsports/CDN/master.m3u8
+2025-01-05 13:23:03,535 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1234A-stadiumsports/CDN/master.m3u8
+2025-01-05 13:23:03,659 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?app_bundle=com.plexapp.desktop&app_domain=app.plex.tv&app_name=plex&content_series=5f12332eeca6a20040b328e5&content_title=MorUy57ijWhGe4ixZb_T&coppa=1&custom4=plex&device_make=Windows&device_model=Firefox&did=df8e1a36-847d-5096-86a7-3803ed330ede&gdpr=1&h=691&live=1&network_id=39&us_privacy=1---&w=1224
+2025-01-05 13:23:03,659 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?app_bundle=com.plexapp.desktop&app_domain=app.plex.tv&app_name=plex&content_series=5f12332eeca6a20040b328e5&content_title=MorUy57ijWhGe4ixZb_T&coppa=1&custom4=plex&device_make=Windows&device_model=Firefox&did=df8e1a36-847d-5096-86a7-3803ed330ede&gdpr=1&h=691&live=1&network_id=39&us_privacy=1---&w=1224
+2025-01-05 13:23:03,745 - INFO - URL OK: https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
+2025-01-05 13:23:03,745 - INFO - URL OK: https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
+2025-01-05 13:23:03,834 - INFO - URL OK: https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
+2025-01-05 13:23:03,834 - INFO - URL OK: https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
+2025-01-05 13:23:03,939 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=31
+2025-01-05 13:23:03,939 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=31
+2025-01-05 13:23:04,044 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=74
+2025-01-05 13:23:04,044 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=74
+2025-01-05 13:23:04,118 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxthedesignnetwork/CDN/playlist.m3u8
+2025-01-05 13:23:04,118 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxthedesignnetwork/CDN/playlist.m3u8
+2025-01-05 13:23:04,159 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5aea40b35126c2157123aa64/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+2025-01-05 13:23:04,159 - INFO - URL OK: http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5aea40b35126c2157123aa64/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+2025-01-05 13:23:04,394 - INFO - URL OK: https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8
+2025-01-05 13:23:04,394 - INFO - URL OK: https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8
+2025-01-05 13:23:04,509 - INFO - URL OK: https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8
+2025-01-05 13:23:04,509 - INFO - URL OK: https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8
+2025-01-05 13:23:04,722 - INFO - URL OK: https://cdn.igocast.com/channel11_hls/channel11_master.m3u8
+2025-01-05 13:23:04,722 - INFO - URL OK: https://cdn.igocast.com/channel11_hls/channel11_master.m3u8
+2025-01-05 13:23:04,941 - INFO - URL OK: https://lds-timeline-plex.amagi.tv/playlist.m3u8
+2025-01-05 13:23:04,941 - INFO - URL OK: https://lds-timeline-plex.amagi.tv/playlist.m3u8
+2025-01-05 13:23:05,011 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d356a534f63f000850cdd7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+2025-01-05 13:23:05,011 - INFO - URL OK: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d356a534f63f000850cdd7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+2025-01-05 13:23:05,203 - WARNING - URL Error http://tvpanoucom.srfms.com:1935/tvpanoucom/livestream/playlist.m3u8: Status Code 404
+2025-01-05 13:23:05,203 - WARNING - URL Error http://tvpanoucom.srfms.com:1935/tvpanoucom/livestream/playlist.m3u8: Status Code 404
+2025-01-05 13:23:05,340 - INFO - URL OK: https://cdn.igocast.com/channel8_hls/channel8_master.m3u8
+2025-01-05 13:23:05,340 - INFO - URL OK: https://cdn.igocast.com/channel8_hls/channel8_master.m3u8
+2025-01-05 13:23:05,403 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvanityfair/CDN/playlist.m3u8
+2025-01-05 13:23:05,403 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvanityfair/CDN/playlist.m3u8
+2025-01-05 13:23:05,453 - INFO - URL OK: http://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8
+2025-01-05 13:23:05,453 - INFO - URL OK: http://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8
+2025-01-05 13:23:05,517 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvoyager/CDN/playlist.m3u8
+2025-01-05 13:23:05,517 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvoyager/CDN/playlist.m3u8
+2025-01-05 13:23:06,193 - INFO - URL OK: https://stream.rcncdn.com/live/vsinproxy.m3u8
+2025-01-05 13:23:06,193 - INFO - URL OK: https://stream.rcncdn.com/live/vsinproxy.m3u8
+2025-01-05 13:23:06,413 - INFO - URL OK: https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
+2025-01-05 13:23:06,413 - INFO - URL OK: https://cdn.igocast.com/channel6_hls/channel6_master.m3u8
+2025-01-05 13:23:06,480 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8
+2025-01-05 13:23:06,480 - INFO - URL OK: https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8
+2025-01-05 13:23:06,676 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/13/live/master.m3u8
+2025-01-05 13:23:06,676 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/13/live/master.m3u8
+2025-01-05 13:23:06,834 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/5/live/master.m3u8
+2025-01-05 13:23:06,834 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/5/live/master.m3u8
+2025-01-05 13:23:07,001 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/channel/9/master.m3u8
+2025-01-05 13:23:07,001 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/channel/9/master.m3u8
+2025-01-05 13:23:07,213 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/channel/7/master.m3u8
+2025-01-05 13:23:07,213 - INFO - URL OK: https://cdn.jaybirdtv.com/wfmz/channel/7/master.m3u8
+2025-01-05 13:23:07,299 - INFO - URL OK: https://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/playlist.m3u8
+2025-01-05 13:23:07,299 - INFO - URL OK: https://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/playlist.m3u8
+2025-01-05 13:23:07,695 - INFO - URL OK: http://wlngstudiowebcam.srfms.com:1935/wlngstudiowebcam/livestream/playlist.m3u8
+2025-01-05 13:23:07,695 - INFO - URL OK: http://wlngstudiowebcam.srfms.com:1935/wlngstudiowebcam/livestream/playlist.m3u8
+2025-01-05 13:23:07,868 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=73
+2025-01-05 13:23:07,868 - INFO - URL OK: https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=73
+2025-01-05 13:23:07,933 - INFO - URL OK: http://xlpore-samsungus.amagi.tv/playlist.m3u8
+2025-01-05 13:23:07,933 - INFO - URL OK: http://xlpore-samsungus.amagi.tv/playlist.m3u8
+2025-01-05 13:23:08,076 - INFO - URL OK: https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+2025-01-05 13:23:08,076 - INFO - URL OK: https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+2025-01-05 13:23:08,258 - INFO - URL OK: https://thegateway.app/YouToo/CueTones/playlist.m3u8
+2025-01-05 13:23:08,258 - INFO - URL OK: https://thegateway.app/YouToo/CueTones/playlist.m3u8
+2025-01-05 13:23:08,458 - INFO - URL OK: http://video.ct-n.com/live/ctnstream/chunklist_w1534354198_DVR.m3u8
+2025-01-05 13:23:08,458 - INFO - URL OK: http://video.ct-n.com/live/ctnstream/chunklist_w1534354198_DVR.m3u8
+2025-01-05 13:23:09,615 - INFO - URL OK: http://video.ct-n.com/live/ctnspare/chunklist_w252238746_DVR.m3u8
+2025-01-05 13:23:09,615 - INFO - URL OK: http://video.ct-n.com/live/ctnspare/chunklist_w252238746_DVR.m3u8
+2025-01-05 13:23:09,872 - INFO - URL OK: http://video.ct-n.com/live/web1stream/chunklist_w1992415243_DVR.m3u8
+2025-01-05 13:23:09,872 - INFO - URL OK: http://video.ct-n.com/live/web1stream/chunklist_w1992415243_DVR.m3u8
+2025-01-05 13:23:09,927 - INFO - URL OK: http://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/chunklist_w1456643228_b512000.m3u8
+2025-01-05 13:23:09,927 - INFO - URL OK: http://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/chunklist_w1456643228_b512000.m3u8
+2025-01-05 13:23:10,111 - INFO - URL OK: https://dai2-playlistserver.aws.syncbak.com/playlist/893553/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjcyMzUsImlzcyI6IldMUyIsIm1kNSI6IjM5YWE1ZjczMTgyYTg0NThiY2QzOTcxMjQzYzVhZDc1IiwibWlkIjoiODkzNTUzIn0.v4oZTq8PnYSg_UAfc_nt9tO2ThQy44A-F8-colQ2Ijg
+2025-01-05 13:23:10,111 - INFO - URL OK: https://dai2-playlistserver.aws.syncbak.com/playlist/893553/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjcyMzUsImlzcyI6IldMUyIsIm1kNSI6IjM5YWE1ZjczMTgyYTg0NThiY2QzOTcxMjQzYzVhZDc1IiwibWlkIjoiODkzNTUzIn0.v4oZTq8PnYSg_UAfc_nt9tO2ThQy44A-F8-colQ2Ijg
+2025-01-05 13:23:10,305 - INFO - URL OK: https://playlistserver.aws.syncbak.com/playlist/13353644/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTA1NDQ4MDgsImlzcyI6IldMUyIsIm1kNSI6ImRiYjE0OGQwMDQxNmE1YzBmMjQyZmY4MTVjNTBiYTlhIiwibWlkIjoiMTMzNTM2NDQifQ.ifqK3SjqEA9zxIzehzOADwGU3hh7l-T-kXpUQSs10sU
+2025-01-05 13:23:10,305 - INFO - URL OK: https://playlistserver.aws.syncbak.com/playlist/13353644/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTA1NDQ4MDgsImlzcyI6IldMUyIsIm1kNSI6ImRiYjE0OGQwMDQxNmE1YzBmMjQyZmY4MTVjNTBiYTlhIiwibWlkIjoiMTMzNTM2NDQifQ.ifqK3SjqEA9zxIzehzOADwGU3hh7l-T-kXpUQSs10sU
+2025-01-05 13:23:10,412 - INFO - URL OK: https://dai2-playlistserver.aws.syncbak.com/playlist/18497172/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIxODQ5NzE3MiIsIm1kNSI6IjYzOWYxNjJjOTZjZjJmZWFmYjQ1YWY1NTA4MzhmMGQ4IiwiaWF0IjoxNTk0MDU4Mjc4LCJpc3MiOiJTeW5jYmFrIChURykifQ.m34pXxraDlVLkgkAtFOwXbZ4DqUaAXQjOrumoMi2Fso
+2025-01-05 13:23:10,412 - INFO - URL OK: https://dai2-playlistserver.aws.syncbak.com/playlist/18497172/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIxODQ5NzE3MiIsIm1kNSI6IjYzOWYxNjJjOTZjZjJmZWFmYjQ1YWY1NTA4MzhmMGQ4IiwiaWF0IjoxNTk0MDU4Mjc4LCJpc3MiOiJTeW5jYmFrIChURykifQ.m34pXxraDlVLkgkAtFOwXbZ4DqUaAXQjOrumoMi2Fso
+2025-01-05 13:23:10,576 - INFO - URL OK: https://dai2-playlistserver.aws.syncbak.com/playlist/18533680/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIxODUzMzY4MCIsIm1kNSI6Ijg2MTZhMDgxMGU0MjViNmZjMjE0YjcxZmM3N2ViMjU1IiwiaWF0IjoxNTk0NTgzNTc4LCJpc3MiOiJTeW5jYmFrIChURykifQ.iMmFxpzDdyXuuhMVZm1jIN2JZ4B1Cl6ms5RwyuI2P-E
+2025-01-05 13:23:10,576 - INFO - URL OK: https://dai2-playlistserver.aws.syncbak.com/playlist/18533680/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIxODUzMzY4MCIsIm1kNSI6Ijg2MTZhMDgxMGU0MjViNmZjMjE0YjcxZmM3N2ViMjU1IiwiaWF0IjoxNTk0NTgzNTc4LCJpc3MiOiJTeW5jYmFrIChURykifQ.iMmFxpzDdyXuuhMVZm1jIN2JZ4B1Cl6ms5RwyuI2P-E
