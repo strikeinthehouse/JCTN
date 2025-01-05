@@ -3,6 +3,14 @@
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/EWbaWA6.png",🇵🇹 RTP 2
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/AE5d2lq.png",🇵🇹 RTP 3
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/6r1xHn6/sic.png",🇵🇹 SIC
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/pyXp0bk/tvi.png",🇵🇹 TVI
@@ -17,14 +25,14 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/s
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/YX3ln1g.png",🇵🇹 SIC NOTICIAS
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/SPR2SDK/RTP.png",🇵🇹 RTP INTERNACIONAL
+#EXTVLCOPT:http-user-agent=Android
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/9GMzcw7/rtpaco.jpg",🇵🇹 RTP AÇORES
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/BsdgH54/rtpafr.webp",🇵🇹 RTP ÁFRICA
-#EXTVLCOPT:http-user-agent=Android
-#EXTVLCOPT:http-referrer=https://rtp.pt/
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.ibb.co/bvwwcB9/rtpmad.jpg",🇵🇹 RTP MADEIRA
 #EXTVLCOPT:http-user-agent=Android
 #EXTVLCOPT:http-referrer=https://rtp.pt/
@@ -59,7 +67,7 @@ https://rakuten-euronews-8-pt.samsung.wurl.tv/manifest/playlist.m3u8
 http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://i.imgur.com/HZDRG0K.png",🇧🇷 RECORD NEWS
 https://5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwU8rZ3iDNSeDvQj3sk3MMIgjADioLeOGiwcL_l-0nwE_WhGSwABiAfahwrk&s",🇧🇷 BAND TV
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8l7EU-rFGzMFNRgLg_50j9hK6svchncBz57v-Q5ZJaMuv8HPBY5P06gGCDo&s",🇧🇷 BAND TV
 https://streaming.gruporba.com.br/rba.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/3/39/Logotipo_da_Rede_Brasil_de_Televis%C3%A3o.png/200px-Logotipo_da_Rede_Brasil_de_Televis%C3%A3o.png",🇧🇷 SANTA CECILIA TV
 http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8

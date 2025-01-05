@@ -11,6 +11,28 @@
     ]
   },
   {
+    "name": "\ud83c\uddf5\ud83c\uddf9 RTP 2",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/EWbaWA6.png",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:http-user-agent=Android",
+      "#EXTVLCOPT:http-referrer=https://rtp.pt/"
+    ]
+  },
+  {
+    "name": "\ud83c\uddf5\ud83c\uddf9 RTP 3",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/AE5d2lq.png",
+    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:http-user-agent=Android",
+      "#EXTVLCOPT:http-referrer=https://rtp.pt/"
+    ]
+  },
+  {
     "name": "\ud83c\uddf5\ud83c\uddf9 SIC",
     "group": "Undefined",
     "tvg_id": "Undefined",
@@ -67,22 +89,22 @@
     "extra": []
   },
   {
-    "name": "\ud83c\uddf5\ud83c\uddf9 RTP A\u00c7ORES",
+    "name": "\ud83c\uddf5\ud83c\uddf9 RTP INTERNACIONAL",
     "group": "Undefined",
     "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/9GMzcw7/rtpaco.jpg",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
+    "logo": "https://i.ibb.co/SPR2SDK/RTP.png",
+    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
     "extra": [
       "#EXTVLCOPT:http-user-agent=Android",
       "#EXTVLCOPT:http-referrer=https://rtp.pt/"
     ]
   },
   {
-    "name": "\ud83c\uddf5\ud83c\uddf9 RTP \u00c1FRICA",
+    "name": "\ud83c\uddf5\ud83c\uddf9 RTP A\u00c7ORES",
     "group": "Undefined",
     "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/BsdgH54/rtpafr.webp",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
+    "logo": "https://i.ibb.co/9GMzcw7/rtpaco.jpg",
+    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8",
     "extra": [
       "#EXTVLCOPT:http-user-agent=Android",
       "#EXTVLCOPT:http-referrer=https://rtp.pt/"
@@ -213,7 +235,7 @@
     "name": "\ud83c\udde7\ud83c\uddf7 BAND TV",
     "group": "Undefined",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwU8rZ3iDNSeDvQj3sk3MMIgjADioLeOGiwcL_l-0nwE_WhGSwABiAfahwrk&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8l7EU-rFGzMFNRgLg_50j9hK6svchncBz57v-Q5ZJaMuv8HPBY5P06gGCDo&s",
     "url": "https://streaming.gruporba.com.br/rba.m3u8",
     "extra": []
   },
