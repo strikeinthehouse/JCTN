@@ -1,3366 +1,754 @@
 [
   {
-    "name": "ABC 7 Los Angeles 24/7",
-    "group": "USA",
-    "tvg_id": "Undefined",
-    "logo": "http://www.famouslogos.org/wp-content/uploads/2012/02/abc-current-logo1.png",
-    "url": "https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8",
-    "extra": []
-  },
-  {
-    "name": "24/7 UFC",
-    "group": "Sports",
-    "tvg_id": "UFC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkwQal-Q9TVyOhcpIL-Z_kbVdBq2yog2rnB6j4T5iICvrau4aHxbyCtqRfSc&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/146291.m3u8",
-    "extra": []
-  },
-  {
-    "name": "24/7 GUNSMOKE",
-    "group": "Classic",
-    "tvg_id": "GUNSMOKE",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkqrl58NA4V-rc-IyNJc41JrZ6_X4Ei5hpOs-xWPSFBVKsGHCi_Y02J31vgKA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140069.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: NY NEW YORK WABC",
-    "group": "Local",
-    "tvg_id": "NEW YORK NY WABC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfWlL3wzPIwO0dpkbigRVBz9XJN2kF67wlmTVVEvebNoHt9I8q-l1B7WMmQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120680.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: NY NEW YORK WNBC",
-    "group": "Local",
-    "tvg_id": "NEW YORK NY WNBC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29kW7kTkQCrJPWNgKAqyFmKAiOoA3t0HBNkhMLdH3UdAoc_TQjuh3pNPC2g&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120682.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CW: NY NEW YORK WPIX",
-    "group": "Local",
-    "tvg_id": "NEW YORK NY WPIX",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUPmNxZ5XUMr2_dCgBCdMsxOzPoqdQZqebh5LuY2XpK_bZ5OauvPJPDFduqQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120683.m3u8",
-    "extra": []
-  },
-  {
-    "name": "MyNetwork: NY NEW YORK WOR",
-    "group": "Local",
-    "tvg_id": "NEW YORK NY WOR",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZsyqPyjJiprM1rQ2MvliYRpqhOkke1oLXf8D1PTeK1Fg4jGMfL3Vy6bSGoeA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120684.m3u8",
-    "extra": []
-  },
-  {
-    "name": "PBS: NY NEW YORK WNET",
-    "group": "Local",
-    "tvg_id": "NEW YORK NY WNET",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD1eVT6itszGzNpWEYdBzyBIAc6uspup8O5qtglPFlZIpUHKRS_Ps3Kt-p7Q&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120685.m3u8",
-    "extra": []
-  },
-  {
-    "name": "PBS: NY NEW YORK WLIW",
-    "group": "Local",
-    "tvg_id": "NEW YORK NY WLIW",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4HfHEAlDtXWUcgX25YQCW6eXIqwDMeBgFqf9odDj8VIUmTHyYNcvp6EYnNQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120686.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: CT MIDDLETOWN WTNH",
-    "group": "Local",
-    "tvg_id": "MIDDLETOWN CT WTNH",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNU1seNlN7LL0IjKnflt5aHMRvAn54wrPZYCYhKdQr5Zo8TRUW4U-mfimPQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120673.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: NY ALBANY WTEN",
-    "group": "Local",
-    "tvg_id": "ALBANY NY WTEN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRSjmvODd_vM_D4x7LkZh2uk5D_ch9c2y6XTrPv-HfdQRjld-W2MqIMtL3iQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120674.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: NY ALBANY WNYT",
-    "group": "Local",
-    "tvg_id": "ALBANY NY WNYT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQMwsoPtd0AkWvVTwSdwk60A10NoIWEEXDSfZhf9HZTXYbkeuSdTTs0DavKQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120675.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: NY ALBANY WXXA",
-    "group": "Local",
-    "tvg_id": "ALBANY NY WXXA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7fHAwLDJU0eoMHp9QbVre52aGhsVjDs32usFmEVYnFrS_cs7UWnRVFk2qw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120677.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: NY SARATOGA WNYT",
-    "group": "Local",
-    "tvg_id": "SARATOGA NY WNYT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQMwsoPtd0AkWvVTwSdwk60A10NoIWEEXDSfZhf9HZTXYbkeuSdTTs0DavKQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120678.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: COLORADO SPRINGS CO KXRM",
-    "group": "Local",
-    "tvg_id": "COLORADO SPRINGS CO KXRM",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPoYZPXOt10or0Rl7qY5rtcIrFSuPR4WiuZFQsCVzX75z7Y_UHCh-ZFIfUmOA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120660.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: COLORADO SPRINGS KRDO",
-    "group": "Local",
-    "tvg_id": "COLORADO SPRINGS CO KRDO",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX1l5dEVM0-bI4zDfZIN_3hlEJB5-ONoACkRbUj-L1gx-PhhkgZyHEZ2SNXg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120661.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US CBS (KCNC) Denver",
-    "group": "Local",
-    "tvg_id": "DENVER CO KCNC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dlvPkhC5FyQNgl77HVP4g1b4uwHyALrkKak92AvI14-XnrTY_6lFMQkr4e0&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120662.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US FOX (KDVR) Denver",
-    "group": "Local",
-    "tvg_id": "DENVER CO KDVR",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLyPxUYQBz8j0cnV32euxOaN7CNS8gDfkov0jxuz-hLLi0esjxtEldcgV9fg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120663.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US NBC (KUSA) Denver (F)",
-    "group": "Local",
-    "tvg_id": "DENVER CO KUSA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx5rIJ1O6Q-Qe9szcqQZacAnQq8IZ__vzcGox2yjvGii7cUxfnBC0U0fnG2UM&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120664.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: CO PUEBLO KOAA",
-    "group": "Local",
-    "tvg_id": "PUEBLO CO KOAA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfopDttqI0htwFN_KwpI91GUEACdFU8hd-TMmoagw1B4cMGBbwda5OxlWVyvM&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120666.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: CT HARTFORD WFSB",
-    "group": "Local",
-    "tvg_id": "HARTFORD CT WFSB",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4eYHj1mcoBjk3nlIn4_cQsVd2DuOeRBdUQ82gaT1D_-QAwxCDx5uT_pOkU-c&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120667.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: CT HARTFORD WVIT",
-    "group": "Local",
-    "tvg_id": "HARTFORD CT WVIT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoeXCiPCnWXT8W4eZpZZNibKTDShL-yLlydjhpIfPe25R3d5MhT7MeYWPeuA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120668.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: CT HARTFORD WTIC",
-    "group": "Local",
-    "tvg_id": "HARTFORD CT WTIC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi0r_jgmj1cuun8Mz3RCZ35c5CAzZumTIuwcLLwhR3Z5uAedE6E4A18oNEuw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120669.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: CT HARTFORD WTNH",
-    "group": "Local",
-    "tvg_id": "HARTFORD CT WTNH",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNU1seNlN7LL0IjKnflt5aHMRvAn54wrPZYCYhKdQr5Zo8TRUW4U-mfimPQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120670.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: CT NEW HAVEN WTNH",
-    "group": "Local",
-    "tvg_id": "NEW HAVEN CT WTNH",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNU1seNlN7LL0IjKnflt5aHMRvAn54wrPZYCYhKdQr5Zo8TRUW4U-mfimPQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120671.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: CT NEW LONDON WFSB",
-    "group": "Local",
-    "tvg_id": "NEW LONDON CT WFSB",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLkDaW2HQOiSvb-Cjt0OJj6jY7EvF3diM0yOzaVgtNVu3RqulocHBKTgqkgsw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120672.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 8: ME PORTLAND WMTW",
-    "group": "Local",
-    "tvg_id": "PORTLAND ME WMTW",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnMkPFhh-TFyJIN3-iOAv4BZ0xhMDnYPCE6hUAzHuXys-kHpuUwQB9fkH3Oxg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122276.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: ME PORTLAND WGME",
-    "group": "Local",
-    "tvg_id": "PORTLAND ME WGME",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcPZC0D2NRCuWVp1pQmTTDFEUDrcNAPl1Jo3Rd0L5DEkjJx3V18c4WVQGNoA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122277.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: AL BIRMINGHAM WIAT",
-    "group": "Local",
-    "tvg_id": "BIRMINGHAM AL WIAT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFhouv1A7yvWVH71ppETZ6i8qHU2tybjESmScrHtwm7F9MxxrSuQX1X-CmEOY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120637.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: BIRMINGHAM AL WBRC",
-    "group": "Local",
-    "tvg_id": "BIRMINGHAM AL WBRC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2RARFfwFAlVpSx5tkd6kKdSBSyDmq3is9SZJqDtStuAPaVO7Ysp43JV2Wmw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120638.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US NBC 13 (WVTM) Birmingham",
-    "group": "Local",
-    "tvg_id": "BIRMINGHAM AL WVTM",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPGcxiIL_oJlpOA3ZVMwRVNtEYM_sfkHDM472fv_sYfT79yf-0UzybFQhbw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120639.m3u8",
-    "extra": []
-  },
-  {
-    "name": "AL | Huntsville | NBC WAFF",
-    "group": "Local",
-    "tvg_id": "HUNTSVILLE AL WAFF",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtcjjBcrE_CgxlO7bP0fp8YTHAH08A0GOGpzvevQirFKncX--GiKsZpfM0HFk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120640.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: AL MOBILE WKRG",
-    "group": "Local",
-    "tvg_id": "MOBILE AL WKRG",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaCPgKejtkjc4yJmLVf0fLaUNeakIEBkQyz8YpQEpzYCpQcQCRHHY2oXzJC1U&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120641.m3u8",
-    "extra": []
-  },
-  {
-    "name": "AL | Mobile | FOX WALA",
-    "group": "Local",
-    "tvg_id": "MOBILE AL WALA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IYS06FjsqP_rML-ElN4py2b0ZfHlJc4NmPKJ9IfgG-2w-fQo4J4yWXHveVY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120642.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: AL MOBILE WPMI",
-    "group": "Local",
-    "tvg_id": "MOBILE AL WPMI",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg4v3j6WcZIcV9skS7SmTg9DDPz7ASid7yB2qT3rPpv_xiQ4VibRDSoW9bpas&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120643.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: MONTGOMERY AL WSFA",
-    "group": "Local",
-    "tvg_id": "MONTGOMERY AL WSFA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzb45kDosdZvK7HhWyPvHj4L_urqE-YUI9beB4LLeXJTz11XePVunNRB2ASE&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120644.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: LITTLE ROCK AR KLRT",
-    "group": "Local",
-    "tvg_id": "LITTLE ROCK AR KLRT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLaU_pQS0GetkfsJjzC-yezq1fmS3Z2CVfkk4JBCMyrj-cHgaWbKviAFb0DA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120645.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: AR LITTLE ROCK KARK",
-    "group": "Local",
-    "tvg_id": "LITTLE ROCK AR KARK",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREkaWhE0pr5G-AsBLdqHPZbwUIf1SLNhYfU2w8g23ptAfC7vnuMFTkFhCozA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120646.m3u8",
-    "extra": []
-  },
-  {
-    "name": "AZ | Phoenix | CBS KPHO",
-    "group": "Local",
-    "tvg_id": "PHOENIX AZ KPHO",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHxWB5bY9LCz2MiLsZIyyAh_wD2DbVPeYSf7O2dDp5l0yYpLSaREVQX8Zu8A&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120648.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US FOX 10 (KSAZ) Phoenix",
-    "group": "Local",
-    "tvg_id": "PHOENIX AZ KSAZ",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9p5_CU8aBuNbOmnKU9-Taz8PuRHCZbAxhjmQhdOPQNkXoyXvv7W5F8kH5zmY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120649.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US FOX 11 (KMSB) Tucson (H)",
-    "group": "Local",
-    "tvg_id": "TUCSON AZ KMSB",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhwYQ_931Hb7Z8KHYPuMESLL779In9ZUEWKXcGmOjBSmg3tL5vldSoI2KAfg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120651.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US NBC 4 (KVOA) Tucson (H)",
-    "group": "Local",
-    "tvg_id": "TUCSON AZ KVOA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkrSCVOEw-4lCCKXf-S1BSfMnH7N_dNH6wYY-ejR6iNUheZe8DDE-gLvdpQuY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120652.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: CA FRESNO KSEE",
-    "group": "Local",
-    "tvg_id": "FRESNO CA KSEE",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsMX4czgQ6V5L2eNI0WsTUL7fw7e8OkX_1zuHcQ6iMSkZxX24rlHVQ04PCa5c&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120653.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US CBS (KCAL) Los Angeles (F)",
-    "group": "Local",
-    "tvg_id": "LOS ANGELES CA KCAL",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC_oAVXJH2_uxuGpIVnNdJaDk8FetFQEM-bnM7I6blwM4cEPCi9AwZ1tdoMw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120654.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US FOX 11 (KTTV) Los Angeles",
-    "group": "Local",
-    "tvg_id": "LOS ANGELES CA KTTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVR2UWFQSH3RPY4ldAx4UDqGLTgt7F7L5WwlnzZmq9nIMd4B-VwJokA2iBbSU&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120655.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US NBC (KNBC) Los Angeles (F)",
-    "group": "Local",
-    "tvg_id": "LOS ANGELES CA KNBC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFJ-KSyYwySGmzHJFodSPRiaJRAEnljuT65ZSAxrBXS3EG7dSS0mvjRMXXqw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120656.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: CA SAN FRANCISCO KPIX",
-    "group": "Local",
-    "tvg_id": "SAN FRANCISCO CA KPIX",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfEmI7knbMNn2IfHxJPZCmJL3KKKATUNgnSWmSvPs98KiVjHRpfiw6XQju0w&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120657.m3u8",
-    "extra": []
-  },
-  {
-    "name": "US Univision14 (KDTV) San Francisco",
-    "group": "Local",
-    "tvg_id": "SAN FRANCISCO CA KDTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LhaaZRo68VPx1qqXsqriwh8CZfNASVFO-P_Q7RePP3VJusTCg75-7plg7g&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120658.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: CA SAN JOSE KNTV",
-    "group": "Local",
-    "tvg_id": "SAN JOSE CA KNTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf5eQSXbZzSucnUcI0jwjztb8Oy65WKajbInZ_w1mDozooleKt7YQZ4wloSbM&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/120659.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: NC RALEIGH WTVD",
-    "group": "Local",
-    "tvg_id": "ABC: NC RALEIGH WTVD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XN08HJmmMdqPcD-HaVj0OZxmvXivo5Q59A5qR9r0_TT-M1KSZnBu6n5JOQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122064.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 6: GA AUGUSTA WJBF",
-    "group": "Local",
-    "tvg_id": "AUGUSTA GA WJBF",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqtew54-USAdcLal7e8hYpxKHFDFwOiWUB5V0orV5-1KbbUC-hpDqYgx4AuE&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122270.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: GA AUGUSTA WAGT",
-    "group": "Local",
-    "tvg_id": "AUGUSTA GA WAGT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL1QjqC8dEYziu7NUMQRZD9Q32y78w0hINlhbNKZo_9b-DSNBAfjrQHjVX9Q&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122271.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: GA AUGUSTA WFXG",
-    "group": "Local",
-    "tvg_id": "AUGUSTA GA WFXG",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlmnh9JIeAtxPL4RLi1CkwlBLiVGNxJ9saN_KCp002zBZMMG8gKbxnA-GS0z8&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122272.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: GA AUGUSTA WRDW",
-    "group": "Local",
-    "tvg_id": "AUGUSTA GA WRDW",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNYC8CBwagPQo4jtz-384NzyTdULqJAh5I4RgNW29_ckSHR_UCgw2y8Rb_FVk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122273.m3u8",
-    "extra": []
-  },
-  {
-    "name": "WGN 9: IL CHICAGO WGNDT",
-    "group": "Local",
-    "tvg_id": "CHICAGO IL WGNDT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR09Y4zAcD8Xog_WouuZzqDyyfKlaZbgFyzWPYyA46ehuvqaoGD29POa_vpFqA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122274.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 4: AL DOTHAN WTVY",
-    "group": "Local",
-    "tvg_id": "DOTHAN AL WTVY",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn8OedsEK_-79kdT_C2IJ9kgbaoLRUr7oUXAPMA5rvAqlzdf7kJWfRnw_AOYg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122275.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CA DEJAVIEW HD",
-    "group": "Local",
-    "tvg_id": "DEJAVIEW HD B",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbcxo1i619o020LA39TPXlNqSElg6P4MqrsV627BVAyJfAx9Y7oRh10gSXWw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122001.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 9: NY SYRACUSE WSYR",
-    "group": "Local",
-    "tvg_id": "SYRACUSE NY WSYR",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_-dhujUv7RgNkwHdhqaHx9FKtm0ZBK0ekgPZ5sWyrvi0Ru_nn55dce5m9HQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122002.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: NY SYRACUSE WSYT",
-    "group": "Local",
-    "tvg_id": "SYRACUSE NY WSYT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeixZNYH3jNwi8kHfXt3FIEbwcQYf1yckywI2BVzgZrsrWIz2gaM6rqNGbA_s&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122003.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: NY SYRACUSE WTVH",
-    "group": "Local",
-    "tvg_id": "SYRACUSE NY WTVH",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp6CNlzP5RtqaHeC00Otd582dKVUYu6G77F1CiEOJl0yL09S00X1fyM_Vm7zc&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122004.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 3: NY SYRACUSE WSTM",
-    "group": "Local",
-    "tvg_id": "SYRACUSE NY WSTM",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH_gqF05TYqUbrAJ4PG75x2swR4NDrPzYMNWhw3ajhs_ZSRV00_lfn_4vaTPw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122005.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 57: KY HAZARD WYMT-DT",
-    "group": "Local",
-    "tvg_id": "HAZARD KY WYMT-DT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzy1rpI2pFQ3SKnYIwDvMF9bQe_LwuT1oZIYi_C4twhLBkRMQ87KoKsESD5c4&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122006.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: KY LEXINGTON WKYT",
-    "group": "Local",
-    "tvg_id": "LEXINGTON KY WKYT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSri5a6Y3qq0FZSYTSxryLSlSdz_zjATKcXBdz9CzWqfyl3oRA5XVvnPswjHA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122007.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: NH MANCHESTER WMUR",
-    "group": "Local",
-    "tvg_id": "MANCHESTER NH WMUR",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxHYXUphEKY3dbIhmQyam8ZkWd9ec7sTF6Nm-W0zg8o0OHaPhoAgUNesQYQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122057.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 5: SC CHARLESTON WCSC",
-    "group": "Local",
-    "tvg_id": "CHARLESTON SC WCSC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVSPvA1WBtpfrHViSiuHwMQtW5LN7jDMXS1ydCeJ8qQT3rSh6UaLj1ueZG3Q&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/122058.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: MA BOSTON WBTS",
-    "group": "Local",
-    "tvg_id": "BOSTON MA WBTS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcL7fQ5VLnPZnpuZgm-YgApSojc8z4BXG-BeKY93ToW6Klx4dalQ0Tj1I6RQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121746.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 4: SC CHARLESTON WCIV",
-    "group": "Local",
-    "tvg_id": "CHARLESTON SC WCIV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVXAwIMSfqWLN2tV30rRYJ17kk8gcDqW4Uon9KywfAb_DNdWW2bF6npeMIIMk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121759.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: FL FORT MYERS WINK",
-    "group": "Local",
-    "tvg_id": "FORT MYERS FL WINK",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUvN4VBglwMKvhfLXZ7rPtsSA7LN8rZbuAaiYFnTQ5oCRDQ-eRx2SUZWebPUY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121761.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: PA PHILADELPHIA WPVI",
-    "group": "Local",
-    "tvg_id": "PHILADELPHIA PA WPVI",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_cV8S4QI74fGtDojKW1ARQsIVgd4WQ8FbmxZQJQPKO_tjk15yEzlP_4wLwQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121149.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: PA PHILADELPHIA KYW",
-    "group": "Local",
-    "tvg_id": "PHILADELPHIA PA KYW",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOZKPgOZweIapzOlyq3i8PaWyg96CiSQtWJu__jkhcHaWXF4HqcoIdJNdI-0&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121150.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 19: OH CLEVELAND WOIO",
-    "group": "Local",
-    "tvg_id": "CLEVELAND OH WOIO",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ZE3iw9j74u8_SBhXsi2TNO1QPdtUPjpZN_Wb-2J9dkqExu-1voAJF6nyFQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121152.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Florida - Alabama",
-    "group": "Local",
-    "tvg_id": "FLORIDA ALABAMA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZV2-XJNiqo4bwd_cBIB1xft_ZvKHsa3CNWiqnqSNzPliIyQjA0b8EintSdQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121154.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 15: ALABAMA WPMI",
-    "group": "Local",
-    "tvg_id": "ALABAMA WPMI",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg4v3j6WcZIcV9skS7SmTg9DDPz7ASid7yB2qT3rPpv_xiQ4VibRDSoW9bpas&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121155.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 12: TX SAN ANTONIO KSAT",
-    "group": "Local",
-    "tvg_id": "SAN ANTONIO TX KSAT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbG4DyIrXwgXduNjsOQ7vWe4Hr2VVF19_zsgw9C4AnMN1o9E6rbxda4aUSw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121156.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 4: TX SAN ANTONIO WOAI",
-    "group": "Local",
-    "tvg_id": "SAN ANTONIO TX WOAI",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLl4EBjP3VJSjPTLQlsM-w46g_IxY34-8G13tFIOUN6yj3UmNO_uX7SKABTw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121157.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CW 35: TX SAN ANTONIO KMYS",
-    "group": "Local",
-    "tvg_id": "SAN ANTONIO TX KMYS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRguRbv0D8hOjhEYavZ76koI05gVDPmF9Y0Ps8goM1C8SQZRPPayXdRIjBc8DY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121158.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 26: LA NEW ORLEANS WGNO",
-    "group": "Local",
-    "tvg_id": "NEW ORLEANS LA WGNO",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR3_HTZnDBxoOSerNs6vw3l4lFudtrK8nYanXzR2xdcdRT1kUEEHBSq5Cvr04&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121159.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 32: KY LOUISVILLE WLKY",
-    "group": "Local",
-    "tvg_id": "LOUISVILLE KY WLKY",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWMe65qlWv_mvxbS09FLSNNQv9YJ-u0z3eNtwPSssuSDlRalP7LmIQ-fGhA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121160.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 24: TN MEMPHIS WATN",
-    "group": "Local",
-    "tvg_id": "MEMPHIS TN WATN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRYhLPhCsxLfZBi_jvG2PKwTO18Ktju_hYJJnShUX0TTdpr1zlUicjDX40zQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121161.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: TN MEMPHIS WREG",
-    "group": "Local",
-    "tvg_id": "MEMPHIS TN WREG",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiSgldHM8Y-5gT3Y1i0l6hg5qZ3v50V-EDkIRKYDO7k9Y9vnQtxnFgocw3LQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121162.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CW 8: MT MISSOULA KPAX",
-    "group": "Local",
-    "tvg_id": "MISSOULA MT KPAX",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiRDo_5cBZVf4Xp1NVcbFOfycGPIdsQfHvdNqvSMsPfsSq_oN5dhoibvgIjw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121163.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: TN NASHVILLE WZTV",
-    "group": "Local",
-    "tvg_id": "NASHVILLE TN WZTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouNb_f45XRNLnyIuhXTsJNGy8KBV1qlTnCY5TVY8J1OVvj62iFRV2_uNxKg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121164.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: IN INDIANAPOLIS WRTV",
-    "group": "Local",
-    "tvg_id": "INDIANAPOLIS IN WRTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFv_DkaAegWngqSi5SPElSzNeOwemuR2K1vTSJ2rsVHxSINUsrkyONaudYD1g&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121165.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 4: IN INDIANAPOLIS WTTV",
-    "group": "Local",
-    "tvg_id": "INDIANAPOLIS IN WTTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtgVoDA2nG9pXZI2wXsmZ421dsB1s16gZ3JBkftqfs47i0NOem5WaGqYTnUg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121166.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 3: NC CHARLOTTE WBTV",
-    "group": "Local",
-    "tvg_id": "CHARLOTTE NC WBTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI2WeFC9yLeu55l3H4s2J4uHoJEu6kLZsdmadPSwSFOimCQj_X3WZJP4vyxxg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121168.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 4: PA PITTSBURGH WTAE",
-    "group": "Local",
-    "tvg_id": "PITTSBURGH PA WTAE",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnKW_VBgMnjXohED7tkY4PQ3l-IrfpY5sN4350B3SFsYaA-T4Wtyk1Sj4WMA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121169.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CW 19: PA PITTSBURGH WPCW",
-    "group": "Local",
-    "tvg_id": "PITTSBURGH PA WPCW",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEEpZ9d-aEBibSoi9jQzclyvLsdztNVayNIp5NOd3Z2yXQvK7P4epZXAyY9EQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121170.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 2: OR PORTLAND KATU",
-    "group": "Local",
-    "tvg_id": "PORTLAND OR KATU",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1CTc0hxdMKJqFEnY9G9tksZgG82rFSZ1WpU6WoamLjs9vkLVMCYk2zqMhTg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121171.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 12: AZ PHOENIX KPNX",
-    "group": "Local",
-    "tvg_id": "PHOENIX AZ KPNX",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtnLvyZ-AhkK116jIVOgfYJRCxIe010QoTQ0jnt0NKlOCOQt0umz8rUthoNA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121172.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: CA SAN DIEGO KNSD",
-    "group": "Local",
-    "tvg_id": "SAN DIEGO CA KNSD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQq2YQxT82t-JZ_2pvrrnJ1gXAF3zBxEfNAu_2iTOKvzrwnAK0A6QDuN_cYg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121173.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: CA SAN DIEGO KSWB",
-    "group": "Local",
-    "tvg_id": "SAN DIEGO CA KSWB",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRryOd5mth3x4rnmhw6s1D7gibci3LvGCQXhmNL42N69QJP939MZZJnwdDQ_Q0&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121174.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: CA SAN DIEGO KFMB",
-    "group": "Local",
-    "tvg_id": "SAN DIEGO CA KFMB",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LFP6rFJI4v2gOPgoKv4CBw4ujsFMmxFmGQ8R1JOysrAqTs39sJ0NVUq8yA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121175.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 10: CA SAN DIEGO KGTV",
-    "group": "Local",
-    "tvg_id": "SAN DIEGO CA KGTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo2zOaFN1mTzH5v_x4BEz8UT2_RJLr5Bzj1FV0Bjwsdaw8o-MawwCn6tZYOw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121176.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: TX FORT WORTH KTXA",
-    "group": "Local",
-    "tvg_id": "FORT WORTH TX KTXA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04NuaJa1yVPzerGaVXsaPm8smCOhDN7VBmwDfTlUH5PtKKV4BlvmB21FqIf8&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121238.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TXA21: TX DALLAS KTXA",
-    "group": "Local",
-    "tvg_id": "DALLAS TX KTXA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz-HzSX8d9dosxw9mkTnGZD9URIYBnr3IP14B56QKxnQI6zNT88Yv_t5dFCw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121239.m3u8",
-    "extra": []
-  },
-  {
-    "name": "MyTV: TX DALLAS KDFI",
-    "group": "Local",
-    "tvg_id": "DALLAS TX KDFI",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSQ0p9nFYuKQtZCSdXxYGzsMHcFPSnRuy4Mi9PuhcybsNrEn-oczITu3dyQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121240.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: FL MIAMI WTVJ",
-    "group": "Local",
-    "tvg_id": "MIAMI FL WTVJ",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ24ToGJZyEldI35XDcMKbKPrHmFMp8hOb6b4IhH2_E3_j5Silgg3U5PMQx5w&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121241.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: FL MIAMI WSVN",
-    "group": "Local",
-    "tvg_id": "MIAMI FL WSVN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9rxl_HuBLxHxh2S5KZ889oaeBwCpjfXji_KZPB3SLhOAhfY3P9i_fPrYMEY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121242.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: FL MIAMI WFOR",
-    "group": "Local",
-    "tvg_id": "MIAMI FL WFOR",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaIrWYMViPoK9xEaUGRqryEDP5SUT4OwJcLH2jz6Ed8AHQDXQGFhLSqNIxuQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121243.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 10: FL MIAMI WPLG",
-    "group": "Local",
-    "tvg_id": "MIAMI FL WPLG",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnx0130L65jt8rIzItH24PFkqQiBV641zr049ohN037rZeW6h9t-KZZivmqA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121245.m3u8",
-    "extra": []
-  },
-  {
-    "name": "MY 33: FL MIAMI WBFS",
-    "group": "Local",
-    "tvg_id": "MIAMI FL WBFS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5w25hEv708WNRDkoHFBIoyANYAD0ogjf43Dhk8xyC6a0rxuVn1i3-vVN-qD8&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121246.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC: AL DOTHAN WRGX",
-    "group": "Local",
-    "tvg_id": "DOTHAN AL WRGX",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsPCB5Quqx6-133ZHTWXS8PnyzarvAYvIjeMbsSUBZN8SWsIyNad9wD3IaJw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121591.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: AL DOTHAN WDFX",
-    "group": "Local",
-    "tvg_id": "DOTHAN AL WDFX",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7bNTYVBUqFC9gT5c0sii_SNaF-ftAH6McrxDMmEmcjjPcpH0F6PNTuszc_g&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121592.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 18: AL DOTHAN WDHN",
-    "group": "Local",
-    "tvg_id": "DOTHAN AL WDHN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfnrI9L_qDha36u_jNDMifarTFLM20MmEB_m25go2KlyiJl1Pvd0doxMJMZQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121593.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: FL WEST PALM BEACH WFLX",
-    "group": "Local",
-    "tvg_id": "WEST PALM BEACH FL WFLX",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHBkurPb5VkuYc3q0Vpz9IAIPA9BiNILh52r6eWKq7XNndu4s5LWNGovw6S8&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121595.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS 12: FL WEST PALM BEACH WPEC",
-    "group": "Local",
-    "tvg_id": "WEST PALM BEACH FL WPEC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ358s3mCPekz3Wr50hRikkqVd2brW_j0gXbEIqcX0xg-vTD86621XKBKIQBA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121596.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 25: FL WEST PALM BEACH WPBF",
-    "group": "Local",
-    "tvg_id": "WEST PALM BEACH FL WPBF",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtaKFu1oskO_XKV5lOy18fScxW_BW_SvbAlUjCnIhfOLi2E2VfYck6uvR4SuY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121597.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NBC 6: PA JOHNSTOWN WJAC",
-    "group": "Local",
-    "tvg_id": "JOHNSTOWN PA WJAC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvsA05RhWV6ms4INyHe_HDbqLSfHeE7A1AT5HRioJ536xfrsDQlyorgAp3yv4&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121664.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 7: IL CHICAGO WLS",
-    "group": "Local",
-    "tvg_id": "CHICAGO IL WLS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHJHVEW6imGK6JKhrrQvk8QODFxf13Tx7HYLCvmpotL8qRuATEIDxmcB4pOg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121665.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 5: MA BOSTON WCVB",
-    "group": "Local",
-    "tvg_id": "BOSTON MA WCVB",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqp7ZoAbTsxCIBmnQIjopLx_905sfR9NXvKBeYTng-erb7Pv7J481oIAf1ZZs&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121745.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: MS JACKSON WJTV",
-    "group": "Local",
-    "tvg_id": "JACKSON MS WJTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMaPjoD6DFGwdhuoRQeYS2lNhLWkkCtF50UBcdZpsrjpfA7lqaroWzaXFq_g&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135291.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX 40: MS JACKSON WDBD",
-    "group": "Local",
-    "tvg_id": "JACKSON MS WDBD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToNcTdjXCy3p95U-i5YWn6zvEEf0n6a3lkKNdlwgJRujxIAz-9H1Irz7R0Og&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135292.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC 16: MS JACKSON WAPT",
-    "group": "Local",
-    "tvg_id": "JACKSON MS WAPT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDadH9mHkb-c9POtNNGf7FLzLjEl-7Gq31Kijo-lCfAGZ53PhERN9JiM6CQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135293.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Fox News",
-    "group": "News",
-    "tvg_id": "FOXNEWS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEc4MyZIWvx3nNPOVwlUwvivpu_VLsknHjgtCwEvUVl4sJKazM0LiHDbNRSE&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135794.m3u8",
-    "extra": []
-  },
-  {
-    "name": "One Soccer",
-    "group": "Sports",
-    "tvg_id": "CA ONE SOCCER",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWdVr6JmNDpBDk3hyJpMw1WH-vgcjtt_PgRq9DyLYyFVl2dQBQg_H-ji1dPQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135810.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC (WBAY) HD",
-    "group": "Local",
-    "tvg_id": "ABC WBAY",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zfUpUT4THfTxAtufYKGHfrQHtT2nLnZzMOkkDDmm68feZLh13Y_S9Z8PNxM&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135811.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: WI GREEN BAY WLUK",
-    "group": "Local",
-    "tvg_id": "WI FOX WLUK",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkShIw7zso3ff7Vcllw1ofvO5IHywXQZdP0G1iMCohfUexdzhVZJBDOCknku0&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135812.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: WI GREEN BAY WFRV",
-    "group": "Local",
-    "tvg_id": "WI CBS WFRV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkJyLuzZLn4BN1ofWG_tVQmmDHkBjpTF6adq42nTAfmJ2IiVvsHXT5W5bOg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135813.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: NY ROCHESTER WUHF",
-    "group": "Local",
-    "tvg_id": "ROCHESTER NY WUHF",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3xjclIHC7UJV2FVItmUlTB4A6jlv1JkkRorqfFlCr1Z0yrIGRqx5oyOoivz4&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/135877.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CSPAN FHD",
-    "group": "News",
-    "tvg_id": "CSPAN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkSFNg2Z3cHvtzdoGX713Ms_pckOPHNRu-UBg2wcH7SH_-XsQdFGXW5-uXg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136589.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CTV2 VANCOUVER ISLAND (E)",
-    "group": "Local",
-    "tvg_id": "CA CTV2 VANCOUVER ISLAND",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi6xgk_G8L_-ZUnf2RiTagBg3DH64bXuA2kwr0LkgxvnvUr61Wlwis6H3fg2k&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136612.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: OH COLUMBUS WTTE",
-    "group": "Local",
-    "tvg_id": "FOX WTTE",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHlZEPjMRMtU6Rq6oQpOu_BuEKwhAB_bD4Mr6M0DQA0shjFmfBSaUC-TeiLQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136613.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Global Montreal HD (B)",
-    "group": "Local",
-    "tvg_id": "CA Global Montreal HD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH5osCxp9xVeXg3HxJRkTbLAVxbrjcVEXMqWtupHcbD3jJZ9iEtBFvkWAn1A&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136640.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Global Monterial News (E)",
-    "group": "Local",
-    "tvg_id": "CA Global Monterial News",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19ztpvT3Z2jFNJqqQ-HgS4oH19laxpBm4hYz6S4PMZMNnnvnJou0DjCmUsw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136641.m3u8",
-    "extra": []
-  },
-  {
-    "name": "BENFICA TV HD (P)",
-    "group": "Sports",
-    "tvg_id": "PT BENFICA TV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehaDTmpuffTTXHC8CXzMfSl4VM5LDUdltZYX-VVVd4EqLhh5h00I963N0oQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136726.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS: TN CHATTANOOGA WDEF",
-    "group": "Local",
-    "tvg_id": "CHATTANOOGA TN WDEF",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0DGl7jyUILMG5eWKLeDEif-y1SlB4SsGGBxS2yxYCFghriJ4g33npGiL-ag&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136739.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX: TN CHATTANOOGA WTVC",
-    "group": "Local",
-    "tvg_id": "CHATTANOOGA TN WTVC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdPIcdreP67hRiTDjhqHu4f6tjY5iR-cXZfXrnOhxMFY9oxRTiILSauoAadDk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136740.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC: TN CHATTANOOGA WTVC",
-    "group": "Local",
-    "tvg_id": "CHATTANOOGA TN WTVC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouUGFWqrS_IWGjnYPDn4oPYdJWNYtXoTkB-iC4pfqMRIZfjzrJdeW1b_6PCM&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136741.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS (KFVS) Cape Girardeau",
-    "group": "Local",
-    "tvg_id": "KFVS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmezX1i9cv42Wc003wkRp2xrIVg1TLTVh39NkSr1Z8b9ztucAcxllxULDIfA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136883.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FOX (KBSI) Paducah",
-    "group": "Local",
-    "tvg_id": "KBSI",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHgtvtfPJSNyE3NewKRkzLTBRE0A2efRjMb78i55l5BmeLcOlI1oTtvZlzcw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136884.m3u8",
-    "extra": []
-  },
-  {
-    "name": "AT&T SportsNet Southwest (F)",
-    "group": "Sports",
-    "tvg_id": "AT&T SportsNet Southwest",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0PnyGUow-vzh5k-Oj8byBKltaZpejkEwg9OUiSpbJeF6vm58SOp-E5ZPUw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/136909.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC (WLOS) HD (SP)",
-    "group": "Local",
-    "tvg_id": "WLOS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLr-ILZg3nC7Tj0Z6oOkptLrzl6kdceycEsZFzPqTm2_CwLE7Sr1Mm4wxktQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137047.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS (WSPA) HD (SP)",
-    "group": "Local",
-    "tvg_id": "WSPA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN3Vlzi6vGYpGPFIfVTfuPxKmIsRZiRCL74xj5gYWI9GtiNN0yqzJFtxa0xLc&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137048.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CW (WYCW) HD (SP)",
-    "group": "Local",
-    "tvg_id": "WYCW",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4H5MhWse0EcQ5i3dN8aGx_nH4EnM6ZJxFneLmHbjOGyzuYRWQKmTMPj5NxQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137049.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ABC (WQAD) Moline",
-    "group": "Local",
-    "tvg_id": "WQAD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ68K3PGAWZ3k-DTcJzjz0DOyFWRvqOsMGgBj_7KX088oI_h0o0g_zrvCo_n-M&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137242.m3u8",
+    "name": "CHH: CANAL 44",
+    "group": "REGIONAL",
+    "tvg_id": "CANAL 44",
+    "logo": "https://i.imgur.com/YDp8MlN.png",
+    "url": "https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "FOX (KSAZ) Phoenix",
-    "group": "Local",
-    "tvg_id": "KSAZ",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9p5_CU8aBuNbOmnKU9-Taz8PuRHCZbAxhjmQhdOPQNkXoyXvv7W5F8kH5zmY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137505.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Start TV",
-    "group": "Entertainment",
-    "tvg_id": "Start TV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxGbO_jDugGHXJ7wV71SkpYchBMDTkWeN0qfpjOx8hFlpXvn9OgKfs8Z9MpT8&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137680.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Global Peterborough News (E)",
-    "group": "Local",
-    "tvg_id": "CA Global Peterborough News",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdVrqQJgXiTDFdMO6cOJ23moFuDnRfpDEQFVk3F8gv-NXfinOxGcDl62bgPY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137681.m3u8",
+    "name": "DUR: Canal 10 Durango",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/zUCCiHA.png",
+    "url": "http://204.12.193.98:1935/TvHD/canal10/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CBS (KGPE) Fresno (F)",
-    "group": "Local",
-    "tvg_id": "KGPE",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeSlRiDMGhX-ikRTTkN3yUQAbObB8AlZ7abm3-s8ziP4oIlWG2N57w4ieahRM&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137682.m3u8",
+    "name": "DUR: TV Lobo Durango",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://lh3.googleusercontent.com/-EgRlfG8qS6k/XzxtdI0B6vI/AAAAAAAA4pw/x3UCH8j26U4wOZjlUJMOLVC86mgg5JhOACK8BGAsYHg/s0/2020-08-18.png",
+    "url": "http://streamingcws20.com:1935/lobodurango/videolobodurango/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "ABC (WTNH) (SP)",
-    "group": "Local",
-    "tvg_id": "WTNH",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNU1seNlN7LL0IjKnflt5aHMRvAn54wrPZYCYhKdQr5Zo8TRUW4U-mfimPQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137697.m3u8",
+    "name": "GUA: TV Cuatro 4.2 Cultura",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://www.tvcuatro.com/images/cultura-01.png",
+    "url": "https://5f2c1b0d880e5.streamlock.net/tv42/videotv42_720p/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "SKY SPORTS ARENA FHD",
-    "group": "Sports",
-    "tvg_id": "SKY SPORTS ARENA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo7p0x0LrNn_jmOb67Ir4FnxDUlkG6zfNcYC0VX-1xAesvOH24JIsL3E7mKg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137719.m3u8",
+    "name": "MIC: CBTV Michoacan",
+    "group": "REGIONAL",
+    "tvg_id": "CBTV Michoacan",
+    "logo": "https://i.imgur.com/zA61jld.png",
+    "url": "https://5ca3e84a76d30.streamlock.net/cbtv/videocbtv/chunklist_w233916547.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MTY6MTYgUE0maGFzaF92YWx1ZT1TRG9tVW16WXcxdldkdkQ5N3VwdjlnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
     "extra": []
   },
   {
-    "name": "SKY SPORTS MAIN EVENT HD",
-    "group": "Sports",
-    "tvg_id": "SKY SPORTS MAIN EVENT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8EOzf2AJe_w6GVfIjUlVyga4EKiYneaIxgJ2dNVhbMEPsT5y4cTvBo-1MYcI&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137720.m3u8",
+    "name": "MIC: Canal 6",
+    "group": "REGIONAL",
+    "tvg_id": "Canal 6",
+    "logo": "https://i.imgur.com/JTNF4Rs.png",
+    "url": "https://5f1af61612fb5.streamlock.net/canal6mich2/videocanal6mich2/chunklist_w119129650.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNy8yMDIzIDE6MjA6MzUgUE0maGFzaF92YWx1ZT1pLyttRnh1STUrS1gwNFdWZnFnbGRnPT0mdmFsaWRtaW51dGVzPTEwJmlkPQ%3D%3D",
     "extra": []
   },
   {
-    "name": "MLB 00",
-    "group": "Sports",
-    "tvg_id": "MLB",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVV_hbMxbiYxXp8sjfF_XQDh3kUM8u2ma_jhDxuuRMrv-WJOGLGQnltS11g&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137764.m3u8",
+    "name": "PUE: Canal 16.1",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://serenotv.com/wp-content/uploads/2022/01/Canal-set-en-vivo.jpg",
+    "url": "https://5d0d1d7a6be9e.streamlock.net/envivo/puecom/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "BET Her",
-    "group": "Entertainment",
-    "tvg_id": "BET Her",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wKpbbrOzzQ4lWRiMZMAZ07y4g1bvYDO-T2rCDrDs9P9xh3rQXOD9MuxCmA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137790.m3u8",
+    "name": "PUE: Canal 16.2",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://serenotv.com/wp-content/uploads/2022/01/Canal-set-en-vivo.jpg",
+    "url": "https://5d0d1d7a6be9e.streamlock.net/live/setpuebla/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "The Country Network",
-    "group": "Music",
-    "tvg_id": "LN The Country Network",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOwiG-v6aqLMJroXrrJ7LT51b61jXLMsAT7s0TSVKp6DQe2lIbDnOd9koTLQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137791.m3u8",
+    "name": "PUE: Canal 26.1",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://serenotv.com/wp-content/uploads/2022/01/Canal-set-en-vivo.jpg",
+    "url": "http://189.240.210.28:1935/envivo/puecom/chunklist_w166335976.m3u8",
     "extra": []
   },
   {
-    "name": "NBC (KCRA) Sacramento",
-    "group": "Local",
-    "tvg_id": "KCRA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZAOCkHk1xEWWDp0IJlrQqc_z-EIxsqx-w3bYN8q98ydU7eX7VpOrIfAP6lA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137953.m3u8",
+    "name": "PUE: Canal 26.2",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://serenotv.com/wp-content/uploads/2022/01/Canal-set-en-vivo.jpg",
+    "url": "http://189.240.210.28:1935/envivo/puecom/chunklist_w745561738.m3u8",
     "extra": []
   },
   {
-    "name": "CBS Sacramento",
-    "group": "Local",
-    "tvg_id": "CBS Sacramento",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUyZwTNANUhHMzBOoKCI3YVbYEDm7hzxnZspk6eQDd8byL2FJldNiz1BiagDY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/137954.m3u8",
+    "name": "PUE: TV comunicaciones Puebla",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://pbs.twimg.com/profile_images/1013760329799667713/A9r2vgTW_400x400.jpg",
+    "url": "http://189.240.210.28:1935/envivo/puecom/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Telemundo 31 (WTMO) Orlando",
-    "group": "Local",
-    "tvg_id": "WTMO",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvOl-r-F9bxVkot48cvrmReSu5FfRXsEmYEIZ_ifYjOuACpE7knKQqA_RYSnk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139149.m3u8",
+    "name": "ROO: Canal 10 Cancun",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/9HA0TTS.png",
+    "url": "http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Bally Sports Great Lake",
-    "group": "Sports",
-    "tvg_id": "Bally Sports Great Lake",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9v6UJyT9z5Id5FLIRF7CZvfZ2QNYEPos7huDIj7Z--myVa5eHa-WLLC--8aw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139272.m3u8",
+    "name": "SIN: TVP Mazatlan",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://tvpacifico.mx/images/_tvp/logos/logo_tvp_vacontigo_02.png",
+    "url": "https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CW (WUPA) Atlanta",
-    "group": "Local",
-    "tvg_id": "WUPA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTem5EDKUKyk2DGNsCcVQFWwm5goXvVYbiE8Mdi1eUOJCXNa84woXlJlfoYIr0&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139462.m3u8",
+    "name": "SIN: TVP Culiacan",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://tvpacifico.mx/images/_tvp/logos/logo_tvp_vacontigo_02.png",
+    "url": "https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "BBC World News",
-    "group": "News",
-    "tvg_id": "BBC World News",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUESFYcXMu7Q7XJifTbuq_W4oICEb5WJslMxNf2zwHSUWFGu-XiPu8AJ4a0TQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139752.m3u8",
+    "name": "SIN: TVP Los Mochis",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://tvpacifico.mx/images/_tvp/logos/logo_tvp_vacontigo_02.png",
+    "url": "https://5ca3e84a76d30.streamlock.net/gpacifico2/smil:mochis.smil/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "First Nations Experience (WNEO) (SP)",
-    "group": "Culture",
-    "tvg_id": "First Nations Experience",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxjdykfelTyIicl_rHJlbl3BwfIcmwgzj-1Z--07DRjI_QtII1MlQFNFZqzio&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139753.m3u8",
+    "name": "SON: TVP Cd. Obregon",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://tvpacifico.mx/images/_tvp/logos/logo_tvp_vacontigo_02.png",
+    "url": "https://5ca3e84a76d30.streamlock.net/gpacifico3/smil:obregon.smil/chunklist_w1903526755_b1428000_sleng.m3u8",
     "extra": []
   },
   {
-    "name": "Create (WEDU)",
-    "group": "Lifestyle",
-    "tvg_id": "Create",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ66gCdCSMWr9FeLh0ebg3pGOX0HVpn0sFTXl6GnFW_viBUqBLNXjScR_O0JQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139754.m3u8",
+    "name": "SON: Telemax Sonora",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "http://www.telemax.com.mx/wp-content/themes/multinews/images/logo.png",
+    "url": "http://s5.mexside.net:1935/telemax/telemax/chunklist_w586584359.m3u8",
     "extra": []
   },
   {
-    "name": "Twist TV (WTSP)",
-    "group": "Entertainment",
-    "tvg_id": "Twist TV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFpluI1vMy-FXeCT4QuUdZSIA0DC9TkksuUfyPxSMU05PzKuYYQarA28vDWg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139755.m3u8",
+    "name": "TLA: Tlaxcala Television",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "http://www.tlaxcalatelevision.tv/images/stock/img-varios/tlaxcala-television.png",
+    "url": "https://vid.mega00.com:5443/LiveApp/streams/928111829917388844551988/928111829917388844551988.m3u8",
     "extra": []
   },
   {
-    "name": "PBS (WNED) HD (SP)",
-    "group": "Local",
-    "tvg_id": "PBS WNED",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozJZ96uBk4RUK9eJL9JHCH3ZDGT5JVgxsaZFsVniQbh5dXfokzkx7zk9NQ5o&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139756.m3u8",
+    "name": "VER: TVMAS Veracruz",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/8O0WxdF.png",
+    "url": "https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Latin Hola TV (A)",
-    "group": "Entertainment",
-    "tvg_id": "Latin Hola TV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuNOfFz4JmQWrqxSebR7UcceOrfHGZbja2aOIQv44bZKIxRrcpR3KSzDYgjCw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/139757.m3u8",
+    "name": "YUC: Teleplay Merida",
+    "group": "REGIONAL",
+    "tvg_id": "Undefined",
+    "logo": "https://lh3.googleusercontent.com/-REFH6RkuaQ0/X5wY1UPCWqI/AAAAAAAA63w/-tUyjCx_2PUJrqQuDXUxiRnf6HLXy-zMQCK8BGAsYHg/s0/2020-10-30.png",
+    "url": "https://teleplay.mediaflix.istream.mx/livestream/teleplay/livesd/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "TeenNick",
-    "group": "Kids",
-    "tvg_id": "TeenNick",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbRYl5D-0bH2YFya7IGupOzV6yffrkcaHCkFkIz2v-qSHTI3X153u5eWTDgA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140004.m3u8",
+    "name": "Maria vision | M\u00e9xico",
+    "group": "RELIGION",
+    "tvg_id": "Maria Vision",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/maria_vision.png",
+    "url": "https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "NBC (WDAM) Laurel (F)",
-    "group": "Local",
-    "tvg_id": "WDAM",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTetYVAFbcWzuw69jSv4zITPeTo3nC32ZCRBnUQ0n0G8_rgpWJi5Q7nwHLSuQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140399.m3u8",
+    "name": "Maria vision Capilla | M\u00e9xico",
+    "group": "RELIGION",
+    "tvg_id": "Maria Vision",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/maria_vision.png",
+    "url": "https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Privado2/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Poker Go",
-    "group": "Sports",
-    "tvg_id": "Poker Go",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoNRA_1UbrVJBxv7IaoeegkwFc3izMZxZTgfROFr6WLFWeDKABxXleiQ-BBi0&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140814.m3u8",
+    "name": "Canal ILCE | M\u00e9xico",
+    "group": "EDUCATIVOS",
+    "tvg_id": "Undefined",
+    "logo": "https://www.ilce.edu.mx/images/RadioyTV/CI.png",
+    "url": "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/chunklist_w420201970_b2430208.m3u8",
     "extra": []
   },
   {
-    "name": "World Poker Tour",
-    "group": "Sports",
-    "tvg_id": "World Poker Tour",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCDHnZoT6GC_ZFSKuFtdVjiJhwmm_yqDqJ0wFFnVsL4mbJHiSWy3Ei9YAyG_M&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140815.m3u8",
+    "name": "Saber Mas | USA",
+    "group": "EDUCATIVOS",
+    "tvg_id": "",
+    "logo": "https://i.imgur.com/khlcec9.png",
+    "url": "https://olympusamagi.amagi.tv/hls/amagi_hls_data_olympusat-sabermas-plex/CDN/playlist.m3u8?us_privacy=1---&did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&X-Plex-Token=6bSLyFJzzvyW_ngsjtWh&channelId=6018913ea15130002b284195",
     "extra": []
   },
   {
-    "name": "CBS 7 (WNCN) Raleigh/Durham",
-    "group": "Local",
-    "tvg_id": "WNCN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLUr2m5r7ZRwfi5EBsFbDHmkG-pu9E7HlL8ejT5xrJo6fgGitDmuxwuOiH_xc&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140820.m3u8",
+    "name": "PBS Kids (Ingl\u00e9s) | Estados Unidos",
+    "group": "INFANTILES",
+    "tvg_id": "Caricaturas",
+    "logo": "https://cms-tc.pbskids.org/nationalvideoplayer/resources/img/noimage.png",
+    "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "NBC (KWWL) WATERLOO-IOWA",
-    "group": "Local",
-    "tvg_id": "KWWL",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT52oxKIoXez1vCfGuDJCPyAqvG3d15sSkvJ_dKYQcowVJ6T0kDSIvDG_mtg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140899.m3u8",
+    "name": "Pequeradio | Spain",
+    "group": "INFANTILES",
+    "tvg_id": "Pequeradio",
+    "logo": "https://static.wixstatic.com/media/76b12f_980c794be91b440faac46de6e57eb10e~mv2.png",
+    "url": "https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8",
     "extra": []
   },
   {
-    "name": "CBS (KGAN) WATERLOO-IOWA",
-    "group": "Local",
-    "tvg_id": "KGAN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjxiDtLoyVhhNDNz2mRJtfpo5WYQJ-IBzYTCrlUnpOWVo_4ID88a7uC2a1w&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140900.m3u8",
+    "name": "Retro Infantil | ND",
+    "group": "INFANTILES",
+    "tvg_id": "Caricaturas",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjX5yNQG78nb836OSusjcqOO_mvbg9CCVd2B1oxE025iZ5QXXHI9vyzfxU1jE&s",
+    "url": "https://stmv1.cnarlatam.com/retroinfantil/retroinfantil/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "ABC (KCRG) WATERLOO-IOWA CITY",
-    "group": "Local",
-    "tvg_id": "KCRG",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA2lyMttcnSqI_ruWgwjjCb9JZdV4e5D0Beu4FD0P2hX2UtjGa6rk9VQ9tNOY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/140901.m3u8",
+    "name": "Toon Googles (espanol) | Estados Unidos",
+    "group": "INFANTILES",
+    "tvg_id": "Caricaturas",
+    "logo": "https://www.ottera.tv/files/2020/12/channel_tg_0-3.png",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=514",
     "extra": []
   },
   {
-    "name": "UFC (HD)",
-    "group": "Sports",
-    "tvg_id": "UFC HD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDkj3OCQLOnNh9wcd7L92stL2ZuEK-OuSKPUOFf8Eo6IPgIPwWFVuPvpO0Kcw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/146293.m3u8",
+    "name": "Toon Googles (Ingl\u00e9s) | Estados Unidos",
+    "group": "INFANTILES",
+    "tvg_id": "Caricaturas",
+    "logo": "https://www.ottera.tv/files/2020/12/channel_tg_0-3.png",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37&live=1&app_bundle=com.plexapp.desktop&did=df8e1a36-847d-5096-86a7-3803ed330ede&app_domain=app.plex.tv&app_name=plex&h=691&w=1224&content_title=MorUy57ijWhGe4ixZb_T&content_series=5eea605574085f0040ddc794&custom4=plex&gdpr=1&device_make=Windows&device_model=Firefox&coppa=1&us_privacy=1---",
     "extra": []
   },
   {
-    "name": "WWE Network",
-    "group": "Sports",
-    "tvg_id": "WWE Network",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDBDQbkcjemTq4eq_MMDubj7SVfVMNYUEc2fcfDgsrS8cSTACqodFqRto2w&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/146294.m3u8",
+    "name": "Toon Googles Jr. (Ingl\u00e9s) | Estados Unidos",
+    "group": "INFANTILES",
+    "tvg_id": "Caricaturas",
+    "logo": "https://www.ottera.tv/files/2020/12/channel_tg_0-3.png",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=36&live=1&app_bundle=com.plexapp.desktop&did=df8e1a36-847d-5096-86a7-3803ed330ede&app_domain=app.plex.tv&app_name=plex&h=691&w=1224&content_title=MorUy57ijWhGe4ixZb_T&content_series=5f123330eca6a20040b328e8&custom4=plex&gdpr=1&device_make=Windows&device_model=Firefox&coppa=1&us_privacy=1---",
     "extra": []
   },
   {
-    "name": "CBS: MI DETROIT WWJ",
-    "group": "Local",
-    "tvg_id": "MI DETROIT WWJ",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdAJCrbCbQD0MGtN1BzFSUg5ZYou8oMfRbCokTTwaVcBb_lYePk8hhWhawQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/147201.m3u8",
+    "name": "Toon Googles Movies (Ingl\u00e9s) | Estados Unidos",
+    "group": "INFANTILES",
+    "tvg_id": "Caricaturas",
+    "logo": "https://www.ottera.tv/files/2020/12/channel_tg_0-3.png",
+    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=285&avod=1&coppa=1&is_lat=1&us_privacy=1---&did=29d976831067d48c1669f305dcaea6f9&app_bundle=com.toongoggles.html5&app_store_url=http%3A%2F%2Fwww.toongoggles.com%2Fdevices&app_domain=toongoggles.com&app_name=toongoggles&custom_targeting=web&custom_4=internal&h=720&w=1280&content_channel=toongoggles&content_dist_name=internal&device_make=&device_model=&preferred_language=EN&livestream=1&timestamp=1616163335&id=264522&ip=92.38.148.59&override_expiration=1500&sign=z936zg2CSi4j4KGtT351mCqyum%2BVJv0Jj0HE4Pu92jQ%3D",
     "extra": []
   },
   {
-    "name": "CW: MI DETROIT WKBD",
-    "group": "Local",
-    "tvg_id": "MI DETROIT CW WKBD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOg2pI0Vm0_Ad0KW7uZJDPZB4GLjuGb8HnOLLxbpVdUeNZGAHoH9p-VdQfkw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/147202.m3u8",
+    "name": "Zaz TV | Mexico",
+    "group": "INFANTILES",
+    "tvg_id": "Zaz TV",
+    "logo": "https://i.imgur.com/CMMEIq3.png",
+    "url": "https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8",
     "extra": []
   },
   {
-    "name": "ABC 7 (WBBJ) Jackson (H)",
-    "group": "Local",
-    "tvg_id": "ABC WBBJ",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLNAJ5UDky6wsGCqEF4dBU7wB_Da7C-joW47Xyi7vB58SXm6ilxmb3mNdhAKY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/147203.m3u8",
+    "name": "Zaz TV | Mexico",
+    "group": "INFANTILES",
+    "tvg_id": "Zaz TV",
+    "logo": "https://i.imgur.com/CMMEIq3.png",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2701&live=1&avod=1&cb=[CACHEBUSTER]&app_bundle=[APP_BUNDLE]&app_name=[APP_NAME]&app_domain=[APP_DOMAIN]&app_version=[APP_VERSION]&app_category=[APP_CATEGORY]&app_store_url=[APP_STORE_URL]&hls_marker=1&pod_duration=[POD_DURATION]&ua=[%UA%]&ip=[IP]&min_ad_duration=6&max_ad_duration=120?is_lat=[LIMITED_AD_TRACKING]&player_width=[WIDTH]&player_height=[HEIGHT]&ua=[%UA%]&ip=[IP]&cb=[CACHEBUSTER]&hls_marker=1&app_version=[APP_VERSION]&app_store_url=[APP_STORE_URL]&app_name=[APP_NAME]&app_domain=[APP_DOMAIN]&app_category=[APP_CATEGORY]&did=[DID]&app_bundle=[APP_BUNDLE]&network_id=2701&live=1&avod=1&stream_url=https%3A%2F%2Fb81ea6a237a99f732a8a56c17e6e1733.7wzuvg.channel-assembly.mediatailor.us-east-1.amazonaws.com%2Fv1%2Fchannel%2FZAZ_Linear%2Findex-zaz-linear.m3u8",
     "extra": []
   },
   {
-    "name": "documentary HD (B)",
-    "group": "Documentary",
-    "tvg_id": "documentary HD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSho729RNxVKOggZVBa4WS_pnz6Hiz6yFOdMXUPqGHY0w6LIE_WVk7-g1vS_Mk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/148610.m3u8",
+    "name": "Anime Zone TV | Rep\u00fablica Dominicana",
+    "group": "JOVENES Y ADULTOS",
+    "tvg_id": "AZTV",
+    "logo": "https://i.imgur.com/z1VIGD7.png",
+    "url": "http://animezonetv.net/hls/stream.m3u8",
     "extra": []
   },
   {
-    "name": "PBS (WNED)",
-    "group": "Local",
-    "tvg_id": "PBS WNED",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnQTL_F6U275Ie3VFhN4meuzPU0nhdpep61Mkk8RiSVRhzC-Zi2opeqxOZoA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/149593.m3u8",
+    "name": "Anime TV | Brasil",
+    "group": "JOVENES Y ADULTOS",
+    "tvg_id": "Anime TV",
+    "logo": "https://i.imgur.com/8w6Y56I.png",
+    "url": "https://stmv1.srvif.com/animetv/animetv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "PBS (WGBH) MA | Boston",
-    "group": "Local",
-    "tvg_id": "PBS WGBH",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNGi80Ya9EFkTHokCJ81XttGhVI3GXA3DuAh_0LsBFDNRZW-sufikMfhFcWA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/149621.m3u8",
+    "name": "Loading Brasil | Brasil",
+    "group": "JOVENES Y ADULTOS",
+    "tvg_id": "Loading Brasil",
+    "logo": "https://i.imgur.com/vhx4hxI.png",
+    "url": "https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "PBS (WNET) NY | New York (D)",
-    "group": "Local",
-    "tvg_id": "PBS WNET",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD1eVT6itszGzNpWEYdBzyBIAc6uspup8O5qtglPFlZIpUHKRS_Ps3Kt-p7Q&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/149622.m3u8",
+    "name": "Locomotion | Rep\u00fablica Dominicana",
+    "group": "JOVENES Y ADULTOS",
+    "tvg_id": "Locomotion",
+    "logo": "https://i.imgur.com/eq9q8KW.png",
+    "url": "http://locomotiontv.com/envivo/loco_ch/stream.m3u8",
     "extra": []
   },
   {
-    "name": "abc7 (WZVN) Fort Myers",
-    "group": "Local",
-    "tvg_id": "abc7 WZVN",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TaBciDpBCCMgtfDRXsg88Wns6uk4vdVvZGC96fLhwC7RISrJ3FpkmIYmJIc&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/149745.m3u8",
+    "name": "Locomotion op2 | Rep\u00fablica Dominicana",
+    "group": "JOVENES Y ADULTOS",
+    "tvg_id": "Locomotion",
+    "logo": "https://i.imgur.com/eq9q8KW.png",
+    "url": "http://51.222.85.85:81/hls/loco/index.m3u8",
     "extra": []
   },
   {
-    "name": "ABC: OKLAHOMA CITY KOCO",
-    "group": "Local",
-    "tvg_id": "KOCO",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xtE-YTvG7pR3HlJwFJOzm4J9K6lebYDU7vHoPsSZRICqX9QvWFHjd1CDzXk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/154792.m3u8",
+    "name": "Locomotion (LQ) | Rep\u00fablica Dominicana",
+    "group": "JOVENES Y ADULTOS",
+    "tvg_id": "Locomotion",
+    "logo": "http://locomotiontv.com/locomotion/logo.png",
+    "url": "http://locomotiontv.com/envivo/loco_ch_low/stream.m3u8",
     "extra": []
   },
   {
-    "name": "Fox (WVNS)",
-    "group": "Local",
-    "tvg_id": "Fox WVNS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBqyHeKhxcY-9QgDJ-sOsYhmUtM4gN9GxeqV3Hs0Jqz9lo83eT4utZabUyGvs&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/158057.m3u8",
+    "name": "Wording TV HD | Brasil",
+    "group": "JOVENES Y ADULTOS",
+    "tvg_id": "Wording TV HD",
+    "logo": "https://i.imgur.com/tVEMkve.png",
+    "url": "https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CBS: LA LAFAYETTE KLFY",
-    "group": "Local",
-    "tvg_id": "CBS LA LAFAYETTE KLFY",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC1ZcswYyH_duPdLyohrUKVryD4mGac4w7g42HyIvouJLZiy8pPLKzke1XZVQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/158058.m3u8",
+    "name": "Global TV | RD",
+    "group": "FAMILIARES",
+    "tvg_id": "Global TV",
+    "logo": "http://globaltv.com.do/wp-content/uploads/2022/06/bannerfull2-e1657853657971.png",
+    "url": "https://ss3.domint.net:3136/gtv_str/globalhd/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CBS KFDM",
-    "group": "Local",
-    "tvg_id": "CBS KFDM",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9eWZlbrywEUvZQaQrXfw3cBfxjeUpo31OgRDbNLsFGwdRIrtNBpPRhrYPcbs&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/158059.m3u8",
+    "name": "Norte Informativo TV | Costa Rica",
+    "group": "FAMILIARES",
+    "tvg_id": "Norte Informativo TV",
+    "logo": "https://i.imgur.com/GD15EfH.jpg",
+    "url": "https://videohd.live:19360/8076/8076.m3u8",
     "extra": []
   },
   {
-    "name": "ABC 12 (KBMT) Port Arthur (H)",
-    "group": "Local",
-    "tvg_id": "ABC KBMT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLX7K2lkvgIgcJcqmTixBuans_HYZv8toDojnw-pIqC5zASQaWTeoI6oorNfU&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/158060.m3u8",
+    "name": "Senal Colombia | Colombia",
+    "group": "FAMILIARES",
+    "tvg_id": "Senal Colombia",
+    "logo": "https://s3.amazonaws.com/rtvc-assets-senalcolombia.gov.co/s3fs-public/logo.png",
+    "url": "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "ABC (KSTP) Minneapolis/St. paul",
-    "group": "Local",
-    "tvg_id": "ABC KSTP",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShTcSZ31AE9YOC_vK-grokcpFboXwEFGS8fccicFK4CL6DFbEVEOkijbAOeg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/158481.m3u8",
+    "name": "TeleSUR | Costa Rica",
+    "group": "FAMILIARES",
+    "tvg_id": "TeleSUR",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/telesur.png",
+    "url": "https://cdnesmain.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "NFL NETWORK (1)",
-    "group": "Sports",
-    "tvg_id": "NFL NETWORK 1",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC1k5aZFyAkJtB2mlW8v4FQf1ppquat_UH3KkAqY6hItqErQTpI_z3kaduNWg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/159091.m3u8",
+    "name": "AfiZZionados | M\u00e9xico",
+    "group": "DEPORTES",
+    "tvg_id": "Afizzionados",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/afizzionados.png",
+    "url": "http://magmas5.com:8000/live/malotv/gratis/148890.m3u8",
     "extra": []
   },
   {
-    "name": "NFL NETWORK (2)",
-    "group": "Sports",
-    "tvg_id": "NFL NETWORK 2",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC1k5aZFyAkJtB2mlW8v4FQf1ppquat_UH3KkAqY6hItqErQTpI_z3kaduNWg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/159117.m3u8",
+    "name": "Fox Sports 3 | Mexico",
+    "group": "DEPORTES",
+    "tvg_id": "Fox Sports 3 MX",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/fox_sports_3.png",
+    "url": "http://magmas5.com:8000/live/malotv/gratis/144619.m3u8",
     "extra": []
   },
   {
-    "name": "NFL REDZONE",
-    "group": "Sports",
-    "tvg_id": "NFL REDZONE",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR70rqa0xm1gOCkNzGZJCoBmDf3_e6-xrfctIX5hFDR1-4Aot5JRpMlqoGiyg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/159118.m3u8",
+    "name": "MLB Channel | PlutoTV",
+    "group": "DEPORTES",
+    "tvg_id": "MLBNetwork.us",
+    "logo": "https://i.imgur.com/DUcFWZo.jpg",
+    "url": "http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e66968a70f34c0007d050be/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bc97d882-8337-11eb-b5bf-c536a327ff2c&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=f1832274-98b7-4765-ad8b-c533c4382008&userId=&serverSideAds=true",
     "extra": []
   },
   {
-    "name": "NFL REDZONE (2)",
-    "group": "Sports",
-    "tvg_id": "NFL REDZONE 2",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5WTdXxw0v9uG2n0kWSuQqfl1tYQ7XyKt2m2D5VU4AfOXAIcSSIkF98UJ3XY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/159119.m3u8",
+    "name": "Real MAdrid TV ES | Spain",
+    "group": "DEPORTES",
+    "tvg_id": "RealMadridTV.es",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/real_madrid_tv.png",
+    "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8",
     "extra": []
   },
   {
-    "name": "NFL REDZONE (US)",
-    "group": "Sports",
-    "tvg_id": "NFL REDZONE US",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR70rqa0xm1gOCkNzGZJCoBmDf3_e6-xrfctIX5hFDR1-4Aot5JRpMlqoGiyg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/159120.m3u8",
+    "name": "RED BULL TV | Austria",
+    "group": "DEPORTES",
+    "tvg_id": "WorldofRedBull.de",
+    "logo": "http://2.bp.blogspot.com/-FS7BOEiTZuY/UDFmV5bsaCI/AAAAAAAAByA/YWo48CK0PsY/s1600/red+bull+tv.png",
+    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
     "extra": []
   },
   {
-    "name": "NEWS 12 CONNECTICUT HD",
-    "group": "News",
-    "tvg_id": "NEWS 12 CONNECTICUT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjJkxU_PghyFABJRsj_QLySQ2Vlujbw3lyE9Chy_6yY9ruvQCjiIOjw_7Ow&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/159246.m3u8",
+    "name": "TUDN | Mexico",
+    "group": "DEPORTES",
+    "tvg_id": "TUDN",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/tudn-mediano.png",
+    "url": "http://magmas5.com:8000/live/malotv/gratis/146603.m3u8",
     "extra": []
   },
   {
-    "name": "FRANCE 2 FHD",
-    "group": "International",
-    "tvg_id": "FRANCE 2",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmrbOqjG8PomXE86TM5SAMP5_Z30xG2nW1kot6nym9nU63PCzUdpHMrAYwA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160297.m3u8",
+    "name": "DW Latino | Alemania",
+    "group": "NOTICIAS",
+    "tvg_id": "DW Latino",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/deutsche_welle.png",
+    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
     "extra": []
   },
   {
-    "name": "FRANCE 3 FHD",
-    "group": "International",
-    "tvg_id": "FRANCE 3",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONO80OTwp8oIc8fzLkInbb6ZJ8xondzxrzyVhvYg1hZZOSi99MbV3ifz0Ipg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8",
+    "name": "El Financiero Bloomberg | Mexico",
+    "group": "NOTICIAS",
+    "tvg_id": "El Financiero Bloomberg",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/el_financiero_bloomberg.png",
+    "url": "https://d19vc4shchm9pr.cloudfront.net/out/v1/a67ad47be66f4c3ea4a14c8f22984fa7/index.m3u8",
     "extra": []
   },
   {
-    "name": "FRANCE 4 FHD",
-    "group": "International",
-    "tvg_id": "FRANCE 4",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrR9BsBZw4zTAzFAAxFQuDp1lm06mXAEU-PnGfC7FTLZEyqnuRWDE-P9C4w&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8",
+    "name": "Fashion Tv | Francia",
+    "group": "MODA",
+    "tvg_id": "Fashion Tv",
+    "logo": "https://imagenes.gatotv.com/logos/canales/oscuros/fashion_tv.png",
+    "url": "http://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/chunklist.m3u8",
     "extra": []
   },
   {
-    "name": "FRANCE 5 FHD",
-    "group": "International",
-    "tvg_id": "FRANCE 5",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu32fM_Xm6U-85aB1LCxFXx6tYjCCu1SdpmlXj5xLUwdm5dCbriIctZf2QHbk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8",
+    "name": "CITY RADIO TV | Bulgaria",
+    "group": "MUSICA",
+    "tvg_id": "Undefined",
+    "logo": "http://www.city.bg/theme_assets/city/images/logo.png",
+    "url": "https://tv.city.bg/play/tshls/citytv/index.m3u8",
     "extra": []
   },
   {
-    "name": "AB3 HD",
-    "group": "International",
-    "tvg_id": "AB3",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr6MUDj0n6v9nnGeWPZYTCFLFGbfBngXq9kOQhdANhR85PkhhrS-l1_dfkFw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160302.m3u8",
+    "name": "Colosal TV | Costa Rica",
+    "group": "MUSICA",
+    "tvg_id": "Undefined",
+    "logo": "http://costaricatelevision.com/sites/default/files/2020-07/colosal-tv-costa-rica.png",
+    "url": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "MCM",
-    "group": "International",
-    "tvg_id": "MCM",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZcXDqx9hacNNvV9xAo99bAph_kqQfIhIiNHNRWdSMHRRaMo6ded0VByfDtE&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160303.m3u8",
+    "name": "FS1 | Austria",
+    "group": "MUSICA",
+    "tvg_id": "Undefined",
+    "logo": "http://fs1.tv/typo3temp/pics/e506ab8c9d.jpeg",
+    "url": "http://stream.fs1.tv:8080/hls/webstream.m3u8",
     "extra": []
   },
   {
-    "name": "CANAL+ CINEMA FHD",
-    "group": "International",
-    "tvg_id": "CANAL+ CINEMA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQBH7n5DuXfXar_GGoMgKuUayTbTes_msil5yvKKo9zPCffyhOkytnZeGvw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160304.m3u8",
+    "name": "KMK Radio TV | Costa Rica",
+    "group": "MUSICA",
+    "tvg_id": "",
+    "logo": "https://costaricatelevision.com/sites/default/files/styles/tv_list/public/2022-04/kmk-radio-tv-costa-rica_0.png.webp",
+    "url": "https://cloudvideo.servers10.com:8081/8120/index.m3u8",
     "extra": []
   },
   {
-    "name": "C8 FHD",
-    "group": "International",
-    "tvg_id": "C8",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbo3nxTE4KNcCIg5_URYEsIzNcFcCtl_vQTWEOPumfafVAEuJvSEGo-CxWRA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160305.m3u8",
+    "name": "RETRO MUSIC TV | Checoslovaquia",
+    "group": "MUSICA",
+    "tvg_id": "Undefined",
+    "logo": "https://www.parsatv.com/index_files/channels/retromusic.png",
+    "url": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CANAL+ DECALE FHD",
-    "group": "International",
-    "tvg_id": "CANAL+ DECALE",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl1e-PkB2u266-2gMjec_o8DYEVOL8m7gTdGZcmAAE5HpL7DhmG71F6Is97GE&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160306.m3u8",
+    "name": "The Retro Channel | Puerto Rico",
+    "group": "MUSICA",
+    "tvg_id": "Undefined",
+    "logo": "http://theretrochannel.tv/img/theretrofb.jpg",
+    "url": "https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CANAL+ FAMILY FHD",
-    "group": "International",
-    "tvg_id": "CANAL+ FAMILY",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTU_qC6skc2XK6lMWo_Tsj0kVxCmSk94pg_Ib-Jxb6LQm2_fECxwpE-LtAbQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160307.m3u8",
+    "name": "Tu Musica HD | Latino",
+    "group": "MUSICA",
+    "tvg_id": "Undefined",
+    "logo": "https://serenotv.com/wp-content/uploads/2021/10/canal-Tumusica-HD-en-vivo.jpg",
+    "url": "https://cloudflare.streamgato.us:3735/live/tumusicahdlive.m3u8",
     "extra": []
   },
   {
-    "name": "CINE+ FAMIZ FHD",
-    "group": "International",
-    "tvg_id": "CINE+ FAMIZ",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRkbSbE7zZD6Gz3u-tTD7QDdySva5991FH2rgOEvgfxDj-Qnr0FDD18pWWpA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160308.m3u8",
+    "name": "Alacanti TV",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "http://directostv.teleame.com/wp-content/uploads/2018/02/alacantitv.png?resize=100%2C70",
+    "url": "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8",
     "extra": []
   },
   {
-    "name": "Real America's Voice (STV)",
-    "group": "News",
-    "tvg_id": "Real America's Voice",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4BwMQMrSC3QllOLEW5TUFNfkki2sC0A9G-lvZRDISy6XKA3mpuf7wrp_xZw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160581.m3u8",
+    "name": "Canal Malaga",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logoondaazul.jpg",
+    "url": "http://canalmalaga-tv-live.flumotion.com/chunks.m3u8",
     "extra": []
   },
   {
-    "name": "Al Jazeera",
-    "group": "News",
-    "tvg_id": "Al Jazeera",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D9WOAaoPC8yyCvYzHJpvW8L72lbzeA_1Rk2-f3J4P3pczmQXR1UyFtSehA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160711.m3u8",
+    "name": "Canal Sur Andalucia 2",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://i.imgur.com/7M7ljKS.png",
+    "url": "https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "CBS (WGCL) Atlanta",
-    "group": "Local",
-    "tvg_id": "WGCL",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH0YNFMb0Keqyl74jOKS3WnVhqGp5EKmONrlPfFB1sgGXgZNS85GgnNfSTqg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160716.m3u8",
+    "name": "Cancionero TV",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://iteleflix.com/archivos/Logo-Cancionero-TV-200x120.png",
+    "url": "http://89.140.229.5/hls1/cancionero.m3u8",
     "extra": []
   },
   {
-    "name": "Sky News",
-    "group": "News",
-    "tvg_id": "Sky News",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6CvgULDwJL4mfqsIr-zYOAjrumulaIffskIRNhftrWJOQfN4XS2pQw0S8Aw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160719.m3u8",
+    "name": "Cgtn Espanol HD (opcion 2)",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9c/CGTN_Espanol.png",
+    "url": "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8",
     "extra": []
   },
   {
-    "name": "CBS: NC GREENSBORO WFMY",
-    "group": "Local",
-    "tvg_id": "GREENSBORO NC WFMY",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_yD1E-IB9MsLWRhwwagPDgLtydpSURV2fkL49zJVJZmmpro6PsguUFe2bKQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121131.m3u8",
+    "name": "Distrito TV",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "http://distritotv.es/wp-content/uploads/2018/04/ElDistrito_Logo_PNG.jpg",
+    "url": "https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8",
     "extra": []
   },
   {
-    "name": "FOX: NC HIGH POINT WGHP",
-    "group": "Local",
-    "tvg_id": "HIGH POINT NC WGHP",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpgDlkuTPo52VsmTy0py4INhIlMOwnqfSitx0_oqNBf9n91T2i1DuQGqh2dH8&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121132.m3u8",
+    "name": "Elche 7 TV",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logoelche7tv.jpg",
+    "url": "https://elche7tv.gestec-video.com/hls/canal2.m3u8",
     "extra": []
   },
   {
-    "name": "NBC: NC WINSTON-SALEM WXII",
-    "group": "Local",
-    "tvg_id": "WINSTON-SALEM NC WXII",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuKg9qMOef4v7SGk8VRFbKJs1lB7iW1m1SEUSzljpFMZJ90DpXHAeRnw2F6w&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121133.m3u8",
+    "name": "ETB 1 HD",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logoetb1hd.jpg",
+    "url": "https://multimedia.eitb.eus/live-content/etb1hd-hls/bitrate_4.m3u8",
     "extra": []
   },
   {
-    "name": "FOX 5: GA ATLANTA WAGA",
-    "group": "Local",
-    "tvg_id": "ATLANTA GA WAGA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9U-San_aa1RNU4ESZD_7EFuMdi8wNzk1mYxWtw4s-sOHyXhX3SejTOUYCtsY&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121135.m3u8",
+    "name": "ETB 2 HD",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logoetb2hd.jpg",
+    "url": "https://multimedia.eitb.eus/live-content/etb2hd-hls/bitrate_4.m3u8",
     "extra": []
   },
   {
-    "name": "NBC: GA ATLANTA WXIA",
-    "group": "Local",
-    "tvg_id": "ATLANTA GA WXIA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnIlfJo4q2yKciTHtOiy83sb8coAuUC_lhUl3hDgHOgXM5lFkvtbqJoxYcNEw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121136.m3u8",
+    "name": "ETB BASQUE",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://i.imgur.com/bIm35Hj.png",
+    "url": "https://multimedia.eitb.eus/live-content/eitbbasque-hls/bitrate_3.m3u8",
     "extra": []
   },
   {
-    "name": "ABC 8: TX DALLAS WFAA",
-    "group": "Local",
-    "tvg_id": "DALLAS TX WFAA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-z2gKvp3GLxI87U7ZSUdZYJOuCdjg7Y-qOti9S-edTtxlU_I3uP-1rOReBg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121138.m3u8",
+    "name": "Onda Algeciras TV",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logoondaalgecirastv.jpg",
+    "url": "https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8",
     "extra": []
   },
   {
-    "name": "ABC 7: NY NEW YORK WABC",
-    "group": "Local",
-    "tvg_id": "NEW YORK NY WABC",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSckgc7YH1jSSG71y0-BzndATB4c3LqFki_vKad3LbsFgtiZleXO_DntDp7qw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121139.m3u8",
+    "name": "Popular TV Cantabria",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "http://directostv.teleame.com/wp-content/uploads/2018/08/POPULAR-TV-CANTABRIA-324x235.png",
+    "url": "https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8",
     "extra": []
   },
   {
-    "name": "CBS: TX FORT WORTH KTVT",
-    "group": "Local",
-    "tvg_id": "FORT WORTH TX KTVT",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLu-nXsUbConwxaQKGRpjQdwNWw0bQBRgHFJH4xfmmnFEWeDt2HUUhlBeu9fg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121140.m3u8",
+    "name": "Popular TV Melilla",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "http://directostv.teleame.com/wp-content/uploads/2018/08/POPULAR-TV-MELILLA-324x235.png",
+    "url": "https://5940924978228.streamlock.net/8009/8009/chunklist_w1267857749.m3u8",
     "extra": []
   },
   {
-    "name": "ABC 13: TX HOUSTON KTRK",
-    "group": "Local",
-    "tvg_id": "HOUSTON TX KTRK",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhWsC-nAgz0cridJ2p-zuxZkA9K_TlqMqkx4H3nG5OKW04Cs89cR0wmSQUg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121141.m3u8",
+    "name": "Popular TV Murcia",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "http://directostv.teleame.com/wp-content/uploads/2018/08/POPULAR-TV-MURCIA-324x235.png",
+    "url": "https://cloud.fastchannel.es/mic/manifiest/hls/populartvrm/populartvrm.m3u8",
     "extra": []
   },
   {
-    "name": "NBC South Florida News",
-    "group": "Local",
-    "tvg_id": "SOUTH FLORIDA",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2U5C0shbD4ZN_U9o3J_MpNrjQYb3PUdcLiLECyR7fkTdWlMvadtQelvB4A&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121142.m3u8",
+    "name": "Rtvce HD",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logoradiotvceuta.jpg",
+    "url": "https://cdnlive.codev8.net/rtvcelive/channel1.smil/chunklist_b4000000.m3u8",
     "extra": []
   },
   {
-    "name": "CBS: FL WKMG",
-    "group": "Local",
-    "tvg_id": "WKMG",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8pHDl1dYt-_zWJIIrwxtK8ykIVnYZ6rycN9zyFLJclvjVWD8bKoUoiwuOrw&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121144.m3u8",
+    "name": "Solidaria tv Spain",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://yt3.ggpht.com/a/AGF-l79uAn_Np-huZgqS15HqmzGnzFWTMaviA0HoXQ=s900-mo-c-c0xffffffff-rj-k-no",
+    "url": "http://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8",
     "extra": []
   },
   {
-    "name": "ABC 9: FL ORLANDO WFTV",
-    "group": "Local",
-    "tvg_id": "ORLANDO FL WFTV",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGr3BtMtsbxSS8dcJLMV8JQ-he2yWH7vSqWzqKmmvbn_pL2-FeVIqanb0lwA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121145.m3u8",
+    "name": "Televigo HD",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://i.imgur.com/bbD4ttO.png",
+    "url": "https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8",
     "extra": []
   },
   {
-    "name": "NBC 2: FL ORLANDO WESH",
-    "group": "Local",
-    "tvg_id": "ORLANDO FL WESH",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2sR8X4xh9XqYD3PMtN_2dkfa_IraaqHzBaDeyaMUCTJTIzEWXj-zB762-1KA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121147.m3u8",
+    "name": "TV Melilla",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logotvmelilla.jpg",
+    "url": "https://tvmelilla-hls-rm-lw.flumotion.com/tvmelilla/live-fake-ori_high/chunks.m3u8",
     "extra": []
   },
   {
-    "name": "FOX 28: GA SAVANNAH WTGS",
-    "group": "Local",
-    "tvg_id": "SAVANNAH GA WTGS",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOubWexlLmzfOY4d-TDrFzyZdJqwoLFW15HO-yuPj3s4oAdV9RKk_yRid-EQ&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/121148.m3u8",
+    "name": "Canal Motor (720p)",
+    "group": "DEPORTES-LMS",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/BHm0wem.png",
+    "url": "http://digicom.hls.iptvdc.com/canalmotor/index.m3u8",
     "extra": []
   },
   {
-    "name": "ABC 7 Denver CO (KMGH) (720p)",
-    "group": "ESTADOS UNIDOS",
+    "name": "Fight Network (1080p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5U6z17XJ-PbPAlZzmybboh2Q2HAShGXs5g_Qet9RGLuUQzD0u-y-6br2Znw&s",
-    "url": "https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "ABC 7 Los Angeles CA (KABC-TV) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO5iv5EwCyK7r6ASjP92iiiZtJBA8K2wKo2BNnktvNgm1MNAAh5AvAkZJF1us&s",
-    "url": "https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "ABC 7 Washington DC (WJLA) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTecBLaLqZETn44L9fZ1JhHgUWfxMxy8ANPBsIWzsyFh_QIfPdyBLnuBtStNUI&s",
-    "url": "https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "ABC 13 Las Vegas NV (KTNV) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ohTNelk6gDTiPpX8JCF8qmrZ3nNvSvkK_VH6HANto5h1fpqq_UtFIGJGZSY&s",
-    "url": "https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "ABC 15 Phoenix AZ (KNXV-TV) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH069iJmqeZOJT2Qhj02Pr7NnSAHSymBA4yQP2DOaBiOVqUrwKSYcGTZs6XFI&s",
-    "url": "https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Ace TV (KCKS-LD3) (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc2X7zQdKfMC7Mn9oHYLHiUBMOOntKM8qX4Awl2vOi2N8M9pnXN_txlk2T0g&s",
-    "url": "https://cdn.igocast.com/channel3_hls/channel3_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Action (KCKS-LD4) (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZoTy_Er9DujHJ-s8TF0P9qthnjssw7VCZyy3EElxnP1rPsrn2_MV0LNNDJg&s",
-    "url": "https://cdn.igocast.com/channel4_hls/channel4_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Adult Swim Dream Corp LLC (1080p) [Geo-blocked]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIzq4nMbSAN_nhLRh2DEKhgu6bL0SMu3qogxBaBsUtl9CUcF-xtRaw-VBdnI&s",
-    "url": "https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Adult Swim Rick and Morty (1080p) [Geo-blocked]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWMlliFO_bULOAyFcJ1glyl0nEeqs0beVutsK4FlNmwYbzKDAnXza6A0-mKQ&s",
-    "url": "https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Adult Swim Robot Chicken (1080p) [Geo-blocked]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1r1Hgryn70kkwtxoNO5utFJ4jEaSf1JnBp7oVYBGBUOk2K-YELb2AFzTlnns&s",
-    "url": "https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "AKC TV (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR34FvSGEkwFxQyHdv9-06zr5f6v98hh_rZQA8VEu60v2XW9bUynwHqxDkhb6M&s",
-    "url": "https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Al Horreya TV (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT59-cOUMCQyuIl2sqrYaYpaC1v13jcQPIZf_UDIXavD-uBM_m0CTM-A8yXKQ&s",
-    "url": "http://media.smc-host.com:1935/alhorreya.tv/alhorreya.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Aliento Vision (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZqQT5cCOCt2CNEjUqAMKJD0M4Cm8nOXllUCRV3o4Zuo82shcjS00jxZMQHo&s",
-    "url": "http://209.133.209.195:1935/AlientoSD/smil:AlientoSD.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Alkarma TV Australia (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvBkCygiosPIcZ61OO2R3IdRE_5avnkEz4u-zx8I_a4xZiHjQZhRgwaRC9J4&s",
-    "url": "https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Alkarma TV Family (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvBkCygiosPIcZ61OO2R3IdRE_5avnkEz4u-zx8I_a4xZiHjQZhRgwaRC9J4&s",
-    "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Alkarma TV Middle East (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvBkCygiosPIcZ61OO2R3IdRE_5avnkEz4u-zx8I_a4xZiHjQZhRgwaRC9J4&s",
-    "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame1.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Alkarma TV Praise (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZkg-_DQt30VSdf1C7uGyiNPCt7FPSV5LU7zy6iWw6XbOfgbq-n9EVBw46ncc&s",
-    "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Alkarma TV Talmaza (Discipleship) (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvBkCygiosPIcZ61OO2R3IdRE_5avnkEz4u-zx8I_a4xZiHjQZhRgwaRC9J4&s",
-    "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame2.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "America's Voice (KCKS-LD5) (480p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLiSplFXgq79qt4LlusDfbDJ8bee225qsQ3Na9rqWsVI1aMfl6mvCu_R-kVyk&s",
-    "url": "https://cdn.igocast.com/channel5_hls/channel5_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "American Classics (432p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLIDxp6YfMU1aY4w4A762G409B46DIDuqNRkRf6w4J79K4aaZMsVbu8gmx&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxamericanclassics/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "AMG TV (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAh3ehMuChk_LelHDhsoAVvWJPYJ2-XiFK5ZTkiLLbKi_zzKOIF9-b4Q5zsQ&s",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Architectural Digest (720p) [Timeout]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypoI77HTW9Rh8AYrwj0sdgP44IQjL8FGewlkPc2JXytj8tXOsMFZWMYFQ4w&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxarchitecturaldigest/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Atlanta Channel (720p) [Timeout]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExagI6_ju90tRTFvwAiJMaCgiIppIY7HcibKFjT86H1qMPkGYDaCMBlx0xg&s",
-    "url": "http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "AWE Encore (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDEFiUS5V9AmOpDlYG371nfgAhvj2rY8XDSvMpKxjGCZBGcyBYMNma22ltfYM&s",
-    "url": "https://aweencore-vizio.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "AXS TV Now (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5cDxQWd0IRJlPBVvPrKEprsiinYWxAWMlx1B3-2G3ynJmGzJHhD1tK4Tr8bk&s",
-    "url": "https://dikcfc9915kp8.cloudfront.net/hls/main.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Beach TV CSULB (160p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSREelyBdE709otDD-UkbbRMP-Or2ivStH1ZGlb5mTCZ7UcqDyQ9yrYFem8MA&s",
-    "url": "http://stream04.amp.csulb.edu:1935/Beach_TV/smil:BeachTV.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Beach TV Florida & Alabama (720p) [Timeout]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd3eXf1XlwNs7vcQGXKWSqj2seST63T4tAcQeqcfnjxVJ_yNq6UwTjGozHvA&s",
-    "url": "http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Beach TV Myrtle Beach & The Grand Strand (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZegPT5xlyxvYI7EG0fckc_5jABug7NmYHgReUBWfhJxzlqs2C4ZIJW0Q6hw&s",
-    "url": "http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Beach TV Panama City (720p) [Offline]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9nR1nr-p9rUQwU_NsL3G9ez0BJ4ePrtOk0ngQnzx1gjC3ZZcXlUymR6ychw&s",
-    "url": "http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Biz TV (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZeGnVrst7aFHyp38Jup9VVU294NOtQSAlVzM5WhX6Eu-TU3PL-sY2uLlBg&s",
-    "url": "https://thegateway.app/BizAndYou/BizTV/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Black News Channel (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsGMWWRr6T_UojeKimXg6T4ewdTgsJ-j-GvpixZKZeFLiE__n1QLadkpt6JAE&s",
-    "url": "http://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Bloomberg TV US Live Event (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1kltagitQcwkA-Swoye2NcTBiLqKUTQfaAMEkhrjDCZKAQtA5B7jTRXgUAQ&s",
-    "url": "https://www.bloomberg.com/media-manifest/streams/us-event.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Bloomberg TV US Politics Live Event (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzy1jzUXJ0oMTPEddnPwD3Jp8wG8pu9Cp_q1Po9j2gwMo3a-Y61OxGb0KIMw&s",
-    "url": "https://www.bloomberg.com/media-manifest/streams/politics.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "bon app\u00e9tit (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfwNanDw_sovsmRSs-d2fIbhK66uknWz9JQopyryKYrm4ZjuS8LxZMOYvLCg&s",
-    "url": "https://bonappetit-samsung.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Buzzr (KCKS-LD1) (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrLfiD0wrw6zdq5CLCLWLpev2DRouemPIED8qcdAdYt1waXVrNN6A6jtDr9bQ&s",
-    "url": "https://cdn.igocast.com/channel1_hls/channel1_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBC News (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaEf54dQB6R9y4PC-ZoIAt9CIepmMPGO9xMxxsITk0wqPbsfVGN1FpZ5K7g&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBS 3 Omaha NE (KMTV-TV) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxFwYQA-gSFfeDVAeJ1puslUTXLxveiNEwWalfeqSEK-VucfOA4EG_p1N0bNg&s",
-    "url": "https://content.uplynk.com/4a09fbea28ef4f32bce095e9eae04bd8.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBS News Baltimore (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXvAZn6m1SsfSMC7XV4zkjIBxFH_6-cNBsnN-XF9pPp5O0jg03zqE8vgNmEjw&s",
-    "url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBS News Dallas Ft Worth (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSViBf-E2HLjwuCirqRUPjEfjT3pMViCT7z71STgVqFyHQ_76YQwP1fqlq7pbo&s",
-    "url": "https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBS News Los Angeles (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWH1ayfCXWlOJQVdfhdi681vSnLq6QyIG0vq8k0YqVijmdI9hxEj4VywzVPOU&s",
-    "url": "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBS News Miami (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaIrWYMViPoK9xEaUGRqryEDP5SUT4OwJcLH2jz6Ed8AHQDXQGFhLSqNIxuQ&s",
-    "url": "https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBS News New York (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmjWcpVPEPwlAmjpapmSi0gWE5vSqzPHh7TvGD6L73vFgkpnNNvEIp3Gn1dY&s",
-    "url": "https://www.cbsnews.com/common/video/cbsn-ny-prod.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CBSN Boston (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHnTZSnxim9GDGlnUdSyDLHu2jNIMGOm6mdarU41HKT4FPdt6e-O1LiQXYWKY&s",
-    "url": "https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Charge! (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXGS7qbCWWe8_bxTGIs-7n6clSODizHJYhU1YJbbDomG7XjN7CcE1WxTsAFn4&s",
-    "url": "http://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Chive TV (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYBxySFmrA94IpI60Atv4QaC80lHZU0e6VjHqK5wzL1cE5JxVItx04HfA3RM&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxchive/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Christian Youth Channel (CYC) (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRduzcHEB63RLSD-BUfoZL74ZqE-0EY2Kz5_OKj8aS7z6tKnavk0fkDNJwQpQ&s",
-    "url": "http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Circle (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD-nHvddxJfm-Lxt8Gxb-UIqe64mZH8awPacVExsrPxdLckkX2ohlCebAhWA&s",
-    "url": "https://circle-roku.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Cloudflare TV (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4_SXOLbm1jKj4_WIAJJZ-Cyr4di4Az71P5gXUYqrTU_i5NdfMHxWcUig1H4&s",
-    "url": "https://cloudflare.tv/hls/live.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Comet (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqMeLoWJNm--G_qrog_ecLauFo0yyBOOd9sXEAmBglH8CEh5iq2fGiGmwqN8M&s",
-    "url": "http://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Cooking Panda (576p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gZjQSdRZxl4fVY_Roi-G51Iws1VBJJRB5Gop6I2YV9bEltG7QaRpRiKQ7u4&s",
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CSat TV (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4XZNgpWmntBkxJiE29UTnl7ZNxzJwIk0ML2H5kbc-q5igmGSUQvqxQgeqQ&s",
-    "url": "http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CT-N Live Stream 2 (360p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlO-uHbcQ5xsL8XOfUT2QgJZahZB36lfk-cEhsmkeBW4gCPeiyI8ILucKcpEc&s",
-    "url": "http://video.ct-n.com/live/web2stream/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "CT-N TV Conneticut (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGuym2xCQFSgp41fc_6R0K9wrFjJ87Qg8y0aD6zNov91SJhSRlAUUOg49XA&s",
-    "url": "http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Elbeshara GTV (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4XZNgpWmntBkxJiE29UTnl7ZNxzJwIk0ML2H5kbc-q5igmGSUQvqxQgeqQ&s",
-    "url": "http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Electric Now (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYXmxdbSUbGAZkmJyFqHUW5bvR6J2_FfiqgbclOyNTyPIVMNhOR5hgrr_TMw&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-electricnow/CDN/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Estrella News (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWdPT1BBi6gRqKpJRozEAYXPw3UAGz6U6dBDhrLC-Q2RQEyNQ0KbbjA9WyEk&s",
-    "url": "https://estrellanews-plex.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "EWTN Asia-Pacific (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZqCoC-Nl9YI7MYBtKR8aQ1ANoOwiQh3B6LLO7cyXb5Xxg4gxlz0O3uHe_rQ&s",
-    "url": "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "EWTN Europe (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccvkCgUJcfh_z9iCGzh313GRVo6Bagk-JjFotr3qbDf_o6o2GfyRb0oRxLw&s",
-    "url": "https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Extrema TV (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzmuIAB9YH2IPVD1PgTj44tuqT5TQVL83wiE0pHeQ3MCce6mlnOjGFNtmtboA&s",
-    "url": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "FailArmy International (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjpZrmGChOMNmkBecDFeJCos6wUrUN35FR6swEGF7LOViIb3lTlp5RF3zuQ&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfailarmy/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "FilmRise Family (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKiturci0EBrqxQCNjxeaiaiDXxrr7JTPrJDH94ju5BkpVBtFHnZDQqgrcMZs&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "FOX News Now (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsb7H_uFrqxwaVVSMIlZqrQJHs6rWCnAiIWSmuX3RrZ9Yd3gaxvbcCFqmEWQ&s",
-    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Fox Weather (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQatOvN-zY0yG_W6XV0qUPnQL8qsWROZmR96DoDA-brKyCUYd7ohvkvQO7cIA&s",
-    "url": "https://247wlive.foxweather.com/stream/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://f9q4g5j6.ssl.hwcdn.net/605d1bf32e5d221b1e5a7e55",
+    "url": "https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8",
+    "extra": []
   },
   {
     "name": "fubo Sports Network (720p)",
-    "group": "ESTADOS UNIDOS",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmD7MpTJdfPIy8YEX0LGqsYPzTHzS-M0HHWcrcPjRGp3k0QgEqL4Dx-20wxA&s",
+    "logo": "https://i.imgur.com/cArIeKS.png",
     "url": "https://dai2-xumo.fubo.tv/amagi_hls_data_xumo1212A-fubo/CDN/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "extra": []
   },
   {
-    "name": "Fun Roads (404p)",
-    "group": "ESTADOS UNIDOS",
+    "name": "Glory Kickboxing (720p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQevmXdRfwB3EiD-TY7LOgqi6EwHBDyW9VjZmehInfy_DJiiVCMMdyqORRzUs&s",
-    "url": "http://104.143.4.5:2080/funroads.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Funny or Die (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBeu41wgz1-hQYvkAuSB5jmYjXGB4PWuoidywgtTWGAXg-OfOodBxSK3SKKI&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfunnyordie/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Glamour (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_cN9Du2_7p-ORCIA79beRv6HZuk7W0dXIFe7dt-1G98gbvqrpbDj2-oh-0Qs&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxglamour/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Go Traveler (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiiL6V8JERx5ylM1eD7RO9FoJ1etzP0oisneMHg2QewIDWCiQhCfgCZ264vw&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgotraveler/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "GQ (720p) [Timeout]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyXBtEagEaJGMTu6lJdbYTdFp2UYoTCk3iIdgKBbTzlIgWO9dYf20SDH5Avk&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgq/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "HTV 1 Houston Television (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtHHd7ryvh5RMR2ka-9MG0rrFQmn1sZJET3KMiWeuJ4S6njLzLUcI9QqylA&s",
-    "url": "https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "HTV 2 Houston Television (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQp3nXDLQfFvlRvGa_g2yx-xYfesZmU9P6VvL2fPWReFGAa3vLWgQRZplGTg&s",
-    "url": "https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Hunt Channel (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ26rxJxoQCtlWXM-F1Fi3u4DP3SsDyuGWK5YcQi14lgAiqkAIhrCb4ZivXX9A&s",
-    "url": "https://1111296894.rsc.cdn77.org/LS-ATL-56868-1/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://i.imgur.com/AQbc1ER.jpg",
+    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxglorykickboxing/CDN/playlist.m3u8",
+    "extra": []
   },
   {
     "name": "IMPACT! Wrestling (1080p)",
-    "group": "ESTADOS UNIDOS",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDFc__z3BpkC9hTua-lcro0wEG9v75xpnfkEd7Fg5NzUNNzmIUZYl2PSI3Q&s",
+    "logo": "https://f9q4g5j6.ssl.hwcdn.net/605e13c8d9eb3e1df47db303",
     "url": "https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "extra": []
   },
   {
-    "name": "InfoWars (720p)",
-    "group": "ESTADOS UNIDOS",
+    "name": "Nitro Circus (720p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRklfGW4O-8JbU3GdZ-ej9hS4PRUULZ6h6tVT8dj2uPb75M_4Wk62_203PGmXY&s",
-    "url": "http://wpc.9ec1.edgecastcdn.net/249EC1/infowarshd-edgecast/hd720.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://i.imgur.com/Ri0sB6I.jpg",
+    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnitrocircus/CDN/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "KBSV/AssyriaSat (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
+    "name": "One Golf (720p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_GXmbdbB1zb6YLdDTUeT7AJ2yd8aTm_KReX1dpHt8mOCuF_qJyDcJfdtr-g&s",
-    "url": "http://66.242.170.53/hls/live/temp/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://i.imgur.com/CKnSeT7.png",
+    "url": "http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8",
+    "extra": []
   },
   {
-    "name": "KGO-TV News (720p)",
-    "group": "ESTADOS UNIDOS",
+    "name": "Pac 12 Insider (1080p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO5iv5EwCyK7r6ASjP92iiiZtJBA8K2wKo2BNnktvNgm1MNAAh5AvAkZJF1us&s",
-    "url": "https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://i.imgur.com/3lp7suq.png",
+    "url": "https://pac12-roku-us.amagi.tv/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "KidsFlix (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
+    "name": "Players TV (1080p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkpxzr56zclAbuPtJO46PvNYrf_-Wc3rGhbRr8ODVVqsBquVB5e9J5xGFV-Vw&s",
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://i.imgur.com/31L4TjP.png",
+    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-playerstv/CDN/master.m3u8",
+    "extra": []
   },
   {
-    "name": "KSBY News San Louis Obispo CA (720p)",
-    "group": "ESTADOS UNIDOS",
+    "name": "Red Bull TV (1080p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS0PCN6j1tcEHKyTfKXgMBJKEIBVFHuVwZfGCe48noyQLs0Ke6AKG483EhmoY&s",
-    "url": "https://content.uplynk.com/channel/5545aa8a7e5a480d85fd1cff8d0cf610.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://i.imgur.com/7NeBmWX.jpg",
+    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+    "extra": []
   },
   {
-    "name": "KTRK TV News (720p)",
-    "group": "ESTADOS UNIDOS",
+    "name": "SportsGrid (1080p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLxJg6XAH2aJv3PNC1WMx5Ze0ZUCcb2a5lny2UOH9b9TC7XQyNdbVppjFQGYQ&s",
-    "url": "https://content.uplynk.com/channel/ext/1efe3bfc4d1e4b5db5e5085a535b510b/ktrk_24x7_news.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://i.imgur.com/46gdAeg.png",
+    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumosportsgrid/CDN/master.m3u8",
+    "extra": []
   },
   {
-    "name": "KVVB-TV 33 Victor Valley (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
+    "name": "SportsGrid (1080p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgMhnuiQWsSVpWAA_t39UZeUlWJpYiFZgcM6MekAc09wBVcBcb6sKJHulbqA&s",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1309230/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Law & Crime (XUMO) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgldNhy6Kyfy0S8TbAUViGMdck-i8yB4rNV-S4XXv5MBy-Osjsb_9VdvrD3yE&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Lax Sports Network TV (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CUMNDVbEjqYR6ro6A-z_GvDH4XesPkXlYvjSrZyBciYHc8qK7wrLGGRE-Lo&s",
-    "url": "https://1840769862.rsc.cdn77.org/FTF/LSN_SCTE.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Lone Star (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GrmGvLd1D4Ne60_hEIgNRCCfL1Nwavkhx5bEj1DXy2ohoF3RIBoGlrJekaY&s",
-    "url": "https://lonestar-rakuten.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Love and Hip Hop (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJ4mapi2xfskbLvSDaXqVkiTMdGZ7JhL9RRM-cyMum7cJuL5Co4lmfjnoF3U&s",
-    "url": "http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d51ddf0369acdb278dfb05e/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Maverick Black Cinema (432p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyb_p1t5q5yd5N8mH8gFjJxgA4RSTw6HW-pzT4HeouRuKkygdvw5Pv3Uo9UqI&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-maverickmovies/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "MCN6 (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4XZNgpWmntBkxJiE29UTnl7ZNxzJwIk0ML2H5kbc-q5igmGSUQvqxQgeqQ&s",
-    "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MAIN.smil/Playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "MCN6 Arts Channel (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0gf9f9fYoXuJytGrFvH8eMcMhOxneSdzs1YffK9_T2KSqxDycT6pJY2GvZA&s",
-    "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "MCN6 Music Channel (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0gf9f9fYoXuJytGrFvH8eMcMhOxneSdzs1YffK9_T2KSqxDycT6pJY2GvZA&s",
-    "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "MGM HD USA (576p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPUpSoYpaSHvb1Yxb2oGaAKN_LTXdRTX11dVZ1CbGIVfxX7TS2iLnWkM83gQ&s",
-    "url": "http://c0.cdn.trinity-tv.net/stream/uq2t763988wmx82xs37vrzrtrvaz686y22jd9gcgvgbhu88g6dntdb82kggx9zgvpvwj5wisyi5mgwwgdqzm7d6xbf7yvctwzvhsu3t57ms3wa4qxwyeuqk3ayrdwx3k2b6cdtnrydx9qa3ezqzea===.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Minecraftv (360p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiGSSdGEoDC0ZcrY0FhtyFz6lix-mNYAHT0snHihagFjEvnelxrb1a26Gs3Vo&s",
-    "url": "http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5812b821249444e05d09cc4c/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&us_privacy=1YNY",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Mission TV (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSn0EH88g-f94KdznfBLYiE9XZudBFnrvhGt9_7RXUSdBfUeHhehqoqj_GNPQ&s",
-    "url": "https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Mohabat TV (540p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVS6RehvGuGgZrqiQMRktL4YJS2RwYo76RR_TGUYB8D0XIqL4K7aKSWLlAtg&s",
-    "url": "http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "MyTime movie network Mexico (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBxA6RBzNlu0M6bUGMfkxRPvW1fxf_LTlnnpbIo6Zq6HmmwIJ5v2q9kxAYQE&s",
-    "url": "https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "MyTime movie network Spain (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5n0pAtKezRotG6W6psfxtJTGZecd7b-a5iaHrdIOp_e0Nl7mZan5iJQ5SeHk&s",
-    "url": "https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "myTV San Antonio TX (KCWX-TV) (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQav5MEu4_dLmEFU4VbUieVH6GyawRhbDWyMdvW3h4pOA0mtcjBgul5Gy26lQ&s",
-    "url": "http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "NASA TV Media (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Se5XijkgvDHbp9xOiGHL8OLhXVFJHR4riypuBfWydZecs00v-V-DRrm-Rg&s",
-    "url": "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "NASA TV Public (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRndwBeJLj77yfdxO58c81SLbN50NS6D5lrCIfQB0x1ZPXzTSlhxZ-7EKg3ezY&s",
-    "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "NBC 15 Madison WI (WMTV) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUxBocNkciQcQ3QmxOycx2EAuIG_2K9Qcu9zCM309ZmzN6XAu9pn4iO2Wp8A&s",
-    "url": "https://ad-playlistserver.aws.syncbak.com/playlist/899088/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjkxMDUsImlzcyI6IldMUyIsIm1kNSI6ImJhZTU4Y2ZlZWM2NmU1MjZkNmVjZmE1YmUzNTQxMzQ4IiwibWlkIjoiODk5MDg4In0.vBWkHmqS3z3dpq8UWfbk4wFd-vQlj6B0up-rpt7X_7Q",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "New Orleans Television (NOTV) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJwLucd8HhTk8RhJ-XHdXRLMcs5CJfOhMeUeVz9j6pDteyFKRepipu0XH0GS4&s",
-    "url": "http://media4.tripsmarter.com:1935/LiveTV/NOTVHD/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "NewsNet (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-Dya3snfqyb3LPParzS1SPbvniP3FKPxvKuC1ssnFKj4FMvu7xypqTTUTA&s",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "NewsNet (KCKS-LD2) (480p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGA0qenuIPSHy0ZA-EVXuosru5hgqShnF5fW93XdE1BBOhQXWP07R4C2xbbw&s",
-    "url": "https://cdn.igocast.com/channel2_hls/channel2_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Nickelodeon Australia (576p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwYOCRNyVgrsGuQvTuR2rY6CCCinWOxjUJ1HdvBXWU3jaaerDvXP9P7VhOg&s",
-    "url": "http://c0.cdn.trinity-tv.net/stream/7tsewn83ddjifz69us9je7eftbm5nuausb4dsvz9g5aydin9672n734qbb9jgcfpiqtpwudvs9dpi2udjc3eh4h462eie5azjmfbfgfjeqfuhjmmgx9zuj736ijg7nffhf8rviq5svkgxbp639y9nfgc.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Nosey (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqpAXGXn-A1kLZGfvQzScRLi7bHi9WWvsX6l-KdUa--IdY2DmXs07dk9qlQ&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-nosey/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Now This (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsb0AosDmF6rVwGYffkKTgOjrdaVx6owGuu_PsCwgZiokxrHU6WfZjKgMonIE&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnowthis/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "NRB TV (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThvBwELU8j2v_08fx6iMCZ9rVJTcpQZ_ztddT8gTeSnJauXj8TVSWcb4st2A&s",
-    "url": "https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "OAN (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwnmssDCOQFeXZWGrdk_KEcNg31WD5O8saIhaOOaAA6g4dMIGFoFqiFwdYA&s",
-    "url": "http://oneamericanews-roku-us.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Omid Javedan (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2wkV-6xj-0_Y-coZnrDpfTED5AeDjgO356H257u_5bubOPPCtV9NoJ2y8ZWY&s",
-    "url": "http://livestream.5centscdn.com/shaditv/23abe62a446fc05ce0a6c810f4045308.sdp/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Orange TV (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp05TEEoAjjQcUokMxH0R1KNCEhNXdVhAsuSGz34flmFG14mk7ZFGgwU0CsQ&s",
-    "url": "http://otv3.ocfl.net:1936/OrangeTV/smil:OrangeTV.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Paramount Movie Channel (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPTsvcrEjrvU7tj0feznLGDoZFdLo30vMFvwmNz_MJ-GBgsqJ38BTkNjmMWg&s",
-    "url": "http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Party Tyme Karaoke (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d7BW5_5EvlefHVT_R45_E6VxuLpzIuH5z0EB4L1yELfSUFIa71OQo6oP4Fw&s",
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=64",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "PBS Create Los Angeles CA (KLCS-DT3) (720p) [Geo-blocked]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-He4jbOjuVmpItzvEPtEHrwRs-ZjqLemJMWHcbVlX4NQPoi-GLowTS88cQA&s",
-    "url": "https://d1mxoeplf1ak5a.cloudfront.net/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "PBS KET Louisville KY (WKMJ-TV) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSicYp-0OwmcbK54X_Wa73JyDWltlrJl3wo-wNy8RGY0lbwzuxmCJv7-1IfQ_s&s",
-    "url": "https://2-fss-1.streamhoster.com/pl_134/amlst:200914-1282960/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "PBS Kids Eastern/Central (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdhsN151m0JJJ6dZfL8MaVYOYnuTDs-C6n2mamvFxnHSoXow3drD9T_ok2Qg&s",
-    "url": "https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "PBS MPT Baltimore MD (WMPB) (1088p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-uktGPIKh5DNXbqAQiRQeF9x_he3nE_YB2D1ZAp81cMbBU8qKCCOO300E74o&s",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "PBS National East (1080p) [Geo-blocked]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhsBRr_kP3iBZRZHgeTudhHGfTCWng33W2L264WihPY4fX-vF_zDTC1ZsMV4&s",
-    "url": "https://pbs.lls.cdn.pbs.org/est/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "PBS National West (1080p) [Geo-blocked]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLDFR9aUkpEZAovxg3T62zWjI64152bPR5zr2pPs89qt-yeDufV90Yvz9XpJ0&s",
-    "url": "https://pbs.lls.cdn.pbs.org/pst/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "PBS New Jersey NJ (WNJT) (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7MO6x9eT0N3q6GBTTY-yOj9CJVfjh0xO79A7laFFGtAuIPg8PibW-d079E30&s",
-    "url": "https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Real Families (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66BF8OZ3Yub7V2nomSd8KaySbeKIhLs0OlkpLjPtDHJ8vCZdjCApLlPqP8Jw&s",
-    "url": "https://lds-realfamilies-plex.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Real nosey (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShP3FCYdVvRaH-oYxqlcUugDMOgf3cYd21I-CiPmqKjOhgSuSdIaShdx4B3k4&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxrealnosey/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Red Apple 21 (Fairfax County Public Schools) (480p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVSecanUOgoInWaDgdFYytwHJViowkCoOjlkpr1EG4LhpfGx3aB2v2Emc3lA&s",
-    "url": "https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Reelz Channel (XUMO) (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlEe5au0rllCPzoO9c-mNEWKMoK2tN-ZE4taPKYzr-TTkP6OeaE5iOIe8b_A&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxreelzchannel/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Retro TV (KCKS-LD9) (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDrS4jlFOSjI_D9fET74-mwlTh5XwgR8_liuxjsjO2wRYKqWMtW-9JyyYjnU4&s",
-    "url": "https://cdn.igocast.com/channel9_hls/channel9_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Rev'n (KCKS-LD7) (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs0qMsLfsiYlqtNogs9PMArXYkJjJ3_Z9CwUbrPDyUs4UmE361FEmxsIuDz4k&s",
-    "url": "https://cdn.igocast.com/channel7_hls/channel7_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Santa and the Three Bears (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4U9BmxpUh24e02aQvjVgc2cNaUCEC6iKBWMwvCb4KhdT5d8qP8gmd6gKpZA&s",
-    "url": "https://cloudfront.tubi.video/21df8036-fa23-49ff-9877-8af983546d2b/elw3phlf/stream.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Shop LC (KCKS-LD10) (480p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAaLc0wwZ2YZaDjsh8O_4Clr5lHVjHLTQBCvDEJyHGQPbJ4ewfERyH1tv_97w&s",
-    "url": "https://cdn.igocast.com/channel10_hls/channel10_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Shout! Factory TV (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9g216lKdKr3RTmLFk7nmj-U401nOfdArP1zcgSw2txHUNhy1JrohTrio_aqo&s",
-    "url": "http://shoutfactory-redbox.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Spirit TV (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY_V1K8dP2KGEqJKWYzrzif-6icNC0Hrf9swawoUrgmXIdf6c1KhlAN9z2y2E&s",
-    "url": "https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://od.lk/s/MF8yMzA3OTUzNTZf/SportsGrid_512x512.png",
+    "url": "https://sportsgrid-tribal.amagi.tv/playlist.m3u8",
+    "extra": []
   },
   {
     "name": "Stadium (720p)",
-    "group": "ESTADOS UNIDOS",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWC5jaCXMLpAYLStNxUDY59xNFHu6dyY_LvgNioGnJVrcnfahiRuvVKb79PQ&s",
+    "logo": "https://i.imgur.com/n38w3FD.png",
     "url": "https://dai2.xumo.com/amagi_hls_data_xumo1234A-stadiumsports/CDN/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Tankee (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoEDt2YzgzLA8xbwJp2n6bAH1aTdx7lf-VoWa6926MrSTnGaPewmzXJN4pjg&s",
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?app_bundle=com.plexapp.desktop&app_domain=app.plex.tv&app_name=plex&content_series=5f12332eeca6a20040b328e5&content_title=MorUy57ijWhGe4ixZb_T&coppa=1&custom4=plex&device_make=Windows&device_model=Firefox&did=df8e1a36-847d-5096-86a7-3803ed330ede&gdpr=1&h=691&live=1&network_id=39&us_privacy=1---&w=1224",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "TBD. (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRSIvSfdVZVjk9PefbpZUJZ33Rl8DTFAbT4HUGY4T95_cNxGcaKUNtShESsoM&s",
-    "url": "https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "TD Ameritrade Network (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKSq2Ne6kmQD1GoPH-5qhsRGXzOK-YY9lV6s2mXW4povewDgzRmodB397T5E&s",
-    "url": "https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "TG Junior (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANiH6pT4SSIQD4aQXtoB1oNApz1_fubve7YZ1A4kANlcH2-9MJPkctDP0Zpk&s",
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=31",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "The Archive (486p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_5cDxrMYQzXuXWQz2ofxzofabSLbQwVxv447_L5cVvfWlOmoUissEKlta2w&s",
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=74",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "The Design Network (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgMPOSFlx_qkeAbcI074uRHdLd0h5PUcj6DAywX-qOH0BoFApui1UwiJjRDA&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxthedesignnetwork/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "The New Detectives (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbuUnktGvwA1HCrl4X3xhUfDuZESQTVohpc55iePeGW5-YbhT_IdSG7_MDfVU&s",
-    "url": "http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5aea40b35126c2157123aa64/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "The Retro Channel (1080p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvODT7lGoMnC8axDqEL4iYVm5gwO_5dvlLzi7nz03nTjKVWgQ_HyJGFW8e1Q&s",
-    "url": "https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "The Wall Street Journal Live (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIzsffRAv4gtEH-xN8gDu6Ppv19HALvkQjL8c02d3iYXm1emLaxj6HWXBvA&s",
-    "url": "https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "This TV Network (480p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiIICl846h_OD4_gws-6chJNFPZ8HJwgMbYhmDcahxsbZ1aL-tl-OIOyvYEI&s",
-    "url": "https://cdn.igocast.com/channel11_hls/channel11_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Timeline (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyM0nZWCdsCg6usaYpyuQ95jh1LPYqjkZeZW_Upi8kFvO7qKj1PRODtahbRw&s",
-    "url": "https://lds-timeline-plex.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Top Gear (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtStXUMUL--xzxgkeovZWa2TGxdopSzMBkAcMp9CjHPZCtRyabQr3mhUbawQ&s",
-    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d356a534f63f000850cdd7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "TV Panou (720p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7WzFfCGV_ou8REpuAcqySDdNC7hySK1gbxldtrha6YK3TlkTx_8w4VDdnRqc&s",
-    "url": "http://tvpanoucom.srfms.com:1935/tvpanoucom/livestream/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Untamed Sports TV (KCKS-LD8) (480p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8cNa_mVsAjmalzOnuirUhah7jnHTIA4IGgjdZM2Ah3r4GSUOPwWklLJXlxw&s",
-    "url": "https://cdn.igocast.com/channel8_hls/channel8_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Vanity Fair (720p) [Timeout]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyW3AjNxsSDptn_9zy45fczlMpnuBWgzliKPt7cC8rVblBjdj14PmrhHgFD3c&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvanityfair/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Village of Hastings-On-Hudson NY (WHOH-TV) (360p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQn1eMC0IrEL9aqfMqdQ3Rfu13Ozsi1KvdjwScJCV7P_cphyJ08aVCXfH3qCM&s",
-    "url": "http://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Voyager Documentaries (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRht7Thkh18jsNBpzNGAInns_feD9AgGZE4No2sqisvl6xbZah2DRo-wX5r9g&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvoyager/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "VSiN (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq0yWadjXDgHOUXiB8xoMhvPSLY1I_k-VipqlO8J5MoB_XswxX4kmrlJIVXAA&s",
-    "url": "https://stream.rcncdn.com/live/vsinproxy.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "WeatherNation (KCKS-LD6) (480p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfINgJ0tOdAfUb0oyI2_U-KW6c1k4mXRoCbHWT4BjPOK3Amy4KKm3B_Fwyrg&s",
-    "url": "https://cdn.igocast.com/channel6_hls/channel6_master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "WeatherSpy (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFmCP3slUDN4PcAcc1VLnQ3TIcO6ActXh3pEeTQOoDv_6V3JIc6isUZ66NWMs&s",
-    "url": "https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "WFMZ Bird Camera",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrCf8jeS_lCm_x3VOciRzD1as4nQJ1cnfYKGJH0oD4NKqQ4_8o8oJGkomRhcQ&s",
-    "url": "https://cdn.jaybirdtv.com/wfmz/13/live/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "WFMZ Dorney Park Camera",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_BaTkSZLh2A9Qo0DgGlgX7KJbhb5ZiuToXdcBYmwJufvoshDksFQ0Awu4A&s",
-    "url": "https://cdn.jaybirdtv.com/wfmz/5/live/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "WFMZ PPL Tower Camera",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3ABvm2MnWkOJkoghhSlPkEB3Bp3ADtAxEgofyxM61RkRwes5VXxeasbv6Q&s",
-    "url": "https://cdn.jaybirdtv.com/wfmz/channel/9/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "WFMZ Traffic",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBAEQHG3kQWHuO8dd8IYG9jch6N55BcLKp9B2pBOkdF3oB16fvWnPbzZ04d5c&s",
-    "url": "https://cdn.jaybirdtv.com/wfmz/channel/7/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "White Plains Community Media (360p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-EpVg21_lq4R1AiP6pBDB0KJLbetLLNN5gmGDnZLMKztoZ0o1eipZ1ZKbJM&s",
-    "url": "https://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "WLNG Radio (410p) [Not 24/7]",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJceA1ugjD4QAijpa6CJgZQeOekSLVWGUqmBeota0OChPC73y9hJnLc_Zx3aA&s",
-    "url": "http://wlngstudiowebcam.srfms.com:1935/wlngstudiowebcam/livestream/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Wu Tang Collection (720p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN91us5nvhES-gj6tHYq838e32Lc8ZydBMi0lpyMxO4WIxmXaPCsp2B72zAQ&s",
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=73",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Xplore (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqgHQB57o3MhQE45HHRGlTO0gTbANEzAOcQVBw66dbOSKCJvyVOhyO7dESqA&s",
-    "url": "http://xlpore-samsungus.amagi.tv/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Yahoo! Finance (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVUYiYgymuAy1nJQSYP1tUT59fyNStnf-9vQi7xhzyyG2JtmgJum0C5S32A&s",
-    "url": "https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Youtoo America (1080p)",
-    "group": "ESTADOS UNIDOS",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwB4nXrNHuTM81HKG9fs0CMo3gADbBo47UYuYHXynM_Gf1k-2tgzhPkInF2cg&s",
-    "url": "https://thegateway.app/YouToo/CueTones/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "Connecticut Network",
-    "group": "USA PUBLIC",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/UxEzPeX.png",
-    "url": "http://video.ct-n.com/live/ctnstream/chunklist_w1534354198_DVR.m3u8",
     "extra": []
   },
   {
-    "name": "Connecticut Network (Instant)",
-    "group": "USA PUBLIC",
+    "name": "Trace Sport Stars (Australia) (1080p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/UxEzPeX.png",
-    "url": "http://video.ct-n.com/live/ctnspare/chunklist_w252238746_DVR.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXj68165UyypOx-thXNP27mbj734qZ9BFiTLOrvGgYc79l_K4Dg6Hica7Tho&s",
+    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Connecticut Network (Live Stream 1)",
-    "group": "USA PUBLIC",
+    "name": "T\u00fcrkmenistan Sport (406p) [Not 24/7]",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/UxEzPeX.png",
-    "url": "http://video.ct-n.com/live/web1stream/chunklist_w1992415243_DVR.m3u8",
+    "logo": "https://turkmentv.gov.tm/assets/img/live-imgs/sport.png",
+    "url": "http://217.174.225.146/hls/ch004_720/index.m3u8?q=?seg-user-zona-iptv.ru-v1-a1.m3u8",
     "extra": []
   },
   {
-    "name": "White Plains Community Media",
-    "group": "USA PUBLIC",
+    "name": "Wired2Fish (720p)",
+    "group": "DEPORTES-LMS",
     "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/sxxRphV.png",
-    "url": "http://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/chunklist_w1456643228_b512000.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Arkansas - KNOE news 8",
-    "group": "USA",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/81NqdwB.png",
-    "url": "https://dai2-playlistserver.aws.syncbak.com/playlist/893553/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTAzNjcyMzUsImlzcyI6IldMUyIsIm1kNSI6IjM5YWE1ZjczMTgyYTg0NThiY2QzOTcxMjQzYzVhZDc1IiwibWlkIjoiODkzNTUzIn0.v4oZTq8PnYSg_UAfc_nt9tO2ThQy44A-F8-colQ2Ijg",
-    "extra": []
-  },
-  {
-    "name": "Arkansas - KNOE Live Event",
-    "group": "USA",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/81NqdwB.png",
-    "url": "https://playlistserver.aws.syncbak.com/playlist/13353644/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTA1NDQ4MDgsImlzcyI6IldMUyIsIm1kNSI6ImRiYjE0OGQwMDQxNmE1YzBmMjQyZmY4MTVjNTBiYTlhIiwibWlkIjoiMTMzNTM2NDQifQ.ifqK3SjqEA9zxIzehzOADwGU3hh7l-T-kXpUQSs10sU",
-    "extra": []
-  },
-  {
-    "name": "Arkansas - WMC 5",
-    "group": "USA",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/GaWiHiz.png",
-    "url": "https://dai2-playlistserver.aws.syncbak.com/playlist/18497172/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIxODQ5NzE3MiIsIm1kNSI6IjYzOWYxNjJjOTZjZjJmZWFmYjQ1YWY1NTA4MzhmMGQ4IiwiaWF0IjoxNTk0MDU4Mjc4LCJpc3MiOiJTeW5jYmFrIChURykifQ.m34pXxraDlVLkgkAtFOwXbZ4DqUaAXQjOrumoMi2Fso",
-    "extra": []
-  },
-  {
-    "name": "Arkansas - KAIT 8",
-    "group": "USA",
-    "tvg_id": "Undefined",
-    "logo": "https://i.imgur.com/1AkpB2q.jpg",
-    "url": "https://dai2-playlistserver.aws.syncbak.com/playlist/18533680/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIxODUzMzY4MCIsIm1kNSI6Ijg2MTZhMDgxMGU0MjViNmZjMjE0YjcxZmM3N2ViMjU1IiwiaWF0IjoxNTk0NTgzNTc4LCJpc3MiOiJTeW5jYmFrIChURykifQ.iMmFxpzDdyXuuhMVZm1jIN2JZ4B1Cl6ms5RwyuI2P-E",
+    "logo": "https://f9q4g5j6.ssl.hwcdn.net/605d1769345cf61eb60b5893",
+    "url": "https://linear-80.frequency.stream/dist/localnow/80/hls/master/playlist.m3u8",
     "extra": []
   }
 ]
