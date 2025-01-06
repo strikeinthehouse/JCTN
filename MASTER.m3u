@@ -87,6 +87,8 @@ http://51.222.85.85:81/hls/loco/index.m3u8
 http://locomotiontv.com/envivo/loco_ch_low/stream.m3u8
 #EXTINF:-1 group-title="JOVENES Y ADULTOS" tvg-id="Wording TV HD" tvg-logo="https://i.imgur.com/tVEMkve.png",Wording TV HD | Brasil
 https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8
+#EXTINF:-1 group-title="FAMILIARES" tvg-id="Colome TV" tvg-logo="https://colometv.com/assets/images/logo.png",Colome TV | NY
+https://ss5.domint.net:3170/cotv_str/colometv/chunklist_w793077443.m3u8
 #EXTINF:-1 group-title="FAMILIARES" tvg-id="Global TV" tvg-logo="http://globaltv.com.do/wp-content/uploads/2022/06/bannerfull2-e1657853657971.png",Global TV | RD
 https://ss3.domint.net:3136/gtv_str/globalhd/playlist.m3u8
 #EXTINF:-1 group-title="FAMILIARES" tvg-id="Norte Informativo TV" tvg-logo="https://i.imgur.com/GD15EfH.jpg",Norte Informativo TV | Costa Rica
@@ -161,8 +163,6 @@ https://cdnlive.codev8.net/rtvcelive/channel1.smil/chunklist_b4000000.m3u8
 http://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 group-title="SPAIN" tvg-id="" tvg-logo="https://i.imgur.com/bbD4ttO.png",Televigo HD
 https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8
-#EXTINF:-1 group-title="SPAIN" tvg-id="" tvg-logo="https://estaticos.tdt1.com/canales/logotvmelilla.jpg",TV Melilla
-https://tvmelilla-hls-rm-lw.flumotion.com/tvmelilla/live-fake-ori_high/chunks.m3u8
 #EXTINF:-1 group-title="DEPORTES-LMS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/BHm0wem.png",Canal Motor (720p)
 http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="DEPORTES-LMS" tvg-id="Undefined" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/605d1bf32e5d221b1e5a7e55",Fight Network (1080p)
