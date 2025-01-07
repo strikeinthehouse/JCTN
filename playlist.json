@@ -72,6 +72,14 @@
     "extra": []
   },
   {
+    "name": "LE FIGARO IDF",
+    "group": "|FR|\ud83c\uddeb\ud83c\uddf7 INFORMATION",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/hcPj99k/fgro.png",
+    "url": "https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8",
+    "extra": []
+  },
+  {
     "name": "CGTN FRAN\u00c7AIS",
     "group": "|FR|\ud83c\uddeb\ud83c\uddf7 INFORMATION",
     "tvg_id": "Undefined",
@@ -1232,14 +1240,6 @@
     "extra": []
   },
   {
-    "name": "AA (feed)",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 HABER-1",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/jLd8Fcb/aa.png",
-    "url": "http://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "TRT HABER (backup)",
     "group": "|TR|\ud83c\uddf9\ud83c\uddf7 HABER-1",
     "tvg_id": "Undefined",
@@ -1773,14 +1773,6 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/N1h8m96/trtbelgesel.png",
     "url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TRT BELGESEL (backup)",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 BELGESEL & YA\u015eAM",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/N1h8m96/trtbelgesel.png",
-    "url": "https://d2xwn494f2lep.cloudfront.net/v1/master/80dbfc318ab6b980679b32095ba497236de6d2f9/TRT-Belgesel/master.m3u8",
     "extra": []
   },
   {
@@ -2472,14 +2464,6 @@
     "extra": []
   },
   {
-    "name": "EKOL TV",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
-    "url": "https://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "ELMAS TV ZONGULDAK",
     "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
     "tvg_id": "Undefined",
@@ -2685,6 +2669,14 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
     "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "KENT 38 TV KAYSER\u0130",
+    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
+    "url": "https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8",
     "extra": []
   },
   {
@@ -3408,14 +3400,6 @@
     "extra": []
   },
   {
-    "name": "TRECE INT",
-    "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/GsLm5g5/trece.png",
-    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "ATRES CL\u00c1SICOS",
     "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
     "tvg_id": "Undefined",
@@ -3840,6 +3824,14 @@
     "extra": []
   },
   {
+    "name": "RTP AFRICA",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/BsdgH54/rtpafr.webp",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "RTP ACORES",
     "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
     "tvg_id": "Undefined",
@@ -4045,14 +4037,6 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/ygKx229/lana1.png",
     "url": "https://p-ltv.akamaized.net/ltv/ltv.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NABAA TV",
-    "group": "|AR|\ud83c\uddf8\ud83c\udde6 MIDDLE EAST-1 \u0639\u0631\u0628\u064a",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/JrFjqrc/nabaa.png",
-    "url": "https://655ca86f46b1f.streamlock.net/live/Nabaa/playlist.m3u8",
     "extra": []
   },
   {
@@ -5541,14 +5525,6 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
     "url": "https://itnhls.wns.live/hls/stream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "META FILM",
-    "group": "|IR|\ud83c\uddee\ud83c\uddf7 IRAN",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
-    "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
     "extra": []
   },
   {
