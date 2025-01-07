@@ -10,7 +10,6 @@ from bs4 import BeautifulSoup
 import requests
 import streamlink
 
-
 # Configurando logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -163,7 +162,6 @@ manual_channel = {
     'url': 'https://www.twitch.tv/universoreality_gh',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',  # Pode adicionar um link para uma thumbnail aqui, se necessário
     'group_title': "Reality Show's Live",  # Modificado para o título correto
-
 }
 
 # Verificar se o canal já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
@@ -184,7 +182,7 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         
         link = grab(item['url'])
         if link and check_url(link):
-            # Substituindo a aspa simples por %27
+            # Substituindo a aspa simples por %27 no group-title
             group_title = item['group_title'].replace("'", "%27")  # Substituir a aspa simples por %27
             m3u_file.write(
                 f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{group_title}\",{item['tag_text']} - {item['ch_name']}"
@@ -192,4 +190,3 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
             m3u_file.write('\n')
             m3u_file.write(link)
             m3u_file.write('\n')
-
