@@ -159,7 +159,7 @@ manual_channel = {
     'type': 'info',
     'ch_name': 'GHDUO',
     'tvg_id': 'Telecinco',
-    'url': 'https://www.twitch.tv/universoreality_gh',
+    'url': 'https://www.twitch.tv/lacasadelosfamosoallstar',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',
     'group_title': "Reality Show's Live",  # Modificado para o título correto
     'tag_text': 'Reality Show',  # Tag personalizada
