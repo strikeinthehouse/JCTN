@@ -158,10 +158,10 @@ finally:
 manual_channel = {
     'type': 'info',
     'ch_name': 'GHDUO',
-    'tvg_id': 'Telecinco',
+    'tvg_id': 'universoreality_gh',  # Corrigido: agora o tvg_id é o nome do canal
     'url': 'https://www.twitch.tv/universoreality_gh',
-    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',  # Pode adicionar um link para uma thumbnail aqui, se necessário
-    'group_title': "Reality Show's Live",  # Modificado para o título correto
+    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',  # Thumbnail válida
+    'group_title': "Reality Show's Live",  # Mantendo o título correto
 }
 
 # Verificar se o canal já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
