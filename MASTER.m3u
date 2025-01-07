@@ -645,8 +645,6 @@ https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8
 https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",KANAL 58 SİVAS
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
-#EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",KANAL 68 AKSARAY
-https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",KANAL FIRAT
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",KANAL S SAMSUN
@@ -929,8 +927,6 @@ https://rtvelivestream.akamaized.net/rtvesec/clan/clan_main.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/3YZFCjp/rtp1.jpg",RTP 1
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/tbFT1V2/rtp2.jpg",RTP 2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/HnqCkQj/rtp3.jpg",RTP 3
 https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/VxLFYSj/euronews.png",EURONEWS PT
@@ -963,8 +959,6 @@ https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/3YZFCjp/rtp1.jpg",RTP 1 (backup sd)
 https://streaming-live.rtp.pt/liverepeater/rtp1.smil/playlist.m3u8
-#EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/tbFT1V2/rtp2.jpg",RTP 2 (backup sd)
-https://streaming-live.rtp.pt/liverepeater/rtp2.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/HnqCkQj/rtp3.jpg",RTP 3 (backup sd)
 https://streaming-live.rtp.pt/liverepeater/rtpn.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/HnqCkQj/rtp3.jpg",RTP 3 (tvhlsdvr)
@@ -1019,8 +1013,6 @@ https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/in
 https://vo-live.cdb.cdn.orange.com/Content/Channel/YASSportsChannel/HLS/index.m3u8
 #EXTINF:-1 group-title="|AR|🇸🇦 MIDDLE EAST-1 عربي" tvg-id="Undefined" tvg-logo="https://i.ibb.co/GdpWZ7h/baynounah.png",BAYNOUNAH TV
 https://vo-live.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8
-#EXTINF:-1 group-title="|AR|🇸🇦 MIDDLE EAST-1 عربي" tvg-id="Undefined" tvg-logo="https://i.ibb.co/b6ZvV2r/fujairah.png",FUJAIRAH TV
-https://live.kwikmotion.com/fujairahlive/fujairah.smil/fujairahpublish/fujairah_source/playlist.m3u8
 #EXTINF:-1 group-title="|AR|🇸🇦 MIDDLE EAST-1 عربي" tvg-id="Undefined" tvg-logo="https://i.ibb.co/84HtHzK/Roya-TV.png",ROYA TV
 https://royatv-live.daioncdn.net/royatv/royatv.m3u8
 #EXTINF:-1 group-title="|AR|🇸🇦 MIDDLE EAST-1 عربي" tvg-id="Undefined" tvg-logo="https://i.ibb.co/nnQnFjg/sharjahtv.png",SHARJAH TV
@@ -1405,6 +1397,8 @@ https://svs.itworkscdn.net/assiratvlive/assirat/playlist.m3u8
 https://s1.ettehadlive.com/live/39/chunklist.m3u8
 #EXTINF:-1 group-title="|IR|🇮🇷 IRAN" tvg-id="Undefined" tvg-logo="https://i.ibb.co/6ndKkPM/irib2.png",IRIB 2 (backup)
 https://s1.ettehadlive.com/live/40/chunklist.m3u8
+#EXTINF:-1 group-title="|IR|🇮🇷 IRAN" tvg-id="Undefined" tvg-logo="https://i.ibb.co/4YQsfv9/irib3.png",IRIB 3 (backup)
+https://s1.ettehadlive.com/live/114/chunklist.m3u8
 #EXTINF:-1 group-title="|IR|🇮🇷 IRAN" tvg-id="Undefined" tvg-logo="https://i.ibb.co/D5S2Q2z/irib4.png",IRIB 4 (backup)
 https://s1.ettehadlive.com/live/41/chunklist.m3u8
 #EXTINF:-1 group-title="|IR|🇮🇷 IRAN" tvg-id="Undefined" tvg-logo="https://i.ibb.co/hVkbvpQ/irinn.png",IRIB IRINN (backup)
@@ -1513,5 +1507,5 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2664
 #EXTINF:-1 group-title="|📡|👨‍💻👉GITHUB.COM/IPSTREET312" tvg-id="Undefined" tvg-logo="https://i.ibb.co/RpfpWkr/dlxlng.png",🎁DELUXE MUSIC⭐ Lounge 🤩❤️👍
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2489
-#EXTINF:-1 group-title="|📡|👨‍💻👉GITHUB.COM/IPSTREET312" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuby_RpwJNPzOyc3jShVVYbtansiU_p9hup5-jjkvmidT-kjh95S9dDP5wXA&s",📻🎶📺🎥Video Player Checker
+#EXTINF:-1 group-title="|📡|👨‍💻👉GITHUB.COM/IPSTREET312" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeCgRMSYxYXS5K3eNstoSJLNST6YfjH4O-C60EQF5LJMzkyqhjXgpMaPMFQ&s",📻🎶📺🎥Video Player Checker
 http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
