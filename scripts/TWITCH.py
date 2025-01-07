@@ -158,13 +158,14 @@ finally:
 manual_channel = {
     'type': 'info',
     'ch_name': 'GHDUO',
-    'tvg_id': 'universoreality_gh',  # Corrigido: agora o tvg_id é o nome do canal
+    'tvg_id': 'Telecinco',
     'url': 'https://www.twitch.tv/universoreality_gh',
-    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',  # Thumbnail válida
-    'group_title': "Reality Show's Live",  # Mantendo o título correto
+    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',
+    'group_title': "Reality Show's Live",  # Modificado para o título correto
+    'tag_text': 'Reality Show',  # Tag personalizada
 }
 
-# Verificar se o canal já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
+# Verificar se o canal manual já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
 if manual_channel['tvg_id'] not in processed_channels:
     channel_data.append(manual_channel)
     processed_channels.add(manual_channel['tvg_id'])
@@ -182,10 +183,9 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         
         link = grab(item['url'])
         if link and check_url(link):
-            # Substituindo a aspa simples por %27 no group-title
-            group_title = item['group_title'].replace("'", "%27")  # Substituir a aspa simples por %27
+            # Adicionando o texto extra (tag) antes do nome do canal
             m3u_file.write(
-                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{group_title}\",{item['tag_text']} - {item['ch_name']}"
+                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{item['group_title']}\" tvg-id=\"{item['tvg_id']}\" {item['tag_text']} - {item['ch_name']}"
             )
             m3u_file.write('\n')
             m3u_file.write(link)
