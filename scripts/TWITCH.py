@@ -173,6 +173,7 @@ if manual_channel['tvg_id'] not in processed_channels:
     logger.info(f"Canal {manual_channel['url']} adicionado manualmente.")
 
 # Gerar arquivo M3U com thumbnails e texto extra
+# Gerar arquivo M3U com thumbnails e texto extra
 with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
     m3u_file.write(banner)
 
@@ -184,10 +185,12 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         
         link = grab(item['url'])
         if link and check_url(link):
-            # Adicionando o texto extra (tag) antes do nome do canal
+            # Escape da aspa simples em 'Reality Show's Live' e adição ao arquivo M3U
+            group_title = item['group_title'].replace("'", "\\'")  # Escapando a aspa simples
             m3u_file.write(
-                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{item['group_title']}\",{item['tag_text']} - {item['ch_name']}"
+                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{group_title}\",{item['tag_text']} - {item['ch_name']}"
             )
             m3u_file.write('\n')
             m3u_file.write(link)
             m3u_file.write('\n')
+
