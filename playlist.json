@@ -552,14 +552,6 @@
     "extra": []
   },
   {
-    "name": "Cope TV",
-    "group": "SPAIN",
-    "tvg_id": "",
-    "logo": "https://i.imgur.com/tBnl3r1.png",
-    "url": "https://hls-directo01-cope-stream.flumotion.com/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "Distrito TV",
     "group": "SPAIN",
     "tvg_id": "",
@@ -653,6 +645,14 @@
     "tvg_id": "",
     "logo": "https://i.imgur.com/bbD4ttO.png",
     "url": "https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV Melilla",
+    "group": "SPAIN",
+    "tvg_id": "",
+    "logo": "https://estaticos.tdt1.com/canales/logotvmelilla.jpg",
+    "url": "https://tvmelilla-hls-rm-lw.flumotion.com/tvmelilla/live-fake-ori_high/chunks.m3u8",
     "extra": []
   },
   {
