@@ -3,3 +3,195 @@
 http://proxy.iptveurope.cc:8080/play/live.php?mac=00:1A:79:61:34:32&stream=252441&extension=ts&play_token=q1hoqMPg8a
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gWUHrXnlfpbA9KqaygoWA3UzNBhBcSPtZXBC68WLoMcq6k3HE8r8cXoovWg&s",Big Brother 2 HD AL
 http://proxy.iptveurope.cc:8080/play/live.php?mac=00:1A:79:61:34:32&stream=252442&extension=ts&play_token=Wc3o56Olbt
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/VTM.png",BE | VTM
+https://dpp-live-events.medialaancdn.be/events/hls/aes/webstream1.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/VTM%202.png",BE | VTM 2
+https://dpp-live-events.medialaancdn.be/events/hls/aes/webstream3.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/HLN%20LIVE.png",BE | HLN LIVE
+https://dpg-eventstreams.akamaized.net/hlnlivesrt-xmr/streamx/hlnlivesrt_720p.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/Play%20Crime.png",BE | Play Crime
+https://playmedia-playcrime-goplay.amagi.tv/index_1.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/ATV.png",BE | ATV
+https://live.zendzend.com/cmaf/29375_107244/master.m3u8?HLS_version=ts|User-Agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A109.0)%20Gecko%2F20100101%20Firefox%2F114.0&Referer=https%3A%2F%2Fwww.gva.be%2F
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/ROB%20TV.png",BE | ROB TV
+https://live.zendzend.com/cmaf/29375_395477/master.m3u8?HLS_version=ts|User-Agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A109.0)%20Gecko%2F20100101%20Firefox%2F114.0&Referer=https%3A%2F%2Fplayer.agnoplay.com%2F
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/TVL.png",BE | TVL
+https://live.zendzend.com/cmaf/29375_395474/master.m3u8?HLS_version=ts|User-Agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A109.0)%20Gecko%2F20100101%20Firefox%2F114.0&Referer=https%3A%2F%2Fwww.tvl.be%2F
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/WTV.png",BE | WTV
+https://hls-origin01-focus-wtv.cdn01.rambla.be/main/adliveorigin-focus-wtv/_definst_/WqY7Y3.smil/playlist.m3u8?|User-Agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A120.0)%20Gecko%2F20100101%20Firefox%2F120.0&Referer=https%3A%2F%2Fplayer.clevercast.com%2F
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/BXL.png",BE | BX1
+https://59959724487e3.streamlock.net/stream/live/playlist.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/RTL%20TVI.png",BE | RTL TVI
+https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/Notele.png",BE | Notele
+https://streaming01.divercom.be/notele_live/_definst_/direct.stream/playlist.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/Matele.png",BE | Matele
+https://live.matele.be/hls/live.m3u8
+#EXTINF:-1 group-title="België" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Belgi%C3%AB/ZOO%20MEDIA.png",BE | Zoo Media
+https://media.thomasmore.be/elemental_hls/hls_stream_ipad_high.m3u8
+#EXTINF:-1 group-title="Luxemburg" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Luxemburg/Chamber%20TV.png",LU | Chamber TV
+https://media02.webtvlive.eu/chd-edge/_definst_/smil:chamber_tv_hd.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/AD.png",NL | AD LIVE
+https://dpg-eventstreams.akamaized.net/aldagclipstreamsrt-pep/streamx/aldagclipstreamsrt_720p.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Insight%20TV.png",NL | Insight TV
+https://insighttv-samsung-canada.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Brabant.png",NL | Omroep Brabant
+http://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/L1MBURG.png",NL | L1mburg
+http://d34pj260kw1xmk.cloudfront.net/live/l1/tv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/RTV%20Drenthe.png",NL | RTV Drenthe
+https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Gelderland.png",NL | Omroep Gelderland
+https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep-Flevoland.png",NL | Omroep Flevoland
+http://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Zeeland.png",NL | Omroep Zeeland
+https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/RTV%20Noord.png",NL | RTV Noord
+https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/RTV%20Oost.png",NL | RTV Oost
+https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/RTV%20Utrecht.png",NL | RTV Utrecht
+https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Breda%20Nu.png",NL | Breda Nu
+https://rtmp.bredanu.nl/live/tv_1080p5000kbs/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/1Almere.png",NL | 1Almere
+https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/1Twente.png",NL | 1Twente
+https://ms10.mx-cd.net/dtv-10/198-989148/1Twente_TV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Studio040.png",NL | Studio 040
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://d591ovpa48r6h.cloudfront.net/nlpo/clr-nlpo/studio040tv/index.mpd
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Altena%20TV.jpg",NL | Altena TV
+https://dnx1f4sl30ba2.cloudfront.net/nlpo/clr-nlpo/altenatv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/RTVNOF.png",NL | RTV Noordoost Friesland
+https://5e6ab219de8f5.streamlock.net/rtvnof/rtvnof/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Kempen%20TV.png",NL | Kempen TV
+https://ms2.mx-cd.net/tv/242-2079866/Omroep_de_Kempen.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/XON.png",NL | XON
+https://ms7.mx-cd.net/tv/113-474263/EdeTV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Dit%20is%20Helmond.png",NL | Dit is Helmond
+https://ms7.mx-cd.net/tv/228-1864150/Omroep_Helmond.smil/master.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/HK13.png",NL | HK13 TV
+https://58c04fb1d143f.streamlock.net/harderwijktv/harderwijktv/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/BR6.png",NL | BR6 TV
+https://58c04fb1d143f.streamlock.net/slob/slob/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Feel%20Good%20TV.png",NL | Feel Good TV
+https://58c04fb1d143f.streamlock.net/feel_good_radio_1/feel_good_radio_1/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Den%20Haag%20TV.png",NL | Den Haag TV
+http://wowza5.video-streams.nl:1935/denhaag/denhaag/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Eemland%201.png",NL | Eemland 1
+https://streamingserver02.omroepnuenen.nl/spakenburg/spakenburglive_720p/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Leeuwarden.png",NL | Omroep Leeuwarden
+https://ms7.mx-cd.net/tv/238-2061506/Omroep_LEO_TV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/LOZ.png",NL | LOZ
+https://5e2b3e3114872.streamlock.net:1443/lozlive/smil:lozlive/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Meer%20TV.png",NL | Meer TV
+https://593aed234297b.streamlock.net/meervandaag/meervandaag/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Merwe%20TV.png",NL | Merwe TV
+https://d2ycaxub5x98iw.cloudfront.net/nlpo/clr-nlpo/merwetv/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Best.png",NL | Omroep Best
+https://streamingserver02.omroepnuenen.nl/best/bestweb_720p/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Dommelland.png",NL | Omroep Dommelland
+https://de68fck4398ez.cloudfront.net/nlpo/clr-nlpo/omroepdommelland/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Hoeksche%20Waard.png",NL | Omroep Hoeksche Waard
+https://ms2.mx-cd.net/tv/272-2641704/Hoeksche_Waard_TV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Horst%20aan%20de%20Maas.png",NL | Omroep Horst aan de Maas
+https://ms2.mx-cd.net/dtv-12/157-1217118/Omroep_Horst_aan_de_Maas_TV.smil/master.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Hulst.png",NL | Omroep Hulst
+https://ms7.mx-cd.net/tv/280-2963002/Omroep_Hulst_TV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Land%20van%20Cuijk.png",NL | Omroep Land van Cuijk
+https://d3go236bg358u.cloudfront.net/nlpo/clr-nlpo/omroeplandvancuijk/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Omroep%20Lingewaard.png",NL | Omroep Lingewaard
+https://58c04fb1d143f.streamlock.net/omroeplingewaard_1/omroeplingewaard_1/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/NOOS.png",NL | NOOS TV
+https://ms2.mx-cd.net/tv/276-2860564/Omroep_NOOS.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/ML5.png",NL | ML5 TV
+https://ms2.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/LOE.png",NL | LOE TV
+https://58c04fb1d143f.streamlock.net/loemedia/loemedia/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/LINQ.png",NL | LINQ TV
+https://ms2.mx-cd.net/dtv-11/246-2090022/Linq_Media_TV.smil/master.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Lasingerland%20TV.png",NL | Lasingerland TV
+https://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Langstraat%20TV.png",NL | Langstraat TV
+https://d1qpgfi3ivud4k.cloudfront.net/nlpo/clr-nlpo/langstraat/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Ideaal%20TV.png",NL | Ideaal TV
+https://ms2.mx-cd.net/dtv-09/236-2051366/Ideaal_TV.smil/playlist.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/Haarlem105.png",NL | Haarlem105 TV
+https://d2qm50imcbcfqx.cloudfront.net/nlpo/clr-nlpo/haarlem105/index.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/A1.png",NL | A1 TV
+https://stream.a1mediagroep.nl/hls/a1tv.m3u8
+#EXTINF:-1 group-title="Nederland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Nederland/BE%40TTV.png",NL | BE@TTV
+https://tv.beatfm.nl/live.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/L'Equipe.png",FR | L'Equipe
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/equipe.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/C8.png",FR | C8
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/c8/c8s.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/CSTAR.png",FR | CSTAR
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/cstr/cstr.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/Vosges%20TV.png",FR | Vosges TV
+https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/ViaMat%C3%A9l%C3%A9.png",FR | ViàMatélé
+https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/refs/heads/main/Frankrijk/20'tv.png",FR | 20' TV Île de France
+https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/T%C3%A9l%C3%A9nantes.png",FR | Télénantes
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/Telenantes.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/TV%20Tarn.png",FR | TV Tarn
+https://live.creacast.com/albi-tv-ch1/stream/playlist.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/TV78.png",FR | TV78
+https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/TV%20Vendee.png",FR | TV Vendée
+https://streamer01.myvideoplace.tv/streamer02/hls/VDE_EVEN_PAD_130923_medium/index.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/Tele%20Gohelle.png",FR | Tele Gohelle
+https://videas.agglo-lenslievin.fr/index.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/Bip%20TV.png",FR | Bip TV
+https://biptv.tv/live/biptvstream_orig/index.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/Maison%20%26%20Travaux%20TV.png",FR | Maison & Travaux TV
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/maisontrvx/maisontrvx.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/HANDICAP%20TV%20France.png",FR | HANDICAP TV France
+https://srv.webtvmanager.fr:3697/stream/play.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/Le%20Figaro%20IDF.png",FR | Le Figaro IDF
+https://static.lefigaro.fr/secom/tnt.m3u8
+#EXTINF:-1 group-title="Frankrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Frankrijk/%C3%89QUIDIA.png",FR | Equidia
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/extr/py/equidi.m3u8
+#EXTINF:-1 group-title="Verenigd Koninkrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/UK/BBC%20NEWS.png",UK | BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+#EXTINF:-1 group-title="Duitsland" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Duitsland/FrankenPlus.png",DE | Franken Plus
+https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 group-title="Oostenrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Oostenrijk/ORF1.png",AT | ORF 1
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://orf1.mdn.ors.at/orf/orf1/drmqxa/manifest.mpd?audio=deu
+#EXTINF:-1 group-title="Oostenrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Oostenrijk/ORF1.png",AT | ORF 1
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://orf1.mdn.ors.at/orf/orf1/drmqxa/manifest.mpd?audio=deu
+#EXTINF:-1 group-title="Oostenrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Oostenrijk/TV%201%20Ober%C3%B6sterreich.png",AT | TV 1 Oberösterreich
+https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8
+#EXTINF:-1 group-title="Oostenrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Oostenrijk/FS1.png",AT | FS1 Salzburg
+https://stream.fs1.tv/hls/webstream.m3u8
+#EXTINF:-1 group-title="Oostenrijk" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/refs/heads/main/Oostenrijk/Schladming-Dachstein%20TV.jpg",AT | Schladming-Dachstein TV
+https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8
+#EXTINF:-1 group-title="Denemarken" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Denemarken/DR%20TVA.png",DK | DR TVA
+https://drevent01hls.akamaized.net/hls/live/2014198/drevent01/master5500.m3u8
+#EXTINF:-1 group-title="Italië" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Itali%C3%AB/peer-tv-alto-adige.png",IT | Peer TV Alto Adige
+https://iptv.peer.biz/live/peertv-it.m3u8
+#EXTINF:-1 group-title="Italië" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Itali%C3%AB/peer-tv-suedtirol.png",IT | Peer TV Südtirol
+https://iptv.peer.biz/live/peertv.m3u8
+#EXTINF:-1 group-title="Italië" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Itali%C3%AB/peer-tv-south-tyrol.png",IT | Peer TV South Tyrol
+https://iptv.peer.biz/live/peertv-en.m3u8
+#EXTINF:-1 group-title="Spanje" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Spanje/TRECE.png",ES | TRECE
+https://live-edge-ams-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/liveld/index.m3u8
+#EXTINF:-1 group-title="Spanje" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Spanje/Negocios%20TV.png",ES | Negocios TV
+https://streaming013.gestec-video.com/hls/negociostv.m3u8
+#EXTINF:-1 group-title="Spanje" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Spanje/activatv.png",ES | Activa TV
+https://streamtv.mediasector.es/hls/activatv/index.m3u8
+#EXTINF:-1 group-title="Spanje" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Spanje/Futsalmafer.tv.png",ES | Futsalmafer.tv
+https://cloudvideo.servers10.com:8081/8184/index.m3u8
+#EXTINF:-1 group-title="Cuba" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Cuba/Prensa%20Latina%20Television.png",CU | Prensa Latina TV
+https://eu1.servers10.com:8081/8192/index.m3u8
+#EXTINF:-1 group-title="Cuba" tvg-id="Undefined" tvg-logo="https://raw.githubusercontent.com/boomski/TV-LOGO/main/Cuba/Radio%20y%20Televisi%C3%B3n%20Mart%C3%AD.png",CU | Radio y Televisión Martí
+https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8
