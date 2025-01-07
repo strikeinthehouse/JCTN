@@ -160,7 +160,7 @@ manual_channel = {
     'type': 'info',
     'ch_name': 'GHDUO',
     'tvg_id': 'Telecinco',
-    'url': 'https://www.youtube.com/@recordnews/live',
+    'url': 'https://www.twitch.tv/universoreality_gh',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',  # Pode adicionar um link para uma thumbnail aqui, se necessário
     'group_title': "Reality Show's Live",  # Modificado para o título correto
 
