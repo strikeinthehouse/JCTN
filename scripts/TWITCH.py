@@ -155,6 +155,23 @@ finally:
     if driver:
         driver.quit()
 
+# Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
+manual_channel = {
+    'type': 'info',
+    'ch_name': 'Universo Reality GH',
+    'tvg_id': 'universoreality_gh',
+    'url': 'https://www.twitch.tv/universoreality_gh',
+    'thumb': '',  # Pode adicionar um link para uma thumbnail aqui, se necessário
+    'group_title': "Reality Show's Live",  # Modificado para o título correto
+    'tag_text': 'Gran Hermano Argentina'  # Tag personalizada para o canal
+}
+
+# Verificar se o canal já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
+if manual_channel['tvg_id'] not in processed_channels:
+    channel_data.append(manual_channel)
+    processed_channels.add(manual_channel['tvg_id'])
+    logger.info(f"Canal {manual_channel['url']} adicionado manualmente.")
+
 # Gerar arquivo M3U com thumbnails e texto extra
 with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
     m3u_file.write(banner)
@@ -169,9 +186,8 @@ with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
         if link and check_url(link):
             # Adicionando o texto extra (tag) antes do nome do canal
             m3u_file.write(
-                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"Reality Show's Live\",{item['tag_text']} - {item['ch_name']}"
+                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{item['group_title']}\",{item['tag_text']} - {item['ch_name']}"
             )
             m3u_file.write('\n')
             m3u_file.write(link)
             m3u_file.write('\n')
-
