@@ -158,12 +158,12 @@ finally:
 # Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
 manual_channel = {
     'type': 'info',
-    'ch_name': 'Universo Reality GH',
-    'tvg_id': 'universoreality_gh',
+    'ch_name': 'GHDUO',
+    'tvg_id': 'Telecinco',
     'url': 'https://www.twitch.tv/universoreality_gh',
-    'thumb': '',  # Pode adicionar um link para uma thumbnail aqui, se necessário
+    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',  # Pode adicionar um link para uma thumbnail aqui, se necessário
     'group_title': "Reality Show's Live",  # Modificado para o título correto
-    'tag_text': 'Gran Hermano Argentina'  # Tag personalizada para o canal
+    'tag_text': 'DIRECTO'  # Tag personalizada para o canal
 }
 
 # Verificar se o canal já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
