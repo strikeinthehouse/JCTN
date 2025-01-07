@@ -1476,14 +1476,6 @@
     "group": "|TR|\ud83c\uddf9\ud83c\uddf7 GENEL",
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/d6c87Km/trt122.png",
-    "url": "https://tv-trt1-dai.medya.trt.com.tr/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TRT 1",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 GENEL",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/d6c87Km/trt122.png",
     "url": "https://d1u68oyra9spme.cloudfront.net/master.m3u8",
     "extra": []
   },
@@ -1565,14 +1557,6 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/d6c87Km/trt122.png",
     "url": "https://trt.daioncdn.net/trt-1/master.m3u8?app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2",
-    "extra": []
-  },
-  {
-    "name": "TRT 1 (backup)",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 GENEL",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/d6c87Km/trt122.png",
-    "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
     "extra": []
   },
   {
@@ -2269,14 +2253,6 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/jwgqtSB/dosttv.png",
     "url": "https://dost.stream.emsal.im/tv/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "LALEG\u00dcL TV",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 D\u0130\u011eER",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/wrL2khn/lalegul.png",
-    "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
     "extra": []
   },
   {
@@ -3392,14 +3368,6 @@
     "extra": []
   },
   {
-    "name": "TRECE INT",
-    "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/GsLm5g5/trece.png",
-    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "ATRES CL\u00c1SICOS",
     "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
     "tvg_id": "Undefined",
@@ -3760,6 +3728,14 @@
     "extra": []
   },
   {
+    "name": "RTP 3",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/HnqCkQj/rtp3.jpg",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "EURONEWS PT",
     "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
     "tvg_id": "Undefined",
@@ -3885,6 +3861,30 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/tbFT1V2/rtp2.jpg",
     "url": "https://streaming-live.rtp.pt/liverepeater/rtp2.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTP 3 (backup sd)",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/HnqCkQj/rtp3.jpg",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtpn.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTP 3 (tvhlsdvr)",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/HnqCkQj/rtp3.jpg",
+    "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTP 3 (tvhlsdvr_HD)",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/HnqCkQj/rtp3.jpg",
+    "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
     "extra": []
   },
   {
@@ -6059,7 +6059,7 @@
     "name": "\ud83d\udcfb\ud83c\udfb6\ud83d\udcfa\ud83c\udfa5Video Player Checker",
     "group": "|\ud83d\udce1|\ud83d\udc68\u200d\ud83d\udcbb\ud83d\udc49GITHUB.COM/IPSTREET312",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeCgRMSYxYXS5K3eNstoSJLNST6YfjH4O-C60EQF5LJMzkyqhjXgpMaPMFQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuby_RpwJNPzOyc3jShVVYbtansiU_p9hup5-jjkvmidT-kjh95S9dDP5wXA&s",
     "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "extra": []
   }
