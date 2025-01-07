@@ -116,7 +116,7 @@ try:
 
                 tvg_id = link_tag['href'].strip('/').split('/')[-1]
                 channel_name = title_tag.text.strip()
-                group_title = category_tag.text.strip() if category_tag else 'Unknown'
+                group_title = category_tag.text.strip() if category_tag else "Reality Show's Live"
 
                 # Verificar se o canal já foi processado
                 if tvg_id in processed_channels:
