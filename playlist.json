@@ -3368,6 +3368,14 @@
     "extra": []
   },
   {
+    "name": "TRECE INT",
+    "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/GsLm5g5/trece.png",
+    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "ATRES CL\u00c1SICOS",
     "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
     "tvg_id": "Undefined",
@@ -3720,6 +3728,14 @@
     "extra": []
   },
   {
+    "name": "RTP 2",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/tbFT1V2/rtp2.jpg",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "RTP 3",
     "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
     "tvg_id": "Undefined",
@@ -3816,6 +3832,14 @@
     "extra": []
   },
   {
+    "name": "RTP MEMORIA",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/vZ9S4rV/rtpmem.jpg",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "AR PARLAMENTO",
     "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
     "tvg_id": "Undefined",
@@ -3837,6 +3861,22 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/B2YCsC0/kurikids.png",
     "url": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTP 1 (backup sd)",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/3YZFCjp/rtp1.jpg",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtp1.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTP 2 (backup sd)",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/tbFT1V2/rtp2.jpg",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtp2.smil/playlist.m3u8",
     "extra": []
   },
   {
@@ -6035,7 +6075,7 @@
     "name": "\ud83d\udcfb\ud83c\udfb6\ud83d\udcfa\ud83c\udfa5Video Player Checker",
     "group": "|\ud83d\udce1|\ud83d\udc68\u200d\ud83d\udcbb\ud83d\udc49GITHUB.COM/IPSTREET312",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeCgRMSYxYXS5K3eNstoSJLNST6YfjH4O-C60EQF5LJMzkyqhjXgpMaPMFQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuby_RpwJNPzOyc3jShVVYbtansiU_p9hup5-jjkvmidT-kjh95S9dDP5wXA&s",
     "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "extra": []
   }

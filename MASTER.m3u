@@ -841,6 +841,8 @@ https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3
 https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8
 #EXTINF:-1 group-title="|ES|🇪🇸 ESPAÑA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/GsLm5g5/trece.png",TRECE
 https://live-edge-ams-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/liveld/index.m3u8
+#EXTINF:-1 group-title="|ES|🇪🇸 ESPAÑA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/GsLm5g5/trece.png",TRECE INT
+https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8
 #EXTINF:-1 group-title="|ES|🇪🇸 ESPAÑA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/h17Kt3g/fastatres.jpg",ATRES CLÁSICOS
 https://fast-channels.atresmedia.com/648ef12c2bfab0e4507e0d61/648ef12c2bfab0e4507e0d61.m3u8
 #EXTINF:-1 group-title="|ES|🇪🇸 ESPAÑA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/h17Kt3g/fastatres.jpg",ATRES COMEDIA
@@ -929,6 +931,8 @@ https://rtvelivestream.akamaized.net/rtvesec/clan/clan_main.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/3YZFCjp/rtp1.jpg",RTP 1
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/tbFT1V2/rtp2.jpg",RTP 2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/HnqCkQj/rtp3.jpg",RTP 3
 https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/VxLFYSj/euronews.png",EURONEWS PT
@@ -953,12 +957,18 @@ https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtpacores.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/bvwwcB9/rtpmad.jpg",RTP MADEIRA
 https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
+#EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/vZ9S4rV/rtpmem.jpg",RTP MEMORIA
+https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/zZwMM3d/arparl.png",AR PARLAMENTO
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/TcpshFx/kuricine.png",KURIAKOS CINE
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/B2YCsC0/kurikids.png",KURIAKOS KIDS
 https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+#EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/3YZFCjp/rtp1.jpg",RTP 1 (backup sd)
+https://streaming-live.rtp.pt/liverepeater/rtp1.smil/playlist.m3u8
+#EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/tbFT1V2/rtp2.jpg",RTP 2 (backup sd)
+https://streaming-live.rtp.pt/liverepeater/rtp2.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/HnqCkQj/rtp3.jpg",RTP 3 (backup sd)
 https://streaming-live.rtp.pt/liverepeater/rtpn.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/HnqCkQj/rtp3.jpg",RTP 3 (tvhlsdvr)
@@ -1507,5 +1517,5 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2664
 #EXTINF:-1 group-title="|📡|👨‍💻👉GITHUB.COM/IPSTREET312" tvg-id="Undefined" tvg-logo="https://i.ibb.co/RpfpWkr/dlxlng.png",🎁DELUXE MUSIC⭐ Lounge 🤩❤️👍
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2489
-#EXTINF:-1 group-title="|📡|👨‍💻👉GITHUB.COM/IPSTREET312" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeCgRMSYxYXS5K3eNstoSJLNST6YfjH4O-C60EQF5LJMzkyqhjXgpMaPMFQ&s",📻🎶📺🎥Video Player Checker
+#EXTINF:-1 group-title="|📡|👨‍💻👉GITHUB.COM/IPSTREET312" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuby_RpwJNPzOyc3jShVVYbtansiU_p9hup5-jjkvmidT-kjh95S9dDP5wXA&s",📻🎶📺🎥Video Player Checker
 http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
