@@ -69,13 +69,12 @@ processed_channels = set()  # Usando um conjunto para armazenar IDs já processa
 try:
     driver = webdriver.Chrome(options=chrome_options)
 
-    # URLs de tags fornecidas
+    # URLs de tags fornecidas (incluindo as novas URLs)
     urls_twitch = [
-        "https://www.twitch.tv/directory/all/tags/bb18"
-        "https://www.twitch.tv/directory/all/tags/GrandeFratello",
-        "https://www.twitch.tv/directory/all/tags/GranHermano",
-        "https://www.twitch.tv/directory/all/tags/granhermanoargentina",
-        
+        "https://www.twitch.tv/directory/all/tags/bb18",  # Tag existente
+        "https://www.twitch.tv/directory/all/tags/GrandeFratello",  # Nova tag
+        "https://www.twitch.tv/directory/all/tags/GranHermano",  # Nova tag
+        "https://www.twitch.tv/directory/all/tags/granhermanoargentina",  # Nova tag
     ]
 
     for url_twitch in urls_twitch:
