@@ -1,4 +1,5 @@
 import requests
+from bs4 import BeautifulSoup
 
 # URL do repositório GitHub com o caminho correto para a pasta
 repo_url = "https://api.github.com/repos/AINMcl/MonitorTV/contents/Monitores/Senal"
@@ -17,17 +18,81 @@ def get_html_urls(repo_url):
         print(f"Erro ao acessar {repo_url}: {e}")
     return html_urls
 
-# Lista para armazenar todos os URLs dos arquivos .html
+# Função para baixar o arquivo HTML
+def download_html_file(url, file_name):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        with open(file_name, 'wb') as f:
+            f.write(response.content)
+        print(f"Arquivo {file_name} baixado com sucesso.")
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao baixar {file_name}: {e}")
+
+# Função para extrair o título e os links m3u8 de um arquivo HTML
+def extract_title_and_m3u8_links(html_content):
+    title = None
+    m3u8_links = []
+    
+    # Usa o BeautifulSoup para fazer o parsing do HTML
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Extrai o título da tag <title>
+    title_tag = soup.find('title')
+    if title_tag:
+        title = title_tag.text.strip()
+    
+    # Encontra todos os links .m3u8 no conteúdo
+    for link in soup.find_all('a', href=True):
+        if '.m3u8' in link['href']:
+            m3u8_links.append(link['href'])
+    
+    return title, m3u8_links
+
+# Função para gerar o arquivo .m3u com os links e títulos extraídos
+def generate_m3u_file(html_urls):
+    with open('HTML.m3u', 'w', encoding='utf-8') as m3u_file:
+        m3u_file.write('#EXTM3U\n')  # Cabeçalho obrigatório para arquivos .m3u
+        
+        for url in html_urls:
+            try:
+                # Baixa o arquivo HTML
+                file_name = url.split("/")[-1]  # Extrai o nome do arquivo da URL
+                download_html_file(url, file_name)
+                
+                # Abre o arquivo HTML baixado e extrai o título e links m3u8
+                with open(file_name, 'r', encoding='utf-8') as f:
+                    html_content = f.read()
+                    title, m3u8_links = extract_title_and_m3u8_links(html_content)
+                
+                if title and m3u8_links:
+                    for m3u8_link in m3u8_links:
+                        # Formata e escreve cada entrada no arquivo .m3u
+                        m3u8_link = m3u8_link if m3u8_link.startswith('http') else 'http:' + m3u8_link
+                        m3u8_file_line = f"#EXTINF:-1, {title}\n{m3u8_link}?DVR\n"
+                        m3u8_file_line = m3u8_file_line.strip()  # Remove espaços extras
+                        m3u8_file.write(m3u8_file_line + '\n')
+                        print(f"Adicionado {title} - {m3u8_link}?DVR")
+                
+            except Exception as e:
+                print(f"Erro ao processar {url}: {e}")
+        
+    print("Arquivo HTML.m3u gerado com sucesso.")
+
+# Obter os links dos arquivos .html do repositório GitHub
 all_html_urls = get_html_urls(repo_url)
 
 # Verifica se há URLs para processar
 if all_html_urls:
-    # Imprime os URLs encontrados (você pode modificar para "tocar" ou processar de outra maneira)
     print(f"Arquivos .html encontrados: {len(all_html_urls)}")
     for url in all_html_urls:
         print(f"Arquivo .html: {url}")
+    
+    # Gera o arquivo .m3u com os links e títulos extraídos
+    generate_m3u_file(all_html_urls)
 else:
     print('Nenhum arquivo .html encontrado.')
+
 
     
 import time
@@ -103,7 +168,7 @@ try:
 
     # URLs de tags fornecidas
     urls_twitch = [
-        "https://www.twitch.tv/directory/all/tags/elchavo",
+        "https://www.twitch.tv/directory/all/tags/bb18",
     ]
 
     for url_twitch in urls_twitch:
