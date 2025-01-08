@@ -72,9 +72,9 @@ try:
     # URLs de tags fornecidas (incluindo as novas URLs)
     urls_twitch = [
         "https://www.twitch.tv/directory/all/tags/bb18",  # Tag existente
-        "https://www.twitch.tv/directory/all/tags/GrandeFratello",  # Nova tag
         "https://www.twitch.tv/directory/all/tags/GranHermano",  # Nova tag
         "https://www.twitch.tv/directory/all/tags/granhermanoargentina",  # Nova tag        
+        "https://www.twitch.tv/directory/all/tags/GrandeFratello",  # Nova tag
     ]
 
     for url_twitch in urls_twitch:
