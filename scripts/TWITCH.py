@@ -258,16 +258,16 @@ chrome_options.add_argument("--disable-gpu")
 
 try:
     driver = webdriver.Chrome(options=chrome_options)
-    url_twitch = "https://www.twitch.tv/search?term=las%20estrellas"
+    url_twitch = "https://www.twitch.tv/search?term=gran%20hermano&type=channels"
     driver.get(url_twitch)
 
     # Esperar até que os elementos dos canais estejam carregados
     WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-a-target="search-result-live-channel"]'))
     )
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
+    live_channels = soup.find_all('div', {'data-a-target': 'search-result-live-channel'})
 
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
@@ -275,15 +275,11 @@ try:
     with open(channel_info_path, 'w', encoding='utf-8') as file:
         for channel in live_channels:
             # Dentro de cada item de canal, encontrar os detalhes do canal
-            article_tag = channel.find('article', {'data-a-target': True})
-            if not article_tag:
-                continue
-
-            link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
-            title_tag = article_tag.find('h3')
-            category_tag = article_tag.find('a', {'data-test-selector': 'GameLink'})
-            thumb_tag = article_tag.find('img', class_='tw-image-avatar')
-            viewers_tag = article_tag.find('div', {'class': 'tw-media-card-stat'})
+            link_tag = channel.find('a', {'class': 'ScCoreLink-sc-16kq0mq-0 jLbNQX tw-link'})
+            title_tag = channel.find('strong', {'data-test-selector': 'search-result-live-channel__name'})
+            category_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__category'})
+            thumb_tag = channel.find('img', {'class': 'search-result-card__img tw-image'})
+            viewers_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__viewer-count'})
 
             if not link_tag or not title_tag:
                 continue
