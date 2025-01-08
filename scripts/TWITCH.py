@@ -7,20 +7,27 @@ def excluir_html_da_pasta(pasta):
         for arquivo in os.listdir(pasta):
             # Cria o caminho completo do arquivo
             caminho_arquivo = os.path.join(pasta, arquivo)
+            
             # Verifica se é um arquivo e se tem a extensão .html
             if os.path.isfile(caminho_arquivo) and arquivo.endswith('.html'):
                 try:
                     # Exclui o arquivo
                     os.remove(caminho_arquivo)
                     print(f"Arquivo {arquivo} excluído com sucesso.")
+                except PermissionError:
+                    print(f"Sem permissão para excluir o arquivo {arquivo}.")
                 except Exception as e:
                     print(f"Erro ao excluir o arquivo {arquivo}: {e}")
+            else:
+                # Para debug, mostrar arquivos que não foram excluídos
+                print(f"Arquivo {arquivo} não é .html ou não é um arquivo regular.")
     else:
         print(f"A pasta {pasta} não existe.")
 
-# Chame a função, passando o caminho da pasta que você quer verificar
-# Exemplo:
-# excluir_html_da_pasta('caminho/para/a/pasta')
+# Exemplo de uso:
+# Substitua o caminho pelo caminho correto ou use '.' para o diretório atual
+excluir_html_da_pasta('.')
+
 
 
 
