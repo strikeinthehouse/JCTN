@@ -27,8 +27,6 @@ https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
 https://rakuten-africanews-2-be.samsung.wurl.tv/manifest/playlist.m3u8
 #EXTINF:-1 group-title="|FR|🇫🇷 INFORMATION" tvg-id="Undefined" tvg-logo="https://i.ibb.co/Tm8bZHc/bsmart.png",B SMART
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/dmdirect/bsmart.m3u8
-#EXTINF:-1 group-title="|FR|🇫🇷 INFORMATION" tvg-id="Undefined" tvg-logo="https://i.ibb.co/cCXgWWw/tvfinance.jpg",TV FINANCE
-https://strhlslb01.streamakaci.tv/str_tvfinance_tvfinance/str_tvfinance_multi/playlist.m3u8
 #EXTINF:-1 group-title="|FR|🇫🇷 INFORMATION" tvg-id="Undefined" tvg-logo="https://i.ibb.co/kckRLh5/bfm.png",BFM TV (backup)
 https://mit2-cdn-edge-live06.pfd.sfr.net/bfm-ncdn-live-premium-pal1.pfd.sfr.net/sid=054akapminjaseksmkrg/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END
 #EXTINF:-1 group-title="|FR|🇫🇷 INFORMATION" tvg-id="Undefined" tvg-logo="https://i.ibb.co/VxLFYSj/euronews.png",EURONEWS FR (backup)
@@ -611,6 +609,8 @@ https://yayin30.haber100.com/live/diyartv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",EKOL TV
 https://live.artidijitalmedya.com/artidijital_ekoltv/ekoltv/playlist.m3u8
+#EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",EKOL TV
+https://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",ELMAS TV ZONGULDAK
 https://edge1.socialsmart.tv/elmastv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",ER TV MALATYA
@@ -691,6 +691,8 @@ https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",MALATYA VUSLAT TV
 https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
+#EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",MANISA ETV
+https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",MAVI KARADENİZ TV
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 #EXTINF:-1 group-title="|TR|🇹🇷 YEREL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",MERCAN TV ADIYAMAN
@@ -957,6 +959,8 @@ https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
 https://streaming-live.rtp.pt/liverepeater/rtpacores.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/bvwwcB9/rtpmad.jpg",RTP MADEIRA
 https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
+#EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/vZ9S4rV/rtpmem.jpg",RTP MEMORIA
+https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/zZwMM3d/arparl.png",AR PARLAMENTO
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 #EXTINF:-1 group-title="|PT|🇵🇹 PORTUGAL" tvg-id="Undefined" tvg-logo="https://i.ibb.co/TcpshFx/kuricine.png",KURIAKOS CINE
