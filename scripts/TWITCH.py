@@ -272,7 +272,7 @@ try:
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
 
-    with open(channel_info_path, 'a', encoding='utf-8') as file:
+    with open(channel_info_path, 'w', encoding='utf-8') as file:
         for channel in live_channels:
             # Dentro de cada item de canal, encontrar os detalhes do canal
             link_tag = channel.find('a', {'class': 'ScCoreLink-sc-16kq0mq-0 jLbNQX tw-link'})
