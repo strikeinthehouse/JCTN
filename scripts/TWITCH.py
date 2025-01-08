@@ -1,64 +1,34 @@
 import requests
 
-# Lista de URLs dos repositórios do GitHub
-repo_urls = [
-    "https://api.github.com/repos/AINMcl/MonitorTV/Monitores/Senal/contents"
-]
+# URL do repositório GitHub com o caminho correto para a pasta
+repo_url = "https://api.github.com/repos/AINMcl/MonitorTV/contents/Monitores/Senal"
 
-# Função para obter os URLs dos arquivos .m3u de um repositório GitHub
-def get_m3u_urls(repo_url):
-    m3u_urls = []
+# Função para obter os URLs dos arquivos .html de um repositório do GitHub
+def get_html_urls(repo_url):
+    html_urls = []
     try:
         response = requests.get(repo_url)
         response.raise_for_status()  # Lança uma exceção para erros HTTP
         content = response.json()
         for item in content:
             if item['name'].endswith('.html'):
-                m3u_urls.append(item['download_url'])
+                html_urls.append(item['download_url'])
     except requests.exceptions.RequestException as e:
         print(f"Erro ao acessar {repo_url}: {e}")
-    return m3u_urls
+    return html_urls
 
-# Lista para armazenar todos os URLs dos arquivos .m3u
-all_m3u_urls = []
+# Lista para armazenar todos os URLs dos arquivos .html
+all_html_urls = get_html_urls(repo_url)
 
-# Itera sobre os URLs dos repositórios e coleta os URLs dos arquivos .m3u
-for url in repo_urls:
-    if "api.github.com" in url:
-        # Se for uma API do GitHub, obtenha os URLs dos arquivos .m3u
-        m3u_urls = get_m3u_urls(url)
-        all_m3u_urls.extend(m3u_urls)
-    elif url.endswith('.m3u'):
-        # Se for um arquivo .m3u diretamente, adiciona à lista
-        all_m3u_urls.append(url)
-
-# Lista para armazenar o conteúdo dos arquivos .m3u
-all_content = []
-
-# Itera sobre os URLs dos arquivos .m3u e coleta o conteúdo de cada um
-for url in all_m3u_urls:
-    try:
-        response = requests.get(url)
-        response.raise_for_status()  # Lança uma exceção para erros HTTP
-        if response.status_code == 200:
-            content = response.text.strip()
-            all_content.append(content)
-            print(f"Conteúdo do arquivo {url} coletado com sucesso.")
-        else:
-            print(f"Erro ao acessar {url}: {response.status_code}")
-    except requests.exceptions.RequestException as e:
-        print(f"Erro ao acessar {url}: {e}")
-
-# Verifica se há conteúdo para escrever no arquivo .m3u
-if all_content:
-    with open('HTML.M3U', 'a', encoding='utf-8') as f:
-        f.write('#EXTM3U\n')  # Cabeçalho obrigatório para arquivos .m3u
-        for content in all_content:
-            f.write(content + '\n')
-
-    print('Arquivo lista1.m3u foi criado com sucesso.')
+# Verifica se há URLs para processar
+if all_html_urls:
+    # Imprime os URLs encontrados (você pode modificar para "tocar" ou processar de outra maneira)
+    print(f"Arquivos .html encontrados: {len(all_html_urls)}")
+    for url in all_html_urls:
+        print(f"Arquivo .html: {url}")
 else:
-    print('Nenhum conteúdo de arquivo .m3u foi encontrado para escrever.')
+    print('Nenhum arquivo .html encontrado.')
+
     
 import time
 import logging
@@ -133,12 +103,6 @@ try:
 
     # URLs de tags fornecidas
     urls_twitch = [
-        "https://www.twitch.tv/directory/all/tags/granhermanoargentina",
-        "https://www.twitch.tv/directory/all/tags/GrandeFratello",
-        "https://www.twitch.tv/directory/all/tags/GranHermano",
-        "https://www.twitch.tv/directory/all/tags/bb18",
-        "https://www.twitch.tv/directory/all/tags/irl",
-        "https://www.twitch.tv/directory/all/tags/yoga",
         "https://www.twitch.tv/directory/all/tags/elchavo",
     ]
 
