@@ -272,11 +272,11 @@ try:
     channel_data = []
     channel_info_path = 'channel_twitch.txt'
 
-    with open(channel_info_path, 'w', encoding='utf-8') as file:
+    with open(channel_info_path, 'a', encoding='utf-8') as file:
         for channel in live_channels:
             # Dentro de cada item de canal, encontrar os detalhes do canal
             link_tag = channel.find('a', {'class': 'ScCoreLink-sc-16kq0mq-0 jLbNQX tw-link'})
-            title_tag = channel.find('strong', {'data-test-selector': 'search-result-live-channel__name'})
+            title_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__title'})
             category_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__category'})
             thumb_tag = channel.find('img', {'class': 'search-result-card__img tw-image'})
             viewers_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__viewer-count'})
@@ -284,8 +284,9 @@ try:
             if not link_tag or not title_tag:
                 continue
 
+            # Extrair dados do canal
             tvg_id = link_tag['href'].strip('/')
-            channel_name = title_tag.text.strip()
+            channel_name = title_tag.text.strip()  # Aqui pegamos o título do canal
             thumb_url = thumb_tag['src'] if thumb_tag else ''
             group_title = category_tag.text.strip() if category_tag else 'Unknown'
             viewers_count = viewers_tag.text.strip() if viewers_tag else 'Unknown'
@@ -325,3 +326,4 @@ except Exception as e:
 finally:
     if 'driver' in locals():
         driver.quit()
+
