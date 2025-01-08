@@ -1216,6 +1216,14 @@
     "extra": []
   },
   {
+    "name": "AA (feed)",
+    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 HABER-1",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/jLd8Fcb/aa.png",
+    "url": "http://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "TRT HABER (backup)",
     "group": "|TR|\ud83c\uddf9\ud83c\uddf7 HABER-1",
     "tvg_id": "Undefined",
@@ -2592,14 +2600,6 @@
     "extra": []
   },
   {
-    "name": "KANAL 68 AKSARAY",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "KANAL FIRAT",
     "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
     "tvg_id": "Undefined",
@@ -2645,6 +2645,14 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
     "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "KENT 38 TV KAYSER\u0130",
+    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
+    "url": "https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8",
     "extra": []
   },
   {
@@ -3792,14 +3800,6 @@
     "extra": []
   },
   {
-    "name": "RTP AFRICA",
-    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/BsdgH54/rtpafr.webp",
-    "url": "https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "RTP ACORES",
     "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
     "tvg_id": "Undefined",
@@ -4077,6 +4077,14 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/GdpWZ7h/baynounah.png",
     "url": "https://vo-live.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FUJAIRAH TV",
+    "group": "|AR|\ud83c\uddf8\ud83c\udde6 MIDDLE EAST-1 \u0639\u0631\u0628\u064a",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/b6ZvV2r/fujairah.png",
+    "url": "https://live.kwikmotion.com/fujairahlive/fujairah.smil/fujairahpublish/fujairah_source/playlist.m3u8",
     "extra": []
   },
   {
@@ -5528,11 +5536,11 @@
     "extra": []
   },
   {
-    "name": "OI TN",
+    "name": "TAPESH IR",
     "group": "|IR|\ud83c\uddee\ud83c\uddf7 IRAN",
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
-    "url": "https://oitnhls.wns.live/hls/stream.m3u8",
+    "url": "https://iptv.tapesh.tv/tapeshiran/playlist.m3u8",
     "extra": []
   },
   {
@@ -6043,7 +6051,7 @@
     "name": "\ud83d\udcfb\ud83c\udfb6\ud83d\udcfa\ud83c\udfa5Video Player Checker",
     "group": "|\ud83d\udce1|\ud83d\udc68\u200d\ud83d\udcbb\ud83d\udc49GITHUB.COM/IPSTREET312",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66-8EITkx1NNaam3uAep6BGVFCsSf-9Rp9mceMCSWuYVxRtEGDPdcduy_UQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeCgRMSYxYXS5K3eNstoSJLNST6YfjH4O-C60EQF5LJMzkyqhjXgpMaPMFQ&s",
     "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "extra": []
   }
