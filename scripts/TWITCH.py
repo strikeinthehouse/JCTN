@@ -34,8 +34,7 @@ excluir_html_da_pasta('.')
 
 
 
-    
-import time
+    import time
 import logging
 from logging.handlers import RotatingFileHandler
 from selenium import webdriver
@@ -111,9 +110,7 @@ try:
         "https://www.twitch.tv/directory/all/tags/GrandeFratello",
         "https://www.twitch.tv/directory/all/tags/granhermanoargentina",
         "https://www.twitch.tv/directory/all/tags/bb18",
-
-
-
+        "https://www.twitch.tv/directory/all/tags/GranHermano",
     ]
 
     for url_twitch in urls_twitch:
@@ -146,9 +143,10 @@ try:
                 else:
                     thumb_url = ''
 
-                # Extração do texto da tag extra (categoria/tag)
-                tag_tag = article_tag.find('div', {'class': 'ScTagContent-sc-14s7ciu-1 VkjPH'})
-                tag_text = tag_tag.find('span').text.strip() if tag_tag else 'Unknown'
+                # Extração de múltiplas tags associadas ao canal
+                tag_tags = article_tag.find_all('div', {'class': 'ScTagContent-sc-14s7ciu-1 VkjPH'})
+                tag_text = [tag.find('span').text.strip() for tag in tag_tags] if tag_tags else ['Unknown']
+                tag_text = ', '.join(tag_text)  # Concatenar as tags com uma vírgula
 
                 if not link_tag or not title_tag:
                     continue
@@ -172,7 +170,7 @@ try:
                     'url': f"https://www.twitch.tv/{tvg_id}",
                     'thumb': thumb_url,
                     'group_title': group_title,
-                    'tag_text': tag_text  # Adicionando o texto extra
+                    'tag_text': tag_text  # Adicionando o texto extra (concatenado)
                 })
 
             # Verificar se há uma página seguinte e navegar para ela
