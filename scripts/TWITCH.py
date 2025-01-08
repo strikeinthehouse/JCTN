@@ -18,17 +18,6 @@ def get_html_urls(repo_url):
         print(f"Erro ao acessar {repo_url}: {e}")
     return html_urls
 
-# Função para baixar o arquivo HTML
-def download_html_file(url, file_name):
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        with open(file_name, 'wb') as f:
-            f.write(response.content)
-        print(f"Arquivo {file_name} baixado com sucesso.")
-    except requests.exceptions.RequestException as e:
-        print(f"Erro ao baixar {file_name}: {e}")
-
 # Função para extrair o título e os links m3u8 de um arquivo HTML
 def extract_title_and_m3u8_links(html_content):
     title = None
@@ -56,14 +45,12 @@ def generate_m3u_file(html_urls):
         
         for url in html_urls:
             try:
-                # Baixa o arquivo HTML
-                file_name = url.split("/")[-1]  # Extrai o nome do arquivo da URL
-                download_html_file(url, file_name)
+                # Baixa o conteúdo do arquivo HTML diretamente
+                response = requests.get(url)
+                response.raise_for_status()
                 
-                # Abre o arquivo HTML baixado e extrai o título e links m3u8
-                with open(file_name, 'r', encoding='utf-8') as f:
-                    html_content = f.read()
-                    title, m3u8_links = extract_title_and_m3u8_links(html_content)
+                # Extrai o título e os links m3u8 do conteúdo HTML
+                title, m3u8_links = extract_title_and_m3u8_links(response.text)
                 
                 if title and m3u8_links:
                     for m3u8_link in m3u8_links:
@@ -92,6 +79,7 @@ if all_html_urls:
     generate_m3u_file(all_html_urls)
 else:
     print('Nenhum arquivo .html encontrado.')
+
 
 
     
