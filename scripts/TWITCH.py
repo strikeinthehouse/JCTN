@@ -38,7 +38,7 @@ def extract_title_and_m3u8_links(html_content):
     
     return title, m3u8_links
 
-# Função para gerar o arquivo .m3u com os links e títulos extraídos
+# Função para gerar o arquivo .m3u com todos os links e títulos extraídos
 def generate_m3u_file(html_urls):
     with open('HTML.m3u', 'w', encoding='utf-8') as m3u_file:
         m3u_file.write('#EXTM3U\n')  # Cabeçalho obrigatório para arquivos .m3u
@@ -75,10 +75,11 @@ if all_html_urls:
     for url in all_html_urls:
         print(f"Arquivo .html: {url}")
     
-    # Gera o arquivo .m3u com os links e títulos extraídos
+    # Gera o arquivo .m3u com todos os links e títulos extraídos
     generate_m3u_file(all_html_urls)
 else:
     print('Nenhum arquivo .html encontrado.')
+
 
 
 
