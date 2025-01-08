@@ -72,9 +72,8 @@ try:
     # URLs de tags fornecidas
     urls_twitch = [
         "https://www.twitch.tv/directory/all/tags/GrandeFratello",
-        "https://www.twitch.tv/directory/all/tags/granhermanoargentina",
-        "https://www.twitch.tv/directory/all/tags/bb18",
         "https://www.twitch.tv/directory/all/tags/GranHermano",
+        "https://www.twitch.tv/directory/all/tags/granhermanoargentina"
     ]
 
     for url_twitch in urls_twitch:
@@ -107,14 +106,9 @@ try:
                 else:
                     thumb_url = ''
 
-                # Extração de múltiplas tags associadas ao canal
-                tag_tags = article_tag.find_all('div', {'class': 'ScTagContent-sc-14s7ciu-1 VkjPH'})
-                if tag_tags:
-                    # Extração do texto de todas as tags
-                    tag_text = [tag.find('span').text.strip() for tag in tag_tags]
-                    tag_text = ', '.join(tag_text)  # Concatenar as tags com uma vírgula
-                else:
-                    tag_text = 'Unknown'  # Caso não haja tags
+                # Extração do texto da tag extra (categoria/tag)
+                tag_tag = article_tag.find('div', {'class': 'ScTagContent-sc-14s7ciu-1 VkjPH'})
+                tag_text = tag_tag.find('span').text.strip() if tag_tag else 'Unknown'
 
                 if not link_tag or not title_tag:
                     continue
@@ -138,7 +132,7 @@ try:
                     'url': f"https://www.twitch.tv/{tvg_id}",
                     'thumb': thumb_url,
                     'group_title': group_title,
-                    'tag_text': tag_text  # Adicionando o texto extra (concatenado)
+                    'tag_text': tag_text  # Adicionando o texto extra
                 })
 
             # Verificar se há uma página seguinte e navegar para ela
@@ -163,9 +157,9 @@ finally:
 # Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
 manual_channel = {
     'type': 'info',
-    'ch_name': 'CHINA',
+    'ch_name': 'GHDUO',
     'tvg_id': 'Telecinco',
-    'url': 'https://www.twitch.tv/hstceline',
+    'url': 'https://www.twitch.tv/lacasadelosfamosoallstar',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',
     'group_title': "Reality Show's Live",  # Modificado para o título correto
     'tag_text': 'Reality Show',  # Tag personalizada
@@ -177,12 +171,8 @@ if manual_channel['tvg_id'] not in processed_channels:
     processed_channels.add(manual_channel['tvg_id'])
     logger.info(f"Canal {manual_channel['url']} adicionado manualmente.")
 
-# Verificar se channel_data não está vazio
-if not channel_data:
-    logger.warning("Nenhum canal foi adicionado ao arquivo M3U.")
-
 # Gerar arquivo M3U com thumbnails e texto extra
-with open("STRIKE.m3u", "w", encoding="utf-8") as m3u_file:
+with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
     m3u_file.write(banner)
 
     for item in channel_data:
@@ -200,5 +190,3 @@ with open("STRIKE.m3u", "w", encoding="utf-8") as m3u_file:
             m3u_file.write('\n')
             m3u_file.write(link)
             m3u_file.write('\n')
-
-logger.info("Arquivo STRIKE.m3u gerado com sucesso.")
