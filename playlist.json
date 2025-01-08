@@ -80,14 +80,6 @@
     "extra": []
   },
   {
-    "name": "LN24 BE",
-    "group": "|FR|\ud83c\uddeb\ud83c\uddf7 INFORMATION",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/nR2HsVr/ln24.png",
-    "url": "https://live-ln24.digiteka.com/1911668011/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "RDI CANADA",
     "group": "|FR|\ud83c\uddeb\ud83c\uddf7 INFORMATION",
     "tvg_id": "Undefined",
@@ -1648,6 +1640,14 @@
     "extra": []
   },
   {
+    "name": "TRT 2",
+    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 BELGESEL & YA\u015eAM",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/TB5N8cN/trt2.png",
+    "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+    "extra": []
+  },
+  {
     "name": "DMAX",
     "group": "|TR|\ud83c\uddf9\ud83c\uddf7 BELGESEL & YA\u015eAM",
     "tvg_id": "Undefined",
@@ -2216,14 +2216,6 @@
     "extra": []
   },
   {
-    "name": "D\u0130YANET TV",
-    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 D\u0130\u011eER",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/k9phm3v/diyanettv.png",
-    "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "SEMERKAND",
     "group": "|TR|\ud83c\uddf9\ud83c\uddf7 D\u0130\u011eER",
     "tvg_id": "Undefined",
@@ -2429,6 +2421,22 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
     "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "EKOL TV",
+    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
+    "url": "https://live.artidijitalmedya.com/artidijital_ekoltv/ekoltv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "EKOL TV",
+    "group": "|TR|\ud83c\uddf9\ud83c\uddf7 YEREL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/mHt7rQf/Tryerel.png",
+    "url": "https://live.artidijitalmedya.com/artidijital_vizyon58/vizyon58/playlist.m3u8",
     "extra": []
   },
   {
@@ -3360,14 +3368,6 @@
     "extra": []
   },
   {
-    "name": "TRECE INT",
-    "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/GsLm5g5/trece.png",
-    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "ATRES CL\u00c1SICOS",
     "group": "|ES|\ud83c\uddea\ud83c\uddf8 ESPA\u00d1A",
     "tvg_id": "Undefined",
@@ -3792,6 +3792,14 @@
     "extra": []
   },
   {
+    "name": "RTP AFRICA",
+    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/BsdgH54/rtpafr.webp",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "RTP ACORES",
     "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
     "tvg_id": "Undefined",
@@ -3829,14 +3837,6 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/B2YCsC0/kurikids.png",
     "url": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "RTP 1 (backup sd)",
-    "group": "|PT|\ud83c\uddf5\ud83c\uddf9 PORTUGAL",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ibb.co/3YZFCjp/rtp1.jpg",
-    "url": "https://streaming-live.rtp.pt/liverepeater/rtp1.smil/playlist.m3u8",
     "extra": []
   },
   {
@@ -4301,6 +4301,14 @@
     "tvg_id": "Undefined",
     "logo": "https://i.ibb.co/nkfS0P4/palsat.jpg",
     "url": "http://htvpalsat.mada.ps:8888/audeh/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "YEMEN TODAY",
+    "group": "|AR|\ud83c\uddf8\ud83c\udde6 MIDDLE EAST-1 \u0639\u0631\u0628\u064a",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/0yytb9K/yementoday.png",
+    "url": "https://video.yementdy.tv/hls/yementoday.m3u8",
     "extra": []
   },
   {
@@ -6027,7 +6035,7 @@
     "name": "\ud83d\udcfb\ud83c\udfb6\ud83d\udcfa\ud83c\udfa5Video Player Checker",
     "group": "|\ud83d\udce1|\ud83d\udc68\u200d\ud83d\udcbb\ud83d\udc49GITHUB.COM/IPSTREET312",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuby_RpwJNPzOyc3jShVVYbtansiU_p9hup5-jjkvmidT-kjh95S9dDP5wXA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeCgRMSYxYXS5K3eNstoSJLNST6YfjH4O-C60EQF5LJMzkyqhjXgpMaPMFQ&s",
     "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "extra": []
   }
