@@ -1,90 +1,27 @@
-import requests
-from bs4 import BeautifulSoup
+import os
 
-# URL do repositório GitHub com o caminho correto para a pasta
-repo_url = "https://api.github.com/repos/AINMcl/MonitorTV/contents/Monitores/Senal"
+def excluir_html_da_pasta(pasta):
+    # Verifica se o diretório existe
+    if os.path.exists(pasta):
+        # Percorre todos os arquivos da pasta
+        for arquivo in os.listdir(pasta):
+            # Cria o caminho completo do arquivo
+            caminho_arquivo = os.path.join(pasta, arquivo)
+            # Verifica se é um arquivo e se tem a extensão .html
+            if os.path.isfile(caminho_arquivo) and arquivo.endswith('.html'):
+                try:
+                    # Exclui o arquivo
+                    os.remove(caminho_arquivo)
+                    print(f"Arquivo {arquivo} excluído com sucesso.")
+                except Exception as e:
+                    print(f"Erro ao excluir o arquivo {arquivo}: {e}")
+    else:
+        print(f"A pasta {pasta} não existe.")
 
-# Função para obter os URLs dos arquivos .html de um repositório do GitHub
-def get_html_urls(repo_url):
-    html_urls = []
-    try:
-        response = requests.get(repo_url)
-        response.raise_for_status()  # Lança uma exceção para erros HTTP
-        content = response.json()
-        for item in content:
-            if item['name'].endswith('.html'):
-                html_urls.append(item['download_url'])
-    except requests.exceptions.RequestException as e:
-        print(f"Erro ao acessar {repo_url}: {e}")
-    return html_urls
+# Chame a função, passando o caminho da pasta que você quer verificar
+# Exemplo:
+# excluir_html_da_pasta('caminho/para/a/pasta')
 
-# Função para extrair o título e os links m3u8 de um arquivo HTML
-def extract_title_and_m3u8_links(html_content):
-    title = None
-    m3u8_links = []
-    
-    # Usa o BeautifulSoup para fazer o parsing do HTML
-    soup = BeautifulSoup(html_content, 'html.parser')
-    
-    # Extrai o título da tag <title>
-    title_tag = soup.find('title')
-    if title_tag:
-        title = title_tag.text.strip()
-    
-    # Encontra todos os links .m3u8 no conteúdo
-    for link in soup.find_all('a', href=True):
-        if '.m3u8' in link['href']:
-            m3u8_links.append(link['href'])
-    
-    return title, m3u8_links
-
-# Função para gerar o arquivo .m3u com todos os links e títulos extraídos
-def generate_m3u_file(html_urls):
-    with open('HTML.m3u', 'w', encoding='utf-8') as m3u_file:
-        m3u_file.write('#EXTM3U\n')  # Cabeçalho obrigatório para arquivos .m3u
-        
-        for url in html_urls:
-            try:
-                # Baixa o conteúdo do arquivo HTML diretamente
-                response = requests.get(url)
-                response.raise_for_status()
-                
-                # Extrai o título e os links m3u8 do conteúdo HTML
-                title, m3u8_links = extract_title_and_m3u8_links(response.text)
-                
-                # Verifica se existem links m3u8 e título válido
-                if title and m3u8_links:
-                    for m3u8_link in m3u8_links:
-                        # Verifica se o link é absoluto, se não, adiciona o domínio base
-                        if not m3u8_link.startswith('http'):
-                            m3u8_link = 'http:' + m3u8_link
-                        
-                        # Cria a linha para o arquivo .m3u
-                        m3u8_file_line = f"#EXTINF:-1, {title}\n{m3u8_link}?DVR"
-                        m3u8_file_line = m3u8_file_line.strip()  # Remove espaços extras
-                        
-                        # Escreve a linha no arquivo .m3u
-                        m3u8_file.write(m3u8_file_line + '\n')
-                        print(f"Adicionado: {title} - {m3u8_link}?DVR")
-                
-            except Exception as e:
-                print(f"Erro ao processar {url}: {e}")
-        
-    print("Arquivo HTML.m3u gerado com sucesso.")
-
-# Obter os links dos arquivos .html do repositório GitHub
-all_html_urls = get_html_urls(repo_url)
-
-# Verifica se há URLs para processar
-if all_html_urls:
-    print(f"Arquivos .html encontrados: {len(all_html_urls)}")
-    for url in all_html_urls:
-        print(f"Arquivo .html: {url}")
-    
-    # Gera o arquivo .m3u com todos os links e títulos extraídos
-    generate_m3u_file(all_html_urls)
-else:
-    print('Nenhum arquivo .html encontrado.')
 
 
 
