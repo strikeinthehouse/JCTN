@@ -161,7 +161,7 @@ finally:
 # Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
 manual_channel = {
     'type': 'info',
-    'ch_name': 'GHDUO',
+    'ch_name': 'CHINA',
     'tvg_id': 'Telecinco',
     'url': 'https://www.twitch.tv/hstceline',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',
