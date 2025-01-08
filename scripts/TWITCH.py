@@ -83,9 +83,6 @@ try:
     for url_twitch in urls_twitch:
         driver.get(url_twitch)
 
-except Exception as e:
-    print(f"Ocorreu um erro: {e}")
-
         # Esperar até que os elementos dos canais estejam carregados
         WebDriverWait(driver, 10).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
