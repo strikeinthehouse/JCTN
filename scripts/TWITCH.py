@@ -52,14 +52,20 @@ def generate_m3u_file(html_urls):
                 # Extrai o título e os links m3u8 do conteúdo HTML
                 title, m3u8_links = extract_title_and_m3u8_links(response.text)
                 
+                # Verifica se existem links m3u8 e título válido
                 if title and m3u8_links:
                     for m3u8_link in m3u8_links:
-                        # Formata e escreve cada entrada no arquivo .m3u
-                        m3u8_link = m3u8_link if m3u8_link.startswith('http') else 'http:' + m3u8_link
-                        m3u8_file_line = f"#EXTINF:-1, {title}\n{m3u8_link}?DVR\n"
+                        # Verifica se o link é absoluto, se não, adiciona o domínio base
+                        if not m3u8_link.startswith('http'):
+                            m3u8_link = 'http:' + m3u8_link
+                        
+                        # Cria a linha para o arquivo .m3u
+                        m3u8_file_line = f"#EXTINF:-1, {title}\n{m3u8_link}?DVR"
                         m3u8_file_line = m3u8_file_line.strip()  # Remove espaços extras
+                        
+                        # Escreve a linha no arquivo .m3u
                         m3u8_file.write(m3u8_file_line + '\n')
-                        print(f"Adicionado {title} - {m3u8_link}?DVR")
+                        print(f"Adicionado: {title} - {m3u8_link}?DVR")
                 
             except Exception as e:
                 print(f"Erro ao processar {url}: {e}")
@@ -79,6 +85,7 @@ if all_html_urls:
     generate_m3u_file(all_html_urls)
 else:
     print('Nenhum arquivo .html encontrado.')
+
 
 
 
