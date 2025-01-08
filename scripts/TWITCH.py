@@ -2,7 +2,7 @@ import requests
 
 # Lista de URLs dos repositórios do GitHub
 repo_urls = [
-    "https://api.github.com/repos/AINMcl/MonitorTV/contents"
+    "https://api.github.com/repos/AINMcl/MonitorTV/Monitores/Senal/contents"
 ]
 
 # Função para obter os URLs dos arquivos .m3u de um repositório GitHub
@@ -133,7 +133,13 @@ try:
 
     # URLs de tags fornecidas
     urls_twitch = [
-        "https://www.twitch.tv/directory/all/tags/GrandeFratello"
+        "https://www.twitch.tv/directory/all/tags/granhermanoargentina",
+        "https://www.twitch.tv/directory/all/tags/GrandeFratello",
+        "https://www.twitch.tv/directory/all/tags/GranHermano",
+        "https://www.twitch.tv/directory/all/tags/bb18",
+        "https://www.twitch.tv/directory/all/tags/irl",
+        "https://www.twitch.tv/directory/all/tags/yoga",
+        "https://www.twitch.tv/directory/all/tags/elchavo",
     ]
 
     for url_twitch in urls_twitch:
