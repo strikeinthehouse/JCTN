@@ -13,8 +13,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://audiovisual.ec.europa.eu/_embed/index.html?channel=1&showSwitchLive=true",
-    "https://audiovisual.ec.europa.eu/_embed/index.html?channel=2&showSwitchLive=true",
     "https://globoplay.globo.com/v/6120663/",
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/2168377/",
