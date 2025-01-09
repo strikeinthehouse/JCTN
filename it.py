@@ -365,7 +365,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (substitua com a URL real)
-base_url = "https://www.google.com/search?q=telegiornale&sca_esv=8f94e1dc8538b051&udm=7&tbs=srcf:H4sIAAAAAAAAAB3KSwrAMAhF0d04Kbgn84E8iLUkWnD3pZndA3dtcB2UFh6lczUl7Q2yuzOcluCZkn9eTTBTzWH3-ULLgvh78AFesH7vSAAAAA,qdr:d&source=lnt&sa=X&ved=2ahUKEwjs_9qQ8MeKAxWYgWEGHTleDOEQpwV6BAgBEBQ&biw=1920&bih=993&dpr=1"
+base_url = "https://www.google.com/search?q=bigg+boss&sca_esv=c40a88bc622d6705&udm=7&tbs=qdr:d,dur:l,srcf:H4sIAAAAAAAAAB3IQQrAIAwF0du4KXinaFMbqvlgIuLtC9nNm4Plq3CuGOmFm9OMvkn6GXCBhh-qXIAv4DLYFFt5W4yrocF4CvVsK_11VQRFuVQAAAA&sxsrf=ADLYWILF8UMPCqJb2g4Iztofe-dyMBh9Ng:1736455247371&source=lnt&sa=X&ved=2ahUKEwj7j8Dxv-mKAxXRpZUCHd6_DFgQpwV6BAgDEC4&biw=1912&bih=954&dpr=1"
 
 # Load the page
 driver.get(base_url)
