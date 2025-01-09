@@ -120,7 +120,7 @@ try:
             link = grab(item['url'])
             if link and check_url(link):
                 m3u_file.write(
-                    f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"NEWS WORLD\",{item['ch_name']}"
+                    f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"MÉXICO\",{item['ch_name']}"
                 )
                 m3u_file.write('\n')
                 m3u_file.write(link)
