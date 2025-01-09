@@ -1,26 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="News" tvg-id="CNN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7_CHICAGO_WLS
-https://content.uplynk.com/channel/ext/aac37e2c66614e699fb189ab391084ff/wls_24x7_news.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="CNN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC CHICAGO WLS LIVE 1
-https://content.uplynk.com/channel/ext/aac37e2c66614e699fb189ab391084ff/WLSLive1.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="CNN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC CHICAGO WLS LIVE 2
-https://content.uplynk.com/channel/ext/aac37e2c66614e699fb189ab391084ff/WLSLive2.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="CNN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC CHICAGO WLS LIVE 3
-https://content.uplynk.com/channel/ext/aac37e2c66614e699fb189ab391084ff/WLSLive3.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="ABC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7 LA KABC
-https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="ABC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7 LA KABC LIVE 1.html
-https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/KABCLive1.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="ABC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7_LA_KABC_LIVE_2.html
-https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/KABCLive2.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="ABC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7_NY_WABC
-https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="ABC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7 NY WABC LIVE 1
-https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/WABCLive1.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="ABC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7 NY WABC LIVE 2
-https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/WABCLive2.m3u8?DVR
-#EXTINF:-1 group-title="News" tvg-id="ABC" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByudCbCLNVmjaJFPHKZ7aKWNp_xbG1-kvVBFJdPg373zsAvwoQ2egSS5p8KE&s",ABC7 NY WABC LIVE 3
-https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/WABCLive3.m3u8?DVR
+
 
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOH972ja7eZvmSBzknUwlm7C6gpW6Wc3fs5wQbK_wGHschB777XqfN65P7tZA&s",ABC NEWS LIVE 1
 https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8?DVR
