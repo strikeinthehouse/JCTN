@@ -291,6 +291,7 @@ finally:
     if driver:
         driver.quit()
 
+
 # Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
 manual_channel = {
     'type': 'info',
