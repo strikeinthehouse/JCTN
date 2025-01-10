@@ -157,7 +157,7 @@ finally:
 manual_channel = {
     'type': 'info',
     'ch_name': 'FOX BUSINESS',
-    'tvg_id': 'fox business',
+    'tvg_id': 'FoxBusinessNetwork.us',
     'url': 'https://www.twitch.tv/patriotnews4u',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_patriotnews4u-1920x1090.jpg',
     'group_title': "NEWS WORLD",  # Modificado para o título correto
