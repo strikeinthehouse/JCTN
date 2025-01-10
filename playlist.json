@@ -64,6 +64,14 @@
     "extra": []
   },
   {
+    "name": "Globo SP 5 HD",
+    "group": "GLOBO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
+    "extra": []
+  },
+  {
     "name": "Globo Bahia HD",
     "group": "GLOBO",
     "tvg_id": "Undefined",
@@ -189,6 +197,14 @@
     "tvg_id": "TVGloboSaoPaulo.br",
     "logo": "https://upload.wikimedia.org/wikipedia/pt/4/42/Rede_Globo_logo.png",
     "url": "http://15.235.15.230:14783/",
+    "extra": []
+  },
+  {
+    "name": "\u27be Globo SP (Link3).\u1d34\u1d30",
+    "group": "Canais | GLOBO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
     "extra": []
   },
   {
@@ -955,7 +971,7 @@
     "name": "Kidderminster 2",
     "group": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f \ud83c\uddec\ud83c\udde7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWwm0LSBjbDSp8Ftaf-Txt28hMi5Ak0DnBMc6m2fKyxHd6oSoxNzwqu2rb8Fg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTXbBOkX3vY5C11cfhPWzrrQP6LQByqhdL2ehyH1u8Ueg4EjRyZ8iV0pFoWg&s",
     "url": "http://89.16.164.68:80/SVR-Kidderminster-C2_094871/index.m3u8",
     "extra": []
   },
@@ -1035,7 +1051,7 @@
     "name": "Torquay",
     "group": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f \ud83c\uddec\ud83c\udde7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0AgTta8MOzFgLY0ER_KN5U9L91dN1IcDHlUTOBZ72m5GPWbLxPjGwFnyN5w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC7G3rH2hKxpTXnq2wZz47-nefjHJT6qGozMuJ3Tj7uKIdCib3yfLuBP8_cQ&s",
     "url": "http://camsecure.co/HLS/boatq1.m3u8",
     "extra": []
   },
@@ -1043,7 +1059,7 @@
     "name": "Torquay",
     "group": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f \ud83c\uddec\ud83c\udde7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0AgTta8MOzFgLY0ER_KN5U9L91dN1IcDHlUTOBZ72m5GPWbLxPjGwFnyN5w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC7G3rH2hKxpTXnq2wZz47-nefjHJT6qGozMuJ3Tj7uKIdCib3yfLuBP8_cQ&s",
     "url": "https://camsecure.co/HLS/boatq.m3u8",
     "extra": []
   },
@@ -1059,7 +1075,7 @@
     "name": "Weather",
     "group": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f \ud83c\uddec\ud83c\udde7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRicMbmnA49zu-GiuHLNpt0Od2-ynytbPMISJ582zG6BW87mdjb9oGzeukG17o&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGwGRWAwieI7Fo9eKxzxD4va6_bey_25zMBHbAitjnhq7b_TFBLx6joeB5os&s",
     "url": "http://89.16.164.69/weather/index.m3u8",
     "extra": []
   },
@@ -1408,14 +1424,6 @@
     "extra": []
   },
   {
-    "name": "\u0417\u0430\u0445\u0430\u0440\u0430-\u0434\u0435-\u043b\u043e\u0441-\u0410\u0442\u0443\u043d\u0435\u0441 \u0432\u0438\u0434 \u0438\u0437 \u043e\u0442\u0435\u043b\u044f Playa de la Plata",
-    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWcNVTYR3TfU8xj06lQLrTAyg3KTzI_J1LLsVuTyhT0x53Do9uLpLA7fmL0g&s",
-    "url": "https://flus.spotfav.com/zahara-atunes-playa-plata-spotfav/tracks-v1/mono.m3u8",
-    "extra": []
-  },
-  {
     "name": "\u041a\u0430\u043b\u044c\u043f\u0435 \u043f\u043b\u044f\u0436 \u041b\u0430-\u0424\u043e\u0441\u0441\u0430",
     "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
     "tvg_id": "Undefined",
@@ -1667,7 +1675,7 @@
     "name": "\u041e\u0448 \u0432\u0438\u0434 \u043d\u0430 \u0433\u043e\u0440\u0443 \u0421\u0443\u043b\u0430\u0439\u043c\u0430\u043d-\u0422\u043e\u043e",
     "group": "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f \ud83c\uddf0\ud83c\uddec",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNpqMn3wRnmjxPFF8J7vLVwSj4qzJ3UtKBh4DxaBVUOx5fc4gr5FA2htszVc&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaJUYxCioFSTxCjH9pCY7UmRc-CrRGMW5x0krYcplAH5ulWwJ3vfwEIiQ0JuM&s",
     "url": "https://cam.kt.kg/cam5/stream.m3u8",
     "extra": []
   },
@@ -1835,7 +1843,7 @@
     "name": "6",
     "group": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b \ud83c\uddf3\ud83c\uddf1",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbvOA9v-GNqs6mkzJvCVmHg4Xkb3MauMroia1VlrPpv-FJWh7dO2EzYhQ1Gg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8JKb6uKT5s4Z4vV7Po78C5OTfKI3m4bvcchx7j3nhPcEo9I-EQfnYYZrv0g&s",
     "url": "https://5d881567b7568.streamlock.net/live/Kerkuil1Buiten.stream/playlist.m3u8",
     "extra": []
   },
@@ -1899,7 +1907,7 @@
     "name": "23",
     "group": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b \ud83c\uddf3\ud83c\uddf1",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLALEscRELCEd2YnZcesZQ_hg1OZQdMHjJ0M3-1uFyPCEjM7GZUeRAI6NiAQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT49psq7gWNEdIaS-WsW3bEz1rK5e2kVViYpYnQ6B3aIDFZXInApRtYQsn0BNw&s",
     "url": "https://5d881567b7568.streamlock.net/live/Torenvalk2.stream/chunklist.m3u8",
     "extra": []
   },
@@ -1923,7 +1931,7 @@
     "name": "26",
     "group": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b \ud83c\uddf3\ud83c\uddf1",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxajNXYz3SecfPf-t06umLvv1KfUpyh23pf1RTnS_wupgsq3dKOGgBJD4yA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqRo2ED33C3sAJl-9266fObgqOVVqirszufyEHgYN4SqpZNx8DTl3Ebvo_rQ&s",
     "url": "https://jwwcam2.movingmedia.eu/hls/live.stream.m3u8",
     "extra": []
   },
@@ -1971,7 +1979,7 @@
     "name": "2",
     "group": "\u041f\u043e\u043b\u044c\u0448\u0430 \ud83c\uddf5\ud83c\uddf1",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKXWIlQIJogFYJjGqoq295TModxM6z1Xk8pjVzJQMp_XtExyabtX3zBG7U5w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilHuMEE3-cbh_Y31MvMoEEjv0awf88QmRRMe2rRxIf0Sl0ejIFNd9flqjuXQ&s",
     "url": "https://stream.mazury24.eu/mosir-elblag/index.m3u8",
     "extra": []
   },
@@ -2059,7 +2067,7 @@
     "name": "14",
     "group": "\u041f\u043e\u043b\u044c\u0448\u0430 \ud83c\uddf5\ud83c\uddf1",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2cgGJFbY0B493jBApkbAJptI9SaWEWTyDYAIcsGcX3qg2o3BmqZc7YGATA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHb-NXWO7avnpHRAM8_WItwagI2SEFa4Sxi3SemsRQ2ua9E4OCKa-jOJSx0A&s",
     "url": "https://stream.arkomnet.eu/bacowka_gawel/index.m3u8",
     "extra": []
   },
@@ -2547,7 +2555,7 @@
     "name": "\u0412\u043e\u043b\u0436\u0441\u043a\u0438\u0439 - \u041f\u0430\u0440\u043a",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzFHTKEYjpWqMxuEg2B85czOIpZ_nJZazzkOVgEOfgIytrSgBSAzKWus1pg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlaOS1kuprJB3BIXUT3NWBlmp-TUmdRPPrk2c1p-rgpFkHdRKFhUAOfcXEaR8&s",
     "url": "http://flussonic2.powernet.com.ru:8080/user57948/tracks-v1/index.m3u8",
     "extra": []
   },
@@ -2619,7 +2627,7 @@
     "name": "\u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044c 4",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwke8zMbuDH01CN7aPksDB7JN2USMvgV1ixeXhxpwiGGJgBO79vM_UrBRrwDQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDkDeNdQIpIrN11VlPlzxVB1ncCa1tAQYyXL_Saw12szCP1zwDqt7J9QirS1o&s",
     "url": "http://city.vtvn.ru:88/hls_65_16/stream_65_16.m3u8",
     "extra": []
   },
@@ -2771,16 +2779,8 @@
     "name": "\u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044c 24",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfyM3tUlIXsq2TrDADqqgQt9xajNl2iNu3IPNv9Qk4Yj9RTE-KAbTdY9rT8GA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRT5m-5CUC6PsVdt7g-aMRUn2f_bBXUdEsjpgI0B0dNuGDsMY0Lv_k9-Oqgw&s",
     "url": "http://city.vtvn.ru:88/hls_65_132/stream_65_132.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044c 25",
-    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNynaYs6ud6okBlqghvFW8QsBQUUmtAfHEJSg1wKlsPA2HXiOwd88qYO50co&s",
-    "url": "http://city.vtvn.ru:88/hls_65_130/stream_65_130.m3u8",
     "extra": []
   },
   {
@@ -2843,7 +2843,7 @@
     "name": "\u0412\u0440\u0430\u043d\u0433\u0435\u043b\u044c 34",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH25Q9eSD4uC2wzNIfMec2eHwoodFJ1Fa2ZkwARpyci6_rm2nfO4PvpkhdRAQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVTX0gfbBVrEV8MT5x79e1XykLSqTOt-cT8whaQnjcdbfSDXdALKAqcR2&s",
     "url": "http://city.vtvn.ru:88/hls_65_9/stream_65_9.m3u8",
     "extra": []
   },
@@ -3067,7 +3067,7 @@
     "name": "\u041a\u0438\u0440\u0436\u0430\u0447 5",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBfLzgsQhpY1lDBdvj4x793dQQaCCKTrJpD21iCbY1rxFVG7laVN-oDKCXw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNPIsDdfTx4iUwDdXcxkVqWg6YzUvHc0Q0AgxRE0b_Nu7jnlMmug6fp8xfg&s",
     "url": "https://flussonic.kirzhachtelecom.ru/zareche/tracks-v1/mono.m3u8",
     "extra": []
   },
@@ -3083,7 +3083,7 @@
     "name": "\u041a\u043e\u0442\u0435\u043b\u044c\u043d\u0438\u043a\u0438 1",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNc-J8LOzoj1A1GK852tF5jXURfN4evDomG7hKDUTxojyrC6hz8RifbzbyQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDh0V2EuWrnzAUfYYr7brqQt0pEJN8ofRsxs8ktZ4agCsLeqvgEdjfe9WnSk&s",
     "url": "http://93.157.173.6:8080/m443/index.m3u8",
     "extra": []
   },
@@ -3243,7 +3243,7 @@
     "name": "\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a - \u0411\u043e\u0431\u0440\u043e\u0432\u044b\u0439 \u041b\u043e\u0433 3",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlfbxBJ9FyVjO7zcUvIgWi1ncoyXBJ3mnVDx5uCEgwXUWR8R1rHk7JyXvynOo&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQf_CfHxLVAHIJCETBaimrRtF-NFdARDc5jiSlMoFDZcMJaz_yf7ujs0aTJEA&s",
     "url": "http://62.213.36.148:1935/live/cam81s.stream/playlist.m3u8",
     "extra": []
   },
@@ -3563,7 +3563,7 @@
     "name": "\u041c\u044b\u0442\u0438\u0449\u0438 50",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxayhllppGLy-9tjMDaLHBXcZzGVPEXdf4sLprxj9TPWpD4qSgfd1MCK0SLQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIFvxTB-Zn3quypbb7l06H9rtWt3Md2lKxhRVByIWprsc_perDxr-pmJU3ig&s",
     "url": "http://cam.indikom.ru/67/hls/stream.m3u8",
     "extra": []
   },
@@ -4027,7 +4027,7 @@
     "name": "\u0422\u0443\u043b\u0443\u043d 13",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYAuw9773aQhBYN5imtoFfexmLHWQr4xWGiRBTftFRXBXNnXV5uwsUYk--ww&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQhD9Qso0bl-gxHN0BUCN7aag1GatLW-CiqP7KL9q1te4hriYJySMak4iumA&s",
     "url": "http://tv.t-tk.ru/atrium2/index.m3u8",
     "extra": []
   },
@@ -4283,7 +4283,7 @@
     "name": "\u0411\u0435\u043b\u0433\u0440\u0430\u0434 16",
     "group": "\u0421\u0435\u0440\u0431\u0438\u044f \ud83c\uddf7\ud83c\uddf8",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLACbuu4wMtqnUEb55M3rA2IBQfhXvCp-XzITFZCDRKFn2WlodvWipScRRxA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5RHXnwqKjvQ7Q1A_YaPKDHte3mHiCdSQ1-0OIFP4WkQViqwL64R7IWr8mG3A&s",
     "url": "https://streamer.devnet.rs/hls/despotastefana.m3u8",
     "extra": []
   },
@@ -4451,7 +4451,7 @@
     "name": "5",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNs-6V583BmVeckE7mpogm_lRrKHpiFhjkrW_iLk1kYjxXZ1dXMKH3WzjOn9s&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR809rPpCs5uXZ96wliRadLqkwbTXDGfEx_4-jhZCY9QzpL0y-8URb9suUWQXw&s",
     "url": "http://stream.kukaj.se/stream/11/video.m3u8",
     "extra": []
   },
@@ -4483,7 +4483,7 @@
     "name": "14",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2cgGJFbY0B493jBApkbAJptI9SaWEWTyDYAIcsGcX3qg2o3BmqZc7YGATA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHb-NXWO7avnpHRAM8_WItwagI2SEFa4Sxi3SemsRQ2ua9E4OCKa-jOJSx0A&s",
     "url": "https://kukaj.profi-net.sk/live/PLAMIENKA1.stream/chunklist.m3u8",
     "extra": []
   },
@@ -4579,7 +4579,7 @@
     "name": "26",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxajNXYz3SecfPf-t06umLvv1KfUpyh23pf1RTnS_wupgsq3dKOGgBJD4yA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqRo2ED33C3sAJl-9266fObgqOVVqirszufyEHgYN4SqpZNx8DTl3Ebvo_rQ&s",
     "url": "http://stream.strba.sk:1935/strba/VYHLAD_NAMESTIE.stream/playlist.m3u8",
     "extra": []
   },
@@ -4603,7 +4603,7 @@
     "name": "\u0414\u0436\u043e\u0440\u0434\u0436\u0438\u044f Ta\u0439\u0431\u0438-\u0410\u0439\u043b\u0435\u043d\u0434 \u0432\u0438\u0434 \u043d\u0430 \u0410\u0442\u043b\u0430\u043d\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043e\u043a\u0435\u0430\u043d - \u041f\u043b\u044f\u0436",
     "group": "\u0421\u0428\u0410 \ud83c\uddfa\ud83c\uddf8",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgOOOROs6EOrtR4qmgxlwdo9A7bknQt_4751TP1SX_KdL5Un9G1zJzzd600w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNFsBMVhYfiZ5JQSnt9loG0MjW8hGlxntFW0pqw-I_yG12qbkVaL2PPhDONg&s",
     "url": "https://5ddd47d64e730.streamlock.net:444/mousepad1/mousepad1.stream/chunklist_w733151700.m3u8",
     "extra": []
   },
@@ -4867,7 +4867,7 @@
     "name": "2",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilHuMEE3-cbh_Y31MvMoEEjv0awf88QmRRMe2rRxIf0Sl0ejIFNd9flqjuXQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKXWIlQIJogFYJjGqoq295TModxM6z1Xk8pjVzJQMp_XtExyabtX3zBG7U5w&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/13.stream/chunklist.m3u8",
     "extra": []
   },
@@ -4891,7 +4891,7 @@
     "name": "5",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNs-6V583BmVeckE7mpogm_lRrKHpiFhjkrW_iLk1kYjxXZ1dXMKH3WzjOn9s&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR809rPpCs5uXZ96wliRadLqkwbTXDGfEx_4-jhZCY9QzpL0y-8URb9suUWQXw&s",
     "url": "http://ibb-media2.ibb.gov.tr:1935/live/1033.stream/chunklist.m3u8",
     "extra": []
   },
@@ -4995,7 +4995,7 @@
     "name": "26",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxajNXYz3SecfPf-t06umLvv1KfUpyh23pf1RTnS_wupgsq3dKOGgBJD4yA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqRo2ED33C3sAJl-9266fObgqOVVqirszufyEHgYN4SqpZNx8DTl3Ebvo_rQ&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/41.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5003,7 +5003,7 @@
     "name": "27",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTiuD6XEoKOgLMa5H5Uj9NS14yjYHABPAvNa_nM37KK3P7VRzsB1AWZusyf3Q&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyMn07ZpUksrpKHadisK7OSDGSmFp0o3-LmGc_ZMvBysXnrGL5rItxouzCXA&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/46.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5051,7 +5051,7 @@
     "name": "33",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUY03vTWg_lVKasZswdYOqKkblkegvXvVSNX7qplTSo3fBRRv-3mYPJGbsrA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBAN9IpiMhEIwNA2nJwLSr56-FV_2_LADO2qsohqrWWm9B7OJ5CCPvxxl9KH0&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/58.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5139,7 +5139,7 @@
     "name": "44",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvFx-wAcCSYzUpARZlPDW8NUW9aW3XPUIIwPixaV9j7K6xkA9v-xggOtUpMw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQREvNhW3aXAUJwO_0WYFt67bCEH4x9KOwxUuel7RFDhaxpQ9eGTApuzMnz2w&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/85.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5147,7 +5147,7 @@
     "name": "45",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0nASYH8Y7hukaoCB2t7tKb8p-iGBt8E3EN5N2bh4GWppp8ls5_s4JECW9OQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJh3CvmYtbqIsf4bQ-5xA8WppIbRd0KGfNOSBBvQSA0nTXo8-w1e5zye9zsVk&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/86.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5251,7 +5251,7 @@
     "name": "58",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCwWmLuw_l7dIVN7mnZ3HpPKUlM4Lpf1N_6MDB388K07LX5mgS9TMMxkadIQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRusU8rPVXCsE9BMX_vYvvT8R3XYgahXYaVbgRVFgsGkAYcXL6nNJ6OMsrew00&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/105.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5267,7 +5267,7 @@
     "name": "60",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_UJnOYBsmKJK1UDdx1GlQjtwtVVENse1WNTbJKFjbibHfjM4rChy-X2fF_w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsiWo6KxzSQkpCTEtFeAp-7z0rTeWlQ1EbrrzI9NCruzR3DwOnQrX1oysQ-bs&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/107.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5299,7 +5299,7 @@
     "name": "65",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdq-l8i8WwDowHFMDgWQdsicQchE_c50HsJoKuUDX7l2jfHTFZnsfOp-oEYCA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PhCf7ciS42bxUsBzgSk2z8HCB8nLx2iqWU-tjHD3pRUR-9d79jyVuk7C-A&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/115.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5427,7 +5427,7 @@
     "name": "83",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzzlOFB1T5weZ10BRk2otumJbpTLxV79493Ef-a1ws-WtRu2O9ggK0cY3J5E0&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6VgQ3wQevfthw9GfndLja3anMXahkoAXyJCQ91JBbf_8nyHbOerEvH76tA&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/140.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5507,7 +5507,7 @@
     "name": "93",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe4SJf-6GyvnUdUgD7l7QebnmkkWLw9y6aghFFxb3uKA91AfP-SkqKcCgvaaM&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoo8kE7EKJ_U58IH6vApNlMJ9KUMCgacSR5OTitmfB5AHcFSSW0sABSfJqzw&s",
     "url": "http://ibb-media2.ibb.gov.tr:1935/live/1027.stream/chunklist.m3u8",
     "extra": []
   },
@@ -5619,7 +5619,7 @@
     "name": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f 5",
     "group": "\u0424\u0440\u0430\u043d\u0446\u0438\u044f \ud83c\uddeb\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6JzGe3YKoB98QpvfLhNpqrh6dofe52Rp0Iv11--fOViYHBDUIHJGQ2iizpw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnO4rhroSig4IRhLKB85EIfgyW-A0qKFY2KImoM8g0Jc8myQjwMFaLenZTIQ&s",
     "url": "https://live.viewsurf.com/liveedge/anglet02_1_1.stream/playlist.m3u8",
     "extra": []
   },
@@ -5771,16 +5771,8 @@
     "name": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f 5",
     "group": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f \ud83c\udded\ud83c\uddf7",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfoOVFJ4TE0l8SSm7yddOZh4IqjpGDBCYV_25UIFsWXSxs-baDdrRRTy74vQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShmS_0StIoYTb5qfGcbP_RkLsUcFF9tZUoIg7ENsI91mDcZekeFPKAi2trFPo&s",
     "url": "https://cdn-002.whatsupcams.com/hls/hr_promajna01.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f 6",
-    "group": "\u0425\u043e\u0440\u0432\u0430\u0442\u0438\u044f \ud83c\udded\ud83c\uddf7",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0BU6oZvxI4P5oDJdcFqKgqeCL3DjyEB9YKOMz1ComTumhI7ZnjXZy_13Xyw&s",
-    "url": "https://cdn-004.whatsupcams.com/hls/hr_buildpetrinja03.m3u8",
     "extra": []
   },
   {
