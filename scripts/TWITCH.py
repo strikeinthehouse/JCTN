@@ -273,17 +273,7 @@ try:
                     'tag_text': tag_text  # Adicionando o texto extra
                 })
 
-            # Verificar se há uma página seguinte e navegar para ela
-            try:
-                next_button = driver.find_element(By.CSS_SELECTOR, 'button[data-a-target="pagination-forward-button"]')
-                if next_button.is_enabled():
-                    next_button.click()
-                    time.sleep(3)  # Esperar carregar a próxima página
-                else:
-                    break  # Não há mais páginas
-            except Exception as e:
-                logger.error("Erro ao tentar navegar para a próxima página: %s", e)
-                break  # Se não houver próximo botão ou houver erro, saímos do loop
+
 
 except Exception as e:
     logger.error("Erro geral: %s", e)
