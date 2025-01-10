@@ -156,12 +156,12 @@ finally:
 # Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
 manual_channel = {
     'type': 'info',
-    'ch_name': 'GHDUO',
-    'tvg_id': 'Telecinco',
-    'url': 'https://www.twitch.tv/lacasadelosfamosoallstar',
-    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',
+    'ch_name': 'FOX BUSINESS',
+    'tvg_id': 'fox business',
+    'url': 'https://www.twitch.tv/patriotnews4u',
+    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_patriotnews4u-1920x1090.jpg',
     'group_title': "NEWS WORLD",  # Modificado para o título correto
-    'tag_text': 'Reality Show',  # Tag personalizada
+    'tag_text': 'NEWS WORLD',  # Tag personalizada
 }
 
 # Verificar se o canal manual já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
