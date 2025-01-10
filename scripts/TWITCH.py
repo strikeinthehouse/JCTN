@@ -75,8 +75,6 @@ try:
         "https://www.twitch.tv/directory/all/tags/bb18",  # Tag existente
         "https://www.twitch.tv/directory/all/tags/GranHermano",  # Nova tag
         "https://www.twitch.tv/directory/all/tags/granhermanoargentina",  # Nova tag
-        
-        
     ]
 
     for url_twitch in urls_twitch:
@@ -113,6 +111,7 @@ try:
                 tag_tag = article_tag.find('div', {'class': 'ScTagContent-sc-14s7ciu-1 VkjPH'})
                 tag_text = tag_tag.find('span').text.strip() if tag_tag else 'Unknown'
 
+                # Verificar se o link e o título existem antes de continuar
                 if not link_tag or not title_tag:
                     continue
 
