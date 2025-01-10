@@ -206,11 +206,12 @@ try:
 
     # URLs de tags fornecidas (incluindo as novas URLs)
     urls_twitch = [
+        "https://www.twitch.tv/directory/all/tags/GrandeFratello",  # Nova tag
         "https://www.twitch.tv/directory/all/tags/bb18",  # Tag existente
         "https://www.twitch.tv/directory/all/tags/GranHermano",  # Nova tag
         "https://www.twitch.tv/directory/all/tags/granhermanoargentina",  # Nova tag        
         "https://www.twitch.tv/directory/all/tags/breakingnews",  # Tag existente
-        "https://www.twitch.tv/directory/all/tags/GrandeFratello",  # Nova tag
+        
     ]
 
     for url_twitch in urls_twitch:
@@ -310,7 +311,7 @@ if manual_channel['tvg_id'] not in processed_channels:
     logger.info(f"Canal {manual_channel['url']} adicionado manualmente.")
 
 # Gerar arquivo M3U com thumbnails e texto extra
-with open("TWITCH.m3u", "w", encoding="utf-8") as m3u_file:
+with open("TWITCH.m3u", "a", encoding="utf-8") as m3u_file:
     m3u_file.write(banner)
 
     for item in channel_data:
