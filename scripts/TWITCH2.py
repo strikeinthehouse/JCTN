@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import requests
 import streamlink
 
-# Configuração de logging
+# Configurando logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
@@ -62,73 +62,130 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
+driver = None
+channel_data = []
+processed_channels = set()  # Usando um conjunto para armazenar IDs já processados
+
 try:
     driver = webdriver.Chrome(options=chrome_options)
-    url_twitch = "https://www.twitch.tv/directory/all/tags/BreakingNews"
-    driver.get(url_twitch)
 
-    # Esperar até que os elementos dos canais estejam carregados
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-a-target="search-result-live-channel"]'))
-    )
+    # URLs de tags fornecidas (incluindo as novas URLs)
+    urls_twitch = [
+        "https://www.twitch.tv/directory/all/tags/BreakingNews",  # Nova tag
+    ]
 
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    live_channels = soup.find_all('div', {'data-a-target': 'search-result-live-channel'})
+    for url_twitch in urls_twitch:
+        driver.get(url_twitch)
 
-    channel_data = []
-    channel_info_path = 'channel_twitch.txt'
+        # Esperar até que os elementos dos canais estejam carregados
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div[data-target="directory-game__card_container"]'))
+        )
 
-    with open(channel_info_path, 'a', encoding='utf-8') as file:
-        for channel in live_channels:
-            # Dentro de cada item de canal, encontrar os detalhes do canal
-            link_tag = channel.find('a', {'class': 'ScCoreLink-sc-16kq0mq-0 jLbNQX tw-link'})
-            title_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__title'})
-            category_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__category'})
-            thumb_tag = channel.find('img', {'class': 'search-result-card__img tw-image'})
-            viewers_tag = channel.find('p', {'data-test-selector': 'search-result-live-channel__viewer-count'})
+        while True:
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            live_channels = soup.find_all('div', {'data-target': 'directory-game__card_container'})
 
-            if not link_tag or not title_tag:
-                continue
+            for channel in live_channels:
+                # Dentro de cada item de canal, encontrar os detalhes do canal
+                article_tag = channel.find('article', {'data-a-target': True})
+                if not article_tag:
+                    continue
 
-            # Extrair dados do canal
-            tvg_id = link_tag['href'].strip('/')
-            channel_name = title_tag.text.strip()  # Aqui pegamos o título do canal
-            thumb_url = thumb_tag['src'] if thumb_tag else ''
-            group_title = category_tag.text.strip() if category_tag else 'Unknown'
-            viewers_count = viewers_tag.text.strip() if viewers_tag else 'Unknown'
+                link_tag = article_tag.find('a', {'data-test-selector': 'TitleAndChannel'})
+                title_tag = article_tag.find('h3')
+                category_tag = article_tag.find('p', {'data-a-target': 'preview-card-game-link'})
 
-            # Grava os dados de cada canal no arquivo
-            output_line = f"{channel_name} | {group_title} | {viewers_count} viewers | Logo Not Found"
-            file.write(output_line + "\n")
-            file.write(f"https://www.twitch.tv/{tvg_id}\n\n")
+                # Alteração na extração da thumbnail para pegar da estrutura dada
+                thumb_tag = article_tag.find('div', {'class': 'Layout-sc-1xcs6mc-0 eFvOkl'})
+                if thumb_tag:
+                    img_tag = thumb_tag.find('img', class_='tw-image')
+                    thumb_url = img_tag['src'] if img_tag else ''
+                else:
+                    thumb_url = ''
 
-            channel_data.append({
-                'type': 'info',
-                'ch_name': channel_name,
-                'tvg_id': tvg_id,
-                'url': f"https://www.twitch.tv/{tvg_id}",
-                'thumb': thumb_url,
-                'group_title': group_title,
-                'viewers': viewers_count
-            })
+                # Extração do texto da tag extra (categoria/tag)
+                tag_tag = article_tag.find('div', {'class': 'ScTagContent-sc-14s7ciu-1 VkjPH'})
+                tag_text = tag_tag.find('span').text.strip() if tag_tag else 'Unknown'
 
-    # Gerar arquivo M3U com thumbnails
-    with open("TWITCH1.m3u", "a", encoding="utf-8") as m3u_file:
-        m3u_file.write(banner)
-        
-        for item in channel_data:
-            link = grab(item['url'])
-            if link and check_url(link):
-                m3u_file.write(
-                    f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"NEWS WORLD\",{item['ch_name']}"
-                )
-                m3u_file.write('\n')
-                m3u_file.write(link)
-                m3u_file.write('\n')
+                # Verificar se o link e o título existem antes de continuar
+                if not link_tag or not title_tag:
+                    continue
+
+                tvg_id = link_tag['href'].strip('/').split('/')[-1]
+                channel_name = title_tag.text.strip()
+                group_title = category_tag.text.strip() if category_tag else "NEWS WORLD"
+
+                # Verificar se o canal já foi processado
+                if tvg_id in processed_channels:
+                    continue  # Ignorar canais duplicados
+
+                # Adicionar o canal ao conjunto de canais processados
+                processed_channels.add(tvg_id)
+
+                # Acumular os dados de cada canal
+                channel_data.append({
+                    'type': 'info',
+                    'ch_name': channel_name,
+                    'tvg_id': tvg_id,
+                    'url': f"https://www.twitch.tv/{tvg_id}",
+                    'thumb': thumb_url,
+                    'group_title': group_title,
+                    'tag_text': tag_text  # Adicionando o texto extra
+                })
+
+            # Verificar se há uma página seguinte e navegar para ela
+            try:
+                next_button = driver.find_element(By.CSS_SELECTOR, 'button[data-a-target="pagination-forward-button"]')
+                if next_button.is_enabled():
+                    next_button.click()
+                    time.sleep(3)  # Esperar carregar a próxima página
+                else:
+                    break  # Não há mais páginas
+            except Exception as e:
+                logger.error("Erro ao tentar navegar para a próxima página: %s", e)
+                break  # Se não houver próximo botão ou houver erro, saímos do loop
 
 except Exception as e:
     logger.error("Erro geral: %s", e)
 
 finally:
-    if 'driver' in locals():
+    if driver:
         driver.quit()
+
+# Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
+manual_channel = {
+    'type': 'info',
+    'ch_name': 'GHDUO',
+    'tvg_id': 'Telecinco',
+    'url': 'https://www.twitch.tv/lacasadelosfamosoallstar',
+    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',
+    'group_title': "Reality Show's Live",  # Modificado para o título correto
+    'tag_text': 'Reality Show',  # Tag personalizada
+}
+
+# Verificar se o canal manual já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
+if manual_channel['tvg_id'] not in processed_channels:
+    channel_data.append(manual_channel)
+    processed_channels.add(manual_channel['tvg_id'])
+    logger.info(f"Canal {manual_channel['url']} adicionado manualmente.")
+
+# Gerar arquivo M3U com thumbnails e texto extra
+with open("TWITCH.m3u", "a", encoding="utf-8") as m3u_file:
+    m3u_file.write(banner)
+
+    for item in channel_data:
+        # Ignorar canais específicos
+        if item['url'] in ["https://www.twitch.tv/jibarook", "https://www.twitch.tv/daniveintiuno"]:
+            logger.info(f"Canal {item['url']} ignorado.")
+            continue  # Pular para o próximo canal
+        
+        link = grab(item['url'])
+        if link and check_url(link):
+            # Adicionando o texto extra (tag) antes do nome do canal
+            m3u_file.write(
+                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{item['group_title']}\" tvg-id=\"{item['tvg_id']}\",{item['tag_text']} - {item['ch_name']}"
+            )
+            m3u_file.write('\n')
+            m3u_file.write(link)
+            m3u_file.write('\n')
