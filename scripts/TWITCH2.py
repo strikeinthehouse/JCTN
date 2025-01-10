@@ -184,8 +184,9 @@ with open("TWITCH.m3u", "a", encoding="utf-8") as m3u_file:
         if link and check_url(link):
             # Adicionando o texto extra (tag) antes do nome do canal
             m3u_file.write(
-                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{item['group_title']}\" tvg-id=\"{item['tvg_id']}\",{item['tag_text']} - {item['ch_name']}"
+                f"\n#EXTINF:-1 tvg-logo=\"{item['thumb']}\" group-title=\"{item['group_title']}\" tvg-id=\"{item['tvg_id']}\",{item['ch_name']}"
             )
+            #{item['tag_text']} - 
             m3u_file.write('\n')
             m3u_file.write(link)
             m3u_file.write('\n')
