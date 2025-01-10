@@ -64,8 +64,8 @@ chrome_options.add_argument("--disable-gpu")
 
 try:
     driver = webdriver.Chrome(options=chrome_options)
-    url_twitch = "https://www.twitch.tv/search?term=breakingnews"
-    #las%20estrellas
+    url_twitch = "https://www.twitch.tv/search?term=las%20estrellas"
+    
     driver.get(url_twitch)
 
     # Esperar até que os elementos dos canais estejam carregados
