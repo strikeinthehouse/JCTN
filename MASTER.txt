@@ -15,63 +15,69 @@ http://15.235.15.230:14485/
 #EXTINF:-1  group-title="Canais | GLOBO",GLOGO PB HD
 http://15.235.15.230:14495/
 
-#EXTINF:-1  group-title="Canais | GLOBO",GLOBO MS SD
+#EXTINF:-1 group-title="Canais | GLOBO",GLOBO MS SD
 http://15.235.15.230:14502/
 
-#EXTINF:-1  group-title="Canais | GLOBO",GLOBO SE HD
+#EXTINF:-1 group-title="Canais | GLOBO",GLOBO SE HD
 http://15.235.15.230:14506/
 
-#EXTINF:-1  group-title="Canais | GLOBO",GLOBO MS HD
+#EXTINF:-1 group-title="Canais | GLOBO",GLOBO MS HD
 http://15.235.15.230:14504/
 
-#EXTINF:-1  group-title="Canais | GLOBO",GLOBO SP HD 2
+#EXTINF:-1 group-title="Canais | GLOBO",GLOBO SP HD 2
 http://15.235.15.230:14508/
 
-#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br"  group-title="Canais | GLOBO",GLOBO INTERIOR SD
+#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" tvg-name="TVGloboSaoPaulo.br" group-title="Canais | GLOBO",GLOBO INTERIOR SD
 http://15.235.15.230:14513/
 
-#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br"  group-title="Canais | GLOBO",GLOBO SP HD
+#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" tvg-name="TVGloboSaoPaulo.br" group-title="Canais | GLOBO",GLOBO SP HD
 http://15.235.15.230:14512/
 
-#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br"  group-title="Canais | GLOBO",GLOBO SP SD 2
+#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" tvg-name="TVGloboSaoPaulo.br" group-title="Canais | GLOBO",GLOBO SP SD 2
 http://15.235.15.230:14510/
 
-#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br"  group-title="Canais | GLOBO",GLOBO SP FHD 2
+#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" tvg-name="TVGloboSaoPaulo.br" group-title="Canais | GLOBO",GLOBO SP FHD 2
 http://15.235.15.230:14516/
+
 
 
 
 #EXTINF:-1 group-title="Globo" tvg-logo="http://i.imgur.com/qtRBqdX.png",TV Asa Branca
 http://15.235.15.230:14492/AFDTV
-#EXTINF:-1 group-title="Globo" tvg-logo="http://i.imgur.com/h4PzuTy.png",RPC Curitiba
+
+#EXTINF:-1 tvg-id="Globo RJ.br" tvg-name="RPC Curitiba" group-title="Globo" tvg-logo="http://i.imgur.com/h4PzuTy.png",RPC Curitiba
 http://15.235.15.230:14487/AFDTV
+
 #EXTINF:-1 group-title="Globo" tvg-logo="http://i.imgur.com/9R6n3ti.png",TV Mirante São Luís
 http://15.235.15.230:14499/AFDTV
-#EXTINF:-1 group-title="Globo" tvg-logo="http://i.imgur.com/zldYz3t.png",TV Tem Sorocaba
+
+#EXTINF:-1 tvg-id="Globo TV Tem Bauru.br" tvg-name="TV Tem Sorocaba" group-title="Globo" tvg-logo="http://i.imgur.com/zldYz3t.png",TV Tem Sorocaba
 http://cdn-2.nxplay.com.br/TV_TEM_TK/index.m3u8
-#EXTINF:-1 group-title="Globo" tvg-logo="http://i.imgur.com/Jyh2wWJ.png",TV Tribuna Santos
+
+#EXTINF:-1 tvg-id="Globo TV Tribuna.br" tvg-name="TV Tribuna Santos" group-title="Globo" tvg-logo="http://i.imgur.com/Jyh2wWJ.png",TV Tribuna Santos
 http://15.235.15.230:14513/AFDTV
 
-
-#EXTINF:-1 tvg-id="Globo" tvg-name="Globo"  group-title="Canais | GLOBO",Globo TV Santos 
+#EXTINF:-1 tvg-id="Globo TV Tribuna.br" tvg-name="Globo TV Santos" group-title="Canais | GLOBO",Globo TV Santos
 http://15.235.15.230:14513/
 
-
-#EXTINF:-1 tvg-id="Globo" tvg-name="Globo" tvg-logo="https://i.imgur.com/k4fl1wF.png" group-title="Canais | GLOBO",Globo BA
+#EXTINF:-1 tvg-id="Globo TV Bahia.br" tvg-name="Globo BA" group-title="Canais | GLOBO" tvg-logo="https://i.imgur.com/k4fl1wF.png",Globo BA
 http://186.226.215.132:80/carlos123/carlos123/130
 
-#EXTINF:-1 tvg-id="GloboBA" tvg-name="Globo Bahia SD" tvg-logo="https://i.imgur.com/k4fl1wF.png" group-title="Canais | GLOBO",Globo Bahia SD
+#EXTINF:-1 tvg-id="Globo TV Bahia.br" tvg-name="Globo Bahia SD" group-title="Canais | GLOBO" tvg-logo="https://i.imgur.com/k4fl1wF.png",Globo Bahia SD
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 
-#EXTINF:-1 tvg-id="TVGloboBrasilia.br" tvg-name="Globo Brasília HD"  group-title="Canais | GLOBO",Globo Brasília HD
+#EXTINF:-1 tvg-id="Globo BrasÃ­lia HD.br" tvg-name="Globo Brasília HD" group-title="Canais | GLOBO",Globo Brasília HD
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/51
 
-#EXTINF:-1 tvg-id="Globo" tvg-name="Globo"  group-title="Canais | GLOBO",RPC Curitiba HD
+#EXTINF:-1 tvg-id="Globo RJ.br" tvg-name="RPC Curitiba HD" group-title="Canais | GLOBO",RPC Curitiba HD
 http://15.235.15.230:14487/
-#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" group-title="GLOBO" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/f/fa/Logotipo_da_TV_TEM_%282013%E2%80%932019%29.png", Globo SP 1 HD
+
+#EXTINF:-1 tvg-id="Globo Sao Paulo HD.br" tvg-name="Globo SP 1 HD" group-title="GLOBO" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/f/fa/Logotipo_da_TV_TEM_%282013%E2%80%932019%29.png",Globo SP 1 HD
 http://cdn-1.nxplay.com.br/TV_TEM_TK/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" group-title="GLOBO" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/f/fa/Logotipo_da_TV_TEM_%282013%E2%80%932019%29.png", Globo SP 2 HD
+
+#EXTINF:-1 tvg-id="Globo Sao Paulo HD.br" tvg-name="Globo SP 2 HD" group-title="GLOBO" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/f/fa/Logotipo_da_TV_TEM_%282013%E2%80%932019%29.png",Globo SP 2 HD
 http://cdn-2.nxplay.com.br/TV_TEM_TK/tracks-v1a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" group-title="GLOBO" tvg-logo="https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png", Globo SP 5 HD
 https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8
