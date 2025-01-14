@@ -33,7 +33,7 @@ http://15.235.15.230:14487/AFDTV
 http://15.235.15.230:14499/AFDTV
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Tribuna.br" tvg-logo="http://i.imgur.com/Jyh2wWJ.png",TV Tribuna Santos
 http://15.235.15.230:14513/AFDTV
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Tribuna.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixfT3jGQKof0saEoo_2_khMHRZaLDxXkaU5tfKIN9wr5roTSMsblxYI3Kdw&s",Globo TV Santos
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Tribuna.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRsyhfPB8qQxsC-xey_txrkZhZoC-tZ19_-euVtvwHIiBE8bM0VexMVLe1X3E&s",Globo TV Santos
 http://15.235.15.230:14513/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://i.imgur.com/k4fl1wF.png",Globo Bahia SD
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
@@ -47,6 +47,8 @@ http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",TV Globo São Paulo HD [Alternativo]
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",Globo SP HD (Link 3)
+https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo BA" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",Globo Bahia HD (Link 1)
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/NSC_TV_logo.png",NSC TV Blumenau HD
@@ -75,7 +77,7 @@ http://89.45.12.66:8080/live/toptv_207670/LgNXVm3I/36283.m3u8
 http://190.102.43.113:80/Formigatv/offilinetv2806/1541727.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjHhCtiVGvOy3tDSlmwd2RgKA6X2nXQWTXAAmANo_SkalMEATJEb1vbndEA&s",➾ Globo PA *
 http://190.102.43.113:80/Formigatv/offilinetv2806/320566.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3KIEJYJ1nBjXYEleWcCUhWxF-V9vupzyKs1dKAMY-_ftPARj5hRNIcR5KY6k&s",➾ Globo PA **
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjHhCtiVGvOy3tDSlmwd2RgKA6X2nXQWTXAAmANo_SkalMEATJEb1vbndEA&s",➾ Globo PA **
 http://190.102.43.113:80/Formigatv/offilinetv2806/320567.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/2/22/Logotipo_da_InterTV.png/200px-Logotipo_da_InterTV.png",Globo RN *
 http://190.102.43.113:80/Formigatv/offilinetv2806/320570.m3u8
@@ -91,6 +93,8 @@ http://hls1.sua.tv:80/live/globosphd/s.m3u8
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32370
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIA4xfXfxIUxP6mq_mbX0ZFpZrkD2EkB-t2k5nmZgKkKRRnXCI5ABO6T1of4&s",Globo RPC Curitiba HD
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32266
+#EXTINF:-1 group-title="Canais | ABERTO" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV Conquista HD
+http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/yyFeDm7.png",Band Arapuan HD
 https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/chunklist.m3u8
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/oTkOmnH.png",Band TV - Vale do Uruará SD
@@ -725,6 +729,16 @@ http://31.131.80.2:8080/Polevskoj.2mkr-36bb48610c/mono.m3u8
 http://31.131.80.2:8080/7e7cb479-4f36-4ebf-9177-f1fea1050d8d/mono.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7VK3gWZ8mHI6OzikSrGpOezPFm_YHEhPvt75mWqIRUvfUDCDmzZNlrLbDY6g&s",Иркутск 1
 http://tv.streams.baikal-telecom.net/CoWorking_IRGUPS/index.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSquB99ZfuOZa2UoOpUISC_4ANUR1-iG4CPLo2JKzt50q0UYvx5QC_a-ExzjBQ&s",Казань 1
+http://cdn.universmotri.ru/ipcam/cam34.stream/playlist.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOa5fVb-CSAslMOuCsfPfF0NN2i7yZQAP8ofFaYwNbVl5VjwmZ12-98ZKu3w&s",Казань 2
+http://cdn.universmotri.ru/ipcam/cam37.stream/playlist.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSigwDZ6NE01ZG4lxVCyST8NQ6cTUWorKsqRinqPUkaPNaZi_SBiMA3ciNOxW0&s",Казань 3
+http://cdn.universmotri.ru/ipcam/cam32.stream/playlist.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqN2-WSS2DGqaxKrdBBmVp3_XmnBM1bVXoV6jXoQn4AVJZptYmgmqM0mRQKoo&s",Казань 4
+http://cdn.universmotri.ru/ipcam/cam36.stream/playlist.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBXvsA_mlRqt0Sc4ZjeK05dv5pCMMuervfliAUnzfZNv5QJK_gtagLE9oNtQ&s",Казань 5
+http://cdn.universmotri.ru/ipcam/cam39.stream/playlist.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL1ChTZg465UPv-0n9CH4chH0UbBLRxHbOdRDFriUjDAsConxo3xK1O2l3cp0&s",Киржач 1
 https://flussonic.kirzhachtelecom.ru/Bolnica/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY-uPZnpvStpjPbyJWZSbma5fghIeV9oV_GX1WNUfV9IBAHA1VJpDpQBZzxH0&s",Киржач 2
@@ -953,8 +967,6 @@ http://stream.telko.ru/Tuhach_30_12_cam1/tracks-v1/mono.m3u8
 http://stream.telko.ru/Tuh30_6cam1/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsphfzW1Eh8oXaWmBLaD4D5A_pCxK6p81KLFpNGGChG7v0yEDGbP48CFflVd0&s",Ставрополь 9
 http://stream.telko.ru/Tuh30_6cam2/tracks-v1/mono.m3u8
-#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzz6ZU4lHjKHBj74-NZD5-tx5ogim1dSzK7Au4GVBneUNdDVxIf-EIIMrUM7g&s",Ставрополь-Парк Победы (самолет) 24
-http://stream.iformula.ru:8080/hls/ParkSamolet.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO4JkwzGMybY2ogVF12rMHgrAGKs3Ef6L5w7DQDnVdfidpiteJeodqRl_WZA&s",Тольятти 1
 https://webcamsbuildpool.tltsu.ru/cam0/cam0.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2SVYuQbBPENkZUqM9Mo9tvEechPEpAIhS3bi1L5cNVrsvBFGrj3C9aK0oqkc&s",Тольятти 2
@@ -1005,14 +1017,6 @@ http://stream.trafjam.ru/cam3_site/tracks-v1/mono.m3u8
 http://stream.trafjam.ru/cam6_site/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJUUjyqxp5-pjGktR7JzrSbwpbTXatD6w-iwZvmdVFrEGP8Rgf-8ZkNRjPKlw&s",Улан-Удэ 4
 http://stream.trafjam.ru/cam11_site/tracks-v1/mono.m3u8
-#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwCxcIw4-UVHV8-0VUg4JJ0TZcuKbqt4ctmGDm7FLAC8TQUg-lzK9uT5Da9g&s",Усть-Илимск 1
-http://cc-stream-01.uilim.ru/cam-dk-najmusina/tracks-v1/mono.m3u8
-#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS262vVllKpndEqNNCWuwvQx857vNZJYJvy2fbfe1gP_6fkBAIEZWk5c5_6cm8&s",Усть-Илимск 2
-http://cc-stream-01.uilim.ru/cam-dominion/tracks-v1/mono.m3u8
-#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrYYNZK6T3OePk12Pzg02YUBz3JVbWrRZp5IrrFOS85iWO5KOQ67JeOD4oQ&s",Усть-Илимск 4
-http://cc-stream-01.uilim.ru/cam-mira-68/tracks-v1/mono.m3u8
-#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQygtgGQSfG8bHkrUPYhKRBCr-zGUOv2zJI51xUsS-cR11Tzj9ykOhbOr-QR4g&s",Усть-Илимск 5
-http://cc-stream-01.uilim.ru/cam-mira-17-obzornaa/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3vaiAxoTY7njBkBjglkV2hCGKOcbqY4M4V5m02HJ9vPr4Q9isM6wor4QdeQ&s",Усть-Илимск 6
 https://cc-stream-01.uilim.ru/cam-dimitrova-13/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGVRPui4ys0xBClcYwOH0bpQfP022o--jEFAqH873VjGOH9HRNME4cBYejAg&s",Усть-Илимск 7
@@ -1417,8 +1421,6 @@ https://cdn-002.whatsupcams.com/hls/hr_brsec01.m3u8
 https://cdn-005.whatsupcams.com/hls/hr_samobor1.m3u8
 #EXTINF:-1 group-title="Хорватия 🇭🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfoOVFJ4TE0l8SSm7yddOZh4IqjpGDBCYV_25UIFsWXSxs-baDdrRRTy74vQ&s",Хорватия 5
 https://cdn-002.whatsupcams.com/hls/hr_promajna01.m3u8
-#EXTINF:-1 group-title="Хорватия 🇭🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0BU6oZvxI4P5oDJdcFqKgqeCL3DjyEB9YKOMz1ComTumhI7ZnjXZy_13Xyw&s",Хорватия 6
-https://cdn-004.whatsupcams.com/hls/hr_buildpetrinja03.m3u8
 #EXTINF:-1 group-title="Эстония 🇪🇪󠁧󠁢󠁳󠁣󠁴󠁿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzbGNowzyhk9KVbz2WvW12jJnlpDDiwWJ-Kgh1tH17pKYqaZSPtC1toutCeg&s",Талин (4K)
 http://83.166.53.184:8080/index.m3u8
 #EXTINF:-1 group-title="Эстония 🇪🇪󠁧󠁢󠁳󠁣󠁴󠁿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcm91dZEnH16JkNOBh1eJsZ_CG9WFzqJjNViW_5ZMHz90c2e4O43EZeiUt9N4&s",Талин 1
