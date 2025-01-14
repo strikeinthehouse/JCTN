@@ -68,7 +68,7 @@ def process_m3u_file(input_url, output_file):
 
     channel_data = []
     i = 0
-    with open(output_file, "w") as f:
+    with open(output_file, "a") as f:
         f.write(banner)  # Adiciona o cabeçalho no arquivo M3U
 
         while i < len(lines):
