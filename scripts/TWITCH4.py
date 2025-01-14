@@ -68,60 +68,58 @@ def process_m3u_file(input_url, output_file):
 
     channel_data = []
     i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        
-        if line.startswith('#EXTINF'):
-            ch_name, group_title, tvg_id, tvg_logo = parse_extinf_line(line)
-            extra_lines = []
-            link = None
-            
-            # Procura pela URL e ignora linhas intermediárias (#EXTVLCOPT, #KODIPROP, etc.)
-            while i + 1 < len(lines):
-                i += 1
-                next_line = lines[i].strip()
-                if next_line.startswith('#'):  # Verifica se a linha começa com '#'
-                    extra_lines.append(next_line)  # Armazena a linha extra
-                else:
-                    link = next_line  # Caso contrário, é a URL do canal
-                    break
-            
-            # Verifica a URL antes de adicionar
-            if link and check_url(link):
-                # Se o canal não tiver logotipo, buscar o logo automaticamente
-                if tvg_logo in ["", "N/A", "Undefined.png"]:  # Condição para logo vazio ou "N/A"
-                    logo_url = search_google_images(ch_name)
-                    if logo_url:
-                        tvg_logo = logo_url
-                    else:
-                        tvg_logo = "NoLogoFound.png"  # Caso não encontre logo
-                
-                channel_data.append({
-                    'name': ch_name,
-                    'group': group_title,
-                    'tvg_id': tvg_id,
-                    'logo': tvg_logo,
-                    'url': link,
-                    'extra': extra_lines
-                })
-        i += 1
+    with open(output_file, "w") as f:
+        f.write(banner)  # Adiciona o cabeçalho no arquivo M3U
 
-    # Gera o arquivo de saída M3U
-    with open(output_file, "a") as f:
-        f.write(banner)
-        for channel in channel_data:
-            extinf_line = (
-                f'#EXTINF:-1 group-title="{channel["group"]}" '
-                f'tvg-id="{channel["tvg_id"]}" '
-                f'tvg-logo="{channel["logo"]}",{channel["name"]}'
-            )
-            f.write(extinf_line + '\n')
-            for extra in channel['extra']:
-                f.write(extra + '\n')
-            f.write(channel['url'] + '\n')
+        while i < len(lines):
+            line = lines[i].strip()
+            
+            # Escreve as linhas com #EXTM3U url-tvg= diretamente no arquivo
+            if line.startswith('#EXTM3U'):
+                f.write(line + '\n')
+                i += 1  # Avança para a próxima linha e continua o loop
+                continue
+            
+            if line.startswith('#EXTINF'):
+                ch_name, group_title, tvg_id, tvg_logo = parse_extinf_line(line)
+                extra_lines = []
+                link = None
+                
+                # Procura pela URL e ignora linhas intermediárias (#EXTVLCOPT, #KODIPROP, etc.)
+                while i + 1 < len(lines):
+                    i += 1
+                    next_line = lines[i].strip()
+                    if next_line.startswith('#'):  # Verifica se a linha começa com '#'
+                        extra_lines.append(next_line)  # Armazena a linha extra
+                    else:
+                        link = next_line  # Caso contrário, é a URL do canal
+                        break
+                
+                # Verifica a URL antes de adicionar
+                if link and check_url(link):
+                    # Se o canal não tiver logotipo, buscar o logo automaticamente
+                    if tvg_logo in ["", "N/A", "Undefined.png"]:  # Condição para logo vazio ou "N/A"
+                        logo_url = search_google_images(ch_name)
+                        if logo_url:
+                            tvg_logo = logo_url
+                        else:
+                            tvg_logo = "NoLogoFound.png"  # Caso não encontre logo
+                    
+                    # Escreve a linha EXTINF e a URL do canal
+                    extinf_line = (
+                        f'#EXTINF:-1 group-title="{group_title}" '
+                        f'tvg-id="{tvg_id}" '
+                        f'tvg-logo="{tvg_logo}",{ch_name}'
+                    )
+                    f.write(extinf_line + '\n')
+                    for extra in extra_lines:
+                        f.write(extra + '\n')
+                    f.write(link + '\n')
+            
+            i += 1  # Avança para a próxima linha
 
     # Salva os dados em JSON para análise posterior
-    with open("playlist.json", "w") as f:
+    with open("playlist.json", "a") as f:
         json.dump(channel_data, f, indent=2)
 
 # Função para buscar imagem no Google
