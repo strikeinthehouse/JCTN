@@ -160,10 +160,10 @@ finally:
 # Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
 manual_channel = {
     'type': 'info',
-    'ch_name': 'GHDUO',
+    'ch_name': 'GFVIP',
     'tvg_id': 'Telecinco',
-    'url': 'https://www.twitch.tv/lacasadelosfamosoallstar',
-    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_universoreality_gh-1920x1090.jpg',
+    'url': 'https://www.twitch.tv/wesleycs95r',
+    'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_wesleycs95r-1920x1090.jpg',
     'group_title': "Reality Show's Live",  # Modificado para o título correto
     'tag_text': 'Reality Show',  # Tag personalizada
 }
