@@ -162,7 +162,7 @@ manual_channel = {
     'type': 'info',
     'ch_name': 'GFVIP',
     'tvg_id': 'Telecinco',
-    'url': 'https://www.twitch.tv/wesleycs95r',
+    'url': 'https://www.twitch.tv/wesleycs95',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_wesleycs95r-1920x1090.jpg',
     'group_title': "Reality Show's Live",  # Modificado para o título correto
     'tag_text': 'Reality Show',  # Tag personalizada
