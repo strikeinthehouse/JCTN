@@ -168,6 +168,7 @@ manual_channel = {
     'tag_text': 'Reality Show',  # Tag personalizada
 }
 
+
 # Verificar se o canal manual já foi adicionado (pelo 'tvg_id') e adicioná-lo manualmente se necessário
 if manual_channel['tvg_id'] not in processed_channels:
     channel_data.append(manual_channel)
