@@ -168,6 +168,14 @@
     "extra": []
   },
   {
+    "name": "Globo SP 5 HD",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
+    "extra": []
+  },
+  {
     "name": "Globo Bahia HD",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Undefined",
@@ -344,18 +352,10 @@
     "extra": []
   },
   {
-    "name": "Globo SP HD",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQCqcFiL5zbsW35MeoMBuxM9UWzEcgm5JSoJ1ZFnN2XNq8TiASJ19Rz2PmNk&s",
-    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "Globo SP HD Alternativo",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo SP",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bwLxLFxHSMifExeKNK6_EWb-OKBLqz2uyyeWvrspF95-f_Xu_dFKbK-S5L4&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlxB8ICWchsCBSXHqBnRQgrHMutDpPgD4uPlLo1F7AmWrix9WKd1X4GBWm9w&s",
     "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
     "extra": []
   },
@@ -373,6 +373,14 @@
     "tvg_id": "Globo",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIA4xfXfxIUxP6mq_mbX0ZFpZrkD2EkB-t2k5nmZgKkKRRnXCI5ABO6T1of4&s",
     "url": "http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32266",
+    "extra": []
+  },
+  {
+    "name": "RecordTV Conquista HD",
+    "group": "Canais | ABERTO",
+    "tvg_id": "RecordTV",
+    "logo": "https://imgur.com/lyQ1v9M.png",
+    "url": "http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV",
     "extra": []
   },
   {
@@ -517,6 +525,14 @@
     "tvg_id": "RecordTV",
     "logo": "https://imgur.com/lyQ1v9M.png",
     "url": "http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/31565",
+    "extra": []
+  },
+  {
+    "name": "RecordTV Conquista HD",
+    "group": "Canais | RECORD",
+    "tvg_id": "RecordTV",
+    "logo": "https://imgur.com/lyQ1v9M.png",
+    "url": "http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV",
     "extra": []
   },
   {
@@ -3408,14 +3424,6 @@
     "extra": []
   },
   {
-    "name": "\u041c\u044b\u0442\u0438\u0449\u0438 38",
-    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-Vjmw5Xu9fZI5IGjjgPva1rYiLj7xsr8xiWrlpIVpO5o3D3HykPH0j5L5w&s",
-    "url": "http://cam.indikom.ru/55/hls/stream.m3u8",
-    "extra": []
-  },
-  {
     "name": "\u041c\u044b\u0442\u0438\u0449\u0438 39",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
@@ -3536,11 +3544,59 @@
     "extra": []
   },
   {
+    "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a 1",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4hbHAiFnGn3mEsER2-laYPc0TDlneo4vRFzwBrZ1r-ugq2BnAvU-ZVoYa0g&s",
+    "url": "http://194.28.212.11/other/dkh1.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a 2",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEe0DcKUJk64WEGndxSlXgpk3aW7BB1S8NwTWNupc9RIJldzNiThTYdTm6vA&s",
+    "url": "http://194.28.212.11/other/dkh2.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a 3",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObVqsbLic8n7DRqlq5OxRpJvuxXwzOIIllzl6EZlGtOCpueblrkS0jvWSRA&s",
+    "url": "http://194.28.212.11/other/vo1.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a 4",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJXgue91dCVz2AC4Ty1iaeNZc8VuhhEHnNg0nMsEh8CJ1D6TtCeajIYjzF9Q&s",
+    "url": "http://194.28.212.11/other/vo2.m3u8",
+    "extra": []
+  },
+  {
     "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a 5",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRADw9Q4W_NLWIrLXYiJ0iT34P879rL4Mu8SdLW-6oTpThWeIlNYuO6lCAcNA&s",
     "url": "http://194.28.212.11/other/most1.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a 8",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqTCllnNlnDQiFF-fgHS3XpV6n6s5NB9bRIKuD4wYBsyoWsekwYhOSUfZmi4&s",
+    "url": "http://194.28.212.11/other/nizki.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a 9",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFK84ujNvtJN2hbELSPDmM8LMJ6AsPhXdZ4vTr6nAvLBy771OLVGOavDG1Wdw&s",
+    "url": "http://194.28.212.11/other/mendeleeva1.m3u8",
     "extra": []
   },
   {
@@ -4296,14 +4352,6 @@
     "extra": []
   },
   {
-    "name": "1",
-    "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdKBGk3ee_7_MwpvWm8W6dy1hQhe8TM_UO_ZgaGXd4OXesCCY9Toh31Ua6mQ&s",
-    "url": "http://stream.kukaj.se/stream/1/video.m3u8",
-    "extra": []
-  },
-  {
     "name": "2",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
@@ -4344,11 +4392,11 @@
     "extra": []
   },
   {
-    "name": "13",
+    "name": "8",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgvE26W-AMWFNwDIdb_SJ4wvg-7k7iN1bM4wvy6iQIAcZ3k29nataQF5RpQ&s",
-    "url": "http://stream.kukaj.se/stream/27/video.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",
+    "url": "http://stream.kukaj.se/stream/12/video.m3u8",
     "extra": []
   },
   {
