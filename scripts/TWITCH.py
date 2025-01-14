@@ -160,9 +160,9 @@ finally:
 # Adicionar o canal 'universoreality_gh' manualmente se não aparecer nos resultados
 manual_channel = {
     'type': 'info',
-    'ch_name': 'GFVIP',
+    'ch_name': 'GHARGENTINA',
     'tvg_id': 'Telecinco',
-    'url': 'https://www.twitch.tv/wesleycs95',
+    'url': 'https://kick.com/eljefe-m',
     'thumb': 'https://static-cdn.jtvnw.net/previews-ttv/live_user_wesleycs95r-1920x1090.jpg',
     'group_title': "Reality Show's Live",  # Modificado para o título correto
     'tag_text': 'Reality Show',  # Tag personalizada
