@@ -387,7 +387,7 @@ with open("TWITCH.m3u", "a") as output_file:
             if m3u8_url:
                 # Escrever no formato extinf iptv
                 thumbnail_url = favicon_url if favicon_url else ""  # Se não encontrar o favicon, deixar em branco
-                output_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="GLOBO AO VIVO", {title}\n')
+                output_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail_url}", {title}\n')
                 output_file.write(f"{m3u8_url}\n")
                 print(f"M3U8 link encontrado: {m3u8_url}")
             else:
