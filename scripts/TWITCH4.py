@@ -144,7 +144,7 @@ def search_google_images(query):
     return None
 
 # URL do arquivo M3U hospedado no GitHub
-input_url = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/TWITCH.txt"
+input_url = "https://github.com/Ramys/Iptv-Brasil-2025/raw/52b72c30dc23ff2d71860a7a4546aa1e75f59507/Lista%20BR03.m3u8"
 output_file = "TWITCH.m3u"
 
 # Executa o processamento
