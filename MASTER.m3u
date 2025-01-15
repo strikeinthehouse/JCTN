@@ -61,7 +61,7 @@ http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112690
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112691
 #EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8YhPyDbMC0SwfzHOKNjGrB7mG2BngzqSapBnF6IWBL4_96eG9fe2yINOkQ&s",GLOBO ANHANGUERA GOIANIA | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112692
-#EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToqfSybRzcYSrE4_6KolLjtpUt14hXwUhpUQ4TmGVrt5OYNJOYPijIdNYm0g&s",GLOBO AMAZONAS | BR
+#EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkL6XOWFI6amaodXIIQ66k6Oq4R68NzpWgHubwp4ambWcTUa-SyZI175mFwzU&s",GLOBO AMAZONAS | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112693
 #EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyL6UouWA8_tZTNAGyYWT7gwCSXWO0VLL2AaVud5crJKx5v4T_xgkRdopZjw&s",GLOBO BELEM | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112694
@@ -157,6 +157,8 @@ http://hls1.sua.tv:80/live/globosphd/s.m3u8
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32370
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIA4xfXfxIUxP6mq_mbX0ZFpZrkD2EkB-t2k5nmZgKkKRRnXCI5ABO6T1of4&s",Globo RPC Curitiba HD
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32266
+#EXTINF:-1 group-title="Canais | ABERTO" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV Conquista HD
+http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/yyFeDm7.png",Band Arapuan HD
 https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/chunklist.m3u8
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/oTkOmnH.png",Band TV - Vale do Uruará SD
@@ -193,6 +195,8 @@ https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/39
 #EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV MG
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/31565
+#EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV Conquista HD
+http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV DF
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/46
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png",Canal de Teste
@@ -915,6 +919,8 @@ http://cam.indikom.ru/43/hls/stream.m3u8
 http://cam.indikom.ru/53/hls/stream.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXKuXtQVanImYQKQv2EFuk-zWJ4R96YfcEqVfnTvMS8Q3jOtrnqmKzeQaheg&s",Мытищи 37
 http://cam.indikom.ru/54/hls/stream.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-Vjmw5Xu9fZI5IGjjgPva1rYiLj7xsr8xiWrlpIVpO5o3D3HykPH0j5L5w&s",Мытищи 38
+http://cam.indikom.ru/55/hls/stream.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgDOIsOdOqGZ47t6aAMYhrY1wCBGeW_Jlie8v0bOofK1GCgkd4EexlxTZ2z40&s",Мытищи 39
 http://cam.indikom.ru/56/hls/stream.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLuNsZXLuEALe_5DDPSCOKNVnBfY43okFoJqBrCLanwxVCjbQSsVGrWtjRPA&s",Мытищи 40
@@ -1161,8 +1167,6 @@ http://stream.kukaj.se/stream/2/video.m3u8
 http://stream.kukaj.se/stream/11/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
 http://stream.kukaj.se/stream/18/video.m3u8
-#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",8
-http://stream.kukaj.se/stream/12/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgvE26W-AMWFNwDIdb_SJ4wvg-7k7iN1bM4wvy6iQIAcZ3k29nataQF5RpQ&s",13
 http://stream.kukaj.se/stream/27/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2cgGJFbY0B493jBApkbAJptI9SaWEWTyDYAIcsGcX3qg2o3BmqZc7YGATA&s",14
@@ -1439,8 +1443,6 @@ https://hls.iwilive.net/live/pleneuf1.stream/playlist.m3u8
 https://live.viewsurf.com/liveedge/sanary01_5_3/playlist.m3u8
 #EXTINF:-1 group-title="Франция 🇫🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmrbOqjG8PomXE86TM5SAMP5_Z30xG2nW1kot6nym9nU63PCzUdpHMrAYwA&s",Франция 2
 https://live.viewsurf.com/liveedge/biarritzgrandeplage_1_1.stream/playlist.m3u8
-#EXTINF:-1 group-title="Франция 🇫🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTUfiCdkC9jEIAhbP7L5TsicOfqhPyDXa6g-ia3TqWsD-DGiih6_hG4228Cn4&s",Франция 3
-https://live.viewsurf.com/liveedge/anglet07_1_1.stream/playlist.m3u8
 #EXTINF:-1 group-title="Франция 🇫🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvGXbfXdGOKMp1oQtadc8ZKLJprNC7Uka6iiUAWJUQ2TwxFV_p2FXMbK_MQG8&s",Франция 4
 https://live.viewsurf.com/liveedge/anglet01_1_1.stream/playlist.m3u8
 #EXTINF:-1 group-title="Франция 🇫🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMREzE4qcdQOr3RUzdBjpP_292om08Amf1PUP-KDB09nGy1pQZGfvNwfL5Q18&s",Франция 5
