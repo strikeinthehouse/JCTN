@@ -1,64 +1,31 @@
-#EXTINF:-1 tvg-id="RTLGold.lu" tvg-logo="https://i.imgur.com/LzHQoUv.png" group-title="Music",RTL Gold (1080p)
+#EXTINF:-1 tvg-id="RTLGold.lu" tvg-logo="https://i.imgur.com/LzHQoUv.png" group-title="Reality Show's Live",RTL Gold (1080p)
 https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLWebRadioTV.lu" tvg-logo="https://i.imgur.com/qyc8LsE.png" group-title="General",RTL Radio Web TV (1080p)
+#EXTINF:-1 tvg-id="RTLWebRadioTV.lu" tvg-logo="https://i.imgur.com/qyc8LsE.png" group-title="Reality Show's Live",RTL Radio Web TV (1080p)
 https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLTeleLetzebuerg.lu" tvg-logo="https://i.imgur.com/fkW5Gbl.png" group-title="General",RTL Télé Lëtzebuerg (1080p)
+#EXTINF:-1 tvg-id="RTLTeleLetzebuerg.lu" tvg-logo="https://i.imgur.com/fkW5Gbl.png" group-title="Reality Show's Live",RTL Télé Lëtzebuerg (1080p)
 https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLZwee.lu" tvg-logo="https://i.imgur.com/7SmCtyy.png" group-title="General",RTL Zwee (1080p)
+#EXTINF:-1 tvg-id="RTLZwee.lu" tvg-logo="https://i.imgur.com/7SmCtyy.png" group-title="Reality Show's Live",RTL Zwee (1080p)
 https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png" group-title="Undefined",RTL-TVI (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png" group-title="Reality Show's Live",RTL-TVI (1080p) [Not 24/7]
 https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="bbb-camera1" tvg-logo="https://www.globo.com/favicon.ico", BBB Camera 1
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hYTkm8L/A3es.png",ANTENNA 3
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/hYTkm8L/A3es.png",ANTENNA 3
 http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:7_HD.smil/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hYTkm8L/A3es.png",ANTENNA 3
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/hYTkm8L/A3es.png",ANTENNA 3
 https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:7_HD.smil/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hRs6WrH/C4es.png",CUATRO
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/hRs6WrH/C4es.png",CUATRO
 http://nodep002.service.openstream.es/SVoriginOperatorEdge/smil:9_HD.smil/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hRs6WrH/C4es.png",CUATRO
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/hRs6WrH/C4es.png",CUATRO
 https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:9_HD.smil/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
 http://nodep002.service.openstream.es/SVoriginOperatorEdge/smil:8_HD.smil/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
 https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:8_HD.smil/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6JF4BK4/l6es.png",LA SEXTA
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/6JF4BK4/l6es.png",LA SEXTA
 http://nodep002.service.openstream.es/SVoriginOperatorEdge2/smil:11_HD.smil/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6JF4BK4/l6es.png",LA SEXTA
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/6JF4BK4/l6es.png",LA SEXTA
 https://spa-ha-p002.cdn.masmediatv.es/SVoriginOperatorEdge/smil:11_HD.smil/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SRbKtLk/rtve.png",RTVE PLAY CADENA 1
-https://ztnr.rtve.es/ztnr/6108696.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SRbKtLk/rtve.png",RTVE PLAY CADENA 2
-https://ztnr.rtve.es/ztnr/6108703.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SRbKtLk/rtve.png",RTVE PLAY CADENA 3
-https://ztnr.rtve.es/ztnr/6108704.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SRbKtLk/rtve.png",RTVE PLAY CADENA 4
-https://ztnr.rtve.es/ztnr/6108720.m3u8
-
-#EXTINF:0 tvg-id="Canal 33" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Logotipo_de_Cuatro.svg/2560px-Logotipo_de_Cuatro.svg.png",Cuatro
-#EXTVLCOPT:network-caching=1000
-http://364265877834321196.of230922.xyz:80/play/Edu925D/646280002M121/321196.ts
-
-#EXTINF:0 tvg-id="Telecinco" tvg-logo="https://album.mediaset.es/file/10002/2017/11/17/telecinco_circular_500_-1_bda1.png",Telecinco
-#EXTVLCOPT:network-caching=1000
-http://364265877834321429.of230922.xyz:80/play/Edu925D/646280002M121/321429.ts
-
-#EXTINF:0 tvg-id="La Sexta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/La_Sexta_%28A3M%29.svg/1425px-La_Sexta_%28A3M%29.svg.png",La Sexta
-#EXTVLCOPT:network-caching=1000
-http://364265877834321288.of230922.xyz:80/play/Edu925D/646280002M121/321288.ts
-
-#EXTINF:-1 tvg-id="telecinco.es" tvg-name="TELECINCO (6)" tvg-logo="" group-title="Spain" http-user-agent="VAVOO/1.0" http-referrer="https://vavoo.to/",TELECINCO (6)
-#EXTVLCOPT:http-user-agent=VAVOO/1.0
-#EXTVLCOPT:http-referrer=https://vavoo.to/
-#KODIPROP:http-user-agent=VAVOO/1.0
-#KODIPROP:http-referrer=https://vavoo.to/
-#EXTHTTP:{"User-Agent":"VAVOO/1.0","Referer":"https://vavoo.to/"}
-https://joaquinito02.es/vavoo/1024256819.m3u8
-
-#EXTINF:-1 tvg-chno="30604" tvg-logo="http://192.168.8.100/picon/telecinco.png" tvg-id="1:0:1:778C:424:1:C00000:0:0:0:" tvg-name="TELECINCO",TELECINCO
-#EXTVLCOPT:program=30604
-http://192.168.8.100:8001/1:0:1:778C:424:1:C00000:0:0:0:
 
 
 
