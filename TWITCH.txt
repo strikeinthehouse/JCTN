@@ -36,6 +36,18 @@ https://ztnr.rtve.es/ztnr/6108704.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SRbKtLk/rtve.png",RTVE PLAY CADENA 4
 https://ztnr.rtve.es/ztnr/6108720.m3u8
 
+#EXTINF:0 tvg-id="Canal 33" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Logotipo_de_Cuatro.svg/2560px-Logotipo_de_Cuatro.svg.png",Cuatro
+#EXTVLCOPT:network-caching=1000
+http://364265877834321196.of230922.xyz:80/play/Edu925D/646280002M121/321196.ts
+
+#EXTINF:0 tvg-id="Telecinco" tvg-logo="https://album.mediaset.es/file/10002/2017/11/17/telecinco_circular_500_-1_bda1.png",Telecinco
+#EXTVLCOPT:network-caching=1000
+http://364265877834321429.of230922.xyz:80/play/Edu925D/646280002M121/321429.ts
+
+#EXTINF:0 tvg-id="La Sexta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/La_Sexta_%28A3M%29.svg/1425px-La_Sexta_%28A3M%29.svg.png",La Sexta
+#EXTVLCOPT:network-caching=1000
+http://364265877834321288.of230922.xyz:80/play/Edu925D/646280002M121/321288.ts
+
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera1" tvg-logo="https://www.globo.com/favicon.ico", BBB Camera 1
 https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MzcwMjUwODgsImlhdCI6MTczNjkzODY4OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIxMS9wbGF5bGlzdC5tM3U4In0.me11U_52zquD-0i274WUoHc1QLpG8ivDKfWClNL6bNuNKZCwu8OAVtQ67IIuYigdscVut7HzSxoFLyUsAR4_oqVEYQtfZY5cD64mBXkCLe068yeC4OA3civwNITaIQJJZwiI9BPzMox-Wa1ESy3Bln8chG8_Rn1GyNM2eg1wEX6kOAZ4332KoIXLEcAqGDCsyO3J531-FpkRtIWlhyQsyJTQd0wvCY1PIAnj3uqcR8MwtrQJgxOhg3zivpJPpn3eyyAWCwJUni603r2SQlr97SKbjeu6IAP5yz8afTpCRsmP62SA0Dt01F_OGT8NncqIyIeqPeD7CZqzHmZChQIsOQ/nu/f(i=2)/bbb11/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera2" tvg-logo="https://www.globo.com/favicon.ico", BBB Camera 2
