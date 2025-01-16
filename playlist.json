@@ -67,7 +67,7 @@
     "name": "Domingao | BR",
     "group": "BRAZIL | BR",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-lm6DfwngRbCGH8rdrStNx1xhgu656BXSe4vTY7XdefjgiRUDPw04V2npEUw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeSO8kLGx5Pdxcvh5Yz5MjbybahR-o4GUjECNI2HQ2cu3IdlI_IvLdEDiHLJY&s",
     "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112670",
     "extra": []
   },
@@ -251,7 +251,7 @@
     "name": "GLOBO AMAZONAS | BR",
     "group": "BRAZIL | BR",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnEO9dDg31o74b4jcgR4BDwdj6grCirpt0W3xcp36CbWTy1gCSPVgp_YAxyQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToqfSybRzcYSrE4_6KolLjtpUt14hXwUhpUQ4TmGVrt5OYNJOYPijIdNYm0g&s",
     "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112693",
     "extra": []
   },
@@ -403,7 +403,7 @@
     "name": "Globo TV Santos",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo TV Tribuna.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRsyhfPB8qQxsC-xey_txrkZhZoC-tZ19_-euVtvwHIiBE8bM0VexMVLe1X3E&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixfT3jGQKof0saEoo_2_khMHRZaLDxXkaU5tfKIN9wr5roTSMsblxYI3Kdw&s",
     "url": "http://15.235.15.230:14513/",
     "extra": []
   },
@@ -453,14 +453,6 @@
     "tvg_id": "Globo SP",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",
     "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Globo SP HD (Link 3)",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "TVGloboSaoPaulo.br",
-    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
-    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
     "extra": []
   },
   {
@@ -616,6 +608,14 @@
     "extra": []
   },
   {
+    "name": "Globo SP HD",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQCqcFiL5zbsW35MeoMBuxM9UWzEcgm5JSoJ1ZFnN2XNq8TiASJ19Rz2PmNk&s",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Globo SP HD Alternativo",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo SP",
@@ -661,14 +661,6 @@
     "tvg_id": "SBT",
     "logo": "https://i.imgur.com/oOhk9Gg.png",
     "url": "https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "SBT CIDADE VERDE FHD",
-    "group": "Canais | ABERTO",
-    "tvg_id": "SBT",
-    "logo": "https://imgur.com/KO1v3pS.png",
-    "url": "https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8",
     "extra": []
   },
   {
@@ -877,14 +869,6 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyrd4FZaFzmKNJ3rF_Ym-b9nF5IcepBwSfyMWa54B93Rf-b0fivfMvgcIjg&s",
     "url": "https://hls.augrea.stream/coral/hls/stream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f 8",
-    "group": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f \ud83c\udde6\ud83c\uddfa",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQDeUgpgrQN0sHG3AvwaPgd5it_BP7DgxqbWEPYj-GFpbt4FM5nqcEkV6Iw&s",
-    "url": "https://hls.augrea.stream/barron/hls/stream.m3u8",
     "extra": []
   },
   {
@@ -3664,14 +3648,6 @@
     "extra": []
   },
   {
-    "name": "\u041c\u044b\u0442\u0438\u0449\u0438 38",
-    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-Vjmw5Xu9fZI5IGjjgPva1rYiLj7xsr8xiWrlpIVpO5o3D3HykPH0j5L5w&s",
-    "url": "http://cam.indikom.ru/55/hls/stream.m3u8",
-    "extra": []
-  },
-  {
     "name": "\u041c\u044b\u0442\u0438\u0449\u0438 39",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
@@ -4637,6 +4613,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMR30kUEdVFSiPq6uHXeTkCMSOMYoGFL8AcGLpDzpMLCVmPuAZOSrLtPX6k7M&s",
     "url": "http://stream.kukaj.se/stream/2/video.m3u8",
+    "extra": []
+  },
+  {
+    "name": "5",
+    "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YIhMmAztY3Gpq-_5fmXwIWAD6xLz80G_Gy1pO1I8xWAgfgqGwgMr_ABM--s&s",
+    "url": "http://stream.kukaj.se/stream/11/video.m3u8",
     "extra": []
   },
   {
@@ -5832,6 +5816,14 @@
     "extra": []
   },
   {
+    "name": "\u0411\u0435\u0433\u0435\u043c\u043e\u0442\u044b",
+    "group": "\u0427\u0435\u0448\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \ud83c\udde8\ud83c\uddff",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXvlUmc0zb5lS7Wt3nqMc3v7LfW7Ql_jlzSb3-RuyTytb2C32EZ7PvH1xq8U&s",
+    "url": "http://live.idnes.cz/slow/hrosi/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "\u0412\u0430\u043b\u0430\u0448\u0441\u043a\u0435-\u041c\u0435\u0437\u0438\u0440\u0436\u0438\u0447\u0438 1",
     "group": "\u0427\u0435\u0448\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \ud83c\udde8\ud83c\uddff",
     "tvg_id": "Undefined",
@@ -5935,4 +5927,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][]
+]
