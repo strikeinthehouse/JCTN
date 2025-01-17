@@ -8,7 +8,7 @@ https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
 
 
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telecinco.es" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
 http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manifest.m3u8
 
 
@@ -23,7 +23,7 @@ http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manif
 #EXTM3U
 
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
-
+#EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/250px-Rai_1_-_Logo_2016.svg.png",RAI 1
 http://154.54.220.67:34780/play/a046
