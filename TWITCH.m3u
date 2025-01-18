@@ -1,115 +1,19 @@
 
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png",RTL-TVI (1080p) [Not 24/7]
-https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telecinco.es" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
-http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manifest.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera1" tvg-logo="https://live.video.globo.com/thumbs/bbb01.jpg",BBB25-Sala BBB Camera 1
-https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MzcyNDU2OTUsImlhdCI6MTczNzE1OTI5NSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIwMS9wbGF5bGlzdC5tM3U4In0.HJJrgADQXzLVD-xLgTNHZUwcFhceMpHuQQXKYFxZ0Mg-cQJBg29AxAeTtBHG-2OJ7yUTvZuG6FrIFkvKBYeyZ3thfRIKomTheO502kPYvJ45DXgGNiwQXNegfzx8AYPOO_fTcWlHQQgrtsTYGgHA467ZM3I6erinEwelB7MKepVjbPHMuLUuTm2gFjkE39cdBw--ONvhlpcf08TOc69_AbKuA967irjT5utGf8VdU7TqtXAjftW90jeLXB__b5C3y7k-zuAbZwFXh_vozpCmo_15NXa4Rc_1C4OhPmvrTAhSvLh54lNyvn7g6vOgO-XJS5mEVZcKTJTtbNETq3gAsg/nu/f(i=2)/bbb01/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera2" tvg-logo="https://live.video.globo.com/thumbs/bbb02.jpg",BBB25-Sala BBB Camera 2
-https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MzcyNDU3NTAsImlhdCI6MTczNzE1OTM1MCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIxMS9wbGF5bGlzdC5tM3U4In0.msqWGMH4_lBvbk2KENFZzZduw3QH2POjfofuGJawJFv8w84eOLf5ycPEa6DlBAlcI7nNHL1T6WJPKT_Ap_LRUC1OLFzBYQbIOoVwiCOvbclkvAoaqKFzBrZr_tznta8W-A2YE8t41LHZPX_zNTZmOyUksDLxt4030nMZd_H0V-I_U-erSDcf7WSFgvoDvJB9LZmC2klq5kZ4xtv50D2SZTJFbABpKcH0j7vsHveW2rnlsc9BDEBp2EeyVCeAbzPM79G4Gs-1J5MgH3hxYk0YsJcFQtwWhn6HE-fsCi4zrd9H6KsZQmBsUWWkdCYaYfRSOVZU3UpQmXd8qz1JYH0G1A/nu/f(i=2)/bbb11/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera3" tvg-logo="https://live.video.globo.com/thumbs/bbb03.jpg",BBB25-Sala BBB Camera 3
-https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MzcyNDU5OTMsImlhdCI6MTczNzE1OTU5MywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIwNC9wbGF5bGlzdC5tM3U4In0.vS2flA0LWvqq5IGCJBY34RLZRejsnBfQ8z8dLDQ3o_KB5ethwB9WUbF2CX2bH5cf-IF3aRXst87H4cNChi7NgD5k6Ql_ARyL7lszRMJZvd4DtPegtdZMVFDFpfJja2npABe2UEwdVVRnKTFvghp7S1K6ssRkIiyK4Id7pFDxhB94ps6Huibl0KE3OkdfxWQ5QlXNR4TumXlUje5P8Z5F_QKFXYCu2hW8ehgrNSbQYZZRqiJc_eZLr0TOLUvGAp18oMT8euEixSXputmtNFsAJpqmxRlu2qt6ny-UVQRbb9ThRLzNUl1IOEF008vPTYD5MiAh53QPy1vg42Ml_AWZjA/nu/f(i=2)/bbb04/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera4" tvg-logo="https://live.video.globo.com/thumbs/bbb04.jpg",BBB25-Sala BBB Camera 4
-https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MzcyNDYwNzMsImlhdCI6MTczNzE1OTY3MywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIwNy9wbGF5bGlzdC5tM3U4In0.iw2J-KNZSKr_9PBYfFXbxG4TGwDemiWFrGPnQSqfMcstrEkbsnUwHJdw3Vx7NaQ2EOMwMG55D0DNuYIfczWs1xkXC6Dp1ZRPwcTEdgRKe23a7Jsxvg9o8Q663Ni0MTDz0lcvHxDy66YNUeIZIA0N8LhYtzLUxoh-kVlE70j3QqC6kEURlg6KrzgWH6Dz48LNIFXlDw6myz3bI-XgwyiquBCJA4pXF7NNMmtxT46Pi7CSjII23wYYSDCRGctOG4hAJQyNg2sE5gEpTXH3poQjeZqfHkOu8ECmGVlp30FdoBbKIY0i9Dm_mGuRu89ILsmpHvhkflDdqXmJuvwaPd3nkg/nu/f(i=2)/bbb07/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera5" tvg-logo="https://live.video.globo.com/thumbs/bbb05.jpg",BBB25-Sala BBB Camera 5
-https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MzcyNDYxNDgsImlhdCI6MTczNzE1OTc0OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIwOC9wbGF5bGlzdC5tM3U4In0.WbM7GEHgx_bMMTLMAnB6btU3CowDu_rLyBS6eAIZL8eXwmzNn2O7pJ7UJ2uh2fjx_ijLOgitlul4fWynYkyjgv2BTW1ly3dmXILE2_TnZdxOTns3lGKor8bj0HVXbp2t4WD4g2kF3tqBRA834goYJUuVJE2EwnCxyB7lvA4l-0xzXxBWWoNx8eZ0vvEALPun8HWLcyeoh02qr9HQ3dEcAYYLApxf-KhEmnFtT4ETv4QKKI2H0GD_UAU8zVwQbKzpW1CgWPKJFhMnDnKRZbeC2JduApLBjfBbFSTIEwpXVzy3W0Obmt9Aaf5pCaDNDDJKOh_Gb8icoNbkIReuxRKyBA/nu/f(i=2)/bbb08/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera6" tvg-logo="https://live.video.globo.com/thumbs/bbb06.jpg",BBB25-Sala BBB Camera 6
-https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3MzcyNDYyMzgsImlhdCI6MTczNzE1OTgzOCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIwNS9wbGF5bGlzdC5tM3U4In0.eY6s15uiroTX5C_QFxhefzog6u0P-wFrRUMY9egmqFefigmuJJMr56BXNtO8WqyfhnaMot4P2gD_b2eRsozuwJTamxYmm8T92ZFC5nuEsIqnxtRAs4Vnn5Cg4FmVzq6m_xIb97fuNnWO-TcclajEut9BQWXqLqXIKxp1gF5inY3wvLaxdmOh-RKrDa5nUAGEA8xYXpVUFuTva857AI7Dd4NFAZZO9TvnEWTVLwfxZ4vqopy_ldaF3tGogcwWdZc-1ePXFEVy3OEwD55LVZ5FmVd6IxMrv6p__ChNqqxz8L8Pp11kNNTHij0L_x7PdzfXskc0ZMcXxjJhY8s7WP0MAw/nu/f(i=2)/bbb05/playlist.m3u8
-#EXTM3U
-#EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
-#EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/250px-Rai_1_-_Logo_2016.svg.png",RAI 1
-http://154.54.220.67:34780/play/a046
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/250px-Rai_1_-_Logo_2016.svg.png",RAI 1
-http://45.65.112.49:8000/play/a078
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqY3hnMoRxgTaz4GHx-swk1fvCuulPCDn1kmEYSrlHYYicNFW4hy44KLMLzM&s",RAI 2
-http://154.54.220.67:34780/play/a047
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqY3hnMoRxgTaz4GHx-swk1fvCuulPCDn1kmEYSrlHYYicNFW4hy44KLMLzM&s",RAI 2
-http://45.65.112.49:8000/play/a079
-#EXTINF:-1 group-title="ITALY" tvg-id="RAIDUE" tvg-logo="http://fanc.tmsimg.com/assets/s21812_ll_h3_aa.png",IT RAI 2 (D)
-https://dumdumbullet.com/1011454237/bHg8wYxrId/79992114900
-#EXTINF:-1 group-title="Italy" tvg-id="RAIDUE" tvg-logo="http://fanc.tmsimg.com/assets/s21812_ll_h3_aa.png",IT: Rai 2
-https://dumdumbullet.com/1011454237/bHg8wYxrId/666899
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/250px-Rai_3_-_Logo_2016.svg.png",RAI 3
-http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
-#EXTINF:-1 group-title="ITALY" tvg-id="RAITRE" tvg-logo="http://fanc.tmsimg.com/assets/s53928_ll_h3_as.png",IT RAI 3 (D)
-https://dumdumbullet.com/1011454237/bHg8wYxrId/79992114901
-#EXTINF:-1 group-title="Italy" tvg-id="RAITRE" tvg-logo="http://fanc.tmsimg.com/assets/s53928_ll_h3_as.png",IT: Rai 3
-https://dumdumbullet.com/1011454237/bHg8wYxrId/6661979
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png",Canale 5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
-https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://od.lk/s/M18yOTI2NjczMTZf/france2.png",FRANCE 2
-http://69.64.57.208/france2/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://od.lk/s/M18yOTI2NjczMTRf/france5.jpeg",FRANCE 5
-http://69.64.57.208/france5/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmrbOqjG8PomXE86TM5SAMP5_Z30xG2nW1kot6nym9nU63PCzUdpHMrAYwA&s",FRANCE 2 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160297.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONO80OTwp8oIc8fzLkInbb6ZJ8xondzxrzyVhvYg1hZZOSi99MbV3ifz0Ipg&s",FRANCE 3 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrR9BsBZw4zTAzFAAxFQuDp1lm06mXAEU-PnGfC7FTLZEyqnuRWDE-P9C4w&s",FRANCE 4 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE 5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu32fM_Xm6U-85aB1LCxFXx6tYjCCu1SdpmlXj5xLUwdm5dCbriIctZf2QHbk&s",FRANCE 5 FHD
-http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png",Canale 5
-http://cord-cutter.net:8080/live/j3McKd/673709/212903.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png",Telefe
-http://181.13.173.86:8000/play/a06c/index.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.imgur.com/q6BQ5YO.png",Telefe Canal 7 Jujuy
-https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://www.m3u.cl/logo/251_13_Max_Television.png",Telefe 13 Max Television
-http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png",13 Max HD
-http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/chunklist_w2131508282.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png",13 Max FHD
-http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",NBC 7 San Diego
-https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/Mp5fMxR/Canal57.png",Canal 57 Miami
-https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/yY68NHt/vtv.png",VTv Canal 17
-https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="tvireality.tv.vodafone.pt" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
-https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphY_KpFPFb8iogvRqi49zAdBcqcSIYwHm_qKyhjSI8l0tcXw2wRRVtl65lA&s",NOTÍCIAS TELEMUNDO - SERVIÇO
-https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOku_qLjCYJ4hOXfA2MwJL-Ln7cl-G9Bdm4P7X-HIiS2S5IBwIdY5b9E8oiA&s",Big Brother UK
-https://dumdumbullet.com/1011454237/bHg8wYxrId/799921107223
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TF1.fr" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png",TF1
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/mytf1/tf1.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TF1.fr" tvg-logo="https://iili.io/JmogGzN.png",TF1 - 2
-http://212.102.60.80/TF1/index.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TF1.fr" tvg-logo="https://i.ibb.co/BBpR1Wx/tf1.png",TF1 - 5
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Pink Reality.rs" tvg-logo="https://tvprofil.com/cdn/400x200/4/img/kanali-logo/pinkReality.png",Farma Sérvia
-http://toll.oxoplus1.com:8080/r5rhrghbws4htrng@/@q@24wrfgetr5rfibui7i7bii7@!q@/11631374
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Pink Montenegro.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/59/Pink_TV_logo.png",PINK TV
-http://toll.oxoplus1.com:8080/r5rhrghbws4htrng@/@q@24wrfgetr5rfibui7i7bii7@!q@/11631349
-#EXTINF:-1 group-title="Pink" tvg-id="Pink Plus.rs" tvg-logo="https://tvprofil.com/cdn/400x200/4/img/kanali-logo/PinkPlus.png",Pink Plus
-http://toll.oxoplus1.com:8080/r5rhrghbws4htrng@/@q@24wrfgetr5rfibui7i7bii7@!q@/11631350
-#EXTINF:-1 group-title="United Kingdom" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOku_qLjCYJ4hOXfA2MwJL-Ln7cl-G9Bdm4P7X-HIiS2S5IBwIdY5b9E8oiA&s",Big Brother UK
-https://dumdumbullet.com/1011454237/bHg8wYxrId/799921107223
-#EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/_9daRCwHtBQ/hq720.jpg?v=678b8d6a&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCePBOM_IPum_AaBCDFwYiM77gVvA" tvg-id="Zadruga live 1.rs" ,ZADRUGA UZIVO ELITA 8 LIVE - SULTANIJE SENAD
-https://ythls-v3.onrender.com/channel/UCKXZbzGiwgGh4cQdQGoFelw.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/Xo6GO-Mj-jA/hq720.jpg?v=678ba36d&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDqY2wF6dNhw1Jj7ULatRgcQQ3vGg" tvg-id="Zadruga live 1.rs" ,ZADRUGA UZIVO ELITA 8
 https://ythls-v3.onrender.com/channel/UC58dfd0hdSouMmmar7LaUzw.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/y1I8Oe4qgJc/hqdefault.jpg?v=678bb35e&sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD5eIJoeORrprOSMfCiOSS5kpgYNQ" tvg-id="Zadruga live 1.rs" ,ℤ𝔸𝔻ℝ𝕌𝔾𝔸 𝕌ℤ𝕀𝕍𝕆 ELITA 8 UŽIVO
+https://ythls-v3.onrender.com/channel/UCUylqoCYpaluvSWsVg3HRDw.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,ZADRUGA UZIVO ELITA 8
 https://ythls-v3.onrender.com/channel/UC_9iS1r9g2FYdJFfsjomjOg.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,ℤ𝔸𝔻ℝ𝕌𝔾𝔸 𝕌ℤ𝕀𝕍𝕆 ELITA 8 UŽIVO
-https://ythls-v3.onrender.com/channel/UCUylqoCYpaluvSWsVg3HRDw.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,ZADRUGA 8 Uzivo CHAT 24/7 Razmjena Ideja
-https://ythls-v3.onrender.com/channel/UCTGoE7LoZCEI1FuwJ2lLqqw.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Elita Uzivo - Zadruga | 8x2a
 https://ythls-v3.onrender.com/channel/UCpEr1G8euOwT-irbyLd7MJg.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Zadruga Elita 8 💜💚💛Veliki💛💚💜
+https://ythls-v3.onrender.com/channel/UC4pc94j1ryvtkeL14AZuKRQ.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,ZADRUGA 8 Uzivo CHAT 24/7 Razmjena Ideja
+https://ythls-v3.onrender.com/channel/UCTGoE7LoZCEI1FuwJ2lLqqw.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,🔴 ZADRUGA ELITA GLAVNA TEMA CHAT UZIVO I DRUZENJE
 https://ythls-v3.onrender.com/channel/UCVaFR84f-9fkIaf591Con1Q.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Zadruga Elita 8
-https://ythls-v3.onrender.com/channel/UC4pc94j1ryvtkeL14AZuKRQ.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Live Chat Zadruga Uzivo Elita 8 24/7
 https://ythls-v3.onrender.com/channel/UCVklt1DoNwbIBa3_TPwEg_Q.m3u8
