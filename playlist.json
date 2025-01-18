@@ -259,7 +259,7 @@
     "name": "GLOBO BELEM | BR",
     "group": "BRAZIL | BR",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrMFb1yxH3azx5X3KEyRTLqctoY4JTrwfNW39ywURxaVCeSV5Ne8lMw0_Quw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyL6UouWA8_tZTNAGyYWT7gwCSXWO0VLL2AaVud5crJKx5v4T_xgkRdopZjw&s",
     "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112694",
     "extra": []
   },
@@ -403,7 +403,7 @@
     "name": "Globo TV Santos",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo TV Tribuna.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qExKOFIS5sTEyBEXgOS7hVEuAHNptqSoNIhuv9mfmHW3rr_TL2XsfyLdzEQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixfT3jGQKof0saEoo_2_khMHRZaLDxXkaU5tfKIN9wr5roTSMsblxYI3Kdw&s",
     "url": "http://15.235.15.230:14513/",
     "extra": []
   },
@@ -429,6 +429,14 @@
     "tvg_id": "Globo RJ.br",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIA4xfXfxIUxP6mq_mbX0ZFpZrkD2EkB-t2k5nmZgKkKRRnXCI5ABO6T1of4&s",
     "url": "http://15.235.15.230:14487/",
+    "extra": []
+  },
+  {
+    "name": "Globo SP 5 HD",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
     "extra": []
   },
   {
@@ -592,14 +600,6 @@
     "extra": []
   },
   {
-    "name": "Generalistas: TRECE",
-    "group": "ESPANHA",
-    "tvg_id": "13.TV",
-    "logo": "https://graph.facebook.com/TRECEtves/picture?width=200&height=200",
-    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "Informativos: Negocios TV",
     "group": "ESPANHA",
     "tvg_id": "Negocios.TV",
@@ -755,7 +755,7 @@
     "name": "CNN AMERICANA 3",
     "group": "NEWS WORLD",
     "tvg_id": "LCH2067",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6vw0XViQHtkry-urnbxznnUf2yqgDBAvMHU6dXcW7URCFiHoiRdyqLx4Biw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5x2407aLIjrs20HcXYVBIiPyB0jp1epVI8ahrLB5jH7oWw6BoWIO2_Nqs5WQ&s",
     "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
     "extra": []
   },
@@ -915,7 +915,7 @@
     "name": "NOT\u00cdCIAS TELEMUNDO - SERVI\u00c7O 2",
     "group": "NEWS WORLD",
     "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphY_KpFPFb8iogvRqi49zAdBcqcSIYwHm_qKyhjSI8l0tcXw2wRRVtl65lA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcQVOlY3C6jOr11RCo-xZiH6EPttJrVAOjz-b_A9-1PXvcYIRGrJRtkfe8cu0&s",
     "url": "https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8",
     "extra": []
   },
@@ -1363,7 +1363,7 @@
     "name": "Globo SP HD Alternativo",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo SP",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bwLxLFxHSMifExeKNK6_EWb-OKBLqz2uyyeWvrspF95-f_Xu_dFKbK-S5L4&s",
     "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
     "extra": []
   },
@@ -1808,6 +1808,14 @@
     "extra": []
   },
   {
+    "name": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f 5",
+    "group": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f \ud83c\udde7\ud83c\uddec",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoujJqJc_GTqywG-Mu-bsHtW4P6pXJ6F03NW0RqMX32T9RUtA-ag6_kixGqw&s",
+    "url": "https://cdn1.webcams.bg:8080/hls/bracigovo_church.m3u8",
+    "extra": []
+  },
+  {
     "name": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f 7",
     "group": "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f \ud83c\udde7\ud83c\uddec",
     "tvg_id": "Undefined",
@@ -1917,14 +1925,6 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT343u8pZsNvyboX4wB0S7XkNktIrUPfotoQ7ZTLxxgTPcjYT9x0yPLADvok3g&s",
     "url": "https://maybach.railcam.co.uk/Cramlington_54382/tracks-v1a1/mono.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Crewe",
-    "group": "\u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f \ud83c\uddec\ud83c\udde7",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3XAcqB57bWnZacmBHH6SFX-lFJgXHy_7piBaSe5F2Mm-ZffrLdKpkK60te_s&s",
-    "url": "https://maybach.railcam.co.uk/Crewe2_16754/tracks-v1a1/mono.m3u8",
     "extra": []
   },
   {
@@ -2413,6 +2413,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSgFdGyYgr02Wj9Om6pukgge9zHyiQxQBZduUGQ-PILw5OuKxukKtvbY8gSA&s",
     "url": "https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u0417\u0430\u0445\u0430\u0440\u0430-\u0434\u0435-\u043b\u043e\u0441-\u0410\u0442\u0443\u043d\u0435\u0441 \u0432\u0438\u0434 \u0438\u0437 \u043e\u0442\u0435\u043b\u044f Playa de la Plata",
+    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiBoPbqbfgSw4xRYnAgsYEDSRZambQ7tOK4NL_9nLCo43FJVlCJQduLl10FU&s",
+    "url": "https://flus.spotfav.com/zahara-atunes-playa-plata-spotfav/tracks-v1/mono.m3u8",
     "extra": []
   },
   {
@@ -4936,6 +4944,14 @@
     "extra": []
   },
   {
+    "name": "\u0422\u0443\u043b\u0443\u043d 10",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8czfbqoWLkjze_g5QviCeZA_e58Rys_gFSghUIZuF2bYWND1omqYpMeqSlQ&s",
+    "url": "http://tv.t-tk.ru/cam_park_mira_ploshad/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "\u0422\u0443\u043b\u0443\u043d 11",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
@@ -6192,6 +6208,14 @@
     "extra": []
   },
   {
+    "name": "70",
+    "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX1JkAsoa0LIKxl1N0HxGb9xZI1hrAawpWuUCMHBS4xlR-ZCgf1pcggbSWHxo&s",
+    "url": "http://ibb-media4.ibb.gov.tr:1935/live/121.stream/chunklist.m3u8",
+    "extra": []
+  },
+  {
     "name": "72",
     "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
     "tvg_id": "Undefined",
@@ -6631,4 +6655,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][]
+]
