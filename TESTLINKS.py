@@ -17,7 +17,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # URL do arquivo .txt
-CHANNEL_FILE_URL = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/channel_argentina.txt"
+CHANNEL_FILE_URL = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/LISTA30.m4u"
 
 # Funções utilitárias
 def download_channel_file(url):
