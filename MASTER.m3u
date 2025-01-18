@@ -183,7 +183,7 @@ http://179.124.14.153:8080/18/mpegts
 https://cdn-3.nxplay.com.br/TV_CULTURA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ExOW78Xvmec5erq_Dsj-ZX7_CR0d7k6bE3d1UtPveOsmjT9VrqK9KIc1dIg&s",GLOBO HD (NA) | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112659
-#EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyPtcvu24ErJRde5YXrcQEpOcivk9Nvi1yfwh0Ajnt-nbQwH_CziC8oYaUaw&s",GLOBO INTERNACIONAL | BR
+#EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-WC7GNuluvfzlUJpRTxGbWr-9WW3V0ai02duFLZFHeDEUh_COKRuAN_A2nA&s",GLOBO INTERNACIONAL | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112660
 #EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQor0NZdP-tMsiyCiBFY6jWpf2hteZSshkzt11yvNx81fB0sWG6GC3QxPZpjtQ&s",GLOBO BRASILIA | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112664
@@ -431,8 +431,6 @@ https://h057.video-stream-hosting.de/tourismusverbandlechtal-rtplive/_definst_/m
 https://5fe4f07c28b74.streamlock.net:442/wcn/Webcam_HB.stream/chunklist_w622825501.m3u8
 #EXTINF:-1 group-title="Австрия  🇦🇹" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZiZlUk_tNJ7sJUPRolNH3SzJKRa5Oqasnc6565_E7EfeamIkwZGX3sssLv0&s",Ишгль Горнолыжный курорт
 https://streaming18.huberwebmedia.at/LiveApp/streams/livestream.m3u8
-#EXTINF:-1 group-title="Австрия  🇦🇹" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6VIB9cCJRXVDXMNMngNPRtg6bCrclhQeHjalzJa_zXK2Ekgx9YQPgnACwg&s",Бад-Аусзе Панорама
-https://5864df9ceac85.streamlock.net/limberger-rtplive/_definst_/mp4:mpegts2.stream/chunklist_w1730464762.m3u8
 #EXTINF:-1 group-title="Болгария 🇧🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQqk7zy4lgpSEWZXnO_1IM-jgPrdO8Y3W7Eyhfj6yov7mp9-u9CeS8l0n5cWc&s",Болгария
 http://old.rn-tv.com/live/stream.m3u8
 #EXTINF:-1 group-title="Болгария 🇧🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzsctWs8bqqwW2DpJ3H3r00Vi7AHPiZIJC_h0wTDreXU6L-2gFxfnzH1UL1qo&s",Болгария 3
@@ -591,6 +589,8 @@ https://cams.cdn-surfline.com/cdn-int/il-beityanai/chunklist.m3u8
 https://5b8d2cbe62ad6.streamlock.net/live/spanje.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Испания 🇪🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSgFdGyYgr02Wj9Om6pukgge9zHyiQxQBZduUGQ-PILw5OuKxukKtvbY8gSA&s",Гудар Панорама
 https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8
+#EXTINF:-1 group-title="Испания 🇪🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiBoPbqbfgSw4xRYnAgsYEDSRZambQ7tOK4NL_9nLCo43FJVlCJQduLl10FU&s",Захара-де-лос-Атунес вид из отеля Playa de la Plata
+https://flus.spotfav.com/zahara-atunes-playa-plata-spotfav/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Испания 🇪🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzmS7-sOtYfIwaebeqh8ysiWJ13znztypDb7M62CproyFVdO9KnefJKr4Hyw&s",Кабра-де-Мора Панорама
 https://webcam-2.ibericam.com:5443/live/streams/cabra-de-mora.m3u8
 #EXTINF:-1 group-title="Испания 🇪🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREthNrHZTI_20gNHkNlm8OxapgvpihP9O3jgia8X0HmgHQ7xmEaVu_tnxlEP0&s",Эль-Кастельяр Панорама
@@ -1609,6 +1609,8 @@ http://185.15.109.62:8082/hls/live.stream.m3u8
 http://185.15.109.62:8090/hls/live.stream.m3u8
 #EXTINF:-1 group-title="Чешская Республика 🇨🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
 http://185.15.109.62:8091/hls/live.stream.m3u8
+#EXTINF:-1 group-title="Чешская Республика 🇨🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXvlUmc0zb5lS7Wt3nqMc3v7LfW7Ql_jlzSb3-RuyTytb2C32EZ7PvH1xq8U&s",Бегемоты
+http://live.idnes.cz/slow/hrosi/playlist.m3u8
 #EXTINF:-1 group-title="Чешская Республика 🇨🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHUbKr0UvjiKK9HM97MmkgMuqIorZIhR3PnOgr249JkizLnGvKS8G-ud7tm0&s",Валашске-Мезиржичи 1
 http://212.111.1.7:1937/vlmcam01/vlmcam01.stream/playlist.m3u8
 #EXTINF:-1 group-title="Чешская Республика 🇨🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHUbKr0UvjiKK9HM97MmkgMuqIorZIhR3PnOgr249JkizLnGvKS8G-ud7tm0&s",Валашске-Мезиржичи 2
