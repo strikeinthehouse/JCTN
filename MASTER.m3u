@@ -93,6 +93,8 @@ http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/51
 #EXTINF:-1 group-title="Canais | GLOBO" tvg-id="Globo RJ.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-LYQOB4r12YEiY0k7SSAf8wCFirRtAaOc-_8Cue0OZjTDkJkr7qAMZXND9Q&s",RPC Curitiba HD
 http://15.235.15.230:14487/
+#EXTINF:-1 group-title="GLOBO" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",Globo SP 5 HD
+https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="GLOBO" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",Globo Bahia HD
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 group-title="GLOBO" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBbr7-LGDTs8A4UlZaQ-v0s-u_T294dLLGlTkDsWp9mh_OPCP6ysZoaUkWA&s",Globo SP 8 HD
@@ -181,7 +183,7 @@ http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/46
 http://179.124.14.153:8080/18/mpegts
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg",TV Cultura
 https://cdn-3.nxplay.com.br/TV_CULTURA/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFdQ6srODvqm2Dym5SETT7qH-S7pdOpgNKrkRf8fM9Bng6--DqiioRqhnP-FQ&s",GLOBO HD (NA) | BR
+#EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ExOW78Xvmec5erq_Dsj-ZX7_CR0d7k6bE3d1UtPveOsmjT9VrqK9KIc1dIg&s",GLOBO HD (NA) | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112659
 #EXTINF:-1 group-title="BRAZIL | BR" tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-WC7GNuluvfzlUJpRTxGbWr-9WW3V0ai02duFLZFHeDEUh_COKRuAN_A2nA&s",GLOBO INTERNACIONAL | BR
 http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112660
@@ -297,6 +299,8 @@ http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",TV Globo São Paulo HD [Alternativo]
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",Globo SP HD (Link 3)
+https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo BA" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",Globo Bahia HD (Link 1)
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/NSC_TV_logo.png",NSC TV Blumenau HD
@@ -307,7 +311,7 @@ http://190.102.43.113/Formigatv/offilinetv2806/1541684.m3u8
 http://190.102.43.113/Formigatv/offilinetv2806/1541685.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="GLOB PI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWnayY6R-DJRIqivjMVufCTUohKun7_W6rOpH7LoPL4Fy4f-gdBU46ACYz1g&s",TV CLUBE
 http://15.235.15.230:14785/
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo GO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrvtEnVGYP4TRxTQSC4Dy7G2UOvS93s1OPyRO1FoVba-T9ujb7gVNu7IBGbo&s",TV ANHANGUERA
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo GO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8YhPyDbMC0SwfzHOKNjGrB7mG2BngzqSapBnF6IWBL4_96eG9fe2yINOkQ&s",TV ANHANGUERA
 http://15.235.15.230:14757/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo CE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNoGy4a48eb99kWYyG65T_1CQB-n4it4qjekykJ_uljSQrl6nqWKJSL3ULqFw&s",Globo Ceará SD
 http://15.235.15.230:14517/
@@ -333,7 +337,7 @@ http://190.102.43.113:80/Formigatv/offilinetv2806/320569.m3u8
 http://190.102.43.113:80/Formigatv/offilinetv2806/320563.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Undefined" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cf/TV_Gazeta_ES_1976.svg/revision/latest?cb=20200131054039",➾ Globo ES - Gazeta
 http://190.102.43.113:80/Formigatv/offilinetv2806/320564.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",Globo SP HD Alternativo
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjF4DFyRnmtN-515IhEuS2vgrT40VBlQ2yQpmWx5CE0aAbE9vJHTKZo1vyIg&s",Globo SP HD Alternativo
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboBrasilia.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ9m51rEwBEWsQ5WJPW83-SAxZ1SAZAfvu5UZFRhCmAr0AX0P2XLSycO8I3v8&s",Globo Brasília HD
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32370
@@ -1115,6 +1119,8 @@ http://cam.indikom.ru/6/hls/stream.m3u8
 http://cam.indikom.ru/9/hls/stream.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0ZDgZuoZ2rHymw0YzNuxRye2We22VuZHg4orMDBoVwM4CZ7cHfm-Hn3CTb8&s",Мытищи 8
 http://cam.indikom.ru/10/hls/stream.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4AoUXXHNF3KXIo2AFnsCOdBUXb8E_eux14SBwdQiyXgE4XEvJggfYlECBqw&s",Назарово 4
+http://91.211.56.203:8081/sibmf/sport/chunks.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4hbHAiFnGn3mEsER2-laYPc0TDlneo4vRFzwBrZ1r-ugq2BnAvU-ZVoYa0g&s",Невинномысск 1
 http://194.28.212.11/other/dkh1.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEe0DcKUJk64WEGndxSlXgpk3aW7BB1S8NwTWNupc9RIJldzNiThTYdTm6vA&s",Невинномысск 2
@@ -1225,6 +1231,8 @@ http://tv.t-tk.ru/park_gidro/index.m3u8
 http://tv.t-tk.ru/prometey/index.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQhD9Qso0bl-gxHN0BUCN7aag1GatLW-CiqP7KL9q1te4hriYJySMak4iumA&s",Тулун 13
 http://tv.t-tk.ru/atrium2/index.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8-7-CSR0XBTd-bLunK6r4eHUqzYtYMyXbJQfA07HOjjZ0lYYSHSzxe-1lA&s",Тулун 14
+http://tv.t-tk.ru/1412/index.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd32Qmip2jEE8PrKvwYXHC1iceup4gtVklsaWcePCWoVnHc5osXDvwTzOjFQ&s",Тулун 15
 http://tv.t-tk.ru/lenina_2/index.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNe8I08Z2vaJip_k2jHaGIA_sYEDFQYpzPstsfCX0A2L3IIAYsIMrhHgh1Fw&s",Тулун 2
@@ -1407,6 +1415,18 @@ https://live.hdontap.com/hls/hosbdvr5/ty-mayo_eastern-screech-owl.stream/playlis
 http://ibb-media4.ibb.gov.tr:1935/live/1.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7w15262n4uBHhdhdKH9Fwcrn13zhcm4d3pAxvlWHcqN25lokl2Vr26BOP8rc&s",2
 http://ibb-media4.ibb.gov.tr:1935/live/13.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSYKAC5z0RXXpHViyM9dcGAcUdEmfiy9aRCNiRyoXIGDPH-jAFP-_b9EgYCo&s",3
+http://ibb-media2.ibb.gov.tr:1935/live/1029.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMR30kUEdVFSiPq6uHXeTkCMSOMYoGFL8AcGLpDzpMLCVmPuAZOSrLtPX6k7M&s",4
+http://ibb-media2.ibb.gov.tr:1935/live/1030.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YIhMmAztY3Gpq-_5fmXwIWAD6xLz80G_Gy1pO1I8xWAgfgqGwgMr_ABM--s&s",5
+http://ibb-media2.ibb.gov.tr:1935/live/1033.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_jAIKGXUMHok8XISAZLvgCRXAdKDyiUHX8yovOYVVWHvr45-i7JzKP-ZGg&s",6
+http://ibb-media2.ibb.gov.tr:1935/live/1031.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
+http://ibb-media2.ibb.gov.tr:1935/live/1032.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",8
+http://ibb-media2.ibb.gov.tr:1935/live/1034.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH3XqWfcSEsMYzTF9e2VMr2oPGe2y3PKe9xBZmUxkvtJoed3ARptKEFgw3lQ&s",16
 http://ibb-media4.ibb.gov.tr:1935/live/19.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavpSdKJUiw0OERrlgEgN_WIRXKdO9w6XM4TV3PQfa5dQt__dA5srLYMx8eA&s",17
@@ -1545,6 +1565,12 @@ http://ibb-media4.ibb.gov.tr:1935/live/149.stream/chunklist.m3u8
 http://ibb-media4.ibb.gov.tr:1935/live/12.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoLwUoPSnG9Afl-QALyZvYyEYabNmOlBur8BHEOeFLWKoivujBemve3O_xWk&s",90
 http://ibb-media4.ibb.gov.tr:1935/live/150.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI7Oha9fddD1cFsfc7ilqHL-ahH1Vo1UXPPAdWihLpoW_RiHVXKgoJsBzrjrk&s",91
+http://ibb-media2.ibb.gov.tr:1935/live/1020.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT57Tj3hHBMFj7VEegzISqqaFkh5qioQnKPlvZ-wHgBxU9KJWnNFgklJFZi44c&s",92
+http://ibb-media2.ibb.gov.tr:1935/live/1021.stream/chunklist.m3u8
+#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe4SJf-6GyvnUdUgD7l7QebnmkkWLw9y6aghFFxb3uKA91AfP-SkqKcCgvaaM&s",93
+http://ibb-media2.ibb.gov.tr:1935/live/1027.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Украина 🇺🇦" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUyHCu7nfatufOui4sygOyNKoyMqiJF2sVcfZFq_qAXoPJRWeC-VIEAHxEiB4&s",Буковель вид на Горы
 https://eu2.camflg.com:5443/LiveApp/streams/bukovel4.m3u8
 #EXTINF:-1 group-title="Украина 🇺🇦" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfTuLq2H-VJS16dRyBUe5zlayhZfl1cAT_u98VFPWjUxy4iD3po0Z4nSUc8B8&s",Буковель Горнолыжный курорт
@@ -1597,6 +1623,8 @@ http://212.111.1.7:1937/vlmcam03/vlmcam03.stream/playlist.m3u8
 http://212.111.1.7:1937/vlmcam04/vlmcam04.stream/playlist.m3u8
 #EXTINF:-1 group-title="Чешская Республика 🇨🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHUbKr0UvjiKK9HM97MmkgMuqIorZIhR3PnOgr249JkizLnGvKS8G-ud7tm0&s",Валашске-Мезиржичи 5
 http://212.111.1.7:1937/vlmcam05/vlmcam05.stream/playlist.m3u8
+#EXTINF:-1 group-title="Чешская Республика 🇨🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRype0OE2qg1MlSrDgjnhFiHXMIuHoOKsCZGnD0dSZukCH3HaSvIaVeJr9alO4&s",Ж/д вокзал Смихов
+http://live.idnes.cz/slow/vytopna/playlist.m3u8
 #EXTINF:-1 group-title="Чешская Республика 🇨🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkyZqwIRdE28ML5FawwqnNGT8pIQnCUFlg8pl0N3oaJA0bCO30h3zMDvCNa8&s",Прага
 http://live.idnes.cz/slow/amc/playlist.m3u8
 #EXTINF:-1 group-title="Хорватия 🇭🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI24vbrjjaXFVZZPNUeVn-FPwFfMi0fwr5HilPBdphoERPBw6SZ9tUo-pChA&s",Хорватия 1
