@@ -99,7 +99,7 @@ http://15.235.15.230:14487/AFDTV
 http://15.235.15.230:14499/AFDTV
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Tribuna.br" tvg-logo="http://i.imgur.com/Jyh2wWJ.png",TV Tribuna Santos
 http://15.235.15.230:14513/AFDTV
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Tribuna.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixfT3jGQKof0saEoo_2_khMHRZaLDxXkaU5tfKIN9wr5roTSMsblxYI3Kdw&s",Globo TV Santos
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Tribuna.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qExKOFIS5sTEyBEXgOS7hVEuAHNptqSoNIhuv9mfmHW3rr_TL2XsfyLdzEQ&s",Globo TV Santos
 http://15.235.15.230:14513/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://i.imgur.com/k4fl1wF.png",Globo Bahia SD
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
@@ -111,7 +111,7 @@ http://15.235.15.230:14487/
 https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",Globo Bahia HD
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBbr7-LGDTs8A4UlZaQ-v0s-u_T294dLLGlTkDsWp9mh_OPCP6ysZoaUkWA&s",Globo SP 8 HD
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDL0hiZWrm3Adfp7RouFKTT_oIyrYNUoouTMHacd4Zjf0oUUr49R-4em6lLA&s",Globo SP 8 HD
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
 #EXTINF:-1 group-title="News" tvg-id="" tvg-logo="https://epg.pw/media/images/channel/2016/06/22/large/20160622232611202416_43.jpg",[SD]ABC 4 Pittsburg PA (WTAE) (720p)[geo-blocked]
 https://epg.pw/stream/26163155ab76d071f1a6af638bd63816ce310bd503f54fb9634802ccd74258f3.m3u8
@@ -187,7 +187,7 @@ https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/chunklist_w182959856.m3u8
 #EXTINF:-1 group-title="N/A" tvg-id="Undefined" tvg-logo="https://i.imgur.com/td9XjvR.png",GAUCHA FM
 https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="LCH2067" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5x2407aLIjrs20HcXYVBIiPyB0jp1epVI8ahrLB5jH7oWw6BoWIO2_Nqs5WQ&s",CNN AMERICANA 3
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="LCH2067" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hPMW0lolGl-4Qgcc-ljbD99uHN9Zk8qmO8KLG0LMDY8xb_6g1vuprX4s7rk&s",CNN AMERICANA 3
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="LCH2067" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtBpPXhKoYYtts9jRDC7ov9yZCeq3zm_hCcSzoneY5RO69OimXT7DSAHUgg&s",CNN AMERICANA 4
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
@@ -303,6 +303,8 @@ http://icecast.hostingbahia.com.ar:8002/live?28344
 https://live.rockfm.ro/rockfm.aacp
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",TV Globo São Paulo HD [Alternativo]
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",Globo SP HD (Link 3)
+https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo BA" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",Globo Bahia HD (Link 1)
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/NSC_TV_logo.png",NSC TV Blumenau HD
@@ -313,7 +315,7 @@ http://190.102.43.113/Formigatv/offilinetv2806/1541684.m3u8
 http://190.102.43.113/Formigatv/offilinetv2806/1541685.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="GLOB PI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWnayY6R-DJRIqivjMVufCTUohKun7_W6rOpH7LoPL4Fy4f-gdBU46ACYz1g&s",TV CLUBE
 http://15.235.15.230:14785/
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo GO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8YhPyDbMC0SwfzHOKNjGrB7mG2BngzqSapBnF6IWBL4_96eG9fe2yINOkQ&s",TV ANHANGUERA
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo GO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrvtEnVGYP4TRxTQSC4Dy7G2UOvS93s1OPyRO1FoVba-T9ujb7gVNu7IBGbo&s",TV ANHANGUERA
 http://15.235.15.230:14757/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo CE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNoGy4a48eb99kWYyG65T_1CQB-n4it4qjekykJ_uljSQrl6nqWKJSL3ULqFw&s",Globo Ceará SD
 http://15.235.15.230:14517/
@@ -339,7 +341,7 @@ http://190.102.43.113:80/Formigatv/offilinetv2806/320569.m3u8
 http://190.102.43.113:80/Formigatv/offilinetv2806/320563.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Undefined" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cf/TV_Gazeta_ES_1976.svg/revision/latest?cb=20200131054039",➾ Globo ES - Gazeta
 http://190.102.43.113:80/Formigatv/offilinetv2806/320564.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bwLxLFxHSMifExeKNK6_EWb-OKBLqz2uyyeWvrspF95-f_Xu_dFKbK-S5L4&s",Globo SP HD Alternativo
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",Globo SP HD Alternativo
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboBrasilia.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ9m51rEwBEWsQ5WJPW83-SAxZ1SAZAfvu5UZFRhCmAr0AX0P2XLSycO8I3v8&s",Globo Brasília HD
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32370
@@ -451,8 +453,6 @@ http://old.rn-tv.com/live/stream.m3u8
 https://cdn1.webcams.bg:8080/hls/golden_ina.m3u8
 #EXTINF:-1 group-title="Болгария 🇧🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQKCXQOMZyNGzI1xR97tyB71aM6k_tHWp7m28VoujjlZieKzm4dOHXUWLLg&s",Болгария 4
 https://cdn1.webcams.bg:8080/hls/hotel_rodopi.m3u8
-#EXTINF:-1 group-title="Болгария 🇧🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoujJqJc_GTqywG-Mu-bsHtW4P6pXJ6F03NW0RqMX32T9RUtA-ag6_kixGqw&s",Болгария 5
-https://cdn1.webcams.bg:8080/hls/bracigovo_church.m3u8
 #EXTINF:-1 group-title="Болгария 🇧🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0lZhugkY1w6gTkRQZjyJF9LMKNCjcOgTb8jCY0AYkGMRNd14MfHqBpg421w&s",Болгария 7
 http://cams.pamporovo.me:1935/live/camera1.stream_720p/chunklist.m3u8
 #EXTINF:-1 group-title="Бразилия 🇧🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRBZzKGMTcw7GzS8nzYHAl1w2m06iLlI-90bleNSqQMtxW3N8ys4J_LTfBcg&s",Бразилия 1
@@ -481,6 +481,8 @@ http://maybach.railcam.co.uk/Buckfastleigh_68389/tracks-v1/mono.m3u8
 http://maybach.railcam.co.uk:80/Corfe_14435/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT343u8pZsNvyboX4wB0S7XkNktIrUPfotoQ7ZTLxxgTPcjYT9x0yPLADvok3g&s",Cramlington
 https://maybach.railcam.co.uk/Cramlington_54382/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3XAcqB57bWnZacmBHH6SFX-lFJgXHy_7piBaSe5F2Mm-ZffrLdKpkK60te_s&s",Crewe
+https://maybach.railcam.co.uk/Crewe2_16754/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCD_t2FDG345sl2GPUc-O-SoDOnOlZBL3sDBwDw65uDovjmFqA50Ss6lymUTQ&s",Flitwick
 https://maybach.railcam.co.uk/Flitwick_99123/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgkRkx8aGL1B-btwpJxQepvJTPLJ-aFzmTix7I_FD7h-8x_AgdWAohQ3b9Cw&s",Groom bridge
@@ -701,8 +703,6 @@ https://5d881567b7568.streamlock.net/live/Slechtvalk1Buiten.stream/playlist.m3u8
 https://5d881567b7568.streamlock.net/live/Kerkuil1Binnen.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Нидерланды 🇳🇱" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YIhMmAztY3Gpq-_5fmXwIWAD6xLz80G_Gy1pO1I8xWAgfgqGwgMr_ABM--s&s",5
 https://5d881567b7568.streamlock.net/live/Torenvalk3.stream/playlist.m3u8
-#EXTINF:-1 group-title="Нидерланды 🇳🇱" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_jAIKGXUMHok8XISAZLvgCRXAdKDyiUHX8yovOYVVWHvr45-i7JzKP-ZGg&s",6
-https://5d881567b7568.streamlock.net/live/Kerkuil1Buiten.stream/playlist.m3u8
 #EXTINF:-1 group-title="Нидерланды 🇳🇱" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
 https://5b8d2cbe62ad6.streamlock.net/live/vlissingen4.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Нидерланды 🇳🇱" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",8
@@ -1349,6 +1349,8 @@ http://stream.kukaj.se/stream/2/video.m3u8
 http://stream.kukaj.se/stream/11/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
 http://stream.kukaj.se/stream/18/video.m3u8
+#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",8
+http://stream.kukaj.se/stream/12/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgvE26W-AMWFNwDIdb_SJ4wvg-7k7iN1bM4wvy6iQIAcZ3k29nataQF5RpQ&s",13
 http://stream.kukaj.se/stream/27/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2cgGJFbY0B493jBApkbAJptI9SaWEWTyDYAIcsGcX3qg2o3BmqZc7YGATA&s",14
@@ -1589,8 +1591,6 @@ http://ibb-media4.ibb.gov.tr:1935/live/149.stream/chunklist.m3u8
 http://ibb-media4.ibb.gov.tr:1935/live/12.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoLwUoPSnG9Afl-QALyZvYyEYabNmOlBur8BHEOeFLWKoivujBemve3O_xWk&s",90
 http://ibb-media4.ibb.gov.tr:1935/live/150.stream/chunklist.m3u8
-#EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI7Oha9fddD1cFsfc7ilqHL-ahH1Vo1UXPPAdWihLpoW_RiHVXKgoJsBzrjrk&s",91
-http://ibb-media2.ibb.gov.tr:1935/live/1020.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT57Tj3hHBMFj7VEegzISqqaFkh5qioQnKPlvZ-wHgBxU9KJWnNFgklJFZi44c&s",92
 http://ibb-media2.ibb.gov.tr:1935/live/1021.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Турция 🇹🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe4SJf-6GyvnUdUgD7l7QebnmkkWLw9y6aghFFxb3uKA91AfP-SkqKcCgvaaM&s",93
@@ -1651,6 +1651,8 @@ http://live.idnes.cz/slow/kralovstvizeleznic/playlist.m3u8
 http://live.idnes.cz/slow/amc/playlist.m3u8
 #EXTINF:-1 group-title="Хорватия 🇭🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI24vbrjjaXFVZZPNUeVn-FPwFfMi0fwr5HilPBdphoERPBw6SZ9tUo-pChA&s",Хорватия 1
 http://cdn-006.whatsupcams.com/hls/hr_kastel1.m3u8
+#EXTINF:-1 group-title="Хорватия 🇭🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkjIo8JhTvi0teVA5zRITZVIav4b0viyWV8PFxNHyWaXoJLGxQ0Dc7GtcAoMs&s",Хорватия 2
+https://cdn-006.whatsupcams.com/hls/hr_svetvincenat01.m3u8
 #EXTINF:-1 group-title="Хорватия 🇭🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_53JVNhIrb8RpIQygBOC1zza3_mq37ZOfpZjxs9ncrU09Z7bCWSFtzTEmMP8&s",Хорватия 3
 https://cdn-002.whatsupcams.com/hls/hr_brsec01.m3u8
 #EXTINF:-1 group-title="Хорватия 🇭🇷" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDeBq9x_1WrTnqq8uSKE0L1nccsGczk4wk8jfowr4q3PNgQM0skzq-OPNFZc&s",Хорватия 4
