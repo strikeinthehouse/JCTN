@@ -219,7 +219,7 @@
     "name": "GLOBO CUIABA | BR",
     "group": "BRAZIL | BR",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiwetAXv8c8BrU6QrU7zV2of4a7FOUAmsQnPH37zLixRCnmMEBDQsnk_wSGyE&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOjFmpEobgflEoz4tZx98RHvnV_ZCnQHpp0P0YWKbzoLWXfZzKugQ2aKyEtQ&s",
     "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112689",
     "extra": []
   },
@@ -235,7 +235,7 @@
     "name": "GLOBO CUIABA | BR",
     "group": "BRAZIL | BR",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiwetAXv8c8BrU6QrU7zV2of4a7FOUAmsQnPH37zLixRCnmMEBDQsnk_wSGyE&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOjFmpEobgflEoz4tZx98RHvnV_ZCnQHpp0P0YWKbzoLWXfZzKugQ2aKyEtQ&s",
     "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112691",
     "extra": []
   },
@@ -403,7 +403,7 @@
     "name": "Globo TV Santos",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo TV Tribuna.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCJ1ZZjXy7_qLULbqb1TH_mlhikWwRCjH3wit5KmIJXZhyNC6WQWGW8BuxA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qExKOFIS5sTEyBEXgOS7hVEuAHNptqSoNIhuv9mfmHW3rr_TL2XsfyLdzEQ&s",
     "url": "http://15.235.15.230:14513/",
     "extra": []
   },
@@ -429,6 +429,14 @@
     "tvg_id": "Globo RJ.br",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIA4xfXfxIUxP6mq_mbX0ZFpZrkD2EkB-t2k5nmZgKkKRRnXCI5ABO6T1of4&s",
     "url": "http://15.235.15.230:14487/",
+    "extra": []
+  },
+  {
+    "name": "Globo SP 5 HD",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
     "extra": []
   },
   {
@@ -592,14 +600,6 @@
     "extra": []
   },
   {
-    "name": "Generalistas: TRECE",
-    "group": "ESPANHA",
-    "tvg_id": "13.TV",
-    "logo": "https://graph.facebook.com/TRECEtves/picture?width=200&height=200",
-    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "Informativos: Negocios TV",
     "group": "ESPANHA",
     "tvg_id": "Negocios.TV",
@@ -733,14 +733,6 @@
     "tvg_id": "N/A",
     "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/24/Amazon_sat_logo_2022.svg/200px-Amazon_sat_logo_2022.svg.png",
     "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "NDTV FLORIAN\u00d3POLIS E RECORDNEWS",
-    "group": "N/A",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJssbkZZmV_2zysuIygFlej8qj2SEVtEt7VbhuXU1c4Iyj8mh_hdqBGmp7cT8&s",
-    "url": "https://caikron.com.br:19360/floripa/floripa.m3u8",
     "extra": []
   },
   {
@@ -1000,14 +992,6 @@
     "extra": []
   },
   {
-    "name": "IRAN TV INTERNACIONAL",
-    "group": "NEWS WORLD",
-    "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yB6IKighgeiOzJDgn4N59HxeW8vYJ-yZvnJ09beDbczjKzF89ObFvcNIgQ&s",
-    "url": "https://live.playstop.me/1816184091/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "FOX NEWS USA",
     "group": "NEWS WORLD",
     "tvg_id": "N/A",
@@ -1221,14 +1205,6 @@
     "tvg_id": "Globo SP",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bwLxLFxHSMifExeKNK6_EWb-OKBLqz2uyyeWvrspF95-f_Xu_dFKbK-S5L4&s",
     "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Globo SP HD (Link 3)",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "TVGloboSaoPaulo.br",
-    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
-    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
     "extra": []
   },
   {
@@ -2437,6 +2413,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSgFdGyYgr02Wj9Om6pukgge9zHyiQxQBZduUGQ-PILw5OuKxukKtvbY8gSA&s",
     "url": "https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u0417\u0430\u0445\u0430\u0440\u0430-\u0434\u0435-\u043b\u043e\u0441-\u0410\u0442\u0443\u043d\u0435\u0441 \u0432\u0438\u0434 \u0438\u0437 \u043e\u0442\u0435\u043b\u044f Playa de la Plata",
+    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiBoPbqbfgSw4xRYnAgsYEDSRZambQ7tOK4NL_9nLCo43FJVlCJQduLl10FU&s",
+    "url": "https://flus.spotfav.com/zahara-atunes-playa-plata-spotfav/tracks-v1/mono.m3u8",
     "extra": []
   },
   {
@@ -6751,4 +6735,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][]
+]
