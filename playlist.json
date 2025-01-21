@@ -11,7 +11,7 @@
     "name": "GLOBO INTERNACIONAL | BR",
     "group": "BRAZIL | BR",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgSMDrtFfGn5HL_sTJIqXKExK2hvTsQaJY_wj5HugEJKTk574WXc4hxYzteg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFVouMbiE8bw8aJbPYtrC8R4970rnTKkaAB5FY9fgeJl3PQzX-KB6zRw8X2-8&s",
     "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112660",
     "extra": []
   },
@@ -432,6 +432,14 @@
     "extra": []
   },
   {
+    "name": "Globo SP 5 HD",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
+    "extra": []
+  },
+  {
     "name": "Globo Bahia HD",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Undefined",
@@ -747,7 +755,7 @@
     "name": "CNN AMERICANA 3",
     "group": "NEWS WORLD",
     "tvg_id": "LCH2067",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0n2K-tIQ13xxcywNTO66VsUhBzOxcrJqLxaX8xbQ2o6xnyl8naMIZRC2eGA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-sX6LWqWleSQPkGrvOZgiATD6X63zq_dXDVTUwbW6NRRZsyf2wwxzAb3k1g&s",
     "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
     "extra": []
   },
@@ -755,7 +763,7 @@
     "name": "CNN AMERICANA 4",
     "group": "NEWS WORLD",
     "tvg_id": "LCH2067",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRE6wUZwU6D0bpsdP2DNg_XRxbpysr0hDuCJxAhsXXc6V7pXBEbjy--tk3Sws&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMui-DxZcVTfdntD_KNbT5hKH3Wt1A4q-Gvi71JXqEPANbghb4HQzq0OTR5g&s",
     "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
     "extra": []
   },
@@ -907,7 +915,7 @@
     "name": "NOT\u00cdCIAS TELEMUNDO - SERVI\u00c7O 2",
     "group": "NEWS WORLD",
     "tvg_id": "N/A",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphY_KpFPFb8iogvRqi49zAdBcqcSIYwHm_qKyhjSI8l0tcXw2wRRVtl65lA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcQVOlY3C6jOr11RCo-xZiH6EPttJrVAOjz-b_A9-1PXvcYIRGrJRtkfe8cu0&s",
     "url": "https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8",
     "extra": []
   },
@@ -1203,8 +1211,16 @@
     "name": "TV Globo S\u00e3o Paulo HD [Alternativo]",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo SP",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bwLxLFxHSMifExeKNK6_EWb-OKBLqz2uyyeWvrspF95-f_Xu_dFKbK-S5L4&s",
     "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Globo SP HD (Link 3)",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
     "extra": []
   },
   {
@@ -1237,6 +1253,14 @@
     "tvg_id": "Globo SC",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8f/NSC_TV_logo.png",
     "url": "http://190.102.43.113/Formigatv/offilinetv2806/1541685.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV CLUBE",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "GLOB PI",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWnayY6R-DJRIqivjMVufCTUohKun7_W6rOpH7LoPL4Fy4f-gdBU46ACYz1g&s",
+    "url": "http://15.235.15.230:14785/",
     "extra": []
   },
   {
@@ -2397,6 +2421,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSgFdGyYgr02Wj9Om6pukgge9zHyiQxQBZduUGQ-PILw5OuKxukKtvbY8gSA&s",
     "url": "https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u0417\u0430\u0445\u0430\u0440\u0430-\u0434\u0435-\u043b\u043e\u0441-\u0410\u0442\u0443\u043d\u0435\u0441 \u0432\u0438\u0434 \u0438\u0437 \u043e\u0442\u0435\u043b\u044f Playa de la Plata",
+    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiBoPbqbfgSw4xRYnAgsYEDSRZambQ7tOK4NL_9nLCo43FJVlCJQduLl10FU&s",
+    "url": "https://flus.spotfav.com/zahara-atunes-playa-plata-spotfav/tracks-v1/mono.m3u8",
     "extra": []
   },
   {
@@ -5392,6 +5424,14 @@
     "extra": []
   },
   {
+    "name": "8",
+    "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",
+    "url": "http://stream.kukaj.se/stream/12/video.m3u8",
+    "extra": []
+  },
+  {
     "name": "13",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
@@ -6735,4 +6775,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][]
+]
