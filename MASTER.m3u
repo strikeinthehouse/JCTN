@@ -15,7 +15,7 @@ http://190.102.43.113/Formigatv/offilinetv2806/1541685.m3u8
 http://15.235.15.230:14785/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo GO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8YhPyDbMC0SwfzHOKNjGrB7mG2BngzqSapBnF6IWBL4_96eG9fe2yINOkQ&s",TV ANHANGUERA
 http://15.235.15.230:14757/
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo CE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNoGy4a48eb99kWYyG65T_1CQB-n4it4qjekykJ_uljSQrl6nqWKJSL3ULqFw&s",Globo Ceará SD
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo CE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfh6s_VYNxaeiuZLrm4Lvr5UEKEVprv71KBlcmSADUsnnczcPHmsm9zGLgg&s",Globo Ceará SD
 http://15.235.15.230:14517/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="RedeGlobo.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vnFjnY9h3DfDnyGR3ERZZTu9PbmphXGL63nHS2O_9jT05UPKQRsQ0Ll983I&s",TV VERDES MARES
 http://15.235.15.230:14519/
@@ -49,8 +49,6 @@ http://hls1.sua.tv:80/live/globosphd/s.m3u8
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32370
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIA4xfXfxIUxP6mq_mbX0ZFpZrkD2EkB-t2k5nmZgKkKRRnXCI5ABO6T1of4&s",Globo RPC Curitiba HD
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32266
-#EXTINF:-1 group-title="Canais | ABERTO" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV Conquista HD
-http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/yyFeDm7.png",Band Arapuan HD
 https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/chunklist.m3u8
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/oTkOmnH.png",Band TV - Vale do Uruará SD
@@ -87,8 +85,6 @@ https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/39
 #EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV MG
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/31565
-#EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV Conquista HD
-http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV DF
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/46
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png",Canal de Teste
@@ -1051,8 +1047,12 @@ http://stream.kukaj.se/stream/2/video.m3u8
 http://stream.kukaj.se/stream/11/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
 http://stream.kukaj.se/stream/18/video.m3u8
+#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",8
+http://stream.kukaj.se/stream/12/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgvE26W-AMWFNwDIdb_SJ4wvg-7k7iN1bM4wvy6iQIAcZ3k29nataQF5RpQ&s",13
 http://stream.kukaj.se/stream/27/video.m3u8
+#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2cgGJFbY0B493jBApkbAJptI9SaWEWTyDYAIcsGcX3qg2o3BmqZc7YGATA&s",14
+https://kukaj.profi-net.sk/live/PLAMIENKA1.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPAAzJzd47WuLhvUzFUpH-ZFCBZ1l5DJFAad6mwIL-IFMoaHjC8_NrK2jsj_s&s",15
 https://kukaj.profi-net.sk/live/BOCIANY_BESENOVA_4K.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH3XqWfcSEsMYzTF9e2VMr2oPGe2y3PKe9xBZmUxkvtJoed3ARptKEFgw3lQ&s",16
@@ -1065,6 +1065,8 @@ http://stream.profi-net.sk:1935/tmr/STREAM31.stream/playlist.m3u8
 http://stream.profi-net.sk:1935/tmr/STREAM43.stream/playlist.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy1GnFuPoNVQwH4_uzLWEne4sVUvL13iKz9gsdZzL_cIJ9t8YU7ASBaTNXeuY&s",20
 http://stream.profi-net.sk:1935/tmr//STREAM29.stream/playlist.m3u8
+#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_pWpf1-j4S7e7HKLnLSXnRb96Ru6eMSAgjLrUmap8R8RlU6CblZUA9wIIRA&s",21
+http://kukaj.profi-net.sk:1935/live/PLAMIENKA2.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnQkxFgrlK39LKEIXRwQkjRyF8gSuENrrW6brqHV5ey1EOGpxQRcYN61DEsWU&s",22
 http://stream.profi-net.sk:1935/tmr/STREAM3.stream/playlist.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWzvUV1zcRmxw9QeLEvvtFB2y3o0Yh_PypqEtPjVdge3LJQ0lvQ265R0XvS3E&s",23
