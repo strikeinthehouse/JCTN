@@ -13,15 +13,17 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
+    "https://globoplay.globo.com/v/11869976/",
     "https://globoplay.globo.com/v/6120663/",
+    "https://globoplay.globo.com/v/4064559/",
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/2168377/",
     "https://globoplay.globo.com/v/2923546/",
     "https://globoplay.globo.com/v/3383021/",
     "https://globoplay.globo.com/v/3065772/",
     "https://globoplay.globo.com/v/6329086/",
-    "https://globoplay.globo.com/v/602497/",
     "https://globoplay.globo.com/v/992055/",
+    "https://globoplay.globo.com/v/602497/",
     "https://cbn.globo.com/ao-vivo/video/cbn-sp/",
     "https://cbn.globo.com/ao-vivo/video/cbn-rj/",
     "https://www.cbnrecife.com/aovivo"
