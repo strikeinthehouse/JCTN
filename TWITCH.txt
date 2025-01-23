@@ -7,7 +7,16 @@ https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 #EXTINF:-1 tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png" group-title="Reality Show's Live",RTL-TVI (1080p) [Not 24/7]
 https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
 
-
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 1" group-title="REALITY  BBB 2025✨",CAM 1
+http://servertr4.top:80/live/Leonardo12/Leonardo12/1521284.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 2" group-title="REALITY  BBB 2025✨",CAM 2
+http://192.168.1.115:80/hdmi
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 3" group-title="REALITY  BBB 2025✨",CAM 3
+http://servertr4.top:80/live/Leonardo12/Leonardo12/1521286.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 4" group-title="REALITY  BBB 2025✨",CAM 4
+http://servertr4.top:80/live/Leonardo12/Leonardo12/1521287.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 5" group-title="REALITY  BBB 2025✨",CAM 5
+http://servertr4.top:80/live/Leonardo12/Leonardo12/1521288.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telecinco.es" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
 http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manifest.m3u8
 
