@@ -8,6 +8,14 @@
     "extra": []
   },
   {
+    "name": "Globo SP HD (Link 3)",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TVGloboSaoPaulo.br",
+    "logo": "https://seeklogo.com/images/R/rede-globo-logo-817F928B4F-seeklogo.com.png",
+    "url": "https://cdn-3.nxplay.com.br/GLOBO_SP_TK/tracks-v1a1/mono.m3u8",
+    "extra": []
+  },
+  {
     "name": "Globo Bahia HD (Link 1)",
     "group": "GLOBO AO VIVO",
     "tvg_id": "Globo BA",
@@ -192,6 +200,14 @@
     "extra": []
   },
   {
+    "name": "RecordTV Conquista HD",
+    "group": "Canais | ABERTO",
+    "tvg_id": "RecordTV",
+    "logo": "https://imgur.com/lyQ1v9M.png",
+    "url": "http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV",
+    "extra": []
+  },
+  {
     "name": "Band Arapuan HD",
     "group": "Canais | ABERTO",
     "tvg_id": "BAND",
@@ -333,6 +349,14 @@
     "tvg_id": "RecordTV",
     "logo": "https://imgur.com/lyQ1v9M.png",
     "url": "http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/31565",
+    "extra": []
+  },
+  {
+    "name": "RecordTV Conquista HD",
+    "group": "Canais | RECORD",
+    "tvg_id": "RecordTV",
+    "logo": "https://imgur.com/lyQ1v9M.png",
+    "url": "http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV",
     "extra": []
   },
   {
@@ -5543,4 +5567,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][][][][][]
+]
