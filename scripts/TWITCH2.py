@@ -71,7 +71,7 @@ try:
 
     # URLs de tags fornecidas (incluindo as novas URLs)
     urls_twitch = [
-        "https://www.twitch.tv/directory/all/tags/BreakingNews",  # Nova tag
+        "https://www.twitch.tv/directory/all/tags/espa%C3%B1ol",  # Nova tag
     ]
 
     for url_twitch in urls_twitch:
