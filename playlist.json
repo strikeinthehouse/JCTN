@@ -288,6 +288,14 @@
     "extra": []
   },
   {
+    "name": "TVE Bahia HD",
+    "group": "Canais | ABERTO",
+    "tvg_id": "TVE",
+    "logo": "https://i.imgur.com/qoQEi7z.png",
+    "url": "http://rtmp.irdeb.ba.gov.br/stream/hls/tvehd.m3u8",
+    "extra": []
+  },
+  {
     "name": "CATVE TV Cultura HD",
     "group": "Canais | ABERTO",
     "tvg_id": "Undefined",
@@ -1216,6 +1224,22 @@
     "extra": []
   },
   {
+    "name": "\u0413\u0443\u0434\u0430\u0440 \u041f\u0430\u043d\u043e\u0440\u0430\u043c\u0430",
+    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSgFdGyYgr02Wj9Om6pukgge9zHyiQxQBZduUGQ-PILw5OuKxukKtvbY8gSA&s",
+    "url": "https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u0417\u0430\u0445\u0430\u0440\u0430-\u0434\u0435-\u043b\u043e\u0441-\u0410\u0442\u0443\u043d\u0435\u0441 \u0432\u0438\u0434 \u0438\u0437 \u043e\u0442\u0435\u043b\u044f Playa de la Plata",
+    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiBoPbqbfgSw4xRYnAgsYEDSRZambQ7tOK4NL_9nLCo43FJVlCJQduLl10FU&s",
+    "url": "https://flus.spotfav.com/zahara-atunes-playa-plata-spotfav/tracks-v1/mono.m3u8",
+    "extra": []
+  },
+  {
     "name": "\u041a\u0430\u043b\u044c\u043f\u0435 \u043f\u043b\u044f\u0436 \u041b\u0430-\u0424\u043e\u0441\u0441\u0430",
     "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
     "tvg_id": "Undefined",
@@ -1429,14 +1453,6 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRknEFfryZO_YxGSeYlBqnwYwSSEPALaitiAo3Vx9bOmb6kYChZJgYH7GnaW3o&s",
     "url": "https://webcam.elcat.kg/Jalalbad_Meria/tracks-v1/mono.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u041a\u0430\u0440\u0430\u043a\u043e\u043b \u0412\u044a\u0435\u0437\u0434",
-    "group": "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f \ud83c\uddf0\ud83c\uddec",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOpQM47RM-K6dDeOmAv1kK2aEI3yNCAP9r6tJdBK3jc-ffJDCaguZaLbjFJoM&s",
-    "url": "https://webcam.elcat.kg/Karakol_Vezd_25_11_2019/tracks-v1/index.fmp4.m3u8",
     "extra": []
   },
   {
@@ -4328,14 +4344,6 @@
     "extra": []
   },
   {
-    "name": "\u0414\u0436\u043e\u0440\u0434\u0436\u0438\u044f Ta\u0439\u0431\u0438-\u0410\u0439\u043b\u0435\u043d\u0434 \u0432\u0438\u0434 \u043d\u0430 \u0410\u0442\u043b\u0430\u043d\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043e\u043a\u0435\u0430\u043d - \u041f\u043b\u044f\u0436",
-    "group": "\u0421\u0428\u0410 \ud83c\uddfa\ud83c\uddf8",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3HqTqjhi2wwdIM_tkRiqDWXlCZVxIaFGSKJ-V_x0sxzhYUWFZQO14eMJl8mI&s",
-    "url": "https://5ddd47d64e730.streamlock.net:444/mousepad1/mousepad1.stream/chunklist_w733151700.m3u8",
-    "extra": []
-  },
-  {
     "name": "\u0412\u0430\u0448\u0438\u043d\u0433\u0442\u043e\u043d \u041a\u0430\u043f\u0438\u0442\u043e\u043b\u0438\u0439",
     "group": "\u0421\u0428\u0410 \ud83c\uddfa\ud83c\uddf8",
     "tvg_id": "Undefined",
@@ -5543,4 +5551,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][]
+]
