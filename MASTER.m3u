@@ -15,7 +15,7 @@ http://190.102.43.113/Formigatv/offilinetv2806/1541685.m3u8
 http://15.235.15.230:14785/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo GO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8YhPyDbMC0SwfzHOKNjGrB7mG2BngzqSapBnF6IWBL4_96eG9fe2yINOkQ&s",TV ANHANGUERA
 http://15.235.15.230:14757/
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo CE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNoGy4a48eb99kWYyG65T_1CQB-n4it4qjekykJ_uljSQrl6nqWKJSL3ULqFw&s",Globo Ceará SD
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo CE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd8QNhC66FaHd5i-AVm7mZOsX21E3Djdwq8P3urfUU6nIF6MxuVswCSzvgmKw&s",Globo Ceará SD
 http://15.235.15.230:14517/
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="RedeGlobo.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vnFjnY9h3DfDnyGR3ERZZTu9PbmphXGL63nHS2O_9jT05UPKQRsQ0Ll983I&s",TV VERDES MARES
 http://15.235.15.230:14519/
@@ -45,14 +45,14 @@ http://190.102.43.113:80/Formigatv/offilinetv2806/320563.m3u8
 http://190.102.43.113:80/Formigatv/offilinetv2806/320564.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",Globo SP HD Alternativo
 http://hls1.sua.tv:80/live/globosphd/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboBrasilia.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThXFakrl0tSd5KhiEZHJAihGH7NmQoulB5t3fPkqJQPtY5d-3aPcw8m796A0M&s",Globo Brasília HD
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TVGloboBrasilia.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ9m51rEwBEWsQ5WJPW83-SAxZ1SAZAfvu5UZFRhCmAr0AX0P2XLSycO8I3v8&s",Globo Brasília HD
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32370
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIA4xfXfxIUxP6mq_mbX0ZFpZrkD2EkB-t2k5nmZgKkKRRnXCI5ABO6T1of4&s",Globo RPC Curitiba HD
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/32266
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Boxkids.br" tvg-logo="https://images2.imgbox.com/a8/9a/vK6Bkhet_o.png",GLOBO EPTV CAMPINAS SD
-http://bccdn.xyz:80/4387701968208/945823895687/473
-#EXTINF:-1 group-title="ESPORTES" tvg-id="" tvg-logo="https://images2.imgbox.com/ba/33/o2Jyzv7A_o.png",PAULISTÃO 04
-http://bccdn.xyz:80/4387701968208/945823895687/95855
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globorj.br" tvg-logo="https://images2.imgbox.com/a8/9a/vK6Bkhet_o.png",GLOBO RJ H265
+http://bccdn.xyz:80/4387701968208/945823895687/76673
+#EXTINF:-1 group-title="Canais | ABERTO" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV Conquista HD
+http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/yyFeDm7.png",Band Arapuan HD
 https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/chunklist.m3u8
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="BAND" tvg-logo="https://i.imgur.com/oTkOmnH.png",Band TV - Vale do Uruará SD
@@ -89,6 +89,8 @@ https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/39
 #EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV MG
 http://xcui.vitvabc.xyz:8880/laok300/8pEZjdeMPad7/31565
+#EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV Conquista HD
+http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | RECORD" tvg-id="RecordTV" tvg-logo="https://imgur.com/lyQ1v9M.png",RecordTV DF
 http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/46
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png",Canal de Teste
@@ -201,6 +203,8 @@ http://maybach.railcam.co.uk/Hythe_22835/tracks-v1a1/mono.m3u8
 http://89.16.164.68:80/SVR-Kidderminster-C2_094871/index.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2d4XXdNEpkyuT7h-nbje_JycvUEJa0oQJgz1HgjIoOYNpyE8h6yMSZho&s",Minehead Station
 http://maybach.railcam.co.uk:80/Minehead_05286/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0v7a_m3MFzCqtpIViVzpEQzHP3L6JcLJ3y5o2EJPGqHfg193dnTxEvYG9y4&s",New Romney 2
+https://maybach.railcam.co.uk/NewRomney2_27157/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnKPDwI36DTog9EEPKcjxmUs2l6UEXhfEd00INYL-5UUTzTm2CEWXXY1BhD4M&s",Orton Mere
 http://maybach.railcam.co.uk/NVR-Orton-Mere_39273/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgP1kPBA8mVaOCwyZs4iZltmxiJX1R7_7fmSiS6IEnatp4OHsA2FaL2mSxKg&s",Princes
@@ -929,6 +933,8 @@ http://cdn08.vtomske.ru/hls/stream1.m3u8
 http://cdn08.vtomske.ru/hls/stream6.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qlA9LwfgvfkyqwG_BckdyJDwtuv-P1UPlfkA8sdIJGsWCMoGSsDhL0HUBQ&s",Томск - Река Томь
 http://cdn08.vtomske.ru/hls/stream9.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qlA9LwfgvfkyqwG_BckdyJDwtuv-P1UPlfkA8sdIJGsWCMoGSsDhL0HUBQ&s",Томск - Река Томь 2
+http://cdn08.vtomske.ru/hls/stream2.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0FO6DSzd4CgGyooC3BVdbhSj5HQGPObaRX2t4lfE6NfA6J0MPCv4vTNXGQ&s",Тулун 1
 http://tv.t-tk.ru/ostanovka_lenina/index.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0FO6DSzd4CgGyooC3BVdbhSj5HQGPObaRX2t4lfE6NfA6J0MPCv4vTNXGQ&s",Тулун 1
@@ -1043,12 +1049,6 @@ http://stream.kukaj.se/stream/3/video.m3u8
 http://stream.kukaj.se/stream/4/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMR30kUEdVFSiPq6uHXeTkCMSOMYoGFL8AcGLpDzpMLCVmPuAZOSrLtPX6k7M&s",4
 http://stream.kukaj.se/stream/2/video.m3u8
-#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YIhMmAztY3Gpq-_5fmXwIWAD6xLz80G_Gy1pO1I8xWAgfgqGwgMr_ABM--s&s",5
-http://stream.kukaj.se/stream/11/video.m3u8
-#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
-http://stream.kukaj.se/stream/18/video.m3u8
-#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",8
-http://stream.kukaj.se/stream/12/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgvE26W-AMWFNwDIdb_SJ4wvg-7k7iN1bM4wvy6iQIAcZ3k29nataQF5RpQ&s",13
 http://stream.kukaj.se/stream/27/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2cgGJFbY0B493jBApkbAJptI9SaWEWTyDYAIcsGcX3qg2o3BmqZc7YGATA&s",14
