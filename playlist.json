@@ -144,6 +144,14 @@
     "extra": []
   },
   {
+    "name": "RecordTV Conquista HD",
+    "group": "Canais | RECORD",
+    "tvg_id": "RecordTV",
+    "logo": "https://imgur.com/lyQ1v9M.png",
+    "url": "http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV",
+    "extra": []
+  },
+  {
     "name": "RecordTV DF",
     "group": "Canais | RECORD",
     "tvg_id": "RecordTV",
@@ -3968,14 +3976,6 @@
     "extra": []
   },
   {
-    "name": "8",
-    "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",
-    "url": "http://stream.kukaj.se/stream/12/video.m3u8",
-    "extra": []
-  },
-  {
     "name": "13",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
@@ -4317,6 +4317,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYU4N7Qn0fH9n3nj3iveCB-AdFDA0DpY8B65i-8QTHy5W_afF5iDV4iGkbVg&s",
     "url": "http://5c864aa99ee04.streamlock.net:1935/surfcam/live.stream/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u041a\u043e\u0440\u043c\u0443\u0448\u043a\u0430",
+    "group": "\u0421\u0428\u0410 \ud83c\uddfa\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFF2O-fvrKe6-8PyTfJ-G-FHSqEVSihpb56egfK4vSeY0N9V9Ik5a1mVw1GHA&s",
+    "url": "http://live.idnes.cz/slow/krmitkousa/playlist.m3u8",
     "extra": []
   },
   {
@@ -5295,4 +5303,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][]
+]
