@@ -24,8 +24,8 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/6329086/",
     "https://globoplay.globo.com/v/992055/",
     "https://globoplay.globo.com/v/602497/",
-    "https://cbn.globo.com/ao-vivo/video/cbn-sp/",
-    "https://cbn.globo.com/ao-vivo/video/cbn-rj/",
+    "https://globoplay.globo.com/v/10747444/",
+    "https://globoplay.globo.com/v/10740500/",
 
 ]
 
