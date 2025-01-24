@@ -26,7 +26,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/602497/",
     "https://cbn.globo.com/ao-vivo/video/cbn-sp/",
     "https://cbn.globo.com/ao-vivo/video/cbn-rj/",
-    "https://www.cbnrecife.com/aovivo"
+
 ]
 
 # Função para extrair o link m3u8, título e favicon
