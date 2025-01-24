@@ -365,7 +365,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (substitua com a URL real)
-base_url = "https://www.google.com/search?q=EPTV&sca_esv=25faab50f0835e7e&udm=7&tbs=qdr:d&tbas=0&source=lnt&sa=X&ved=2ahUKEwik8ZebxY2LAxUiF7kGHdv4GWgQpwV6BAgBECg&biw=1912&bih=954&dpr=1"
+base_url = "https://www.google.com/search?q=tv&sca_esv=25faab50f0835e7e&udm=7&tbs=qdr:d,srcf:H4sIAAAAAAAAAKvMLy0pTUrVS87PVcvMKy5JTC9KzAXz0nPyk_1LBrJLM7JL8bDBTuzQ_1B8TQSypSKzIHCwEAo8ZmRUIAAAA&source=lnt&sa=X&ved=2ahUKEwjZtfDit4-LAxWALLkGHSdWDmEQpwV6BAgBEC0&biw=1912&bih=954&dpr=1"
 
 # Load the page
 driver.get(base_url)
