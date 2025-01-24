@@ -23,6 +23,8 @@ http://maistop.net:80/live/free/free/1.m3u8
 http://rtmp.irdeb.ba.gov.br/stream/hls/tvehd.m3u8
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/wKpiAOj.png",CATVE TV Cultura HD
 http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
+#EXTINF:-1 group-title="Canais | ABERTO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/xL9QvHp.png",TV Cultura RN FHD
+https://tv02.zas.media:1936/futurotv21/futurotv21/chunklist_w309642670.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | SBT" tvg-id="SBT" tvg-logo="https://imgur.com/KO1v3pS.png",SBT HD
 https://aovivo.maissbt.com/index.m3u8
 #EXTINF:-1 group-title="Canais | SBT" tvg-id="SBT" tvg-logo="https://i.imgur.com/oOhk9Gg.png",SBT Guajará
@@ -287,6 +289,10 @@ https://webvideo.mississauga.ca/StageWebcam/LiveStageWebcam.stream/chunklist_w10
 http://92.46.108.21:1934/rtplive/_definst_/camera1.stream/playlist.m3u8
 #EXTINF:-1 group-title="Казахстан 🇰🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFtFv7Z3gZ_GpBNLv88i3r_3o-8fKtJXdZpqJDsJcQMFhlb5mMBsIxZtlYA&s",Нур-Султан - ТРЦ Хан Шатыр 2
 http://92.46.108.21:1934/rtplive/_definst_/camera2.stream/playlist.m3u8
+#EXTINF:-1 group-title="Казахстан 🇰🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmxUnQymaGddG084w5Z8AJJ4vJugFU0hLToEW3xFoz8ZRNC8jK6sEenPqTVQ&s",Шымбулак 1
+https://ipcam.kz/cam1/tracks-v1/mono.m3u8
+#EXTINF:-1 group-title="Казахстан 🇰🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlIwIefg4SjhkQ1J5W0tzd2yV02CcsukUHGd5E8mlmfkl0ZHoXcVu6xjXoA&s",Шымбулак 2
+https://ipcam.kz/cam2/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Казахстан 🇰🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRccsRR7fNEhCm6VQxFaRt1jKdchub_PmEQim71KpNdBPaYIYuepVvkduGn4A&s",Шымбулак 6
 https://ipcam.kz/cam7/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Киргизия 🇰🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXoIwC9A4mFpStVZyHen7PlEvhLqh3lSoRiEyD37lTaS6UbxvVaS4RKSo0Pg&s",Бишкек 7
@@ -787,6 +793,16 @@ http://91.211.56.203:8081/sibmf/sport/chunks.m3u8
 http://194.28.212.11/other/dkh1.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEe0DcKUJk64WEGndxSlXgpk3aW7BB1S8NwTWNupc9RIJldzNiThTYdTm6vA&s",Невинномысск 2
 http://194.28.212.11/other/dkh2.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObVqsbLic8n7DRqlq5OxRpJvuxXwzOIIllzl6EZlGtOCpueblrkS0jvWSRA&s",Невинномысск 3
+http://194.28.212.11/other/vo1.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJXgue91dCVz2AC4Ty1iaeNZc8VuhhEHnNg0nMsEh8CJ1D6TtCeajIYjzF9Q&s",Невинномысск 4
+http://194.28.212.11/other/vo2.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRADw9Q4W_NLWIrLXYiJ0iT34P879rL4Mu8SdLW-6oTpThWeIlNYuO6lCAcNA&s",Невинномысск 5
+http://194.28.212.11/other/most1.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqTCllnNlnDQiFF-fgHS3XpV6n6s5NB9bRIKuD4wYBsyoWsekwYhOSUfZmi4&s",Невинномысск 8
+http://194.28.212.11/other/nizki.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFK84ujNvtJN2hbELSPDmM8LMJ6AsPhXdZ4vTr6nAvLBy771OLVGOavDG1Wdw&s",Невинномысск 9
+http://194.28.212.11/other/mendeleeva1.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhkcxxnl7BaitVwFDnjg6wuHpQOdy7fpblA2V2llaKOUjdaW_ZfgAoruWt5A&s",Орск 1
 http://komsomolskaya.camsh.orsk.ru/hls/komsomolskaya.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-GYFEICoWHgduKO6_8EF3tT3crdDcl13WIrpi5jdh-qLkh-VbsjO5F3dS5s&s",Орск 2
@@ -961,6 +977,8 @@ https://streamer.devnet.rs/hls/gagarina.m3u8
 https://streamer.devnet.rs/hls/slavija.m3u8
 #EXTINF:-1 group-title="Сербия 🇷🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzg4lwnLfCqUTwUBugAKBTLZsRZ07zEGRxxMDQFlbgaBm80uQIQle5-8yBrg&s",Белград 9
 https://streamer.devnet.rs/hls/trgnikole.m3u8
+#EXTINF:-1 group-title="Сербия 🇷🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoDHu6aUj9w5tNfTfvHCN327ITUPQY2rT4TbJemoMbpTm9FWZviFffXJG3aU&s",Сербия 1
+https://stream5.infokop.net:1443/live_cameras/camera_2/playlist.m3u8
 #EXTINF:-1 group-title="Сербия 🇷🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp1QyQDIvxSxe8egknkZJFhLXiAdXnkK5o_WhdAnntPJzBlN5PxxKmJ8eJqQ&s",Сербия 2
 https://stream5.infokop.net:1443/live_cameras/camera_1/playlist.m3u8
 #EXTINF:-1 group-title="Сербия 🇷🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTjMzQoYwldTrlbEN-9Svas8eREM1l3CXfbYdjUpcHwSJu4yvX9sWE62mBSqI&s",Сербия 3
