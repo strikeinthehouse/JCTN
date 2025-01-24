@@ -144,14 +144,6 @@
     "extra": []
   },
   {
-    "name": "RecordTV Conquista HD",
-    "group": "Canais | RECORD",
-    "tvg_id": "RecordTV",
-    "logo": "https://imgur.com/lyQ1v9M.png",
-    "url": "http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8?ManoTV",
-    "extra": []
-  },
-  {
     "name": "RecordTV DF",
     "group": "Canais | RECORD",
     "tvg_id": "RecordTV",
@@ -445,6 +437,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUn4LyROJnYqpkJ2SYb_jKS17ajqt6nwtVltcDY2hGOIedZkgnVhBFh9oLYg&s",
     "url": "https://5a8d73edc0407.streamlock.net/bnuip200/bnuip20003.stream/chunklist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Brazil 3",
+    "group": "\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f \ud83c\udde7\ud83c\uddf7",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRae2oDyMUbPxBapcHEDQtUk7FUjDQYEu8-RKppD6_JcebVmZHf6vR1XNBRYnw&s",
+    "url": "https://5b33b873179a2.streamlock.net:1443/cameradiscolandia/cameradiscolandia.stream/chunklist.m3u8",
     "extra": []
   },
   {
@@ -997,6 +997,22 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUO_qGSuv5ItM77TxiqUoVNnNI_AQ1ivrXH9Gs0qGKLb1xzdSGiqP8W42gUw&s",
     "url": "https://5b8d2cbe62ad6.streamlock.net/live/spanje.stream/chunklist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u0413\u0443\u0434\u0430\u0440 \u041f\u0430\u043d\u043e\u0440\u0430\u043c\u0430",
+    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSgFdGyYgr02Wj9Om6pukgge9zHyiQxQBZduUGQ-PILw5OuKxukKtvbY8gSA&s",
+    "url": "https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u0417\u0430\u0445\u0430\u0440\u0430-\u0434\u0435-\u043b\u043e\u0441-\u0410\u0442\u0443\u043d\u0435\u0441 \u0432\u0438\u0434 \u0438\u0437 \u043e\u0442\u0435\u043b\u044f Playa de la Plata",
+    "group": "\u0418\u0441\u043f\u0430\u043d\u0438\u044f \ud83c\uddea\ud83c\uddf8",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiBoPbqbfgSw4xRYnAgsYEDSRZambQ7tOK4NL_9nLCo43FJVlCJQduLl10FU&s",
+    "url": "https://flus.spotfav.com/zahara-atunes-playa-plata-spotfav/tracks-v1/mono.m3u8",
     "extra": []
   },
   {
@@ -4064,6 +4080,14 @@
     "extra": []
   },
   {
+    "name": "26",
+    "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxajNXYz3SecfPf-t06umLvv1KfUpyh23pf1RTnS_wupgsq3dKOGgBJD4yA&s",
+    "url": "http://stream.strba.sk:1935/strba/VYHLAD_NAMESTIE.stream/playlist.m3u8",
+    "extra": []
+  },
+  {
     "name": "\u0424\u043b\u043e\u0440\u0438\u0434\u0430 \u041f\u0430\u043d\u0430\u043c\u0430 \u0421\u0438\u0442\u0438 \u0411\u0438\u0447 \u0432\u0438\u0434 \u043d\u0430 \u041c\u0435\u043a\u0441\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439 \u0437\u0430\u043b\u0438\u0432",
     "group": "\u0421\u0428\u0410 \ud83c\uddfa\ud83c\uddf8",
     "tvg_id": "Undefined",
@@ -4293,14 +4317,6 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYU4N7Qn0fH9n3nj3iveCB-AdFDA0DpY8B65i-8QTHy5W_afF5iDV4iGkbVg&s",
     "url": "http://5c864aa99ee04.streamlock.net:1935/surfcam/live.stream/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u041a\u043e\u0440\u043c\u0443\u0448\u043a\u0430",
-    "group": "\u0421\u0428\u0410 \ud83c\uddfa\ud83c\uddf8",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFF2O-fvrKe6-8PyTfJ-G-FHSqEVSihpb56egfK4vSeY0N9V9Ik5a1mVw1GHA&s",
-    "url": "http://live.idnes.cz/slow/krmitkousa/playlist.m3u8",
     "extra": []
   },
   {
@@ -5279,4 +5295,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][][]
+]
