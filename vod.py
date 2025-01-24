@@ -32,7 +32,7 @@ globoplay_urls = [
 # Função para extrair o link m3u8, título e favicon
 def extract_globoplay_data(driver, url):
     driver.get(url)
-    time.sleep(30)  # Aguarde a página carregar completamente
+    time.sleep(40)  # Aguarde a página carregar completamente
     
     # Obter o título da página
     title = driver.title
