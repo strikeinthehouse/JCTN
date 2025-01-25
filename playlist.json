@@ -1160,11 +1160,11 @@
     "extra": []
   },
   {
-    "name": "\u0428\u044b\u043c\u0431\u0443\u043b\u0430\u043a 1",
+    "name": "\u0428\u044b\u043c\u0431\u0443\u043b\u0430\u043a 2",
     "group": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d \ud83c\uddf0\ud83c\uddff",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmxUnQymaGddG084w5Z8AJJ4vJugFU0hLToEW3xFoz8ZRNC8jK6sEenPqTVQ&s",
-    "url": "https://ipcam.kz/cam1/tracks-v1/mono.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlIwIefg4SjhkQ1J5W0tzd2yV02CcsukUHGd5E8mlmfkl0ZHoXcVu6xjXoA&s",
+    "url": "https://ipcam.kz/cam2/tracks-v1/mono.m3u8",
     "extra": []
   },
   {
@@ -3984,14 +3984,6 @@
     "extra": []
   },
   {
-    "name": "8",
-    "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",
-    "url": "http://stream.kukaj.se/stream/12/video.m3u8",
-    "extra": []
-  },
-  {
     "name": "13",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
@@ -4381,6 +4373,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7w15262n4uBHhdhdKH9Fwcrn13zhcm4d3pAxvlWHcqN25lokl2Vr26BOP8rc&s",
     "url": "http://ibb-media4.ibb.gov.tr:1935/live/13.stream/chunklist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "3",
+    "group": "\u0422\u0443\u0440\u0446\u0438\u044f \ud83c\uddf9\ud83c\uddf7",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSYKAC5z0RXXpHViyM9dcGAcUdEmfiy9aRCNiRyoXIGDPH-jAFP-_b9EgYCo&s",
+    "url": "http://ibb-media2.ibb.gov.tr:1935/live/1029.stream/chunklist.m3u8",
     "extra": []
   },
   {
@@ -5327,4 +5327,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][][]
+]
