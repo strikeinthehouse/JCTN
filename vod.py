@@ -14,6 +14,7 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://globoplay.globo.com/v/11869976/",
+    "https://globoplay.globo.com/v/2145544/",
     "https://globoplay.globo.com/v/6120663/",
     "https://globoplay.globo.com/v/4064559/",
     "https://globoplay.globo.com/v/2135579/",
