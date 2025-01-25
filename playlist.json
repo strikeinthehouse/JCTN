@@ -3584,14 +3584,6 @@
     "extra": []
   },
   {
-    "name": "\u0422\u0443\u043b\u0443\u043d 3",
-    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPX-sJtWbQkpZLrinFWUKYA9tB77voiO8rsW_cM1pyw-ikw8spCcL8KC1hLw&s",
-    "url": "http://tv.t-tk.ru/lenina_128/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "\u0422\u0443\u043b\u0443\u043d 4",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
@@ -3605,6 +3597,14 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdgmOO4KqbRk3MYvzdeRrXy1IMt5iJ-mIGPKMwdwy9qM425Cn8e4t3WtUKSog&s",
     "url": "http://tv.t-tk.ru/1413/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "\u0422\u0443\u043b\u0443\u043d 7",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA12GEb6PQDLlFwxDnvUEHqojmc-TreEDsJWjr4o3Nf5knYvYGzVw6LkU5GHQ&s",
+    "url": "http://tv.t-tk.ru/cam_gidroliznij_peshehod/index.m3u8",
     "extra": []
   },
   {
@@ -3664,6 +3664,14 @@
     "extra": []
   },
   {
+    "name": "\u0423\u0441\u0442\u044c-\u0418\u043b\u0438\u043c\u0441\u043a 2",
+    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS262vVllKpndEqNNCWuwvQx857vNZJYJvy2fbfe1gP_6fkBAIEZWk5c5_6cm8&s",
+    "url": "http://cc-stream-01.uilim.ru/cam-dominion/tracks-v1/mono.m3u8",
+    "extra": []
+  },
+  {
     "name": "\u0423\u0441\u0442\u044c-\u0418\u043b\u0438\u043c\u0441\u043a 4",
     "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
     "tvg_id": "Undefined",
@@ -3677,14 +3685,6 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQygtgGQSfG8bHkrUPYhKRBCr-zGUOv2zJI51xUsS-cR11Tzj9ykOhbOr-QR4g&s",
     "url": "http://cc-stream-01.uilim.ru/cam-mira-17-obzornaa/tracks-v1/mono.m3u8",
-    "extra": []
-  },
-  {
-    "name": "\u0423\u0441\u0442\u044c-\u0418\u043b\u0438\u043c\u0441\u043a 6",
-    "group": "\u0420\u043e\u0441\u0441\u0438\u044f \ud83c\uddf7\ud83c\uddfa",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3vaiAxoTY7njBkBjglkV2hCGKOcbqY4M4V5m02HJ9vPr4Q9isM6wor4QdeQ&s",
-    "url": "https://cc-stream-01.uilim.ru/cam-dimitrova-13/tracks-v1/mono.m3u8",
     "extra": []
   },
   {
@@ -3968,11 +3968,11 @@
     "extra": []
   },
   {
-    "name": "8",
+    "name": "13",
     "group": "\u0421\u043b\u043e\u0432\u0430\u043a\u0438\u044f \ud83c\uddf8\ud83c\uddf0",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",
-    "url": "http://stream.kukaj.se/stream/12/video.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgvE26W-AMWFNwDIdb_SJ4wvg-7k7iN1bM4wvy6iQIAcZ3k29nataQF5RpQ&s",
+    "url": "http://stream.kukaj.se/stream/27/video.m3u8",
     "extra": []
   },
   {
@@ -5311,4 +5311,4 @@
     "url": "http://stream02.vikingsecurity.ee:1935/otsep11/cam9108/playlist.m3u8",
     "extra": []
   }
-][]
+]
