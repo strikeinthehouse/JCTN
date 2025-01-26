@@ -21,8 +21,6 @@ http://maistop.net:80/live/free/free/2.m3u8
 http://maistop.net:80/live/free/free/1.m3u8
 #EXTINF:-1 group-title="Canais | ABERTO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/wKpiAOj.png",CATVE TV Cultura HD
 http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="Canais | ABERTO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/xL9QvHp.png",TV Cultura RN FHD
-https://tv02.zas.media:1936/futurotv21/futurotv21/chunklist_w309642670.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais | SBT" tvg-id="SBT" tvg-logo="https://imgur.com/KO1v3pS.png",SBT HD
 https://aovivo.maissbt.com/index.m3u8
 #EXTINF:-1 group-title="Canais | SBT" tvg-id="SBT" tvg-logo="https://i.imgur.com/oOhk9Gg.png",SBT Guajará
@@ -755,8 +753,6 @@ http://cam.indikom.ru/43/hls/stream.m3u8
 http://cam.indikom.ru/53/hls/stream.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXKuXtQVanImYQKQv2EFuk-zWJ4R96YfcEqVfnTvMS8Q3jOtrnqmKzeQaheg&s",Мытищи 37
 http://cam.indikom.ru/54/hls/stream.m3u8
-#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-Vjmw5Xu9fZI5IGjjgPva1rYiLj7xsr8xiWrlpIVpO5o3D3HykPH0j5L5w&s",Мытищи 38
-http://cam.indikom.ru/55/hls/stream.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgDOIsOdOqGZ47t6aAMYhrY1wCBGeW_Jlie8v0bOofK1GCgkd4EexlxTZ2z40&s",Мытищи 39
 http://cam.indikom.ru/56/hls/stream.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLuNsZXLuEALe_5DDPSCOKNVnBfY43okFoJqBrCLanwxVCjbQSsVGrWtjRPA&s",Мытищи 40
@@ -811,6 +807,8 @@ http://vizazh.camsh.orsk.ru/hls/vizazh.m3u8
 http://lenkom.camsh.orsk.ru/hls/lenkom.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSugguEv2dQdbQsEFoHE62wriUaGvj3KbtcGzTNS_juXkbGeKB8W_sLwu_ZDA&s",Орск 5
 http://tagilskaya.camsh.orsk.ru/hls/tagilskaya.m3u8
+#EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSPdktjrkIwEW5fyNPY3cgZxLezuUkXKeY8R-5htyzqouB5tlKbbQR8qZjhg&s",Орск 6
+http://komsomolskaya2.camsh.orsk.ru/hls/komsomolskaya2.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUVAR22OSk-CeINq9NgkrSOlnrEnSuEOYnaaGiOhbLNiNzeNmNdtUX-ycwA&s",Орск 7
 http://camsh.orsk.ru/hls/banya.m3u8
 #EXTINF:-1 group-title="Россия 🇷🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjBM0NACaOycrnKQEKWMMsRn8bErdm64XH4KkCL3ECYD-UCk_vfD-_T3XicuI&s",Орск 8
@@ -983,22 +981,18 @@ https://stream5.infokop.net:1443/live_cameras/camera_7/playlist.m3u8
 https://stream5.infokop.net:1443/live_cameras/husky/playlist.m3u8
 #EXTINF:-1 group-title="Сербия 🇷🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEUOL7_kaBGhWaQpvc7oG_0_KrjXC0QfmffPFXCc9GoisgroxgQWWO60Q3Lg&s",Сербия 8
 https://stream5.infokop.net:1443/live_cameras/jat/playlist.m3u8
+#EXTINF:-1 group-title="Сербия 🇷🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn_tb2-TGxJlenPJezen7hfYMC2CK-ielOvLstVySaHpzmlLaRO39e_FttOQ&s",Сербия 9
+https://stream5.infokop.net:1443/live_cameras/green/playlist.m3u8
 #EXTINF:-1 group-title="Сербия 🇷🇸" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrh9Pa8oFWm7KpPcBAoGze7hlQ3cKmAUdr8BWhLZU80viSO6j4cJnapS8Ea9s&s",Сербия 10
 https://stream5.infokop.net:1443/live_cameras/grand/playlist.m3u8
-#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdKBGk3ee_7_MwpvWm8W6dy1hQhe8TM_UO_ZgaGXd4OXesCCY9Toh31Ua6mQ&s",1
-http://stream.kukaj.se/stream/1/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7w15262n4uBHhdhdKH9Fwcrn13zhcm4d3pAxvlWHcqN25lokl2Vr26BOP8rc&s",2
 http://stream.kukaj.se/stream/3/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSYKAC5z0RXXpHViyM9dcGAcUdEmfiy9aRCNiRyoXIGDPH-jAFP-_b9EgYCo&s",3
 http://stream.kukaj.se/stream/4/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMR30kUEdVFSiPq6uHXeTkCMSOMYoGFL8AcGLpDzpMLCVmPuAZOSrLtPX6k7M&s",4
 http://stream.kukaj.se/stream/2/video.m3u8
-#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YIhMmAztY3Gpq-_5fmXwIWAD6xLz80G_Gy1pO1I8xWAgfgqGwgMr_ABM--s&s",5
-http://stream.kukaj.se/stream/11/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IuUPQqundwm6JTgwB3nSqLaPsQgAPAtEuSe1mz8q-VIx_NuKF6DoLvrT86E&s",7
 http://stream.kukaj.se/stream/18/video.m3u8
-#EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRr8m9PTrIg9d8cuzD8k90C41f-1xwurOMBGxEOgjPBR82E5Hg5Kq1xuMvw&s",8
-http://stream.kukaj.se/stream/12/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgvE26W-AMWFNwDIdb_SJ4wvg-7k7iN1bM4wvy6iQIAcZ3k29nataQF5RpQ&s",13
 http://stream.kukaj.se/stream/27/video.m3u8
 #EXTINF:-1 group-title="Словакия 🇸🇰" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2cgGJFbY0B493jBApkbAJptI9SaWEWTyDYAIcsGcX3qg2o3BmqZc7YGATA&s",14
