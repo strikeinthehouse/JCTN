@@ -59,8 +59,6 @@ https://stream.n1.au.swellnet.com/surfcams/south-port.stream/chunks.m3u8
 https://stream.n1.au.swellnet.com/surfcams/shark-island.stream/playlist.m3u8
 #EXTINF:-1 group-title="Австралия 🇦🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMyrd4FZaFzmKNJ3rF_Ym-b9nF5IcepBwSfyMWa54B93Rf-b0fivfMvgcIjg&s",Австралия 7
 https://hls.augrea.stream/coral/hls/stream.m3u8
-#EXTINF:-1 group-title="Австралия 🇦🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQDeUgpgrQN0sHG3AvwaPgd5it_BP7DgxqbWEPYj-GFpbt4FM5nqcEkV6Iw&s",Австралия 8
-https://hls.augrea.stream/barron/hls/stream.m3u8
 #EXTINF:-1 group-title="Австралия 🇦🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQKNZE-e6G59Z51_0hXCb27ppeQnfXLI99WOR1OnaBKWBsCoXuefbUEvRmw&s",Баллина Набережная
 https://streaming-au.coastalcoms.com/cw/ballinarmscamera.stream/chunklist.m3u8
 #EXTINF:-1 group-title="Австралия 🇦🇺" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXA8rnbJAGQ0r8XyjGA-bXnSs2uv-ISI0mEal20hc3qz0jguo_RlPc9NAq0Q&s",Брансуик-Хедс Побережье
@@ -133,8 +131,6 @@ http://maybach.railcam.co.uk/Buckfastleigh_68389/tracks-v1/mono.m3u8
 http://maybach.railcam.co.uk:80/Corfe_14435/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT343u8pZsNvyboX4wB0S7XkNktIrUPfotoQ7ZTLxxgTPcjYT9x0yPLADvok3g&s",Cramlington
 https://maybach.railcam.co.uk/Cramlington_54382/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3XAcqB57bWnZacmBHH6SFX-lFJgXHy_7piBaSe5F2Mm-ZffrLdKpkK60te_s&s",Crewe
-https://maybach.railcam.co.uk/Crewe2_16754/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCD_t2FDG345sl2GPUc-O-SoDOnOlZBL3sDBwDw65uDovjmFqA50Ss6lymUTQ&s",Flitwick
 https://maybach.railcam.co.uk/Flitwick_99123/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgkRkx8aGL1B-btwpJxQepvJTPLJ-aFzmTix7I_FD7h-8x_AgdWAohQ3b9Cw&s",Groom bridge
@@ -293,6 +289,8 @@ http://92.46.108.21:1934/rtplive/_definst_/camera2.stream/playlist.m3u8
 https://ipcam.kz/cam1/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Казахстан 🇰🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlIwIefg4SjhkQ1J5W0tzd2yV02CcsukUHGd5E8mlmfkl0ZHoXcVu6xjXoA&s",Шымбулак 2
 https://ipcam.kz/cam2/tracks-v1/mono.m3u8
+#EXTINF:-1 group-title="Казахстан 🇰🇿" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRccsRR7fNEhCm6VQxFaRt1jKdchub_PmEQim71KpNdBPaYIYuepVvkduGn4A&s",Шымбулак 6
+https://ipcam.kz/cam7/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Киргизия 🇰🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXoIwC9A4mFpStVZyHen7PlEvhLqh3lSoRiEyD37lTaS6UbxvVaS4RKSo0Pg&s",Бишкек 7
 https://cam.kt.kg/cam3/stream.m3u8
 #EXTINF:-1 group-title="Киргизия 🇰🇬" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSrn2Dkf5Xl4wFF-ZHUAZI_L3uFiCeRBgYxNW1hA2b0mbw7gXnwvl_ZBuNlE&s",Бишкек площадь Ала-Тоо
