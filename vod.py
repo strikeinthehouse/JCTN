@@ -43,24 +43,15 @@ def extract_globoplay_data(driver, url):
     # Obter o link m3u8 dos recursos de rede
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
     m3u8_url = None
+    thumbnail_url = None
+
+    # Buscar o link m3u8 e o primeiro arquivo .jpg nos recursos de rede
     for entry in log_entries:
         if ".m3u8" in entry['name']:
             m3u8_url = entry['name']
-            break
+        if ".jpg" in entry['name'] and not thumbnail_url:  # Pega o primeiro arquivo .jpg
+            thumbnail_url = entry['name']
 
-    # Obter a primeira imagem .jpg da página para usar como thumbnail
-    thumbnail_url = None
-    try:
-        # Encontrar todas as imagens na página
-        images = driver.find_elements(By.TAG_NAME, "img")
-        for img in images:
-            src = img.get_attribute("src")
-            if src and ".jpg" in src:
-                thumbnail_url = src
-                break  # Usar apenas a primeira imagem .jpg encontrada
-    except Exception as e:
-        print(f"Erro ao procurar imagem: {e}")
-    
     return title, m3u8_url, thumbnail_url
 
 # Inicializar o WebDriver
