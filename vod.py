@@ -34,6 +34,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/10740500/",
 ]
 
+
 # Função para extrair o link m3u8, título e thumbnail
 def extract_globoplay_data(driver, url):
     driver.get(url)
