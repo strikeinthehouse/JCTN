@@ -15,6 +15,7 @@ options.add_argument("--disable-infobars")
 globoplay_urls = [
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/6120663/",
+    "https://globoplay.globo.com/v/11999480/",
     "https://globoplay.globo.com/v/2145544/",
     "https://globoplay.globo.com/v/4039160/",
     "https://globoplay.globo.com/v/4218681/",
