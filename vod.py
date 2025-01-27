@@ -14,6 +14,14 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",
+    "https://tvmi.mt/episode/122783",
+    "https://tvmi.mt/episode/122784",
+    "https://tvmi.mt/episode/122785",
+    "https://tvmi.mt/episode/122786",
+    "https://tvmi.mt/episode/122861",
+    "https://tvmi.mt/episode/122900",
+    "https://tvmi.mt/episode/122901",
+    "https://tvmi.mt/episode/122923",
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/6120663/",
     "https://globoplay.globo.com/v/2145544/",
