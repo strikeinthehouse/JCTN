@@ -1,20 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 1" group-title="REALITY  BBB 2025✨",CAM 1
-http://servertr4.top:80/live/Leonardo12/Leonardo12/1521284.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 2" group-title="REALITY  BBB 2025✨",CAM 2
-http://192.168.1.115:80/hdmi
-#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 3" group-title="REALITY  BBB 2025✨",CAM 3
-http://servertr4.top:80/live/Leonardo12/Leonardo12/1521286.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 4" group-title="REALITY  BBB 2025✨",CAM 4
-http://servertr4.top:80/live/Leonardo12/Leonardo12/1521287.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://epg.svrtv.xyz/logos/bbb1.png" tvg-name="CAM 5" group-title="REALITY  BBB 2025✨",CAM 5
-http://servertr4.top:80/live/Leonardo12/Leonardo12/1521288.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telecinco.es" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
-http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manifest.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
-http://200.59.188.3:8000/play/a03a
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 2
-http://38.41.8.1:8000/play/a06j
 #EXTINF:-1, tvg-id="BBB25" tvg-name="BBB25" tvg-logo="https://loopstatic.net/bbb.jpg" group-title="Reality Show's Live",BBB25
 http://ntkhz.online:80/252771175/038132305/2299039.ts
 #EXTINF:-1, tvg-id="BBB25" tvg-name="BBB25" tvg-logo="https://loopstatic.net/bbb.jpg" group-title="Reality Show's Live",BBB25
@@ -46,6 +30,13 @@ http://cloud-nany.cc:80/Adm0001/10908070D/223734
 http://cloud-nany.cc:80/Adm0001/10908070D/223727
 #EXTINF:-1 tvg-id="BBB25 - CAM 11" tvg-logo="http://the-img.xyz/images/logo-bbb-24.png" tvg-name="BBB CAM12" group-title="Reality Show's Live",BBB CAM12
 http://cloud-nany.cc:80/Adm0001/10908070D/223726
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telecinco.es" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
+http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manifest.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
+http://200.59.188.3:8000/play/a03a
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 2
+http://38.41.8.1:8000/play/a06j
+
 
 
 
