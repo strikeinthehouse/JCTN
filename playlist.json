@@ -28,5 +28,25 @@
     "extra": [
       "#EXTVLCOPT:network-caching=1000"
     ]
+  },
+  {
+    "name": "CGTN Fran\u00e7ais (576p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTPvVg6t1wsFu4gCkXWWqGX0VZbEqvaBPNaqHxcx321dIvFabLkv1FAnsEg&s",
+    "url": "https://news.cgtn.com/resource/live/french/cgtn-f.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "DW English (1080p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW5K1pv8MjQYK3XMSyB5OusS8qj4WVFMJKk7lHEegeF-8tbIxeyLHMgrM4Zg&s",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   }
 ]
