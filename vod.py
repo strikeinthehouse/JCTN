@@ -31,9 +31,11 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/602497/",
     "https://globoplay.globo.com/v/992055/",
     "https://globoplay.globo.com/v/8713568/",
+    "https://globoplay.globo.com/ao-vivo/3667427/",
     "https://globoplay.globo.com/v/8713568/",
     "https://globoplay.globo.com/v/10747444/",
     "https://globoplay.globo.com/v/10740500/",
+
 ]
 
 
