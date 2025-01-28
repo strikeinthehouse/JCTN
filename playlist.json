@@ -1,218 +1,32 @@
 [
   {
-    "name": "TV Ouro Negro",
-    "group": "Religioso",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0COH3IGYnU4E00BSPOrJjQl465Tr_TdtZsmHUMwxOjFgNtKHcirYzt9YnQQ&s",
-    "url": "https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8",
-    "extra": []
+    "name": "Bloomberg TV Asia Live Event (720p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_Lpr3VzQEUSxrQOCF8e2UMHRYEvmWehQ6zDYgU82Re9m2xOYmHbL9w2ZIw&s",
+    "url": "https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "TV Metr\u00f3pole",
-    "group": "Educativo",
-    "tvg_id": "",
-    "logo": "https://upload.wikimedia.org/wikipedia/pt/9/92/Logotipo_da_TV_Metr%C3%B3pole.png",
-    "url": "https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8",
-    "extra": []
+    "name": "CCTV+ 1 (600p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRED5JuoPYimK38rrmeLL_zRnYAdmVbHGa3im6gPqEhHOvGMRjfgdcVZyRG5qU&s",
+    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "TV C\u00e2mara",
-    "group": "Legislativo",
-    "tvg_id": "TVCamara.br(m3u4u)",
-    "logo": "https://logodownload.org/wp-content/uploads/2019/01/tv-camara-logo.png",
-    "url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV C\u00e2mara 2",
-    "group": "Legislativo",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmAK8JaiVCMSXfdTVNg6M4Y7uCVyocQQ8-zLHeAX4UZlxXIeQhQ_tqGhw9HA&s",
-    "url": "https://stream3.camara.gov.br/tv2/manifest.m3u8",
-    "extra": []
-  },
-  {
-    "name": "SBT Bras\u00edlia",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiINTfWKI8DaXxhWR3kv1C6BmkBnrk2KhPaAfudN7u9qQ4nzdMS2-BgfLPWmI&s",
-    "url": "https://www.youtube.com/user/TVSBTBrasilia/live",
-    "extra": []
-  },
-  {
-    "name": "TV Justi\u00e7a",
-    "group": "Governamental",
-    "tvg_id": "TV.JUSTI\u00c7A.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCP_Cw1kDWhTMxsZjwgRIC938heE5tEiYHbH3-OlvVv32DeQdzSZxc3XMyDQ&s",
-    "url": "https://www.youtube.com/channel/UC0qlZ5jxxueKNzUERcrllNw/live",
-    "extra": []
-  },
-  {
-    "name": "Fonte TV",
-    "group": "Religioso",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5KFT95gJ7Oq2XlZb-yZ1M5QU9jvOKsANEYTFN0e2hi23jp5lqnehIQzlbn98&s",
-    "url": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV ALMG",
-    "group": "Legislativo",
-    "tvg_id": "TVAssembleiadeMinasGerais.br(m3u4u)",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABi8YvUTgElu7iOE-JurSCWCYe-tDpnv8F2onqg9uuysaxcUo7SGqH-AKM-E&s",
-    "url": "https://streaming.almg.gov.br/live/tvalmg.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV Horizonte",
-    "group": "Religioso",
-    "tvg_id": "HorizonteTV.br(m3u4u)",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTciZP1zlXx5GU9dUjGIZBokccNYLT7eW9jnLvPwKK3BYAWdt5oi8kOzM8P46g&s",
-    "url": "https://www.youtube.com/channel/UC_n4rC_MIZVtpKHmtIc_QbQ/live",
-    "extra": []
-  },
-  {
-    "name": "O Caminho Antigo",
-    "group": "Religioso",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcTMDk-d9s49phWNeizToTJBaF09dATCIH_0H-bMTllo2wFH1qcmmgnqdJg&s",
-    "url": "https://www.youtube.com/channel/UC-ifnHf4QVhOS7ZKQTkfXdQ/live",
-    "extra": []
-  },
-  {
-    "name": "TV Vi\u00e7osa",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQenkgHzLvHN1wstlZ8WYAvTSOBXN4OiD1GOwPwmvvYedp5iQyTHpdEYXlCA&s",
-    "url": "http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV Assembleia MT",
-    "group": "Legislativo",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKT-gCnEHLHtMa17Maf3jJ4SUVZnYjg8VQ8nYTcdvSuTasY20dnHJjF68ZBQ&s",
-    "url": "https://streaming.al.mt.gov.br/test/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "SBT Par\u00e1",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhbK9nDDcQuaMiyOlNBjRYJc5cuxfUAHt6aWV7K7zfUCeqNpC_YSztoO9HHt4&s",
-    "url": "https://www.youtube.com/user/SBTPara/live",
-    "extra": []
-  },
-  {
-    "name": "RBA TV",
-    "group": "Geral",
-    "tvg_id": "RBATV.br(m3u4u)",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcsXMwImSXxvMfUA3hkKY_ro46acwEksgzZVjspbdesjqCzdcy021aWFxBXHw&s",
-    "url": "https://5cf4a2c2512a2.streamlock.net/rbatv/rbatv/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV Cidade Verde Piau\u00ed",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKppT-7dxnwJPaVJdx65GEHzweR0ESEHCFFj0e460TLHQ_iGSxWn8cksD09Q&s",
-    "url": "https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV ALERJ",
-    "group": "Legislativo",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvcQRv9tZJn2yLpcx-9ev4KY1FnieRk1ZV0WLUoSCekwwvH51j9PXekxoarg&s",
-    "url": "https://www.youtube.com/channel/UCH1a8t5cikU9cYa69BLVfbQ/live",
-    "extra": []
-  },
-  {
-    "name": "Di\u00e1rio TV Teres\u00f3polis",
-    "group": "Not\u00edcias",
-    "tvg_id": "",
-    "logo": "https://www.netdiario.com.br/img/logo.png",
-    "url": "https://www.youtube.com/channel/UCYA_8op4pkwqWxbmcW-pzzQ/live",
-    "extra": []
-  },
-  {
-    "name": "SBT RS",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQtGhwuKBKzeFNT9CFZ3ujYaOtQUv_grkiYi07T4A6D0nitnm-vr8mBMgbf6c&s",
-    "url": "https://www.youtube.com/user/TVSBTRS/live",
-    "extra": []
-  },
-  {
-    "name": "SCC SBT",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnv1pecBEd4yAV1MzZLOGOcgey2uAiq0t9_Jh8fXJupSFL5D8GVjlibHfvNQ&s",
-    "url": "https://www.youtube.com/channel/UCEzVIIPtAIfsRCEHwn4AOzw/live",
-    "extra": []
-  },
-  {
-    "name": "Can\u00e7\u00e3o Nova",
-    "group": "Religioso",
-    "tvg_id": "CancaoNova.br(m3u4u)",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWe4DjfVmr1vXjrm9zEsT72s61960z3izKQQfhKLsabKDRQtsejPF8g-ylFsE&s",
-    "url": "https://www.youtube.com/channel/UCVrKQMmA2ew9LFzeIDaOFgw/live",
-    "extra": []
-  },
-  {
-    "name": "TV Novo Tempo",
-    "group": "Religioso",
-    "tvg_id": "TVNovoTempo.br(m3u4u)",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKq6l1wn6-s0ZJCzrGcAbjbRF98EWkGgJatI_RsEHMYLw-4mkYC7GrcKerskw&s",
-    "url": "https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Canal 25 Jundia\u00ed",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6VG2tvtawt_B1LZN5FqJDkRy-UFWJaf4TolVwpC7m2NNXv29Js31_pXxSj0&s",
-    "url": "https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8",
-    "extra": []
-  },
-  {
-    "name": "VTV SBT",
-    "group": "Geral",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_YiG8wR-nsgcT01aVcNFED-_644_HJcChpAVdwFcj5LbVdRnNWJltMio-Ek&s",
-    "url": "https://www.youtube.com/channel/UC40TUSUx490U5uR1lZt3Ajg/live",
-    "extra": []
-  },
-  {
-    "name": "Rede Vida",
-    "group": "Religioso",
-    "tvg_id": "RedeVida.br(m3u4u)",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQybq0LQbNqBx_CwUKFfaHmtoyph4QUs9HridFNjrvN77gowYozo8ZD7qu_gg&s",
-    "url": "https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Rede ALESP",
-    "group": "Legislativo",
-    "tvg_id": "TVALESP.br(m3u4u)",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzwj0jl5sOBasRnA-LeUnlT3EMfZ-CfEdw6bg7x09fAKFXJ2ZWeMu0kLdqIA&s",
-    "url": "https://www.youtube.com/user/assembleiaspconteudo/live",
-    "extra": []
-  },
-  {
-    "name": "Rede Mundial",
-    "group": "Religioso",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuewt3szD6A9khpGz_eHH4UySVJS1SSb9PDzvWr_kkYJocbdUhHox5a7keKA&s",
-    "url": "https://58a4464faef53.streamlock.net/impd/ngrp:impd_all/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "RIT TV",
-    "group": "Religioso",
-    "tvg_id": "RIT.TV.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTSE0L6tJjJheLjqu3ZFxyTMNzptPwvfuALmp6JItAjcULmn-gb6Z2ExATBQ&s",
-    "url": "https://www.youtube.com/channel/UCA0bOG0NUfJ855eDtHSxOkw/live",
-    "extra": []
+    "name": "CCTV+ 2 (600p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRED5JuoPYimK38rrmeLL_zRnYAdmVbHGa3im6gPqEhHOvGMRjfgdcVZyRG5qU&s",
+    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   }
-][]
+]
