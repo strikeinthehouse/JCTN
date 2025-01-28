@@ -22,6 +22,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/2145544/",
     "https://globoplay.globo.com/v/11999480/",    
     "https://globoplay.globo.com/v/4039160/",
+    "https://globoplay.globo.com/ao-vivo/3667427/",
     "https://globoplay.globo.com/v/4218681/",
     "https://globoplay.globo.com/v/4064559/",
     "https://globoplay.globo.com/v/3065772/",
@@ -31,11 +32,9 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/602497/",
     "https://globoplay.globo.com/v/992055/",
     "https://globoplay.globo.com/v/8713568/",
-    "https://globoplay.globo.com/ao-vivo/3667427/",
     "https://globoplay.globo.com/v/8713568/",
     "https://globoplay.globo.com/v/10747444/",
     "https://globoplay.globo.com/v/10740500/",
-
 ]
 
 
