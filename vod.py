@@ -15,6 +15,7 @@ options.add_argument("--disable-infobars")
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",
+    "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/6120663/",
     "https://globoplay.globo.com/v/2145544/",
