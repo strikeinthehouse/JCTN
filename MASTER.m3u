@@ -23,7 +23,7 @@ http://123.146.162.24:8013/tslslive/PU2vzMI/hls/live_sd.m3u8
 #EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbRcJzrQYnPuZje1MuhAZD4fqHr863bCxXxzMkPc6s9kGUZm-xvDi9agyWC8&s",万州影视 (576p) [Not 24/7]
 #EXTVLCOPT:network-caching=1000
 http://123.146.162.24:8013/tslslive/vWlnEzU/hls/live_sd.m3u8
-#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",万州科教 (576p)
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUuUyxENi_XQcGxuJ-Shn2AQwkFNcLjXloc8kzClm-e69UKlFcizSCqN50TQ&s",万州科教 (576p)
 #EXTVLCOPT:network-caching=1000
 http://123.146.162.24:8013/tslslive/URetCnP/hls/live_sd.m3u8
 #EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",万州综合 (576p) [Not 24/7]
@@ -38,3 +38,27 @@ http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
 #EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",上虞經濟文化 (720p) [Not 24/7]
 #EXTVLCOPT:network-caching=1000
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5TarCb-QRwo8g3nXZbkUx8j6A48bUx5kkqNXAxJpWIDnslZ_3AGh7dsl8BA&s",中国气象 (576p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",云南 Ⅰ 文山综合台 (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoN2qQB_CM3SPjEcKnMg1uJJ7BEWR21lBHNWPoM59iSD8bHDP7L-yAt0JzGQ&s",余姚姚江文化 (576p)
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKypX2Y1IuuoE98dRXnrtib1K4BzTRBjgmYoCowvu49V3TD-GDeTRt2oDpWw&s",余姚新闻综合 (576p)
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2qer1UAmWjRD0Pq_kvg-7MmYCtLKK5CT-BhQIIV7x7Cni91ezguWJ76fJXPU&s",前郭综合 [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+http://stream2.jlntv.cn/qg/sd/live.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeqlSQ0Ai5BY_8Fwn4-s1ojG3KcysPFLOasa-FJ6jT0p55sYf5PHOjJgmk2M&s",半岛新闻 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3TItUpSC21YcJHeN1vZMDmp85nAGT8WROCijJMlZh2GvkAclzvlVtIuTK-M&s",南京十八 (720p)
+#EXTVLCOPT:network-caching=1000
+http://live.nbs.cn/channels/njtv/sbpd/m3u8:500k/live.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3TItUpSC21YcJHeN1vZMDmp85nAGT8WROCijJMlZh2GvkAclzvlVtIuTK-M&s",南京娱乐 (720p)
+#EXTVLCOPT:network-caching=1000
+http://live.nbs.cn/channels/njtv/ylpd/m3u8:500k/live.m3u8
