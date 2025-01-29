@@ -240,6 +240,16 @@
     ]
   },
   {
+    "name": "\u5947\u5999\u96fb\u8996 (720p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQj_c16nroswLI8BJc2Y3CwnH4wCU9RZzLUw_uWOI-Mu937OY7_iatgzgYuM&s",
+    "url": "http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
     "name": "\u5b5f\u5dde\u7535\u89c6\u53f0 (1080p) [Not 24/7]",
     "group": "CHINA",
     "tvg_id": "Undefined",
@@ -279,4 +289,4 @@
       "#EXTVLCOPT:network-caching=1000"
     ]
   }
-][][]
+]
