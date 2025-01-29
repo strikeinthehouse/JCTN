@@ -17,3 +17,24 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntnpkBxMNBpEou3f2pTxIktIizzzqO1bG0HXNvi8w0DeS9nR9St-8PAzKNw&s",Red Bull TV (1080p)
 #EXTVLCOPT:network-caching=1000
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS44lfqgxcGjJgExcpDcXOzs7xGyonk7nCefjpIpfA3xU0rFxIrGgakbE8BFg&s",万州三峡移民 (576p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://123.146.162.24:8013/tslslive/PU2vzMI/hls/live_sd.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbRcJzrQYnPuZje1MuhAZD4fqHr863bCxXxzMkPc6s9kGUZm-xvDi9agyWC8&s",万州影视 (576p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://123.146.162.24:8013/tslslive/vWlnEzU/hls/live_sd.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUuUyxENi_XQcGxuJ-Shn2AQwkFNcLjXloc8kzClm-e69UKlFcizSCqN50TQ&s",万州科教 (576p)
+#EXTVLCOPT:network-caching=1000
+http://123.146.162.24:8013/tslslive/URetCnP/hls/live_sd.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",万州综合 (576p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://123.146.162.24:8013/tslslive/noEX9SG/hls/live_sd.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",上虞1新闻综合 (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",上虞3新商都 (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",上虞經濟文化 (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
