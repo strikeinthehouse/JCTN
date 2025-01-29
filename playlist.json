@@ -130,16 +130,6 @@
     ]
   },
   {
-    "name": "\u4e2d\u56fd\u6c14\u8c61 (576p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5TarCb-QRwo8g3nXZbkUx8j6A48bUx5kkqNXAxJpWIDnslZ_3AGh7dsl8BA&s",
-    "url": "http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
     "name": "\u4e91\u5357 \u2160 \u6587\u5c71\u7efc\u5408\u53f0 (1080p) [Not 24/7]",
     "group": "CHINA",
     "tvg_id": "Undefined",
@@ -240,6 +230,16 @@
     ]
   },
   {
+    "name": "\u5947\u5999\u96fb\u8996 (720p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQj_c16nroswLI8BJc2Y3CwnH4wCU9RZzLUw_uWOI-Mu937OY7_iatgzgYuM&s",
+    "url": "http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
     "name": "\u5b5f\u5dde\u7535\u89c6\u53f0 (1080p) [Not 24/7]",
     "group": "CHINA",
     "tvg_id": "Undefined",
@@ -253,7 +253,7 @@
     "name": "\u5bbf\u5dde\u516c\u5171 (1080p) [Not 24/7]",
     "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj64yoryMSzk7yJGpI03PFtod4Ln5uyi65uPdC1rop_gyJLUQwgULKjyaF3A&s",
     "url": "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8",
     "extra": [
       "#EXTVLCOPT:network-caching=1000"
@@ -279,4 +279,4 @@
       "#EXTVLCOPT:network-caching=1000"
     ]
   }
-][][][]
+]
