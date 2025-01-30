@@ -74,7 +74,7 @@ def extract_globoplay_data(driver, url):
             m3u8_url = entry['name']
         if ".jpg" in entry['name']:
             jpg_count += 1
-            if jpg_count == 2:  # Se for o terceiro arquivo .jpg
+            if jpg_count == 1:  # Se for o terceiro arquivo .jpg
                 thumbnail_url = entry['name']
                 break  # Sai do loop, pois encontrou o terceiro arquivo .jpg
     
