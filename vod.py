@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 # Configurações do Chrome
@@ -14,21 +15,22 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",
+    "https://www.tvgazeta.com.br/aovivo/",
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",
     "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",
     "https://globoplay.globo.com/v/2135579/",
     "https://globoplay.globo.com/v/6120663/",
-    "https://globoplay.globo.com/v/2145544/",
-    "https://globoplay.globo.com/v/11999480/",    
     "https://globoplay.globo.com/v/4039160/",
+    "https://globoplay.globo.com/v/2145544/",
+    "https://globoplay.globo.com/v/6329086/",
+    "https://globoplay.globo.com/v/11999480/",    
     "https://globoplay.globo.com/ao-vivo/3667427/",
     "https://globoplay.globo.com/v/4218681/",
     "https://globoplay.globo.com/v/4064559/",
     "https://globoplay.globo.com/v/3065772/",
     "https://globoplay.globo.com/v/2168377/",
     "https://globoplay.globo.com/v/2923546/",
-    "https://globoplay.globo.com/v/6329086/",
     "https://globoplay.globo.com/v/602497/",
     "https://globoplay.globo.com/v/992055/",
     "https://globoplay.globo.com/v/8713568/",
@@ -37,11 +39,25 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/10740500/",
 ]
 
-
 # Função para extrair o link m3u8, título e thumbnail
 def extract_globoplay_data(driver, url):
     driver.get(url)
-    time.sleep(40)  # Aguarde a página carregar completamente
+    time.sleep(5)  # Aguarde a página carregar inicialmente
+
+    try:
+        # Verifica se o elemento <div class="poster__background-overlay"> está presente
+        overlay_element = driver.find_element(By.CSS_SELECTOR, "div.poster__background-overlay")
+        
+        if overlay_element:
+            # Clica no elemento se ele existir
+            overlay_element.click()
+            time.sleep(10)  # Espera após o clique para a nova página carregar ou ação ser executada
+            print("Clique realizado na sobreposição.")
+    
+    except Exception as e:
+        print("Elemento não encontrado ou erro ao tentar clicar:", e)
+
+    time.sleep(40)  # Aguarde a página carregar completamente após a ação de clique
     
     # Obter o título da página
     title = driver.title
