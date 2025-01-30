@@ -1,352 +1,178 @@
 [
   {
-    "name": "Bloomberg TV Asia Live Event (720p)",
-    "group": "CHINA",
+    "name": "India Today (720p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_Lpr3VzQEUSxrQOCF8e2UMHRYEvmWehQ6zDYgU82Re9m2xOYmHbL9w2ZIw&s",
-    "url": "https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Y7Fa2eUglqqWnMcDRBzIfLYuP7QpPe9qHkoq7zEzmoxxwUPYSdqFTzuYm3s&s",
+    "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "CCTV+ 1 (600p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "Iran International (1080p)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRED5JuoPYimK38rrmeLL_zRnYAdmVbHGa3im6gPqEhHOvGMRjfgdcVZyRG5qU&s",
-    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yB6IKighgeiOzJDgn4N59HxeW8vYJ-yZvnJ09beDbczjKzF89ObFvcNIgQ&s",
+    "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
+    "extra": []
   },
   {
-    "name": "CCTV+ 2 (600p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "Iran International (1080p) 2",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRED5JuoPYimK38rrmeLL_zRnYAdmVbHGa3im6gPqEhHOvGMRjfgdcVZyRG5qU&s",
-    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yB6IKighgeiOzJDgn4N59HxeW8vYJ-yZvnJ09beDbczjKzF89ObFvcNIgQ&s",
+    "url": "https://live.playstop.me/1816184091/index.m3u8",
+    "extra": []
   },
   {
-    "name": "CGTN Fran\u00e7ais (576p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "Mekameleen TV (1080p)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTPvVg6t1wsFu4gCkXWWqGX0VZbEqvaBPNaqHxcx321dIvFabLkv1FAnsEg&s",
-    "url": "https://news.cgtn.com/resource/live/french/cgtn-f.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMZu7S7q3DOwIXtf_e9OLBqjhSWESBt7dP8UnixvT7T2P37LPOoFzFfuwLfw&s",
+    "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "DW English (1080p)",
-    "group": "CHINA",
+    "name": "Nabaa TV (720p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW5K1pv8MjQYK3XMSyB5OusS8qj4WVFMJKk7lHEegeF-8tbIxeyLHMgrM4Zg&s",
-    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnxG0QtwsW76M0Jsa_Lzpn9_-IZzZpO3KB4ZptJQEWalGPDDn0YWIZg-WhA4&s",
+    "url": "http://31.14.40.237:1935/live/Nabaa/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "Red Bull TV (1080p)",
-    "group": "CHINA",
+    "name": "NHK World Japan (1080p)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntnpkBxMNBpEou3f2pTxIktIizzzqO1bG0HXNvi8w0DeS9nR9St-8PAzKNw&s",
-    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTudMUOp_W9esfXxP4kjduIAXZoQAKliKyj4uirNalhfVp6KvCuJKxrS46lEw&s",
+    "url": "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4e07\u5dde\u4e09\u5ce1\u79fb\u6c11 (576p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "Palitra News (480p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS44lfqgxcGjJgExcpDcXOzs7xGyonk7nCefjpIpfA3xU0rFxIrGgakbE8BFg&s",
-    "url": "http://123.146.162.24:8013/tslslive/PU2vzMI/hls/live_sd.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8mDa-OJxF23I-zmAztj-GYCvc_ysIqBXXI-IGSFv2f71VN58E5rOJ4k1Pw&s",
+    "url": "https://live.palitranews.ge/hls/palitratv/index.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4e07\u5dde\u5f71\u89c6 (576p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "Pluto TV Black News Channel (720p)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbRcJzrQYnPuZje1MuhAZD4fqHr863bCxXxzMkPc6s9kGUZm-xvDi9agyWC8&s",
-    "url": "http://123.146.162.24:8013/tslslive/vWlnEzU/hls/live_sd.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-iJj-ntzOJuw3FD7TBUV6ibzLTkKyaTYOuLIAm4Ea6HbGDON35dFDXOUx1A&s",
+    "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1efad04320070007dbb60b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS",
+    "extra": []
   },
   {
-    "name": "\u4e07\u5dde\u79d1\u6559 (576p)",
-    "group": "CHINA",
+    "name": "Real News Kerala (1080p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUuUyxENi_XQcGxuJ-Shn2AQwkFNcLjXloc8kzClm-e69UKlFcizSCqN50TQ&s",
-    "url": "http://123.146.162.24:8013/tslslive/URetCnP/hls/live_sd.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKgJD6xeiHQHlJcy9tbppBmPWixDvci3pJMUyusljR0v_oBnQXbczGNnixjM&s",
+    "url": "https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4e07\u5dde\u7efc\u5408 (576p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "RTP3 (720p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
-    "url": "http://123.146.162.24:8013/tslslive/noEX9SG/hls/live_sd.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpOJ1_M2LtqmfImi1MzxEz2SwXBA0F-J0iwQ0FJZgtM4W-_9XghqW8dktZSw&s",
+    "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4e0a\u865e1\u65b0\u95fb\u7efc\u5408 (720p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "RTV Total (Yurimaguas) (480p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4PQr3c70C-Fi0-azS4T4etW7cZmCBk4T5Xuw6JrdMvs7TgIxX_v-RP_jRbw&s",
+    "url": "https://7.innovatestream.pe:19360/rtvtotal/rtvtotal.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4e0a\u865e3\u65b0\u5546\u90fd (720p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "Rudaw TV (1080p)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRyX5gM1qgKBwvN4jiFD89GjQ4edKxUJ5qvZfBb-s6Pv8pyvIeiF-K8GWf6A&s",
+    "url": "https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4e0a\u865e\u7d93\u6fdf\u6587\u5316 (720p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "TGRT Haber (360p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBUVFUbQjCfxmMpggBedM_I9WgjosNlUDQfUdwXKxG5S8fOn2CkuukDLnpKQ&s",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4e91\u5357 \u2160 \u6587\u5c71\u7efc\u5408\u53f0 (1080p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "The Wall Street Journal Live (720p)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
-    "url": "http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-Lo4zVOk57PJuanSo7_-DUpUFX2dbPzuqfAQekwwVxlnUgkBk5nuw10V1vo&s",
+    "url": "https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4f59\u59da\u59da\u6c5f\u6587\u5316 (576p)",
-    "group": "CHINA",
+    "name": "The Young Turks (TYT) (1080p) [Not 24/7]",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoN2qQB_CM3SPjEcKnMg1uJJ7BEWR21lBHNWPoM59iSD8bHDP7L-yAt0JzGQ&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJMwPHJfqZWsPH6zi8vpPjErxgVO2IumE2dLctELExdkMoYwaB3YRrMwCUbtE&s",
+    "url": "https://tyt-xumo-us.amagi.tv/hls/amagi_hls_data_tytnetwor-tyt-xumo/CDN/master.m3u8",
+    "extra": []
   },
   {
-    "name": "\u4f59\u59da\u65b0\u95fb\u7efc\u5408 (576p)",
-    "group": "CHINA",
+    "name": "like Gecko) Mobile/13G36\" - TVM El Salvador (720p)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKypX2Y1IuuoE98dRXnrtib1K4BzTRBjgmYoCowvu49V3TD-GDeTRt2oDpWw&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpHnm2RwVP4Qe4Va3ios2B9a9QMhz2xpeFPUX84tSItHy9E3MUXs5asDysZic&s",
+    "url": "http://168.227.22.18:1935/tvm/tvm.stream/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u524d\u90ed\u7efc\u5408 [Geo-blocked]",
-    "group": "CHINA",
+    "name": "Mir TV - Mir 24",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2qer1UAmWjRD0Pq_kvg-7MmYCtLKK5CT-BhQIIV7x7Cni91ezguWJ76fJXPU&s",
-    "url": "http://stream2.jlntv.cn/qg/sd/live.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTplnJbDxNcX5CSLXOmza8f3WsIGWS137qpkxnDoUS2bjF1sAPQ2q3kbP8Cuw&s",
+    "url": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u534a\u5c9b\u65b0\u95fb (1080p)",
-    "group": "CHINA",
+    "name": "IGI Channel (SD)",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeqlSQ0Ai5BY_8Fwn4-s1ojG3KcysPFLOasa-FJ6jT0p55sYf5PHOjJgmk2M&s",
-    "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqYP2Y3UecNS-iXsrMngS2dsGye7bZHDfrlVFDQjbIaVPf_FgRix62sKGeEWM&s",
+    "url": "http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u5357\u4eac\u5341\u516b (720p)",
-    "group": "CHINA",
+    "name": "IGI Channel (SD) - Duplicate",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3TItUpSC21YcJHeN1vZMDmp85nAGT8WROCijJMlZh2GvkAclzvlVtIuTK-M&s",
-    "url": "http://live.nbs.cn/channels/njtv/sbpd/m3u8:500k/live.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3gXJiwLM_38iVH4Ll7qxcDPq6rbw7XLHjUCKgRJGrqofDxpi8uOvDok42Q&s",
+    "url": "https://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8",
+    "extra": []
   },
   {
-    "name": "\u5357\u4eac\u5a31\u4e50 (720p)",
-    "group": "CHINA",
+    "name": "UTV Channel",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3TItUpSC21YcJHeN1vZMDmp85nAGT8WROCijJMlZh2GvkAclzvlVtIuTK-M&s",
-    "url": "http://live.nbs.cn/channels/njtv/ylpd/m3u8:500k/live.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmipvNgVDeBvWyY2cGr0Fh8KTBe8wVicH-6AoPqKN4mxgzRk7MM70F7yc0NI&s",
+    "url": "http://92.50.128.180/utv/1358/index.m3u8",
+    "extra": []
   },
   {
-    "name": "\u552f\u5fc3\u96fb\u8996 (480p)",
-    "group": "CHINA",
+    "name": "8TV Russia",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD5DRJvBo3gZy1Hmv__fryc0a6XJTJ_5L88tcfUR7UhPUQ0WPR_ux4L44nRA&s",
-    "url": "http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnMYax1dRk4a00BSXYUi2-UyMZNzm52Dl9MDJawBUprvbWIBKCqlhlGZ9KAnM&s",
+    "url": "http://v4.proofix.ru:80/8tv-russia/index.m3u8",
+    "extra": []
   },
   {
-    "name": "\u56db\u5ddd \u2160 \u5df4\u4e2d\u7efc\u5408\u53f0 (1080p) [Not 24/7]",
-    "group": "CHINA",
+    "name": "8TV Europe",
+    "group": "N/A",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
-    "url": "http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u56db\u5e73\u65b0\u95fb\u7efc\u5408 [Geo-blocked]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBT2pcxuwhp4vywJgH8wFfO4FQ5h9VAo7PohyL8mjSjSh24mu7tFHzuFQxdyE&s",
-    "url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5b5f\u5dde\u7535\u89c6\u53f0 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2OJSWqBkw_dEVtcdfPadzGpS1RaJJcPw3L2osV6Kje8Z5c45gr_VpMceS04&s",
-    "url": "http://live.dxhmt.cn:9081/tv/10883-1.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5bbf\u5dde\u516c\u5171 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj64yoryMSzk7yJGpI03PFtod4Ln5uyi65uPdC1rop_gyJLUQwgULKjyaF3A&s",
-    "url": "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5bbf\u5dde\u65b0\u95fb\u7efc\u5408 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
-    "url": "http://live.ahsz.tv/video/s10001-szzh/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5bbf\u5dde\u79d1\u6559 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
-    "url": "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5d4a\u5dde\u7efc\u5408 (720p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbj4Lonfx3HQxXLci0k68k8gNE7P0pwRrt8eb3Yg6cPq2Chh0hIta3xG_YsQ&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5ef6\u8fb9\u536b\u89c6 (720p)",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJia9SZcFYoVkgKJFZ-L2CYBnVydPU0usITxj6X7AIuwc_whqF64EX4a4qPw&s",
-    "url": "http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5ef6\u8fb9\u65b0\u95fb\u7efc\u5408 [Geo-blocked]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBT2pcxuwhp4vywJgH8wFfO4FQ5h9VAo7PohyL8mjSjSh24mu7tFHzuFQxdyE&s",
-    "url": "http://stream2.jlntv.cn/jlyb/sd/live.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5efa\u5b89\u7535\u89c6\u53f0 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa8y92fe4QYnJjlGcY_BTrGbAc-o7HVJkB6YH2TuRyfRNV3MM7m70Ws_2k58Q&s",
-    "url": "http://live.dxhmt.cn:9081/tv/11003-1.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5f20\u5bb6\u6e2f\u65b0\u95fb\u7efc\u5408 (720p)",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIUmnegu7_eII204f2X5yjJMYxiihznx0mSPvocxzNxV1efYigHrkXLIFhXU&s",
-    "url": "http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u5f20\u5bb6\u6e2f\u793e\u4f1a\u751f\u6d3b (720p)",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqTBLO32z83zg_uKJZeu2SA134iBYE7a7ZwWip3mVG52f0eXfG5AANsQKKsE&s",
-    "url": "http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u65b0\u660c\u4f11\u95f2\u5f71\u89c6 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYx6jmXTS6vGLVHPXufWD-s2jh5eT1TWH2WvESr8LcZ8wtShDzH0Q8oJo3FQ&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
-    "name": "\u65b0\u660c\u65b0\u805e\u7d9c\u5408 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShu7X8H2AdDfqyKY3X1_3rhquFCLNaru3bLJm8dvhrl7rvUepEkOtz7N0J6g&s",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpOvF4OLNgdDev3M6z8dwi7Efm2nKc2nOxmBuj9ESzibdBFGJNlG5QKrKQRAk&s",
+    "url": "http://v4.proofix.ru:80/8tv-europe/index.m3u8",
+    "extra": []
   }
-][][]
+]
