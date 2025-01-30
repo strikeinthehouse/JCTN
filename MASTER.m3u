@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml"
+#EXTM3U
 #EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_Lpr3VzQEUSxrQOCF8e2UMHRYEvmWehQ6zDYgU82Re9m2xOYmHbL9w2ZIw&s",Bloomberg TV Asia Live Event (720p)
 #EXTVLCOPT:network-caching=1000
 https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
@@ -80,3 +80,27 @@ http://live.ahsz.tv/video/s10001-szzh/index.m3u8
 #EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",宿州科教 (1080p) [Not 24/7]
 #EXTVLCOPT:network-caching=1000
 http://live.ahsz.tv/video/s10001-kxjy/index.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbj4Lonfx3HQxXLci0k68k8gNE7P0pwRrt8eb3Yg6cPq2Chh0hIta3xG_YsQ&s",嵊州综合 (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJia9SZcFYoVkgKJFZ-L2CYBnVydPU0usITxj6X7AIuwc_whqF64EX4a4qPw&s",延边卫视 (720p)
+#EXTVLCOPT:network-caching=1000
+http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBT2pcxuwhp4vywJgH8wFfO4FQ5h9VAo7PohyL8mjSjSh24mu7tFHzuFQxdyE&s",延边新闻综合 [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+http://stream2.jlntv.cn/jlyb/sd/live.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa8y92fe4QYnJjlGcY_BTrGbAc-o7HVJkB6YH2TuRyfRNV3MM7m70Ws_2k58Q&s",建安电视台 (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://live.dxhmt.cn:9081/tv/11003-1.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIUmnegu7_eII204f2X5yjJMYxiihznx0mSPvocxzNxV1efYigHrkXLIFhXU&s",张家港新闻综合 (720p)
+#EXTVLCOPT:network-caching=1000
+http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqTBLO32z83zg_uKJZeu2SA134iBYE7a7ZwWip3mVG52f0eXfG5AANsQKKsE&s",张家港社会生活 (720p)
+#EXTVLCOPT:network-caching=1000
+http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/playlist.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYx6jmXTS6vGLVHPXufWD-s2jh5eT1TWH2WvESr8LcZ8wtShDzH0Q8oJo3FQ&s",新昌休闲影视 (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
+#EXTINF:-1 group-title="CHINA" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShu7X8H2AdDfqyKY3X1_3rhquFCLNaru3bLJm8dvhrl7rvUepEkOtz7N0J6g&s",新昌新聞綜合 (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
