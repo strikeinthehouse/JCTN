@@ -66,18 +66,14 @@ def extract_globoplay_data(driver, url):
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
     m3u8_url = None
     thumbnail_url = None
-    jpg_count = 0  # Contador para arquivos .jpg
-    
-    # Buscar o link m3u8 e o terceiro arquivo .jpg nos recursos de rede
+
+    # Buscar o link m3u8 e o primeiro arquivo .jpg nos recursos de rede
     for entry in log_entries:
         if ".m3u8" in entry['name']:
             m3u8_url = entry['name']
-        if ".jpg" in entry['name']:
-            jpg_count += 1
-            if jpg_count == 1:  # Se for o terceiro arquivo .jpg
-                thumbnail_url = entry['name']
-                break  # Sai do loop, pois encontrou o terceiro arquivo .jpg
-    
+        if ".jpg" in entry['name'] and not thumbnail_url:  # Pega o primeiro arquivo .jpg
+            thumbnail_url = entry['name']
+
     return title, m3u8_url, thumbnail_url
 
 
