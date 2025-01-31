@@ -41,7 +41,7 @@ globoplay_urls = [
 # Função para extrair o link m3u8, título e thumbnail
 def extract_globoplay_data(driver, url):
     driver.get(url)
-    time.sleep(5)  # Aguarde a página carregar inicialmente
+    time.sleep(20)  # Aguarde a página carregar inicialmente
 
     try:
         # Verifica se o botão de reprodução <button class="poster__play-wrapper"> está presente
@@ -58,7 +58,7 @@ def extract_globoplay_data(driver, url):
 
 
 
-    time.sleep(40)  # Aguarde a página carregar completamente após a ação de clique
+    time.sleep(20)  # Aguarde a página carregar completamente após a ação de clique
     
     # Obter o título da página
     title = driver.title
