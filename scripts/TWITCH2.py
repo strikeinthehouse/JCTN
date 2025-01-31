@@ -333,6 +333,8 @@ finally:
 
 
 
+import os
+
 def limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=50):
     try:
         # Abre o arquivo M3U original para leitura
@@ -365,9 +367,18 @@ def limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=50):
     except Exception as e:
         print(f"Ocorreu um erro: {e}")
 
-# Nome do arquivo original e do arquivo de saída
+# Caminho absoluto para o arquivo original
 arquivo_original = 'TWITCH.m3u'
-arquivo_saida = 'TWITCH.m3u'
+
+# Obtemos o diretório do arquivo original
+diretorio_pasta = os.path.dirname(os.path.abspath(arquivo_original))
+
+# Caminho do diretório anterior
+diretorio_anterior = os.path.dirname(diretorio_pasta)
+
+# Definimos o caminho completo para o arquivo de saída no diretório anterior
+arquivo_saida = os.path.join(diretorio_anterior, 'TWITCH.m3u')
 
 # Chama a função para limitar o arquivo
 limitar_arquivo_m3u(arquivo_original, arquivo_saida)
+
