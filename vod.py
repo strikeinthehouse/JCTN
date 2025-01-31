@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 # Configurações do Chrome
@@ -45,17 +44,19 @@ def extract_globoplay_data(driver, url):
     time.sleep(5)  # Aguarde a página carregar inicialmente
 
     try:
-        # Verifica se o elemento <div class="poster__background-overlay"> está presente
-        overlay_element = driver.find_element(By.CSS_SELECTOR, "div.poster__background-overlay")
+        # Verifica se o botão de reprodução <button class="poster__play-wrapper"> está presente
+        play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
         
-        if overlay_element:
-            # Clica no elemento se ele existir
-            overlay_element.click()
+        if play_button:
+            # Clica no botão de reprodução se ele existir
+            play_button.click()
             time.sleep(10)  # Espera após o clique para a nova página carregar ou ação ser executada
-            print("Clique realizado na sobreposição.")
+            print("Clique realizado no botão de reprodução.")
     
     except Exception as e:
-        print("Elemento não encontrado ou erro ao tentar clicar:", e)
+        print("Erro ao tentar clicar no botão de reprodução:", e)
+
+
 
     time.sleep(40)  # Aguarde a página carregar completamente após a ação de clique
     
