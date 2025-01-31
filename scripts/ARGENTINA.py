@@ -496,7 +496,7 @@ for line in lines:
         if youtube_id:
             channel_data.append({
                 'type': 'link',
-                'url': f"https://ythls.armelin.one/channel/{youtube_id}.m3u8"
+                'url': f"https://ythls-v3.onrender.com/channel/{youtube_id}.m3u8"
             })
 
 # Escreve no arquivo .m3u
