@@ -329,3 +329,45 @@ except Exception as e:
 finally:
     if 'driver' in locals():
         driver.quit()
+
+
+
+
+def limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=4000):
+    try:
+        # Abre o arquivo M3U original para leitura
+        with open(arquivo_original, 'r') as file:
+            # Lê todas as linhas do arquivo
+            linhas = file.readlines()
+
+        # Filtra as linhas para remover linhas vazias e linhas com certos padrões
+        linhas_filtradas = [
+            linha for linha in linhas 
+            if linha.strip() and 
+            '#EXTVLCOPT:http-user-agent=iPhone' not in linha and 
+            '####' not in linha and 
+            '_____' not in linha and 
+            '#EXTVLCOPT--http-reconnect=true' not in linha
+        ]
+
+        # Limita as linhas conforme o valor de limite_linhas
+        linhas_limitadas = linhas_filtradas[:limite_linhas]
+        
+        # Abre o arquivo de saída para escrita
+        with open(arquivo_saida, 'w') as file:
+            # Escreve as linhas limitadas no novo arquivo
+            file.writelines(linhas_limitadas)
+        
+        print(f"O arquivo {arquivo_original} foi limitado a {limite_linhas} linhas e salvo como {arquivo_saida}.")
+    
+    except FileNotFoundError:
+        print(f"Erro: O arquivo {arquivo_original} não foi encontrado.")
+    except Exception as e:
+        print(f"Ocorreu um erro: {e}")
+
+# Nome do arquivo original e do arquivo de saída
+arquivo_original = 'TWITCH.m3u'
+arquivo_saida = 'TWITCH.m3u'
+
+# Chama a função para limitar o arquivo
+limitar_arquivo_m3u(arquivo_original, arquivo_saida)
