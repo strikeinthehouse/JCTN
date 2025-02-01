@@ -38,6 +38,7 @@ with open(m3u_filename, 'a') as m3u_file:
     try:
         # Capturar os links dos vídeos
         link_elements = driver.find_elements(By.XPATH, "//a[@class='yt-simple-endpoint style-scope yt-formatted-string']")
+        
 
         if link_elements:
             # Iterar sobre os links de vídeo encontrados
