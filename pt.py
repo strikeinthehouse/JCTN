@@ -1,23 +1,14 @@
-!pip install yt-dlp selenium
-
 import os
 import time
 import yt_dlp
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
-options = Options()
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--start-maximized")
-options.add_argument("--window-size=1280,720")
-options.add_argument("--disable-infobars")
-
-# Create the webdriver instance
-driver = webdriver.Chrome(options=options)
+# Configurações do navegador Selenium
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
 
 # URL da página da playlist
 url_playlist = "https://www.youtube.com/watch?v=ToSWxxvXFN0&list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS"
