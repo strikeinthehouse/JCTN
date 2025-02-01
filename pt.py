@@ -10,6 +10,9 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
+driver = webdriver.Chrome(options=chrome_options)
+
+
 # URL da página da playlist
 url_playlist = "https://www.youtube.com/watch?v=ToSWxxvXFN0&list=PL3ZQ5CpNulQmA2Tegc98c0XXJTzuKb0wS"
 
