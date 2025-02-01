@@ -1,1162 +1,492 @@
 [
   {
-    "name": "Deportivos: RealMadrid TV",
-    "group": "ESPANHA",
-    "tvg_id": "RMTV.TV",
-    "logo": "https://graph.facebook.com/RealMadrid/picture?width=200&height=200",
-    "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Infantiles: Pequeradio TV",
-    "group": "ESPANHA",
+    "name": "Bloomberg TV Asia Live Event (720p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/Pequeradio/picture?width=200&height=200",
-    "url": "https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_Lpr3VzQEUSxrQOCF8e2UMHRYEvmWehQ6zDYgU82Re9m2xOYmHbL9w2ZIw&s",
+    "url": "https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Andaluc\u00eda: Canal Sur 2 Andaluc\u00eda",
-    "group": "ESPANHA",
+    "name": "CCTV+ 1 (600p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",
-    "url": "https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRED5JuoPYimK38rrmeLL_zRnYAdmVbHGa3im6gPqEhHOvGMRjfgdcVZyRG5qU&s",
+    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Informativos: Negocios TV",
-    "group": "ESPANHA",
-    "tvg_id": "Negocios.TV",
-    "logo": "https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg",
-    "url": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Deportivos: ETB Deportes",
-    "group": "ESPANHA",
-    "tvg_id": "ETBD.TV",
-    "logo": "https://graph.facebook.com/deportes.eitb.kirolak/picture?width=200&height=200",
-    "url": "https://multimedia.eitb.eus/live-content/oka3hd-hls/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Deportivos: RealMadrid TV",
-    "group": "ESPANHA",
-    "tvg_id": "RMTV.TV",
-    "logo": "https://graph.facebook.com/RealMadrid/picture?width=200&height=200",
-    "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Eventuales: +24",
-    "group": "ESPANHA",
+    "name": "CCTV+ 2 (600p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",
-    "url": "https://rtvehlslivestream.akamaized.net/hls/live/2041587/IRTVE04_AKA_HLS_GL0/master.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRED5JuoPYimK38rrmeLL_zRnYAdmVbHGa3im6gPqEhHOvGMRjfgdcVZyRG5qU&s",
+    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Eventuales: Canal Parlamento",
-    "group": "ESPANHA",
+    "name": "CGTN Fran\u00e7ais (576p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200",
-    "url": "https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTPvVg6t1wsFu4gCkXWWqGX0VZbEqvaBPNaqHxcx321dIvFabLkv1FAnsEg&s",
+    "url": "https://news.cgtn.com/resource/live/french/cgtn-f.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Eventuales: Del 40 al 1",
-    "group": "ESPANHA",
+    "name": "DW English (1080p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/del40al1/picture?width=200&height=200",
-    "url": "https://prisaradio-live.prisasd.com/live-content/directo40al1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Canal Sur 2 Andaluc\u00eda",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",
-    "url": "https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: M95 Marbella",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200",
-    "url": "https://limited2.todostreaming.es/live/m95-livestream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Huelva TV",
-    "group": "ESPANHA",
-    "tvg_id": "HuelvaTV.TV",
-    "logo": "https://graph.facebook.com/Huelvatv/picture?width=200&height=200",
-    "url": "https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Condavisi\u00f3n",
-    "group": "ESPANHA",
-    "tvg_id": "Condavision.TV",
-    "logo": "https://graph.facebook.com/condavision/picture?width=200&height=200",
-    "url": "https://5d8d85cf2c308.streamlock.net:1936/Condavision/endirecto/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Tuya La Janda TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/tuyalajandatv/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8144/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Onda Algeciras TV",
-    "group": "ESPANHA",
-    "tvg_id": "OndaAlgeciras.TV",
-    "logo": "https://graph.facebook.com/ondaalgecirastv/picture?width=200&height=200",
-    "url": "https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Estepona TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/esteponatelevision/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8022/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Diez TV",
-    "group": "ESPANHA",
-    "tvg_id": "DiezTV.TV",
-    "logo": "https://graph.facebook.com/dieztv/picture?width=200&height=200",
-    "url": "https://streaming.cloud.innovasur.es/mmj/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: CostadelSol TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/costadelsoltv/picture?width=200&height=200",
-    "url": "https://limited11.todostreaming.es/live/benalmadena-livestream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Sal TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/SalTelevision/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8182/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Vivam\u00f3vil TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/VivamovilTV/picture?width=200&height=200",
-    "url": "https://5d8d85cf2c308.streamlock.net:1936/AlcalaTV/endirecto/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: Canal M\u00e1laga",
-    "group": "ESPANHA",
-    "tvg_id": "CanalMalaga.TV",
-    "logo": "https://graph.facebook.com/CanalMalagaRTVMunicipal/picture?width=200&height=200",
-    "url": "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: TVM C\u00f3rdoba",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/TVM.Cordoba/picture?width=200&height=200",
-    "url": "https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Andaluc\u00eda: 8 TV C\u00e1diz",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/8tvcadiz/picture?width=200&height=200",
-    "url": "https://5940924978228.streamlock.net/8289/smil:8289.smil/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Canarias: M\u00edrame TV",
-    "group": "ESPANHA",
-    "tvg_id": "MirameTV.TV",
-    "logo": "https://graph.facebook.com/MirameTVCanarias/picture?width=200&height=200",
-    "url": "https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Canarias: RTV Mog\u00e1n",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/radiotelevisionmogan/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8028/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Canarias: Lancelot TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/288850935035196/picture?width=200&height=200",
-    "url": "https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Canarias: Este Canal TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/estecanaltv/picture?width=200&height=200",
-    "url": "http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Canarias: Afortunadas TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/afortunadastv/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8108/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Cantabria: Popular TV Cantabria",
-    "group": "ESPANHA",
-    "tvg_id": "PopularTV_S.TV",
-    "logo": "https://graph.facebook.com/populartvcantabria/picture?width=200&height=200",
-    "url": "https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Castilla-La Mancha: Guada TV Media",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/GuadaTV.TV/picture?width=200&height=200",
-    "url": "https://cloud.streamingconnect.tv/hls/guadatv/guadatv.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Castilla-La Mancha: Im\u00e1s TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/television.imas/picture?width=200&height=200",
-    "url": "https://secure3.todostreaming.es/live/imastv-livestream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Castilla-La Mancha: Alcarria TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200",
-    "url": "https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Castilla-La Mancha: Alcarria TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200",
-    "url": "http://217.182.77.27/live/alcarriatv-livestream.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Castilla-La Mancha: Canal 4 Mancha Centro",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/canal4villarrobledo/picture?width=200&height=200",
-    "url": "https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Castilla-La Mancha: Canal 2000",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/canal2000/picture?width=200&height=200",
-    "url": "http://canal2000.berkano-systems.net/streaming/streams/canal2000-720p.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Castilla y Le\u00f3n: TV Aranda",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/575943555801687/picture?width=200&height=200",
-    "url": "https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Catalu\u00f1a: betev\u00e9",
-    "group": "ESPANHA",
-    "tvg_id": "BTV.TV",
-    "logo": "https://graph.facebook.com/betevecat/picture?width=200&height=200",
-    "url": "https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0",
-    "extra": []
-  },
-  {
-    "name": "Catalu\u00f1a: Piera TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://yt3.ggpht.com/WtsIUXtvmo0QQFYhj9qbxpttucZF0ZElx8oju9r7ISrKfn9GHBuRR7s9JN4YRnzvbLr6GiUtWQ=s200",
-    "url": "http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Catalu\u00f1a: Mar TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/martelevisio/picture?width=200&height=200",
-    "url": "http://iptv.services.everywan.net:8080/martv-web/video.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Intercomarcal TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/Intercomarcal.Television/picture?width=200&height=200",
-    "url": "https://streamingtvi.gestec-video.com/hls/tvixa.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Intercomarcal TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/Intercomarcal.Television/picture?width=200&height=200",
-    "url": "https://streamingtvi.gestec-video.com/hls/tvixa1.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Intercomarcal TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/Intercomarcal.Television/picture?width=200&height=200",
-    "url": "https://streamingtvi.gestec-video.com/hls/tvixa3.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Alacant\u00ed TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/alacantitv/picture?width=200&height=200",
-    "url": "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Burriana TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/burrianateve/picture?width=200&height=200",
-    "url": "https://www.burrianateve.com/hls/btv.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Elche 7 TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/elche7hd/picture?width=200&height=200",
-    "url": "https://elche7tv.gestec-video.com/hls/canal2.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Canal 56",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/canal56televisio/picture?width=200&height=200",
-    "url": "https://videos.canal56.com/directe/stream/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Punt 3 Vall Uix\u00f3",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/Punt3Television/picture?width=200&height=200",
-    "url": "https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Ciudades Del Ocio TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/CiudadesDelOcioTV/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8024/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "C. Valenciana: Onda Valencia",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ondavalenciatv/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8116/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Melilla: Melilla TV",
-    "group": "ESPANHA",
-    "tvg_id": "MelillaTV.TV",
-    "logo": "https://graph.facebook.com/TelevisionMelilla/picture?width=200&height=200",
-    "url": "https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Melilla: Popular TV Melilla",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/populartvml/picture?width=200&height=200",
-    "url": "https://5940924978228.streamlock.net/8009/8009/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Pa\u00eds Vasco: ETB 1",
-    "group": "ESPANHA",
-    "tvg_id": "ETB1.TV",
-    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
-    "url": "https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Pa\u00eds Vasco: ETB 2",
-    "group": "ESPANHA",
-    "tvg_id": "ETB2.TV",
-    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
-    "url": "https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Pa\u00eds Vasco: ETB Eventos 1",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
-    "url": "https://multimedia.eitb.eus/live-content/oka1hd-hls/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Pa\u00eds Vasco: ETB Eventos 2 GEO",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
-    "url": "https://multimedia.eitb.eus/live-content/oka2hd-hls/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Pa\u00eds Vasco: Hamaika TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/HamaikaTb/picture?width=200&height=200",
-    "url": "https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Pa\u00eds Vasco: Goiena Eus",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/goiena.eus/picture?width=200&height=200",
-    "url": "https://zuzenean.goienamedia.eus/goiena-telebista.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Pa\u00eds Vasco: Urola TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/urolatelebista/picture?width=200&height=200",
-    "url": "https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: EITB Basque",
-    "group": "ESPANHA",
-    "tvg_id": "ETBSAT.TV",
-    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
-    "url": "https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: Bloomberg Europe EN",
-    "group": "ESPANHA",
-    "tvg_id": "Bloom.TV",
-    "logo": "https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",
-    "url": "https://www.bloomberg.com/media-manifest/streams/eu.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: DW Alemania",
-    "group": "ESPANHA",
-    "tvg_id": "DW.TV",
-    "logo": "https://graph.facebook.com/dw.espanol/picture?width=200&height=200",
-    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: DW Alemania EN",
-    "group": "ESPANHA",
-    "tvg_id": "DW.TV",
-    "logo": "https://graph.facebook.com/dw.espanol/picture?width=200&height=200",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW5K1pv8MjQYK3XMSyB5OusS8qj4WVFMJKk7lHEegeF-8tbIxeyLHMgrM4Zg&s",
     "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
-    "extra": []
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Int. Europa: WDR Alemania DE",
-    "group": "ESPANHA",
+    "name": "Red Bull TV (1080p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/WDR/picture?width=200&height=200",
-    "url": "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: NDR Niedersachsen Alemania DE",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ndrniedersachsen/picture?width=200&height=200",
-    "url": "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: TRT Haber Turqu\u00eda",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/trthaber/picture?width=200&height=200",
-    "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: R\u00daV Islandia",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/RUVohf/picture?width=200&height=200",
-    "url": "https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: R\u00daV Islandia",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/RUVohf/picture?width=200&height=200",
-    "url": "https://ruvlive.akamaized.net/out/v1/2ff7673de40f419fa5164498fae89089/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: San Marino RTV IT",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/SanMarinoRTV/picture?width=200&height=200",
-    "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: San Marino RTV IT",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/SanMarinoRTV/picture?width=200&height=200",
-    "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Europa: Current Time TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/currenttimetv/picture?width=200&height=200",
-    "url": "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: CourtTV USA EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/courttv/picture?width=200&height=200",
-    "url": "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: NASA TV Public",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/NASA/picture?width=200&height=200",
-    "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: NASA TV Media",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/NASA/picture?width=200&height=200",
-    "url": "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: America's Voice USA EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/RealAmericasVoice/picture?width=200&height=200",
-    "url": "https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: Newsmax TV USA EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/newsmax/picture?width=200&height=200",
-    "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: El Financiero Mexico",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ElFinancieroMx/picture?width=200&height=200",
-    "url": "https://d19vc4shchm9pr.cloudfront.net/out/v1/a67ad47be66f4c3ea4a14c8f22984fa7/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: Canal Once Mexico",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/CANALONCETV/picture?width=200&height=200",
-    "url": "https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: Bolivia 7.2 TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/BoliviatvOficial/picture?width=200&height=200",
-    "url": "https://video1.getstreamhosting.com:1936/8224/8224/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: ABC TV Paraguay",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ABCTVpy/picture?width=200&height=200",
-    "url": "https://d2e809bgs49c6y.cloudfront.net/live/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851/live.isml/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: WTV Nicaragua",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/WtvNuevaGuinea/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8130/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Am\u00e9rica: TeleDiario Costa Rica",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/MultimediosCR/picture?width=200&height=200",
-    "url": "https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: CGTN",
-    "group": "ESPANHA",
-    "tvg_id": "CGTN.TV",
-    "logo": "https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200",
-    "url": "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: CGTN News EN",
-    "group": "ESPANHA",
-    "tvg_id": "CGTNN.TV",
-    "logo": "https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200",
-    "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: CGTN Documentary EN",
-    "group": "ESPANHA",
-    "tvg_id": "CGTNDoc.TV",
-    "logo": "https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200",
-    "url": "https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: Al Jazeera Qatar EN",
-    "group": "ESPANHA",
-    "tvg_id": "AlJQ.TV",
-    "logo": "https://graph.facebook.com/aljazeera/picture?width=200&height=200",
-    "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: Al Jazeera Qatar AR",
-    "group": "ESPANHA",
-    "tvg_id": "AlJQ.TV",
-    "logo": "https://graph.facebook.com/aljazeera/picture?width=200&height=200",
-    "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: Nippon News TV Japan",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ntvnews24/picture?width=200&height=200",
-    "url": "https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: Arirang TV Korea EN",
-    "group": "ESPANHA",
-    "tvg_id": "Arirang.TV",
-    "logo": "https://graph.facebook.com/arirangtv/picture?width=200&height=200",
-    "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: Al Arabiya Emiratos \u00c1rabes AR",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/AlArabiya/picture?width=200&height=200",
-    "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: India Today EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/IndiaToday/picture?width=200&height=200",
-    "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: India Today",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/IndiaToday/picture?width=200&height=200",
-    "url": "https://feeds.intoday.in/aajtak/api/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: New Delhi TV 24x7 India EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ndtv/picture?width=200&height=200",
-    "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: Channel NewsAsia EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ChannelNewsAsia/picture?width=200&height=200",
-    "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: RTHK 31 32 Hong Kong",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/RTHK.HK/picture?width=200&height=200",
-    "url": "https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Asia: RTHK 31 32 Hong Kong",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/RTHK.HK/picture?width=200&height=200",
-    "url": "https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. \u00c1frica: TVGE 1 Guinea Ecuatorial",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "http://www.tvgelive.gq/images/logo-dark.png",
-    "url": "http://rtmp.ott.mx1.com/tvge1/tvge1multi.smil/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. \u00c1frica: RASD TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/televisionsaharaui/picture?width=200&height=200",
-    "url": "https://cloud.streamingconnect.tv/hls/rasdtv/rasdtv.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Otros: Bloomberg Quicktake EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/quicktake/picture?width=200&height=200",
-    "url": "https://www.bloomberg.com/media-manifest/streams/qt.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Otros: Miami TV",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/miamitv/picture?width=200&height=200",
-    "url": "https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Int. Otros: Classic Arts Showcase EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://pbs.twimg.com/profile_images/956583141245775872/2en3-8Ag_200x200.jpg",
-    "url": "https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Deportivos Int.: Redbull TV EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/RedBull/picture?width=200&height=200",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntnpkBxMNBpEou3f2pTxIktIizzzqO1bG0HXNvi8w0DeS9nR9St-8PAzKNw&s",
     "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Activa TV Espa\u00f1a",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/activafm.radiomusical/picture?width=200&height=200",
-    "url": "https://streamtv.mediasector.es/hls/activatv/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Cadena Elite Espa\u00f1a",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
-    "url": "https://cloudvideo.servers10.com:8081/8004/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: La Urban TV Espa\u00f1a",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/fmurban/picture?width=200&height=200",
-    "url": "https://urbanrevolution.es:8443/live/TV/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: VIVA RTV Espa\u00f1a",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ProduccionesAudiovisuales.CV/picture?width=200&height=200",
-    "url": "https://app.viloud.tv/hls/channel/c0d91440f0b445407e7b7a4e414f64ca.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Kronehit Austria",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/kronehit/picture?width=200&height=200",
-    "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: QMusic Holanda NL",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/QmusicNL/picture?width=200&height=200",
-    "url": "https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: 4FUN TV Polonia PL",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/4FUN.TV/picture?width=200&height=200",
-    "url": "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Radio Italia TV IT",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/radioitalia/picture?width=200&height=200",
-    "url": "https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Ocko Chequia CZ",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/tvocko/picture?width=200&height=200",
-    "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Ocko Star Chequia CZ",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ockostar/picture?width=200&height=200",
-    "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Ocko Expres Chequia CZ",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/OckoExpres/picture?width=200&height=200",
-    "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: ON TV Portugal",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ONFM93.8/picture?width=200&height=200",
-    "url": "https://5ce9406b73c33.streamlock.net/ONFM/livestream/master.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: NRG91 Grecia",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/NRG91/picture?width=200&height=200",
-    "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: V2Beat TV EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/vtwobeat/picture?width=200&height=200",
-    "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Power TV Turqu\u00eda",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/powerapp/picture?width=200&height=200",
-    "url": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlists.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: First Music Channel Bielorrusia",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/onemusicchannel/picture?width=200&height=200",
-    "url": "http://hz1.teleport.cc/HLS/HD.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: First Music Channel Bielorrusia",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/onemusicchannel/picture?width=200&height=200",
-    "url": "http://hz1.teleport.cc/HLS/SD.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Otto FM Italia IT",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/Ottotivu/picture?width=200&height=200",
-    "url": "http://streaming.bitonlive.net:8080/hls/ottofm2/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Sonus FM Alemania",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/sonusfmpage/picture?width=200&height=200",
-    "url": "http://www.sonus.fm:1935/public/stream_source/playlist.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-referrer=http://www.sonus.fm"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: 30A Music USA EN",
-    "group": "ESPANHA",
+    "name": "\u4e07\u5dde\u4e09\u5ce1\u79fb\u6c11 (576p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/30atv/picture?width=200&height=200",
-    "url": "https://30a-tv.com/music.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Retro Music TV Chequia EN",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/retromusic/picture?width=200&height=200",
-    "url": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Musicales: Muzzik TV Serbia",
-    "group": "ESPANHA",
-    "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-6/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS44lfqgxcGjJgExcpDcXOzs7xGyonk7nCefjpIpfA3xU0rFxIrGgakbE8BFg&s",
+    "url": "http://123.146.162.24:8013/tslslive/PU2vzMI/hls/live_sd.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Rock&Roll Serbia",
-    "group": "ESPANHA",
+    "name": "\u4e07\u5dde\u5f71\u89c6 (576p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-1/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbRcJzrQYnPuZje1MuhAZD4fqHr863bCxXxzMkPc6s9kGUZm-xvDi9agyWC8&s",
+    "url": "http://123.146.162.24:8013/tslslive/vWlnEzU/hls/live_sd.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Cafe&Club Serbia",
-    "group": "ESPANHA",
+    "name": "\u4e07\u5dde\u79d1\u6559 (576p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-3/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUuUyxENi_XQcGxuJ-Shn2AQwkFNcLjXloc8kzClm-e69UKlFcizSCqN50TQ&s",
+    "url": "http://123.146.162.24:8013/tslslive/URetCnP/hls/live_sd.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Worldwide Serbia",
-    "group": "ESPANHA",
+    "name": "\u4e07\u5dde\u7efc\u5408 (576p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-5/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
+    "url": "http://123.146.162.24:8013/tslslive/noEX9SG/hls/live_sd.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Rivijera Serbia",
-    "group": "ESPANHA",
+    "name": "\u4e0a\u865e1\u65b0\u95fb\u7efc\u5408 (720p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-a5/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Jeka Serbia",
-    "group": "ESPANHA",
+    "name": "\u4e0a\u865e3\u65b0\u5546\u90fd (720p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-4/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik ZZ TV Serbia",
-    "group": "ESPANHA",
+    "name": "\u4e0a\u865e\u7d93\u6fdf\u6587\u5316 (720p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Sense Serbia",
-    "group": "ESPANHA",
+    "name": "\u4e91\u5357 \u2160 \u6587\u5c71\u7efc\u5408\u53f0 (1080p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-7/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
+    "url": "http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Glazzba Serbia",
-    "group": "ESPANHA",
+    "name": "\u4f59\u59da\u59da\u6c5f\u6587\u5316 (576p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-a7/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoN2qQB_CM3SPjEcKnMg1uJJ7BEWR21lBHNWPoM59iSD8bHDP7L-yAt0JzGQ&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik Flashback Serbia",
-    "group": "ESPANHA",
+    "name": "\u4f59\u59da\u65b0\u95fb\u7efc\u5408 (576p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-8/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKypX2Y1IuuoE98dRXnrtib1K4BzTRBjgmYoCowvu49V3TD-GDeTRt2oDpWw&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Muzzik OKK Serbia",
-    "group": "ESPANHA",
+    "name": "\u524d\u90ed\u7efc\u5408 [Geo-blocked]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/muzzik.television/picture?width=200&height=200",
-    "url": "https://muzzik-live.morescreens.com/mts-2/playlist.m3u8",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2qer1UAmWjRD0Pq_kvg-7MmYCtLKK5CT-BhQIIV7x7Cni91ezguWJ76fJXPU&s",
+    "url": "http://stream2.jlntv.cn/qg/sd/live.m3u8",
     "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160"
+      "#EXTVLCOPT:network-caching=1000"
     ]
   },
   {
-    "name": "Musicales: Spirit TV USA EN",
-    "group": "ESPANHA",
+    "name": "\u534a\u5c9b\u65b0\u95fb (1080p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://pbs.twimg.com/profile_images/825104000341012480/ip1tcW4n_200x200.jpg",
-    "url": "https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPeqlSQ0Ai5BY_8Fwn4-s1ojG3KcysPFLOasa-FJ6jT0p55sYf5PHOjJgmk2M&s",
+    "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: EWTN Espa\u00f1a",
-    "group": "ESPANHA",
+    "name": "\u5357\u4eac\u5341\u516b (720p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ewtnespanol/picture?width=200&height=200",
-    "url": "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3TItUpSC21YcJHeN1vZMDmp85nAGT8WROCijJMlZh2GvkAclzvlVtIuTK-M&s",
+    "url": "http://live.nbs.cn/channels/njtv/sbpd/m3u8:500k/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: EWTN Espa\u00f1a EN",
-    "group": "ESPANHA",
+    "name": "\u5357\u4eac\u5a31\u4e50 (720p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ewtnespanol/picture?width=200&height=200",
-    "url": "https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3TItUpSC21YcJHeN1vZMDmp85nAGT8WROCijJMlZh2GvkAclzvlVtIuTK-M&s",
+    "url": "http://live.nbs.cn/channels/njtv/ylpd/m3u8:500k/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: Ecclesia COPE Espa\u00f1a",
-    "group": "ESPANHA",
+    "name": "\u552f\u5fc3\u96fb\u8996 (480p)",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/ecclesiacope/picture?width=200&height=200",
-    "url": "https://cope-religion-video.flumotion.com/playlist.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD5DRJvBo3gZy1Hmv__fryc0a6XJTJ_5L88tcfUR7UhPUQ0WPR_ux4L44nRA&s",
+    "url": "http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: RTV Vida Espa\u00f1a",
-    "group": "ESPANHA",
+    "name": "\u56db\u5ddd \u2160 \u5df4\u4e2d\u7efc\u5408\u53f0 (1080p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://pbs.twimg.com/profile_images/1359486927406321664/WZXLfd2h_200x200.jpg",
-    "url": "https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: Solidaria TV Espa\u00f1a",
-    "group": "ESPANHA",
+    "name": "\u56db\u5e73\u65b0\u95fb\u7efc\u5408 [Geo-blocked]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/solidariatv/picture?width=200&height=200",
-    "url": "https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBT2pcxuwhp4vywJgH8wFfO4FQ5h9VAo7PohyL8mjSjSh24mu7tFHzuFQxdyE&s",
+    "url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: TBN Espa\u00f1a",
-    "group": "ESPANHA",
+    "name": "\u5b5f\u5dde\u7535\u89c6\u53f0 (1080p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/TBNEspana/picture?width=200&height=200",
-    "url": "https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2OJSWqBkw_dEVtcdfPadzGpS1RaJJcPw3L2osV6Kje8Z5c45gr_VpMceS04&s",
+    "url": "http://live.dxhmt.cn:9081/tv/10883-1.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: Cetelmon TV Espa\u00f1a",
-    "group": "ESPANHA",
+    "name": "\u5bbf\u5dde\u516c\u5171 (1080p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/cetelmon.television/picture?width=200&height=200",
-    "url": "http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj64yoryMSzk7yJGpI03PFtod4Ln5uyi65uPdC1rop_gyJLUQwgULKjyaF3A&s",
+    "url": "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   },
   {
-    "name": "Religiosos: CBN USA",
-    "group": "ESPANHA",
+    "name": "\u5bbf\u5dde\u65b0\u95fb\u7efc\u5408 (1080p) [Not 24/7]",
+    "group": "CHINA",
     "tvg_id": "Undefined",
-    "logo": "https://graph.facebook.com/cbnonline/picture?width=200&height=200",
-    "url": "https://bcovlive-a.akamaihd.net/r21fb8503a4a74d098b798f16922b2a36/us-east-1/734546207001/playlist.m3u8",
-    "extra": []
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://live.ahsz.tv/video/s10001-szzh/index.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5bbf\u5dde\u79d1\u6559 (1080p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5d4a\u5dde\u7efc\u5408 (720p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbj4Lonfx3HQxXLci0k68k8gNE7P0pwRrt8eb3Yg6cPq2Chh0hIta3xG_YsQ&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5ef6\u8fb9\u536b\u89c6 (720p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJia9SZcFYoVkgKJFZ-L2CYBnVydPU0usITxj6X7AIuwc_whqF64EX4a4qPw&s",
+    "url": "http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5ef6\u8fb9\u65b0\u95fb\u7efc\u5408 [Geo-blocked]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBT2pcxuwhp4vywJgH8wFfO4FQ5h9VAo7PohyL8mjSjSh24mu7tFHzuFQxdyE&s",
+    "url": "http://stream2.jlntv.cn/jlyb/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5efa\u5b89\u7535\u89c6\u53f0 (1080p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa8y92fe4QYnJjlGcY_BTrGbAc-o7HVJkB6YH2TuRyfRNV3MM7m70Ws_2k58Q&s",
+    "url": "http://live.dxhmt.cn:9081/tv/11003-1.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5f20\u5bb6\u6e2f\u65b0\u95fb\u7efc\u5408 (720p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIUmnegu7_eII204f2X5yjJMYxiihznx0mSPvocxzNxV1efYigHrkXLIFhXU&s",
+    "url": "http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5f20\u5bb6\u6e2f\u793e\u4f1a\u751f\u6d3b (720p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqTBLO32z83zg_uKJZeu2SA134iBYE7a7ZwWip3mVG52f0eXfG5AANsQKKsE&s",
+    "url": "http://3gvod.zjgonline.com.cn:1935/live/shehuishenghuo2/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u65b0\u660c\u4f11\u95f2\u5f71\u89c6 (1080p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYx6jmXTS6vGLVHPXufWD-s2jh5eT1TWH2WvESr8LcZ8wtShDzH0Q8oJo3FQ&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u65b0\u660c\u65b0\u805e\u7d9c\u5408 (1080p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShu7X8H2AdDfqyKY3X1_3rhquFCLNaru3bLJm8dvhrl7rvUepEkOtz7N0J6g&s",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u65b0\u90d1\u7efc\u5408 (1080p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://live.dxhmt.cn:9081/tv/10184-1.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u664b\u4e2d\u516c\u5171 (1080p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://jzlive.jztvnews.com:90/live/jzgg.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u664b\u4e2d\u7efc\u5408 (1080p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03eLbdkdpfDtQ6DloxcYFgAb5mXMcCRnE1bAYkA__RgrwYwVpyokO6B7Bk7g&s",
+    "url": "http://jzlive.jztvnews.com:90/live/jzzh.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6b66\u6c49\u5916\u8bed (576p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX8Dshhzkvflm0PAZrEYoM3Mi4cJ1OdS_WBhv7ATSSRma3Q0eVfKYlEpGJWQ4&s",
+    "url": "http://stream.appwuhan.com/6tzb/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6b66\u6c49\u6587\u4f53 (480p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqA1lXMoass3lM5PG3sK9-rxgWsoQwMxcFz0N1oYtby9ZNV3dsrIpVb8Y0ww&s",
+    "url": "http://stream.appwuhan.com/5tzb/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6b66\u6c49\u7ecf\u6d4e (360p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgnKwLeUz7G_VUWVZnpy6Y_0lck5HuxwQN-RdO6QvyCiFhfKOcV2__x-efyA&s",
+    "url": "http://stream.appwuhan.com/4tzb/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6c5f\u6d25\u65b0\u95fb\u7efc\u5408 (480p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ic9LIYP0NZvjWx2t4K_AKrqvBxcPdfoStr9VP8B5aXSQYRvTpDTa5E5a3Q&s",
+    "url": "http://222.179.155.21:1935/ch1.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6c5f\u6d25\u7ecf\u6d4e\u751f\u6d3b (480p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://222.179.155.21:1935/ch0.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6c5f\u82cf \u2160 \u8fde\u4e91\u6e2f\u516c\u5171 (480p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDaWKiSAoLtVsNZKEW3_TDtUNXB2jrTZpPMhNm3JpOTvyRXI-3nkyJFYBIDw&s",
+    "url": "http://live.lyg1.com/ggpd/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6c5f\u82cf \u2160 \u8fde\u4e91\u6e2f\u7efc\u5408 (480p) [Not 24/7]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpNB-CAcmDNXgOfFunfn5FlbFhcwMGaryIP0RW_vthu5xoX_FeD1fL_d1V_Q&s",
+    "url": "http://live.lyg1.com/zhpd/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6cb3\u6e90\u516c\u5171 (540p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdrCHgQxQOPAM7pZayn1wmr-MIdFEQB3u9TlKxPJMCvGRFpHa5xr-w57GIg&s",
+    "url": "http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6cb3\u6e90\u7efc\u5408 (540p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
+    "url": "http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6d59\u6c5f \u2160 \u7ecd\u5174\u5f71\u89c6 (720p) [Timeout]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzq5uku409QTs-gfLmWK2FPm27VRpE5bq0BnTxJxipnlljhTEuyrXOSn7SFk0&s",
+    "url": "http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u6d59\u6c5f \u2160 \u7ecd\u5174\u7efc\u5408 (576p) [Timeout]",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0OeT46G4TEAH2lO4R69w52FsMnf7IOSSa6Um3gjRrRKFW0T2-4dm9_K2pYQ&s",
+    "url": "http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
   }
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+]
