@@ -40,7 +40,7 @@ except Exception as e:
 parent_directory = os.path.abspath(os.path.join(os.getcwd(), '..'))
 
 # Gerar o arquivo .m3u no diretório pai
-m3u_filename = os.path.join(parent_directory, "TWITCH.m3u")
+m3u_filename = os.path.join(parent_directory, "NEWSYT.m3u")
 
 # Abrir o arquivo para escrita
 with open(m3u_filename, 'a') as m3u_file:
