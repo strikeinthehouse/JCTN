@@ -130,16 +130,6 @@
     ]
   },
   {
-    "name": "\u4e91\u5357 \u2160 \u6587\u5c71\u7efc\u5408\u53f0 (1080p) [Not 24/7]",
-    "group": "CHINA",
-    "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJSqupbszx8tx2GGryTGXMle80EoGodphC30cx3Yf_WEFG89SLqxkk1rF0Rk&s",
-    "url": "http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv",
-    "extra": [
-      "#EXTVLCOPT:network-caching=1000"
-    ]
-  },
-  {
     "name": "\u4f59\u59da\u59da\u6c5f\u6587\u5316 (576p)",
     "group": "CHINA",
     "tvg_id": "Undefined",
@@ -305,6 +295,16 @@
     "tvg_id": "Undefined",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa8y92fe4QYnJjlGcY_BTrGbAc-o7HVJkB6YH2TuRyfRNV3MM7m70Ws_2k58Q&s",
     "url": "http://live.dxhmt.cn:9081/tv/11003-1.m3u8",
+    "extra": [
+      "#EXTVLCOPT:network-caching=1000"
+    ]
+  },
+  {
+    "name": "\u5f20\u5bb6\u6e2f\u65b0\u95fb\u7efc\u5408 (720p)",
+    "group": "CHINA",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIUmnegu7_eII204f2X5yjJMYxiihznx0mSPvocxzNxV1efYigHrkXLIFhXU&s",
+    "url": "http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8",
     "extra": [
       "#EXTVLCOPT:network-caching=1000"
     ]
