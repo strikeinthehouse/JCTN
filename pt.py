@@ -28,7 +28,7 @@ parent_directory = os.path.abspath(os.path.join(os.getcwd(), '..'))
 m3u_filename = os.path.join(parent_directory, "NEWSYT.m3u")
 
 # Abrir o arquivo para escrita
-with open(m3u_filename, 'W') as m3u_file:
+with open(m3u_filename, 'w') as m3u_file:
     # Escrever o cabeçalho do arquivo M3U
     m3u_file.write("#EXTM3U\n")
 
