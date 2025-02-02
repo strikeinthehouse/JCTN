@@ -29,12 +29,8 @@ http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manif
 http://200.59.188.3:8000/play/a03a
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 2
 http://38.41.8.1:8000/play/a06j
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/250px-Rai_1_-_Logo_2016.svg.png",RAI 1
-http://45.65.112.49:8000/play/a078
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqY3hnMoRxgTaz4GHx-swk1fvCuulPCDn1kmEYSrlHYYicNFW4hy44KLMLzM&s",RAI 2
 http://154.54.220.67:34780/play/a047
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqY3hnMoRxgTaz4GHx-swk1fvCuulPCDn1kmEYSrlHYYicNFW4hy44KLMLzM&s",RAI 2
-http://45.65.112.49:8000/play/a079
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RAIDUE" tvg-logo="http://fanc.tmsimg.com/assets/s21812_ll_h3_aa.png",IT RAI 2 (D)
 https://dumdumbullet.com/1011454237/bHg8wYxrId/79992114900
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RAIDUE" tvg-logo="http://fanc.tmsimg.com/assets/s21812_ll_h3_aa.png",IT: Rai 2
@@ -48,10 +44,14 @@ https://dumdumbullet.com/1011454237/bHg8wYxrId/6661979
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png",RTL-TVI (1080p) [Not 24/7]
 https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
 #EXTM3U
+#EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
+#EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
+#EXTM3U url-tvg="https://www.open-epg.com/files/colombia1.xml.gz"
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png",Canale 5
 #EXTM3U
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/7gWg0aaaktY/hqdefault.jpg?v=679e0f03&sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC69mjiepwTAsa02BxE2kDQ_pjZQw" tvg-id="Zadruga live 1.rs" ,Televisa Univision Saltillo
 https://ythls-v3.onrender.com/channel/UCpeD73Gb4KjKUL2gyoJ4gLw.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/5nxpA51TfHk/hq720.jpg?v=20f&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBBfYIXyHaZC91-RwkxakvEUYGR5A" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de TELEVISA SAN LUIS POTOSI OFICIAL
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/5nxpA51TfHk/hq720.jpg?v=21b&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBBfYIXyHaZC91-RwkxakvEUYGR5A" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de TELEVISA SAN LUIS POTOSI OFICIAL
 https://ythls-v3.onrender.com/channel/UCaRuyaHshLdq462E9_pLzdA.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Televisa Piedras Negras Live Stream
 https://ythls-v3.onrender.com/channel/UCxK8C1E8UZ5RipNXIBYEvTA.m3u8
