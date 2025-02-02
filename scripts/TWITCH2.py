@@ -333,7 +333,7 @@ finally:
 
 
 import os
-def limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=50):
+def limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=30):
     try:
         # Abre o arquivo M3U original para leitura
         with open(arquivo_original, 'r') as file:
@@ -366,5 +366,8 @@ def limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=50):
         print(f"Ocorreu um erro: {e}")
 
 # Nome do arquivo original e do arquivo de saída
-arquivo_original = '/../TWITCH.m3u'
-arquivo_saida = '/../TWITCH.m3u'
+arquivo_original = 'TWITCH.m3u'
+arquivo_saida = 'TWITCH.m3u'  # Mudando o nome do arquivo de saída para evitar sobrescrição
+
+# Chama a função para limitar o arquivo a 30 linhas
+limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=30)
