@@ -23,7 +23,7 @@ jobs:
         python3 -m venv venv
         source venv/bin/activate
         pip install --upgrade pip  # Atualiza o pip
-        pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz
+        pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz haruhi-dl
 
     # Instala ffmpeg para manipulação de mídia
     - name: Instalar ffmpeg
