@@ -18,3 +18,51 @@ https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6I
 https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3Mzg1Njg0NzEsImlhdCI6MTczODQ4MjA3MSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIwNi9wbGF5bGlzdC5tM3U4In0.T0tJt4nkIq1mSJ7GtULhT_iP_V5gdU28ObJGL_SPCtyYob9genhwx_Eu4Rn4v10ifr0m6-dUaTH_VwQyifoJWBi1akSq-0-ekVwombeW9W_cxn3AYKay1qVhx43mUyNL-XD6UYai3bKBMKCsgUAaxltO_WECDDnQkE5yRKGHsBrM_i2o2efDEqLN5ppz327rVj32AZAdvOJr4FruVPnNVSY4n5LNr-7IhnoEK2LtVVPcvDv0B9TMt1zqv3aveqh0BBmikm-IeFw_DGTFMhh1UkcGddYhN9kLZx0DFlE9KAbyzRkuoF7Mk7qa3cLLAaLAfh5ajUaEQN6IUuVQocMeyQ/nu/f(i=2)/bbb06/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="bbb-camera10" ,BBB25-Academia
 https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3Mzg1Njg0OTcsImlhdCI6MTczODQ4MjA5NywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL251L2YoaT0yKS9iYmIwOS9wbGF5bGlzdC5tM3U4In0.Xrv0IIvTvEbm0gK--gk8AG_vyJ0FQkpepq54RDz3TrIqvf3fJTN5gX1u8I4xYi95McVzkH7g63Ypz6T7iuDfRp2GFnPC6LM5fHJf4AFxgzrJWWN_YMxxYxr98zxy9418KeA23V-NN_pjU-gmxLyamMI5dMm5IdRZ3oNdyp6kxTHtNwN5WCpWs66UX9zMNpUk-9aNRkx4TDz3bXWaE7Rli-0cIZcLwT5yUGSNhEHP4FFEL0uIXXGyrNZcY5MOyJ60Z2NyrTAjly2DD1xxMIqAfFO1tNVqU7YBPeDkJu_Klu2fjIQn1CT6Y2jCqDhlRMc4soWqTcTzEUO0NgZBZ1ZTFg/nu/f(i=2)/bbb09/playlist.m3u8
+#EXTINF:80,RTP 1
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:80,RTP 2
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
+#EXTINF:7200,SIC
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:0,TVI
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yNC8yMDI0IDEyOjc6NDUgUE0maGFzaF92YWx1ZT13Zi9MeUNocVVRUkpSeWNHQ1JvaDdRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjJlYjYxYzQtZDFkMS00MzgyLTk1NmUtYjcwMTRiODhkMzJl/
+#EXTINF:120,RTP 3
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+#EXTINF:60,SIC Noticias
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://sicnot.live.impresa.pt/sicnot.m3u8
+#EXTINF:60,Euronews PT
+https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8
+#EXTINF:30,ARTV
+https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
+#EXTINF:80,RTP Memoria
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+#EXTINF:80,RTP Açores
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+#EXTINF:80,RTP Madeira
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+#EXTINF:80,RTP Africa
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+#EXTINF:80,RTP Internacional
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:60,TVI Africa
+https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
+#EXTINF:60,V+ TVI
+https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8
+#EXTINF:60,TVI Reality
+https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
