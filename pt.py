@@ -16,3 +16,6 @@ else:
         arquivo.write(conteudo)
     
     print("Arquivo IA.m3u8 criado com sucesso!")
+
+!pip install haruhi-dl
+!haruhi-dl -g https://www.youtube.com/@recordnews/live
