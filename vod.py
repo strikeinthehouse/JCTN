@@ -15,6 +15,7 @@ options.add_argument("--disable-infobars")
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",
     "https://mais.sbt.com.br/",
+    "https://mais.sbt.com.br/vod/6367957686112?t=0",
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",
     "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",
