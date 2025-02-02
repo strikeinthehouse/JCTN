@@ -14,7 +14,6 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",
-    "https://www.tvgazeta.com.br/aovivo/",
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",
     "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",
@@ -41,7 +40,6 @@ globoplay_urls = [
 # Função para extrair o link m3u8, título e thumbnail
 def extract_globoplay_data(driver, url):
     driver.get(url)
-    time.sleep(20)  # Aguarde a página carregar inicialmente
 
     try:
         # Verifica se o botão de reprodução <button class="poster__play-wrapper"> está presente
@@ -50,7 +48,7 @@ def extract_globoplay_data(driver, url):
         if play_button:
             # Clica no botão de reprodução se ele existir
             play_button.click()
-            time.sleep(10)  # Espera após o clique para a nova página carregar ou ação ser executada
+            time.sleep(15)  # Espera após o clique para a nova página carregar ou ação ser executada
             print("Clique realizado no botão de reprodução.")
     
     except Exception as e:
@@ -58,7 +56,7 @@ def extract_globoplay_data(driver, url):
 
 
 
-    time.sleep(20)  # Aguarde a página carregar completamente após a ação de clique
+    time.sleep(40)  # Aguarde a página carregar completamente após a ação de clique
     
     # Obter o título da página
     title = driver.title
