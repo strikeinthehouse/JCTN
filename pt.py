@@ -18,4 +18,19 @@ else:
     print("Arquivo IA.m3u8 criado com sucesso!")
 
 
-!haruhi-dl -g https://www.youtube.com/@recordnews/live
+
+
+import subprocess
+
+# URL do vídeo ou live do YouTube
+url = "https://www.youtube.com/@recordnews/live"
+
+# Comando para rodar o haruhi-dl
+command = ["haruhi-dl", "-g", url]
+
+# Executando o comando
+result = subprocess.run(command, capture_output=True, text=True)
+
+# Exibindo o link gerado para o download
+print("Link para download:", result.stdout)
+
