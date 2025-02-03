@@ -13,33 +13,33 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://globoplay.globo.com/v/12976726/",
-    "https://tvmi.mt/bigbrother",
-    "https://mais.sbt.com.br/",
-    "https://mais.sbt.com.br/vod/6367957686112?t=0",
-    "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",
-    "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",
-    "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",
-    "https://globoplay.globo.com/v/2923579/",
-    "https://globoplay.globo.com/v/2135579/",
-    "https://globoplay.globo.com/v/6120663/",
-    "https://globoplay.globo.com/v/2145544/",
-    "https://globoplay.globo.com/v/4039160/",
-    "https://globoplay.globo.com/v/6329086/",
-    "https://globoplay.globo.com/v/11999480/",    
-    "https://globoplay.globo.com/ao-vivo/3667427/",
-    "https://globoplay.globo.com/v/4218681/",
-    "https://globoplay.globo.com/v/4064559/",
-    "https://globoplay.globo.com/v/3065772/",
-    "https://globoplay.globo.com/v/2168377/",
-    "https://globoplay.globo.com/v/2923546/",
-    "https://globoplay.globo.com/v/602497/",
-    "https://globoplay.globo.com/v/992055/",
-    "https://globoplay.globo.com/v/8713568/",
-    "https://globoplay.globo.com/v/8713568/",
-    "https://globoplay.globo.com/v/10747444/",
-    "https://globoplay.globo.com/v/10740500/",
+    "https://g1.globo.com/ac/acre/playlist/videos-jornal-do-acre-2-edicao-deste-sabado-1-de-fevereiro-de-2025.ghtml#video-13309084-id",
+    "https://globoplay.globo.com/v/12976726/",  # Título não encontrado
+    "https://tvmi.mt/bigbrother",  # Título não encontrado
+    "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",  # Título não encontrado
+    "https://globoplay.globo.com/v/2923579/",  # G1 AP. Assista ao vivo aos telejornais da Rede Amazônica
+    "https://globoplay.globo.com/v/2135579/",  # G1 RS. Assista aos telejornais da RBS TV
+    "https://globoplay.globo.com/v/6120663/",  # Título não encontrado
+    "https://globoplay.globo.com/v/2145544/",  # G1 SC. AO VIVO: Assista aos telejornais da NSC TV
+    "https://globoplay.globo.com/v/4039160/",  # G1 CE. Assista à TV Verdes Mares ao vivo
+    "https://globoplay.globo.com/v/6329086/",  # Globo Esporte BA. AO VIVO: Travessia Itaparica-Salvador ao vivo e de graça no ge
+    "https://globoplay.globo.com/v/11999480/",  # G1 ES. Transmissão ao vivo do jornal Regional no g1 ES
+    "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",  # Título não encontrado
+    "https://globoplay.globo.com/ao-vivo/3667427/",  # Título não encontrado
+    "https://globoplay.globo.com/v/4218681/",  # G1 Triângulo Mineiro. Transmissão ao vivo
+    "https://globoplay.globo.com/v/12945385/",
+    "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
+    "https://globoplay.globo.com/v/3065772/",  # G1 MS. Transmissão ao vivo em MS
+    "https://globoplay.globo.com/v/2168377/",  # Título não encontrado
+    "https://globoplay.globo.com/v/2923546/",  # G1 AC. Assista aos jornais da Rede Amazônica
+    "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Título não encontrado
+    "https://globoplay.globo.com/v/602497/",  # ge.globo. Transmissão ao vivo
+    "https://globoplay.globo.com/v/992055/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
+    "https://globoplay.globo.com/v/8713568/",  # Globo Esporte RS. Gauchão ao vivo
+    "https://globoplay.globo.com/v/10747444/",  # CBN. CBN SP
+    "https://globoplay.globo.com/v/10740500/",  # CBN. CBN RJ
 ]
+
 
 # Função para extrair o link m3u8, título e thumbnail
 def extract_globoplay_data(driver, url):
