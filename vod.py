@@ -13,8 +13,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://g1.globo.com/ac/acre/playlist/videos-jornal-do-acre-2-edicao-deste-sabado-1-de-fevereiro-de-2025.ghtml#video-13309084-id",
-    "https://globoplay.globo.com/v/12976726/",  # Título não encontrado
     "https://tvmi.mt/bigbrother",  # Título não encontrado
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",  # Título não encontrado
     "https://globoplay.globo.com/v/2923579/",  # G1 AP. Assista ao vivo aos telejornais da Rede Amazônica
