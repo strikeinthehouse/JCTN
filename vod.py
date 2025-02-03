@@ -30,9 +30,9 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/12945385/",
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
     "https://globoplay.globo.com/v/3065772/",  # G1 MS. Transmissão ao vivo em MS
-    "https://globoplay.globo.com/v/2168377/",  # Título não encontrado
     "https://globoplay.globo.com/v/2923546/",  # G1 AC. Assista aos jornais da Rede Amazônica
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Título não encontrado
+    "https://globoplay.globo.com/v/2168377/",  # Título não encontrado
     "https://globoplay.globo.com/v/602497/",  # ge.globo. Transmissão ao vivo
     "https://globoplay.globo.com/v/992055/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
     "https://globoplay.globo.com/v/8713568/",  # Globo Esporte RS. Gauchão ao vivo
