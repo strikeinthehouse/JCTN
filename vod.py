@@ -13,6 +13,7 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
+    "https://globoplay.globo.com/v/12976726/",
     "https://tvmi.mt/bigbrother",
     "https://mais.sbt.com.br/",
     "https://mais.sbt.com.br/vod/6367957686112?t=0",
