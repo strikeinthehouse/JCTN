@@ -15,7 +15,6 @@ options.add_argument("--disable-infobars")
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",  # Título não encontrado
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",  # Título não encontrado
-    "https://globoplay.globo.com/v/2923579/",  # G1 AP. Assista ao vivo aos telejornais da Rede Amazônica
     "https://globoplay.globo.com/v/2135579/",  # G1 RS. Assista aos telejornais da RBS TV
     "https://globoplay.globo.com/v/6120663/",  # Título não encontrado
     "https://globoplay.globo.com/v/2145544/",  # G1 SC. AO VIVO: Assista aos telejornais da NSC TV
@@ -28,6 +27,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/12945385/",
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
     "https://globoplay.globo.com/v/3065772/",  # G1 MS. Transmissão ao vivo em MS
+    "https://globoplay.globo.com/v/2923579/",  # G1 AP. Assista ao vivo aos telejornais da Rede Amazônica
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Título não encontrado
     "https://globoplay.globo.com/v/2923546/",  # G1 AC. Assista aos jornais da Rede Amazônica
     "https://globoplay.globo.com/v/2168377/",  # Título não encontrado
