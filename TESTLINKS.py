@@ -277,7 +277,7 @@ def search_google_images(query):
     return None
 
 # URL do arquivo M3U
-input_url = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/LISTA30.m4u"
+input_url = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/LISTA%20ESTADOS%20UNIDOS.m3u"
 output_file = "MASTER.m3u"
 
 # Executa o processamento
