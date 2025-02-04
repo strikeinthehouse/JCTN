@@ -77,7 +77,7 @@ def extract_globoplay_data(driver, url):
 
     # Se houver pelo menos duas imagens .jpg, usa a segunda como thumbnail
     if len(thumbnail_urls) >= 2:
-        thumbnail_url = thumbnail_urls[2]
+        thumbnail_url = thumbnail_urls[1]
     elif len(thumbnail_urls) == 1:
         thumbnail_url = thumbnail_urls[0]
     else:
