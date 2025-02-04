@@ -86,6 +86,7 @@ def extract_globoplay_data(driver, url):
     return title, m3u8_url, thumbnail_url
 
 
+
 # Inicializar o WebDriver
 driver = webdriver.Chrome(options=options)
 
