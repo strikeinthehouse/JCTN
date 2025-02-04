@@ -70,7 +70,7 @@ def extract_globoplay_data(driver, url):
 
     # Buscar o link m3u8 e as imagens .jpg nos recursos de rede
     for entry in log_entries:
-        if "playlist.m3u8" in entry['name']:
+        if ".m3u8" in entry['name']:
             m3u8_url = entry['name']
         if ".jpg" in entry['name']:  # Pega todas as imagens .jpg
             thumbnail_urls.append(entry['name'])
