@@ -31,8 +31,8 @@ globoplay_urls = [
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Título não encontrado
     "https://globoplay.globo.com/v/2923546/",  # G1 AC. Assista aos jornais da Rede Amazônica
     "https://globoplay.globo.com/v/2168377/",  # Título não encontrado
-    "https://globoplay.globo.com/v/602497/",  # ge.globo. Transmissão ao vivo
     "https://globoplay.globo.com/v/992055/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
+    "https://globoplay.globo.com/v/602497/",  # ge.globo. Transmissão ao vivo
     "https://globoplay.globo.com/v/8713568/",  # Globo Esporte RS. Gauchão ao vivo
     "https://globoplay.globo.com/v/10747444/",  # CBN. CBN SP
     "https://globoplay.globo.com/v/10740500/",  # CBN. CBN RJ
@@ -56,8 +56,6 @@ def extract_globoplay_data(driver, url):
     except Exception as e:
         print("Erro ao tentar clicar no botão de reprodução:", e)
 
-
-
     time.sleep(40)  # Aguarde a página carregar completamente após a ação de clique
     
     # Obter o título da página
@@ -66,14 +64,22 @@ def extract_globoplay_data(driver, url):
     # Obter o link m3u8 dos recursos de rede
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
     m3u8_url = None
-    thumbnail_url = None
+    thumbnail_urls = []
 
-    # Buscar o link m3u8 e o primeiro arquivo .jpg nos recursos de rede
+    # Buscar o link m3u8 e as imagens .jpg nos recursos de rede
     for entry in log_entries:
         if ".m3u8" in entry['name']:
             m3u8_url = entry['name']
-        if ".jpg" in entry['name'] and not thumbnail_url:  # Pega o primeiro arquivo .jpg
-            thumbnail_url = entry['name']
+        if ".jpg" in entry['name']:  # Pega todas as imagens .jpg
+            thumbnail_urls.append(entry['name'])
+
+    # Se houver pelo menos duas imagens .jpg, usa a segunda como thumbnail
+    if len(thumbnail_urls) >= 2:
+        thumbnail_url = thumbnail_urls[1]
+    elif len(thumbnail_urls) == 1:
+        thumbnail_url = thumbnail_urls[0]
+    else:
+        thumbnail_url = ""
 
     return title, m3u8_url, thumbnail_url
 
@@ -103,6 +109,7 @@ with open("lista1.m3u", "w") as output_file:
 
 # Sair do driver
 driver.quit()
+
 
 
 
