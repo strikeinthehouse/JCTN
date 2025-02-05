@@ -11,6 +11,7 @@ options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1280,720")
 options.add_argument("--disable-infobars")
 
+
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",  # Título não encontrado
@@ -58,6 +59,8 @@ def extract_globoplay_data(driver, url):
     except Exception as e:
         print("Erro ao tentar clicar no botão de reprodução:", e)
 
+
+
     time.sleep(40)  # Aguarde a página carregar completamente após a ação de clique
     
     # Obter o título da página
@@ -66,25 +69,16 @@ def extract_globoplay_data(driver, url):
     # Obter o link m3u8 dos recursos de rede
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
     m3u8_url = None
-    thumbnail_urls = []
+    thumbnail_url = None
 
-    # Buscar o link m3u8 e as imagens .jpg nos recursos de rede
+    # Buscar o link m3u8 e o primeiro arquivo .jpg nos recursos de rede
     for entry in log_entries:
         if ".m3u8" in entry['name']:
             m3u8_url = entry['name']
-        if ".jpg" in entry['name']:  # Pega todas as imagens .jpg
-            thumbnail_urls.append(entry['name'])
-
-    # Se houver pelo menos duas imagens .jpg, usa a segunda como thumbnail
-    if len(thumbnail_urls) >= 2:
-        thumbnail_url = thumbnail_urls[1]
-    elif len(thumbnail_urls) == 1:
-        thumbnail_url = thumbnail_urls[0]
-    else:
-        thumbnail_url = ""
+        if ".jpg" in entry['name'] and not thumbnail_url:  # Pega o primeiro arquivo .jpg
+            thumbnail_url = entry['name']
 
     return title, m3u8_url, thumbnail_url
-
 
 
 # Inicializar o WebDriver
@@ -112,7 +106,6 @@ with open("lista1.m3u", "w") as output_file:
 
 # Sair do driver
 driver.quit()
-
 
 
 
@@ -266,5 +259,5 @@ def search_google_images(query):
     return None
 
 # URL do arquivo M3U
-input_url = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/lista1.m3u"
+input_url = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/LISTA%20ESTADOS%20UNIDOS.m3u"
 output_file = "lista1.m3u"
