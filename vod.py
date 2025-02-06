@@ -17,7 +17,6 @@ globoplay_urls = [
     "https://tvmi.mt/bigbrother",  # Título não encontrado
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
     "https://globoplay.globo.com/v/1467373/",
-    "https://globoplay.globo.com/v/3258706/",
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",  # Título não encontrado
     "https://globoplay.globo.com/v/2135579/",  # G1 RS. Assista aos telejornais da RBS TV
     "https://globoplay.globo.com/v/6120663/",  # Título não encontrado
