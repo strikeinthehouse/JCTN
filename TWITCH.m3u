@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Zadruga Live 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStem0XPoGKLI-j2bCJg8rXImaOogRtbwRMbgcW-9WJd1Q-VF1V&usqp=CAU",Ex-Yu: Zadruga 1 Live
+http://localiptv.site:85/GigaIptvPro21/GigaMk2021exch60/1285
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Zadruga Live 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStem0XPoGKLI-j2bCJg8rXImaOogRtbwRMbgcW-9WJd1Q-VF1V&usqp=CAU",Ex-Yu: Zadruga 2 Live
+http://localiptv.site:85/GigaIptvPro21/GigaMk2021exch60/19632
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Zadruga Live 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStem0XPoGKLI-j2bCJg8rXImaOogRtbwRMbgcW-9WJd1Q-VF1V&usqp=CAU",Ex-Yu: Zadruga Live 3
+http://localiptv.site:85/GigaIptvPro21/GigaMk2021exch60/19633
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Zadruga Live 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStem0XPoGKLI-j2bCJg8rXImaOogRtbwRMbgcW-9WJd1Q-VF1V&usqp=CAU",Ex-Yu: Zadruga Live 4
+http://localiptv.site:85/GigaIptvPro21/GigaMk2021exch60/19634
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="tvireality.tv.vodafone.pt" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
@@ -20,12 +28,6 @@ https://dumdumbullet.com/1011454237/bHg8wYxrId/6661979
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png",RTL-TVI (1080p) [Not 24/7]
 https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
 #EXTM3U
-#EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
-#EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
-#EXTM3U url-tvg="https://www.open-epg.com/files/colombia1.xml.gz"
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png",Canale 5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
 #EXTM3U
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/ut_XDsj5SJ8/hq720.jpg?v=4&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC24onJfOd-zlAYcsH_wySvnJ6f4A" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Del Golfo
+https://ythls-v3.onrender.com/channel/UCQ08tNTPiBn44c975S81ftg.m3u8
