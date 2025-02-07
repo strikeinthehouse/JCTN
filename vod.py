@@ -15,6 +15,8 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",  # Título não encontrado
+    "https://www.rastro101.com.br/noticia/45821/ao-vivo--assista-ao-gr2",
+    "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-sexta-feira-7.ghtml",
     "https://g1.globo.com/sp/sao-paulo/ao-vivo/queda-de-aviao-na-zona-oeste-de-sp.ghtml",
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
     "https://globoplay.globo.com/v/1467373/",
