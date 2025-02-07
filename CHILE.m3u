@@ -1,254 +1,106 @@
 
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
-#EXTM3U url-tvg="https://www.open-epg.com/files/chile1.xml"
-
-#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVN
-https://marine2.miplay.cl/tvnchile/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVChile
-http://45.181.123.233:8000/play/a0qg
-
-#EXTINF:-1 tvg-id="NTV.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/ntv-cl.png" group-title="CHILE",NTV
-https://marine2.miplay.cl/ntv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" group-title="CHILE",La Red HD
-https://unlimited2-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" group-title="CHILE",La Red
-https://marine2.miplay.cl/lared/playlist.m3u8
-
-#EXTINF:-1 tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" group-title="CHILE",UCV HD
-https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" group-title="CHILE",UCV
-https://marine2.miplay.cl/ucv3/playlist.m3u8
-
-#EXTINF:-1 tvg-id="tvmas.cl" tvg-logo="https://img.soy-chile.cl/Fotos/2018/10/29/file_20181029173540.jpg" group-title="CHILE",TV+
-https://marine2.miplay.cl/tvmas/playlist.m3u8
-
-#EXTINF:-1 tvg-id="24Horas.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tvn_24_horas_cl.png" group-title="CHILE",24 Horas
-https://marine2.miplay.cl/24horas/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega
-https://marine2.miplay.cl/megacl/playlist.m3u8
-#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega SD
-http://45.181.123.233:8000/play/a0qh
-#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega HD
-http://45.181.123.233:8000/play/a0is
-
-#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV
-https://marine2.miplay.cl/chvchile/playlist.m3u8
-#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV SD
-http://45.181.123.233:8000/play/a0qi
-#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV HD
-http://45.181.123.233:8000/play/a0kl
-
-#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13
-https://marine2.miplay.cl/c13/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13 SD
-http://45.181.123.233:8000/play/a0qj
-#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13 HD
-http://45.181.123.233:8000/play/a0lh
-
-#EXTINF:-1 tvg-id="13C.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",T13
-https://marine2.miplay.cl/t13/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ZonaLatina.cl" tvg-logo="https://zonalatinatv.com/wp-content/uploads/2023/04/ZL-Lateral-NO-OFICIAL.png" group-title="CHILE",Zona Latina
-http://45.181.123.233:8000/play/a15n
-#EXTINF:-1 tvg-id="ViaX.cl" tvg-logo="https://cdn.mitvstatic.com/channels/cl_via-x_m.png" group-title="CHILE",ViaX HD
-http://45.181.123.233:8000/play/a0oh
-
-#EXTINF:-1 tvg-id="TVU.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_tvu.png/1024px-Logo_tvu.png" group-title="CHILE",TVU
-https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="UChile.cl" tvg-logo="https://www.uchile.cl/.imaging/default/dam/imagenes/Uchile/imagenes-noticias/172128_1_u-chile-tv-logo-1200px-fondo-negro_S/jcr:content.png" group-title="CHILE",U Chile TV (geo)
-https://unlimited1-cl-isp.dps.live/uchiletv/uchiletv.smil/uchiletv/livestream0/chunks.m3u8?nimblesessionid=9302469
-
-#EXTINF:-1 tvg-id="TVR.cl" tvg-logo="https://www.televisiongratis.tv/components/com_televisiongratis/images/televisin-regional-de-chile-1483.png" group-title="CHILE",TVR HD
-https://pantera1-100gb-cl-movistar.dps.live/tvr/tvr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVR.cl" tvg-logo="https://www.televisiongratis.tv/components/com_televisiongratis/images/televisin-regional-de-chile-1483.png" group-title="CHILE",TVR
-https://marine2.miplay.cl/tvr/playlist.m3u8
-
-#EXTINF:-1 tvg-id="STGOTV.cl" tvg-logo="https://pbs.twimg.com/media/DmuwuKqXsAUevyn.jpg" group-title="CHILE",STGO TV
-https://stv4.janus.cl/playlist/stream.m3u8?s=lq&t=3&id=m30upk7m&q=&d=w
-
-#EXTINF:-1 tvg-id="CNNChile.cl" tvg-logo="http://i.imgur.com/Dd9PMar.png" group-title="CHILE",CNN Chile
-http://45.181.123.233:8000/play/a15o
-
-#EXTINF:-1 tvg-id="TVN Chile" tvg-name="TVN Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/tvn_chile.png" group-title="CHILE",TVN | Chile
-
-
-#EXTINF:-1 tvg-id="Solo Stand Up" tvg-name="Solo Stand Up" tvg-logo="https://lh3.googleusercontent.com/-vs6bQTy4Dns/X30TqJ-CdrI/AAAAAAAA6M4/WUtqB3d4eiEp7oHE44DkOhh5V0NNTDMSACK8BGAsYHg/s0/2020-10-06.png" group-title="CHILE",Solo Stand Up | Chile
-
-
-#EXTINF:-1 tvg-id="13 de Chile" tvg-name="13 de Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_chile.png" group-title="CHILE",Canal 13 | Chile
-
-#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevision" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/chilevision.png" group-title="CHILE",Chilevision | Chile
-
-
-#EXTINF:-1 tvg-id="TVN Chile" tvg-name="TVN Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/tvn_chile.png" group-title="CHILE",TVN | Chile
-
-
-#EXTINF:-1 tvg-id="ETC TV" tvg-name="ETC TV" tvg-logo="https://i.imgur.com/QVC28lh.png" group-title="CHILE",ETC TV | Chile
-
-
-#EXTINF:-1 tvg-id="13 de Chile" tvg-name="13 de Chile" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/13_de_chile.png" group-title="CHILE",Canal 13 | Chile
-
-#EXTINF:-1 tvg-id="Chilevision" tvg-name="Chilevision" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/chilevision.png" group-title="CHILE",Chilevision | Chile
-
-
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="http://www.radiosplay.com/logos/3/2/6/7/32679.png",Radio Portal FoxMix Chile
-https://sonic.portalfoxmix.cl/8002/stream
-#EXTINF:-1 group-title="CHILE" tvg-id="Teletrak" tvg-logo="https://i.imgur.com/iHhc7PK.png",Teletrak | Chile
-http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Iquique Tv" tvg-logo="https://iquiquetv.cl/wp-content/uploads/2020/05/iquiqueTV_logo_202005_272x90.png",Iquique Tv | Chile
-https://marine2.miplay.cl/arcatel/iquiquetv720/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Buin Somos Todos" tvg-logo="https://i.ytimg.com/vi/k_Q7-gqkfAo/maxresdefault.jpg",Buin Somos Todos | Chile
-https://bst.buin.cl/0.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Caracola TV" tvg-logo="https://www.caracolatv.cl/wp-content/uploads/2021/12/logo-296x300.jpg",Caracola TV | Chile
-https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="NTV" tvg-name="NTV" tvg-logo="https://i.imgur.com/w1jK0n7.png" group-title="INFANTILES",NTV | Chile
-https://marine2.miplay.cl/ntv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Kids 90" tvg-name="Kids 90" tvg-logo="https://i.imgur.com/A5U3jer.png" group-title="INFANTILES",Kids 90 | Chile
-https://videostreaming.cloudserverlatam.com/Kids90/Kids90/playlist.m3u8
-
-#EXTINF:-1 tvg-id="PlanetaTV Kids" tvg-name="PlanetaTV Kids" tvg-logo="https://i.imgur.com/ZN3ry2f.png" group-title="INFANTILES",PlanetaTV Kids | Chile
-https://tls-cl.cdnz.cl/planetatvkids/live/chunklist_w1953958808.m3u8
-
-#EXTINF:-1 tvg-id="PlanetaTV Kids" tvg-name="PlanetaTV Kids" tvg-logo="https://i.imgur.com/ZN3ry2f.png" group-title="INFANTILES",PlanetaTV Kids | Chile
-https://scl.edge.grupoz.cl/planetatvkids/live/playlist.m3u8
-
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=c5d0d76e24844235988f9265619e5fec:446b71a6deb806c6f129e25de999d07c
-#EXTINF:-1 tvg-chno="812" tvg-id="TVChile.cl" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TVNI.png?raw=true" group-title="CHILE", TV Chile
-https://chromecast.cvattv.com.ar/live/c6eds/Tv_Chile/SA_Live_dash_enc_2A/Tv_Chile.mpd
-
-#EXTINF:0 player-buffer="30" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" group-title="CHILE",CNN Chile
-http://newultra.xyz:8080/34tehu87se24ma97/m37me65wu93m/57269
-
-#EXTINF:0 player-buffer="30" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" group-title="CHILE",CNN Chile
-http://fortv.cc:8080/DeishouV2573/120712/164892
-
-
-#EXTINF:-1 tvg-id="mega-hd.cl" tvg-name="MEGA HD" tvg-logo="http://yourlogourl.com/mega-hd.png" group-title="CHILE",MEGA HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164883.m3u8
-#EXTINF:-1 tvg-id="chilevision-hd.cl" tvg-name="CHILEVISION HD" tvg-logo="http://yourlogourl.com/chilevision-hd.png" group-title="CHILE",CHILEVISION HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164884.m3u8
-#EXTINF:-1 tvg-id="13i.cl" tvg-name="13I" tvg-logo="http://yourlogourl.com/13i.png" group-title="CHILE",13I
-http://cord-cutter.net:8080/live/j3McKd/673709/164885.m3u8
-#EXTINF:-1 tvg-id="tvn-chile-hd.cl" tvg-name="TVN CHILE HD" tvg-logo="http://yourlogourl.com/tvn-chile-hd.png" group-title="CHILE",TVN CHILE HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164888.m3u8
-#EXTINF:-1 tvg-id="cnn-chile-hd.cl" tvg-name="CNN CHILE HD" tvg-logo="http://yourlogourl.com/cnn-chile-hd.png" group-title="CHILE",CNN CHILE HD
-http://cord-cutter.net:8080/live/j3McKd/673709/164892.m3u8
-
-
-#EXTINF:-1,  tvg-name="TVN"  tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-thmb.png" group-title="CHILE",TVN (CHILE)
-https://streamer01.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/TVNCHILE/__op/hls-default/__f/index.m3u8
-#EXTINF:-1 tvg-id="Tvn" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/tvn.jpg" group-title="CHILE",TVN (VPN) ACHO
-https://cvthmk.000webhostapp.com/tvn.php
-https://cvthmk.000webhostapp.com/tvnhd.php
-https://tvn--24df53d9e0.repl.co/
-https://mdstrm.com/live-stream-playlist-v/57a498c4d7b86d600e5461cb.m3u8?access_token=FmNotzoOXDoZWaHupBbLurn8Ijrjq1C1gAOHRTaBvcLr3K6T00meQLanhm4zCOLXtFHlVUR8wAc
-#pagina web:https://www.tvn.cl/en-vivo
-#token:https://live.tvn.cl
-#herramienta para ver el token:https://codebeautify.org/source-code-viewer
-
-
-
-#EXTINF:-1 xui-id="125" tvg-id="CHVAAH" tvg-name="Chilevisión" tvg-logo="https://normielista.cl:443/images/0GV_IuQaPDLyYaZp9L5H2CMg2ozhFk3H2yn6s37Y4X_0xaKkuCYoGKPL_-hbrOy6TaaN6EC_eDJyzmXiMgM4Gg.png" group-title="CHILE",Chilevisión
-https://normielista.cl:443/play/0Bu2UVekNecKvoeYhzqb9VTVNpb0Ty6APnEPt0h4YBNaTAhytRXgJHnEzvivdqpz/ts
-
-#EXTINF:-1,  tvg-name="CHILEVISIONCONTIGO"  tvg-logo="https://media.cnnchile.com/sites/2/2021/04/22-11-2019-Chilevision.jpg" group-title="CHILE",CANAL 13
-http://daleplay.club:8080/listatbsdaleplay22/listatbsdaleplaypararepetircanales/156122
-
-#EXTINF:-1 tvg-id="Chilevision" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/chv.jpg" group-title="CHILE",Chilevision (VPN)
-https://cvthmk.000webhostapp.com/chvhd.php
-https://chilevision--92fbc459f4.repl.co/
-https://chv-m3u.chorroaeboy.repl.co/
-https://mdstrm.com/live-stream-playlist-v/5c928b7f6d6f41084bdae898.m3u8?access_token=SX4xOAnbdD56p36OoVCv45HGPNgEMrMV9D8icJTVvzlCYKzRCZQtxOJ2kcrWje3YgXPvTmZttHX
-#pagina web:https://www.chilevision.cl/senal-online
-#pagina token:https://www.chilevision.cl/ms_player_src_01/live_1/5c928b7f6d6f41084bdae898/1681435537.js
-
-
-#EXTINF:-1 xui-id="128" tvg-id="MEGA" tvg-name="Mega" tvg-logo="https://normielista.cl:443/images/0GV_IuQaPDLyYaZp9L5H2CMg2ozhFk3H2yn6s37Y4X-phSNZlGbmiki05OMDvwB3.png" group-title="CHILE",Mega
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Ntv" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/ntv.jpg" group-title="CHILE",NTV (VPN)
-https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
-#pagina web:https://mdstrm.com/live-stream/5aaabe9e2c56420918184c6d
-#Sin token
-#herramienta para ver el token:https://codebeautify.org/source-code-viewer
-
-
-#EXTINF:-1 tvg-id="24 Play" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/24 play.jpg" group-title="Televisión",24 Play
-https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8
-#pagina web:https://mdstrm.com/live-stream/57d1a22064f5d85712b20dab
-#Sin token
-#herramienta para ver el token:https://codebeautify.org/source-code-viewer
-
-#EXTINF:-1 xui-id="123" tvg-id="C13STGO" tvg-name="Canal 13" tvg-logo="https://normielista.cl:443/images/0GV_IuQaPDLyYaZp9L5H2CMg2ozhFk3H2yn6s37Y4X9UAj6nCi9ytepPsaKrCz8k.png" group-title="CHILE",Canal 13
-https://ythls.onrender.com/channel/UCsRnhjcUCR78Q3Ud6OXCTNg.m3u8
-
-
-#EXTINF:-1 tvg-id="La Red HD" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/lared.jpg" group-title="CHILE",La Red
-https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8?PlaylistM3UCL
-https://d2ab26kihxq8p0.cloudfront.net/hls/live.m3u8
-#pagina web:https://www.lared.cl/senal-online
-#Playe:https://rudo.video/live/lared
-https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
-
-
-#EXTINF:-1 tvg-id="1437" tvg-name="TVN3" tvg-logo="https://i2.paste.pics/2ba64b67051e159ff48060da1a687fd0.png" group-title="CHILE",TVN3
-https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 group-title="CHILE" tvg-id="" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/UCLTV.png?raw=true",UCL
-https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
-
-
-
-#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRYcis81WAh0QolovYToT0vSzgN7sIzkaru5-pOog=s88-c-k-c0x00ffffff-no-rj", TVN
-https://ythls-v3.onrender.com/channel/UCaVaCaiG6q.m3u8
-
-#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/clEeO22ukG6jvOlhK3EDIszMjjcNfZ5xJY4fVEUrN3bki3RYs8RiATTjqPXGVTCP0XFN7W046A=s88-c-k-c0x00ffffff-no-rj", CHV Noticias
-https://ythls-v3.onrender.com/channel/UCRsUoZYC1U.m3u8
-
-#EXTINF:-1 group-title="Chile" tvg-logo="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAGF-l790QCWpgPDcehyjzfhDKe2MqcuwGJc6HbUR4Q%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1", Meganoticias
-https://ythls-v3.onrender.com/channel/UCkccyEbqhh.m3u8
-
-#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLR7bqk5Na_4EadU3tKgOi5b9jRifERvtJ6EiSY9vQ=s48-c-k-c0x00ffffff-no-rj", T13 EN
-https://ythls-v3.onrender.com/channel/Ove87nZ_1D4.m3u8
-
-#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLR7bqk5Na_4EadU3tKgOi5b9jRifERvtJ6EiSY9vQ=s48-c-k-c0x00ffffff-no-rj", T13 EN
-https://ythls-v3.onrender.com/channel/UCsRnhjcUCR.m3u8
-
-#EXTINF:-1 group-title="Chile" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSUe9jIzIfdb0yoCPlzMWThMyTg7uBO2GS_H7mF6wo=s48-c-k-c0x00ffffff-no-rj", 24horas.cl
-https://ythls-v3.onrender.com/channel/UCTXNz3gjAy.m3u8
-
-#EXTINF:-1 group-title="Política" tvg-logo="https://yt3.ggpht.com/rzWmoueYLYs4hpK1mwVFnyafADTztytGuZFiPJEVd1lyCZKFyYebzLPV1P9BB4xB6rEIiEKSug=s48-c-k-c0x00ffffff-no-rj", TV SENADO CHILE
-https://ythls-v3.onrender.com/channel/TVSENADOCHI.m3u8
-
-
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/S8VPPgr.png",Red Fueguina Medios | SD | Porvenir
-https://inliveserver.com:1936/11012/11012/playlist.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/ilCiqga.png",Canal 21 | HD | Chillan
-https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/saLbzvM.png",Iquique TV | HD | Iquique
-https://marine2.miplay.cl/arcatel/iquiquetv720/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/FMFLFIL.png",Atacama TV | HD | Copiapó
-https://v2.tustreaming.cl/atacamatv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/aPA11ts.png",Holvoet TV | SD | Copiapó
-https://pantera1-100gb-cl-movistar.dps.live/holvoettv/holvoettv.smil/holvoettv/livestream3/chunks.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/VsfXiJy.png",Pop Media | HD | Santiago
-https://v4.tustreaming.cl/poptv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/jL7zgG5.png",Tele Angol | HD | Angol
-https://pantera1-100gb-cl-movistar.dps.live/teleangol/teleangol.smil/teleangol/livestream1/chunks.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/GG8zE02.png",T-Vinet | HD | Osorno
-https://unlimited1-cl-isp.dps.live/inet2/inet2.smil/inet2/livestream1/chunks.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JHG0k6v.png",Santa María Televisión | SD | Coyhaique
-https://unlimited1-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/VhOolgs.png",El Pingüino | HD | Punta Arenas
-http://streaming.elpinguino.com:1935/live/pinguinotv_720p/livestream.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/mjX7HC0.png",Soberanía| HD | Punta Arenas
-https://tls-cl.cdnz.cl/radiosoberania/live/chunklist_w1753930486.m3u8
-#EXTINF:-1 group-title="CHILE" tvg-id="Undefined" tvg-logo="https://i.imgur.com/Vx20KSy.jpg",Umag TV 2| HD | Punta Arenas
-https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_realitymas-214x120.jpg" group-title="MÉXICO",PROGRAMA HOY |CUENTAMELO YA| AMOR AMARGO | PAPAS POR CONVENIENCIA | LAS HIJAS DE LA SEÑORA GARCIA | LAS ESTRELLAS🔴EN VIVO🔴
+https://video-weaver.ord56.hls.ttvnw.net/v1/playlist/CuEEkWYcIInp_MdmbPhzR-0x10RP5KpAJ3xLLXldE1FE0KmVCorC31TKfYp9Ssq32gzujgFolwXhY2a3_arglhddKPpuvOxbfSpyFxsy1U3T7Opcvj3iSzn_feDHQNMSZD-HbN27VQRhYyZtJninLhTh3nTndVl0VkCHAm5owApq6IaxAJgR9LAWAdaG9yU2D6_dZEgFnPatYxWHEGEi_eOkZtPzsufUIgwGb2bG-CMBHVIlGOYlS68B9XnUYPztn3zROVv6DNpjx5LzxqADrNykfcWwtWdfz2kkmK42juj2ZiPLiqeEG-lC_pqfeGHLzGO1stX8Shq4SdLLsjLzbujSvMOYcAsWc9C3uzsv75ycycsXRSenGWPKv_b-cqh5AfUd26T8Q21GmRWYgC_4sKXsPYDZB7I8NK-mJUbkyHtyXx0r8VU5fh6NKyJOh3eoFIhnJM5Zx1H427rGMEIohP-Vq5pQekSmeRpqVCO431-8_7QZT7hamuPZ-pS6MuoNPahrZTqhgrkPvw1snFvIgXLOp9X9j-BgFxKLrdsTkHm386D-TLi-ffbzYvHelDQ2-Z4tYTSICQCdaIervKLovxpUqjXEJzuBHgzMVub7_e8Dbdr92E9Kz49stSC4niWphXDq4LDF9lShQHZ3gMypSmKakNeK21Q6Y072Z88qcDqx0I5Xmuab8Wv0A05wQ-3xrdjFPi7Ms2A2ygs-ze7f_JIYIaRjZKnOquIlEHYeakVxB7nV4OpSzLF2EyqirlW6IkIlqscsfSiYiiqdLByc0jxxfOG5MWY6x5paWroB0giDerQzGgxTY2iYJ8nH49SMVTsgASoJZXUtd2VzdC0yMMML.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_televisionmxhd-214x120.jpg" group-title="MÉXICO",🛑 LAS ESTRELLAS EN VIVO 🛑PROGRAMA HOY | ME ATREVO A AMARTE | AMOR AMARGO | PAPAS POR CONVENIENCIA | LAS HIJAS DE LA SEÑORA GARCIA
+https://sae13.playlist.ttvnw.net/v1/playlist/Cu8Ez2ZrGbQ8SuYzQW46cvVpExjFywNXdt0vpxMpo5xWq3JVBXYxHFCC6PW6XUIebSrOWj-FAzml0D6CkC6EfMC0eOqgfX41fMwzLtLOmrANB-fUL_U2vJFESXElciKrXOXfiyRFOycieC0IaZgDZpBU3PAUmUNjLYnGw495tcCL5sG5fThvbHf-Unibewi1UcsK8fifSo9zghjnLYhEk-_3GZr3YltyrYCOzSEZGq5v1JwhZGvhsuxNThau8wCZgNSSORGrtaSOMwpTXPY451c7pf8QHbkpLhpDiq0Kpefn_1uS68wSEW2rz-6mTn-n9KrdPT_l-3CgPujejVt5gz1MuOYuln7MJ34fTL0Jv6N0Bs5OWQ3Kid8lwgBa2F9TFcg0o62HYPj56iHO48n7_l17WLybcyD8ABtIKHE0hC2GIJgcYgwePy3wf1JVQfOJGPcKV6ayWLJfAJkjt6jSapPvxCF6zwMbIBmFYNkwSwyW8xNqKHhKNJov3Gsdn3PtCnxN7SebUvIxZ3b35ZYaaafb3-HuaTt5VSqjtD6MT--H4PTYbb16QmP0u-8yy4WVTJDw6ZA27wnKNjV94TCH0G4aTJwI5PjiYIf8xGKsS5cl_TPj0RPeIbNs3lhY1qx94_QwgSuqlMxWSlEbV37CnJRhnchM6lFoLf8Vb-un-hcoKVakN2ST_mvGvI4SO11HxrYRvfn_V_NqdMDqfxfXork3mVtS2JQQKDLZExZUrQO8dT09NoOm9Cr8QkRLpZ8PkNUqs5Bq_3qd19MBiuAr810xhIcWys0mhRrV-8yIljmG6EhwlQNLhkGAi4KOkGBC7y0aDOLNYa-fIykevzlxOSABKglldS13ZXN0LTIwwws.m3u8
+#EXTM3U
+#EXTINF:-1 group-title="CAMERA AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBDnxaaz-en9AzUARSDlA_oGl0-hPMqEH1j3anQDQd48YsyKQ-6xVyJ12FXo&s",Undefined
+http://80.61.63.103:81/cam_1.cgi
+#EXTINF:-1 group-title="🇧🇷 | BRAZIL" tvg-id="NovaEraTV.br" tvg-logo="https://i.imgur.com/IK3F9Uq.png",Nova Era TV
+http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
+#EXTINF:-1 group-title="KOREA" tvg-id="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nknews.png",DITADURA COREIA
+https://tv.nknews.org/tvdash/stream.mpd
+#EXTINF:-1 group-title="Undefined" tvg-id="CanalMetropolitanodeNoticias.br" tvg-logo="https://i.imgur.com/G0x4xqa.png",Canal Metropolitano de Noticia (720p)
+https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="TVCidadedePetropolis.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp",TV Cidade de Petrópolis
+https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE3z-QtWvhdP1Ps_ZKQuYPahyJTKVrJqR1ZvpYC5wOSfKqCbJhtOUmkXmZaI&s",TV CULTURA SP HD
+https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s",TV CÂMARA DOS DEPUTADOS HD
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzdi3a9KFm2AYTzbRFRP5usq7gIQaads1CBjH7oMajw3UbyHikRIo5mN89w&s",TV Brasil Central
+https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-id="RedeMeioNorte.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU",Rede Meio Norte HD
+https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
+#EXTINF:-1 group-title="ITALIA" tvg-id="Senato Web TV 1" tvg-logo="https://webtv.senato.it/application/xmanager/projects/leg18/img/webtv/logo_senatoTV.jpg",Senado Italiano - CAMERA 1
+https://senato-live.morescreens.com/SENATO_1_001/1080p/chunklist.m3u8
+#EXTINF:-1 group-title="ITALIA" tvg-id="Senato Web TV 1" tvg-logo="https://www.radioradicale.it/sites/www.radioradicale.it/files/testata-radio-radicale-500-tiny.png",Camara dos Deputados - ITALIA
+https://video-ar.radioradicale.it/diretta/camera2/chunklist_w454478514.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="AuroraArte.it" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25slJqq8IHS3QVBEVhPT352ynZ8_cJtpkPQ4-D1wQdYTMCqRGGFsv1tzJtw&s",Aurora Arte (480p)
+https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/2/24/Amazon_sat_logo_2022.svg/200px-Amazon_sat_logo_2022.svg.png",AMAZON SAT
+https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",BR - 277 - Sentido Ponte da Amizade em Foz do Iguaçu / PR
+https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg",Ponte da Amizade - Sentido Brasil em Foz do Iguaçu / PR
+https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png",Ponte da Amizade - Sentido Paraguai em Foz do Iguaçu / PR
+https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8
+#EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-05-5bb3c38fd114b.png",BR - 277 - Aduana Ponte da Amizade em Foz do Iguaçu / PR
+https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFVNc997Q21Qt4tgPSBXJj5RuhyhuOBK0W9F4OA4aWwBTRKmLYw0zYw5o-8g&s",GOIÂNIA - Morro do Mendanha
+https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/chunklist_w182959856.m3u8
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="Undefined" tvg-logo="https://i.imgur.com/7DfRiz6.png",Setor Oeste
+https://hunq9fz8yk.zoeweb.tv/r9oeste/r9oeste.stream/chunklist_w1793116402.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/jJ6v5ea.png",CANAL 5
+http://181.78.106.127:9000/play/ca012/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.imgur.com/uZdVSoW.png",Canal 5  - 2
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/4/4d/Logo_cn5.png/revision/latest?cb=20150519224125&path-prefix=es",CANAL 5 - 3
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/YL1K2C5/Canal-5mx.png",CANAL 5 - 4
+http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Logotipo-Canal-5-M%C3%A9xico.png",CANAL 5 - 5
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png",CANAL 5 - 6
+https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 7
+http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 8
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/jJ6v5ea.png",CANAL 5 - 9
+http://181.78.106.127:9000/play/ca012/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.imgur.com/uZdVSoW.png",Canal 5  - 10
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/4/4d/Logo_cn5.png/revision/latest?cb=20150519224125&path-prefix=es",CANAL 5 - 11
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/YL1K2C5/Canal-5mx.png",CANAL 5 - 12
+http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Logotipo-Canal-5-M%C3%A9xico.png",CANAL 5 - 13
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png",CANAL 5 - 14
+https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 15
+http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 16
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 17
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_barnacules-440x248.jpg" group-title="NEWS WORLD" tvg-id="barnacules",The world as we know it is coming to an end... 🪦
+https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/Ct0EydRnTCLv_h6sAz7CAo4LZydw8tXxTJUV73ZpB24v1fgYgTPvjuEtUdK4kJwQ3bpMCPFipkXeOTrwn8fbaCwnG4m6x7NAHqmyClYnRhyUHL0OnxPy8WAh5YC5-CbRuWQ8LeNQXqwDlOEenGfCeUmNwniyHqraM4JfZmIHHuYOX1IleVgsgznjtGGOE6jfY8JiG1N4xg6HQGvRu0mEZJJF6xO_-vl_SgBVmPpXBqOYnYdUpafOOuJa3kxcJRL4QkRDa-OHe-AXnKv8EFFBP3Agn7EhjUzaJil1XaRJy3QSClZy_3kHhBiZ_0p2tlyAjXJUnEjgH8jJn_YJe2IH9yNOokTa88ZYp23BiN_MffcwIqfVqT71lEFPVcbvWK4ktub056QtZQpOoM7Wtv_DNgbTa_fkB17JJLNqAw7Sfc_ENrh1newSUx1NAU21ne5-Lg0FpJjzDKQMHnaztsXSC0BVafQbz8P7dmXkTZcO5teN227PPD6Cti48GL9Ad_WCjHhXU6OWTNIRvE4vF7PIHTj6dKtGi2ZitjhvtlfcZysLwuoLj0hwz_YkUJWlBbF-aa2mcHZKrAtjC4SAmbgBk0EwuudYrQKiK0SOCr2S7P198EDmzgjb8aGfT4xuYZiRjtYqiD9-RMBDeO-CKjcVzUTaAc-PdXCcWiU_a0-jgRONZozY_0ffgxRNJYzaa6qiHtefJPbWR5czBEXW1YwWIelHeo_rh8IzCgwIzPzu3wlP-2a1HTsrC0TnRQvVh0IgElcqwO6TSZ08HyyWX1KrdtjphFwnO5v01FP7blJ7RQ8aDNo6diUc_0s7i2UduyABKglldS13ZXN0LTIwwws.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_abcnewsal-440x248.jpg" group-title="NEWS WORLD" tvg-id="abcnewsal",ABC News Albania | 🔴LIVE
+https://video-weaver.ord56.hls.ttvnw.net/v1/playlist/CtoEaGOBmbByWuGZhmX1QqYBPOgrfloKkNVACC4rRUfTOm7qF9HwzC95-_fP7rH0JOKt2e3m5tEKcXSQOMqljFPRjdxx4jv6sJ9XUjRHFb6OkkCxEsL8t-hbhExGRsYv2SmLSF4CuUZafiM4m1KVt4PH7zxxEuCBQP8cPHee9s2yi7UZ6U59WpfTNgHaEyhNbZG6Rahm9fWL_CqBelDmXxAsuuf71CRJPpmgkRDEJRRqYnS9HEBLRSey4hMrkW2NSF1HUYP3bqPR5gXOVRfT_ucDCe91RtksCJUB0Gw5gsslW4nzDItwzSECGAxMLl9RXb8jgqF7h74-NryZv88D-bfOYIfoOGFwAV68egXO1lzOvBHVuxK-EGMt25ZHfJAXmBRIQL1nHHj80uTPC8eKfXVIKorzgZirQtaqkiLkluzLnGnHeDjI7HD3-yPWu5yj8EECec994eDVlp2Kr-ad_XXGPzPkK85MjQIUJdwAmZgPwOl5c5JvKtXrV4RLN2plAoghHODgo3i84-CXqKdnAuI_tSEdbv_CSbZTfaMNq_9B2APeFxUAYsghRBQohiNrkQMmFPmrSA1jbOzd3nQqkqT6SWnGmwsxtssXKXfWj8C7Xd9xWNdCFK41tzht2UhXb8jgrufMYt4rpWhYBCLIVohwGIk8N2wqfHvNFqy-27bYjbGX_VBk--8CPLW-K7DwwU9p1URtkL0JhCJbr3xR2EfUm8x11UNABPqcT7nBeMUUYacQHyGG3OO1_5ZQCCwImrtu8x0p5xPOCru_IwDuZxm5Q0iwRJprJIA5X7saDL98q1TKomxskrSU4CABKglldS13ZXN0LTIwwws.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_rawreporting-440x248.jpg" group-title="NEWS WORLD" tvg-id="rawreporting",🖥️ Live News Dashboard 🔴 Live Cameras ⚡️ Breaking News 📰
+https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CuQEExtluYuBSeCOyOoHH-U4RUUXqecKRx0Pp1YZioeBgxpBGZvAMZUsqD9kEW49-bi56NAcWJ1EuINupeeXTUG7nOrZ4GCeHSVpHT_LhjvGUgk_JxcEAlfq2jSG9PMZ--LfJHLKNOtgPQoYLFCd6NYU9EZKHaXcFUAb1HJ0bk5AscXLKs-iJsz6KQ4ZF4-Z_TjcPXMMZIcoOA3ZxxDMquNOi51Inm-VucyRKGxTuyhYQ6GSpRCVfm0pr6zXoY7stHUPBv7kN3FL17D3-Sdr7fBxnBCDX8lQV6lb7aDOkE_kHztkn6sBrSK5A3eVrkRoh7WI2t_SbYVOxyIT_cYDbiHF-J3UqH9SVcGR4hn1Y6uuzI3KZ2Lzs-lqRWMOk4t1_OVKeYBLEdStBXFThWCyQBdloAWCOZ06PTpzjdUQQL1V3vKd3QiLM8IajFuI-euPKAgRshd1098CIvvhlKaZan26f7TSuPCFPpv2PxJPFzIFKE2Kj485toB87_y1LviBiTeImwd4AIy36T9xlea_oe1zrPYN3eGa24RFCq9Jvaya0y5DsO0u404DjT03jNTS12c6LhRRHPDbnCW69NP8c8lV_QXYq0pRfxZs6SH0tt1mqN6Gneto3cQq5qRMKdnHgZJW6VeqJGSr-sk8ApvGjSkahdu7cF1Q6o6yDud96PyH6ZheLS9l2PpGGd5V-c6CSgSPaqz4KRTe0DC09TBpp1wenVLYL-ckzCeEKSBUDwA64dKETl8S1UB4AlKSdNQiektF_Zip8y3yzxmTSfgDdQHA1LoPOI93UUZe46f4JYuqqIAn_35VGgzvZsvogApBLdIEmWogASoJZXUtd2VzdC0yMMML.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_tnslivetracker-440x248.jpg" group-title="NEWS WORLD" tvg-id="tnslivetracker",🔴 Live 24/7 National & Texas Weather Radar STORM Tracker and Alerts
+https://video-weaver.ord56.hls.ttvnw.net/v1/playlist/CusE79B3VLeZVuKlmMtRvymj1bJ2zeYW8uEZOEe4tJk9Clu8JAEsw0GoEBscqmXx92Wg3_XvvzJhNL1yL-JRVc4ptaWDXDhNEqcIey8ajKvDhZyhWFXV6DYwoZrRqMKJLaCtCxzoG4_Wj2HISDusI2fYaWHZxCT458oYeWUU1sn0vZW_6Ee7BTZa2rxW5QMl_8rXa_DBTiovoYHAM9OxCHekw-9CSg3leXei2Tu5MKJB2YYJ8qIPwtL2sW0dKhf-Q5BMksjc9to0XAaj8VFTF8Xln44E7_vqXhjUt3Xcb4BqpKSgY4fB1ESwnNHteL6_a8C7wHOiiwR-jt1D4cChI3V3qzvUZJQsABHCZTBuPe6vzDdxfoP0UPNdjamc9Tjm7D0kg8aulfPZq1i4MgyStXP52nXECXYUsYpXEIphCQPP5g5bbYy65lhCcj0KxxlQdcXx10Qx9T0_2qMiAwQkbrYsgBZH7ffYA_Ur4609RywdXLdOAvCVsv2cTZQNKPlb1AnF7CNnAiejBh5BkukFip7uQx4acI2skMtwFvt5tk5BbjhsC_1lfqOq3PDi7lBl-4mjsJL6vzToMuQ6yUoEhXkvpvOZ_O27_5rQys0pkoDVOd_MwA4x8QcAVVaLUY2COBrNUQh279QhUoqpzs8Iu36vT8UOKM82d0MCqe0fJo1O4jL0pDUQMYSMt1LQo3k0sdrKBcKD7P0eq6bbeGJJAhFlsiXO8CIHqo395A-Z2Fg_7dX4gVcf2s4C6-u2MfXrXG8WLM2kg4FSmzFKqOWrPa6Orede6-nI1tXuqaWiiBspGTZtSrPGPEI-1NtZmhoMR09V3oyKEPsvVa4_IAEqCWV1LXdlc3QtMjDDCw.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_sourceglobal-440x248.jpg" group-title="NEWS WORLD" tvg-id="sourceglobal",Ukraine Live - 24/7 Multiple Live Camera coverage of Ukraine
+https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/Cr4Em_gkplMPYuRWGY-u1Ka8Rc4ldd8547Mpy9-X4_S50ri-Zgwv1grC1pPFj85WmHxofyaTOA5nw-dqvxmPxln1vNZZzpFB9QIcHkH9vDDQyYuBf86Z1yfpIjdUtXc7MsYZxR2FhadNCuQDucwPgNEQwXxRUhEunxAf7J_S3ZWd-jjFdUMBrlT5lcoAz_HQNSORj5JXIdkF5UxYni0dZekgTUChmE3UZ-w5UliG9Ki_88ZuBSCg9qeVNiyewYKx8hDOWRRR4pfDMG7UCb3C2nRM7AmaDJ_4h7HdRe_cOuUys12Ge8Mud2MSeGgA8Dk1jQp00FWPzWo86-tIhNvEOhXPmboLefypJILXLUUz5YcEYatJD5YCvr-V_0-aMfeEtETBsj1i1qKiloAeJUOYes-QzPIexMiYijGnkzfLQrSb_kqDg_s-jkj7_2q0EtSzvcToW9E2XT3FwPsNZoQto684oiitEDWFn3G7csk_TelyV9qP2DqyRMKa_jZmRubLSoI5b-rjqnASWs_FYHCk7yUsaQCLxPWevd8PFZ8R9LoPn41bbA0aXn_OfTMhZf-pAIG-CNG4qIakTxPonrb2L2fiEQXcrl6Kvs9sqGz0BWChd8mkHMIsrTyvy1lPIYG3k_fP7Px0HJJ_fyXdHbT9H1kS73i7QhWMZFXfnO2BmcnSGSyRZBpF3VcYSV5ulKLCeLu2WjD_0j9WpzcXOC72wD1uOs-CbKGB45ABntV5RyG8U3avOKsbmMsMf5-ET6Q8kRoM68rVhRqGvNkT_tTmIAEqCWV1LXdlc3QtMjDDCw.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_krdnweathernow-440x248.jpg" group-title="NEWS WORLD" tvg-id="krdnweathernow",KRDN Eyewitness Weather NOW 24/7 LIVE North Dakota Weather
+https://video-weaver.mia05.hls.ttvnw.net/v1/playlist/Ct0EGOf7vn0oa9X5CwRXi8DXTgAUcVaG3UzWjYi4cLRZw7SE-C8tgvgO51Qmb8a7vmHe_2K_iy0T3ugTJvjTvtxURk2o2yK-CaXnE7_fmbI3DW4frY5kJpWjVebzyoldG6SbNalwj7Qu3UuXNfzciyYXHBFEDylIFiIZ5th-D5oBgt4Em4eLORccSeunKP6YHok2K8YAT7aVi8V8jAHR7rxZzNSbXDguIGTp4194FWrjaVQpe1k5-kHm3LliOImQBsZ5dEdKviXUquP4i1SNNsg2K_aRrv0BdTGdj_7x_LEzv5VeerIFn1rQWTC-5SJTLmeTs2gxqYdaCLgtWpIdcu3H3PVODWkMIJiFPtuyiAkdgtey1rEEnDhfO43jQMfKRT68eKNnntzJZLEnO69yM8AfuJi1J6p2MhGp5I-SVCpXIKkcSpGXBs40wl9wCdrkeoQZdZ8gnWRmkPuazVimpT8VGzhm3uJHOsctBOk3rwU_Up7N6npWBOLYSmNQmXCYv2NcBCclH-SIdl52ISQtEhd0m9AhkcVuXMwurjoaFIqvRaUveH7NOF8n2MpJiod9iOy4D4wTTRbPGUlw80c47ORE7cvRaJJC3F0pPZfXLLsh-erdKJ_4NLc3t63Qh9kNeBxMXlOYyXnMGRVE1c2_1O9yKHBhttdJDpTf_KTP1YQTEIWQ86bfuspmg_h71r4kClIWpTOeYClfljdjlQ9i6bBvaIOaK3aZnnnmvcYrt7-lJaexII1CwQWJWyJXdOAHmHkqqR8lD9HzcmXVtHck3fI4m5BnVbZexD1j0sMKpnQaDHOh_FF7oG2fdlSCDCABKglldS13ZXN0LTIwwws.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_ora_news-440x248.jpg" group-title="NEWS WORLD" tvg-id="ora_news",Ora News - LIVE.
+https://video-weaver.ord03.hls.ttvnw.net/v1/playlist/CrcE4EmP-R8S8gRChcZhCt5ED1hpfo0RSTvar82oA8bUxDxF3g1aCPTjFY1f8vXd7Cc3tjrRndf0ndlxDcWmTRan2GzJ6hbhFCWEX776YO7PhAoTX2cK9BR5T9JuDb7zCkAXQCKmHeESFcKS9Gy-6RLyiAwSuDhIpGG8pIyzoEUyeTZEhkLeHA0x5gSUSG0-gEF3O3zo9bJ5SpWoCDHlQkTcx2R9BgI6B_DzsxoQJpAsS5mNDIegfll2Qd-UA1yTiF25FUF900FahdVyftPcvJ9dN9Ahz_w3aP656lZ2kF6zeyi12vWc7VH03Tw4Yb8cOD2l-pjuU0WxB8g6UPRrhbxMLvg0K1ZenQv8qQfL6LFXbAX3OUhfcUfcIIBhaQePdqToLorIrS2Tx_ZgdyYLkiLaCFypNDLZwJ9jvCWNffWlQc_GvvWVhzwzMBBc_EcA6FyFEjgT2IQ99ZHB5ZSbpnh9JSQB1kVT9bmYp3Oe92H_9W1XVnsdrD9hiopsa4yCGm1eUQZAhQs4i7BuXAvRPbS3yobdXmventq49F3vmk2hDvIqXOdaSIDSlGBdrQpiy8W223qlWAz7OAOF-sOIYVXJARX9dMfwlZ57KfyoxZwU48Oaq6_r1S-pkBwqbVBCBeN0pU8o8mV6hVs7HzPDFXs-W2MXymms4wrIbqOppADVeHhQmK_TvZEE_A6LTJ6zEsRt5XHwZdppqPBNH9J9_qc2XbG3giENf97Dxv_YgvJPFwC4jrqIs2KUGgycqA2rK8O7O5z0D2EgASoJZXUtd2VzdC0yMMML.m3u8
+
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_weatherco_op-440x248.jpg" group-title="NEWS WORLD" tvg-id="weatherco_op",MAJOR WEATHER UPDATES!
+https://use21-0.playlist.ttvnw.net/v1/playlist/CsIEV0SKjOXmWTyVVx6DjUeGvBek1mjQD8VZv2jFwuko5v5HOgJsQKWPq56zPdJsw7BSPXS_sGNOs1WEmIPJmogtbCwewehHUSJZ9MORylsvhzdIaVxwUVcqDHCJnRJ2s4sV2LNNQdCy5Uft-SpuTXa9LP7zYfZpsKWhSTN_IciSzDSPMO6DiJIjZy3eSt0U8PPXtw_JOqFZM4JQBVU6qqFmgyE9SLAitR6CvCWLiXFPZrXPjBWN_-EOmiTUbZSSItzYHxgWZEiebwhG4fYWocoEh25DO2TiYqm34F--v31xq2ENjyJYzhzmlGoWH7OToM2AMbq0xfBpcfkfkC0_D43c4TCN8ZfyokhAbWJhJCIO8kJCGbbDZGolv9OU6ZLA1Q01XmQHcnnduHYgjYNM3s7tEL5C_tMVbmS5YDGOg6wEY5r6SwHJZ8mLjiCEHr49Zxvz7ICP8jafOWNyo4Ndek30AKc-RJdWqE5jOfUzKd0qdKyVNTlrmLvfKWiBqZQvIOCUga_ITTw4toTKtNp8yz1o_nxCUX3f0Upngi-Cs_KMBoxlUNZNr6N8Gcv08x-9p18PRQnFWbJ_dYozsgXXyC8Ef9BFzAOiUzzsIJZNoHBglgFfBCmtWI4DFX6Jtny71Yj1P22qeAXZUvZ80131uAZKUG4S9igBCSjarJ7EhkZfDP9Ts3oALZNH_3hssG8l2QGNYIgliXwjJVDmVj2ARtwfsicy3r8zXquamKT8lCYM-E7O4b3rx-KqNifVkpjXbbo7iGAaDHIGYISbkRP4TaQ5FSABKglldS13ZXN0LTIwwws.m3u8
