@@ -15,6 +15,7 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://tvmi.mt/bigbrother",  # Título não encontrado
+    "https://g1.globo.com/sp/sao-paulo/ao-vivo/queda-de-aviao-na-zona-oeste-de-sp.ghtml",
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
     "https://globoplay.globo.com/v/1467373/",
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",  # Título não encontrado
@@ -60,7 +61,7 @@ def extract_globoplay_data(driver, url):
 
 
 
-    time.sleep(40)  # Aguarde a página carregar completamente após a ação de clique
+    time.sleep(45)  # Aguarde a página carregar completamente após a ação de clique
     
     # Obter o título da página
     title = driver.title
