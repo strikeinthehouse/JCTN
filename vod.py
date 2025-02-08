@@ -23,6 +23,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/1467373/",
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
     "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",  # Título não encontrado
+    "https://g1.globo.com/pe/caruaru-regiao/video/transmissao-ao-vivo-do-abtv-5472979.ghtml",
     "https://globoplay.globo.com/v/2135579/",  # G1 RS. Assista aos telejornais da RBS TV
     "https://globoplay.globo.com/v/6120663/",  # Título não encontrado
     "https://globoplay.globo.com/v/2145544/",  # G1 SC. AO VIVO: Assista aos telejornais da NSC TV
