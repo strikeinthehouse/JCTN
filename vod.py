@@ -19,15 +19,15 @@ def extract_globoplay_data(driver, url):
     driver.get(url)
 
     try:
-        # Clica na div com a classe 'poster__background' (onde está a imagem de fundo)
-        background_div = driver.find_element(By.CSS_SELECTOR, "div.poster__background")
-        if background_div:
-            background_div.click()
+        # Clica no botão de reprodução com a classe 'poster__play-wrapper'
+        play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
+        if play_button:
+            play_button.click()
             time.sleep(15)  # Espera após o clique para a nova página carregar ou ação ser executada
-            print("Clique realizado na div com imagem de fundo.")
+            print("Clique realizado no botão de reprodução.")
     
     except Exception as e:
-        print("Erro ao tentar clicar na div com a imagem de fundo:", e)
+        print("Erro ao tentar clicar no botão de reprodução:", e)
 
     time.sleep(45)  # Aguarde a página carregar completamente após a ação de clique
     
