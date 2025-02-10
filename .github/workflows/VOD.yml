@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Executa a cada 35 minutos
+    - cron: '*/15 * * * *'  # Executa a cada 15 minutos
   pull_request:
     branches:
       - main
@@ -13,26 +13,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Faz checkout do repositório
     - name: Checkout Repositório
-      uses: actions/checkout@v4  # Versão atualizada para maior segurança e compatibilidade
+      uses: actions/checkout@v4
 
-    # Configura o ambiente virtual e instala dependências
     - name: Configurar Ambiente Virtual e Instalar Dependências
       run: |
         python3 -m venv venv
         source venv/bin/activate
-        pip install --upgrade pip  # Atualiza o pip
+        pip install --upgrade pip
         pip install gdown streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz haruhi-dl
         python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
 
-    # Instala ffmpeg para manipulação de mídia
     - name: Instalar ffmpeg
       run: |
         sudo apt-get update
         sudo apt-get install -y ffmpeg
 
-    # Executa os scripts Python
+    # **Definição das variáveis de ambiente**
+    - name: Definir Variáveis de Ambiente
+      env:
+        EMAIL_IA: ${{ secrets.EMAIL_IA }}
+        SENHA_IA: ${{ secrets.SENHA_IA }}
+      run: echo "Variáveis de ambiente carregadas com sucesso."
+
     - name: Executar Script vod.py
       run: |
         source venv/bin/activate
@@ -48,18 +51,15 @@ jobs:
         source venv/bin/activate
         python it.py || { echo "Erro ao executar it.py"; exit 1; }
 
-    # Adiciona mudanças ao controle de versão
     - name: Adicionar Mudanças
       run: |
         git add -A
         git status
 
-    # Faz pull para garantir que temos as últimas mudanças do repositório remoto
     - name: Garantir alterações mais recentes do repositório remoto
       run: |
         git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
 
-    # Faz commit e push das mudanças
     - name: Commit e Push
       run: |
         git config --global user.email "action@github.com"
