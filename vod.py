@@ -1,16 +1,30 @@
-import gdown
+import os
 
-# ID do arquivo no Google Drive
-file_id = "1CoeZEj20zmtuQPqkCzv2UQq7SsDSlTyd"
-url = f"https://drive.google.com/uc?id={file_id}"
+delete_path = '/assets'
+if os.path.exists(delete_path):
+    os.system(f'rm -rf {delete_path}')
 
-# Nome do arquivo de saída
-output = "lista.m3u"
+output_path = ""
+file_name = "lista1.m3u"
 
-# Baixando o arquivo
-gdown.download(url, output, quiet=False)
+try:
+    os.makedirs(output_path, exist_ok=True)
+except OSError as error:
+    pass
 
-print(f"Download concluído: {output}")
+os.chdir(output_path)
+
+mode = "file"  # "file" para arquivo único, "folder" para pasta inteira
+id_link = "1CoeZEj20zmtuQPqkCzv2UQq7SsDSlTyd"  # ID do Google Drive
+
+if mode == "file":
+    command = f"gdown --remaining-ok {id_link} -O {file_name}"
+else:
+    command = f"gdown --folder --remaining-ok {id_link}"
+
+os.system(command)
+os.chdir('/content')
+
 
 
 
