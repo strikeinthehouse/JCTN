@@ -1,29 +1,34 @@
 import os
+import shutil
+import subprocess
 
-delete_path = '/assets'
+# Caminho a ser deletado
+delete_path = "/assets"
 if os.path.exists(delete_path):
-    os.system(f'rm -rf {delete_path}')
+    shutil.rmtree(delete_path, ignore_errors=True)
 
-output_path = ""
+# Definição do caminho de saída e nome do arquivo
+output_path = "."  # Define o diretório atual
 file_name = "lista1.m3u2"
 
-try:
-    os.makedirs(output_path, exist_ok=True)
-except OSError as error:
-    pass
+# Criar diretório, se necessário
+os.makedirs(output_path, exist_ok=True)
 
-os.chdir(output_path)
-
-mode = "file"  # "file" para arquivo único, "folder" para pasta inteira
+# Configuração de modo e ID do Google Drive
+mode = "file"  # "file" para um único arquivo, "folder" para pasta inteira
 id_link = "1CoeZEj20zmtuQPqkCzv2UQq7SsDSlTyd"  # ID do Google Drive
 
+# Construção do comando gdown
 if mode == "file":
-    command = f"gdown --remaining-ok {id_link} -O {file_name}"
+    command = ["gdown", "--remaining-ok", id_link, "-O", os.path.join(output_path, file_name)]
 else:
-    command = f"gdown --folder --remaining-ok {id_link}"
+    command = ["gdown", "--folder", "--remaining-ok", id_link]
 
-os.system(command)
-os.chdir('/content')
+# Executar o comando de forma segura
+subprocess.run(command, check=True)
+
+print("Download concluído com sucesso!")
+
 
 
 
