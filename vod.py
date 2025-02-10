@@ -9,7 +9,7 @@ if os.path.exists(delete_path):
 
 # Definição do caminho de saída e nome do arquivo
 output_path = "."  # Define o diretório atual
-file_name = "lista1.m3u2"
+file_name = "lista1.m3u"
 
 # Criar diretório, se necessário
 os.makedirs(output_path, exist_ok=True)
@@ -125,7 +125,7 @@ def extract_globoplay_data(driver, url):
 driver = webdriver.Chrome(options=options)
 
 # Criar ou abrir o arquivo lista1.m3u para escrever os links e títulos
-with open("lista1.m3u", "w") as output_file:
+with open("lista1.m3u", "a") as output_file:
     for link in globoplay_urls:
         print(f"Processando link: {link}")
 
