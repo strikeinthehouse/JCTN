@@ -1,3 +1,19 @@
+import gdown
+
+# ID do arquivo no Google Drive
+file_id = "1CoeZEj20zmtuQPqkCzv2UQq7SsDSlTyd"
+url = f"https://drive.google.com/uc?id={file_id}"
+
+# Nome do arquivo de saída
+output = "lista.m3u"
+
+# Baixando o arquivo
+gdown.download(url, output, quiet=False)
+
+print(f"Download concluído: {output}")
+
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
