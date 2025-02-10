@@ -5,7 +5,7 @@ if os.path.exists(delete_path):
     os.system(f'rm -rf {delete_path}')
 
 output_path = ""
-file_name = "lista1.m3u"
+file_name = "lista1.m3u2"
 
 try:
     os.makedirs(output_path, exist_ok=True)
