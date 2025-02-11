@@ -35,16 +35,6 @@ jobs:
       run: |
         python3 --version
 
-
-    - name: Verificar se YT.py está presente
-      run: |
-        if [ -f "scripts/YT.py" ]; then
-          echo "YT.py encontrado"
-        else
-          echo "YT.py não encontrado. Verifique se o caminho está correto."
-          exit 1
-        fi
-
     - name: Rodar script YT.py
       run: |
         # Navega até a pasta scripts e executa o script YT.py
@@ -60,6 +50,19 @@ jobs:
       run: |
         # Navega até a pasta scripts e executa o script YT.py
         python3 it.py    
+
+    
+    
+    - name: Verificar se YT.py está presente
+      run: |
+        if [ -f "scripts/YT.py" ]; then
+          echo "YT.py encontrado"
+        else
+          echo "YT.py não encontrado. Verifique se o caminho está correto."
+          exit 1
+        fi
+
+
     
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
