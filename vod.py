@@ -14,7 +14,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://tvmi.mt/bigbrother",  # Título não encontrado
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv-2-ribeirao-e-franca-ao-vivo.ghtml",
