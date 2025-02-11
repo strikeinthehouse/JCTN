@@ -355,7 +355,7 @@ import time
 
 # Configure Chrome options
 options = Options()
-options.add_argument("--headless")  # Descomente se você não precisar de uma interface gráfica
+options.add_argument("--headless")  # Uncomment if you don't need a GUI
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1280,720")
@@ -364,9 +364,8 @@ options.add_argument("--disable-infobars")
 # Create the webdriver instance
 driver = webdriver.Chrome(options=options)
 
-# URL base (substitua com a URL real)
-base_url = "https://www.google.com/search?q=assistir+g1&sca_esv=4001fc3044941daf&udm=7&source=lnt&tbs=srcf:H4sIAAAAAAAAAB3HQQoAIQgF0Nu0GfBOOklI2YdGF91-wN17z1gQ0AtvFxkpWrb9BY_1DXgubgVnsbOs6wrDrqUzak-S0H1lVOlZLAAAA&sa=X&ved=2ahUKEwjgrIWn2LqLAxVErJUCHXoXLk8QpwV6BAgBECk&biw=1912&bih=954&dpr=1#ip=1"
-
+# New base URL
+base_url = "https://duckduckgo.com/?q=+vivo+site%3Aglobo.com&t=h_&iar=videos&iax=videos&ia=videos"
 
 # Load the page
 driver.get(base_url)
@@ -374,22 +373,23 @@ driver.get(base_url)
 # Wait until the video links are present
 try:
     # Wait for the video links to load
-    WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'a[jsname="UWckNb"]')))
-    
-    # Extract links
-    video_links = driver.find_elements(By.CSS_SELECTOR, 'a[jsname="UWckNb"]')
-    links_list = [link.get_attribute('href') for link in video_links]
+    WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.tile.tile--vid')))
+
+    # Extract video links and titles
+    video_elements = driver.find_elements(By.CSS_SELECTOR, 'div.tile.tile--vid')
+    video_links = [video.get_attribute('data-link') for video in video_elements]
+    video_titles = [video.find_element(By.CSS_SELECTOR, 'h6.tile__title').text for video in video_elements]
 
     # Print the links found
-    if links_list:
+    if video_links:
         print("Links encontrados:")
-        for link in links_list:
-            print(link)
+        for title, link in zip(video_titles, video_links):
+            print(f"Title: {title}, Link: {link}")
         
-        # Write the links to the file
+        # Write the links and titles to a file
         with open("links_video.txt", "w") as file:
-            for link in links_list:
-                file.write(link + "\n")
+            for title, link in zip(video_titles, video_links):
+                file.write(f"{title}\n{link}\n")
     else:
         print("Nenhum link encontrado.")
 
@@ -397,15 +397,15 @@ except Exception as e:
     print(f"Ocorreu um erro: {e}")
 
 
-# Função para extrair o link m3u8 e o título da página
+# Function to extract m3u8 URL and title from a video page
 def extract_m3u8_url_and_title(driver, url):
     driver.get(url)
-    time.sleep(10)  # Aguarde a página carregar completamente
+    time.sleep(10)  # Wait for the page to fully load
     
-    # Obter o título da página
+    # Get the page title
     title = driver.title
 
-    # Obter o link m3u8
+    # Get the m3u8 link
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
 
     m3u8_url = None
@@ -418,33 +418,35 @@ def extract_m3u8_url_and_title(driver, url):
 
     return title, m3u8_url, logo_url
 
-# Criar a instância do webdriver
+
+# Create the webdriver instance
 driver = webdriver.Chrome(options=options)
 
-# Abrir o arquivo links_video.txt e ler os links
+# Open the file containing the video links
 with open("links_video.txt", "r") as file:
-    links = file.readlines()
+    lines = file.readlines()
 
-# Criar ou abrir o arquivo lista1.m3u para escrever os links e títulos
+# Create or append to the m3u file
 with open("lista1.m3u", "a") as output_file:
-    for link in links:
-        link = link.strip()  # Remover espaços em branco e quebras de linha
+    for i in range(0, len(lines), 2):  # Video title and link are stored in pairs
+        title = lines[i].strip()
+        link = lines[i+1].strip()
 
         if not link:
             continue
-        
+
         print(f"Processando link: {link}")
 
         try:
             title, m3u8_url, logo_url = extract_m3u8_url_and_title(driver, link)
 
             if m3u8_url:
-                # Escrever no formato extinf iptv
+                # Write in IPTV format
                 output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD IT", {title}\n')
                 output_file.write(f"{m3u8_url}\n")
                 print(f"M3U8 link encontrado: {m3u8_url}")
             else:
                 print(f"Link .m3u8 não encontrado para {link}")
-        
+
         except Exception as e:
             print(f"Erro ao processar o link {link}: {e}")
