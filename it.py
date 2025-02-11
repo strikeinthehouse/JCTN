@@ -365,7 +365,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (substitua com a URL real)
-base_url = "https://www.google.com/search?q=%22bom+dia%22+site%3Ag1.globo.com&lr=&sca_esv=6d00a31fb144c6f6&udm=7&biw=1912&bih=954&ei=6-KnZ5TFOqLY1sQPmOmQ-As&ved=0ahUKEwjU5rPyl7WLAxUirJUCHZg0BL8Q4dUDCBA&uact=5&oq=%22bom+dia%22+site%3Ag1.globo.com&gs_lp=EhZnd3Mtd2l6LW1vZGVsZXNzLXZpZGVvIhsiYm9tIGRpYSIgc2l0ZTpnMS5nbG9iby5jb21IxQ5QnQdYlQ1wAXgAkAEAmAFroAHRBaoBAzEuNrgBA8gBAPgBAZgCAKACAJgDAIgGAZIHAKAHjQQ&sclient=gws-wiz-modeless-video"
+base_url = "https://www.google.com/search?q=assistir+g1&sca_esv=4001fc3044941daf&udm=7&source=lnt&tbs=srcf:H4sIAAAAAAAAAB3HQQoAIQgF0Nu0GfBOOklI2YdGF91-wN17z1gQ0AtvFxkpWrb9BY_1DXgubgVnsbOs6wrDrqUzak-S0H1lVOlZLAAAA&sa=X&ved=2ahUKEwjgrIWn2LqLAxVErJUCHXoXLk8QpwV6BAgBECk&biw=1912&bih=954&dpr=1#ip=1"
 
 
 # Load the page
