@@ -14,35 +14,7 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",
-    "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",
-    "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv-2-ribeirao-e-franca-ao-vivo.ghtml",
-    "https://g1.globo.com/pe/petrolina-regiao/ao-vivo/ao-vivo-assista-ao-gr2.ghtml",
-    "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-sexta-feira-7.ghtml",
-    "https://globoplay.globo.com/v/1467373/",
-    "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
-    "https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml",  # Título não encontrado
-    "https://g1.globo.com/pe/caruaru-regiao/video/transmissao-ao-vivo-do-abtv-5472979.ghtml",
-    "https://globoplay.globo.com/v/2135579/",  # G1 RS. Assista aos telejornais da RBS TV
-    "https://globoplay.globo.com/v/6120663/",  # Título não encontrado
-    "https://globoplay.globo.com/v/2145544/",  # G1 SC. AO VIVO: Assista aos telejornais da NSC TV
-    "https://globoplay.globo.com/v/4039160/",  # G1 CE. Assista à TV Verdes Mares ao vivo
-    "https://globoplay.globo.com/v/6329086/",  # Globo Esporte BA. AO VIVO: Travessia Itaparica-Salvador ao vivo e de graça no ge
-    "https://globoplay.globo.com/v/11999480/",  # G1 ES. Transmissão ao vivo do jornal Regional no g1 ES
-    "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",  # Título não encontrado
-    "https://globoplay.globo.com/ao-vivo/3667427/",  # Título não encontrado
-    "https://globoplay.globo.com/v/4218681/",  # G1 Triângulo Mineiro. Transmissão ao vivo
-    "https://globoplay.globo.com/v/12945385/",
-    "https://globoplay.globo.com/v/3065772/",  # G1 MS. Transmissão ao vivo em MS
-    "https://globoplay.globo.com/v/2923579/",  # G1 AP. Assista ao vivo aos telejornais da Rede Amazônica
-    "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Título não encontrado
-    "https://globoplay.globo.com/v/2923546/",  # G1 AC. Assista aos jornais da Rede Amazônica
-    "https://globoplay.globo.com/v/2168377/",  # Assista aos telejornais da TV Liberal
-    "https://globoplay.globo.com/v/992055/",  # G1 ao vivo. g1 ao vivo: Transmissão ao vivo
-    "https://globoplay.globo.com/v/602497/",  # ge.globo. Transmissão ao vivo
-    "https://globoplay.globo.com/v/8713568/",  # Globo Esporte RS. Gauchão ao vivo
-    "https://globoplay.globo.com/v/10747444/",  # CBN. CBN SP
-    "https://globoplay.globo.com/v/10740500/",  # CBN. CBN RJ
+    "https://globoplay.globo.com/v/2135579/",
 ]
 
 
