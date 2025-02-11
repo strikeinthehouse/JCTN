@@ -28,7 +28,7 @@ jobs:
     - name: Instalando dependências
       run: |
         python3 -m pip install --upgrade pip
-        python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
+        python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp youtube-dl
 
     - name: Verificar versão do Python
       run: |
