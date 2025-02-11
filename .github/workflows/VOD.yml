@@ -24,6 +24,12 @@ jobs:
         pip install gdown streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz haruhi-dl
         python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
 
+    - name: Instalando dependências
+      run: |
+        # Install required Python dependencies
+        python3 -m pip install --upgrade pip
+        python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
+    
     - name: Instalar ffmpeg
       run: |
         sudo apt-get update
