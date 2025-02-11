@@ -1,38 +1,3 @@
-import os
-import shutil
-import subprocess
-
-# Caminho a ser deletado
-delete_path = "/assets"
-if os.path.exists(delete_path):
-    shutil.rmtree(delete_path, ignore_errors=True)
-
-# Definição do caminho de saída e nome do arquivo
-output_path = "."  # Define o diretório atual
-file_name = "TWITCH.m3u"
-
-# Criar diretório, se necessário
-os.makedirs(output_path, exist_ok=True)
-
-# Configuração de modo e ID do Google Drive
-mode = "file"  # "file" para um único arquivo, "folder" para pasta inteira
-id_link = "1CoeZEj20zmtuQPqkCzv2UQq7SsDSlTyd"  # ID do Google Drive
-
-# Construção do comando gdown
-if mode == "file":
-    command = ["gdown", "--remaining-ok", id_link, "-O", os.path.join(output_path, file_name)]
-else:
-    command = ["gdown", "--folder", "--remaining-ok", id_link]
-
-# Executar o comando de forma segura
-subprocess.run(command, check=True)
-
-print("Download concluído com sucesso!")
-
-
-
-
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
