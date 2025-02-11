@@ -2,11 +2,11 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Executa a cada 15 minutos
+    - cron: '*/45 * * * *'  # Schedule to run every 30 minutes
   pull_request:
     branches:
       - main
-  workflow_dispatch:  # Permite execução manual do workflow
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,50 +14,54 @@ jobs:
 
     steps:
     - name: Checkout Repositório
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4  # Updated to use a newer version
 
-    - name: Configurar Ambiente Virtual e Instalar Dependências
+    - name: Configurar Git
       run: |
-        python3 -m venv venv
-        source venv/bin/activate
-        pip install --upgrade pip
-        pip install gdown streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz haruhi-dl
-        python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+
+    - name: Deletar Log
+      run: |
+        rm -rf ./log.txt
 
     - name: Instalando dependências
       run: |
         # Install required Python dependencies
         python3 -m pip install --upgrade pip
         python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
+
+    - name: Verificar versão do Python
+      run: |
+        python3 --version
+
+
+    - name: Verificar se YT.py está presente
+      run: |
+        if [ -f "scripts/YT.py" ]; then
+          echo "YT.py encontrado"
+        else
+          echo "YT.py não encontrado. Verifique se o caminho está correto."
+          exit 1
+        fi
+
+    - name: Rodar script YT.py
+      run: |
+        # Navega até a pasta scripts e executa o script YT.py
+        python3 pt.py
+
     
-    - name: Instalar ffmpeg
+    - name: Rodar script YT.py
       run: |
-        sudo apt-get update
-        sudo apt-get install -y ffmpeg
-
-    # **Definição das variáveis de ambiente**
-    - name: Definir Variáveis de Ambiente
-      env:
-        EMAIL_IA: ${{ secrets.EMAIL_IA }}
-        SENHA_IA: ${{ secrets.SENHA_IA }}
-      run: echo "Variáveis de ambiente carregadas com sucesso."
-
-    - name: Executar Script vod.py
+        # Navega até a pasta scripts e executa o script YT.py
+        python3 vod.py    
+    
+    - name: Rodar script YT.py
       run: |
-        source venv/bin/activate
-        python vod.py || { echo "Erro ao executar vod.py"; exit 1; }
-
-    - name: Executar Script pt.py
-      run: |
-        source venv/bin/activate
-        python pt.py || { echo "Erro ao executar pt.py"; exit 1; }
-
-    - name: Executar Script it.py
-      run: |
-        source venv/bin/activate
-        python it.py || { echo "Erro ao executar it.py"; exit 1; }
-
-    - name: Adicionar Mudanças
+        # Navega até a pasta scripts e executa o script YT.py
+        python3 it.py    
+    
+    - name: Adicionar Mudanças ao Controle de Versão
       run: |
         git add -A
         git status
@@ -68,7 +72,5 @@ jobs:
 
     - name: Commit e Push
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
         git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
         git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
