@@ -370,4 +370,4 @@ arquivo_original = 'TWITCH.m3u'
 arquivo_saida = 'TWITCH.m3u'  # Mudando o nome do arquivo de saída para evitar sobrescrição
 
 # Chama a função para limitar o arquivo a 60 linhas
-limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=30)
+limitar_arquivo_m3u(arquivo_original, arquivo_saida, limite_linhas=40)
