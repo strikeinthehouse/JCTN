@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Agendado para rodar a cada 5 minutos
+    - cron: '*/30 * * * *'  # Schedule to run every 30 minutos
   pull_request:
     branches:
       - main
@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Checkout Repositório
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4  # Updated to use a newer version
 
     - name: Configurar Git
       run: |
@@ -27,47 +27,66 @@ jobs:
 
     - name: Instalando dependências
       run: |
+        # Install required Python dependencies
         python3 -m pip install --upgrade pip
-        python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp youtube-dl
+        python3 -m pip install gdown requests streamlink beautifulsoup4 selenium yt_dlp
 
     - name: Verificar versão do Python
       run: |
         python3 --version
 
-    - name: Verificar se YT.py está presente
+    - name: Verificar se pt.py está presente
       run: |
-        if [ -f "scripts/YT.py" ]; then
-          echo "YT.py encontrado"
+        if [ -f "pt.py" ]; then
+          echo "pt.py encontrado"
         else
-          echo "YT.py não encontrado. Verifique se o caminho está correto."
+          echo "pt.py não encontrado. Verifique se o caminho está correto."
           exit 1
         fi
 
     - name: Rodar script pt.py
       run: |
-        echo "Executando pt.py..."
+        # Executa o script pt.py diretamente
         python3 pt.py
+
+    - name: Verificar se vod.py está presente
+      run: |
+        if [ -f "vod.py" ]; then
+          echo "vod.py encontrado"
+        else
+          echo "vod.py não encontrado. Verifique se o caminho está correto."
+          exit 1
+        fi
 
     - name: Rodar script vod.py
       run: |
-        echo "Executando vod.py..."
+        # Executa o script vod.py diretamente
         python3 vod.py
+
+    - name: Verificar se it.py está presente
+      run: |
+        if [ -f "it.py" ]; then
+          echo "it.py encontrado"
+        else
+          echo "it.py não encontrado. Verifique se o caminho está correto."
+          exit 1
+        fi
 
     - name: Rodar script it.py
       run: |
-        echo "Executando it.py..."
+        # Executa o script it.py diretamente
         python3 it.py
-
-    - name: Garantir alterações mais recentes do repositório remoto
-      run: |
-        git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
 
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
         git add -A
         git status
 
+    - name: Garantir alterações mais recentes do repositório remoto
+      run: |
+        git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
+
     - name: Commit e Push
       run: |
-        git diff --exit-code || git commit -m "Atualizar lista baixada"
+        git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
         git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
