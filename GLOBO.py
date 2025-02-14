@@ -197,12 +197,9 @@ with open("lista1.m3u", "a") as output_file:
         except Exception as e:
             print(f"Erro ao processar o link {link}: {e}")
 
-import os
+import requests
 import logging
 from logging.handlers import RotatingFileHandler
-import requests
-import json
-from bs4 import BeautifulSoup
 
 # Configuração do logger
 logger = logging.getLogger(__name__)
@@ -219,13 +216,10 @@ logger.addHandler(file_handler)
 # Cabeçalho do arquivo M3U
 banner = "#EXTM3U\n"
 
-# Função para verificar URLs via requisição HTTP com o agente de usuário do Firefox
+# Função para verificar URLs via requisição HTTP
 def check_url(url):
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Firefox/89.0"
-    }
     try:
-        response = requests.head(url, headers=headers, timeout=15)  # Usando HEAD para verificar a URL rapidamente
+        response = requests.head(url, timeout=15)  # Usando HEAD para verificar a URL rapidamente
         if response.status_code == 200:
             logger.info("URL OK: %s", url)
             return True
@@ -287,14 +281,6 @@ def process_m3u_file(input_file, output_file):
             
             # Verifica a URL antes de adicionar
             if link and check_url(link):
-                # Se o canal não tiver logotipo, buscar o logo automaticamente
-                if tvg_logo in ["", "N/A", "Undefined.png"]:  # Condição para logo vazio ou "N/A"
-                    logo_url = search_google_images(ch_name)
-                    if logo_url:
-                        tvg_logo = logo_url
-                    else:
-                        tvg_logo = "NoLogoFound.png"  # Caso não encontre logo
-                
                 channel_data.append({
                     'name': ch_name,
                     'group': group_title,
@@ -319,31 +305,6 @@ def process_m3u_file(input_file, output_file):
                 f.write(extra + '\n')
             f.write(channel['url'] + '\n')
 
-    # Salva os dados em JSON para análise posterior
-    with open("playlist.json", "w") as f:
-        json.dump(channel_data, f, indent=2)
-
-# Função para buscar imagem no Google
-def search_google_images(query):
-    search_url = f"https://www.google.com/search?hl=pt-BR&q={query}&tbm=isch"  # URL de busca de imagens
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
-    }
-    
-    try:
-        response = requests.get(search_url, headers=headers)
-        soup = BeautifulSoup(response.text, "html.parser")
-        # Buscar a primeira imagem
-        img_tags = soup.find_all("img")
-        if img_tags:
-            # A primeira imagem no Google geralmente é a mais relevante
-            img_url = img_tags[1]['src']  # O primeiro item é o logo do Google
-            return img_url
-    except Exception as e:
-        logger.error("Error searching Google images: %s", e)
-    
-    return None
-
 # URL do arquivo M3U
 input_url = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/lista1.m3u"
 output_file = "lista1.m3u"
@@ -351,4 +312,3 @@ output_file = "lista1.m3u"
 # Executa o processamento
 process_m3u_file(input_url, output_file)
 
- 
