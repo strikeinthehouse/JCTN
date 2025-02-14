@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Schedule to run every 30 minutos
+    - cron: '*/15 * * * *'  # Schedule to run every 30 minutes
   pull_request:
     branches:
       - main
@@ -29,53 +29,18 @@ jobs:
       run: |
         # Install required Python dependencies
         python3 -m pip install --upgrade pip
-        python3 -m pip install gdown requests streamlink beautifulsoup4 selenium yt_dlp youtube_dl
+        python3 -m pip install gdown requests streamlink beautifulsoup4 selenium yt_dlp
 
     - name: Verificar versão do Python
       run: |
         python3 --version
 
-    - name: Verificar se pt.py está presente
+    - name: Executar script TWITCH.sh
       run: |
-        if [ -f "pt.py" ]; then
-          echo "pt.py encontrado"
-        else
-          echo "pt.py não encontrado. Verifique se o caminho está correto."
-          exit 1
-        fi
+        chmod +x M3U8.sh
+        ./M3U8.sh
 
-    - name: Rodar script pt.py
-      run: |
-        # Executa o script pt.py diretamente
-        python3 pt.py
 
-    - name: Verificar se vod.py está presente
-      run: |
-        if [ -f "vod.py" ]; then
-          echo "vod.py encontrado"
-        else
-          echo "vod.py não encontrado. Verifique se o caminho está correto."
-          exit 1
-        fi
-
-    - name: Rodar script vod.py
-      run: |
-        # Executa o script vod.py diretamente
-        python3 vod.py
-
-    - name: Verificar se it.py está presente
-      run: |
-        if [ -f "it.py" ]; then
-          echo "it.py encontrado"
-        else
-          echo "it.py não encontrado. Verifique se o caminho está correto."
-          exit 1
-        fi
-
-    - name: Rodar script it.py
-      run: |
-        # Executa o script it.py diretamente
-        python3 it.py
 
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
