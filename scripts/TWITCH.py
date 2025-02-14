@@ -1,11 +1,3 @@
-
-
-
-
-   
-
-
-
 import os
 import shutil
 import subprocess
@@ -24,7 +16,7 @@ os.makedirs(output_path, exist_ok=True)
 
 # Configuração de modo e ID do Google Drive
 mode = "file"  # "file" para um único arquivo, "folder" para pasta inteira
-id_link = "1CoeZEj20zmtuQPqkCzv2UQq7SsDSlTyd"  # ID do Google Drive
+id_link = "KStqu5F3_xFAlt3viag95FsJVP4HSo7o"  # ID do Google Drive
 
 # Construção do comando gdown
 if mode == "file":
