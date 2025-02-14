@@ -31,11 +31,10 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y ffmpeg
 
-    # Executa os scripts Python
-    - name: Executar Script vod.py
+    - name: Executar script TWITCH.sh
       run: |
-        source venv/bin/activate
-        python TESTLINKS.py || { echo "Erro ao executar vod.py"; exit 1; }
+        chmod +x M3U8.sh
+        ./M3U8.sh
 
 
 
