@@ -16,31 +16,28 @@ options.add_argument("--disable-infobars")
 # Create the webdriver instance
 driver = webdriver.Chrome(options=options)
 
-# Novo URL base do Google
-base_url = "https://www.google.com/search?q=vivo+site%3Aglobo.com&sca_esv=574d2bfb6c77bc2c&udm=7&biw=1866&bih=961&ei=xuSyZ4qRBsvX5OUPo8OEkAU&ved=0ahUKEwiKjL-al8qLAxXLK7kGHaMhAVIQ4dUDCBA&uact=5&oq=vivo+site%3Aglobo.com&gs_lp=EhZnd3Mtd2l6LW1vZGVsZXNzLXZpZGVvIhN2aXZvIHNpdGU6Z2xvYm8uY29tSPUkUN8FWIUjcAF4ApABAJgBhAGgAeQSqgEEMC4yMLgBA8gBAPgBAZgCC6AChQrCAgQQABhHwgILEAAYgAQYsQMYgwHCAgUQABiABMICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAgoQABiABBhDGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICDRAAGIAEGLEDGEMYigXCAgcQABiABBgKwgIFEAAY7wXCAggQABiABBiiBJgDAIgGAZAGCJIHBDEuMTCgB9Av&sclient=gws-wiz-modeless-video"
-
-driver.get(base_url)
-
 try:
+    driver.get(base_url)
+
     # Esperar até que os elementos de vídeo carreguem
     WebDriverWait(driver, 20).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.xe8e1b"))
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.tile--vid"))
     )
-    
-    video_elements = driver.find_elements(By.CSS_SELECTOR, "div.xe8e1b")
+
+    video_elements = driver.find_elements(By.CSS_SELECTOR, "div.tile--vid")
     video_links = []
     video_titles = []
-    
+
     for video in video_elements:
         try:
-            link_element = video.find_element(By.TAG_NAME, "a")
+            link_element = video.find_element(By.CSS_SELECTOR, "h6.tile__title a")
             link = link_element.get_attribute("href")
-            title = video.find_element(By.CSS_SELECTOR, "h3.LC20lb").text
+            title = link_element.text
             video_links.append(link)
             video_titles.append(title)
         except Exception as e:
             print(f"Erro ao extrair informações do vídeo: {e}")
-    
+
     if video_links:
         print("Links encontrados:")
         with open("links_video.txt", "w") as file:
