@@ -4,6 +4,63 @@ from selenium.webdriver.common.by import By
 import time
 import os
 import requests
+from bs4 import BeautifulSoup
+
+# Configurar as opções do Chrome
+options = Options()
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-gpu")
+options.add_argument("--window-size=1280,720")
+options.add_argument("--disable-infobars")
+
+# Criar a instância do webdriver
+driver = webdriver.Chrome(options=options)
+
+def get_title(soup):
+    title_element = soup.title
+    return title_element.string.strip() if title_element else None
+
+def format_video_title(title):
+    return title.replace('/', '_')
+
+def write_m3u_file(links, output_path):
+    with open(output_path, 'w') as f:
+        for link in links:
+            response = requests.get(link)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, "html.parser")
+                title = get_title(soup)
+                if title:
+                    f.write(f"{link}\n")
+
+url = "https://duckduckgo.com/?q=assista+ao+vivo+site%3Aglobo.com&t=h_&iar=videos&start=1&iax=videos&ia=videos"
+driver.get(url)
+time.sleep(5)
+
+links = []
+video_tiles = driver.find_elements(By.CLASS_NAME, "tile")
+for tile in video_tiles:
+    data_link = tile.get_attribute("data-link")
+    if data_link and data_link.startswith("http"):
+        links.append(data_link)
+
+driver.quit()
+
+# Definir o caminho do arquivo
+m3u_file_path = os.path.join(os.getcwd(), "it.txt")
+write_m3u_file(links, m3u_file_path)
+
+print(f"Arquivo M3U foi criado: {m3u_file_path}")
+
+
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+import time
+import os
+import requests
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
