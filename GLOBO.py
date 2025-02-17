@@ -55,10 +55,12 @@ def extract_m3u8_url_and_title(driver, url):
     # Get the page title
     title = driver.title
     try:
-        play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
-        if play_button:
-            play_button.click()
-            time.sleep(15)
+        # Wait for the play button to be clickable
+        play_button = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "button.poster__play-wrapper"))
+        )
+        play_button.click()  # Click the play button
+        time.sleep(15)  # Wait for the video to start playing
     except Exception as e:
         print("Erro ao clicar no botão de reprodução:", e)
     
@@ -73,6 +75,7 @@ def extract_m3u8_url_and_title(driver, url):
             logo_url = entry['name']
     
     return title, m3u8_url, logo_url
+
 
 # Open the file containing the video links
 with open("links_video.txt", "r") as file:
