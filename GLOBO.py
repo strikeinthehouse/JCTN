@@ -17,7 +17,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base para pesquisa
-base_url = "https://duckduckgo.com/?q=vivo+site%3Aglobo.com&ia=videos"
+base_url = "https://duckduckgo.com/?q=youtube&t=h_&iar=videos&start=1&iax=videos&ia=videos"
 
 try:
     driver.get(base_url)
