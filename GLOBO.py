@@ -96,7 +96,7 @@ with open("lista1.m3u", "a") as output_file:
             title, m3u8_url, logo_url = extract_m3u8_url_and_title(driver, link)
             if m3u8_url:
                 # Write in IPTV format
-                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD IT", {title}\n')
+                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="GLOBO AO VIVO", {title}\n')
                 output_file.write(f"{m3u8_url}\n")
                 print(f"M3U8 link encontrado: {m3u8_url}")
             else:
