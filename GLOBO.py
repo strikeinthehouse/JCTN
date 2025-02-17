@@ -16,37 +16,42 @@ options.add_argument("--disable-infobars")
 # Create the webdriver instance
 driver = webdriver.Chrome(options=options)
 
-# New base URL
-base_url = "https://duckduckgo.com/?q=+vivo+site%3Aglobo.com&t=h_&iar=videos&iax=videos&ia=videos"
+# Novo URL base do Google
+base_url = "https://www.google.com/search?q=vivo+site%3Aglobo.com&sca_esv=574d2bfb6c77bc2c&udm=7&biw=1866&bih=961&ei=xuSyZ4qRBsvX5OUPo8OEkAU&ved=0ahUKEwiKjL-al8qLAxXLK7kGHaMhAVIQ4dUDCBA&uact=5&oq=vivo+site%3Aglobo.com&gs_lp=EhZnd3Mtd2l6LW1vZGVsZXNzLXZpZGVvIhN2aXZvIHNpdGU6Z2xvYm8uY29tSPUkUN8FWIUjcAF4ApABAJgBhAGgAeQSqgEEMC4yMLgBA8gBAPgBAZgCC6AChQrCAgQQABhHwgILEAAYgAQYsQMYgwHCAgUQABiABMICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAgoQABiABBhDGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICDRAAGIAEGLEDGEMYigXCAgcQABiABBgKwgIFEAAY7wXCAggQABiABBiiBJgDAIgGAZAGCJIHBDEuMTCgB9Av&sclient=gws-wiz-modeless-video"
 
-# Load the page
 driver.get(base_url)
 
-# Wait until the video links are present
 try:
-    # Wait for the video links to load
-    WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.tile.tile--vid')))
+    # Esperar até que os elementos de vídeo carreguem
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.xe8e1b"))
+    )
     
-    # Extract video links and titles
-    video_elements = driver.find_elements(By.CSS_SELECTOR, 'div.tile.tile--vid')
-    video_links = [video.get_attribute('data-link') for video in video_elements]
-    video_titles = [video.find_element(By.CSS_SELECTOR, 'h6.tile__title').text for video in video_elements]
+    video_elements = driver.find_elements(By.CSS_SELECTOR, "div.xe8e1b")
+    video_links = []
+    video_titles = []
     
-    # Print the links found
+    for video in video_elements:
+        try:
+            link_element = video.find_element(By.TAG_NAME, "a")
+            link = link_element.get_attribute("href")
+            title = video.find_element(By.CSS_SELECTOR, "h3.LC20lb").text
+            video_links.append(link)
+            video_titles.append(title)
+        except Exception as e:
+            print(f"Erro ao extrair informações do vídeo: {e}")
+    
     if video_links:
         print("Links encontrados:")
-        for title, link in zip(video_titles, video_links):
-            print(f"Title: {title}, Link: {link}")
-        
-        # Write the links and titles to a file
         with open("links_video.txt", "w") as file:
             for title, link in zip(video_titles, video_links):
+                print(f"Título: {title}, Link: {link}")
                 file.write(f"{title}\n{link}\n")
     else:
         print("Nenhum link encontrado.")
 except Exception as e:
     print(f"Ocorreu um erro: {e}")
-
+    
 # Function to extract m3u8 URL and title from a video page
 def extract_m3u8_url_and_title(driver, url):
     driver.get(url)
