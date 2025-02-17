@@ -136,6 +136,14 @@ def extract_m3u8_url_and_title(driver, url):
     
     # Get the page title
     title = driver.title
+    try:
+    play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
+    if play_button:
+        play_button.click()
+        time.sleep(15)
+except Exception as e:
+    print("Erro ao clicar no botão de reprodução:", e)
+        
     # Get the m3u8 link
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
     m3u8_url = None
