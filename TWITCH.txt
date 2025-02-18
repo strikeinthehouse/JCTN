@@ -2,9 +2,11 @@
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 
 #EXTINF:-1,BBUSA ESPAÑOL 1
+#EXTVLCOPT:http-user-agent=Firefox
 https://telemundolive.akamaized.net/hls/live/2093200/LCDLFCAM11/master_main1.m3u8
 
 #EXTINF:-1,BBUSA ESPAÑOL 2
+#EXTVLCOPT:http-user-agent=Firefox
 https://telemundolive.akamaized.net/hls/live/2093200/LCDLFCAM22/master_main1.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://s04.video.glbimg.com/x720/2254997.jpg" tvg-name="QUARTO FANTASTICO" group-title="BBB 2025",QUARTO FANTASTICO
