@@ -14,8 +14,8 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://kcnawatch.org/kctv-archive/67b49115648d7/",  # EPTV 1ª Edição - Ribeirão Preto
-    "https://globoplay.globo.com/ao-vivo/5472979/",
+    "https://g1.globo.com/mt/mato-grosso/video/assista-o-g1-em-um-minuto-15062023-11703240.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
+    "https://g1.globo.com/mt/mato-grosso/video/assista-ao-g1-em-1-minuto-desta-segunda-feira-27112023-12148077.ghtml",
 ]
 
 def extract_globoplay_data(url):
