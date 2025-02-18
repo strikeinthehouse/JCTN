@@ -107,7 +107,7 @@
     "name": "Undefined",
     "group": "CAMERA AO VIVO",
     "tvg_id": "Undefined",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIz_LOY5RzuVFdAtYZdE0rUFTZ20R5UvnbjnIfjh3NViqg0e7sUJunHbSoiw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBDnxaaz-en9AzUARSDlA_oGl0-hPMqEH1j3anQDQd48YsyKQ-6xVyJ12FXo&s",
     "url": "http://80.61.63.103:81/cam_1.cgi",
     "extra": []
   },
@@ -117,6 +117,14 @@
     "tvg_id": "NovaEraTV.br",
     "logo": "https://i.imgur.com/IK3F9Uq.png",
     "url": "http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8",
+    "extra": []
+  },
+  {
+    "name": "DITADURA COREIA",
+    "group": "KOREA",
+    "tvg_id": "",
+    "logo": "https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nknews.png",
+    "url": "https://tv.nknews.org/tvdash/stream.mpd",
     "extra": []
   },
   {
@@ -367,4 +375,4 @@
     "url": "http://181.78.105.146:2000/play/a038/index.m3u8",
     "extra": []
   }
-][]
+]
