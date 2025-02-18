@@ -14,8 +14,8 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://g1.globo.com/mt/mato-grosso/video/assista-o-g1-em-um-minuto-15062023-11703240.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
-    "https://g1.globo.com/mt/mato-grosso/video/assista-ao-g1-em-1-minuto-desta-segunda-feira-27112023-12148077.ghtml",
+    "https://globoplay.globo.com/v/13352889/",  # EPTV 1ª Edição - Ribeirão Preto
+    "https://g1.globo.com/ap/amapa/videos-jornal-do-amapa-2-edicao/video/assista-ao-jap2-na-integra-17022025-13350900.ghtml",
 ]
 
 def extract_globoplay_data(url):
