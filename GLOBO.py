@@ -14,8 +14,7 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://kcnawatch.org/korea-central-tv-livestream/",
-    "https://kcnawatch.org/kctv-archive/67b4910973ea9",  # EPTV 1ª Edição - Ribeirão Preto
+    "https://kcnawatch.org/kctv-archive/67b49115648d7/",  # EPTV 1ª Edição - Ribeirão Preto
     "https://globoplay.globo.com/ao-vivo/5472979/",
 ]
 
