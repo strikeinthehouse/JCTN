@@ -28,6 +28,8 @@ globoplay_urls = [
     "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-sexta-feira-7.ghtml",  # BDAP - Amapá
     "https://globoplay.globo.com/v/1467373/",  # Globoplay - Transmissão ao vivo
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo - Transmissão ao vivo
+    "https://globoplay.globo.com/v/992055/",  # G1 SERVIÇO
+    "https://globoplay.globo.com/v/602497/",  # ge SERVIÇO
     "https://globoplay.globo.com/v/2135579/",  # G1 RS - Telejornais da RBS TV
     "https://globoplay.globo.com/ao-vivo/5472979/",
     "https://globoplay.globo.com/v/5472979/",
@@ -45,9 +47,6 @@ globoplay_urls = [
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Telejornais da Rede Amazônica - Amazonas
     "https://globoplay.globo.com/v/2923546/",  # G1 AC - Jornais da Rede Amazônica
     "https://globoplay.globo.com/v/2168377/",  # Telejornais da TV Liberal
-    "https://globoplay.globo.com/v/992055/",  # G1 ao vivo - Transmissão ao vivo
-    "https://globoplay.globo.com/v/602497/",  # ge.globo - Transmissão ao vivo
-    "https://globoplay.globo.com/v/8713568/",  # Globo Esporte RS - Gauchão ao vivo
     "https://globoplay.globo.com/v/10747444/",  # CBN SP - Transmissão ao vivo
     "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
 ]
