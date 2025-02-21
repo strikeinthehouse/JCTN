@@ -14,7 +14,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://telemundo.votenow.nbc.com/stream1",
     "https://maisgoiasplay.com.br/camera/30/av-jamel-cecilio",
     "https://maisgoiasplay.com.br/camera/76/pra-a-civica",
     "https://maisgoiasplay.com.br/camera/35/rua-9",
