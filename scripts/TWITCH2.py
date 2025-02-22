@@ -79,6 +79,7 @@ try:
 
     ]
 
+    
     for url_twitch in urls_twitch:
         driver.get(url_twitch)
 
