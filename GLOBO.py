@@ -15,11 +15,11 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://goianiaplay.com.br/camera/46/memorial-do-cerrado",   
-    "https://maisgoiasplay.com.br/camera/35/rua-9",
     "https://maisgoiasplay.com.br/camera/30/av-jamel-cecilio",
+    "https://maisgoiasplay.com.br/camera/35/rua-9",    
     "https://maisgoiasplay.com.br/camera/76/pra-a-civica",
     "https://maisgoiasplay.com.br/aovivo/172/ao-vivo",
-     "https://g1.globo.com/rr/roraima/video/ao-vivo-assista-o-jornal-de-roraima-1a-edicao-2923545-1739458038240.ghtml",
+    "https://g1.globo.com/rr/roraima/video/ao-vivo-assista-o-jornal-de-roraima-1a-edicao-2923545-1739458038240.ghtml",
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",  # Bom Dia Cidade Ribeirão Preto
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv-2-ribeirao-e-franca-ao-vivo.ghtml",  # EPTV 2ª Edição - Ribeirão e Franca
