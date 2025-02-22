@@ -74,7 +74,7 @@ try:
         "https://www.twitch.tv/directory/all/tags/lacasadelosfamosos",  # Nova tag
         "https://www.twitch.tv/directory/all/tags/GrandeFratello",  # Tag existente
         "https://www.twitch.tv/directory/all/tags/GranHermano",  # Nova tag
-        "https://www.twitch.tv/directory/all/tags/chavodelocho",
+        "https://www.twitch.tv/directory/all/tags/BBB24HORAS",
         "https://www.twitch.tv/directory/all/tags/granhermanoargentina",  # Nova tag
 
     ]
