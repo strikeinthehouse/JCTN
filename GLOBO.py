@@ -14,7 +14,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://goianiaplay.com.br/camera/46/memorial-do-cerrado",   
     "https://maisgoiasplay.com.br/camera/30/av-jamel-cecilio",
     "https://maisgoiasplay.com.br/camera/35/rua-9",    
     "https://bbvipks.com/kanali-2-live-big-brother-Kosova-live/",
