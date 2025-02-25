@@ -1,12 +1,7 @@
 #EXTINF:-1 tvg-id="tvireality.tv.vodafone.pt" group-title="Reality Show's Live" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.telemundo.com/sites/nbcutelemundo/files/images/promo/livestreams/2025/01/29/lcdlf_as_24-7_camara1_thumbnail.jpg" group-title="Reality Show's Live",BBUSA ESPAÑOL 1
-#EXTVLCOPT:http-user-agent=Firefox
-https://telemundolive.akamaized.net/hls/live/2093200/LCDLFCAM11/master_main1.m3u8
-#EXTINF:-1 tvg-logo="https://www.telemundo.com/sites/nbcutelemundo/files/images/promo/livestreams/2025/01/29/lcdlf_as_24-7_camara2_thumbnail.jpg" group-title="Reality Show's Live",BBUSA ESPAÑOL 2
-#EXTVLCOPT:http-user-agent=Firefox
-https://telemundolive.akamaized.net/hls/live/2093200/LCDLFCAM22/master_main1.m3u8
+
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://s04.video.glbimg.com/x720/2254997.jpg" tvg-name="QUARTO FANTASTICO" group-title="Reality Show's Live",QUARTO FANTASTICO
 http://aasd.fun:80/beto12/beto12/4038158
