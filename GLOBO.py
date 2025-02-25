@@ -14,10 +14,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://maisgoiasplay.com.br/camera/30/av-jamel-cecilio",
-    "https://maisgoiasplay.com.br/camera/35/rua-9",    
-    "https://bbvipks.com/kanali-2-live-big-brother-Kosova-live/",
-    "https://bbvipks.com/kanali-1-live-big-brother-Kosova-vip/",
     "https://g1.globo.com/rr/roraima/video/ao-vivo-assista-o-jornal-de-roraima-1a-edicao-2923545-1739458038240.ghtml",
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",  # Bom Dia Cidade Ribeirão Preto
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
