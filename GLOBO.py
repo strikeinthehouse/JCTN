@@ -51,8 +51,8 @@ def extract_globoplay_data(url):
     try:
         play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
         if play_button:
-            play_button.click()
             time.sleep(15)
+            play_button.click()            
     except Exception as e:
         print("Erro ao clicar no botão de reprodução:", e)
 
