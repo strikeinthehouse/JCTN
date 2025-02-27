@@ -23,12 +23,6 @@ http://38.41.8.1:8000/play/a06j
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/colombia1.xml.gz"
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png",Canale 5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
-https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png",Canale 5 - 2
 http://cord-cutter.net:8080/live/j3McKd/673709/212903.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png",Telefe
@@ -38,13 +32,19 @@ https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?Playli
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://www.m3u.cl/logo/251_13_Max_Television.png",Telefe 13 Max Television
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png",13 Max HD
+http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/chunklist_w2131508282.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png",13 Max FHD
+http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",NBC 7 San Diego
+https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/Mp5fMxR/Canal57.png",Canal 57 Miami
 #EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/5-ocwen1okQ/hq720.jpg?v=14&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA6UCAaZX-vkyUns71diFcm8y9ALw" tvg-id="Zadruga live 1.rs" ,¿Qué sucederá con la herencia de Daniel Bisogno? Lo nuevo en Televisa Univisión
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/5-ocwen1okQ/hq720.jpg?v=1c&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA6UCAaZX-vkyUns71diFcm8y9ALw" tvg-id="Zadruga live 1.rs" ,¿Qué sucederá con la herencia de Daniel Bisogno? Lo nuevo en Televisa Univisión
 https://ythls-v3.onrender.com/channel/UCdFnTDU7xNYqaB0uoW6zsFQ.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/eev-X-LdpQA/hq720.jpg?v=213&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDVjOlnJyYyOCGopiwnZIy5LcwaUQ" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Aguascalientes Oficial
-https://ythls-v3.onrender.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Pasión Futbolera Miércoles 26 de Febrero 2025 - Televisa Monterrey
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/ZQeiMkz3lUE/hq720.jpg?v=67bf10b3&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAOhhm-kFt0u-xkZiBqBmYnZ2mWnA" tvg-id="Zadruga live 1.rs" ,Estas Son Nuestras Noches Miércoles 26 de Febrero 2025 - Televisa Monterrey
 https://ythls-v3.onrender.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Aguascalientes Oficial
+https://ythls-v3.onrender.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Televisa Univision Saltillo
 https://ythls-v3.onrender.com/channel/UCpeD73Gb4KjKUL2gyoJ4gLw.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Televisa Piedras Negras Live Stream
