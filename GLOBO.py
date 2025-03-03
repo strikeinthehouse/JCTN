@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
-import concurrent.futures
 
 # Configurações do Chrome
 options = Options()
@@ -21,19 +20,26 @@ driver.get("https://www.google.com/search?q=vivo+site%3Aglobo.com&sca_esv=35aba7
 # Espera a página carregar completamente
 time.sleep(3)
 
-# Localiza todos os elementos de interesse que possuem o link para o Globoplay
-elements = driver.find_elements(By.XPATH, "//div[@jsname='pKB8Bc']//a[@jsname='UWckNb']")
+# Localiza todos os elementos de interesse com links para o Globoplay
+elements = driver.find_elements(By.XPATH, "//div[@class='g']//a")
 
-# Interage com os elementos encontrados
+# Itera sobre os elementos e verifica se eles contêm ou não a duração
 for element in elements:
     link = element.get_attribute("href")
-    print(f"Link encontrado: {link}")
     
-    # Aqui você pode incluir qualquer outra ação, como clicar no link, etc.
-    # Exemplo de clique no link:
-    # element.click()
-    
-    time.sleep(2)  # Espera entre as interações
+    if link and "globoplay.globo.com" in link:
+        # Verifica se o link tem a duração associada, como no exemplo "<div class='kSFuOd rkqHyd'>"
+        try:
+            duration_element = element.find_element(By.XPATH, ".//ancestor::div[contains(@class, 'g')]//div[@class='kSFuOd rkqHyd']")
+            # Se encontramos a duração, ignoramos esse link
+            if duration_element:
+                continue  # Ignora o link com duração
+        except:
+            # Se não encontrar o elemento de duração, não faz nada
+            pass
+
+        # Se não houver duração, exibe o link
+        print(f"Link encontrado: {link}")
 
 # Fecha o navegador
 driver.quit()
