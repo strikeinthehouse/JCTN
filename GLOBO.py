@@ -30,12 +30,13 @@ for element in elements:
     if link and "globoplay.globo.com" in link:
         # Verifica se o link tem a duração associada, como no exemplo "<div class='kSFuOd rkqHyd'>"
         try:
+            # Tenta encontrar o elemento de duração (tempo do vídeo)
             duration_element = element.find_element(By.XPATH, ".//ancestor::div[contains(@class, 'g')]//div[@class='kSFuOd rkqHyd']")
-            # Se encontramos a duração, ignoramos esse link
+            # Se o elemento de duração for encontrado, ignora este link
             if duration_element:
                 continue  # Ignora o link com duração
         except:
-            # Se não encontrar o elemento de duração, não faz nada
+            # Se não encontrar o elemento de duração, o código segue normalmente
             pass
 
         # Se não houver duração, exibe o link
