@@ -25,7 +25,6 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/602497/",  # ge SERVIÇO
     "https://globoplay.globo.com/v/2135579/",  # G1 RS - Telejornais da RBS TV
     "https://globoplay.globo.com/ao-vivo/5472979/",
-    "https://globoplay.globo.com/v/5472979/",
     "https://globoplay.globo.com/v/6120663/",  # G1 RS - Jornal da EPTV 1ª Edição - Ribeirão Preto
     "https://globoplay.globo.com/v/2145544/",  # G1 SC - Telejornais da NSC TV
     "https://globoplay.globo.com/v/4039160/",  # G1 CE - TV Verdes Mares ao vivo
@@ -42,6 +41,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/2168377/",  # Telejornais da TV Liberal
     "https://globoplay.globo.com/v/10747444/",  # CBN SP - Transmissão ao vivo
     "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
+    "https://globoplay.globo.com/v/5472979/",
 ]
 
 def extract_globoplay_data(url):
