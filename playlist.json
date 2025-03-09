@@ -96,14 +96,6 @@
     "extra": []
   },
   {
-    "name": "Canal Metropolitano de Noticia (720p)",
-    "group": "Undefined",
-    "tvg_id": "CanalMetropolitanodeNoticias.br",
-    "logo": "https://i.imgur.com/G0x4xqa.png",
-    "url": "https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "TV Cidade de Petr\u00f3polis",
     "group": "Undefined",
     "tvg_id": "TVCidadedePetropolis.br",
@@ -136,14 +128,6 @@
     "extra": []
   },
   {
-    "name": "Rede Meio Norte HD",
-    "group": "CANAIS ABERTOS",
-    "tvg_id": "RedeMeioNorte.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU",
-    "url": "https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "Senado Italiano - CAMERA 1",
     "group": "ITALIA",
     "tvg_id": "Senato Web TV 1",
@@ -173,6 +157,14 @@
     "tvg_id": "N/A",
     "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/24/Amazon_sat_logo_2022.svg/200px-Amazon_sat_logo_2022.svg.png",
     "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "BR - 277 - Sentido Ponte da Amizade em Foz do Igua\u00e7u / PR",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "N/A",
+    "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",
+    "url": "https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8",
     "extra": []
   },
   {
