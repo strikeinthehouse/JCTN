@@ -21,8 +21,6 @@ http://80.61.63.103:81/cam_1.cgi
 http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 #EXTINF:-1 group-title="KOREA" tvg-id="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nknews.png",DITADURA COREIA
 https://tv.nknews.org/tvhls/stream.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CanalMetropolitanodeNoticias.br" tvg-logo="https://i.imgur.com/G0x4xqa.png",Canal Metropolitano de Noticia (720p)
-https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="TVCidadedePetropolis.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp",TV Cidade de Petrópolis
 https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
 #EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE3z-QtWvhdP1Ps_ZKQuYPahyJTKVrJqR1ZvpYC5wOSfKqCbJhtOUmkXmZaI&s",TV CULTURA SP HD
@@ -41,22 +39,8 @@ https://video-ar.radioradicale.it/diretta/camera2/chunklist_w454478514.m3u8
 https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
 #EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/2/24/Amazon_sat_logo_2022.svg/200px-Amazon_sat_logo_2022.svg.png",AMAZON SAT
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",BR - 277 - Sentido Ponte da Amizade em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg",Ponte da Amizade - Sentido Brasil em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png",Ponte da Amizade - Sentido Paraguai em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="N/A" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-05-5bb3c38fd114b.png",BR - 277 - Aduana Ponte da Amizade em Foz do Iguaçu / PR
-https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
 #EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/27a8790f-c496-4e66-aec2-6ad5b4f6f9d8.jpg",GOIÂNIA - Morro do Mendanha
 https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/playlist.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg",GOIÂNIA - AV 85
-https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg",GOIÂNIA - AV 85
-https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w1795256914.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="Undefined" tvg-logo="https://i.imgur.com/7DfRiz6.png",Setor Oeste
-https://hunq9fz8yk.zoeweb.tv/r9oeste/r9oeste.stream/chunklist_w1793116402.m3u8
 #EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="Undefined" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/c77749e7-7661-4f15-afc6-c9e65cf7f769.jpg",GOIÂNIA - RUA 9
 https://5a7d54e35f9d2.streamlock.net/r9oeste/r9oeste.stream/chunklist_w1404527354.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/jJ6v5ea.png",CANAL 5
