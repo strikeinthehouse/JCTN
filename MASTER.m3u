@@ -29,6 +29,8 @@ https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
 https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
 #EXTINF:-1 group-title="N/A" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s",TV CÂMARA DOS DEPUTADOS HD
 https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 group-title="CANAIS ABERTOS" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzdi3a9KFm2AYTzbRFRP5usq7gIQaads1CBjH7oMajw3UbyHikRIo5mN89w&s",TV Brasil Central
+https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
 #EXTINF:-1 group-title="CANAIS ABERTOS" tvg-id="RedeMeioNorte.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU",Rede Meio Norte HD
 https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
 #EXTINF:-1 group-title="CANAIS ABERTOS" tvg-id="RBATV.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/df0c35517ab2f2e9e6e63c1808730694.webp",Band Belém
@@ -61,17 +63,35 @@ https://hunq9fz8yk.zoeweb.tv/r9oeste/r9oeste.stream/chunklist_w1793116402.m3u8
 https://5a7d54e35f9d2.streamlock.net/r9oeste/r9oeste.stream/chunklist_w1404527354.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/jJ6v5ea.png",CANAL 5
 http://181.78.106.127:9000/play/ca012/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.imgur.com/uZdVSoW.png",Canal 5  - 2
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/4/4d/Logo_cn5.png/revision/latest?cb=20150519224125&path-prefix=es",CANAL 5 - 3
+http://181.78.105.146:2000/play/a038/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/YL1K2C5/Canal-5mx.png",CANAL 5 - 4
 http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Logotipo-Canal-5-M%C3%A9xico.png",CANAL 5 - 5
+http://181.78.105.146:2000/play/a038/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png",CANAL 5 - 6
 https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 7
 http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 8
+http://181.78.105.146:2000/play/a038/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/jJ6v5ea.png",CANAL 5 - 9
 http://181.78.106.127:9000/play/ca012/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.imgur.com/uZdVSoW.png",Canal 5  - 10
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://static.wikia.nocookie.net/doblaje/images/4/4d/Logo_cn5.png/revision/latest?cb=20150519224125&path-prefix=es",CANAL 5 - 11
+http://181.78.105.146:2000/play/a038/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/YL1K2C5/Canal-5mx.png",CANAL 5 - 12
 http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Logotipo-Canal-5-M%C3%A9xico.png",CANAL 5 - 13
+http://181.78.105.146:2000/play/a038/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal5.mx" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png",CANAL 5 - 14
 https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 15
 http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 16
+http://181.78.105.146:2000/play/a038/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5 - 17
+http://181.78.105.146:2000/play/a038/index.m3u8
