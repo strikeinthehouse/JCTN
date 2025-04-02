@@ -27,6 +27,8 @@ http://aasd.fun:80/beto12/beto12/4038159
 http://aasd.fun:80/beto12/beto12/4038160
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
 http://200.59.188.3:8000/play/a03a
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 2
+http://38.41.8.1:8000/play/a06j
 #EXTM3U
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
@@ -36,16 +38,12 @@ http://200.59.188.3:8000/play/a03a
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
-https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png",Canale 5 - 2
 #EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/ZMOE7Dtsf64/hq720.jpg?v=39&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkSiSJqzarG2xS5QoLwvZ8scMLKQ" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Aguascalientes Oficial
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/ZMOE7Dtsf64/hq720.jpg?v=47&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkSiSJqzarG2xS5QoLwvZ8scMLKQ" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Aguascalientes Oficial
 https://ythls-v3.onrender.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/9wQZyi8dP84/hq720.jpg?v=3f&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAdAwYf0j51ahbo-VP63NnlJCwyFw" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Chihuahua
-https://ythls-v3.onrender.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Victoria Oficial
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/irUTdJ0mZAU/hq720.jpg?v=56&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDjxW4BlK2OzgJa_BT0d7b687O34g" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Victoria Oficial
 https://ythls-v3.onrender.com/channel/UCIqGddpV4flOlK3b-hgu9pQ.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,En La Cocina con Gerónimo Miércoles 2 de Abril 2025 - Televisa Monterrey
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Las Noticias Monterrey Al Día con Karla Minaya y Julio César Cano Miércoles 2 de Abril 2025
 https://ythls-v3.onrender.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Noreste Oficial
 https://ythls-v3.onrender.com/channel/UC752DYv5vPlTSMrvEjfZXcw.m3u8
