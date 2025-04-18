@@ -43,6 +43,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/2168377/",  # Telejornais da TV Liberal
     "https://globoplay.globo.com/v/10747444/",  # CBN SP - Transmissão ao vivo
     "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
+    "https://g1.globo.com/pe/petrolina-regiao/video/gr1-ao-vivo-6812170-1744985218335.ghtml",
 ]
 
 def extract_globoplay_data(url):
