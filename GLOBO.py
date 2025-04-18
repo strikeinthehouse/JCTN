@@ -41,9 +41,11 @@ globoplay_urls = [
     "https://g1.globo.com/am/amazonas/carnaval/2025/ao-vivo/carnaboi-2025-assista-ao-vivo.ghtml",
     "https://globoplay.globo.com/v/2923546/",  # G1 AC - Jornais da Rede Amazônica
     "https://globoplay.globo.com/v/2168377/",  # Telejornais da TV Liberal
+    "https://g1.globo.com/rs/rio-grande-do-sul/video/assista-ao-saude-em-dia-6740172-1741626453929.ghtml",
     "https://globoplay.globo.com/v/10747444/",  # CBN SP - Transmissão ao vivo
     "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
     "https://g1.globo.com/pe/petrolina-regiao/video/gr1-ao-vivo-6812170-1744985218335.ghtml",
+    
 ]
 
 def extract_globoplay_data(url):
