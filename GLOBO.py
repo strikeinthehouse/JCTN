@@ -29,6 +29,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/2145544/",  # G1 SC - Telejornais da NSC TV
     "https://globoplay.globo.com/v/4039160/",  # G1 CE - TV Verdes Mares ao vivo
     "https://globoplay.globo.com/v/6329086/",  # Globo Esporte BA - Travessia Itaparica-Salvador ao vivo
+    "https://g1.globo.com/ba/bahia/video/assista-aos-telejornais-da-tv-subae-11348407.ghtml",
     "https://globoplay.globo.com/v/11999480/",  # G1 ES - Jornal Regional ao vivo
     "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",  # Telejornais da TV Gazeta de Alagoas
     "https://globoplay.globo.com/ao-vivo/3667427/",  # Globoplay - Transmissão ao vivo
