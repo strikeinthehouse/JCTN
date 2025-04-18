@@ -38,6 +38,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/3065772/",  # G1 MS - Transmissão ao vivo em MS
     "https://globoplay.globo.com/v/2923579/",  # G1 AP - Telejornais da Rede Amazônica
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Telejornais da Rede Amazônica - Amazonas
+    "https://g1.globo.com/am/amazonas/carnaval/2025/ao-vivo/carnaboi-2025-assista-ao-vivo.ghtml",
     "https://globoplay.globo.com/v/2923546/",  # G1 AC - Jornais da Rede Amazônica
     "https://globoplay.globo.com/v/2168377/",  # Telejornais da TV Liberal
     "https://globoplay.globo.com/v/10747444/",  # CBN SP - Transmissão ao vivo
