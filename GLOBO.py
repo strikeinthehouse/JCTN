@@ -17,7 +17,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (Google)
-base_url = "https://www.google.com/search?q=sic&sca_esv=78aae0fabe89f8a8&udm=7&tbs=srcf:H4sIAAAAAAAAAB2KSwrAMAgFb-Om4J1U0iIleSWaQm_1fJMv5fBg5tLCh0hFu_1CSdYkWBe8vpGtLNJVabmO8KrJ28RcrVpe7zBy6nhCtLAAAA,dur:l&source=lnt&sa=X&ved=2ahUKEwj4o5Pq8OSMAxUyCrkGHdXXOX0QpwV6BAgCEA4&biw=1912&bih=1000&dpr=1"
+base_url = "https://www.google.com/search?q=tvi&sca_esv=78aae0fabe89f8a8&udm=7&tbs=srcf:H4sIAAAAAAAAANPOzM_1RKyhRq8wvLSlNStVLzs9VS0tMTk3Kz88Gc0oys0ugzMy84pLE9KLEXDAvPSc_1KR_1MAgCXPf-TRAAAAA,dur:l&source=lnt&sa=X&ved=2ahUKEwiOpPKFk-WMAxUeLLkGHXbWNvUQpwV6BAgDEA4&biw=1912&bih=1000&dpr=1#ip=1"
 
 # Load the page
 driver.get(base_url)
