@@ -17,7 +17,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (Google)
-base_url = "https://www.google.com/search?q=Transmiss%C3%A3o+ao+vivo&sca_esv=70d7635d7621967e&hl=pt-BR&udm=7&source=lnt&tbs=srcf:H4sIAAAAAAAAAKvMLy0pTUrVS87PVcvMKy5JTC9KzAXztNNz8pPywczStPyCRL3UlFK9pCK1tMTk1KT8_1GywTElmdgmUCQCsZbq7SgAAAA&sa=X&ved=2ahUKEwiboYmpz-SMAxXFBLkGHVQRK1MQpwV6BAgDECs&biw=1912&bih=1000&dpr=1#ip=1"
+base_url = "https://www.google.com/search?q=anos+tv&sca_esv=70d7635d7621967e&hl=pt-BR&udm=7&tbs=srcf:H4sIAAAAAAAAAC3HQQrAIAwEwN_10UuifErUSNC7Y9eDvC8HbzF07FE-CXxuLS0vYxkepUzxGa0QLvpKK4iSL9e2gYcR_1gQqMek0AAAA,dur:l&source=lnt&sa=X&ved=2ahUKEwjd-5Ci0uSMAxVXLrkGHYT8COkQpwV6BAgDEA4&biw=1361&bih=1000&dpr=1#ip=1"
 
 # Load the page
 driver.get(base_url)
