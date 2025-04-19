@@ -146,7 +146,7 @@ except Exception as e:
 # Função para extrair o link m3u8 e o título da página
 def extract_m3u8_url_and_title(driver, url):
     driver.get(url)
-    time.sleep(10)  # Aguarde a página carregar completamente
+    time.sleep(30)  # Aguarde a página carregar completamente
     
     # Obter o título da página
     title = driver.title
