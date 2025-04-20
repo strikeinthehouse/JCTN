@@ -5,39 +5,44 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# Configure Chrome options
+# Configurações do Chrome
 options = Options()
-options.add_argument("--headless")  # Descomente se não precisar de interface gráfica
+options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1280,720")
 options.add_argument("--disable-infobars")
 
-# Create the webdriver instance
+# Criação do driver
 driver = webdriver.Chrome(options=options)
 
-# URL base (Google)
-base_url = "https://www.google.com/search?q=anos+tv&sca_esv=70d7635d7621967e&hl=pt-BR&udm=7&tbs=srcf:H4sIAAAAAAAAAC3HQQrAIAwEwN_10UuifErUSNC7Y9eDvC8HbzF07FE-CXxuLS0vYxkepUzxGa0QLvpKK4iSL9e2gYcR_1gQqMek0AAAA,dur:l&source=lnt&sa=X&ved=2ahUKEwjd-5Ci0uSMAxVXLrkGHYT8COkQpwV6BAgDEA4&biw=1361&bih=1000&dpr=1#ip=1"
+# URL base (Google já com os filtros)
+base_url = "https://duckduckgo.com/?q=assista+ao+vivo+site%3Aglobo.com&t=h_&iar=videos&start=1&iax=videos&ia=videos"
 
-# Load the page
+# Carrega a página
 driver.get(base_url)
 
-# Wait until the links are present
+# Aguarda até que os links no estilo desejado estejam presentes
 try:
-    # Esperar até os links de transmissão estarem presentes
-    WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'a[jsname="UWckNb"]')))
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "li a[href*='globo.com']"))
+    )
 
-    # Extrair os links de transmissão ao vivo
-    video_links = driver.find_elements(By.CSS_SELECTOR, 'a[jsname="UWckNb"]')
-    links_list = [link.get_attribute('href') for link in video_links]
+    # Extrai os elementos <a> com estrutura <li><a><article>...</a></li>
+    video_elements = driver.find_elements(By.CSS_SELECTOR, "li a[href*='globo.com']")
 
-    # Print the links found
+    links_list = []
+    for el in video_elements:
+        href = el.get_attribute("href")
+        if href:
+            links_list.append(href)
+
     if links_list:
         print("Links encontrados:")
         for link in links_list:
             print(link)
 
-        # Write the links to the file
+        # Salva os links em um arquivo
         with open("links_video.txt", "w") as file:
             for link in links_list:
                 file.write(link + "\n")
@@ -45,17 +50,14 @@ try:
         print("Nenhum link encontrado.")
 
 except Exception as e:
-    print(f"Ocorreu um erro: {e}")
+    print(f"Ocorreu um erro ao buscar os links: {e}")
 
 # Função para extrair o link m3u8 e o título da página
 def extract_m3u8_url_and_title(driver, url):
     driver.get(url)
-    time.sleep(56)  # Espera a página carregar
+    time.sleep(30)  # Pode ser ajustado ou substituído por espera dinâmica
 
-    # Obter o título da página
     title = driver.title
-
-    # Obter o link m3u8 (se presente)
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
 
     m3u8_url = None
@@ -68,14 +70,14 @@ def extract_m3u8_url_and_title(driver, url):
 
     return title, m3u8_url, logo_url
 
-# Criar ou abrir o arquivo lista1.m3u para escrever os links e títulos
+# Abre o arquivo com os links
 with open("links_video.txt", "r") as file:
     links = file.readlines()
 
-# Criar ou abrir o arquivo lista1.m3u para escrever os dados
-with open("lista1.m3u", "w") as output_file:
+# Gera arquivo M3U
+with open("lista1.m3u", "a") as output_file:
     for link in links:
-        link = link.strip()  # Remover espaços em branco e quebras de linha
+        link = link.strip()
 
         if not link:
             continue
@@ -83,22 +85,22 @@ with open("lista1.m3u", "w") as output_file:
         print(f"Processando link: {link}")
 
         try:
-            # Extrair título, URL do m3u8 e logo
             title, m3u8_url, logo_url = extract_m3u8_url_and_title(driver, link)
 
             if m3u8_url:
-                # Escrever no formato extinf iptv
                 output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD GLOBO", {title}\n')
                 output_file.write(f"{m3u8_url}\n")
-                print(f"M3U8 link encontrado: {m3u8_url}")
+                print(f"✓ M3U8 encontrado: {m3u8_url}")
             else:
-                print(f"Link .m3u8 não encontrado para {link}")
+                print(f"⚠️ Link .m3u8 não encontrado para: {title}")
 
         except Exception as e:
-            print(f"Erro ao processar o link {link}: {e}")
+            print(f"❌ Erro ao processar o link {link}: {e}")
 
-# Sair do driver
+# Finaliza o driver
 driver.quit()
+
+
 
 
 from selenium import webdriver
@@ -299,56 +301,7 @@ with open("lista1.m3u", "a") as output_file:
 driver.quit()
 
 
-####
 
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-import time
-import os
-import requests
-from bs4 import BeautifulSoup
-
-# Configurar as opções do Chrome
-options = Options()
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,720")
-options.add_argument("--disable-infobars")
-
-# Criar a instância do webdriver
-driver = webdriver.Chrome(options=options)
-
-def get_title(soup):
-    title_element = soup.title
-    return title_element.string.strip() if title_element else None
-
-def format_video_title(title):
-    return title.replace('/', '_')
-
-def write_m3u_file(links, output_path):
-    with open(output_path, 'w') as f:
-        for link in links:
-            response = requests.get(link)
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.content, "html.parser")
-                title = get_title(soup)
-                if title:
-                    f.write(f"{link}\n")
-
-url = "https://duckduckgo.com/?q=assista+ao+vivo+site%3Aglobo.com&t=h_&iar=videos&start=1&iax=videos&ia=videos"
-driver.get(url)
-time.sleep(5)
-
-links = []
-video_tiles = driver.find_elements(By.CLASS_NAME, "tile")
-for tile in video_tiles:
-    data_link = tile.get_attribute("data-link")
-    if data_link and data_link.startswith("http"):
-        links.append(data_link)
-
-driver.quit()
 
 # Definir o caminho do arquivo
 m3u_file_path = os.path.join(os.getcwd(), "it.txt")
