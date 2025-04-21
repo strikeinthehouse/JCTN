@@ -75,7 +75,7 @@ with open("links_video.txt", "r") as file:
     links = file.readlines()
 
 # Gera arquivo M3U
-with open("lista1.m3u", "a") as output_file:
+with open("lista1.m3u", "w") as output_file:
     for link in links:
         link = link.strip()
 
