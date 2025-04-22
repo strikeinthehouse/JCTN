@@ -11,8 +11,6 @@ http://aasd.fun:80/beto12/beto12/4038159
 http://aasd.fun:80/beto12/beto12/4038160
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
 http://200.59.188.3:8000/play/a03a
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 2
-http://38.41.8.1:8000/play/a06j
 #EXTM3U
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
@@ -38,10 +36,12 @@ http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",NBC 7 San Diego
 https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
 #EXTINF:-1 group-title="USA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/Mp5fMxR/Canal57.png",Canal 57 Miami
+https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/yY68NHt/vtv.png",VTv Canal 17
 #EXTM3U
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/DQa3O3h3N0U/hq720.jpg?v=680708d4&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB8pPQRCJofmdHlCx3wxcWsKfySiw" tvg-id="Zadruga live 1.rs" ,🔴 Televisa Sonora - EN VIVO
 https://ythls-v3.onrender.com/channel/UCyzWMHGS7bs0sot6KZk5EZg.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/-7LBRckM_c4/hq720.jpg?v=e2&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAwGXFYSlA70yibvwUBKYffZPgJFw" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Sinaloa Oficial
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/-7LBRckM_c4/hq720.jpg?v=e8&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAwGXFYSlA70yibvwUBKYffZPgJFw" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Sinaloa Oficial
 https://ythls-v3.onrender.com/channel/UCtm1LvYEIQ_NrfOUVJ08YhQ.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Televisa Univision Saltillo
 https://ythls-v3.onrender.com/channel/UCpeD73Gb4KjKUL2gyoJ4gLw.m3u8
@@ -59,5 +59,3 @@ https://ythls-v3.onrender.com/channel/UC5EnLdE7ASjYzWt7wvT-QSg.m3u8
 https://ythls-v3.onrender.com/channel/UCaRuyaHshLdq462E9_pLzdA.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Mexicali Oficial
 https://ythls-v3.onrender.com/channel/UCcmuFsMIIIHO3LBqeBVfm8Q.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Victoria Oficial
-https://ythls-v3.onrender.com/channel/UCIqGddpV4flOlK3b-hgu9pQ.m3u8
