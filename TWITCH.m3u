@@ -1,8 +1,12 @@
 #EXTM3U
  #EXTINF:-1 group-title="Reality Show's Live" tvg-id="tvireality.tv.vodafone.pt" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
  https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
- #EXTINF:-1 group-title="NEWS WORLD" tvg-id="KCTV.kp" tvg-logo="https://i.imgur.com/O6G4tJ8.png",Korean Central Television (KCTV) (576p)
- https://tv.nknews.org/tvdash/stream.mpd
+#EXTINF:-1 tvg-id="TVVerdesMares" tvg-name="TV Verdes Mares" tvg-logo="https://s2.glbimg.com/xr3dILZBJuKZjGDYHvMSvq3gLo8=/284x0:1642x1358/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2015/11/05/marca-tv-verdes-mares.jpg" group-title="Globo",TV Verdes Mares
+https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzQ1NjUzNzkxLCJpYXQiOjE3NDU1NjczOTEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9udS9mKGJNaW49MzEzOTg0KS90dnZtY2Vmb3IyL3BsYXlsaXN0Lm0zdTgifQ.RpGkjaZgB-DOL9hg-vW3sG1ANGXGy8YwIue1ATbGbP_vxcIQj-dWwGd2djZPD-kNm64r9FWWe2vFJWbk3lbO7tr8oK44VauC7v__9JavdIBFRHciHWwUFq1HHyulEWaMzEOgrTQNcIjXR3fkgun4yaMKPBX1ccFVti-d7xAvpAclWjv2Ec72N7rxYOPFqlPfsw_aVj9XCWhknZG7ftk-O96QucJli_enxlaBSYJelACYmfaNhDBpkGkopvFki6-OCEMigBNyfkoW0zbQfTCWOuwgrS5o-1CYdASSI5mVUclrIAleMEykbllXG18ip8bkdunFkqgysVle8FGQyBwX0A/nu/f(bMin=313984)/tvvmcefor2/playlist.m3u8
+
+#EXTINF:-1 tvg-id="G1aoVivo" tvg-name="G1 ao Vivo" tvg-logo="https://s2.glbimg.com/8ePOWe9YGK9IMSPL8-ydxHE9DNQ=/0x0:300x300/300x300/s.glbimg.com/jo/g1/f/original/2015/10/21/g1-300x300.jpg" group-title="Globo",G1 ao Vivo
+https://live-as-04-27.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDQtMjcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzQ1NjU0MDgwLCJpYXQiOjE3NDU1Njc2ODAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9udS9mKGJNaW49MzEzOTg0KS9qYjEvcGxheWxpc3QubTN1OCJ9.OC7-aN-pxh3NFM7D_04cn3s3MgKl2dWckmxwJ6mQn7cvCqUmIYUZoeKUWRu1yRz2jMxZyltYOdanIJ0PiX2gn36zwhpNJNxUENQ-lo6LOTVy-YtJEc2ukJI1aFZFhj1izmhnWpKlJFB29qgz2Wwv7Paa3uZo7ptRI9ZGOMR7NUWVi8BFaOTNjIQrhWlDM9q2pFN84kUyXwfPTD-_8Ej0U3PvN0vwS0eLSyeQSNCTHS89fHtrfjm2Af8qduD6Mo_k-bwfmM1SkSfFVEoQgTEhurCqh0G_TyH3_-1ty8EhKE4GaUhIajxR4Ucj-VYI-3rZSKQnum05M4H6yKsj9ogNBA/nu/f(bMin=313984)/jb1/playlist.m3u8
+
  #EXTINF:-1 group-title="NEWS WORLD", CAPITOLIO
  https://www-senate-gov-media-srs.akamaized.net/hls/live/2036784/capcam/capcam/master.m3u8
  #EXTINF:-1 group-title="NEWS WORLD",REUTERS SERVIÇO
