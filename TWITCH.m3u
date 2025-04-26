@@ -3,14 +3,7 @@
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
 http://200.59.188.3:8000/play/a03a
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO
-https://newsource-live.warnermediacdn.com/hls/live/2005450/intl01/master.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 2
-https://newsource-live.warnermediacdn.com/hls/live/2005451/intl02/master.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 3
-https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 4
-https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
+#EXTM3U
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/colombia1.xml.gz"
@@ -48,7 +41,7 @@ http://212.102.60.80/TF1/index.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/PU0I3Ic5tno/hq720.jpg?v=680c2416&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD-7nGTc_GXJO4LcYqAeWFUqMNYxQ" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Guadalajara
 https://ythls-v3.onrender.com/channel/UCRujF_YxVVFmTRWURQH-Cww.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/AN6b6Pu-FUk/hq720.jpg?v=b9&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCP9uPLy8RzxloXioFEcbEuJynz_A" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Veracruz Oficial
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/AN6b6Pu-FUk/hq720.jpg?v=be&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCP9uPLy8RzxloXioFEcbEuJynz_A" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Veracruz Oficial
 https://ythls-v3.onrender.com/channel/UC5EnLdE7ASjYzWt7wvT-QSg.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Victoria Oficial
 https://ythls-v3.onrender.com/channel/UCIqGddpV4flOlK3b-hgu9pQ.m3u8
