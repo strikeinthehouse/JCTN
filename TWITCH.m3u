@@ -3,7 +3,14 @@
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
 http://200.59.188.3:8000/play/a03a
-#EXTM3U
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO
+https://newsource-live.warnermediacdn.com/hls/live/2005450/intl01/master.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 2
+https://newsource-live.warnermediacdn.com/hls/live/2005451/intl02/master.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 3
+https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://cdn.cnn.com/cnn/.e/img/3.0/shows/default-show-image-large-169.jpg",CNN SERVIÇO 4
+https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/colombia1.xml.gz"
