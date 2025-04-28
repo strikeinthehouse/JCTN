@@ -3,8 +3,6 @@
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
 http://200.59.188.3:8000/play/a03a
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 2
-http://38.41.8.1:8000/play/a06j
 #EXTM3U
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
@@ -38,6 +36,8 @@ https://raw.githubusercontent.com/schumijo/iptv/main/playlists/mytf1/tf1.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="TF1.fr" tvg-logo="https://iili.io/JmogGzN.png",TF1 - 2
 http://212.102.60.80/TF1/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="TF1.fr" tvg-logo="https://i.ibb.co/BBpR1Wx/tf1.png",TF1 - 5
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Pink Reality.rs" tvg-logo="https://tvprofil.com/cdn/400x200/4/img/kanali-logo/pinkReality.png",Farma Sérvia
 #EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/sYnIPPejdZw/hq720.jpg?v=680fa9df&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAVaB_MxtQEPq0s-DIBKkmiCHsKlw" tvg-id="Zadruga live 1.rs" ,INEDITO, FILTRAN INFORMACION DE TELEVISA, CAMPAÑAS DE MILLONES DE DOLARES, HACKEO REVELA COCHINERO
-https://ythls-v3.onrender.com/channel/UCbBU0GZ11pCxR9P6O7x_ejw.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/1Zf9ea9X6Is/hqdefault.jpg?v=680fb57a&sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDcBbt99H84jnG7GA-V2-sVsvuc_g" tvg-id="Zadruga live 1.rs" ,"Bernardo Moreno Bajo Fuego: Televisa Ya Tiene la Denuncia ¡Andrea Rodríguez Lo Defiende!"
+https://ythls-v3.onrender.com/channel/UCxEKj_9WCl-CQa9R5iGJdKQ.m3u8
