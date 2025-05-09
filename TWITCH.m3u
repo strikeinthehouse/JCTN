@@ -12,8 +12,6 @@ https://live-as-10-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTM3U
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="tvireality.tv.vodafone.pt" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
-http://200.59.188.3:8000/play/a03a
 #EXTM3U
 #EXTM3U url-tvg="https://www.open-epg.com/files/serbia1.xml.gz"
 #EXTM3U url-tvg="https://www.open-epg.com/files/spain1.xml.gz"
@@ -38,10 +36,14 @@ http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
 #EXTINF:-1 group-title="USA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/Mp5fMxR/Canal57.png",Canal 57 Miami
 https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphY_KpFPFb8iogvRqi49zAdBcqcSIYwHm_qKyhjSI8l0tcXw2wRRVtl65lA&s",NOTÍCIAS TELEMUNDO - SERVIÇO
+https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/qm8G7PjMmyY/hq720.jpg?v=2&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDIhGKHSm4_MS8OIUWwfw7SOvIizg" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Noreste Oficial
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/qm8G7PjMmyY/hq720.jpg?v=9&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDIhGKHSm4_MS8OIUWwfw7SOvIizg" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Noreste Oficial
 https://ythls-v3.onrender.com/channel/UC752DYv5vPlTSMrvEjfZXcw.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/J1VK1uNZhw8/hq720.jpg?v=111&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDOfwDk223kz95nVX4YhpEHI3qV_w" tvg-id="Zadruga live 1.rs" ,Televisa Piedras Negras Live Stream
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/pUui0nixm2A/hq720.jpg?v=681dd702&sqp=-oaymwEtCNAFEJQDSFryq4qpAx8IARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB7QFmZmZC&rs=AOn4CLC7yMALWSD0mzhrbMtQzUwqOIcI8Q" tvg-id="Zadruga live 1.rs" ,Las Noticias Al Amanecer con Paco y Nany Viernes 9 de Mayo 2025
+https://ythls-v3.onrender.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Televisa Piedras Negras Live Stream
 https://ythls-v3.onrender.com/channel/UCxK8C1E8UZ5RipNXIBYEvTA.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo - Televisa Tijuana Oficial
 https://ythls-v3.onrender.com/channel/UCjwXjnO3BGePtB7gSKEpoqA.m3u8
