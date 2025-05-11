@@ -120,6 +120,14 @@
     "extra": []
   },
   {
+    "name": "TV Brasil Central",
+    "group": "CANAIS ABERTOS",
+    "tvg_id": "N/A",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzdi3a9KFm2AYTzbRFRP5usq7gIQaads1CBjH7oMajw3UbyHikRIo5mN89w&s",
+    "url": "https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8",
+    "extra": []
+  },
+  {
     "name": "Rede Meio Norte HD",
     "group": "CANAIS ABERTOS",
     "tvg_id": "RedeMeioNorte.br",
@@ -155,7 +163,7 @@
     "name": "Aurora Arte (480p)",
     "group": "Undefined",
     "tvg_id": "AuroraArte.it",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25slJqq8IHS3QVBEVhPT352ynZ8_cJtpkPQ4-D1wQdYTMCqRGGFsv1tzJtw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYe2mHaNlorhT9A3dhdjHYGaySMvvcMfPc95syF5CuYRNzBowwTREGFNyabw&s",
     "url": "https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8",
     "extra": []
   },
@@ -176,27 +184,11 @@
     "extra": []
   },
   {
-    "name": "Ponte da Amizade - Sentido Brasil em Foz do Igua\u00e7u / PR",
-    "group": "Cameras Ao Vivo",
-    "tvg_id": "N/A",
-    "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg",
-    "url": "https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8",
-    "extra": []
-  },
-  {
     "name": "Ponte da Amizade - Sentido Paraguai em Foz do Igua\u00e7u / PR",
     "group": "Cameras Ao Vivo",
     "tvg_id": "N/A",
     "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png",
     "url": "https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8",
-    "extra": []
-  },
-  {
-    "name": "BR - 277 - Aduana Ponte da Amizade em Foz do Igua\u00e7u / PR",
-    "group": "Cameras Ao Vivo",
-    "tvg_id": "N/A",
-    "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-05-5bb3c38fd114b.png",
-    "url": "https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8",
     "extra": []
   },
   {
@@ -303,4 +295,4 @@
     "url": "http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts",
     "extra": []
   }
-][]
+]
