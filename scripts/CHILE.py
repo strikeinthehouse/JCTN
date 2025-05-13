@@ -361,8 +361,6 @@ with open("CHILE.json", "w") as f:
     f.write(json_data)
     
 
-#rato
-
 import requests
 import re
 import gzip
@@ -374,7 +372,10 @@ from urllib.parse import urlparse
 
 # URL do arquivo M3U
 M3U_URL = "https://raw.githubusercontent.com/strikeinthehouse/1/refs/heads/main/lista1.M3U"
-OUTPUT_XMLTV_FILE = "GUIA.xml"
+# O arquivo XMLTV intermediário antes da compressão
+INTERMEDIATE_XMLTV_FILE = "GUIA_temp.xml"
+# Arquivo final comprimido
+OUTPUT_XMLTV_XZ_FILE = "GUIA.xml.xz" 
 TEMP_DIR = "epg_temp_files"
 PROCESSED_DIR = os.path.join(TEMP_DIR, "processed_xmls") # Diretório para XMLs processados
 
@@ -513,9 +514,7 @@ def decompress_and_normalize_epgs(downloaded_files, output_dir):
 def merge_xmltv_files(xml_files, output_file_path):
     """Mescla múltiplos arquivos XMLTV em um único arquivo."""
     print(f"\nIniciando mesclagem de {len(xml_files)} arquivos XMLTV para {output_file_path}")
-    # Cria o elemento raiz <tv>
     merged_root = ET.Element("tv")
-    # Para evitar canais duplicados, rastreia os IDs dos canais já adicionados
     channel_ids = set()
 
     for xml_file in xml_files:
@@ -524,9 +523,6 @@ def merge_xmltv_files(xml_files, output_file_path):
             tree = ET.parse(xml_file)
             root = tree.getroot()
             
-            # Adiciona atributos do elemento raiz do arquivo de origem ao merged_root, se não existirem
-            # Isso pode ser útil para atributos como 'source-info-url', 'source-info-name', etc.
-            # Evita sobrescrever se já definido por um arquivo anterior, mas pode ser ajustado.
             for key, value in root.attrib.items():
                 if key not in merged_root.attrib:
                     merged_root.set(key, value)
@@ -548,10 +544,8 @@ def merge_xmltv_files(xml_files, output_file_path):
         except Exception as e:
             print(f"Erro inesperado ao mesclar {xml_file}: {e}. Pulando este arquivo.")
 
-    # Cria a árvore XML final e escreve no arquivo
     merged_tree = ET.ElementTree(merged_root)
     try:
-        # ET.indent(merged_tree, space="  ", level=0) # Para Python 3.9+
         merged_tree.write(output_file_path, encoding="utf-8", xml_declaration=True)
         print(f"Arquivo XMLTV mesclado salvo com sucesso em: {output_file_path}")
         return True
@@ -559,11 +553,27 @@ def merge_xmltv_files(xml_files, output_file_path):
         print(f"Erro ao salvar o arquivo XMLTV mesclado: {e}")
         return False
 
+def compress_xml_to_xz(input_xml_path, output_xz_path):
+    """Comprime um arquivo XML para o formato .xz."""
+    print(f"\nIniciando compressão de {input_xml_path} para {output_xz_path}")
+    try:
+        with open(input_xml_path, 'rb') as f_in, lzma.open(output_xz_path, 'wb', preset=lzma.PRESET_DEFAULT) as f_out:
+            shutil.copyfileobj(f_in, f_out)
+        print(f"Arquivo comprimido com sucesso: {output_xz_path}")
+        return True
+    except Exception as e:
+        print(f"Erro ao comprimir o arquivo para .xz: {e}")
+        return False
+
 def main():
     """Função principal para orquestrar o processo."""
-    if os.path.exists(OUTPUT_XMLTV_FILE):
-        os.remove(OUTPUT_XMLTV_FILE)
-        print(f"Arquivo {OUTPUT_XMLTV_FILE} existente removido.")
+    # Limpa arquivos de saída de execuções anteriores
+    if os.path.exists(INTERMEDIATE_XMLTV_FILE):
+        os.remove(INTERMEDIATE_XMLTV_FILE)
+        print(f"Arquivo intermediário {INTERMEDIATE_XMLTV_FILE} existente removido.")
+    if os.path.exists(OUTPUT_XMLTV_XZ_FILE):
+        os.remove(OUTPUT_XMLTV_XZ_FILE)
+        print(f"Arquivo de saída {OUTPUT_XMLTV_XZ_FILE} existente removido.")
         
     if os.path.exists(TEMP_DIR):
         shutil.rmtree(TEMP_DIR)
@@ -623,10 +633,19 @@ def main():
     print(f"\nArquivos EPG normalizados para XML: {normalized_xml_files}")
 
     print("\nIniciando mesclagem dos arquivos XMLTV normalizados...")
-    if merge_xmltv_files(normalized_xml_files, OUTPUT_XMLTV_FILE):
-        print(f"\nProcesso concluído! Arquivo final: {OUTPUT_XMLTV_FILE}")
+    if merge_xmltv_files(normalized_xml_files, INTERMEDIATE_XMLTV_FILE):
+        print(f"\nArquivo XMLTV mesclado intermediário criado: {INTERMEDIATE_XMLTV_FILE}")
+        # Agora comprime o arquivo XMLTV mesclado
+        if compress_xml_to_xz(INTERMEDIATE_XMLTV_FILE, OUTPUT_XMLTV_XZ_FILE):
+            print(f"\nProcesso concluído! Arquivo final comprimido: {OUTPUT_XMLTV_XZ_FILE}")
+            # Remove o arquivo XML intermediário não comprimido após a compressão bem-sucedida
+            if os.path.exists(INTERMEDIATE_XMLTV_FILE):
+                os.remove(INTERMEDIATE_XMLTV_FILE)
+                print(f"Arquivo intermediário {INTERMEDIATE_XMLTV_FILE} removido.")
+        else:
+            print(f"\nFalha ao comprimir o arquivo XMLTV para .xz. O arquivo não comprimido está em {INTERMEDIATE_XMLTV_FILE}")
     else:
-        print("\nProcesso concluído com erros na mesclagem ou ao salvar o arquivo final.")
+        print("\nProcesso concluído com erros na mesclagem ou ao salvar o arquivo XMLTV intermediário.")
 
     # Limpeza final do diretório temporário
     if os.path.exists(TEMP_DIR):
@@ -638,4 +657,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 
