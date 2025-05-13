@@ -35,25 +35,12 @@ jobs:
       run: |
         python3 --version
 
-    - name: Executar script TWITCH.sh
-      run: |
-        chmod +x TWITCH.sh
-        ./TWITCH.sh
 
-    - name: Verificar se YT.py está presente
+    - name: Rodar script EPG.py
       run: |
-        if [ -f "scripts/YT.py" ]; then
-          echo "YT.py encontrado"
-        else
-          echo "YT.py não encontrado. Verifique se o caminho está correto."
-          exit 1
-        fi
-
-    - name: Rodar script YT.py
-      run: |
-        # Navega até a pasta scripts e executa o script YT.py
+        # Navega até a pasta scripts e executa o script EPG.py
         cd scripts
-        python3 YT.py
+        python3 EPG.py
 
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
