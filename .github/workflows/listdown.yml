@@ -51,5 +51,7 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-        git commit -m "Atualizar lista baixada"
+        git pull --rebase origin main
+        git commit -m "Atualizar lista baixada" || echo "Nenhuma alteração para commitar"
         git push origin main
+
