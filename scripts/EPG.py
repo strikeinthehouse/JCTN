@@ -12,7 +12,8 @@ M3U_URL = "https://raw.githubusercontent.com/strikeinthehouse/1/refs/heads/main/
 # O arquivo XMLTV intermediário antes da compressão
 INTERMEDIATE_XMLTV_FILE = "GUIA_temp.xml"
 # Arquivo final comprimido
-OUTPUT_XMLTV_XZ_FILE = "GUIA.xml.xz" 
+OUTPUT_XMLTV_XZ_FILE = os.path.join("..", "GUIA.xml.xz")
+
 TEMP_DIR = "epg_temp_files"
 PROCESSED_DIR = os.path.join(TEMP_DIR, "processed_xmls") # Diretório para XMLs processados
 
