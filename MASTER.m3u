@@ -3,10 +3,12 @@
 http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RTLTVI.be" tvg-logo="https://i.imgur.com/2CimAAN.png",RTL-TVI (1080p) [Not 24/7]
 https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://od.lk/s/M18yOTI2NjczMTZf/france2.png",FRANCE 2
-http://69.64.57.208/france2/playlist.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://od.lk/s/M18yOTI2NjczMTRf/france5.jpeg",FRANCE 5
 http://69.64.57.208/france5/playlist.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONO80OTwp8oIc8fzLkInbb6ZJ8xondzxrzyVhvYg1hZZOSi99MbV3ifz0Ipg&s",FRANCE 3 FHD
+http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrR9BsBZw4zTAzFAAxFQuDp1lm06mXAEU-PnGfC7FTLZEyqnuRWDE-P9C4w&s",FRANCE 4 FHD
+http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8
 #EXTINF:-1 group-title="CAMERA AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBDnxaaz-en9AzUARSDlA_oGl0-hPMqEH1j3anQDQd48YsyKQ-6xVyJ12FXo&s",Undefined
 http://80.61.63.103:81/cam_1.cgi
 #EXTINF:-1 group-title="🇧🇷 | BRAZIL" tvg-id="NovaEraTV.br" tvg-logo="https://i.imgur.com/IK3F9Uq.png",Nova Era TV
