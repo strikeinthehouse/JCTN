@@ -36,16 +36,16 @@ jobs:
         python3 --version
 
 
-    - name: Verificar se YT.py está presente
+    - name: Verificar se TESTLINKS.py está presente
       run: |
-        if [ -f "scripts/YT.py" ]; then
-          echo "YT.py encontrado"
+        if [ -f "scripts/TESTLINKS.py" ]; then
+          echo "TESTLINKS.py encontrado"
         else
-          echo "YT.py não encontrado. Verifique se o caminho está correto."
+          echo "TESTLINKS.py não encontrado. Verifique se o caminho está correto."
           exit 1
         fi
 
-    - name: Rodar script YT.py
+    - name: Rodar script TESTLINKS.py
       run: |
         # Navega até a pasta scripts e executa o script YT.py
         python3 TESTLINKS.py
