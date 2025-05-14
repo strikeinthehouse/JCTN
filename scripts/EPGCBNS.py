@@ -1,5 +1,5 @@
-tvg-id="CBN.SaoPaulo" tvg-name="CBN São Paulo"
-tvg-id="CBN.RioDeJaneiro" tvg-name="CBN Rio de Janeiro"
+#tvg-id="CBN.SaoPaulo" tvg-name="CBN São Paulo"
+#tvg-id="CBN.RioDeJaneiro" tvg-name="CBN Rio de Janeiro"
 
 """
 Script para gerar EPG (Electronic Program Guide) em formato XMLTV
