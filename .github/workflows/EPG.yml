@@ -29,7 +29,7 @@ jobs:
       run: |
         # Install required Python dependencies
         python3 -m pip install --upgrade pip
-        python3 -m pip install gdown requests streamlink beautifulsoup4 selenium yt_dlp
+        python3 -m pip install gdown requests streamlink beautifulsoup4 selenium yt_dlp playwright
 
     - name: Verificar versão do Python
       run: |
@@ -41,6 +41,7 @@ jobs:
         # Navega até a pasta scripts e executa o script EPG.py
         cd scripts
         python3 EPG.py
+        python3 EPGCBNS.py
 
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
