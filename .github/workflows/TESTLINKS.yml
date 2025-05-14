@@ -36,18 +36,10 @@ jobs:
         python3 --version
 
 
-    - name: Verificar se TESTLINKS.py está presente
-      run: |
-        if [ -f "scripts/TESTLINKS.py" ]; then
-          echo "TESTLINKS.py encontrado"
-        else
-          echo "TESTLINKS.py não encontrado. Verifique se o caminho está correto."
-          exit 1
-        fi
 
     - name: Rodar script TESTLINKS.py
       run: |
-        # Navega até a pasta scripts e executa o script YT.py
+        # Navega até a pasta scripts e executa o script TESTLINKS.py
         python3 TESTLINKS.py
 
     - name: Adicionar Mudanças ao Controle de Versão
