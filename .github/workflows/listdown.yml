@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Schedule to run every 30 minutes
+    - cron: '*/45 * * * *'  # Schedule to run every 30 minutes
   pull_request:
     branches:
       - main
@@ -16,41 +16,43 @@ jobs:
     - name: Checkout Repositório
       uses: actions/checkout@v4  # Updated to use a newer version
 
-    - name: Configurar Ambiente Virtual
-      run: |
-        python3 -m venv venv
-        source venv/bin/activate
-        pip install --upgrade pip  # Upgrade pip within the virtual environment
-
-    - name: Instalando Dependências Python
-      run: |
-        source venv/bin/activate
-        pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz
-        python3 -m pip install requests streamlink beautifulsoup4 selenium yt_dlp
-
-    - name: Install ffmpeg
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y ffmpeg      
-
-    - name: Executar script Python
-      run: |
-        source venv/bin/activate
-        python agrupadordelistas.py
-        if [ $? -ne 0 ]; then
-          echo "Erro na execução do script Python."
-          exit 1
-        fi
-
-    - name: Adicionar arquivos ao controle de versão
-      run: |
-        git add -A
-        ls -la
-
-    - name: Commit & Push
+    - name: Configurar Git
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-        git pull --rebase origin main
-        git commit -m "Atualizar lista baixada" || echo "Nenhuma alteração para commitar"
-        git push origin main
+
+    - name: Deletar Log
+      run: |
+        rm -rf ./log.txt
+
+    - name: Instalando dependências
+      run: |
+        # Install required Python dependencies
+        python3 -m pip install --upgrade pip
+        python3 -m pip install gdown requests streamlink beautifulsoup4 selenium yt_dlp playwright
+
+    - name: Verificar versão do Python
+      run: |
+        python3 --version
+
+
+    - name: Rodar script EPG.py
+      run: |
+        # Navega até a pasta scripts e executa o script EPG.py
+        cd scripts
+        python3 EPG.py
+        python3 EPGCBNS.py
+
+    - name: Adicionar Mudanças ao Controle de Versão
+      run: |
+        git add -A
+        git status
+
+    - name: Garantir alterações mais recentes do repositório remoto
+      run: |
+        git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
+
+    - name: Commit e Push
+      run: |
+        git commit -m "Atualizar lista baixada" || echo "Nenhuma mudança para commitar."
+        git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
