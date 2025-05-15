@@ -53,7 +53,7 @@ globoplay_urls = [
     "https://g1.globo.com/pe/petrolina-regiao/video/gr1-ao-vivo-6812170-1744985218335.ghtml", # GR1 Petrolina
 ]
 
-output_m3u_file = "ista1.m3u"
+output_m3u_file = "lista1.m3u"
 mapping_file_path = "/home/ubuntu/epg_data/mapeamento_globo_afiliadas.txt"
 
 def normalize_text(text):
@@ -218,6 +218,8 @@ with open(output_m3u_file, "a", encoding="utf-8") as output_file_obj:
         output_file_obj.write(m3u8_line)
 
 print(f"Processamento concluído. Arquivo gerado: {output_m3u_file}")
+
+
 
 
 
