@@ -36,12 +36,12 @@ jobs:
         python3 --version
 
 
-    - name: Rodar script EPG.py
+    - name: Rodar script agrupadordelistas.py
       run: |
-        # Navega até a pasta scripts e executa o script EPG.py
+        # Navega até a pasta scripts e executa o script agrupadordelistas.py
         cd scripts
-        python3 EPG.py
-        python3 EPGCBNS.py
+        python3 agrupadordelistas.py
+
 
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
