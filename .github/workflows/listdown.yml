@@ -38,8 +38,6 @@ jobs:
 
     - name: Rodar script agrupadordelistas.py
       run: |
-        # Navega até a pasta scripts e executa o script agrupadordelistas.py
-        cd scripts
         python3 agrupadordelistas.py
 
 
