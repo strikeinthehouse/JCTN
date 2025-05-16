@@ -106,6 +106,9 @@ driver.quit()
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import time
 import concurrent.futures
 
@@ -121,6 +124,7 @@ options.add_argument("--disable-infobars")
 globoplay_urls = [
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",  # Bom Dia Cidade Ribeirão Preto
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
+    "https://g1.globo.com/sp/campinas-regiao/ao-vivo/eptv-2-campinas-ao-vivo.ghtml"
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv-2-ribeirao-e-franca-ao-vivo.ghtml",  # EPTV 2ª Edição - Ribeirão e Franca
     "https://g1.globo.com/pe/petrolina-regiao/ao-vivo/ao-vivo-assista-ao-gr2.ghtml",  # GR2 - Petrolina
     "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-sexta-feira-7.ghtml",  # BDAP - Amapá
@@ -151,32 +155,108 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/10747444/",  # CBN SP - Transmissão ao vivo
     "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
     "https://g1.globo.com/pe/petrolina-regiao/video/gr1-ao-vivo-6812170-1744985218335.ghtml",
-    
 ]
 
 def extract_globoplay_data(url):
     driver = webdriver.Chrome(options=options)
     driver.get(url)
-    try:
-        play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
-        if play_button:
-            time.sleep(15)
-            play_button.click()            
-    except Exception as e:
-        print("Erro ao clicar no botão de reprodução:", e)
-
-    time.sleep(56)  # Espera a página carregar
+    
+    # Função para tentar clicar no botão de play
+    def try_click_play():
+        try:
+            # Tenta encontrar e clicar no botão de play
+            play_buttons = [
+                "button.poster__play-wrapper",  # Botão de play padrão
+                "button[aria-label='Reproduzir vídeo']",  # Botão alternativo
+                ".playkit-pre-playback-play-button",  # Outro possível botão
+                "button.playkit-control-button"  # Outro possível botão
+            ]
+            
+            for selector in play_buttons:
+                try:
+                    play_button = driver.find_element(By.CSS_SELECTOR, selector)
+                    if play_button and play_button.is_displayed():
+                        play_button.click()
+                        print(f"Clicou no botão de play ({selector}) para {url}")
+                        return True
+                except Exception:
+                    continue
+            
+            return False
+        except Exception as e:
+            print(f"Erro ao tentar clicar no botão de play: {e}")
+            return False
+    
+    # Tenta clicar no botão de play
+    play_clicked = try_click_play()
+    
+    # Implementação para tentar novamente até 4 vezes se aparecer erro
+    retry_attempts = 0
+    max_retries = 4
+    
+    while retry_attempts < max_retries:
+        try:
+            # Verifica se há mensagem de erro e botão "Tentar novamente"
+            error_elements = [
+                "a[href='javascript:void(0)'][class*='retry']",  # Link de retry
+                "a:contains('Tentar novamente')",  # Texto "Tentar novamente"
+                ".error-message-container a",  # Container de erro com link
+                "a.retry-button"  # Botão de retry
+            ]
+            
+            retry_button = None
+            for selector in error_elements:
+                try:
+                    elements = driver.find_elements(By.CSS_SELECTOR, selector)
+                    for element in elements:
+                        if "tentar novamente" in element.text.lower() or "retry" in element.text.lower():
+                            retry_button = element
+                            break
+                    if retry_button:
+                        break
+                except Exception:
+                    continue
+            
+            # Se encontrou botão de retry, clica nele
+            if retry_button:
+                print(f"Tentativa {retry_attempts + 1}/{max_retries}: Clicando em 'Tentar novamente' para {url}")
+                retry_button.click()
+                time.sleep(5)  # Espera um pouco após clicar
+                
+                # Tenta clicar no play novamente
+                play_clicked = try_click_play()
+                retry_attempts += 1
+            else:
+                # Se não encontrou botão de retry, sai do loop
+                break
+                
+        except Exception as e:
+            print(f"Erro ao tentar novamente: {e}")
+            retry_attempts += 1
+            time.sleep(3)
+    
+    # Espera para carregar recursos
+    time.sleep(56)
+    
+    # Coleta informações
     title = driver.title
     log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
     m3u8_url = None
     thumbnail_url = None
+    
     for entry in log_entries:
         if ".m3u8" in entry['name']:
             m3u8_url = entry['name']
         if ".jpg" in entry['name'] and not thumbnail_url:
             thumbnail_url = entry['name']
+    
     driver.quit()
     return title, m3u8_url, thumbnail_url
+
+def process_m3u_file(input_url, output_file):
+    # Implementação da função process_m3u_file
+    # (Esta função estava mencionada no final do código original mas não estava implementada)
+    pass
 
 with open("lista1.m3u", "a") as output_file:
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
@@ -194,8 +274,10 @@ with open("lista1.m3u", "a") as output_file:
                     print(f"M3U8 não encontrado para {url}")
             except Exception as e:
                 print(f"Erro ao processar {url}: {e}")
-# Executa o processamento
-process_m3u_file(input_url, output_file)
+
+# Comentado pois a função não está implementada e parece ser uma chamada incorreta
+# process_m3u_file(input_url, output_file)
+
 
 
 
