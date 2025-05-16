@@ -1,98 +1,314 @@
 [
   {
-    "name": "Globo Bahia HD (Link 1)",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo BA",
-    "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "GLOBO BRASILIA | BR",
-    "group": "BRAZIL | BR",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRha9IlKyPx4vCtx2CfXDGmFDZfsegCrpaR-eS_c-WT7CW8YBpozxoZgK2S1xM&s",
-    "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112664",
-    "extra": []
-  },
-  {
-    "name": "GLOBO SAT HD | BR",
-    "group": "BRAZIL | BR",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMNKfnbBCS-3qxy50ztZ_cvDgFr-k10N2KnqPJb1tUqvD6mkEkzXuZjy4X5A&s",
-    "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112668",
-    "extra": []
-  },
-  {
-    "name": "GLOBO RBS PORTO ALGRE | BR",
-    "group": "BRAZIL | BR",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ0aaH-jdyL8MAzouof9lWNfnMdKTIJSBijAschCaFzl9Ih6I6c3MJUNU6rLU&s",
-    "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112674",
-    "extra": []
-  },
-  {
-    "name": "GLOBO SP HD | BR",
-    "group": "BRAZIL | BR",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzqWPbe6Oi_ujP0CNH7fbRWsZCCVJzT-0C2xWfstNYnU55E1eWpczKrKjdz0&s",
-    "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112677",
-    "extra": []
-  },
-  {
-    "name": "GLOBO TV TRIBUNA SANTOS | BR",
-    "group": "BRAZIL | BR",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHdCRLvXWNpryV6grtCYK3d710n4SEy0La9UO4WHiSi9MSfxxG7pk0igWVA&s",
-    "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112680",
-    "extra": []
-  },
-  {
-    "name": "GLOBO TV TEM BAURU | BR",
-    "group": "BRAZIL | BR",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR68EaDMM8maqRyjSrgLz8TnCuxGakuhBiPrUAOesnh6t80kmek_VZ450nOj1k&s",
-    "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112685",
-    "extra": []
-  },
-  {
-    "name": "GLOBO ANHANGUERA GOIANIA | BR",
-    "group": "BRAZIL | BR",
-    "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8YhPyDbMC0SwfzHOKNjGrB7mG2BngzqSapBnF6IWBL4_96eG9fe2yINOkQ&s",
-    "url": "http://callvip.me:80/DodaLiin/jXcQY5EUFzcqjn72PTRD/112690",
-    "extra": []
-  },
-  {
-    "name": "Globo Bahia SD",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo TV Bahia.br",
-    "logo": "https://i.imgur.com/k4fl1wF.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Globo Bahia HD",
-    "group": "GLOBO AO VIVO",
+    "name": "RAI 3",
+    "group": "Reality Show's Live",
     "tvg_id": "Undefined",
-    "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/250px-Rai_3_-_Logo_2016.svg.png",
+    "url": "http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Globo SP 8 HD",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "TVGloboSaoPaulo.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBbr7-LGDTs8A4UlZaQ-v0s-u_T294dLLGlTkDsWp9mh_OPCP6ysZoaUkWA&s",
-    "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
+    "name": "RTL-TVI (1080p) [Not 24/7]",
+    "group": "Reality Show's Live",
+    "tvg_id": "RTLTVI.be",
+    "logo": "https://i.imgur.com/2CimAAN.png",
+    "url": "https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8",
     "extra": []
   },
   {
-    "name": "Globo Bahia SD",
-    "group": "Canais | GLOBO",
-    "tvg_id": "Globo TV Bahia.br",
-    "logo": "https://i.imgur.com/k4fl1wF.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
+    "name": "FRANCE 2",
+    "group": "Reality Show's Live",
+    "tvg_id": "Undefined",
+    "logo": "https://od.lk/s/M18yOTI2NjczMTZf/france2.png",
+    "url": "http://69.64.57.208/france2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FRANCE 5",
+    "group": "Reality Show's Live",
+    "tvg_id": "Undefined",
+    "logo": "https://od.lk/s/M18yOTI2NjczMTRf/france5.jpeg",
+    "url": "http://69.64.57.208/france5/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FRANCE 2 FHD",
+    "group": "Reality Show's Live",
+    "tvg_id": "FRANCE 2",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmrbOqjG8PomXE86TM5SAMP5_Z30xG2nW1kot6nym9nU63PCzUdpHMrAYwA&s",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160297.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FRANCE 3 FHD",
+    "group": "Reality Show's Live",
+    "tvg_id": "FRANCE 3",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONO80OTwp8oIc8fzLkInbb6ZJ8xondzxrzyVhvYg1hZZOSi99MbV3ifz0Ipg&s",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FRANCE 4 FHD",
+    "group": "Reality Show's Live",
+    "tvg_id": "FRANCE 4",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrR9BsBZw4zTAzFAAxFQuDp1lm06mXAEU-PnGfC7FTLZEyqnuRWDE-P9C4w&s",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FRANCE 5 FHD",
+    "group": "Reality Show's Live",
+    "tvg_id": "FRANCE 5",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu32fM_Xm6U-85aB1LCxFXx6tYjCCu1SdpmlXj5xLUwdm5dCbriIctZf2QHbk&s",
+    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Undefined",
+    "group": "CAMERA AO VIVO",
+    "tvg_id": "Undefined",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBDnxaaz-en9AzUARSDlA_oGl0-hPMqEH1j3anQDQd48YsyKQ-6xVyJ12FXo&s",
+    "url": "http://80.61.63.103:81/cam_1.cgi",
+    "extra": []
+  },
+  {
+    "name": "Nova Era TV",
+    "group": "\ud83c\udde7\ud83c\uddf7 | BRAZIL",
+    "tvg_id": "NovaEraTV.br",
+    "logo": "https://i.imgur.com/IK3F9Uq.png",
+    "url": "http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8",
+    "extra": []
+  },
+  {
+    "name": "DITADURA COREIA",
+    "group": "KOREA",
+    "tvg_id": "",
+    "logo": "https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nknews.png",
+    "url": "https://tv.nknews.org/tvhls/stream.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Metropolitano de Noticia (720p)",
+    "group": "Undefined",
+    "tvg_id": "CanalMetropolitanodeNoticias.br",
+    "logo": "https://i.imgur.com/G0x4xqa.png",
+    "url": "https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV Cidade de Petr\u00f3polis",
+    "group": "Undefined",
+    "tvg_id": "TVCidadedePetropolis.br",
+    "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp",
+    "url": "https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV CULTURA SP HD",
+    "group": "N/A",
+    "tvg_id": "N/A",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE3z-QtWvhdP1Ps_ZKQuYPahyJTKVrJqR1ZvpYC5wOSfKqCbJhtOUmkXmZaI&s",
+    "url": "https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV C\u00c2MARA DOS DEPUTADOS HD",
+    "group": "N/A",
+    "tvg_id": "N/A",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s",
+    "url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV Brasil Central",
+    "group": "CANAIS ABERTOS",
+    "tvg_id": "N/A",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzdi3a9KFm2AYTzbRFRP5usq7gIQaads1CBjH7oMajw3UbyHikRIo5mN89w&s",
+    "url": "https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Rede Meio Norte HD",
+    "group": "CANAIS ABERTOS",
+    "tvg_id": "RedeMeioNorte.br",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU",
+    "url": "https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Band Bel\u00e9m",
+    "group": "CANAIS ABERTOS",
+    "tvg_id": "RBATV.br",
+    "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/df0c35517ab2f2e9e6e63c1808730694.webp",
+    "url": "https://streaming.gruporba.com.br/rba.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Senado Italiano - CAMERA 1",
+    "group": "ITALIA",
+    "tvg_id": "Senato Web TV 1",
+    "logo": "https://webtv.senato.it/application/xmanager/projects/leg18/img/webtv/logo_senatoTV.jpg",
+    "url": "https://senato-live.morescreens.com/SENATO_1_001/1080p/chunklist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Camara dos Deputados - ITALIA",
+    "group": "ITALIA",
+    "tvg_id": "Senato Web TV 1",
+    "logo": "https://www.radioradicale.it/sites/www.radioradicale.it/files/testata-radio-radicale-500-tiny.png",
+    "url": "https://video-ar.radioradicale.it/diretta/camera2/chunklist_w454478514.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Aurora Arte (480p)",
+    "group": "Undefined",
+    "tvg_id": "AuroraArte.it",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYe2mHaNlorhT9A3dhdjHYGaySMvvcMfPc95syF5CuYRNzBowwTREGFNyabw&s",
+    "url": "https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "AMAZON SAT",
+    "group": "N/A",
+    "tvg_id": "N/A",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/24/Amazon_sat_logo_2022.svg/200px-Amazon_sat_logo_2022.svg.png",
+    "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "BR - 277 - Sentido Ponte da Amizade em Foz do Igua\u00e7u / PR",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "N/A",
+    "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",
+    "url": "https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ponte da Amizade - Sentido Brasil em Foz do Igua\u00e7u / PR",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "N/A",
+    "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg",
+    "url": "https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ponte da Amizade - Sentido Paraguai em Foz do Igua\u00e7u / PR",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "N/A",
+    "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png",
+    "url": "https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8",
+    "extra": []
+  },
+  {
+    "name": "BR - 277 - Aduana Ponte da Amizade em Foz do Igua\u00e7u / PR",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "N/A",
+    "logo": "https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-05-5bb3c38fd114b.png",
+    "url": "https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8",
+    "extra": []
+  },
+  {
+    "name": "GOI\u00c2NIA - Morro do Mendanha",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "Undefined",
+    "logo": "https://cdn.zoeflix.com.br/storage/cameras/27a8790f-c496-4e66-aec2-6ad5b4f6f9d8.jpg",
+    "url": "https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "GOI\u00c2NIA - AV 85",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "Undefined",
+    "logo": "https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg",
+    "url": "https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8",
+    "extra": []
+  },
+  {
+    "name": "GOI\u00c2NIA - AV 85",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "Undefined",
+    "logo": "https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg",
+    "url": "https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w1795256914.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Setor Oeste",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "Undefined",
+    "logo": "https://i.imgur.com/7DfRiz6.png",
+    "url": "https://hunq9fz8yk.zoeweb.tv/r9oeste/r9oeste.stream/chunklist_w1793116402.m3u8",
+    "extra": []
+  },
+  {
+    "name": "GOI\u00c2NIA - RUA 9",
+    "group": "Cameras Ao Vivo",
+    "tvg_id": "Undefined",
+    "logo": "https://cdn.zoeflix.com.br/storage/cameras/c77749e7-7661-4f15-afc6-c9e65cf7f769.jpg",
+    "url": "https://5a7d54e35f9d2.streamlock.net/r9oeste/r9oeste.stream/chunklist_w1404527354.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5",
+    "group": "Reality Show's Live",
+    "tvg_id": "Canal5.mx",
+    "logo": "https://i.imgur.com/jJ6v5ea.png",
+    "url": "http://181.78.106.127:9000/play/ca012/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5 - 4",
+    "group": "Reality Show's Live",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/YL1K2C5/Canal-5mx.png",
+    "url": "http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5 - 6",
+    "group": "Reality Show's Live",
+    "tvg_id": "Canal5.mx",
+    "logo": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png",
+    "url": "https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5 - 7",
+    "group": "Reality Show's Live",
+    "tvg_id": "Canal 5",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",
+    "url": "http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5 - 9",
+    "group": "Reality Show's Live",
+    "tvg_id": "Canal5.mx",
+    "logo": "https://i.imgur.com/jJ6v5ea.png",
+    "url": "http://181.78.106.127:9000/play/ca012/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5 - 12",
+    "group": "Reality Show's Live",
+    "tvg_id": "Undefined",
+    "logo": "https://i.ibb.co/YL1K2C5/Canal-5mx.png",
+    "url": "http://alfatv.lat:2082/Jk12/KnhcZNttJawM/314687",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5 - 14",
+    "group": "Reality Show's Live",
+    "tvg_id": "Canal5.mx",
+    "logo": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116152_dark_360w_270h.png",
+    "url": "https://nffthex0kzt.xyz/rk/GjhccbbfddghjdfhhpoljgdsrtggvhgxvzBA/Mbcdfgssghcctsehhgghtdwwexcbnvddw/465.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5 - 15",
+    "group": "Reality Show's Live",
+    "tvg_id": "Canal 5",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Canal_5_Mexico_logo_2014.svg/800px-Canal_5_Mexico_logo_2014.svg.png",
+    "url": "http://00322.xyz:8000/live/saabj84/CNGUPDY6RA/129037.ts",
     "extra": []
   }
 ]
