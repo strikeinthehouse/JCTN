@@ -128,7 +128,6 @@ globoplay_urls = [
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv-2-ribeirao-e-franca-ao-vivo.ghtml",  # EPTV 2ª Edição - Ribeirão e Franca
     "https://g1.globo.com/pe/petrolina-regiao/ao-vivo/ao-vivo-assista-ao-gr2.ghtml",  # GR2 - Petrolina
     "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-sexta-feira-7.ghtml",  # BDAP - Amapá
-    "https://g1.globo.com/ap/ao-vivo/assista-ao-jap2-deste-sabado-10.ghtml",
     "https://g1.globo.com/pr/parana/ao-vivo/acontece-agora-em-curitiba.ghtml",
     "https://globoplay.globo.com/v/1467373/",  # Globoplay - Transmissão ao vivo
     "https://globoplay.globo.com/v/1328766/",  # G1 SERVIÇO
@@ -151,6 +150,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/2923579/",  # G1 AP - Telejornais da Rede Amazônica
     "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Telejornais da Rede Amazônica - Amazonas
     "https://g1.globo.com/am/amazonas/carnaval/2025/ao-vivo/carnaboi-2025-assista-ao-vivo.ghtml",
+    "https://g1.globo.com/ap/ao-vivo/assista-ao-jap2-deste-sabado-10.ghtml",
     "https://globoplay.globo.com/v/2923546/",  # G1 AC - Jornais da Rede Amazônica
     "https://globoplay.globo.com/v/2168377/",  # Telejornais da TV Liberal
     "https://g1.globo.com/rs/rio-grande-do-sul/video/assista-ao-saude-em-dia-6740172-1741626453929.ghtml",
