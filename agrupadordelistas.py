@@ -40,18 +40,17 @@ def generate_iptv_link(youtube_url):
     else:
         return "Erro ao gerar o link IPTV."
 
+# Função para salvar o link gerado no arquivo .m3u
+def save_to_m3u(youtube_url, filename="LISTAYT.m3u"):
+    iptv_link = generate_iptv_link(youtube_url)
+    
+    # Abrir o arquivo no modo append para adicionar novos links sem sobrescrever
+    with open(filename, 'a', encoding='utf-8') as file:
+        file.write(iptv_link + "\n")
+        print(f"Link IPTV para o vídeo {youtube_url} salvo no arquivo {filename}")
+
 # URL do YouTube a ser convertida
 youtube_url = "https://www.youtube.com/watch?v=s32n72LfLz4"
 
-# Gerando o link no formato IPTV
-iptv_link = generate_iptv_link(youtube_url)
-
-# Salvando o link IPTV no arquivo LISTAYT.m3u
-if iptv_link != "Erro ao gerar o link IPTV.":
-    with open("LISTAYT.m3u", "a") as file:
-        file.write(iptv_link)
-    print("Link IPTV adicionado ao arquivo LISTAYT.m3u")
-else:
-    print(iptv_link)
-
-
+# Salvando o link no arquivo .m3u
+save_to_m3u(youtube_url)
