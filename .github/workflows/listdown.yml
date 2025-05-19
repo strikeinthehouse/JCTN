@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/45 * * * *'  # Schedule to run every 30 minutes
+    - cron: '*/30 * * * *'  # Executar a cada 30 minutos
   pull_request:
     branches:
       - main
@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Checkout Repositório
-      uses: actions/checkout@v4  # Updated to use a newer version
+      uses: actions/checkout@v4  # Usando a versão mais recente do checkout
 
     - name: Configurar Git
       run: |
@@ -27,7 +27,7 @@ jobs:
 
     - name: Instalando dependências
       run: |
-        # Install required Python dependencies
+        # Instalando as dependências
         python3 -m pip install --upgrade pip
         python3 -m pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz gdown requests streamlink beautifulsoup4 selenium yt_dlp playwright
 
@@ -35,11 +35,9 @@ jobs:
       run: |
         python3 --version
 
-
     - name: Rodar script agrupadordelistas.py
       run: |
         python3 agrupadordelistas.py
-
 
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
