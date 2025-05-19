@@ -15,6 +15,7 @@ def get_video_url(youtube_url):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         try:
             # Extrair informações do vídeo
+            print("Tentando extrair informações do vídeo...")
             info_dict = ydl.extract_info(youtube_url, download=False)
             video_url = info_dict.get("url", None)  # URL do vídeo
             title = info_dict.get("title", "Unknown Title")  # Título do vídeo
@@ -23,6 +24,7 @@ def get_video_url(youtube_url):
             if video_url is None:
                 raise ValueError("Não foi possível extrair o link do vídeo.")
             
+            print(f"Video URL: {video_url}, Título: {title}, Thumbnail: {thumbnail}")
             return video_url, title, thumbnail
         
         except Exception as e:
