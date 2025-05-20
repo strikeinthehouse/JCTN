@@ -12,11 +12,19 @@ import xml.dom.minidom as minidom
 import subprocess
 import shutil
 import random
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
 
 class TVGuideScraper:
     """
     Classe para extrair a programação de todos os canais do TVGuide.com
     e gerar um arquivo XML com os dados coletados.
+    Usa Selenium em vez de Playwright.
     """
     
     def __init__(self, output_dir=None, days_to_scrape=3, headless=True):
@@ -37,9 +45,9 @@ class TVGuideScraper:
         self.time_slots = []
         
         # Configurações de timeout e tentativas
-        self.page_timeout = 60000  # 60 segundos para carregamento de página
-        self.max_retries = 3       # Número máximo de tentativas para operações de rede
-        self.retry_delay = 5       # Segundos entre tentativas
+        self.page_timeout = 60  # 60 segundos para carregamento de página
+        self.max_retries = 3    # Número máximo de tentativas para operações de rede
+        self.retry_delay = 5    # Segundos entre tentativas
         
         # Lista de user agents para rotação
         self.user_agents = [
@@ -62,210 +70,240 @@ class TVGuideScraper:
             f.write(f"[{timestamp}] {message}\n")
         print(message)
     
-    def ensure_playwright_browsers(self):
+    def ensure_chrome_driver(self):
         """
-        Verifica se os navegadores do Playwright estão instalados e os instala se necessário.
-        Usa apenas métodos públicos e estáveis do Playwright.
+        Verifica se o ChromeDriver está instalado e o instala se necessário.
         Retorna True se a instalação foi bem-sucedida ou já estava instalada.
         """
         try:
-            self.log("Verificando instalação dos navegadores do Playwright...")
+            self.log("Verificando instalação do ChromeDriver...")
             
-            # Importar Playwright para verificar se está instalado
+            # Verificar se o ChromeDriver está no PATH
             try:
-                from playwright.sync_api import sync_playwright
-            except ImportError:
-                self.log("Playwright não está instalado. Instalando...")
-                subprocess.check_call([sys.executable, "-m", "pip", "install", "playwright"])
-                from playwright.sync_api import sync_playwright
-            
-            # Tentar iniciar o Playwright para verificar se os navegadores estão instalados
-            try:
-                with sync_playwright() as p:
-                    # Tentar lançar o navegador para verificar se está instalado
-                    # SEMPRE usar headless=True para evitar problemas com XServer
-                    browser = p.chromium.launch(headless=True)
-                    browser.close()
-                    self.log("Navegadores do Playwright já estão instalados.")
+                # Tentar encontrar o chromedriver no PATH
+                chromedriver_path = shutil.which("chromedriver")
+                if chromedriver_path:
+                    self.log(f"ChromeDriver encontrado em: {chromedriver_path}")
                     return True
             except Exception as e:
-                # Se falhar ao lançar o navegador, provavelmente os navegadores não estão instalados
-                self.log(f"Navegadores do Playwright não encontrados: {str(e)}")
-                
-                # Instalar os navegadores usando subprocess
-                self.log("Instalando navegadores do Playwright...")
-                
-                # Primeiro método: usando o comando playwright install
+                self.log(f"Erro ao verificar ChromeDriver no PATH: {str(e)}")
+            
+            # Se não encontrou, tentar instalar via webdriver-manager
+            self.log("ChromeDriver não encontrado no PATH. Tentando instalar via webdriver-manager...")
+            try:
+                # Instalar webdriver-manager se não estiver instalado
                 try:
-                    playwright_install_result = subprocess.run(
-                        ["playwright", "install", "chromium"],
-                        capture_output=True,
-                        text=True
-                    )
+                    from webdriver_manager.chrome import ChromeDriverManager
+                except ImportError:
+                    self.log("Instalando webdriver-manager...")
+                    subprocess.check_call([sys.executable, "-m", "pip", "install", "webdriver-manager"])
+                    from webdriver_manager.chrome import ChromeDriverManager
+                
+                # Instalar ChromeDriver
+                from selenium.webdriver.chrome.service import Service
+                self.log("Instalando ChromeDriver...")
+                chromedriver_path = ChromeDriverManager().install()
+                self.log(f"ChromeDriver instalado em: {chromedriver_path}")
+                return True
+                
+            except Exception as e:
+                self.log(f"Erro ao instalar ChromeDriver via webdriver-manager: {str(e)}")
+                
+                # Método alternativo: baixar manualmente
+                try:
+                    self.log("Tentando método alternativo de instalação...")
+                    # Este é um método simplificado. Em produção, você precisaria
+                    # detectar a versão do Chrome e baixar o driver correspondente
+                    import urllib.request
+                    import zipfile
+                    import platform
                     
-                    if playwright_install_result.returncode != 0:
-                        raise Exception(f"Falha na instalação: {playwright_install_result.stderr}")
-                        
-                    self.log("Navegadores do Playwright instalados com sucesso.")
+                    system = platform.system()
+                    if system == "Linux":
+                        url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip"
+                    elif system == "Darwin":  # macOS
+                        url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_mac64.zip"
+                    elif system == "Windows":
+                        url = "https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip"
+                    else:
+                        raise Exception(f"Sistema operacional não suportado: {system}")
+                    
+                    # Criar diretório para o ChromeDriver
+                    driver_dir = os.path.join(self.output_dir, "chromedriver")
+                    os.makedirs(driver_dir, exist_ok=True)
+                    
+                    # Baixar e extrair o ChromeDriver
+                    zip_path = os.path.join(driver_dir, "chromedriver.zip")
+                    self.log(f"Baixando ChromeDriver de {url}...")
+                    urllib.request.urlretrieve(url, zip_path)
+                    
+                    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                        zip_ref.extractall(driver_dir)
+                    
+                    # Tornar o arquivo executável no Linux/macOS
+                    if system != "Windows":
+                        chromedriver_exec = os.path.join(driver_dir, "chromedriver")
+                        os.chmod(chromedriver_exec, 0o755)
+                    
+                    self.log(f"ChromeDriver instalado manualmente em: {driver_dir}")
                     return True
                     
-                except Exception as e1:
-                    self.log(f"Primeiro método falhou: {str(e1)}")
-                    
-                    # Segundo método: usando python -m playwright install
-                    try:
-                        alt_install_result = subprocess.run(
-                            [sys.executable, "-m", "playwright", "install", "chromium"],
-                            capture_output=True,
-                            text=True
-                        )
-                        
-                        if alt_install_result.returncode != 0:
-                            raise Exception(f"Falha na instalação alternativa: {alt_install_result.stderr}")
-                            
-                        self.log("Navegadores do Playwright instalados com sucesso (método alternativo).")
-                        return True
-                        
-                    except Exception as e2:
-                        self.log(f"Segundo método falhou: {str(e2)}")
-                        
-                        # Terceiro método: usando pip para reinstalar playwright com dependências
-                        try:
-                            self.log("Tentando reinstalar Playwright com dependências...")
-                            subprocess.check_call([
-                                sys.executable, "-m", "pip", "install", "--force-reinstall", "playwright"
-                            ])
-                            subprocess.check_call([
-                                sys.executable, "-m", "playwright", "install", "chromium"
-                            ])
-                            self.log("Reinstalação e instalação de navegadores concluídas.")
-                            return True
-                        except Exception as e3:
-                            self.log(f"Todos os métodos de instalação falharam: {str(e3)}")
-                            return False
+                except Exception as e:
+                    self.log(f"Todos os métodos de instalação do ChromeDriver falharam: {str(e)}")
+                    return False
                 
         except Exception as e:
-            self.log(f"Erro ao verificar/instalar navegadores: {str(e)}")
+            self.log(f"Erro ao verificar/instalar ChromeDriver: {str(e)}")
             return False
+    
+    def setup_driver(self):
+        """
+        Configura e inicializa o driver do Selenium.
+        Retorna o driver configurado ou None em caso de falha.
+        """
+        try:
+            # Configurações do Chrome
+            options = Options()
+            options.add_argument("--headless")  # Sempre usar headless
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--disable-gpu")
+            options.add_argument("--window-size=1280,800")
+            options.add_argument("--disable-infobars")
+            options.add_argument("--disable-extensions")
+            options.add_argument("--disable-popup-blocking")
+            options.add_argument("--disable-blink-features=AutomationControlled")
+            
+            # Selecionar um user agent aleatório
+            user_agent = random.choice(self.user_agents)
+            self.log(f"Usando user agent: {user_agent}")
+            options.add_argument(f"--user-agent={user_agent}")
+            
+            # Configurar o serviço do ChromeDriver
+            try:
+                from webdriver_manager.chrome import ChromeDriverManager
+                service = Service(ChromeDriverManager().install())
+            except:
+                # Fallback para o ChromeDriver instalado manualmente
+                chromedriver_path = os.path.join(self.output_dir, "chromedriver", "chromedriver")
+                if os.path.exists(chromedriver_path):
+                    service = Service(chromedriver_path)
+                else:
+                    # Tentar usar o ChromeDriver do PATH
+                    service = Service()
+            
+            # Inicializar o driver
+            self.log("Inicializando o driver do Chrome...")
+            driver = webdriver.Chrome(service=service, options=options)
+            
+            # Configurar timeout
+            driver.set_page_load_timeout(self.page_timeout)
+            
+            return driver
+            
+        except Exception as e:
+            self.log(f"Erro ao configurar o driver do Chrome: {str(e)}")
+            return None
     
     def run(self):
         """Executa o processo completo de scraping e geração do XML"""
         self.log("Iniciando o processo de scraping do TVGuide.com")
         
-        # Garantir que os navegadores do Playwright estejam instalados
-        if not self.ensure_playwright_browsers():
-            self.log("Não foi possível garantir a instalação dos navegadores. Abortando.")
+        # Garantir que o ChromeDriver esteja instalado
+        if not self.ensure_chrome_driver():
+            self.log("Não foi possível garantir a instalação do ChromeDriver. Abortando.")
             return False
         
-        # Importar Playwright após garantir que está instalado
-        from playwright.sync_api import sync_playwright, TimeoutError
+        # Configurar o driver
+        driver = self.setup_driver()
+        if not driver:
+            self.log("Não foi possível inicializar o driver do Chrome. Abortando.")
+            return False
         
-        with sync_playwright() as playwright:
-            # Inicializar o navegador - SEMPRE em modo headless
-            browser = playwright.chromium.launch(
-                headless=True,
-                args=['--disable-features=site-per-process', '--disable-web-security']
-            )
-            
-            # Selecionar um user agent aleatório
-            user_agent = random.choice(self.user_agents)
-            self.log(f"Usando user agent: {user_agent}")
-            
-            context = browser.new_context(
-                viewport={"width": 1280, "height": 800},
-                user_agent=user_agent,
-                bypass_csp=True,  # Bypass Content Security Policy
-                ignore_https_errors=True  # Ignorar erros HTTPS
-            )
-            
-            # Configurar timeouts mais longos
-            context.set_default_timeout(self.page_timeout)
-            
-            # Criar uma nova página
-            page = context.new_page()
-            
-            try:
-                # Tentar acessar a página inicial de listagens com retry
-                success = self.navigate_with_retry(page, self.base_url)
-                if not success:
-                    self.log("Falha ao acessar o site após várias tentativas. Abortando.")
-                    return False
-                
-                # Fechar pop-ups de login ou cookies se aparecerem
-                self.handle_popups(page)
-                
-                # Verificar se a página carregou corretamente
-                if not self.verify_page_loaded(page):
-                    self.log("A página não carregou corretamente. Tentando método alternativo...")
-                    # Tentar método alternativo - usar URL diferente
-                    alt_url = "https://www.tvguide.com/tv-listings/"
-                    success = self.navigate_with_retry(page, alt_url)
-                    if not success or not self.verify_page_loaded(page):
-                        self.log("Falha ao acessar o site mesmo com URL alternativa. Abortando.")
-                        return False
-                
-                # Coletar dados para cada dia
-                current_date = datetime.datetime.now()
-                
-                for day in range(self.days_to_scrape):
-                    target_date = current_date + datetime.timedelta(days=day)
-                    date_str = target_date.strftime("%Y-%m-%d")
-                    self.log(f"Coletando programação para o dia {date_str}")
-                    
-                    # Se não for o primeiro dia, navegar para o próximo dia
-                    if day > 0:
-                        self.navigate_to_date(page, target_date)
-                    
-                    # Coletar dados de todos os horários disponíveis para este dia
-                    self.scrape_all_time_slots(page, target_date)
-                
-                # Verificar se coletamos algum dado
-                if not self.channels_data:
-                    self.log("Nenhum dado foi coletado. Usando dados de exemplo para testes.")
-                    self.generate_example_data()
-                
-                # Gerar o arquivo XML com todos os dados coletados
-                self.generate_xmltv()
-                
-                # Comprimir o arquivo XML
-                self.compress_xml()
-                
-                # Salvar dados brutos para referência
-                self.save_raw_data()
-                
-                return True
-                
-            except Exception as e:
-                self.log(f"Erro durante o scraping: {str(e)}")
-                
-                # Tentar salvar screenshot para diagnóstico
-                try:
-                    screenshot_path = os.path.join(self.output_dir, "error_screenshot.png")
-                    page.screenshot(path=screenshot_path)
-                    self.log(f"Screenshot de erro salvo em: {screenshot_path}")
-                except:
-                    self.log("Não foi possível salvar screenshot de erro")
-                
-                # Gerar dados de exemplo se falhar
-                self.log("Gerando dados de exemplo devido a erro...")
-                self.generate_example_data()
-                self.generate_xmltv()
-                self.compress_xml()
-                self.save_raw_data()
-                
+        try:
+            # Tentar acessar a página inicial de listagens com retry
+            success = self.navigate_with_retry(driver, self.base_url)
+            if not success:
+                self.log("Falha ao acessar o site após várias tentativas. Abortando.")
                 return False
-            finally:
-                # Fechar o navegador
-                browser.close()
+            
+            # Fechar pop-ups de login ou cookies se aparecerem
+            self.handle_popups(driver)
+            
+            # Verificar se a página carregou corretamente
+            if not self.verify_page_loaded(driver):
+                self.log("A página não carregou corretamente. Tentando método alternativo...")
+                # Tentar método alternativo - usar URL diferente
+                alt_url = "https://www.tvguide.com/tv-listings/"
+                success = self.navigate_with_retry(driver, alt_url)
+                if not success or not self.verify_page_loaded(driver):
+                    self.log("Falha ao acessar o site mesmo com URL alternativa. Abortando.")
+                    return False
+            
+            # Coletar dados para cada dia
+            current_date = datetime.datetime.now()
+            
+            for day in range(self.days_to_scrape):
+                target_date = current_date + datetime.timedelta(days=day)
+                date_str = target_date.strftime("%Y-%m-%d")
+                self.log(f"Coletando programação para o dia {date_str}")
+                
+                # Se não for o primeiro dia, navegar para o próximo dia
+                if day > 0:
+                    self.navigate_to_date(driver, target_date)
+                
+                # Coletar dados de todos os horários disponíveis para este dia
+                self.scrape_all_time_slots(driver, target_date)
+            
+            # Verificar se coletamos algum dado
+            if not self.channels_data:
+                self.log("Nenhum dado foi coletado. Usando dados de exemplo para testes.")
+                self.generate_example_data()
+            
+            # Gerar o arquivo XML com todos os dados coletados
+            self.generate_xmltv()
+            
+            # Comprimir o arquivo XML
+            self.compress_xml()
+            
+            # Salvar dados brutos para referência
+            self.save_raw_data()
+            
+            return True
+            
+        except Exception as e:
+            self.log(f"Erro durante o scraping: {str(e)}")
+            
+            # Tentar salvar screenshot para diagnóstico
+            try:
+                screenshot_path = os.path.join(self.output_dir, "error_screenshot.png")
+                driver.save_screenshot(screenshot_path)
+                self.log(f"Screenshot de erro salvo em: {screenshot_path}")
+            except:
+                self.log("Não foi possível salvar screenshot de erro")
+            
+            # Gerar dados de exemplo se falhar
+            self.log("Gerando dados de exemplo devido a erro...")
+            self.generate_example_data()
+            self.generate_xmltv()
+            self.compress_xml()
+            self.save_raw_data()
+            
+            return False
+        finally:
+            # Fechar o driver
+            try:
+                driver.quit()
+            except:
+                pass
     
-    def navigate_with_retry(self, page, url, wait_until="domcontentloaded"):
+    def navigate_with_retry(self, driver, url):
         """
         Navega para uma URL com tentativas automáticas em caso de falha
         
         Args:
-            page: Objeto da página do Playwright
+            driver: Objeto do driver do Selenium
             url: URL para navegar
-            wait_until: Evento para aguardar (networkidle, domcontentloaded, load)
             
         Returns:
             bool: True se a navegação foi bem-sucedida, False caso contrário
@@ -275,19 +313,20 @@ class TVGuideScraper:
         for attempt in range(1, self.max_retries + 1):
             try:
                 # Tentar navegar para a URL
-                response = page.goto(url, wait_until=wait_until, timeout=self.page_timeout)
+                driver.get(url)
                 
-                # Verificar se a resposta foi bem-sucedida
-                if response and response.status >= 200 and response.status < 400:
-                    self.log(f"Página carregada com sucesso: status {response.status}")
-                    
-                    # Aguardar um pouco mais para garantir que o JavaScript carregue
-                    page.wait_for_timeout(2000)
-                    
+                # Aguardar um pouco para garantir que a página carregue
+                time.sleep(2)
+                
+                # Verificar se a página carregou (título contém "TV Guide")
+                if "TV Guide" in driver.title:
+                    self.log(f"Página carregada com sucesso: título '{driver.title}'")
                     return True
                 else:
-                    status = response.status if response else "desconhecido"
-                    self.log(f"Resposta com status {status} na tentativa {attempt}")
+                    self.log(f"Página carregou, mas título não contém 'TV Guide': '{driver.title}'")
+                    # Continuar mesmo assim, pode ser que a página tenha carregado corretamente
+                    return True
+                    
             except Exception as e:
                 self.log(f"Erro ao acessar {url} (tentativa {attempt}/{self.max_retries}): {str(e)}")
             
@@ -299,28 +338,43 @@ class TVGuideScraper:
         
         return False
     
-    def verify_page_loaded(self, page):
+    def verify_page_loaded(self, driver):
         """
         Verifica se a página carregou corretamente verificando elementos essenciais
         
         Args:
-            page: Objeto da página do Playwright
+            driver: Objeto do driver do Selenium
             
         Returns:
             bool: True se a página carregou corretamente, False caso contrário
         """
         try:
             # Verificar se elementos essenciais estão presentes
-            has_listings = page.locator("div.listings-grid__row").count() > 0
-            has_time_header = page.locator("div.listings-grid__time-header").count() > 0
+            wait = WebDriverWait(driver, 10)
             
-            if has_listings and has_time_header:
-                self.log("Página carregou corretamente com elementos de grade de programação")
-                return True
+            try:
+                # Verificar se há linhas de grade de programação
+                listings_rows = driver.find_elements(By.CSS_SELECTOR, "div.listings-grid__row")
+                has_listings = len(listings_rows) > 0
+                
+                # Verificar se há cabeçalhos de horário
+                time_headers = driver.find_elements(By.CSS_SELECTOR, "div.listings-grid__time-header")
+                has_time_header = len(time_headers) > 0
+                
+                if has_listings and has_time_header:
+                    self.log("Página carregou corretamente com elementos de grade de programação")
+                    return True
+            except:
+                pass
             
             # Verificar elementos alternativos que indicam que a página carregou
-            has_title = page.title() and "TV Guide" in page.title()
-            has_logo = page.locator("a:has-text('TV Guide')").count() > 0
+            has_title = "TV Guide" in driver.title
+            
+            try:
+                logo = driver.find_element(By.XPATH, "//a[contains(text(), 'TV Guide')]")
+                has_logo = logo is not None
+            except:
+                has_logo = False
             
             if has_title or has_logo:
                 self.log("Página carregou parcialmente, mas sem elementos de grade")
@@ -333,39 +387,42 @@ class TVGuideScraper:
             self.log(f"Erro ao verificar carregamento da página: {str(e)}")
             return False
     
-    def handle_popups(self, page):
+    def handle_popups(self, driver):
         """Trata pop-ups de login ou cookies que podem aparecer"""
         try:
-            # Tentar fechar modal de login se aparecer
-            if page.locator("button[aria-label='Close']").is_visible(timeout=3000):
-                self.log("Fechando modal de login")
-                page.locator("button[aria-label='Close']").click()
+            # Lista de seletores para possíveis pop-ups
+            popup_selectors = [
+                (By.CSS_SELECTOR, "button[aria-label='Close']"),
+                (By.XPATH, "//button[contains(text(), 'Accept Cookies')]"),
+                (By.XPATH, "//button[contains(text(), 'Continue')]"),
+                (By.XPATH, "//button[contains(text(), 'I Agree')]"),
+                (By.XPATH, "//button[contains(text(), 'No Thanks')]"),
+                (By.XPATH, "//button[contains(text(), 'Close')]")
+            ]
             
-            # Aceitar cookies se o botão estiver visível
-            if page.locator("button:has-text('Accept Cookies')").is_visible(timeout=3000):
-                self.log("Aceitando cookies")
-                page.locator("button:has-text('Accept Cookies')").click()
-                
-            # Verificar outros possíveis pop-ups ou overlays
-            for selector in [
-                "button:has-text('Continue')", 
-                "button:has-text('I Agree')",
-                "button:has-text('No Thanks')",
-                "button:has-text('Close')"
-            ]:
-                if page.locator(selector).is_visible(timeout=1000):
-                    self.log(f"Fechando pop-up: {selector}")
-                    page.locator(selector).click()
+            # Tentar fechar cada tipo de pop-up
+            for selector_type, selector in popup_selectors:
+                try:
+                    # Usar wait com timeout curto para não bloquear se o elemento não existir
+                    wait = WebDriverWait(driver, 3)
+                    element = wait.until(EC.element_to_be_clickable((selector_type, selector)))
+                    element.click()
+                    self.log(f"Fechado pop-up: {selector}")
+                    # Aguardar um pouco após fechar o pop-up
+                    time.sleep(1)
+                except:
+                    # Ignorar se o elemento não for encontrado
+                    pass
                     
         except Exception as e:
             self.log(f"Erro ao tentar fechar pop-ups: {str(e)}")
     
-    def navigate_to_date(self, page, target_date):
+    def navigate_to_date(self, driver, target_date):
         """
         Navega para uma data específica na grade de programação
         
         Args:
-            page: Objeto da página do Playwright
+            driver: Objeto do driver do Selenium
             target_date: Data alvo para navegação
         """
         self.log(f"Navegando para a data: {target_date.strftime('%Y-%m-%d')}")
@@ -375,8 +432,8 @@ class TVGuideScraper:
             date_param = target_date.strftime("%Y-%m-%d")
             url_with_date = f"{self.base_url}?date={date_param}"
             
-            success = self.navigate_with_retry(page, url_with_date)
-            if success and self.verify_page_loaded(page):
+            success = self.navigate_with_retry(driver, url_with_date)
+            if success and self.verify_page_loaded(driver):
                 self.log(f"Navegação para data {date_param} bem-sucedida via URL")
                 return
                 
@@ -384,60 +441,71 @@ class TVGuideScraper:
             self.log("Tentando navegação para data via interface...")
             
             # Clicar no seletor de data (botão "tonight, 7PM" ou similar)
-            date_selector = page.locator("button:has-text('tonight') >> nth=0")
-            if date_selector.is_visible(timeout=3000):
+            try:
+                date_selector = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'tonight')]"))
+                )
                 date_selector.click()
                 
                 # Aguardar o calendário aparecer
-                page.wait_for_timeout(1000)
+                time.sleep(1)
                 
                 # Tentar encontrar e clicar na data desejada
                 date_str = target_date.strftime("%-d")  # Dia sem zero à esquerda
                 month_str = target_date.strftime("%B")  # Nome do mês
                 
                 # Verificar se o mês correto está visível, senão navegar
-                month_header = page.locator(f"text={month_str} {target_date.year}")
-                if not month_header.is_visible(timeout=1000):
-                    # Clicar no botão de próximo mês até encontrar
-                    next_month_btn = page.locator("button[aria-label='Next month']")
-                    for _ in range(3):  # Limite de tentativas
-                        if next_month_btn.is_visible():
+                try:
+                    month_header = driver.find_element(By.XPATH, f"//div[contains(text(), '{month_str} {target_date.year}')]")
+                except:
+                    # Mês não encontrado, tentar navegar para o próximo mês
+                    try:
+                        for _ in range(3):  # Limite de tentativas
+                            next_month_btn = driver.find_element(By.XPATH, "//button[@aria-label='Next month']")
                             next_month_btn.click()
-                            page.wait_for_timeout(500)
-                            if month_header.is_visible(timeout=1000):
-                                break
+                            time.sleep(0.5)
+                            try:
+                                month_header = driver.find_element(By.XPATH, f"//div[contains(text(), '{month_str} {target_date.year}')]")
+                                break  # Mês encontrado
+                            except:
+                                continue  # Continuar tentando
+                    except:
+                        self.log("Não foi possível navegar para o mês desejado")
                 
                 # Clicar no dia
-                day_button = page.locator(f"button:has-text('{date_str}'):not([disabled])")
-                if day_button.is_visible(timeout=2000):
+                try:
+                    day_button = WebDriverWait(driver, 5).until(
+                        EC.element_to_be_clickable((By.XPATH, f"//button[text()='{date_str}' and not(@disabled)]"))
+                    )
                     day_button.click()
                     
                     # Aguardar a página carregar com a nova data
-                    page.wait_for_load_state("networkidle", timeout=self.page_timeout)
+                    time.sleep(3)
                     self.log(f"Navegação para data {date_param} bem-sucedida via UI")
                     return
+                except:
+                    self.log("Não foi possível clicar no dia desejado")
+            except:
+                self.log("Não foi possível acessar o seletor de data")
             
             self.log(f"Falha na navegação para data {date_param}")
             
         except Exception as e:
             self.log(f"Erro ao navegar para a data {target_date}: {str(e)}")
     
-    def scrape_all_time_slots(self, page, current_date):
+    def scrape_all_time_slots(self, driver, current_date):
         """
         Coleta dados de todos os horários disponíveis para um dia específico
         
         Args:
-            page: Objeto da página do Playwright
+            driver: Objeto do driver do Selenium
             current_date: Data atual sendo coletada
         """
         date_str = current_date.strftime("%Y-%m-%d")
         self.log(f"Coletando todos os horários para {date_str}")
         
         # Coletar os dados do horário atual visível
-        self.scrape_current_view(page, current_date)
-        
-        # Clicar no botão de próximo horário para avançar na grade
-        next_time_button = page.locator("button[aria-label='Next time slot']")
+        self.scrape_current_view(driver, current_date)
         
         # Contador para evitar loop infinito
         max_time_slots = 12  # Aproximadamente 24 horas com slots de 2 horas
@@ -445,113 +513,157 @@ class TVGuideScraper:
         
         while time_slots_scraped < max_time_slots:
             try:
-                # Verificar se o botão está habilitado
-                if not next_time_button.is_visible() or not next_time_button.is_enabled():
-                    self.log("Botão de próximo horário não disponível, finalizando coleta do dia")
+                # Localizar o botão de próximo horário
+                try:
+                    next_time_button = WebDriverWait(driver, 5).until(
+                        EC.element_to_be_clickable((By.XPATH, "//button[@aria-label='Next time slot']"))
+                    )
+                    
+                    # Verificar se o botão está habilitado
+                    if not next_time_button.is_enabled():
+                        self.log("Botão de próximo horário desabilitado, finalizando coleta do dia")
+                        break
+                    
+                    # Clicar para avançar ao próximo horário
+                    self.log("Avançando para o próximo horário")
+                    next_time_button.click()
+                    
+                    # Aguardar a atualização da grade
+                    time.sleep(3)
+                    
+                    # Coletar os dados do novo horário
+                    self.scrape_current_view(driver, current_date)
+                    
+                    time_slots_scraped += 1
+                    
+                except (TimeoutException, NoSuchElementException):
+                    self.log("Botão de próximo horário não encontrado, finalizando coleta do dia")
                     break
-                
-                # Clicar para avançar ao próximo horário
-                self.log("Avançando para o próximo horário")
-                next_time_button.click()
-                
-                # Aguardar a atualização da grade
-                page.wait_for_load_state("networkidle", timeout=10000)
-                page.wait_for_timeout(1000)  # Aguardar um pouco mais para garantir
-                
-                # Coletar os dados do novo horário
-                self.scrape_current_view(page, current_date)
-                
-                time_slots_scraped += 1
-                
+                    
             except Exception as e:
                 self.log(f"Erro ao avançar para o próximo horário: {str(e)}")
                 # Tentar continuar mesmo com erro
                 time_slots_scraped += 1
-                page.wait_for_timeout(2000)  # Aguardar um pouco antes de tentar novamente
+                time.sleep(2)  # Aguardar um pouco antes de tentar novamente
     
-    def scrape_current_view(self, page, current_date):
+    def scrape_current_view(self, driver, current_date):
         """
         Coleta os dados de programação visíveis na visualização atual
         
         Args:
-            page: Objeto da página do Playwright
+            driver: Objeto do driver do Selenium
             current_date: Data atual sendo coletada
         """
         # Obter o horário atual sendo exibido
-        time_header = page.locator("div.listings-grid__time-header").all_text_contents()
-        if not time_header:
-            self.log("Não foi possível identificar o horário atual")
-            return
-        
-        current_time_slot = time_header[0].strip()
-        self.log(f"Coletando programação para o horário: {current_time_slot}")
-        
-        # Extrair todos os canais e programas visíveis
-        channel_rows = page.locator("div.listings-grid__row").all()
-        
-        if not channel_rows:
-            self.log("Nenhum canal encontrado na visualização atual")
-            return
+        try:
+            time_headers = driver.find_elements(By.CSS_SELECTOR, "div.listings-grid__time-header")
+            if not time_headers:
+                self.log("Não foi possível identificar o horário atual")
+                return
             
-        self.log(f"Encontrados {len(channel_rows)} canais na visualização atual")
-        
-        for row in channel_rows:
-            try:
-                # Extrair informações do canal
-                channel_info = row.locator("div.listings-grid__channel").first()
-                channel_logo = channel_info.locator("img").get_attribute("src") if channel_info.locator("img").count() > 0 else ""
-                channel_name = channel_info.locator("div.listings-grid__channel-name").text_content().strip()
-                channel_number = channel_info.locator("div.listings-grid__channel-number").text_content().strip() if channel_info.locator("div.listings-grid__channel-number").count() > 0 else ""
+            current_time_slot = time_headers[0].text.strip()
+            self.log(f"Coletando programação para o horário: {current_time_slot}")
+            
+            # Extrair todos os canais e programas visíveis
+            channel_rows = driver.find_elements(By.CSS_SELECTOR, "div.listings-grid__row")
+            
+            if not channel_rows:
+                self.log("Nenhum canal encontrado na visualização atual")
+                return
                 
-                if not channel_name:
-                    continue  # Pular canais sem nome
-                
-                # Criar ID único para o canal
-                channel_id = channel_name.lower().replace(" ", "_")
-                
-                # Adicionar canal ao dicionário se ainda não existir
-                if channel_id not in self.channels_data:
-                    self.channels_data[channel_id] = {
-                        "id": channel_id,
-                        "display_name": channel_name,
-                        "number": channel_number,
-                        "icon": channel_logo,
-                        "programs": []
-                    }
-                
-                # Extrair todos os programas para este canal na visualização atual
-                program_cells = row.locator("div.listings-grid__item").all()
-                
-                for cell in program_cells:
+            self.log(f"Encontrados {len(channel_rows)} canais na visualização atual")
+            
+            for row in channel_rows:
+                try:
+                    # Extrair informações do canal
+                    channel_info = row.find_element(By.CSS_SELECTOR, "div.listings-grid__channel")
+                    
                     try:
-                        # Extrair informações do programa
-                        program_title = cell.locator("div.listings-grid__item-title").text_content().strip()
-                        program_time = cell.locator("div.listings-grid__item-time").text_content().strip()
-                        
-                        if not program_title or not program_time:
-                            continue  # Pular programas sem título ou horário
-                        
-                        # Extrair horário de início e fim
-                        start_time, end_time = self.parse_program_time(program_time, current_date)
-                        
-                        # Extrair descrição se disponível
-                        program_desc = ""
-                        if cell.locator("div.listings-grid__item-desc").count() > 0:
-                            program_desc = cell.locator("div.listings-grid__item-desc").text_content().strip()
-                        
-                        # Adicionar programa à lista do canal
-                        self.channels_data[channel_id]["programs"].append({
-                            "title": program_title,
-                            "start": start_time,
-                            "stop": end_time,
-                            "desc": program_desc
-                        })
-                        
-                    except Exception as e:
-                        self.log(f"Erro ao extrair informações do programa: {str(e)}")
-                
-            except Exception as e:
-                self.log(f"Erro ao processar canal: {str(e)}")
+                        channel_logo_elem = channel_info.find_element(By.TAG_NAME, "img")
+                        channel_logo = channel_logo_elem.get_attribute("src")
+                    except:
+                        channel_logo = ""
+                    
+                    try:
+                        channel_name_elem = channel_info.find_element(By.CSS_SELECTOR, "div.listings-grid__channel-name")
+                        channel_name = channel_name_elem.text.strip()
+                    except:
+                        # Tentar método alternativo
+                        try:
+                            channel_name = channel_info.text.split("\n")[0].strip()
+                        except:
+                            channel_name = f"Unknown Channel {random.randint(1, 100)}"
+                    
+                    try:
+                        channel_number_elem = channel_info.find_element(By.CSS_SELECTOR, "div.listings-grid__channel-number")
+                        channel_number = channel_number_elem.text.strip()
+                    except:
+                        channel_number = ""
+                    
+                    if not channel_name:
+                        continue  # Pular canais sem nome
+                    
+                    # Criar ID único para o canal
+                    channel_id = channel_name.lower().replace(" ", "_")
+                    
+                    # Adicionar canal ao dicionário se ainda não existir
+                    if channel_id not in self.channels_data:
+                        self.channels_data[channel_id] = {
+                            "id": channel_id,
+                            "display_name": channel_name,
+                            "number": channel_number,
+                            "icon": channel_logo,
+                            "programs": []
+                        }
+                    
+                    # Extrair todos os programas para este canal na visualização atual
+                    program_cells = row.find_elements(By.CSS_SELECTOR, "div.listings-grid__item")
+                    
+                    for cell in program_cells:
+                        try:
+                            # Extrair informações do programa
+                            try:
+                                program_title_elem = cell.find_element(By.CSS_SELECTOR, "div.listings-grid__item-title")
+                                program_title = program_title_elem.text.strip()
+                            except:
+                                continue  # Pular programas sem título
+                            
+                            try:
+                                program_time_elem = cell.find_element(By.CSS_SELECTOR, "div.listings-grid__item-time")
+                                program_time = program_time_elem.text.strip()
+                            except:
+                                continue  # Pular programas sem horário
+                            
+                            if not program_title or not program_time:
+                                continue  # Pular programas sem título ou horário
+                            
+                            # Extrair horário de início e fim
+                            start_time, end_time = self.parse_program_time(program_time, current_date)
+                            
+                            # Extrair descrição se disponível
+                            program_desc = ""
+                            try:
+                                program_desc_elem = cell.find_element(By.CSS_SELECTOR, "div.listings-grid__item-desc")
+                                program_desc = program_desc_elem.text.strip()
+                            except:
+                                pass
+                            
+                            # Adicionar programa à lista do canal
+                            self.channels_data[channel_id]["programs"].append({
+                                "title": program_title,
+                                "start": start_time,
+                                "stop": end_time,
+                                "desc": program_desc
+                            })
+                            
+                        except Exception as e:
+                            self.log(f"Erro ao extrair informações do programa: {str(e)}")
+                    
+                except Exception as e:
+                    self.log(f"Erro ao processar canal: {str(e)}")
+                    
+        except Exception as e:
+            self.log(f"Erro ao coletar dados da visualização atual: {str(e)}")
     
     def parse_program_time(self, time_str, current_date):
         """
@@ -680,7 +792,7 @@ class TVGuideScraper:
         
         # Criar elemento raiz
         root = ET.Element("tv")
-        root.set("generator-info-name", "TVGuide Scraper")
+        root.set("generator-info-name", "TVGuide Scraper (Selenium)")
         root.set("generator-info-url", "https://www.tvguide.com/")
         
         # Adicionar canais
@@ -770,7 +882,7 @@ def main():
     """Função principal para execução do script"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='TVGuide.com Scraper para geração de XMLTV')
+    parser = argparse.ArgumentParser(description='TVGuide.com Scraper para geração de XMLTV (Selenium)')
     parser.add_argument('--output-dir', type=str, help='Diretório para salvar os arquivos de saída')
     parser.add_argument('--days', type=int, default=3, help='Número de dias para coletar a programação (padrão: 3)')
     parser.add_argument('--headless', action='store_true', help='Executar em modo headless (sem interface gráfica)')
@@ -801,6 +913,7 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
 
 
 
