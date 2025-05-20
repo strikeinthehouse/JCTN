@@ -9,7 +9,8 @@ import datetime
 import lzma
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
-from playwright.sync_api import sync_playwright, TimeoutError
+import subprocess
+import shutil
 
 class TVGuideScraper:
     """
@@ -46,9 +47,86 @@ class TVGuideScraper:
             f.write(f"[{timestamp}] {message}\n")
         print(message)
     
+    def ensure_playwright_browsers(self):
+        """
+        Verifica se os navegadores do Playwright estão instalados e os instala se necessário.
+        Retorna True se a instalação foi bem-sucedida ou já estava instalada.
+        """
+        try:
+            self.log("Verificando instalação dos navegadores do Playwright...")
+            
+            # Importar Playwright para verificar se está instalado
+            try:
+                from playwright.sync_api import sync_playwright
+            except ImportError:
+                self.log("Playwright não está instalado. Instalando...")
+                subprocess.check_call([sys.executable, "-m", "pip", "install", "playwright"])
+                from playwright.sync_api import sync_playwright
+            
+            # Verificar se o executável do Chromium existe
+            from playwright._impl._path_utils import get_browser_directory
+            try:
+                browser_path = get_browser_directory()
+                chromium_path = os.path.join(browser_path, "chromium-*")
+                import glob
+                chromium_dirs = glob.glob(chromium_path)
+                
+                if not chromium_dirs:
+                    raise FileNotFoundError("Navegadores do Playwright não encontrados")
+                
+                # Verificar se o executável existe
+                for chromium_dir in chromium_dirs:
+                    if os.path.exists(os.path.join(chromium_dir, "chrome-linux", "chrome")) or \
+                       os.path.exists(os.path.join(chromium_dir, "chrome-win", "chrome.exe")) or \
+                       os.path.exists(os.path.join(chromium_dir, "chrome-mac", "Chromium.app")):
+                        self.log("Navegadores do Playwright já estão instalados.")
+                        return True
+                
+                # Se chegou aqui, os diretórios existem mas os executáveis não
+                raise FileNotFoundError("Executáveis dos navegadores não encontrados")
+                
+            except (ImportError, FileNotFoundError):
+                # Instalar os navegadores
+                self.log("Instalando navegadores do Playwright...")
+                playwright_install_result = subprocess.run(
+                    ["playwright", "install", "chromium"],
+                    capture_output=True,
+                    text=True
+                )
+                
+                if playwright_install_result.returncode != 0:
+                    self.log(f"Erro ao instalar navegadores: {playwright_install_result.stderr}")
+                    
+                    # Tentar método alternativo
+                    self.log("Tentando método alternativo de instalação...")
+                    alt_install_result = subprocess.run(
+                        [sys.executable, "-m", "playwright", "install", "chromium"],
+                        capture_output=True,
+                        text=True
+                    )
+                    
+                    if alt_install_result.returncode != 0:
+                        self.log(f"Erro no método alternativo: {alt_install_result.stderr}")
+                        return False
+                
+                self.log("Navegadores do Playwright instalados com sucesso.")
+                return True
+                
+        except Exception as e:
+            self.log(f"Erro ao verificar/instalar navegadores: {str(e)}")
+            return False
+    
     def run(self):
         """Executa o processo completo de scraping e geração do XML"""
         self.log("Iniciando o processo de scraping do TVGuide.com")
+        
+        # Garantir que os navegadores do Playwright estejam instalados
+        if not self.ensure_playwright_browsers():
+            self.log("Não foi possível garantir a instalação dos navegadores. Abortando.")
+            return False
+        
+        # Importar Playwright após garantir que está instalado
+        from playwright.sync_api import sync_playwright, TimeoutError
         
         with sync_playwright() as playwright:
             # Inicializar o navegador
@@ -90,14 +168,17 @@ class TVGuideScraper:
                 # Comprimir o arquivo XML
                 self.compress_xml()
                 
+                # Salvar dados brutos para referência
+                self.save_raw_data()
+                
+                return True
+                
             except Exception as e:
                 self.log(f"Erro durante o scraping: {str(e)}")
-                raise
+                return False
             finally:
                 # Fechar o navegador
                 browser.close()
-        
-        self.log("Processo de scraping concluído com sucesso")
     
     def handle_popups(self, page):
         """Trata pop-ups de login ou cookies que podem aparecer"""
@@ -432,10 +513,13 @@ def main():
     )
     
     try:
-        scraper.run()
-        scraper.save_raw_data()
-        print("\nProcesso concluído com sucesso!")
-        return 0
+        success = scraper.run()
+        if success:
+            print("\nProcesso concluído com sucesso!")
+            return 0
+        else:
+            print("\nErro durante a execução. Verifique os logs para mais detalhes.")
+            return 1
     except Exception as e:
         print(f"\nErro durante a execução: {str(e)}")
         return 1
@@ -444,6 +528,8 @@ def main():
 if __name__ == "__main__":
     sys.exit(main())
 
+
+###RATO
 
 
 #!/usr/bin/env python3
