@@ -30,7 +30,8 @@ class TVGuideScraper:
         self.base_url = "https://www.tvguide.com/listings/"
         self.output_dir = output_dir or os.path.dirname(os.path.abspath(__file__))
         self.days_to_scrape = days_to_scrape
-        self.headless = headless
+        # Forçar modo headless em ambientes CI/CD
+        self.headless = True  # Sempre usar headless para evitar problemas com XServer
         self.channels_data = {}
         self.time_slots = []
         
@@ -68,6 +69,7 @@ class TVGuideScraper:
             try:
                 with sync_playwright() as p:
                     # Tentar lançar o navegador para verificar se está instalado
+                    # SEMPRE usar headless=True para evitar problemas com XServer
                     browser = p.chromium.launch(headless=True)
                     browser.close()
                     self.log("Navegadores do Playwright já estão instalados.")
@@ -145,8 +147,8 @@ class TVGuideScraper:
         from playwright.sync_api import sync_playwright, TimeoutError
         
         with sync_playwright() as playwright:
-            # Inicializar o navegador
-            browser = playwright.chromium.launch(headless=self.headless)
+            # Inicializar o navegador - SEMPRE em modo headless
+            browser = playwright.chromium.launch(headless=True)
             context = browser.new_context(
                 viewport={"width": 1280, "height": 800},
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -525,7 +527,7 @@ def main():
     scraper = TVGuideScraper(
         output_dir=args.output_dir,
         days_to_scrape=args.days,
-        headless=args.headless
+        headless=True  # Sempre usar headless para evitar problemas com XServer
     )
     
     try:
