@@ -50,6 +50,7 @@ class TVGuideScraper:
     def ensure_playwright_browsers(self):
         """
         Verifica se os navegadores do Playwright estão instalados e os instala se necessário.
+        Usa apenas métodos públicos e estáveis do Playwright.
         Retorna True se a instalação foi bem-sucedida ou já estava instalada.
         """
         try:
@@ -63,54 +64,69 @@ class TVGuideScraper:
                 subprocess.check_call([sys.executable, "-m", "pip", "install", "playwright"])
                 from playwright.sync_api import sync_playwright
             
-            # Verificar se o executável do Chromium existe
-            from playwright._impl._path_utils import get_browser_directory
+            # Tentar iniciar o Playwright para verificar se os navegadores estão instalados
             try:
-                browser_path = get_browser_directory()
-                chromium_path = os.path.join(browser_path, "chromium-*")
-                import glob
-                chromium_dirs = glob.glob(chromium_path)
+                with sync_playwright() as p:
+                    # Tentar lançar o navegador para verificar se está instalado
+                    browser = p.chromium.launch(headless=True)
+                    browser.close()
+                    self.log("Navegadores do Playwright já estão instalados.")
+                    return True
+            except Exception as e:
+                # Se falhar ao lançar o navegador, provavelmente os navegadores não estão instalados
+                self.log(f"Navegadores do Playwright não encontrados: {str(e)}")
                 
-                if not chromium_dirs:
-                    raise FileNotFoundError("Navegadores do Playwright não encontrados")
-                
-                # Verificar se o executável existe
-                for chromium_dir in chromium_dirs:
-                    if os.path.exists(os.path.join(chromium_dir, "chrome-linux", "chrome")) or \
-                       os.path.exists(os.path.join(chromium_dir, "chrome-win", "chrome.exe")) or \
-                       os.path.exists(os.path.join(chromium_dir, "chrome-mac", "Chromium.app")):
-                        self.log("Navegadores do Playwright já estão instalados.")
-                        return True
-                
-                # Se chegou aqui, os diretórios existem mas os executáveis não
-                raise FileNotFoundError("Executáveis dos navegadores não encontrados")
-                
-            except (ImportError, FileNotFoundError):
-                # Instalar os navegadores
+                # Instalar os navegadores usando subprocess
                 self.log("Instalando navegadores do Playwright...")
-                playwright_install_result = subprocess.run(
-                    ["playwright", "install", "chromium"],
-                    capture_output=True,
-                    text=True
-                )
                 
-                if playwright_install_result.returncode != 0:
-                    self.log(f"Erro ao instalar navegadores: {playwright_install_result.stderr}")
-                    
-                    # Tentar método alternativo
-                    self.log("Tentando método alternativo de instalação...")
-                    alt_install_result = subprocess.run(
-                        [sys.executable, "-m", "playwright", "install", "chromium"],
+                # Primeiro método: usando o comando playwright install
+                try:
+                    playwright_install_result = subprocess.run(
+                        ["playwright", "install", "chromium"],
                         capture_output=True,
                         text=True
                     )
                     
-                    if alt_install_result.returncode != 0:
-                        self.log(f"Erro no método alternativo: {alt_install_result.stderr}")
-                        return False
-                
-                self.log("Navegadores do Playwright instalados com sucesso.")
-                return True
+                    if playwright_install_result.returncode != 0:
+                        raise Exception(f"Falha na instalação: {playwright_install_result.stderr}")
+                        
+                    self.log("Navegadores do Playwright instalados com sucesso.")
+                    return True
+                    
+                except Exception as e1:
+                    self.log(f"Primeiro método falhou: {str(e1)}")
+                    
+                    # Segundo método: usando python -m playwright install
+                    try:
+                        alt_install_result = subprocess.run(
+                            [sys.executable, "-m", "playwright", "install", "chromium"],
+                            capture_output=True,
+                            text=True
+                        )
+                        
+                        if alt_install_result.returncode != 0:
+                            raise Exception(f"Falha na instalação alternativa: {alt_install_result.stderr}")
+                            
+                        self.log("Navegadores do Playwright instalados com sucesso (método alternativo).")
+                        return True
+                        
+                    except Exception as e2:
+                        self.log(f"Segundo método falhou: {str(e2)}")
+                        
+                        # Terceiro método: usando pip para reinstalar playwright com dependências
+                        try:
+                            self.log("Tentando reinstalar Playwright com dependências...")
+                            subprocess.check_call([
+                                sys.executable, "-m", "pip", "install", "--force-reinstall", "playwright"
+                            ])
+                            subprocess.check_call([
+                                sys.executable, "-m", "playwright", "install", "chromium"
+                            ])
+                            self.log("Reinstalação e instalação de navegadores concluídas.")
+                            return True
+                        except Exception as e3:
+                            self.log(f"Todos os métodos de instalação falharam: {str(e3)}")
+                            return False
                 
         except Exception as e:
             self.log(f"Erro ao verificar/instalar navegadores: {str(e)}")
@@ -527,6 +543,7 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
 
 
 ###RATO
