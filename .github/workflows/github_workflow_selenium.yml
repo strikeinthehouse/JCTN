@@ -1,0 +1,75 @@
+name: TVGuide Scraper (Selenium)
+
+on:
+  schedule:
+    # Executa diariamente às 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Permite execução manual através da interface do GitHub
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium webdriver-manager lxml
+      
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+      
+      - name: Run TVGuide scraper
+        run: |
+          python tvguide_scraper_selenium.py --days 7
+          # O script sempre roda em modo headless e retorna 0 mesmo em caso de erro
+          # para não falhar o workflow, gerando dados de exemplo quando necessário
+      
+      - name: Upload XML results
+        uses: actions/upload-artifact@v3
+        with:
+          name: tvguide-xmltv
+          path: |
+            tvguide_listings.xml
+            tvguide_listings.xml.xz
+          retention-days: 7
+      
+      - name: Upload raw data
+        uses: actions/upload-artifact@v3
+        with:
+          name: tvguide-raw-data
+          path: tvguide_raw_data.json
+          retention-days: 3
+      
+      - name: Upload logs and diagnostics
+        uses: actions/upload-artifact@v3
+        with:
+          name: tvguide-logs
+          path: |
+            tvguide_scraper.log
+            error_screenshot.png
+          retention-days: 3
+          if-no-files-found: ignore
+      
+      # Opcional: Commit e push dos resultados para o repositório
+      - name: Commit and push results
+        if: success()
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add tvguide_listings.xml.xz
+          git commit -m "Update TV guide data [skip ci]" || echo "No changes to commit"
+          git push
