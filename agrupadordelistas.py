@@ -14,154 +14,73 @@ from playwright.sync_api import sync_playwright
 
 def get_telemundo_schedule():
     """
-    Acessa o site da Telemundo PR e extrai os dados da programação usando Playwright.
+    Acessa o site da Telemundo PR e extrai os dados da programação usando requests e BeautifulSoup.
     """
+    import requests
+    from bs4 import BeautifulSoup
+    
     schedule_data = []
     
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page()
+    try:
+        # Acessar a página
+        print("Acessando o site da Telemundo PR...")
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        response = requests.get("https://www.telemundopr.com/guiadeprogramacion/", headers=headers )
+        response.raise_for_status()
         
-        try:
-            # Acessar a página
-            print("Acessando o site da Telemundo PR...")
-            page.goto("https://www.telemundopr.com/guiadeprogramacion/", timeout=60000)
-            page.wait_for_load_state("networkidle")
+        # Usar BeautifulSoup para analisar o HTML
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Encontrar as tabelas de programação
+        tables = soup.find_all('table')
+        
+        for table in tables:
+            rows = table.find_all('tr')
+            current_day = ""
             
-            # Extrair o conteúdo HTML
-            html_content = page.content()
-            
-            # Usar BeautifulSoup para analisar o HTML
-            soup = BeautifulSoup(html_content, 'html.parser')
-            
-            # Extrair dados da programação
-            print("Extraindo dados da programação...")
-            
-            # Encontrar as seções de programação
-            sections = soup.find_all('section', class_='section-content')
-            
-            for section in sections:
-                # Procurar tabelas de programação
-                tables = section.find_all('table')
+            for row in rows:
+                columns = row.find_all(['th', 'td'])
                 
-                for table in tables:
-                    rows = table.find_all('tr')
-                    current_day = ""
-                    
-                    for row in rows:
-                        columns = row.find_all(['th', 'td'])
-                        
-                        # Verificar se é um cabeçalho de dia
-                        if len(columns) == 1 and columns[0].name == 'th':
-                            current_day = columns[0].text.strip()
-                            continue
-                        
-                        # Extrair horário e programa
-                        if len(columns) == 2:
-                            time_slot = columns[0].text.strip()
-                            program = columns[1].text.strip()
-                            
-                            # Extrair observação especial
-                            observation = ""
-                            if "(Solo" in time_slot:
-                                observation = time_slot.split("(Solo")[1].split(")")[0].strip()
-                                time_slot = time_slot.split("(")[0].strip()
-                            elif "(no" in program:
-                                observation = "exceto " + program.split("(no")[1].split(")")[0].strip()
-                                program = program.split("(")[0].strip()
-                            
-                            # Adicionar à lista de programação
-                            schedule_data.append({
-                                "dia": current_day,
-                                "horario": time_slot,
-                                "programa": program,
-                                "observacao": observation
-                            })
-            
-            # Se não encontrou dados nas tabelas, tentar extrair de outra forma
-            if not schedule_data:
-                print("Tentando método alternativo de extração...")
+                # Verificar se é um cabeçalho de dia
+                if len(columns) == 1 and columns[0].name == 'th':
+                    current_day = columns[0].text.strip()
+                    continue
                 
-                # Executar JavaScript para extrair os dados
-                js_result = page.evaluate("""
-                () => {
-                    const programacaoData = [];
+                # Extrair horário e programa
+                if len(columns) == 2:
+                    time_slot = columns[0].text.strip()
+                    program = columns[1].text.strip()
                     
-                    // Função para processar as observações especiais
-                    function processarObservacao(texto) {
-                        if (texto.includes('(Solo')) {
-                            return texto.match(/\\(Solo ([^)]+)\\)/)[1].trim();
-                        } else if (texto.includes('(no')) {
-                            return 'exceto ' + texto.match(/\\(no ([^)]+)\\)/)[1].trim();
-                        }
-                        return '';
-                    }
+                    # Extrair observação especial
+                    observation = ""
+                    if "(Solo" in time_slot:
+                        observation = time_slot.split("(Solo")[1].split(")")[0].strip()
+                        time_slot = time_slot.split("(")[0].strip()
+                    elif "(no" in program:
+                        observation = "exceto " + program.split("(no")[1].split(")")[0].strip()
+                        program = program.split("(")[0].strip()
                     
-                    // Função para limpar o texto de observações
-                    function limparTexto(texto) {
-                        return texto.replace(/\\([^)]+\\)/, '').trim();
-                    }
-                    
-                    // Extrair dados da tabela de programação
-                    const tabelas = document.querySelectorAll('table');
-                    let diaAtual = '';
-                    
-                    tabelas.forEach(tabela => {
-                        const linhas = tabela.querySelectorAll('tr');
-                        
-                        linhas.forEach(linha => {
-                            const colunas = linha.querySelectorAll('th, td');
-                            
-                            // Verificar se é um cabeçalho de dia
-                            if (colunas.length === 1 && colunas[0].tagName === 'TH') {
-                                diaAtual = colunas[0].textContent.trim();
-                                return;
-                            }
-                            
-                            // Extrair horário e programa
-                            if (colunas.length === 2) {
-                                const horario = colunas[0].textContent.trim();
-                                const programa = colunas[1].textContent.trim();
-                                
-                                // Extrair observação especial
-                                let observacao = '';
-                                if (horario.includes('(Solo')) {
-                                    observacao = processarObservacao(horario);
-                                } else if (programa.includes('(no')) {
-                                    observacao = processarObservacao(programa);
-                                }
-                                
-                                // Adicionar à lista de programação
-                                programacaoData.push({
-                                    dia: diaAtual,
-                                    horario: limparTexto(horario),
-                                    programa: limparTexto(programa),
-                                    observacao: observacao
-                                });
-                            }
-                        });
-                    });
-                    
-                    return programacaoData;
-                }
-                """)
-                
-                if js_result and isinstance(js_result, list) and len(js_result) > 0:
-                    schedule_data = js_result
-            
-            # Se ainda não encontrou dados, usar dados de exemplo
-            if not schedule_data:
-                print("Usando dados de exemplo para testes...")
-                schedule_data = get_example_data()
-            
-        except Exception as e:
-            print(f"Erro ao acessar o site: {e}")
+                    # Adicionar à lista de programação
+                    schedule_data.append({
+                        "dia": current_day,
+                        "horario": time_slot,
+                        "programa": program,
+                        "observacao": observation
+                    })
+        
+        # Se não encontrou dados, usar dados de exemplo
+        if not schedule_data:
+            print("Usando dados de exemplo para testes...")
             schedule_data = get_example_data()
         
-        finally:
-            browser.close()
+    except Exception as e:
+        print(f"Erro ao acessar o site: {e}")
+        schedule_data = get_example_data()
     
     return schedule_data
+
 
 def get_example_data():
     """
