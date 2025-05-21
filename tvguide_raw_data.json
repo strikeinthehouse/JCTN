@@ -6,10 +6,16 @@
     "icon": "https://example.com/logos/abc.png",
     "programs": [
       {
-        "title": "Drama Series",
+        "title": "Local News",
         "start": "20250521060000",
+        "stop": "20250521063000",
+        "desc": "Example program data for Local News on ABC"
+      },
+      {
+        "title": "Sports Event",
+        "start": "20250521070000",
         "stop": "20250521073000",
-        "desc": "Example program data for Drama Series on ABC"
+        "desc": "Example program data for Sports Event on ABC"
       },
       {
         "title": "Talk Show",
@@ -18,64 +24,58 @@
         "desc": "Example program data for Talk Show on ABC"
       },
       {
-        "title": "News Magazine",
-        "start": "20250521100000",
-        "stop": "20250521120000",
-        "desc": "Example program data for News Magazine on ABC"
-      },
-      {
-        "title": "Sports Event",
-        "start": "20250521120000",
-        "stop": "20250521133000",
-        "desc": "Example program data for Sports Event on ABC"
-      },
-      {
-        "title": "Morning Show",
-        "start": "20250521140000",
-        "stop": "20250521150000",
-        "desc": "Example program data for Morning Show on ABC"
-      },
-      {
-        "title": "Movie",
-        "start": "20250521150000",
-        "stop": "20250521163000",
-        "desc": "Example program data for Movie on ABC"
-      },
-      {
         "title": "Documentary",
-        "start": "20250521170000",
-        "stop": "20250521190000",
+        "start": "20250521100000",
+        "stop": "20250521103000",
         "desc": "Example program data for Documentary on ABC"
       },
       {
+        "title": "Comedy Series",
+        "start": "20250521110000",
+        "stop": "20250521123000",
+        "desc": "Example program data for Comedy Series on ABC"
+      },
+      {
+        "title": "Sports Event",
+        "start": "20250521130000",
+        "stop": "20250521140000",
+        "desc": "Example program data for Sports Event on ABC"
+      },
+      {
+        "title": "Game Show",
+        "start": "20250521140000",
+        "stop": "20250521150000",
+        "desc": "Example program data for Game Show on ABC"
+      },
+      {
         "title": "Morning Show",
-        "start": "20250521190000",
-        "stop": "20250521210000",
+        "start": "20250521150000",
+        "stop": "20250521170000",
         "desc": "Example program data for Morning Show on ABC"
       },
       {
-        "title": "Talk Show",
+        "title": "Comedy Series",
+        "start": "20250521170000",
+        "stop": "20250521190000",
+        "desc": "Example program data for Comedy Series on ABC"
+      },
+      {
+        "title": "Comedy Series",
+        "start": "20250521190000",
+        "stop": "20250521203000",
+        "desc": "Example program data for Comedy Series on ABC"
+      },
+      {
+        "title": "Game Show",
         "start": "20250521210000",
         "stop": "20250521230000",
-        "desc": "Example program data for Talk Show on ABC"
+        "desc": "Example program data for Game Show on ABC"
       },
       {
-        "title": "Movie",
+        "title": "Game Show",
         "start": "20250521230000",
-        "stop": "20250522010000",
-        "desc": "Example program data for Movie on ABC"
-      },
-      {
-        "title": "Morning Show",
-        "start": "20250521010000",
-        "stop": "20250521020000",
-        "desc": "Example program data for Morning Show on ABC"
-      },
-      {
-        "title": "Talk Show",
-        "start": "20250521020000",
-        "stop": "20250521033000",
-        "desc": "Example program data for Talk Show on ABC"
+        "stop": "20250521233000",
+        "desc": "Example program data for Game Show on ABC"
       }
     ]
   },
@@ -86,76 +86,76 @@
     "icon": "https://example.com/logos/cbs.png",
     "programs": [
       {
-        "title": "Late Night",
+        "title": "Documentary",
         "start": "20250521060000",
         "stop": "20250521063000",
-        "desc": "Example program data for Late Night on CBS"
+        "desc": "Example program data for Documentary on CBS"
       },
       {
-        "title": "Reality TV",
+        "title": "Comedy Series",
         "start": "20250521070000",
-        "stop": "20250521090000",
-        "desc": "Example program data for Reality TV on CBS"
+        "stop": "20250521083000",
+        "desc": "Example program data for Comedy Series on CBS"
+      },
+      {
+        "title": "Sports Event",
+        "start": "20250521090000",
+        "stop": "20250521103000",
+        "desc": "Example program data for Sports Event on CBS"
       },
       {
         "title": "Morning Show",
-        "start": "20250521090000",
-        "stop": "20250521110000",
-        "desc": "Example program data for Morning Show on CBS"
-      },
-      {
-        "title": "News Magazine",
         "start": "20250521110000",
         "stop": "20250521120000",
-        "desc": "Example program data for News Magazine on CBS"
-      },
-      {
-        "title": "Local News",
-        "start": "20250521120000",
-        "stop": "20250521123000",
-        "desc": "Example program data for Local News on CBS"
-      },
-      {
-        "title": "Reality TV",
-        "start": "20250521130000",
-        "stop": "20250521140000",
-        "desc": "Example program data for Reality TV on CBS"
-      },
-      {
-        "title": "Talk Show",
-        "start": "20250521140000",
-        "stop": "20250521160000",
-        "desc": "Example program data for Talk Show on CBS"
-      },
-      {
-        "title": "Morning Show",
-        "start": "20250521160000",
-        "stop": "20250521180000",
         "desc": "Example program data for Morning Show on CBS"
       },
       {
-        "title": "Local News",
+        "title": "Movie",
+        "start": "20250521120000",
+        "stop": "20250521133000",
+        "desc": "Example program data for Movie on CBS"
+      },
+      {
+        "title": "Documentary",
+        "start": "20250521140000",
+        "stop": "20250521160000",
+        "desc": "Example program data for Documentary on CBS"
+      },
+      {
+        "title": "Movie",
+        "start": "20250521160000",
+        "stop": "20250521173000",
+        "desc": "Example program data for Movie on CBS"
+      },
+      {
+        "title": "Reality TV",
         "start": "20250521180000",
+        "stop": "20250521190000",
+        "desc": "Example program data for Reality TV on CBS"
+      },
+      {
+        "title": "Comedy Series",
+        "start": "20250521190000",
         "stop": "20250521193000",
+        "desc": "Example program data for Comedy Series on CBS"
+      },
+      {
+        "title": "Local News",
+        "start": "20250521200000",
+        "stop": "20250521220000",
         "desc": "Example program data for Local News on CBS"
       },
       {
-        "title": "Game Show",
-        "start": "20250521200000",
-        "stop": "20250521203000",
-        "desc": "Example program data for Game Show on CBS"
-      },
-      {
-        "title": "Documentary",
-        "start": "20250521210000",
-        "stop": "20250521230000",
-        "desc": "Example program data for Documentary on CBS"
-      },
-      {
-        "title": "Documentary",
-        "start": "20250521230000",
+        "title": "Drama Series",
+        "start": "20250521220000",
         "stop": "20250522000000",
-        "desc": "Example program data for Documentary on CBS"
+        "desc": "Example program data for Drama Series on CBS"
+      },
+      {
+        "title": "Movie",
+        "start": "20250521000000",
+        "stop": "20250521013000",
+        "desc": "Example program data for Movie on CBS"
       }
     ]
   },
@@ -174,68 +174,68 @@
       {
         "title": "Sports Event",
         "start": "20250521080000",
-        "stop": "20250521093000",
+        "stop": "20250521100000",
         "desc": "Example program data for Sports Event on NBC"
       },
       {
-        "title": "Comedy Series",
+        "title": "Reality TV",
         "start": "20250521100000",
         "stop": "20250521113000",
-        "desc": "Example program data for Comedy Series on NBC"
+        "desc": "Example program data for Reality TV on NBC"
       },
       {
-        "title": "Morning Show",
+        "title": "Sports Event",
         "start": "20250521120000",
         "stop": "20250521130000",
-        "desc": "Example program data for Morning Show on NBC"
+        "desc": "Example program data for Sports Event on NBC"
       },
       {
-        "title": "Local News",
+        "title": "Reality TV",
         "start": "20250521130000",
-        "stop": "20250521133000",
-        "desc": "Example program data for Local News on NBC"
+        "stop": "20250521150000",
+        "desc": "Example program data for Reality TV on NBC"
       },
       {
-        "title": "Documentary",
-        "start": "20250521140000",
-        "stop": "20250521143000",
-        "desc": "Example program data for Documentary on NBC"
-      },
-      {
-        "title": "Movie",
+        "title": "Sports Event",
         "start": "20250521150000",
         "stop": "20250521170000",
-        "desc": "Example program data for Movie on NBC"
+        "desc": "Example program data for Sports Event on NBC"
+      },
+      {
+        "title": "News Magazine",
+        "start": "20250521170000",
+        "stop": "20250521190000",
+        "desc": "Example program data for News Magazine on NBC"
       },
       {
         "title": "Drama Series",
-        "start": "20250521170000",
-        "stop": "20250521173000",
+        "start": "20250521190000",
+        "stop": "20250521210000",
         "desc": "Example program data for Drama Series on NBC"
       },
       {
-        "title": "Documentary",
-        "start": "20250521180000",
-        "stop": "20250521193000",
-        "desc": "Example program data for Documentary on NBC"
-      },
-      {
-        "title": "Comedy Series",
-        "start": "20250521200000",
-        "stop": "20250521203000",
-        "desc": "Example program data for Comedy Series on NBC"
-      },
-      {
-        "title": "Comedy Series",
+        "title": "News Magazine",
         "start": "20250521210000",
         "stop": "20250521213000",
+        "desc": "Example program data for News Magazine on NBC"
+      },
+      {
+        "title": "Comedy Series",
+        "start": "20250521220000",
+        "stop": "20250521230000",
         "desc": "Example program data for Comedy Series on NBC"
       },
       {
-        "title": "Game Show",
-        "start": "20250521220000",
-        "stop": "20250521230000",
-        "desc": "Example program data for Game Show on NBC"
+        "title": "News Magazine",
+        "start": "20250521230000",
+        "stop": "20250522003000",
+        "desc": "Example program data for News Magazine on NBC"
+      },
+      {
+        "title": "News Magazine",
+        "start": "20250521010000",
+        "stop": "20250521030000",
+        "desc": "Example program data for News Magazine on NBC"
       }
     ]
   },
@@ -246,33 +246,27 @@
     "icon": "https://example.com/logos/fox.png",
     "programs": [
       {
-        "title": "News Magazine",
+        "title": "Talk Show",
         "start": "20250521060000",
         "stop": "20250521063000",
-        "desc": "Example program data for News Magazine on FOX"
+        "desc": "Example program data for Talk Show on FOX"
       },
       {
-        "title": "Drama Series",
+        "title": "Talk Show",
         "start": "20250521070000",
-        "stop": "20250521083000",
-        "desc": "Example program data for Drama Series on FOX"
+        "stop": "20250521090000",
+        "desc": "Example program data for Talk Show on FOX"
       },
       {
-        "title": "Documentary",
+        "title": "Local News",
         "start": "20250521090000",
         "stop": "20250521103000",
-        "desc": "Example program data for Documentary on FOX"
-      },
-      {
-        "title": "Movie",
-        "start": "20250521110000",
-        "stop": "20250521113000",
-        "desc": "Example program data for Movie on FOX"
+        "desc": "Example program data for Local News on FOX"
       },
       {
         "title": "News Magazine",
-        "start": "20250521120000",
-        "stop": "20250521123000",
+        "start": "20250521110000",
+        "stop": "20250521130000",
         "desc": "Example program data for News Magazine on FOX"
       },
       {
@@ -282,40 +276,46 @@
         "desc": "Example program data for Late Night on FOX"
       },
       {
-        "title": "Talk Show",
+        "title": "Documentary",
         "start": "20250521140000",
-        "stop": "20250521153000",
-        "desc": "Example program data for Talk Show on FOX"
-      },
-      {
-        "title": "Game Show",
-        "start": "20250521160000",
-        "stop": "20250521173000",
-        "desc": "Example program data for Game Show on FOX"
-      },
-      {
-        "title": "Morning Show",
-        "start": "20250521180000",
-        "stop": "20250521190000",
-        "desc": "Example program data for Morning Show on FOX"
+        "stop": "20250521150000",
+        "desc": "Example program data for Documentary on FOX"
       },
       {
         "title": "News Magazine",
-        "start": "20250521190000",
-        "stop": "20250521203000",
+        "start": "20250521150000",
+        "stop": "20250521170000",
         "desc": "Example program data for News Magazine on FOX"
       },
       {
+        "title": "Local News",
+        "start": "20250521170000",
+        "stop": "20250521183000",
+        "desc": "Example program data for Local News on FOX"
+      },
+      {
         "title": "Comedy Series",
-        "start": "20250521210000",
-        "stop": "20250521213000",
+        "start": "20250521190000",
+        "stop": "20250521200000",
         "desc": "Example program data for Comedy Series on FOX"
       },
       {
+        "title": "Drama Series",
+        "start": "20250521200000",
+        "stop": "20250521210000",
+        "desc": "Example program data for Drama Series on FOX"
+      },
+      {
         "title": "Movie",
+        "start": "20250521210000",
+        "stop": "20250521220000",
+        "desc": "Example program data for Movie on FOX"
+      },
+      {
+        "title": "Reality TV",
         "start": "20250521220000",
         "stop": "20250521230000",
-        "desc": "Example program data for Movie on FOX"
+        "desc": "Example program data for Reality TV on FOX"
       }
     ]
   },
@@ -326,16 +326,16 @@
     "icon": "https://example.com/logos/pbs.png",
     "programs": [
       {
-        "title": "Talk Show",
+        "title": "Sports Event",
         "start": "20250521060000",
-        "stop": "20250521063000",
-        "desc": "Example program data for Talk Show on PBS"
+        "stop": "20250521070000",
+        "desc": "Example program data for Sports Event on PBS"
       },
       {
-        "title": "Comedy Series",
+        "title": "Drama Series",
         "start": "20250521070000",
-        "stop": "20250521083000",
-        "desc": "Example program data for Comedy Series on PBS"
+        "stop": "20250521090000",
+        "desc": "Example program data for Drama Series on PBS"
       },
       {
         "title": "Game Show",
@@ -344,58 +344,58 @@
         "desc": "Example program data for Game Show on PBS"
       },
       {
-        "title": "Local News",
-        "start": "20250521100000",
-        "stop": "20250521120000",
-        "desc": "Example program data for Local News on PBS"
-      },
-      {
-        "title": "Documentary",
-        "start": "20250521120000",
-        "stop": "20250521133000",
-        "desc": "Example program data for Documentary on PBS"
-      },
-      {
-        "title": "News Magazine",
-        "start": "20250521140000",
-        "stop": "20250521150000",
-        "desc": "Example program data for News Magazine on PBS"
-      },
-      {
         "title": "Talk Show",
-        "start": "20250521150000",
-        "stop": "20250521163000",
+        "start": "20250521100000",
+        "stop": "20250521103000",
         "desc": "Example program data for Talk Show on PBS"
       },
       {
-        "title": "Documentary",
-        "start": "20250521170000",
-        "stop": "20250521190000",
-        "desc": "Example program data for Documentary on PBS"
+        "title": "Movie",
+        "start": "20250521110000",
+        "stop": "20250521123000",
+        "desc": "Example program data for Movie on PBS"
+      },
+      {
+        "title": "Talk Show",
+        "start": "20250521130000",
+        "stop": "20250521143000",
+        "desc": "Example program data for Talk Show on PBS"
+      },
+      {
+        "title": "Reality TV",
+        "start": "20250521150000",
+        "stop": "20250521163000",
+        "desc": "Example program data for Reality TV on PBS"
       },
       {
         "title": "Sports Event",
-        "start": "20250521190000",
-        "stop": "20250521193000",
+        "start": "20250521170000",
+        "stop": "20250521190000",
         "desc": "Example program data for Sports Event on PBS"
       },
       {
-        "title": "Comedy Series",
-        "start": "20250521200000",
-        "stop": "20250521213000",
-        "desc": "Example program data for Comedy Series on PBS"
+        "title": "Drama Series",
+        "start": "20250521190000",
+        "stop": "20250521203000",
+        "desc": "Example program data for Drama Series on PBS"
       },
       {
-        "title": "Late Night",
-        "start": "20250521220000",
+        "title": "Morning Show",
+        "start": "20250521210000",
         "stop": "20250521230000",
-        "desc": "Example program data for Late Night on PBS"
+        "desc": "Example program data for Morning Show on PBS"
       },
       {
-        "title": "Local News",
+        "title": "Morning Show",
         "start": "20250521230000",
         "stop": "20250522003000",
-        "desc": "Example program data for Local News on PBS"
+        "desc": "Example program data for Morning Show on PBS"
+      },
+      {
+        "title": "Movie",
+        "start": "20250521010000",
+        "stop": "20250521013000",
+        "desc": "Example program data for Movie on PBS"
       }
     ]
   },
@@ -406,76 +406,76 @@
     "icon": "https://example.com/logos/cw.png",
     "programs": [
       {
-        "title": "Drama Series",
-        "start": "20250521060000",
-        "stop": "20250521070000",
-        "desc": "Example program data for Drama Series on CW"
-      },
-      {
-        "title": "Documentary",
-        "start": "20250521070000",
-        "stop": "20250521090000",
-        "desc": "Example program data for Documentary on CW"
-      },
-      {
-        "title": "Drama Series",
-        "start": "20250521090000",
-        "stop": "20250521093000",
-        "desc": "Example program data for Drama Series on CW"
-      },
-      {
-        "title": "Movie",
-        "start": "20250521100000",
-        "stop": "20250521113000",
-        "desc": "Example program data for Movie on CW"
-      },
-      {
-        "title": "Movie",
-        "start": "20250521120000",
-        "stop": "20250521140000",
-        "desc": "Example program data for Movie on CW"
-      },
-      {
-        "title": "Sports Event",
-        "start": "20250521140000",
-        "stop": "20250521150000",
-        "desc": "Example program data for Sports Event on CW"
-      },
-      {
         "title": "News Magazine",
-        "start": "20250521150000",
-        "stop": "20250521153000",
+        "start": "20250521060000",
+        "stop": "20250521080000",
         "desc": "Example program data for News Magazine on CW"
       },
       {
-        "title": "Game Show",
-        "start": "20250521160000",
-        "stop": "20250521180000",
-        "desc": "Example program data for Game Show on CW"
+        "title": "Reality TV",
+        "start": "20250521080000",
+        "stop": "20250521093000",
+        "desc": "Example program data for Reality TV on CW"
       },
       {
-        "title": "Local News",
-        "start": "20250521180000",
-        "stop": "20250521193000",
-        "desc": "Example program data for Local News on CW"
+        "title": "Comedy Series",
+        "start": "20250521100000",
+        "stop": "20250521113000",
+        "desc": "Example program data for Comedy Series on CW"
       },
       {
-        "title": "Sports Event",
-        "start": "20250521200000",
-        "stop": "20250521220000",
-        "desc": "Example program data for Sports Event on CW"
+        "title": "Morning Show",
+        "start": "20250521120000",
+        "stop": "20250521133000",
+        "desc": "Example program data for Morning Show on CW"
       },
       {
-        "title": "Game Show",
-        "start": "20250521220000",
-        "stop": "20250522000000",
-        "desc": "Example program data for Game Show on CW"
+        "title": "Comedy Series",
+        "start": "20250521140000",
+        "stop": "20250521153000",
+        "desc": "Example program data for Comedy Series on CW"
       },
       {
         "title": "Reality TV",
-        "start": "20250521000000",
-        "stop": "20250521010000",
+        "start": "20250521160000",
+        "stop": "20250521180000",
         "desc": "Example program data for Reality TV on CW"
+      },
+      {
+        "title": "Reality TV",
+        "start": "20250521180000",
+        "stop": "20250521190000",
+        "desc": "Example program data for Reality TV on CW"
+      },
+      {
+        "title": "News Magazine",
+        "start": "20250521190000",
+        "stop": "20250521210000",
+        "desc": "Example program data for News Magazine on CW"
+      },
+      {
+        "title": "Talk Show",
+        "start": "20250521210000",
+        "stop": "20250521223000",
+        "desc": "Example program data for Talk Show on CW"
+      },
+      {
+        "title": "Game Show",
+        "start": "20250521230000",
+        "stop": "20250522010000",
+        "desc": "Example program data for Game Show on CW"
+      },
+      {
+        "title": "Talk Show",
+        "start": "20250521010000",
+        "stop": "20250521020000",
+        "desc": "Example program data for Talk Show on CW"
+      },
+      {
+        "title": "News Magazine",
+        "start": "20250521020000",
+        "stop": "20250521033000",
+        "desc": "Example program data for News Magazine on CW"
       }
     ]
   }
