@@ -304,7 +304,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL base (G1)
-base_url = "https://g1.globo.com/busca/?q=%C3%ADntegra&order=recent&from=now-1d"
+base_url = "https://g1.globo.com/busca/?q=ao+vivo&order=relevant&from=now-1d"
 
 # Load the page
 driver.get(base_url)
