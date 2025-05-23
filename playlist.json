@@ -1,13 +1,5 @@
 [
   {
-    "name": "RAI 3",
-    "group": "Reality Show's Live",
-    "tvg_id": "Undefined",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/250px-Rai_3_-_Logo_2016.svg.png",
-    "url": "http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8",
-    "extra": []
-  },
-  {
     "name": "RTL-TVI (1080p) [Not 24/7]",
     "group": "Reality Show's Live",
     "tvg_id": "RTLTVI.be",
@@ -221,6 +213,14 @@
     "tvg_id": "Undefined",
     "logo": "https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg",
     "url": "https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w1795256914.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CANAL 5",
+    "group": "Reality Show's Live",
+    "tvg_id": "Canal5.mx",
+    "logo": "https://i.imgur.com/jJ6v5ea.png",
+    "url": "http://181.78.106.127:9000/play/ca012/index.m3u8",
     "extra": []
   },
   {
