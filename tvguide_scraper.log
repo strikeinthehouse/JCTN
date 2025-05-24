@@ -5727,3 +5727,41 @@ Stacktrace:
 [2025-05-24 22:43:41] Comprimindo arquivo XML para /home/runner/work/JCTN/JCTN/tvguide_listings.xml.xz
 [2025-05-24 22:43:41] Arquivo comprimido gerado: /home/runner/work/JCTN/JCTN/tvguide_listings.xml.xz
 [2025-05-24 22:43:41] Dados brutos salvos em: /home/runner/work/JCTN/JCTN/tvguide_raw_data.json
+[2025-05-24 23:22:24] Iniciando o processo de scraping do TVGuide.com
+[2025-05-24 23:22:24] Verificando instalação do ChromeDriver...
+[2025-05-24 23:22:24] ChromeDriver encontrado em: /usr/bin/chromedriver
+[2025-05-24 23:22:24] Usando user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+[2025-05-24 23:22:24] Inicializando o driver do Chrome...
+[2025-05-24 23:22:43] Acessando https://www.tvguide.com/listings/
+[2025-05-24 23:22:48] Página carregada com sucesso: título 'TV Guide, TV Listings, Online Videos, Entertainment News and Celebrity News - TV Guide'
+[2025-05-24 23:22:50] Fechado pop-up: button[aria-label='Close']
+[2025-05-24 23:23:07] Página carregou parcialmente, mas sem elementos de grade
+[2025-05-24 23:23:07] Coletando programação para o dia 2025-05-24
+[2025-05-24 23:23:07] Coletando todos os horários para 2025-05-24
+[2025-05-24 23:23:07] Não foi possível identificar o horário atual
+[2025-05-24 23:23:12] Botão de próximo horário não encontrado, finalizando coleta do dia
+[2025-05-24 23:23:12] Coletando programação para o dia 2025-05-25
+[2025-05-24 23:23:12] Navegando para a data: 2025-05-25
+[2025-05-24 23:23:12] Acessando https://www.tvguide.com/listings/?date=2025-05-25
+[2025-05-24 23:23:17] Página carregada com sucesso: título 'TV Guide, TV Listings, Online Videos, Entertainment News and Celebrity News - TV Guide'
+[2025-05-24 23:23:17] Página carregou parcialmente, mas sem elementos de grade
+[2025-05-24 23:23:17] Navegação para data 2025-05-25 bem-sucedida via URL
+[2025-05-24 23:23:17] Coletando todos os horários para 2025-05-25
+[2025-05-24 23:23:17] Não foi possível identificar o horário atual
+[2025-05-24 23:23:22] Botão de próximo horário não encontrado, finalizando coleta do dia
+[2025-05-24 23:23:22] Coletando programação para o dia 2025-05-26
+[2025-05-24 23:23:22] Navegando para a data: 2025-05-26
+[2025-05-24 23:23:22] Acessando https://www.tvguide.com/listings/?date=2025-05-26
+[2025-05-24 23:23:26] Página carregada com sucesso: título 'TV Guide, TV Listings, Online Videos, Entertainment News and Celebrity News - TV Guide'
+[2025-05-24 23:23:26] Página carregou parcialmente, mas sem elementos de grade
+[2025-05-24 23:23:26] Navegação para data 2025-05-26 bem-sucedida via URL
+[2025-05-24 23:23:26] Coletando todos os horários para 2025-05-26
+[2025-05-24 23:23:26] Não foi possível identificar o horário atual
+[2025-05-24 23:23:31] Botão de próximo horário não encontrado, finalizando coleta do dia
+[2025-05-24 23:23:31] Nenhum dado foi coletado. Usando dados de exemplo para testes.
+[2025-05-24 23:23:31] Gerando dados de exemplo para garantir saída válida
+[2025-05-24 23:23:31] Gerando arquivo XMLTV
+[2025-05-24 23:23:31] Arquivo XMLTV gerado: /home/runner/work/JCTN/JCTN/tvguide_listings.xml
+[2025-05-24 23:23:31] Comprimindo arquivo XML para /home/runner/work/JCTN/JCTN/tvguide_listings.xml.xz
+[2025-05-24 23:23:31] Arquivo comprimido gerado: /home/runner/work/JCTN/JCTN/tvguide_listings.xml.xz
+[2025-05-24 23:23:31] Dados brutos salvos em: /home/runner/work/JCTN/JCTN/tvguide_raw_data.json
