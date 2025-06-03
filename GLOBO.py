@@ -293,27 +293,27 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import os
+import json # Import json for safer JS communication
 
-print("Iniciando o script de extração do CXTv...")
+print("Iniciando o script de extração do CXTv (com scroll e JS fallback simplificado)...")
 
-# Configure Chrome options (incorporando sugestões e mantendo headless)
+# Configure Chrome options
 options = Options()
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage") # Importante para ambientes limitados
+options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,800") # Tamanho ajustado
+options.add_argument("--window-size=1280,1024")
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
 options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option('useAutomationExtension', False)
-options.add_argument("--disable-infobars") # Adicionado da sugestão
+options.add_experimental_option("useAutomationExtension", False)
+options.add_argument("--disable-infobars")
 
 # Create the webdriver instance
 try:
     print("Configurando o WebDriver...")
     driver = webdriver.Chrome(options=options)
-    # Tenta esconder a automação
     driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
     print("WebDriver configurado.")
 except Exception as e:
@@ -327,98 +327,172 @@ output_filename = "lista_cxtv.m3u"
 # Lista para armazenar informações dos canais
 channels_info = []
 
+# --- Bloco principal de extração da página de busca ---
 try:
     print(f"Acessando a URL: {search_url}")
     driver.get(search_url)
 
-    # Esperar os cards de resultado carregarem
-    wait_time = 30 # Tempo de espera
-    print(f"Aguardando {wait_time} segundos pelos resultados (div.col-item a img)...")
-    WebDriverWait(driver, wait_time).until(
-        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.col-item a img'))
-    )
-    print("Resultados encontrados. Extraindo informações dos links...")
+    # Esperar um elemento básico da página carregar primeiro
+    wait_time = 20
+    print(f"Aguardando {wait_time} segundos por um elemento básico (ex: body)...")
+    WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+    print("Página base carregada. Iniciando scroll...")
 
-    # Encontrar todos os links dos canais na página de busca
-    channel_links = driver.find_elements(By.CSS_SELECTOR, 'div.col-item a')
-    print(f"Encontrados {len(channel_links)} links de canais na página de busca.")
+    # Scroll down para carregar conteúdo dinâmico
+    scroll_pause_time = 5
+    scroll_attempts = 3
+    last_height = driver.execute_script("return document.body.scrollHeight")
 
-    for link_element in channel_links:
-        page_url = None
-        title = None
-        logo_url = None
-        try:
-            page_url = link_element.get_attribute('href')
-            if not page_url or not page_url.startswith("http"): # Ignora links inválidos
-                print(f"  - Aviso: URL inválida ou ausente encontrada, pulando.")
-                continue
+    for i in range(scroll_attempts):
+        print(f"Scroll attempt {i+1}/{scroll_attempts}...")
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        print(f"Aguardando {scroll_pause_time} segundos após scroll...")
+        time.sleep(scroll_pause_time)
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            print("Altura da página não mudou, parando scroll.")
+            break
+        last_height = new_height
 
-            # Tenta extrair o título
-            try:
-                # Tenta pelo h3 dentro do link
-                title_element = link_element.find_element(By.CSS_SELECTOR, 'h3.mt-2')
-                title = title_element.text.strip()
-            except:
-                # Se falhar, tenta pelo atributo 'title' do link
-                try:
-                    title = link_element.get_attribute('title').strip()
-                except:
-                    # Se falhar, tenta pegar o texto interno e limpar
-                    full_text = link_element.text.strip()
-                    if '\n' in full_text:
-                        title = full_text.split('\n')[0] # Pega a primeira linha
-                    else:
-                        title = full_text # Usa o texto completo se não houver quebra
+    print("Scroll finalizado. Tentando extrair informações dos links...")
 
-            # Tenta extrair a logo
-            try:
-                img_element = link_element.find_element(By.TAG_NAME, 'img')
-                logo_url = img_element.get_attribute('src')
-            except:
-                logo_url = "" # Deixa vazio se não encontrar
-
-            # Verifica se temos informações essenciais
-            if page_url and title:
-                channels_info.append({
-                    'title': title,
-                    'page_url': page_url,
-                    'logo_url': logo_url
-                })
-                print(f"  - Canal adicionado: {title} ({page_url})")
-            else:
-                 print(f"  - Aviso: Link ({page_url}) ou título ({title}) ausente para um elemento.")
-
-        except Exception as e:
-            print(f"Erro ao processar um link da busca ({page_url}): {e}")
-
-except Exception as e:
-    print(f"Erro crítico ao carregar ou processar a página de busca: {e}")
+    # Tentar encontrar os links dos canais via Selenium
+    channel_links = []
     try:
-        driver.save_screenshot("erro_busca.png")
-        print("Screenshot 'erro_busca.png' salvo.")
+        print("Tentando localizar 'div.col-item a' via Selenium...")
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.col-item a'))
+        )
+        channel_links = driver.find_elements(By.CSS_SELECTOR, 'div.col-item a')
+        print(f"Encontrados {len(channel_links)} links via Selenium.")
+    except Exception as selenium_find_err:
+        print(f"Não foi possível encontrar 'div.col-item a' via Selenium: {selenium_find_err}")
+        print("Tentando localizar via JavaScript...")
+        try:
+            # Fallback: Usar JavaScript para obter os elementos - SIMPLIFICADO
+            # Removido try/catch interno do JS, comentários, e usando propriedades diretas
+            js_script = """
+            let links = [];
+            document.querySelectorAll('div.col-item a').forEach(function(a) {
+                let href = a.href; // Use .href for absolute URL
+                let title = '';
+                let logo = '';
+                let h3 = a.querySelector('h3.mt-2');
+                let img = a.querySelector('img');
+
+                if (h3) { title = h3.textContent.trim(); } // Use textContent
+                if (!title) { title = a.title; } // Use .title attribute
+                if (!title) { title = a.textContent.trim().split('\\n')[0].trim(); } // Use textContent, escape newline
+                if (img) { logo = img.src; } // Use .src for absolute URL
+
+                title = title ? title.trim() : '';
+
+                if (href && href.startsWith('http') && title) {
+                    links.push({ page_url: href, title: title, logo_url: logo || '' });
+                }
+            });
+            return JSON.stringify(links); // Return JSON string
+            """
+            result_json = driver.execute_script(js_script)
+            channels_info_js = json.loads(result_json) # Decodifica o JSON
+
+            if isinstance(channels_info_js, list) and channels_info_js:
+                print(f"Encontrados {len(channels_info_js)} links via JavaScript.")
+                channels_info = channels_info_js # Usar os dados do JS
+            else:
+                print("Nenhum link encontrado via JavaScript ou retorno inválido.")
+                channels_info = []
+        except Exception as js_err:
+            # Captura erro do execute_script ou json.loads
+            print(f"Erro ao executar/processar JavaScript para encontrar links: {js_err}")
+            channels_info = [] # Garante que a lista está vazia em caso de erro
+
+    # Processar links encontrados via Selenium (se houver e se JS não pegou)
+    if channel_links and not channels_info: # Só processa se encontrou via Selenium E não via JS
+        print("Processando links encontrados via Selenium...")
+        for link_element in channel_links:
+            page_url = None
+            title = None
+            logo_url = None
+            try:
+                page_url = link_element.get_attribute('href')
+                if not page_url or not page_url.startswith("http"): # Ignora links inválidos
+                    print(f"  - Aviso: URL inválida ou ausente encontrada, pulando.")
+                    continue
+
+                # Tenta extrair o título
+                try:
+                    title_element = link_element.find_element(By.CSS_SELECTOR, 'h3.mt-2')
+                    title = title_element.text.strip()
+                except:
+                    try:
+                        title = link_element.get_attribute('title').strip()
+                    except:
+                        full_text = link_element.text.strip()
+                        if '\n' in full_text:
+                            title = full_text.split('\n')[0]
+                        else:
+                            title = full_text
+
+                # Tenta extrair a logo
+                try:
+                    img_element = link_element.find_element(By.TAG_NAME, 'img')
+                    logo_url = img_element.get_attribute('src')
+                except:
+                    logo_url = ""
+
+                # Limpeza final do título
+                title = title.strip() if title else ''
+
+                if page_url and title:
+                    channels_info.append({
+                        'title': title,
+                        'page_url': page_url,
+                        'logo_url': logo_url
+                    })
+                    print(f"  - Canal adicionado (Selenium): {title} ({page_url})")
+                else:
+                     print(f"  - Aviso: Link ({page_url}) ou título ({title}) ausente/vazio (Selenium).")
+
+            except Exception as e:
+                print(f"Erro ao processar um link da busca (Selenium) ({page_url}): {e}")
+
+# --- Fim do bloco principal de extração ---
+except Exception as main_err:
+    print(f"Erro crítico durante o carregamento/processamento da página de busca: {main_err}")
+    try:
+        driver.save_screenshot("erro_busca_critico.png")
+        print("Screenshot 'erro_busca_critico.png' salvo.")
     except:
-        print("Não foi possível salvar o screenshot.")
+        print("Não foi possível salvar o screenshot de erro crítico.")
+
+# --- Continua mesmo se houve erro na busca, para tentar processar o que foi encontrado ---
+
+# Se nenhum canal foi encontrado por nenhum método
+if not channels_info:
+    print("\nNenhum canal encontrado após todas as tentativas (Selenium e JS). Verifique screenshots de erro se existirem. Saindo.")
+    driver.quit()
+    exit()
 
 print(f"\nTotal de {len(channels_info)} canais encontrados para processar.")
 
-# Função para extrair o link m3u8
+# Função para extrair o link m3u8 (mantida como antes)
 def extract_m3u8_url(driver, url):
     print(f"  Acessando página do canal: {url}")
     m3u8_url = None
     try:
         driver.get(url)
         print("  Aguardando até 60 segundos para carregamento e possível início do stream...")
-        # Espera um pouco mais flexível por algum elemento que indique carregamento, ou apenas tempo
-        time.sleep(60) # Aumentado para dar tempo a players complexos/ads
+        time.sleep(60)
 
         print("  Verificando logs de rede para M3U8...")
         try:
             log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
             for entry in log_entries:
-                if entry and 'name' in entry and '.m3u8' in entry['name']:
+                if entry and 'name' in entry and ".m3u8" in entry['name']:
                     m3u8_url = entry['name']
                     print(f"    * Encontrado M3U8 nos logs de rede: {m3u8_url}")
-                    return m3u8_url # Retorna o primeiro encontrado
+                    return m3u8_url
         except Exception as log_err:
             print(f"    Erro ao obter logs de rede: {log_err}")
 
@@ -437,20 +511,19 @@ def extract_m3u8_url(driver, url):
                              print("      Verificando logs de rede dentro do iframe...")
                              iframe_log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
                              for entry in iframe_log_entries:
-                                 if entry and 'name' in entry and '.m3u8' in entry['name']:
+                                 if entry and 'name' in entry and ".m3u8" in entry['name']:
                                      m3u8_url = entry['name']
                                      print(f"        * Encontrado M3U8 no iframe: {m3u8_url}")
                                      driver.switch_to.default_content()
-                                     return m3u8_url # Retorna assim que encontrar
+                                     return m3u8_url
                              print(f"      Saindo do iframe {i} (M3U8 não encontrado nele).")
                              driver.switch_to.default_content()
                          except Exception as frame_error:
                              print(f"      Erro ao processar iframe {i}: {frame_error}")
-                             # Tenta sair do iframe mesmo em caso de erro
                              try:
                                  driver.switch_to.default_content()
                              except:
-                                 pass # Ignora se já estiver fora
+                                 pass
                  else:
                      print("    Nenhum iframe encontrado na página.")
              except Exception as iframe_find_error:
@@ -458,14 +531,13 @@ def extract_m3u8_url(driver, url):
 
         if not m3u8_url:
             print("  M3U8 não encontrado após todas as tentativas.")
-            # Salvar screenshot apenas se não encontrar
             try:
                 safe_filename = f"erro_m3u8_{url.split('//')[-1].replace('/', '_').replace('?', '_').replace('=', '_')}.png"
                 driver.save_screenshot(safe_filename)
                 print(f"  Screenshot '{safe_filename}' salvo.")
             except Exception as ss_error:
                 print(f"  Não foi possível salvar o screenshot de erro M3U8: {ss_error}")
-        return None # Retorna None se não encontrou
+        return None
 
     except Exception as e:
         print(f"  Erro crítico ao processar a página do canal {url}: {e}")
@@ -485,7 +557,7 @@ found_m3u8_count = 0
 
 # Abrir o arquivo de saída M3U
 with open(output_filename, "w", encoding='utf-8') as output_file:
-    output_file.write("#EXTM3U\n") # Cabeçalho padrão M3U
+    output_file.write("#EXTM3U\n")
 
     for i, channel in enumerate(channels_info):
         print(f"\nProcessando canal {i+1}/{len(channels_info)}: {channel['title']}")
@@ -495,8 +567,6 @@ with open(output_filename, "w", encoding='utf-8') as output_file:
 
         if m3u8_link:
             found_m3u8_count += 1
-            # Escrever no formato EXTM3U - CORRIGIDO
-            # Limpa o título para evitar quebras de linha ou caracteres problemáticos no M3U
             clean_title = channel['title'].replace('\n', ' ').replace('\r', '').strip()
             output_file.write(f'#EXTINF:-1 tvg-logo="{channel["logo_url"]}" group-title="Record",{clean_title}\n')
             output_file.write(f"{m3u8_link}\n")
@@ -513,6 +583,7 @@ print(f"Arquivo M3U gerado: {output_filename}")
 print("Fechando o WebDriver...")
 driver.quit()
 print("Script finalizado.")
+
 
 
 
