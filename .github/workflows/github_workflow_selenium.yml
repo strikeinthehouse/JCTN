@@ -39,7 +39,7 @@ jobs:
           # para não falhar o workflow, gerando dados de exemplo quando necessário
       
       - name: Upload XML results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4 # Updated version
         with:
           name: tvguide-xmltv
           path: |
@@ -48,14 +48,14 @@ jobs:
           retention-days: 7
       
       - name: Upload raw data
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4 # Updated version
         with:
           name: tvguide-raw-data
           path: tvguide_raw_data.json
           retention-days: 3
       
       - name: Upload logs and diagnostics
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4 # Updated version
         with:
           name: tvguide-logs
           path: |
