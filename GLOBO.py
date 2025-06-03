@@ -285,105 +285,234 @@ with open("lista1.m3u", "a") as output_file:
 
 ##VEJA AI
 
+# -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import os
 
-# Configure Chrome options
+print("Iniciando o script de extração do CXTv...")
+
+# Configure Chrome options (incorporando sugestões e mantendo headless)
 options = Options()
-options.add_argument("--headless")  # Descomente se você não precisar de uma interface gráfica
+options.add_argument("--headless")
 options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage") # Importante para ambientes limitados
 options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,720")
-options.add_argument("--disable-infobars")
+options.add_argument("--window-size=1280,800") # Tamanho ajustado
+options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+options.add_argument("--disable-blink-features=AutomationControlled")
+options.add_experimental_option("excludeSwitches", ["enable-automation"])
+options.add_experimental_option('useAutomationExtension', False)
+options.add_argument("--disable-infobars") # Adicionado da sugestão
 
 # Create the webdriver instance
-driver = webdriver.Chrome(options=options)
-
-# URL base (G1)
-base_url = "https://g1.globo.com/busca/?q=ao+vivo&order=relevant&from=now-1d"
-
-# Load the page
-driver.get(base_url)
-
-# Wait until the video links are present
 try:
-    # Esperar até os links de vídeo estarem presentes
-    WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'a.widget--info__media.widget--info__media--video')))
-    
-    # Extrair os links
-    video_links = driver.find_elements(By.CSS_SELECTOR, 'a.widget--info__media.widget--info__media--video')
-    links_list = [link.get_attribute('href') for link in video_links]
-    
-    # Print the links found
-    if links_list:
-        print("Links encontrados:")
-        for link in links_list:
-            print(link)
-        
-        # Write the links to the file
-        with open("links_video.txt", "w") as file:
-            for link in links_list:
-                file.write(link + "\n")
-    else:
-        print("Nenhum link encontrado.")
+    print("Configurando o WebDriver...")
+    driver = webdriver.Chrome(options=options)
+    # Tenta esconder a automação
+    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    print("WebDriver configurado.")
 except Exception as e:
-    print(f"Ocorreu um erro: {e}")
+    print(f"Erro ao configurar o WebDriver: {e}")
+    exit()
 
-# Função para extrair o link m3u8 e o título da página
-def extract_m3u8_url_and_title(driver, url):
-    driver.get(url)
-    time.sleep(30)  # Aguarde a página carregar completamente
-    
-    # Obter o título da página
-    title = driver.title
-    
-    # Obter o link m3u8 (se presente) e o logo
-    log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
-    
-    m3u8_url = None
-    logo_url = None
-    for entry in log_entries:
-        if ".m3u8" in entry['name']:
-            m3u8_url = entry['name']
-        if ".jpg" in entry['name']:
-            logo_url = entry['name']
-    
-    return title, m3u8_url, logo_url
+# URL de busca do CXTv
+search_url = "https://www.cxtv.com.br/busca/?query=Record"
+output_filename = "lista_cxtv.m3u"
 
-# Criar ou abrir o arquivo lista1.m3u para escrever os links e títulos
-with open("links_video.txt", "r") as file:
-    links = file.readlines()
+# Lista para armazenar informações dos canais
+channels_info = []
 
-# Criar ou abrir o arquivo lista1.m3u para escrever os dados
-with open("lista1.m3u", "a") as output_file:
-    for link in links:
-        link = link.strip()  # Remover espaços em branco e quebras de linha
+try:
+    print(f"Acessando a URL: {search_url}")
+    driver.get(search_url)
 
-        if not link:
-            continue
+    # Esperar os cards de resultado carregarem
+    wait_time = 30 # Tempo de espera
+    print(f"Aguardando {wait_time} segundos pelos resultados (div.col-item a img)...")
+    WebDriverWait(driver, wait_time).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.col-item a img'))
+    )
+    print("Resultados encontrados. Extraindo informações dos links...")
 
-        print(f"Processando link: {link}")
+    # Encontrar todos os links dos canais na página de busca
+    channel_links = driver.find_elements(By.CSS_SELECTOR, 'div.col-item a')
+    print(f"Encontrados {len(channel_links)} links de canais na página de busca.")
 
+    for link_element in channel_links:
+        page_url = None
+        title = None
+        logo_url = None
         try:
-            # Extrair título, URL do m3u8 e logo
-            title, m3u8_url, logo_url = extract_m3u8_url_and_title(driver, link)
+            page_url = link_element.get_attribute('href')
+            if not page_url or not page_url.startswith("http"): # Ignora links inválidos
+                print(f"  - Aviso: URL inválida ou ausente encontrada, pulando.")
+                continue
 
-            if m3u8_url:
-                # Escrever no formato extinf iptv
-                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="VOD GLOBO", {title}\n')
-                output_file.write(f"{m3u8_url}\n")
-                print(f"M3U8 link encontrado: {m3u8_url}")
+            # Tenta extrair o título
+            try:
+                # Tenta pelo h3 dentro do link
+                title_element = link_element.find_element(By.CSS_SELECTOR, 'h3.mt-2')
+                title = title_element.text.strip()
+            except:
+                # Se falhar, tenta pelo atributo 'title' do link
+                try:
+                    title = link_element.get_attribute('title').strip()
+                except:
+                    # Se falhar, tenta pegar o texto interno e limpar
+                    full_text = link_element.text.strip()
+                    if '\n' in full_text:
+                        title = full_text.split('\n')[0] # Pega a primeira linha
+                    else:
+                        title = full_text # Usa o texto completo se não houver quebra
+
+            # Tenta extrair a logo
+            try:
+                img_element = link_element.find_element(By.TAG_NAME, 'img')
+                logo_url = img_element.get_attribute('src')
+            except:
+                logo_url = "" # Deixa vazio se não encontrar
+
+            # Verifica se temos informações essenciais
+            if page_url and title:
+                channels_info.append({
+                    'title': title,
+                    'page_url': page_url,
+                    'logo_url': logo_url
+                })
+                print(f"  - Canal adicionado: {title} ({page_url})")
             else:
-                print(f"Link .m3u8 não encontrado para {link}")
+                 print(f"  - Aviso: Link ({page_url}) ou título ({title}) ausente para um elemento.")
+
         except Exception as e:
-            print(f"Erro ao processar o link {link}: {e}")
+            print(f"Erro ao processar um link da busca ({page_url}): {e}")
+
+except Exception as e:
+    print(f"Erro crítico ao carregar ou processar a página de busca: {e}")
+    try:
+        driver.save_screenshot("erro_busca.png")
+        print("Screenshot 'erro_busca.png' salvo.")
+    except:
+        print("Não foi possível salvar o screenshot.")
+
+print(f"\nTotal de {len(channels_info)} canais encontrados para processar.")
+
+# Função para extrair o link m3u8
+def extract_m3u8_url(driver, url):
+    print(f"  Acessando página do canal: {url}")
+    m3u8_url = None
+    try:
+        driver.get(url)
+        print("  Aguardando até 60 segundos para carregamento e possível início do stream...")
+        # Espera um pouco mais flexível por algum elemento que indique carregamento, ou apenas tempo
+        time.sleep(60) # Aumentado para dar tempo a players complexos/ads
+
+        print("  Verificando logs de rede para M3U8...")
+        try:
+            log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
+            for entry in log_entries:
+                if entry and 'name' in entry and '.m3u8' in entry['name']:
+                    m3u8_url = entry['name']
+                    print(f"    * Encontrado M3U8 nos logs de rede: {m3u8_url}")
+                    return m3u8_url # Retorna o primeiro encontrado
+        except Exception as log_err:
+            print(f"    Erro ao obter logs de rede: {log_err}")
+
+        if not m3u8_url:
+             print("    - Nenhum M3U8 encontrado nos logs de rede iniciais. Verificando iframes...")
+             try:
+                 iframes = driver.find_elements(By.TAG_NAME, 'iframe')
+                 if iframes:
+                     print(f"    Encontrado(s) {len(iframes)} iframe(s).")
+                     for i, frame in enumerate(iframes):
+                         try:
+                             print(f"      Entrando no iframe {i}...")
+                             driver.switch_to.frame(frame)
+                             print("      Aguardando 15 segundos dentro do iframe...")
+                             time.sleep(15)
+                             print("      Verificando logs de rede dentro do iframe...")
+                             iframe_log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
+                             for entry in iframe_log_entries:
+                                 if entry and 'name' in entry and '.m3u8' in entry['name']:
+                                     m3u8_url = entry['name']
+                                     print(f"        * Encontrado M3U8 no iframe: {m3u8_url}")
+                                     driver.switch_to.default_content()
+                                     return m3u8_url # Retorna assim que encontrar
+                             print(f"      Saindo do iframe {i} (M3U8 não encontrado nele).")
+                             driver.switch_to.default_content()
+                         except Exception as frame_error:
+                             print(f"      Erro ao processar iframe {i}: {frame_error}")
+                             # Tenta sair do iframe mesmo em caso de erro
+                             try:
+                                 driver.switch_to.default_content()
+                             except:
+                                 pass # Ignora se já estiver fora
+                 else:
+                     print("    Nenhum iframe encontrado na página.")
+             except Exception as iframe_find_error:
+                 print(f"    Erro ao procurar/processar iframes: {iframe_find_error}")
+
+        if not m3u8_url:
+            print("  M3U8 não encontrado após todas as tentativas.")
+            # Salvar screenshot apenas se não encontrar
+            try:
+                safe_filename = f"erro_m3u8_{url.split('//')[-1].replace('/', '_').replace('?', '_').replace('=', '_')}.png"
+                driver.save_screenshot(safe_filename)
+                print(f"  Screenshot '{safe_filename}' salvo.")
+            except Exception as ss_error:
+                print(f"  Não foi possível salvar o screenshot de erro M3U8: {ss_error}")
+        return None # Retorna None se não encontrou
+
+    except Exception as e:
+        print(f"  Erro crítico ao processar a página do canal {url}: {e}")
+        try:
+            safe_filename = f"erro_pagina_{url.split('//')[-1].replace('/', '_').replace('?', '_').replace('=', '_')}.png"
+            driver.save_screenshot(safe_filename)
+            print(f"  Screenshot '{safe_filename}' salvo.")
+        except Exception as ss_error:
+             print(f"  Não foi possível salvar o screenshot de erro da página: {ss_error}")
+        return None
+
+# Processar cada canal encontrado
+print("\nIniciando processamento individual dos canais para extrair M3U8...")
+
+processed_count = 0
+found_m3u8_count = 0
+
+# Abrir o arquivo de saída M3U
+with open(output_filename, "w", encoding='utf-8') as output_file:
+    output_file.write("#EXTM3U\n") # Cabeçalho padrão M3U
+
+    for i, channel in enumerate(channels_info):
+        print(f"\nProcessando canal {i+1}/{len(channels_info)}: {channel['title']}")
+
+        m3u8_link = extract_m3u8_url(driver, channel['page_url'])
+        processed_count += 1
+
+        if m3u8_link:
+            found_m3u8_count += 1
+            # Escrever no formato EXTM3U - CORRIGIDO
+            # Limpa o título para evitar quebras de linha ou caracteres problemáticos no M3U
+            clean_title = channel['title'].replace('\n', ' ').replace('\r', '').strip()
+            output_file.write(f'#EXTINF:-1 tvg-logo="{channel["logo_url"]}" group-title="Record",{clean_title}\n')
+            output_file.write(f"{m3u8_link}\n")
+            print(f"  -> M3U8 encontrado e adicionado ao arquivo: {m3u8_link}")
+        else:
+            print(f"  -> M3U8 não encontrado para {channel['title']}")
+
+print(f"\nProcessamento concluído.")
+print(f"Total de canais processados: {processed_count}")
+print(f"Total de links M3U8 encontrados: {found_m3u8_count}")
+print(f"Arquivo M3U gerado: {output_filename}")
 
 # Sair do driver
+print("Fechando o WebDriver...")
 driver.quit()
+print("Script finalizado.")
 
 
 
