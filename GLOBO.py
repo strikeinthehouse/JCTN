@@ -300,6 +300,8 @@ import time
 import requests
 import re
 import json
+import sys
+import os
 from urllib.parse import urljoin
 
 print("Iniciando o script de extração do Archive.org...")
@@ -603,23 +605,64 @@ class ArchiveOrgTVExtractor:
         
         print(f"Relatório detalhado salvo: {report_filename}")
 
+def get_max_items():
+    """Obtém o número máximo de itens a processar"""
+    # Verificar se foi passado como argumento de linha de comando
+    if len(sys.argv) > 1:
+        try:
+            max_items = int(sys.argv[1])
+            print(f"Usando valor do argumento: {max_items} itens")
+            return max_items
+        except ValueError:
+            print(f"Argumento inválido '{sys.argv[1]}', usando valor padrão")
+    
+    # Verificar se existe variável de ambiente
+    env_value = os.environ.get('MAX_ITEMS')
+    if env_value:
+        try:
+            max_items = int(env_value)
+            print(f"Usando valor da variável de ambiente MAX_ITEMS: {max_items} itens")
+            return max_items
+        except ValueError:
+            print(f"Variável de ambiente MAX_ITEMS inválida '{env_value}', usando valor padrão")
+    
+    # Verificar se está em ambiente interativo
+    if sys.stdin.isatty():
+        try:
+            max_items_input = input("Quantos itens processar? (padrão: 20): ").strip()
+            if max_items_input.isdigit():
+                max_items = int(max_items_input)
+                print(f"Usando valor informado: {max_items} itens")
+                return max_items
+        except (EOFError, KeyboardInterrupt):
+            print("Entrada interrompida, usando valor padrão")
+    
+    # Valor padrão
+    print("Usando valor padrão: 20 itens")
+    return 20
+
 def main():
     """Função principal"""
     print("Archive.org TV Extractor")
     print("Este script extrai arquivos de vídeo históricos do Archive.org")
     print("Nota: Este não é um serviço de IPTV ao vivo, mas um arquivo histórico")
+    print()
+    print("Formas de especificar o número de itens:")
+    print("1. Argumento de linha de comando: python GLOBO.py 30")
+    print("2. Variável de ambiente: export MAX_ITEMS=30")
+    print("3. Entrada interativa (se disponível)")
+    print("4. Valor padrão: 20 itens")
+    print()
     
-    max_items = input("Quantos itens processar? (padrão: 20): ").strip()
-    if not max_items.isdigit():
-        max_items = 20
-    else:
-        max_items = int(max_items)
+    max_items = get_max_items()
     
     extractor = ArchiveOrgTVExtractor()
     extractor.run(max_items)
 
 if __name__ == "__main__":
     main()
+
+
 
 # -*- coding: utf-8 -*-
 """
