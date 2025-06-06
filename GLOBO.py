@@ -286,303 +286,1092 @@ with open("lista1.m3u", "a") as output_file:
 ##VEJA AI
 
 # -*- coding: utf-8 -*-
+"""
+Script para extrair conteúdo de TV do site archive.org
+Adaptado para trabalhar com arquivos históricos de televisão
+"""
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import os
-import json # Import json for safer JS communication
+import requests
+import re
+import json
+from urllib.parse import urljoin
 
-print("Iniciando o script de extração do CXTv (com scroll e JS fallback simplificado)...")
+print("Iniciando o script de extração do Archive.org...")
 
-# Configure Chrome options
-options = Options()
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
-options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,1024")
-options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-options.add_argument("--disable-blink-features=AutomationControlled")
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option("useAutomationExtension", False)
-options.add_argument("--disable-infobars")
-
-# Create the webdriver instance
-try:
-    print("Configurando o WebDriver...")
-    driver = webdriver.Chrome(options=options)
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    print("WebDriver configurado.")
-except Exception as e:
-    print(f"Erro ao configurar o WebDriver: {e}")
-    exit()
-
-# URL de busca do CXTv
-search_url = "https://www.cxtv.com.br/busca/?query=Record"
-output_filename = "lista_cxtv.m3u"
-
-# Lista para armazenar informações dos canais
-channels_info = []
-
-# --- Bloco principal de extração da página de busca ---
-try:
-    print(f"Acessando a URL: {search_url}")
-    driver.get(search_url)
-
-    # Esperar um elemento básico da página carregar primeiro
-    wait_time = 20
-    print(f"Aguardando {wait_time} segundos por um elemento básico (ex: body)...")
-    WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
-    print("Página base carregada. Iniciando scroll...")
-
-    # Scroll down para carregar conteúdo dinâmico
-    scroll_pause_time = 5
-    scroll_attempts = 3
-    last_height = driver.execute_script("return document.body.scrollHeight")
-
-    for i in range(scroll_attempts):
-        print(f"Scroll attempt {i+1}/{scroll_attempts}...")
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        print(f"Aguardando {scroll_pause_time} segundos após scroll...")
-        time.sleep(scroll_pause_time)
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            print("Altura da página não mudou, parando scroll.")
-            break
-        last_height = new_height
-
-    print("Scroll finalizado. Tentando extrair informações dos links...")
-
-    # Tentar encontrar os links dos canais via Selenium
-    channel_links = []
-    try:
-        print("Tentando localizar 'div.col-item a' via Selenium...")
-        WebDriverWait(driver, 15).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'div.col-item a'))
-        )
-        channel_links = driver.find_elements(By.CSS_SELECTOR, 'div.col-item a')
-        print(f"Encontrados {len(channel_links)} links via Selenium.")
-    except Exception as selenium_find_err:
-        print(f"Não foi possível encontrar 'div.col-item a' via Selenium: {selenium_find_err}")
-        print("Tentando localizar via JavaScript...")
+class ArchiveOrgTVExtractor:
+    def __init__(self):
+        self.main_url = "https://archive.org/details/@tv"
+        self.output_filename = "lista_archive_org.m3u"
+        self.items_info = []
+        self.driver = None
+        self.setup_driver()
+    
+    def setup_driver(self):
+        """Configura o WebDriver com as especificações do usuário"""
+        print("Configurando o WebDriver...")
+        
+        # Configurações do Chrome conforme especificado pelo usuário
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--window-size=1280,720")
+        options.add_argument("--disable-infobars")
+        
         try:
-            # Fallback: Usar JavaScript para obter os elementos - SIMPLIFICADO
-            # Removido try/catch interno do JS, comentários, e usando propriedades diretas
-            js_script = """
-            let links = [];
-            document.querySelectorAll('div.col-item a').forEach(function(a) {
-                let href = a.href; // Use .href for absolute URL
+            self.driver = webdriver.Chrome(options=options)
+            print("WebDriver configurado com sucesso.")
+        except Exception as e:
+            print(f"Erro ao configurar o WebDriver: {e}")
+            raise
+    
+    def extract_tv_items_from_main_page(self, max_items=50):
+        """Extrai lista de itens de TV da página principal"""
+        print(f"Acessando a URL principal: {self.main_url}")
+        self.driver.get(self.main_url)
+        
+        # Aguardar carregamento da página
+        wait_time = 15
+        print(f"Aguardando {wait_time} segundos para carregamento...")
+        WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        
+        # Scroll para carregar mais conteúdo
+        print("Fazendo scroll para carregar mais itens...")
+        self.scroll_to_load_content()
+        
+        # Extrair itens usando JavaScript
+        print(f"Extraindo lista de itens (máximo {max_items})...")
+        items_data = self.extract_items_with_js(max_items)
+        
+        print(f"Encontrados {len(items_data)} itens válidos")
+        return items_data
+    
+    def scroll_to_load_content(self):
+        """Faz scroll na página para carregar mais conteúdo"""
+        for i in range(3):  # Máximo 3 scrolls
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(3)
+    
+    def extract_items_with_js(self, max_items):
+        """Extrai itens usando JavaScript"""
+        js_script = f"""
+        (() => {{
+            const items = [];
+            
+            // Buscar todos os links de itens
+            const itemElements = document.querySelectorAll('a[aria-label]');
+            
+            itemElements.forEach((element, index) => {{
+                if (items.length >= {max_items}) return;
+                
+                const href = element.href;
+                const title = element.getAttribute('aria-label') || '';
+                
+                // Filtrar apenas itens válidos do archive.org
+                if (href && href.includes('archive.org/details/') && title) {{
+                    // Extrair ID do item
+                    const itemId = href.split('/details/')[1];
+                    
+                    if (itemId && !itemId.includes('?') && !itemId.includes('#')) {{
+                        items.push({{
+                            title: title.trim(),
+                            url: href,
+                            itemId: itemId,
+                            index: index
+                        }});
+                    }}
+                }}
+            }});
+            
+            return items;
+        }})();
+        """
+        
+        try:
+            return self.driver.execute_script(js_script)
+        except Exception as e:
+            print(f"Erro ao extrair itens: {e}")
+            return []
+    
+    def extract_media_from_item(self, item_url, item_title, item_id):
+        """Extrai links de mídia de um item específico"""
+        print(f"  Processando: {item_title}")
+        print(f"  URL: {item_url}")
+        
+        try:
+            self.driver.get(item_url)
+            time.sleep(10)  # Aguardar carregamento
+            
+            # Procurar por links de download direto
+            print("  Procurando links de mídia...")
+            
+            media_info = self.extract_media_links(item_id)
+            
+            if media_info:
+                print(f"    ✓ Mídia encontrada: {len(media_info)} arquivo(s)")
+                return media_info
+            else:
+                print(f"    ✗ Nenhuma mídia encontrada")
+                return None
+                
+        except Exception as e:
+            print(f"  Erro ao processar {item_title}: {e}")
+            return None
+    
+    def extract_media_links(self, item_id):
+        """Extrai links de mídia usando a API do Archive.org"""
+        try:
+            # URL da API de metadados do Archive.org
+            metadata_url = f"https://archive.org/metadata/{item_id}"
+            
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+            
+            response = requests.get(metadata_url, headers=headers, timeout=10)
+            
+            if response.status_code == 200:
+                metadata = response.json()
+                
+                if 'files' in metadata:
+                    media_files = []
+                    
+                    for file_info in metadata['files']:
+                        filename = file_info.get('name', '')
+                        format_type = file_info.get('format', '').lower()
+                        
+                        # Filtrar apenas arquivos de vídeo
+                        if any(ext in filename.lower() for ext in ['.mp4', '.avi', '.mkv', '.mov', '.m4v']):
+                            download_url = f"https://archive.org/download/{item_id}/{filename}"
+                            
+                            media_files.append({
+                                'filename': filename,
+                                'format': format_type,
+                                'download_url': download_url,
+                                'size': file_info.get('size', 'Unknown')
+                            })
+                    
+                    return media_files if media_files else None
+            
+            return None
+            
+        except Exception as e:
+            print(f"    Erro na API: {e}")
+            return None
+    
+    def validate_media_link(self, url, timeout=10):
+        """Valida se um link de mídia está acessível"""
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+            
+            response = requests.head(url, timeout=timeout, headers=headers, allow_redirects=True)
+            return response.status_code == 200
+            
+        except Exception as e:
+            print(f"    Erro na validação: {e}")
+            return False
+    
+    def create_m3u_file(self, items_with_media):
+        """Cria o arquivo M3U com os itens encontrados"""
+        print(f"\nCriando arquivo M3U: {self.output_filename}")
+        
+        with open(self.output_filename, "w", encoding='utf-8') as output_file:
+            output_file.write("#EXTM3U\n")
+            
+            for item in items_with_media:
+                clean_title = item['title'].replace('\n', ' ').replace('\r', '').strip()
+                
+                # Se há múltiplos arquivos de mídia, criar entrada para cada um
+                for media in item['media_files']:
+                    filename = media['filename']
+                    download_url = media['download_url']
+                    file_format = media['format']
+                    
+                    # Criar título descritivo
+                    media_title = f"{clean_title} - {filename}"
+                    
+                    output_file.write(f'#EXTINF:-1 tvg-logo="" group-title="Archive.org",{media_title}\n')
+                    output_file.write(f"{download_url}\n")
+        
+        print(f"Arquivo M3U criado com sucesso!")
+    
+    def run(self, max_items=50):
+        """Executa o processo completo de extração"""
+        try:
+            # Extrair lista de itens
+            self.items_info = self.extract_tv_items_from_main_page(max_items)
+            
+            if not self.items_info:
+                print("Nenhum item encontrado. Encerrando.")
+                return
+            
+            print(f"\nTotal de {len(self.items_info)} itens para processar")
+            
+            # Processar cada item
+            processed_count = 0
+            found_media_count = 0
+            items_with_media = []
+            
+            for i, item in enumerate(self.items_info):
+                print(f"\n[{i+1}/{len(self.items_info)}] Processando: {item['title']}")
+                
+                media_files = self.extract_media_from_item(item['url'], item['title'], item['itemId'])
+                processed_count += 1
+                
+                if media_files:
+                    found_media_count += 1
+                    
+                    # Validar pelo menos um arquivo
+                    valid_files = []
+                    for media in media_files[:3]:  # Verificar apenas os primeiros 3 arquivos
+                        if self.validate_media_link(media['download_url']):
+                            valid_files.append(media)
+                            print(f"    ✓ Arquivo válido: {media['filename']}")
+                        else:
+                            print(f"    ✗ Arquivo inacessível: {media['filename']}")
+                    
+                    if valid_files:
+                        item['media_files'] = valid_files
+                        items_with_media.append(item)
+                        print(f"  ✓ Item adicionado com {len(valid_files)} arquivo(s)")
+                    else:
+                        print(f"  ✗ Nenhum arquivo válido encontrado")
+                else:
+                    print(f"  ✗ Item sem mídia válida")
+                
+                # Pequena pausa entre itens
+                time.sleep(2)
+            
+            # Criar arquivo M3U
+            if items_with_media:
+                self.create_m3u_file(items_with_media)
+            
+            # Relatório final
+            print(f"\n" + "="*50)
+            print(f"PROCESSAMENTO CONCLUÍDO - ARCHIVE.ORG")
+            print(f"="*50)
+            print(f"Total de itens processados: {processed_count}")
+            print(f"Total de itens com mídia: {found_media_count}")
+            print(f"Taxa de sucesso: {(found_media_count/processed_count)*100:.1f}%")
+            print(f"Arquivo M3U gerado: {self.output_filename}")
+            
+            # Salvar relatório detalhado
+            self.save_detailed_report(items_with_media, processed_count, found_media_count)
+            
+        except Exception as e:
+            print(f"Erro crítico no processamento: {e}")
+        finally:
+            if self.driver:
+                print("Fechando o WebDriver...")
+                self.driver.quit()
+                print("Script finalizado.")
+    
+    def save_detailed_report(self, items_with_media, processed_count, found_media_count):
+        """Salva um relatório detalhado do processamento"""
+        report_filename = "archive_org_extraction_report.txt"
+        
+        with open(report_filename, "w", encoding='utf-8') as report_file:
+            report_file.write("RELATÓRIO DE EXTRAÇÃO - ARCHIVE.ORG\n")
+            report_file.write("="*45 + "\n\n")
+            report_file.write(f"Data/Hora: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            report_file.write(f"Total de itens processados: {processed_count}\n")
+            report_file.write(f"Total de itens com mídia: {found_media_count}\n")
+            report_file.write(f"Taxa de sucesso: {(found_media_count/processed_count)*100:.1f}%\n\n")
+            
+            report_file.write("ITENS COM MÍDIA DISPONÍVEL:\n")
+            report_file.write("-"*30 + "\n")
+            
+            for i, item in enumerate(items_with_media, 1):
+                report_file.write(f"{i}. {item['title']}\n")
+                report_file.write(f"   URL: {item['url']}\n")
+                report_file.write(f"   Item ID: {item['itemId']}\n")
+                report_file.write(f"   Arquivos de mídia:\n")
+                
+                for media in item['media_files']:
+                    report_file.write(f"     - {media['filename']} ({media['format']})\n")
+                    report_file.write(f"       {media['download_url']}\n")
+                
+                report_file.write("\n")
+        
+        print(f"Relatório detalhado salvo: {report_filename}")
+
+def main():
+    """Função principal"""
+    print("Archive.org TV Extractor")
+    print("Este script extrai arquivos de vídeo históricos do Archive.org")
+    print("Nota: Este não é um serviço de IPTV ao vivo, mas um arquivo histórico")
+    
+    max_items = input("Quantos itens processar? (padrão: 20): ").strip()
+    if not max_items.isdigit():
+        max_items = 20
+    else:
+        max_items = int(max_items)
+    
+    extractor = ArchiveOrgTVExtractor()
+    extractor.run(max_items)
+
+if __name__ == "__main__":
+    main()
+
+# -*- coding: utf-8 -*-
+"""
+Script atualizado para extrair links de IPTV do site telearg.weebly.com
+Usando configuração específica do Chrome conforme solicitado
+"""
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+import requests
+import re
+import json
+
+print("Iniciando o script atualizado de extração do TeleArg...")
+
+class TeleArgExtractorUpdated:
+    def __init__(self):
+        self.main_url = "https://telearg.weebly.com/"
+        self.output_filename = "lista_telearg_updated.m3u"
+        self.channels_info = []
+        self.driver = None
+        self.setup_driver()
+    
+    def setup_driver(self):
+        """Configura o WebDriver com as especificações do usuário"""
+        print("Configurando o WebDriver...")
+        
+        # Configurações do Chrome conforme especificado pelo usuário
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--window-size=1280,720")
+        options.add_argument("--disable-infobars")
+        
+        try:
+            self.driver = webdriver.Chrome(options=options)
+            print("WebDriver configurado com sucesso.")
+        except Exception as e:
+            print(f"Erro ao configurar o WebDriver: {e}")
+            raise
+    
+    def extract_channels_from_main_page(self):
+        """Extrai lista de canais da página principal"""
+        print(f"Acessando a URL principal: {self.main_url}")
+        self.driver.get(self.main_url)
+        
+        # Aguardar carregamento da página
+        wait_time = 15
+        print(f"Aguardando {wait_time} segundos para carregamento...")
+        WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        
+        # Scroll para carregar todo o conteúdo
+        print("Fazendo scroll para carregar todos os canais...")
+        self.scroll_to_load_content()
+        
+        # Extrair canais usando JavaScript
+        print("Extraindo lista de canais...")
+        channels_data = self.extract_channels_with_js()
+        
+        print(f"Encontrados {len(channels_data)} canais válidos")
+        return channels_data
+    
+    def scroll_to_load_content(self):
+        """Faz scroll na página para carregar todo o conteúdo"""
+        last_height = self.driver.execute_script("return document.body.scrollHeight")
+        
+        for i in range(5):  # Máximo 5 scrolls
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(3)
+            new_height = self.driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                break
+            last_height = new_height
+    
+    def extract_channels_with_js(self):
+        """Extrai canais usando JavaScript"""
+        js_script = """
+        (() => {
+            const channels = [];
+            
+            // Buscar todos os links de canais na grade
+            const channelElements = document.querySelectorAll('a[href*=".html"]');
+            
+            channelElements.forEach((element, index) => {
+                const href = element.href;
+                const img = element.querySelector('img');
                 let title = '';
                 let logo = '';
-                let h3 = a.querySelector('h3.mt-2');
-                let img = a.querySelector('img');
-
-                if (h3) { title = h3.textContent.trim(); } // Use textContent
-                if (!title) { title = a.title; } // Use .title attribute
-                if (!title) { title = a.textContent.trim().split('\\n')[0].trim(); } // Use textContent, escape newline
-                if (img) { logo = img.src; } // Use .src for absolute URL
-
-                title = title ? title.trim() : '';
-
-                if (href && href.startsWith('http') && title) {
-                    links.push({ page_url: href, title: title, logo_url: logo || '' });
+                
+                if (img) {
+                    title = img.alt || '';
+                    logo = img.src || '';
+                }
+                
+                // Se não tem título do alt, tentar pegar do texto
+                if (!title) {
+                    title = element.textContent.trim();
+                }
+                
+                // Extrair nome do canal da URL se necessário
+                if (!title && href.includes('.html')) {
+                    const urlParts = href.split('/');
+                    const filename = urlParts[urlParts.length - 1];
+                    title = filename.replace('.html', '').replace(/-/g, ' ').toUpperCase();
+                }
+                
+                // Filtrar apenas canais válidos (não páginas de categoria)
+                const skipPages = [
+                    'argentina.html', 'noticias-internacionales.html', 'caba.html', 
+                    'buenos-aires.html', 'catamarca.html', 'chaco.html', 'chubut.html',
+                    'cordoba.html', 'corrientes.html', 'entre-rios.html', 'formosa.html',
+                    'jujuy.html', 'la-pampa.html', 'la-rioja.html', 'mendoza.html',
+                    'misiones.html', 'neuquen.html', 'rio-negro.html', 'salta.html',
+                    'san-juan.html', 'san-luis1.html', 'santa-cruz.html', 'santa-fe.html',
+                    'tierra-del-fuego.html', 'tucuman.html', 'religiosos.html', 'otros.html',
+                    'radio-tv.html', 'internacionales.html', 'streaming.html'
+                ];
+                
+                const isSkipPage = skipPages.some(page => href.includes(page));
+                
+                if (href && title && !isSkipPage && logo) {
+                    channels.push({
+                        title: title.trim(),
+                        url: href,
+                        logo: logo
+                    });
                 }
             });
-            return JSON.stringify(links); // Return JSON string
-            """
-            result_json = driver.execute_script(js_script)
-            channels_info_js = json.loads(result_json) # Decodifica o JSON
-
-            if isinstance(channels_info_js, list) and channels_info_js:
-                print(f"Encontrados {len(channels_info_js)} links via JavaScript.")
-                channels_info = channels_info_js # Usar os dados do JS
-            else:
-                print("Nenhum link encontrado via JavaScript ou retorno inválido.")
-                channels_info = []
-        except Exception as js_err:
-            # Captura erro do execute_script ou json.loads
-            print(f"Erro ao executar/processar JavaScript para encontrar links: {js_err}")
-            channels_info = [] # Garante que a lista está vazia em caso de erro
-
-    # Processar links encontrados via Selenium (se houver e se JS não pegou)
-    if channel_links and not channels_info: # Só processa se encontrou via Selenium E não via JS
-        print("Processando links encontrados via Selenium...")
-        for link_element in channel_links:
-            page_url = None
-            title = None
-            logo_url = None
-            try:
-                page_url = link_element.get_attribute('href')
-                if not page_url or not page_url.startswith("http"): # Ignora links inválidos
-                    print(f"  - Aviso: URL inválida ou ausente encontrada, pulando.")
-                    continue
-
-                # Tenta extrair o título
-                try:
-                    title_element = link_element.find_element(By.CSS_SELECTOR, 'h3.mt-2')
-                    title = title_element.text.strip()
-                except:
-                    try:
-                        title = link_element.get_attribute('title').strip()
-                    except:
-                        full_text = link_element.text.strip()
-                        if '\n' in full_text:
-                            title = full_text.split('\n')[0]
-                        else:
-                            title = full_text
-
-                # Tenta extrair a logo
-                try:
-                    img_element = link_element.find_element(By.TAG_NAME, 'img')
-                    logo_url = img_element.get_attribute('src')
-                except:
-                    logo_url = ""
-
-                # Limpeza final do título
-                title = title.strip() if title else ''
-
-                if page_url and title:
-                    channels_info.append({
-                        'title': title,
-                        'page_url': page_url,
-                        'logo_url': logo_url
-                    })
-                    print(f"  - Canal adicionado (Selenium): {title} ({page_url})")
-                else:
-                     print(f"  - Aviso: Link ({page_url}) ou título ({title}) ausente/vazio (Selenium).")
-
-            except Exception as e:
-                print(f"Erro ao processar um link da busca (Selenium) ({page_url}): {e}")
-
-# --- Fim do bloco principal de extração ---
-except Exception as main_err:
-    print(f"Erro crítico durante o carregamento/processamento da página de busca: {main_err}")
-    try:
-        driver.save_screenshot("erro_busca_critico.png")
-        print("Screenshot 'erro_busca_critico.png' salvo.")
-    except:
-        print("Não foi possível salvar o screenshot de erro crítico.")
-
-# --- Continua mesmo se houve erro na busca, para tentar processar o que foi encontrado ---
-
-# Se nenhum canal foi encontrado por nenhum método
-if not channels_info:
-    print("\nNenhum canal encontrado após todas as tentativas (Selenium e JS). Verifique screenshots de erro se existirem. Saindo.")
-    driver.quit()
-    exit()
-
-print(f"\nTotal de {len(channels_info)} canais encontrados para processar.")
-
-# Função para extrair o link m3u8 (mantida como antes)
-def extract_m3u8_url(driver, url):
-    print(f"  Acessando página do canal: {url}")
-    m3u8_url = None
-    try:
-        driver.get(url)
-        print("  Aguardando até 60 segundos para carregamento e possível início do stream...")
-        time.sleep(60)
-
-        print("  Verificando logs de rede para M3U8...")
+            
+            return channels;
+        })();
+        """
+        
         try:
-            log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
+            return self.driver.execute_script(js_script)
+        except Exception as e:
+            print(f"Erro ao extrair canais: {e}")
+            return []
+    
+    def validate_m3u8_link(self, url, timeout=10):
+        """Valida se um link m3u8 está funcionando"""
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+            
+            response = requests.head(url, timeout=timeout, allow_redirects=True, headers=headers)
+            if response.status_code == 200:
+                return True
+            
+            response = requests.get(url, timeout=timeout, stream=True, headers=headers)
+            if response.status_code == 200:
+                content = response.iter_content(chunk_size=1024).__next__().decode('utf-8', errors='ignore')
+                if '#EXTM3U' in content or '#EXT-X-' in content:
+                    return True
+            
+            return False
+        except Exception as e:
+            print(f"    Erro na validação: {e}")
+            return False
+    
+    def extract_m3u8_from_network_logs(self):
+        """Extrai links m3u8 dos logs de rede"""
+        try:
+            log_entries = self.driver.execute_script("return window.performance.getEntriesByType('resource');")
+            m3u8_links = []
+            
             for entry in log_entries:
                 if entry and 'name' in entry and ".m3u8" in entry['name']:
-                    m3u8_url = entry['name']
-                    print(f"    * Encontrado M3U8 nos logs de rede: {m3u8_url}")
-                    return m3u8_url
-        except Exception as log_err:
-            print(f"    Erro ao obter logs de rede: {log_err}")
-
-        if not m3u8_url:
-             print("    - Nenhum M3U8 encontrado nos logs de rede iniciais. Verificando iframes...")
-             try:
-                 iframes = driver.find_elements(By.TAG_NAME, 'iframe')
-                 if iframes:
-                     print(f"    Encontrado(s) {len(iframes)} iframe(s).")
-                     for i, frame in enumerate(iframes):
-                         try:
-                             print(f"      Entrando no iframe {i}...")
-                             driver.switch_to.frame(frame)
-                             print("      Aguardando 15 segundos dentro do iframe...")
-                             time.sleep(15)
-                             print("      Verificando logs de rede dentro do iframe...")
-                             iframe_log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
-                             for entry in iframe_log_entries:
-                                 if entry and 'name' in entry and ".m3u8" in entry['name']:
-                                     m3u8_url = entry['name']
-                                     print(f"        * Encontrado M3U8 no iframe: {m3u8_url}")
-                                     driver.switch_to.default_content()
-                                     return m3u8_url
-                             print(f"      Saindo do iframe {i} (M3U8 não encontrado nele).")
-                             driver.switch_to.default_content()
-                         except Exception as frame_error:
-                             print(f"      Erro ao processar iframe {i}: {frame_error}")
-                             try:
-                                 driver.switch_to.default_content()
-                             except:
-                                 pass
-                 else:
-                     print("    Nenhum iframe encontrado na página.")
-             except Exception as iframe_find_error:
-                 print(f"    Erro ao procurar/processar iframes: {iframe_find_error}")
-
-        if not m3u8_url:
-            print("  M3U8 não encontrado após todas as tentativas.")
-            try:
-                safe_filename = f"erro_m3u8_{url.split('//')[-1].replace('/', '_').replace('?', '_').replace('=', '_')}.png"
-                driver.save_screenshot(safe_filename)
-                print(f"  Screenshot '{safe_filename}' salvo.")
-            except Exception as ss_error:
-                print(f"  Não foi possível salvar o screenshot de erro M3U8: {ss_error}")
-        return None
-
-    except Exception as e:
-        print(f"  Erro crítico ao processar a página do canal {url}: {e}")
+                    m3u8_links.append(entry['name'])
+            
+            return m3u8_links
+        except Exception as e:
+            print(f"    Erro ao obter logs de rede: {e}")
+            return []
+    
+    def extract_m3u8_from_page_source(self):
+        """Extrai links m3u8 do código fonte da página"""
         try:
-            safe_filename = f"erro_pagina_{url.split('//')[-1].replace('/', '_').replace('?', '_').replace('=', '_')}.png"
-            driver.save_screenshot(safe_filename)
-            print(f"  Screenshot '{safe_filename}' salvo.")
-        except Exception as ss_error:
-             print(f"  Não foi possível salvar o screenshot de erro da página: {ss_error}")
-        return None
+            page_source = self.driver.page_source
+            # Padrões para encontrar links m3u8
+            patterns = [
+                r'https?://[^\s"\']+\.m3u8[^\s"\']*',
+                r'"(https?://[^"]+\.m3u8[^"]*)"',
+                r"'(https?://[^']+\.m3u8[^']*)'"
+            ]
+            
+            m3u8_links = []
+            for pattern in patterns:
+                matches = re.findall(pattern, page_source, re.IGNORECASE)
+                m3u8_links.extend(matches)
+            
+            # Remover duplicatas
+            return list(set(m3u8_links))
+        except Exception as e:
+            print(f"    Erro ao extrair do código fonte: {e}")
+            return []
+    
+    def extract_m3u8_url(self, channel_url, channel_title):
+        """Extrai o link m3u8 de uma página de canal"""
+        print(f"  Processando: {channel_title}")
+        print(f"  URL: {channel_url}")
+        
+        try:
+            self.driver.get(channel_url)
+            
+            # Aguardar carregamento inicial
+            time.sleep(10)
+            
+            # Primeira tentativa: logs de rede
+            print("  Verificando logs de rede...")
+            m3u8_links = self.extract_m3u8_from_network_logs()
+            
+            for link in m3u8_links:
+                print(f"    * Testando M3U8: {link}")
+                if self.validate_m3u8_link(link):
+                    print(f"    ✓ Link validado com sucesso")
+                    return link
+                else:
+                    print(f"    ✗ Link não está funcionando")
+            
+            # Segunda tentativa: aguardar mais tempo
+            print("  Aguardando mais tempo para carregamento...")
+            time.sleep(30)
+            
+            m3u8_links = self.extract_m3u8_from_network_logs()
+            for link in m3u8_links:
+                print(f"    * Testando M3U8 (2ª tentativa): {link}")
+                if self.validate_m3u8_link(link):
+                    print(f"    ✓ Link validado com sucesso")
+                    return link
+            
+            # Terceira tentativa: código fonte
+            print("  Verificando código fonte...")
+            m3u8_links = self.extract_m3u8_from_page_source()
+            
+            for link in m3u8_links:
+                print(f"    * Testando M3U8 do código fonte: {link}")
+                if self.validate_m3u8_link(link):
+                    print(f"    ✓ Link do código fonte validado")
+                    return link
+            
+            # Quarta tentativa: verificar iframes
+            print("  Verificando iframes...")
+            return self.extract_from_iframes()
+            
+        except Exception as e:
+            print(f"  Erro crítico ao processar {channel_title}: {e}")
+            return None
+    
+    def extract_from_iframes(self):
+        """Extrai links m3u8 de iframes"""
+        try:
+            iframes = self.driver.find_elements(By.TAG_NAME, 'iframe')
+            if not iframes:
+                print("    Nenhum iframe encontrado")
+                return None
+            
+            print(f"    Encontrado(s) {len(iframes)} iframe(s)")
+            
+            for i, frame in enumerate(iframes):
+                try:
+                    print(f"      Processando iframe {i+1}...")
+                    self.driver.switch_to.frame(frame)
+                    time.sleep(15)
+                    
+                    # Verificar logs de rede do iframe
+                    iframe_links = self.extract_m3u8_from_network_logs()
+                    
+                    for link in iframe_links:
+                        print(f"        * Testando M3U8 do iframe: {link}")
+                        self.driver.switch_to.default_content()
+                        
+                        if self.validate_m3u8_link(link):
+                            print(f"        ✓ Link do iframe validado")
+                            return link
+                        
+                        # Voltar para o iframe para continuar
+                        self.driver.switch_to.frame(frame)
+                    
+                    self.driver.switch_to.default_content()
+                    
+                except Exception as frame_error:
+                    print(f"      Erro ao processar iframe {i+1}: {frame_error}")
+                    try:
+                        self.driver.switch_to.default_content()
+                    except:
+                        pass
+            
+            return None
+            
+        except Exception as e:
+            print(f"    Erro ao processar iframes: {e}")
+            return None
+    
+    def create_m3u_file(self, channels_with_links):
+        """Cria o arquivo M3U com os canais encontrados"""
+        print(f"\nCriando arquivo M3U: {self.output_filename}")
+        
+        with open(self.output_filename, "w", encoding='utf-8') as output_file:
+            output_file.write("#EXTM3U\n")
+            
+            for channel in channels_with_links:
+                clean_title = channel['title'].replace('\n', ' ').replace('\r', '').strip()
+                logo_url = channel.get('logo', '')
+                m3u8_link = channel['m3u8_url']
+                
+                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="TeleArg",{clean_title}\n')
+                output_file.write(f"{m3u8_link}\n")
+        
+        print(f"Arquivo M3U criado com sucesso!")
+    
+    def run(self):
+        """Executa o processo completo de extração"""
+        try:
+            # Extrair lista de canais
+            self.channels_info = self.extract_channels_from_main_page()
+            
+            if not self.channels_info:
+                print("Nenhum canal encontrado. Encerrando.")
+                return
+            
+            print(f"\nTotal de {len(self.channels_info)} canais para processar")
+            
+            # Processar cada canal
+            processed_count = 0
+            found_m3u8_count = 0
+            channels_with_links = []
+            
+            for i, channel in enumerate(self.channels_info):
+                print(f"\n[{i+1}/{len(self.channels_info)}] Processando: {channel['title']}")
+                
+                m3u8_link = self.extract_m3u8_url(channel['url'], channel['title'])
+                processed_count += 1
+                
+                if m3u8_link:
+                    found_m3u8_count += 1
+                    channel['m3u8_url'] = m3u8_link
+                    channels_with_links.append(channel)
+                    print(f"  ✓ Link encontrado e validado")
+                else:
+                    print(f"  ✗ Canal sem link válido")
+                
+                # Pequena pausa entre canais
+                time.sleep(2)
+            
+            # Criar arquivo M3U
+            if channels_with_links:
+                self.create_m3u_file(channels_with_links)
+            
+            # Relatório final
+            print(f"\n" + "="*50)
+            print(f"PROCESSAMENTO CONCLUÍDO - TELEARG (ATUALIZADO)")
+            print(f"="*50)
+            print(f"Total de canais processados: {processed_count}")
+            print(f"Total de links M3U8 encontrados: {found_m3u8_count}")
+            print(f"Taxa de sucesso: {(found_m3u8_count/processed_count)*100:.1f}%")
+            print(f"Arquivo M3U gerado: {self.output_filename}")
+            
+            # Salvar relatório detalhado
+            self.save_detailed_report(channels_with_links, processed_count, found_m3u8_count)
+            
+        except Exception as e:
+            print(f"Erro crítico no processamento: {e}")
+        finally:
+            if self.driver:
+                print("Fechando o WebDriver...")
+                self.driver.quit()
+                print("Script finalizado.")
+    
+    def save_detailed_report(self, channels_with_links, processed_count, found_m3u8_count):
+        """Salva um relatório detalhado do processamento"""
+        report_filename = "telearg_updated_extraction_report.txt"
+        
+        with open(report_filename, "w", encoding='utf-8') as report_file:
+            report_file.write("RELATÓRIO DE EXTRAÇÃO - TELEARG (ATUALIZADO)\n")
+            report_file.write("="*50 + "\n\n")
+            report_file.write(f"Data/Hora: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            report_file.write(f"Total de canais processados: {processed_count}\n")
+            report_file.write(f"Total de links M3U8 encontrados: {found_m3u8_count}\n")
+            report_file.write(f"Taxa de sucesso: {(found_m3u8_count/processed_count)*100:.1f}%\n\n")
+            
+            report_file.write("CANAIS COM LINKS FUNCIONAIS:\n")
+            report_file.write("-"*30 + "\n")
+            
+            for i, channel in enumerate(channels_with_links, 1):
+                report_file.write(f"{i}. {channel['title']}\n")
+                report_file.write(f"   URL: {channel['url']}\n")
+                report_file.write(f"   M3U8: {channel['m3u8_url']}\n")
+                report_file.write(f"   Logo: {channel.get('logo', 'N/A')}\n\n")
+        
+        print(f"Relatório detalhado salvo: {report_filename}")
 
-# Processar cada canal encontrado
-print("\nIniciando processamento individual dos canais para extrair M3U8...")
+def main():
+    """Função principal"""
+    extractor = TeleArgExtractorUpdated()
+    extractor.run()
 
-processed_count = 0
-found_m3u8_count = 0
+if __name__ == "__main__":
+    main()
 
-# Abrir o arquivo de saída M3U
-with open(output_filename, "w", encoding='utf-8') as output_file:
-    output_file.write("#EXTM3U\n")
+# -*- coding: utf-8 -*-
+"""
+Script para extrair links de IPTV do site 5900.tv
+Adaptado para funcionar com players do Twitch embarcados
+"""
 
-    for i, channel in enumerate(channels_info):
-        print(f"\nProcessando canal {i+1}/{len(channels_info)}: {channel['title']}")
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+import requests
+import re
+import json
 
-        m3u8_link = extract_m3u8_url(driver, channel['page_url'])
-        processed_count += 1
+print("Iniciando o script de extração do 5900.tv...")
 
-        if m3u8_link:
-            found_m3u8_count += 1
-            clean_title = channel['title'].replace('\n', ' ').replace('\r', '').strip()
-            output_file.write(f'#EXTINF:-1 tvg-logo="{channel["logo_url"]}" group-title="Record",{clean_title}\n')
-            output_file.write(f"{m3u8_link}\n")
-            print(f"  -> M3U8 encontrado e adicionado ao arquivo: {m3u8_link}")
-        else:
-            print(f"  -> M3U8 não encontrado para {channel['title']}")
+class FiveNineHundredTVExtractor:
+    def __init__(self):
+        self.main_url = "https://www.5900.tv/category/vivo/television/"
+        self.output_filename = "lista_5900tv.m3u"
+        self.channels_info = []
+        self.driver = None
+        self.setup_driver()
+    
+    def setup_driver(self):
+        """Configura o WebDriver com as especificações do usuário"""
+        print("Configurando o WebDriver...")
+        
+        # Configurações do Chrome conforme especificado pelo usuário
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--window-size=1280,720")
+        options.add_argument("--disable-infobars")
+        
+        try:
+            self.driver = webdriver.Chrome(options=options)
+            print("WebDriver configurado com sucesso.")
+        except Exception as e:
+            print(f"Erro ao configurar o WebDriver: {e}")
+            raise
+    
+    def extract_channels_from_main_page(self):
+        """Extrai lista de canais da página principal"""
+        print(f"Acessando a URL principal: {self.main_url}")
+        self.driver.get(self.main_url)
+        
+        # Aguardar carregamento da página
+        wait_time = 15
+        print(f"Aguardando {wait_time} segundos para carregamento...")
+        WebDriverWait(self.driver, wait_time).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        
+        # Scroll para carregar todo o conteúdo
+        print("Fazendo scroll para carregar todos os canais...")
+        self.scroll_to_load_content()
+        
+        # Extrair canais usando JavaScript
+        print("Extraindo lista de canais...")
+        channels_data = self.extract_channels_with_js()
+        
+        print(f"Encontrados {len(channels_data)} canais válidos")
+        return channels_data
+    
+    def scroll_to_load_content(self):
+        """Faz scroll na página para carregar todo o conteúdo"""
+        last_height = self.driver.execute_script("return document.body.scrollHeight")
+        
+        for i in range(3):  # Máximo 3 scrolls
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(3)
+            new_height = self.driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                break
+            last_height = new_height
+    
+    def extract_channels_with_js(self):
+        """Extrai canais usando JavaScript"""
+        js_script = """
+        (() => {
+            const channels = [];
+            
+            // Buscar todos os links de canais na seção de televisión
+            const channelElements = document.querySelectorAll('a[href*="5900.tv"]');
+            
+            channelElements.forEach((element, index) => {
+                const href = element.href;
+                const img = element.querySelector('img');
+                let title = '';
+                let logo = '';
+                
+                // Extrair título e logo
+                if (img) {
+                    title = img.alt || '';
+                    logo = img.src || '';
+                }
+                
+                // Se não tem título do alt, tentar pegar do texto do link
+                if (!title) {
+                    const textContent = element.textContent.trim();
+                    if (textContent && textContent.length > 0) {
+                        title = textContent;
+                    }
+                }
+                
+                // Filtrar apenas links de canais válidos (não categorias)
+                const isChannelPage = href.includes('5900.tv/') && 
+                                    !href.includes('/category/') && 
+                                    !href.includes('/tag/') &&
+                                    href !== 'https://www.5900.tv/' &&
+                                    title.length > 0;
+                
+                if (isChannelPage && title) {
+                    channels.push({
+                        title: title.trim(),
+                        url: href,
+                        logo: logo
+                    });
+                }
+            });
+            
+            // Remover duplicatas baseado na URL
+            const uniqueChannels = [];
+            const seenUrls = new Set();
+            
+            channels.forEach(channel => {
+                if (!seenUrls.has(channel.url)) {
+                    seenUrls.add(channel.url);
+                    uniqueChannels.push(channel);
+                }
+            });
+            
+            return uniqueChannels;
+        })();
+        """
+        
+        try:
+            return self.driver.execute_script(js_script)
+        except Exception as e:
+            print(f"Erro ao extrair canais: {e}")
+            return []
+    
+    def extract_twitch_channel_from_page(self, channel_url, channel_title):
+        """Extrai o canal do Twitch de uma página específica"""
+        print(f"  Processando: {channel_title}")
+        print(f"  URL: {channel_url}")
+        
+        try:
+            self.driver.get(channel_url)
+            time.sleep(10)  # Aguardar carregamento
+            
+            # Procurar por iframe do Twitch
+            print("  Procurando player do Twitch...")
+            
+            js_script = """
+            (() => {
+                const iframes = document.querySelectorAll('iframe');
+                const twitchData = [];
+                
+                iframes.forEach(iframe => {
+                    const src = iframe.src;
+                    if (src && src.includes('twitch.tv')) {
+                        // Extrair nome do canal do Twitch
+                        const urlParams = new URLSearchParams(src.split('?')[1]);
+                        const channel = urlParams.get('channel');
+                        
+                        if (channel) {
+                            twitchData.push({
+                                twitchChannel: channel,
+                                embedUrl: src,
+                                streamUrl: `https://www.twitch.tv/${channel}`
+                            });
+                        }
+                    }
+                });
+                
+                return twitchData;
+            })();
+            """
+            
+            twitch_data = self.driver.execute_script(js_script)
+            
+            if twitch_data and len(twitch_data) > 0:
+                twitch_info = twitch_data[0]
+                print(f"    ✓ Canal Twitch encontrado: {twitch_info['twitchChannel']}")
+                return twitch_info
+            else:
+                print(f"    ✗ Nenhum player Twitch encontrado")
+                return None
+                
+        except Exception as e:
+            print(f"  Erro ao processar {channel_title}: {e}")
+            return None
+    
+    def convert_twitch_to_m3u8(self, twitch_channel):
+        """Converte canal do Twitch para URL M3U8 (se possível)"""
+        # Nota: Twitch usa URLs M3U8 dinâmicas que requerem autenticação
+        # Esta é uma aproximação - URLs reais podem variar
+        try:
+            # URL base para streams do Twitch (pode não funcionar sem autenticação)
+            m3u8_url = f"https://usher.ttvnw.net/api/channel/hls/{twitch_channel}.m3u8"
+            
+            # Verificar se a URL responde (provavelmente falhará sem token)
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+            
+            try:
+                response = requests.head(m3u8_url, timeout=5, headers=headers)
+                if response.status_code == 200:
+                    return m3u8_url
+            except:
+                pass
+            
+            # Retornar URL do Twitch como fallback
+            return f"https://www.twitch.tv/{twitch_channel}"
+            
+        except Exception as e:
+            print(f"    Erro na conversão: {e}")
+            return f"https://www.twitch.tv/{twitch_channel}"
+    
+    def create_m3u_file(self, channels_with_links):
+        """Cria o arquivo M3U com os canais encontrados"""
+        print(f"\nCriando arquivo M3U: {self.output_filename}")
+        
+        with open(self.output_filename, "w", encoding='utf-8') as output_file:
+            output_file.write("#EXTM3U\n")
+            
+            for channel in channels_with_links:
+                clean_title = channel['title'].replace('\n', ' ').replace('\r', '').strip()
+                logo_url = channel.get('logo', '')
+                stream_url = channel['stream_url']
+                
+                # Adicionar informação do Twitch se disponível
+                if 'twitch_channel' in channel:
+                    group_title = f"5900TV-Twitch"
+                    clean_title = f"{clean_title} (Twitch: {channel['twitch_channel']})"
+                else:
+                    group_title = "5900TV"
+                
+                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="{group_title}",{clean_title}\n')
+                output_file.write(f"{stream_url}\n")
+        
+        print(f"Arquivo M3U criado com sucesso!")
+    
+    def run(self):
+        """Executa o processo completo de extração"""
+        try:
+            # Extrair lista de canais
+            self.channels_info = self.extract_channels_from_main_page()
+            
+            if not self.channels_info:
+                print("Nenhum canal encontrado. Encerrando.")
+                return
+            
+            print(f"\nTotal de {len(self.channels_info)} canais para processar")
+            
+            # Processar cada canal
+            processed_count = 0
+            found_streams_count = 0
+            channels_with_links = []
+            
+            for i, channel in enumerate(self.channels_info):
+                print(f"\n[{i+1}/{len(self.channels_info)}] Processando: {channel['title']}")
+                
+                twitch_info = self.extract_twitch_channel_from_page(channel['url'], channel['title'])
+                processed_count += 1
+                
+                if twitch_info:
+                    found_streams_count += 1
+                    
+                    # Tentar converter para M3U8 ou usar URL do Twitch
+                    stream_url = self.convert_twitch_to_m3u8(twitch_info['twitchChannel'])
+                    
+                    channel['stream_url'] = stream_url
+                    channel['twitch_channel'] = twitch_info['twitchChannel']
+                    channel['embed_url'] = twitch_info['embedUrl']
+                    
+                    channels_with_links.append(channel)
+                    print(f"  ✓ Stream encontrado")
+                else:
+                    print(f"  ✗ Canal sem stream válido")
+                
+                # Pequena pausa entre canais
+                time.sleep(2)
+            
+            # Criar arquivo M3U
+            if channels_with_links:
+                self.create_m3u_file(channels_with_links)
+            
+            # Relatório final
+            print(f"\n" + "="*50)
+            print(f"PROCESSAMENTO CONCLUÍDO - 5900.TV")
+            print(f"="*50)
+            print(f"Total de canais processados: {processed_count}")
+            print(f"Total de streams encontrados: {found_streams_count}")
+            print(f"Taxa de sucesso: {(found_streams_count/processed_count)*100:.1f}%")
+            print(f"Arquivo M3U gerado: {self.output_filename}")
+            
+            # Salvar relatório detalhado
+            self.save_detailed_report(channels_with_links, processed_count, found_streams_count)
+            
+        except Exception as e:
+            print(f"Erro crítico no processamento: {e}")
+        finally:
+            if self.driver:
+                print("Fechando o WebDriver...")
+                self.driver.quit()
+                print("Script finalizado.")
+    
+    def save_detailed_report(self, channels_with_links, processed_count, found_streams_count):
+        """Salva um relatório detalhado do processamento"""
+        report_filename = "5900tv_extraction_report.txt"
+        
+        with open(report_filename, "w", encoding='utf-8') as report_file:
+            report_file.write("RELATÓRIO DE EXTRAÇÃO - 5900.TV\n")
+            report_file.write("="*40 + "\n\n")
+            report_file.write(f"Data/Hora: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            report_file.write(f"Total de canais processados: {processed_count}\n")
+            report_file.write(f"Total de streams encontrados: {found_streams_count}\n")
+            report_file.write(f"Taxa de sucesso: {(found_streams_count/processed_count)*100:.1f}%\n\n")
+            
+            report_file.write("CANAIS COM STREAMS FUNCIONAIS:\n")
+            report_file.write("-"*30 + "\n")
+            
+            for i, channel in enumerate(channels_with_links, 1):
+                report_file.write(f"{i}. {channel['title']}\n")
+                report_file.write(f"   URL: {channel['url']}\n")
+                report_file.write(f"   Stream: {channel['stream_url']}\n")
+                if 'twitch_channel' in channel:
+                    report_file.write(f"   Twitch: {channel['twitch_channel']}\n")
+                report_file.write(f"   Logo: {channel.get('logo', 'N/A')}\n\n")
+        
+        print(f"Relatório detalhado salvo: {report_filename}")
 
-print(f"\nProcessamento concluído.")
-print(f"Total de canais processados: {processed_count}")
-print(f"Total de links M3U8 encontrados: {found_m3u8_count}")
-print(f"Arquivo M3U gerado: {output_filename}")
+def main():
+    """Função principal"""
+    extractor = FiveNineHundredTVExtractor()
+    extractor.run()
 
-# Sair do driver
-print("Fechando o WebDriver...")
-driver.quit()
-print("Script finalizado.")
+if __name__ == "__main__":
+    main()
+
+
 
 
 
