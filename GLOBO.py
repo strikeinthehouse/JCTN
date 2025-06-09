@@ -17,6 +17,43 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
+    "https://telearg.weebly.com/telefe.html",  # Telefe
+    "https://telearg.weebly.com/el-trece.html",  # El Trece
+    "https://telearg.weebly.com/el-nueve.html",  # El Nueve
+    "https://telearg.weebly.com/america-tv.html",  # América TV
+    "https://telearg.weebly.com/television-publica.html",  # TV Pública
+    "https://telearg.weebly.com/net-tv.html",  # Net TV
+    "https://telearg.weebly.com/bravo-tv.html",  # Bravo TV
+    "https://telearg.weebly.com/tn.html",  # TN
+    "https://telearg.weebly.com/c5n.html",  # C5N
+    "https://telearg.weebly.com/cronica-tv.html",  # Crónica TV
+    "https://telearg.weebly.com/a24.html",  # A24
+    "https://telearg.weebly.com/ln.html",  # LN+
+    "https://telearg.weebly.com/canal-26.html",  # Canal 26
+    "https://telearg.weebly.com/ip.html",  # IP
+    "https://telearg.weebly.com/extra-tv.html",  # Extra TV
+    "https://telearg.weebly.com/deportv.html",  # DeporTV
+    "https://telearg.weebly.com/el-garage-tv.html",  # El Garage TV
+    "https://telearg.weebly.com/america-sports.html",  # América Sports
+    "https://telearg.weebly.com/pakapaka.html",  # Pakapaka
+    "https://telearg.weebly.com/cinear.html",  # Cine.AR
+    "https://telearg.weebly.com/construir-tv.html",  # Construir TV
+    "https://telearg.weebly.com/viajar-tv.html",  # Viajar TV
+    "https://telearg.weebly.com/encuentro.html",  # Encuentro
+    "https://telearg.weebly.com/tec.html",  # TEC TV
+    "https://telearg.weebly.com/quiero-musica.html",  # Quiero Música
+    "https://telearg.weebly.com/cm.html",  # CM
+    "https://telearg.weebly.com/musictop.html",  # Music Top
+    "https://telearg.weebly.com/tierra-mia-tv.html",  # Tierra Mía TV
+    "https://telearg.weebly.com/el-folcklorico-tv.html",  # El Folklórico TV
+    "https://telearg.weebly.com/ciudad-magazine.html",  # Ciudad Magazine
+    "https://telearg.weebly.com/unife.html",  # Unife
+    "https://telearg.weebly.com/kzo.html",  # KZO
+    "https://telearg.weebly.com/el-destape.html",  # El Destape
+    "https://telearg.weebly.com/diputados-tv.html",  # Diputados TV
+    "https://telearg.weebly.com/canal-e.html",  # Canal E
+    "https://telearg.weebly.com/canal-rural.html",  # Canal Rural
+    "https://telearg.weebly.com/chacra-tv.html",  # Chacra TV
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",  # Bom Dia Cidade Ribeirão Preto
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
     "https://g1.globo.com/sp/campinas-regiao/ao-vivo/eptv-2-campinas-ao-vivo.ghtml"
