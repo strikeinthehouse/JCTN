@@ -132,6 +132,8 @@ http://177.128.115.10:8000/play/a0a6/116203
 https://live.obslivestream.com/telecolormux/tracks-v1a1/mono.m3u8
 
 
+#EXTINF:-1 group-title="Argentina" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png",Telefe
+https://telefeviacom1.akamaized.net/hls/live/2037987/viacomINT/TOK/master-wild1.m3u8
 
 #EXTINF:-1 group-title="Argentina" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png",Telefe
 http://181.13.173.86:8000/play/a06c/index.m3u8
@@ -162,11 +164,41 @@ http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/chunklist_w2131508282.m3u8
 #EXTINF:-1 group-title="Argentina" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png",13 Max FHD
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 
+
+
+
+
+#EXTINF:-1 tvg-logo="" group-title="Argentina", TN - VER TV ABIERTA ONLINE
+https://live-01-01-tn.vodgc.net/TN24/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", EL GARAGE TV - VER TV ABIERTA ONLINE
+https://stream1.sersat.com/hls/garagetv.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", CONSTRUIR TV - VER TV ABIERTA ONLINE
+https://prd.jwpltx.com/v1/error/ping.gif?h=-696662129&e=err&n=9438903491052099&aid=eGDB2EujEeKZwiIACp8kUw&amp=0&at=1&c=-1&ccp=0&cp=0&d=1&eb=0&ed=6&emi=hrpbgy1n1k43&i=0&lid=1uypogw98gii&lsa=set&mt=1&pbd=1&pbr=1&pgi=s60wzdti3wpq&ph=0&pii=0&pl=631&plc=1&pli=gjl0v9cbqqd7&pp=hlsjs&prc=1&ps=4&pss=1&pt=CONSTRUIR%20TV%20-%20VER%20TV%20ABIERTA%20ONLINE&pu=https%3A%2F%2Ftelearg.weebly.com%2Fconstruir-tv.html&pv=8.21.0&pyc=0&s=1&sdk=0&stc=1&stpe=0&tv=3.37.0&vb=1&vi=0.57&vl=90&wd=1121&cme=0&erc=232001&mu=https%3A%2F%2Frouter.cdn.rcs.net.ar%2Fmnp%2Fconstruiriptv_hls%2Fplaylist.m3u8&pogt=CONSTRUIR%20TV&sa=1749440479222
+#EXTINF:-1 tvg-logo="" group-title="Argentina", VIAJAR TV - VER TV ABIERTA ONLINE
+https://stmv5.livecastv.com/manualtman/manualtman/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", TEC - VER TV ABIERTA ONLINE
+https://vd01.streaminghd.net.ar:3787/live/jcslppmtlive.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", MUSICTOP - VER TV ABIERTA ONLINE
+https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina"", TIERRA MIA TV - VER TV ABIERTA ONLINE
+https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", EL FOLCKLORICO TV - VER TV ABIERTA ONLINE
+https://tvstream.t5satelital.blog/hls/elfolklorico.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", CIUDAD MAGAZINE - VER TV ABIERTA ONLINE
+https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", KZO - VER TV ABIERTA ONLINE
+https://dsr.ride.com.ar/tvmia/an19/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Argentina", CANAL E - VER TV ABIERTA ONLINE
+https://unlimited1-buenosaires.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png" group-title="Argentina",El Trece - TDA 13.1
 http://181.13.173.86:8000/play/a06d/index.m3u8
 
 #EXTINF:-1 tvg-id="13 de Argentina" tvg-name="13 de Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png" group-title="Argentina", El Trece - TDA 13.1
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
+
+#EXTINF:-1 tvg-id="13 de Argentina" tvg-name="13 de Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png" group-title="Argentina", El Trece - TDA 13.1
+https://livetrx01.vodgc.net/eltrecetv/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="13 de Argentina" tvg-name="13 de Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png" group-title="Argentina", El Trece - TDA 13.1
 http://181.191.140.2:8000/play/a0ir/index.m3u8
@@ -312,6 +344,8 @@ http://45.5.151.151:8000/play/a0dy/index.m3u8
 http://181.13.173.86:8000/play/a01o/index.m3u8
 
 #EXTM3U
+#EXTINF:-1 group-title="Argentina" tvg-id="NetTV.ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/NET_TV.jpg",NET TV 27.2 - TDA 27.2
+https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8?nimblesessionid=24815919
 #EXTINF:-1 group-title="Argentina" tvg-id="NetTV.ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/NET_TV.jpg",NET TV 27.2 - TDA 27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8
 #EXTINF:-1 group-title="Argentina" tvg-id="NetTV.ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/NET_TV.jpg",NET TV 27.2 - TDA 27.2
