@@ -1,98 +1,3 @@
-import os
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-import time
-import concurrent.futures
-
-# Configurações do Chrome
-options = Options()
-options.add_argument("--headless")  # Executa sem interface gráfica
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,720")
-options.add_argument("--disable-infobars")
-
-driver = webdriver.Chrome(options=options)
-
-def extract_m3u8_url_and_title(driver, url):
-    driver.get(url)
-    time.sleep(5)  # Aguarda o carregamento da página
-
-    title = driver.title
-    m3u8_url = None
-    logo_url = None
-
-    # Tenta encontrar o iframe e extrair o src
-    try:
-        iframe = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.TAG_NAME, "iframe"))
-        )
-        iframe_src = iframe.get_attribute("src")
-        print(f"Iframe encontrado: {iframe_src}")
-
-        # Navega para o iframe para tentar encontrar o m3u8
-        driver.get(iframe_src)
-        time.sleep(5) # Aguarda o carregamento do iframe
-
-        log_entries = driver.execute_script("return window.performance.getEntriesByType(\'resource\');")
-
-        for entry in log_entries:
-            if ".m3u8" in entry["name"]:
-                m3u8_url = entry["name"]
-                break
-
-        # Tenta encontrar o logo na página do canal (antes de navegar para o iframe)
-        driver.get(url) # Volta para a página do canal para tentar pegar o logo
-        time.sleep(2)
-        try:
-            logo_element = driver.find_element(By.CSS_SELECTOR, "img[alt*=\"logo\"]") # Tentativa genérica
-            logo_url = logo_element.get_attribute("src")
-        except NoSuchElementException:
-            print("Logo não encontrado na página do canal.")
-
-    except TimeoutException:
-        print(f"Nenhum iframe encontrado para {url}")
-    except Exception as e:
-        print(f"Erro ao processar iframe para {url}: {e}")
-
-    return title, m3u8_url, logo_url
-
-# Abre o arquivo com os links dos canais
-with open("5900_channel_links.txt", "r") as file:
-    channel_links = file.readlines()
-
-# Gera arquivo M3U
-with open("5900_lista.m3u", "w") as output_file:
-    for link in channel_links:
-        link = link.strip()
-
-        if not link:
-            continue
-
-        print(f"Processando link: {link}")
-
-        try:
-            title, m3u8_url, logo_url = extract_m3u8_url_and_title(driver, link)
-
-            if m3u8_url:
-                output_file.write(f'#EXTINF:-1 tvg-logo="{logo_url if logo_url else ""}" group-title="TV", {title}\n')
-                output_file.write(f"{m3u8_url}\n")
-                print(f"✓ M3U8 encontrado: {m3u8_url}")
-            else:
-                print(f"⚠️ Link .m3u8 não encontrado para: {title}")
-
-        except Exception as e:
-            print(f"❌ Erro ao processar o link {link}: {e}")
-
-# Finaliza o driver
-driver.quit()
-
-
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -250,7 +155,7 @@ def process_m3u_file(input_url, output_file):
     # (Esta função estava mencionada no final do código original mas não estava implementada)
     pass
 
-with open("lista1.m3u", "a") as output_file:
+with open("lista1.m3u", "w") as output_file:
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         future_to_url = {executor.submit(extract_globoplay_data, url): url for url in globoplay_urls}
         for future in concurrent.futures.as_completed(future_to_url):
