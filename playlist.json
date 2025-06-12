@@ -32,38 +32,6 @@
     "extra": []
   },
   {
-    "name": "FRANCE 2 FHD",
-    "group": "Reality Show's Live",
-    "tvg_id": "FRANCE 2",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmrbOqjG8PomXE86TM5SAMP5_Z30xG2nW1kot6nym9nU63PCzUdpHMrAYwA&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160297.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FRANCE 3 FHD",
-    "group": "Reality Show's Live",
-    "tvg_id": "FRANCE 3",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONO80OTwp8oIc8fzLkInbb6ZJ8xondzxrzyVhvYg1hZZOSi99MbV3ifz0Ipg&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160298.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FRANCE 4 FHD",
-    "group": "Reality Show's Live",
-    "tvg_id": "FRANCE 4",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrR9BsBZw4zTAzFAAxFQuDp1lm06mXAEU-PnGfC7FTLZEyqnuRWDE-P9C4w&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FRANCE 5 FHD",
-    "group": "Reality Show's Live",
-    "tvg_id": "FRANCE 5",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu32fM_Xm6U-85aB1LCxFXx6tYjCCu1SdpmlXj5xLUwdm5dCbriIctZf2QHbk&s",
-    "url": "http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8",
-    "extra": []
-  },
-  {
     "name": "Undefined",
     "group": "CAMERA AO VIVO",
     "tvg_id": "Undefined",
@@ -117,6 +85,14 @@
     "tvg_id": "N/A",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s",
     "url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV Brasil Central",
+    "group": "CANAIS ABERTOS",
+    "tvg_id": "N/A",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzdi3a9KFm2AYTzbRFRP5usq7gIQaads1CBjH7oMajw3UbyHikRIo5mN89w&s",
+    "url": "https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8",
     "extra": []
   },
   {
