@@ -65,8 +65,7 @@ http://pfsv.io:80/Maxtorresps/101280/303182.ts
 
 
 
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Telecinco.es" tvg-logo="https://i.ibb.co/7gMg1nb/t5es.png",TELECINCO
-http://nodep002.service.openstream.es/SVoriginOperatorEdge3/smil:8_HD.smil/manifest.m3u8
+
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN
 http://200.59.188.3:8000/play/a03a
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="RCN HD.co" tvg-logo="https://unity-img.tbxapis.com/v0/images/801ca66694329da3ba697f38c94bf0a1/content/67535f2a8e10fec44f483a50/453f202b02e53b9fecda513f0ce77ddb8506134c/img.jpg",RCN 2
@@ -99,37 +98,7 @@ http://38.41.8.1:8000/play/a06j
 #EXTM3U url-tvg="https://www.open-epg.com/files/colombia1.xml.gz"
 
 
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://dist7.tvmi.mt/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxODU4ODc2LCJhdWQiOiIyMDEuNjcuMzIuMjMzIiwiZXhwIjoxNzM4MDU0ODgwfQ.szWk2XGrC1urKZ5aekxgDpWIPDwYW2GtaXJDf3kZqIE/vod/8475939/live_thumb.jpg",BIG BROTHER MALTA
-https://dist7.tvmi.mt/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxODU5Mjc0LCJhdWQiOiI1Mi4yMzQuMzguMTcwIiwiZXhwIjoxNzM4MDU1NTEwfQ.pxzUl3s6wrWSyJUDE4krDNhDJfnSIPRdz6U_Ep_tnao/live/8/0/index.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://dist7.tvmi.mt/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxODU4ODc2LCJhdWQiOiIyMDEuNjcuMzIuMjMzIiwiZXhwIjoxNzM4MDU0ODgwfQ.szWk2XGrC1urKZ5aekxgDpWIPDwYW2GtaXJDf3kZqIE/vod/8475943/live_thumb.jpg",TVM MALTA
-https://dist7.tvmi.mt/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxODU4ODc2LCJhdWQiOiIyMDEuNjcuMzIuMjMzIiwiZXhwIjoxNzM4MDU0ODgwfQ.szWk2XGrC1urKZ5aekxgDpWIPDwYW2GtaXJDf3kZqIE/live/2/master.m3u8
 
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://dist9.tvmi.mt/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxODU4ODc2LCJhdWQiOiIyMDEuNjcuMzIuMjMzIiwiZXhwIjoxNzM4MDU0ODgwfQ.szWk2XGrC1urKZ5aekxgDpWIPDwYW2GtaXJDf3kZqIE/vod/8476160/live_thumb.jpg",TVM MALTA+
-https://dist11.tvmi.mt/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxODU4ODc2LCJhdWQiOiIyMDEuNjcuMzIuMjMzIiwiZXhwIjoxNzM4MDU0ODgwfQ.szWk2XGrC1urKZ5aekxgDpWIPDwYW2GtaXJDf3kZqIE/live/3/0/index.m3u8
-
-
-
-#EXTINF:-1 tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png" group-title="Reality Show's Live",Canale 5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
-https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
-
-
-
-
-#EXTINF:-1 tvg-id="Canale 5 HD.it" tvg-logo="https://iili.io/d93woZP.png" group-title="Reality Show's Live",Canale 5 - 2
-http://cord-cutter.net:8080/live/j3McKd/673709/212903.m3u8
-
-#EXTINF:-1 tvg-name="Canale 5" tvg-id="Canale 5 HD.it" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/6297c9a866903da2dc2d2c0ade678d10.png" group-title="Reality Show's Live",Canale 5
-http://iptvtree.net:8080/F33560/ebeddf20/902
-
-
-#EXTINF:-1 tvg-id="Telecinco" tvg-logo="https://iili.io/JmosVLl.png" group-title="Reality Show's Live",Telecinco
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6e1dbacf4b932a11cd6cecb741def23d:0375536d6e512003972d1d6ea1f4d7c0
-https://ott.zapitv.com/live/eds_c2/telecinco/dash_live_enc/telecinco.mpd
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png" group-title="Reality Show's Live",Telefe
 http://181.13.173.86:8000/play/a06c/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.imgur.com/q6BQ5YO.png",Telefe Canal 7 Jujuy
