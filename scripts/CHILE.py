@@ -53,21 +53,11 @@ banner = r'''
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
 #EXTM3U url-tvg="https://www.open-epg.com/files/chile1.xml"
 
-#EXTINF:-1 tvg-id="" tvg-name="CHILE - LA RED HD" tvg-logo="http://descargas.podzone.net/logos/-la-red-chile.png" group-title="CHILE",CHILE - LA RED HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/51823
-#EXTINF:-1 tvg-id="Canal13.cl" tvg-name="CHILE - CANAL 13 HD" tvg-logo="http://descargas.podzone.net/logos/-canal-13.png" group-title="CHILE",CHILE - CANAL 13 HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1145137
-#EXTINF:-1 tvg-id="Canal13.cl" tvg-name="CHILE - CANAL 13 " tvg-logo="http://descargas.podzone.net/logos/-canal-13.png" group-title="CHILE",CHILE - CANAL 13 
-http://tv.nstvlatino.com:8080/UY1108/@373839/3853
-#EXTINF:-1 tvg-id="" tvg-name="CHILE - MEGA HD" tvg-logo="http://descargas.podzone.net/logos/-mega.png" group-title="CHILE",CHILE - MEGA HD
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155841
-#EXTINF:-1 tvg-id="" tvg-name="CHILE - MEGA" tvg-logo="http://descargas.podzone.net/logos/-mega.png" group-title="CHILE",CHILE - MEGA
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155842
 
-#EXTINF:-1 tvg-id="" tvg-name="CHILE - CHILEVISION HD " tvg-logo="http://descargas.podzone.net/logos/-chilevision.png" group-title="CHILE",CHILE - CHILEVISION HD 
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155835
-#EXTINF:-1 tvg-id="" tvg-name="CHILE - CHILEVISION" tvg-logo="http://descargas.podzone.net/logos/-chilevision.png" group-title="CHILE",CHILE - CHILEVISION
-http://tv.nstvlatino.com:8080/UY1108/@373839/1155836
+
+
+
+
 #EXTINF:-1 tvg-id="192TVCE.ec" tvg-name="CHILE - 13C FHD" tvg-logo="http://descargas.podzone.net/logos/-13C.png" group-title="CHILE",CHILE - 13C FHD
 http://tv.nstvlatino.com:8080/UY1108/@373839/1091369
 #EXTINF:-1 tvg-id="192TVCE.ec" tvg-name="CHILE - 13C HD" tvg-logo="http://descargas.podzone.net/logos/-13C.png" group-title="CHILE",CHILE - 13C HD
@@ -112,6 +102,11 @@ http://tv.nstvlatino.com:8080/UY1108/@373839/6979
 http://tv.nstvlatino.com:8080/UY1108/@373839/1155837
 
 #EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVN
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155826
+#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVN
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155817
+
+#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVN
 https://marine2.miplay.cl/tvnchile/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVChile
@@ -119,6 +114,9 @@ http://45.181.123.233:8000/play/a0qg
 
 #EXTINF:-1 tvg-id="NTV.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/ntv-cl.png" group-title="CHILE",NTV
 https://marine2.miplay.cl/ntv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" group-title="CHILE",La Red HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/51823
 
 #EXTINF:-1 tvg-id="LaRed.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ll/la-red-cl.png" group-title="CHILE",La Red HD
 https://unlimited2-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
@@ -137,6 +135,10 @@ https://marine2.miplay.cl/tvmas/playlist.m3u8
 https://marine2.miplay.cl/24horas/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155841
+#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155842
+#EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega
 https://marine2.miplay.cl/megacl/playlist.m3u8
 #EXTINF:-1 tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" group-title="CHILE",Mega SD
 http://45.181.123.233:8000/play/a0qh
@@ -144,11 +146,21 @@ http://45.181.123.233:8000/play/a0qh
 http://45.181.123.233:8000/play/a0is
 
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155835
+#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155836
+
+#EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV
 https://marine2.miplay.cl/chvchile/playlist.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV SD
 http://45.181.123.233:8000/play/a0qi
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-logo="https://brandemia.org/sites/default/files/inline/images/logo_chilevision.jpg" group-title="CHILE",CHV HD
 http://45.181.123.233:8000/play/a0kl
+
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13
+http://tv.nstvlatino.com:8080/UY1108/@373839/1145137
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13
+http://tv.nstvlatino.com:8080/UY1108/@373839/3853
 
 #EXTINF:-1 tvg-id="Canal13.cl" tvg-logo="http://i.imgur.com/HqKYZvm.png" group-title="CHILE",Canal 13
 https://marine2.miplay.cl/c13/playlist.m3u8
