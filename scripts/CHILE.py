@@ -53,6 +53,64 @@ banner = r'''
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENiptvchile.xml"
 #EXTM3U url-tvg="https://www.open-epg.com/files/chile1.xml"
 
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - LA RED HD" tvg-logo="http://descargas.podzone.net/logos/-la-red-chile.png" group-title="CHILE",CHILE - LA RED HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/51823
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-name="CHILE - CANAL 13 HD" tvg-logo="http://descargas.podzone.net/logos/-canal-13.png" group-title="CHILE",CHILE - CANAL 13 HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1145137
+#EXTINF:-1 tvg-id="Canal13.cl" tvg-name="CHILE - CANAL 13 " tvg-logo="http://descargas.podzone.net/logos/-canal-13.png" group-title="CHILE",CHILE - CANAL 13 
+http://tv.nstvlatino.com:8080/UY1108/@373839/3853
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - MEGA HD" tvg-logo="http://descargas.podzone.net/logos/-mega.png" group-title="CHILE",CHILE - MEGA HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155841
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - MEGA" tvg-logo="http://descargas.podzone.net/logos/-mega.png" group-title="CHILE",CHILE - MEGA
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155842
+
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - CHILEVISION HD " tvg-logo="http://descargas.podzone.net/logos/-chilevision.png" group-title="CHILE",CHILE - CHILEVISION HD 
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155835
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - CHILEVISION" tvg-logo="http://descargas.podzone.net/logos/-chilevision.png" group-title="CHILE",CHILE - CHILEVISION
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155836
+#EXTINF:-1 tvg-id="192TVCE.ec" tvg-name="CHILE - 13C FHD" tvg-logo="http://descargas.podzone.net/logos/-13C.png" group-title="CHILE",CHILE - 13C FHD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1091369
+#EXTINF:-1 tvg-id="192TVCE.ec" tvg-name="CHILE - 13C HD" tvg-logo="http://descargas.podzone.net/logos/-13C.png" group-title="CHILE",CHILE - 13C HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1091370
+#EXTINF:-1 tvg-id="24Horas.es" tvg-name="CHILE - 24 HORAS" tvg-logo="http://descargas.podzone.net/logos/-24-horas.png" group-title="CHILE",CHILE - 24 HORAS
+http://tv.nstvlatino.com:8080/UY1108/@373839/23237
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - NTV HD" tvg-logo="http://descargas.podzone.net/logos/-NTV.png" group-title="CHILE",CHILE - NTV HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/27103
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - TV+ HD" tvg-logo="http://descargas.podzone.net/logos/-TV+.png" group-title="CHILE",CHILE - TV+ HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/30700
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - TV+" tvg-logo="http://descargas.podzone.net/logos/-TV+.png" group-title="CHILE",CHILE - TV+
+http://tv.nstvlatino.com:8080/UY1108/@373839/1094403
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - ZONA LATINA" tvg-logo="http://descargas.podzone.net/logos/-zona-latina.png" group-title="CHILE",CHILE - ZONA LATINA
+http://tv.nstvlatino.com:8080/UY1108/@373839/1141627
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - VIAX" tvg-logo="http://descargas.podzone.net/logos2/-VIAX-chile.png" group-title="CHILE",CHILE - VIAX
+http://tv.nstvlatino.com:8080/UY1108/@373839/1142322
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - REC TV" tvg-logo="http://descargas.podzone.net/logos/-REC-TV.png" group-title="CHILE",CHILE - REC TV
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155840
+#EXTINF:-1 tvg-id="Teletrak.cl" tvg-name="CHILE - TELETRAK HD" tvg-logo="http://descargas.podzone.net/logos/-teletrak.png" group-title="CHILE",CHILE - TELETRAK HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/3854
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - CNN CHILE" tvg-logo="http://descargas.podzone.net/logos/-CNN.png" group-title="CHILE",CHILE - CNN CHILE
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155843
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - ESPN CHILE HD" tvg-logo="http://descargas.podzone.net/logos/-ESPN-1.png" group-title="CHILE",CHILE - ESPN CHILE HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1068348
+#EXTINF:-1 tvg-id="TNTSports.ar" tvg-name="CHILE - ESPN CHILE" tvg-logo="http://descargas.podzone.net/logos/-ESPN-1.png" group-title="CHILE",CHILE - ESPN CHILE
+http://tv.nstvlatino.com:8080/UY1108/@373839/1117657
+#EXTINF:-1 tvg-id="TNTSports.ar" tvg-name="CHILE - TNT SPORTS" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" group-title="CHILE",CHILE - TNT SPORTS
+http://tv.nstvlatino.com:8080/UY1108/@373839/16138
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - TNT SPORTS HD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" group-title="CHILE",CHILE - TNT SPORTS HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1156014
+#EXTINF:-1 tvg-id="" tvg-name="CHILE-TNT SPORTS FHD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" group-title="CHILE",CHILE-TNT SPORTS FHD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1160041
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - TNT SPORTS 2 FHD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" group-title="CHILE",CHILE - TNT SPORTS 2 FHD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1129864
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - TNT SPORTS 2 HD" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" group-title="CHILE",CHILE - TNT SPORTS 2 HD
+http://tv.nstvlatino.com:8080/UY1108/@373839/1129865
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - TNT SPORTS 3" tvg-logo="http://descargas.podzone.net/logos/-TNT-sports.png" group-title="CHILE",CHILE - TNT SPORTS 3
+http://tv.nstvlatino.com:8080/UY1108/@373839/1068349
+#EXTINF:-1 tvg-id="CDFBasico.cl" tvg-name="CHILE - ESTADIO TNT" tvg-logo="http://descargas.podzone.net/logos/-estadio-TNT.png" group-title="CHILE",CHILE - ESTADIO TNT
+http://tv.nstvlatino.com:8080/UY1108/@373839/6979
+#EXTINF:-1 tvg-id="" tvg-name="CHILE - CDO PREMIUM " tvg-logo="http://descargas.podzone.net/logos/-CDO-premium.png" group-title="CHILE",CHILE - CDO PREMIUM 
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155837
+
 #EXTINF:-1 tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" group-title="CHILE",TVN
 https://marine2.miplay.cl/tvnchile/playlist.m3u8
 
