@@ -136,6 +136,11 @@ https://live.obslivestream.com/telecolormux/tracks-v1a1/mono.m3u8
 https://telefeviacom1.akamaized.net/hls/live/2037987/viacomINT/TOK/master-wild1.m3u8
 
 #EXTINF:-1 group-title="Argentina" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png",Telefe
+http://tv.nstvlatino.com:8080/UY1108/@373839/51071
+#EXTINF:-1 group-title="Argentina" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png",Telefe
+http://tv.nstvlatino.com:8080/UY1108/@373839/1155824
+
+#EXTINF:-1 group-title="Argentina" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png",Telefe
 http://181.13.173.86:8000/play/a06c/index.m3u8
 #EXTINF:-1 group-title="Argentina" tvg-id="Telefe.ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg",Telefe | Argentina - TDA 11.1
 http://181.209.114.13:8000/play/a06c/index.m3u8
