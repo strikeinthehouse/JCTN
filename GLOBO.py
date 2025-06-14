@@ -346,11 +346,6 @@ with open("lista1.m3u", "w") as output_file:
 
 
 
-# Definir o caminho do arquivo
-m3u_file_path = os.path.join(os.getcwd(), "it.txt")
-write_m3u_file(links, m3u_file_path)
-
-print(f"Arquivo M3U foi criado: {m3u_file_path}")
 
 import os
 import logging
