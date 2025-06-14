@@ -8,6 +8,7 @@ import time
 import concurrent.futures
 import os
 
+
 # Configurações do Chrome
 options = Options()
 options.add_argument("--headless")  # Executa sem interface gráfica
