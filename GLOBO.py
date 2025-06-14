@@ -176,17 +176,6 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://abcnews.go.com/live/video/special-live-01/",
-    "https://abcnews.go.com/live/video/special-live-02/",
-    "https://abcnews.go.com/live/video/special-live-03/",
-    "https://abcnews.go.com/live/video/special-live-04/",
-    "https://abcnews.go.com/live/video/special-live-05/",
-    "https://abcnews.go.com/live/video/special-live-06/",
-    "https://abcnews.go.com/live/video/special-live-07/",
-    "https://abcnews.go.com/live/video/special-live-08/",
-    "https://abcnews.go.com/live/video/special-live-09/",
-    "https://abcnews.go.com/live/video/special-live-10/",
-    "https://abcnews.go.com/live/video/special-live-11/",
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",  # Bom Dia Cidade Ribeirão Preto
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
     "https://g1.globo.com/sp/campinas-regiao/ao-vivo/eptv-2-campinas-ao-vivo.ghtml"
