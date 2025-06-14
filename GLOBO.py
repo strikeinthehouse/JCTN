@@ -180,12 +180,25 @@ def handle_iframes(driver):
         print(f"Erro ao tratar iframes: {e}")
 
 def try_play_video(driver):
-    """Tenta dar play no vídeo usando vários métodos"""
+    """Tenta dar play no vídeo, priorizando botão vjs-big-play-button"""
     try:
-        # Aguarda um pouco para elementos carregarem
         time.sleep(3)
-        
-        # Possíveis seletores para botões de play
+
+        # 1. Prioriza o botão vjs-big-play-button
+        try:
+            play_btn = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "button.vjs-big-play-button"))
+            )
+            driver.execute_script("arguments[0].scrollIntoView(true);", play_btn)
+            time.sleep(1)
+            driver.execute_script("arguments[0].click();", play_btn)
+            print("Clicou no botão vjs-big-play-button")
+            time.sleep(3)
+            return True
+        except TimeoutException:
+            print("Botão vjs-big-play-button não encontrado ou não clicável.")
+
+        # 2. Se não funcionou, tenta outros botões de play
         play_selectors = [
             "button[aria-label*='play']",
             "button[aria-label*='Play']",
@@ -207,42 +220,39 @@ def try_play_video(driver):
             ".play-overlay",
             ".play-icon"
         ]
-        
+
         for selector in play_selectors:
             try:
                 elements = driver.find_elements(By.CSS_SELECTOR, selector)
                 for element in elements:
                     if element.is_displayed() and element.is_enabled():
-                        # Scroll para o elemento se necessário
                         driver.execute_script("arguments[0].scrollIntoView(true);", element)
                         time.sleep(1)
-                        
-                        # Tenta clicar usando JavaScript
                         driver.execute_script("arguments[0].click();", element)
                         print(f"Clicou no botão de play: {selector}")
                         time.sleep(3)
                         return True
-            except Exception as e:
+            except Exception:
                 continue
-        
-        # Se não encontrou botão, tenta clicar no vídeo diretamente
+
+        # 3. Tenta clicar diretamente no <video>
         try:
             video_elements = driver.find_elements(By.TAG_NAME, "video")
             for video in video_elements:
                 if video.is_displayed():
                     driver.execute_script("arguments[0].click();", video)
-                    print("Clicou diretamente no elemento video")
+                    print("Clicou diretamente no elemento <video>")
                     time.sleep(3)
                     return True
         except Exception as e:
             print(f"Erro ao clicar no vídeo: {e}")
-            
-        # Tenta usar JavaScript para dar play
+
+        # 4. Tenta dar play via JavaScript
         try:
             driver.execute_script("""
                 var videos = document.querySelectorAll('video');
-                for(var i = 0; i < videos.length; i++) {
-                    if(videos[i].paused) {
+                for (var i = 0; i < videos.length; i++) {
+                    if (videos[i].paused) {
                         videos[i].play();
                         console.log('Play via JavaScript no vídeo', i);
                     }
@@ -253,11 +263,12 @@ def try_play_video(driver):
             return True
         except Exception as e:
             print(f"Erro ao dar play via JavaScript: {e}")
-            
+
     except Exception as e:
         print(f"Erro geral ao tentar dar play: {e}")
-    
+
     return False
+
 
 def extract_m3u8_from_network(driver):
     """Extrai URLs .m3u8 dos logs de rede"""
