@@ -34,14 +34,14 @@ http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/chunklist_w2131508282.m3u8
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",NBC 7 San Diego
 https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="Undefined" tvg-logo="https://i.ibb.co/Mp5fMxR/Canal57.png",Canal 57 Miami
-https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphY_KpFPFb8iogvRqi49zAdBcqcSIYwHm_qKyhjSI8l0tcXw2wRRVtl65lA&s",NOTÍCIAS TELEMUNDO - SERVIÇO
 https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TF1.fr" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png",TF1
+https://raw.githubusercontent.com/schumijo/iptv/main/playlists/mytf1/tf1.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/JgHdDFfoFxs/hq720.jpg?v=92&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAQ1a1kgxuez_7LCz_ArYliyKO11A" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Del Bajio Oficial
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/JgHdDFfoFxs/hq720.jpg?v=a6&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAQ1a1kgxuez_7LCz_ArYliyKO11A" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Del Bajio Oficial
 https://ythls-v3.onrender.com/channel/UC-uYy4_jIvDoJ4wigEv1S5A.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/Z7Jlgq3XMC8/hq720.jpg?v=99&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDwjiF7mPKDl0p0Ub6P6-kMg8Z_og" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Aguascalientes Oficial
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/Z7Jlgq3XMC8/hq720.jpg?v=ad&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDwjiF7mPKDl0p0Ub6P6-kMg8Z_og" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Aguascalientes Oficial
 https://ythls-v3.onrender.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Zacatecas
 https://ythls-v3.onrender.com/channel/UCQb3i7gu9J8A4zzQU7j6C1Q.m3u8
