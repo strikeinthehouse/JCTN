@@ -1,161 +1,96 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-import time
-import concurrent.futures
-import os
 
+import requests
+from bs4 import BeautifulSoup
+import re
 
-# Configurações do Chrome
-options = Options()
-options.add_argument("--headless")  # Executa sem interface gráfica
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,720")
-options.add_argument("--disable-infobars")
+def get_live_stream_urls(main_url):
+    try:
+        response = requests.get(main_url)
+        response.raise_for_status()  # Raise an HTTPError for bad responses (4xx or 5xx)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        live_stream_links = []
+        # Find all 'a' tags with class 'AnchorLink VideoTile'
+        for link in soup.find_all('a', class_='AnchorLink VideoTile'):
+            # Check if the link contains a 'MediaPlaceholder--live' class within its children
+            if link.find(class_='MediaPlaceholder--live'):
+                href = link.get('href')
+                if href and href.startswith('/live/video/'):
+                    full_url = f"https://abcnews.go.com{href}"
+                    live_stream_links.append(full_url)
+        return list(set(live_stream_links)) # Remove duplicates
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar a página principal: {e}")
+        return []
 
-# URLs dos vídeos Globoplay
-globoplay_urls = [
-    "https://abcnews.go.com/live/video/special-live-01/",
-    "https://abcnews.go.com/live/video/special-live-02/",
-    "https://abcnews.go.com/live/video/special-live-03/",
-    "https://abcnews.go.com/live/video/special-live-04/",
-    "https://abcnews.go.com/live/video/special-live-05/",
-    "https://abcnews.go.com/live/video/special-live-06/",
-    "https://abcnews.go.com/live/video/special-live-07/",
-    "https://abcnews.go.com/live/video/special-live-08/",
-    "https://abcnews.go.com/live/video/special-live-09/",
-    "https://abcnews.go.com/live/video/special-live-10/",
-    "https://abcnews.go.com/live/video/special-live-11/",
-]
+def extract_stream_data(video_url):
+    try:
+        response = requests.get(video_url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
 
-def extract_globoplay_data(url):
-    driver = webdriver.Chrome(options=options)
-    driver.get(url)
-    
-    # Função para tentar clicar no botão de play
-    def try_click_play():
-        try:
-            play_selectors = [
-                ".MediaPlaceholder__Overlay .MediaPlaceholder__Button",  # Botão novo do ABC
-                "button.poster__play-wrapper",
-                "button[aria-label='Reproduzir vídeo']",
-                ".playkit-pre-playback-play-button",
-                "button.playkit-control-button"
-            ]
-            
-            for selector in play_selectors:
-                try:
-                    play_button = WebDriverWait(driver, 10).until(
-                        EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
-                    )
-                    if play_button and play_button.is_displayed():
-                        play_button.click()
-                        print(f"[INFO] Clicou no botão de play ({selector}) para {url}")
-                        return True
-                except Exception:
-                    continue
-            
-            print(f"[WARN] Nenhum botão de play clicável encontrado para {url}")
-            return False
-        except Exception as e:
-            print(f"[ERRO] Falha ao tentar clicar no botão de play: {e}")
-            return False
+        title_tag = soup.find('meta', property='og:title')
+        title = title_tag['content'] if title_tag else soup.find('h1').text.strip() if soup.find('h1') else 'No Title'
+        
+        thumbnail_tag = soup.find('meta', property='og:image')
+        thumbnail_url = thumbnail_tag['content'] if thumbnail_tag else ''
 
-    
-    # Tenta clicar no botão de play
-    play_clicked = try_click_play()
-    
-    # Implementação para tentar novamente até 4 vezes se aparecer erro
-    retry_attempts = 0
-    max_retries = 4
-    
-    while retry_attempts < max_retries:
-        try:
-            # Verifica se há mensagem de erro e botão "Tentar novamente"
-            error_elements = [
-                "a[href='javascript:void(0)'][class*='retry']",  # Link de retry
-                "a:contains('Tentar novamente')",  # Texto "Tentar novamente"
-                ".error-message-container a",  # Container de erro com link
-                "a.retry-button"  # Botão de retry
-            ]
-            
-            retry_button = None
-            for selector in error_elements:
-                try:
-                    elements = driver.find_elements(By.CSS_SELECTOR, selector)
-                    for element in elements:
-                        if "tentar novamente" in element.text.lower() or "retry" in element.text.lower():
-                            retry_button = element
-                            break
-                    if retry_button:
+        m3u8_url = None
+        # Search for m3u8 in script tags
+        for script in soup.find_all('script'):
+            if script.string:
+                # Look for .m3u8 patterns in the script content
+                m3u8_match = re.search(r'"(https?://[^\s]+\.m3u8)"', script.string)
+                if m3u8_match:
+                    m3u8_url = m3u8_match.group(1)
+                    # Prioritize specific ABC News Live m3u8 patterns if known
+                    if "abcnews.com" in m3u8_url or "keyframe-cdn.abcnews.com" in m3u8_url or "uplynk.com" in m3u8_url:
                         break
-                except Exception:
-                    continue
-            
-            # Se encontrou botão de retry, clica nele
-            if retry_button:
-                print(f"Tentativa {retry_attempts + 1}/{max_retries}: Clicando em 'Tentar novamente' para {url}")
-                retry_button.click()
-                time.sleep(5)  # Espera um pouco após clicar
-                
-                # Tenta clicar no play novamente
-                play_clicked = try_click_play()
-                retry_attempts += 1
-            else:
-                # Se não encontrou botão de retry, sai do loop
-                break
-                
-        except Exception as e:
-            print(f"Erro ao tentar novamente: {e}")
-            retry_attempts += 1
-            time.sleep(3)
-    
-    # Espera para carregar recursos
-    time.sleep(56)
-    
-    # Coleta informações
-    title = driver.title
-    log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
-    m3u8_url = None
-    thumbnail_url = None
-    
-    for entry in log_entries:
-        if ".m3u8" in entry['name']:
-            m3u8_url = entry['name']
-        if ".jpg" in entry['name'] and not thumbnail_url:
-            thumbnail_url = entry['name']
-    
-    driver.quit()
-    return title, m3u8_url, thumbnail_url
 
-def process_m3u_file(input_url, output_file):
-    # Implementação da função process_m3u_file
-    # (Esta função estava mencionada no final do código original mas não estava implementada)
-    pass
+        # Fallback: search for m3u8 in the entire HTML content if not found in scripts
+        if not m3u8_url:
+            m3u8_match = re.search(r'"(https?://[^\s]+\.m3u8)"', response.text)
+            if m3u8_match:
+                m3u8_url = m3u8_match.group(1)
 
-with open("lista155.m3u", "w") as output_file:
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        future_to_url = {executor.submit(extract_globoplay_data, url): url for url in globoplay_urls}
-        for future in concurrent.futures.as_completed(future_to_url):
-            url = future_to_url[future]
-            try:
-                title, m3u8_url, thumbnail_url = future.result()
-                if m3u8_url:
-                    thumbnail_url = thumbnail_url if thumbnail_url else ""
-                    output_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="GLOBO AO VIVO", {title}\n')
-                    output_file.write(f"{m3u8_url}\n")
-                    print(f"Processado com sucesso: {url}")
-                else:
-                    print(f"M3U8 não encontrado para {url}")
-            except Exception as e:
-                print(f"Erro ao processar {url}: {e}")
+        return title, m3u8_url, thumbnail_url
 
-# Comentado pois a função não está implementada e parece ser uma chamada incorreta
-# process_m3u_file(input_url, output_file)
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar a página do vídeo {video_url}: {e}")
+        return None, None, None
+
+main_abc_news_url = "https://abcnews.go.com/Live"
+output_filename = "abcnews_live.m3u"
+
+# Step 1: Get all live stream URLs from the main page
+live_urls = get_live_stream_urls(main_abc_news_url)
+
+m3u_content = ""
+
+if live_urls:
+    print(f"Encontrados {len(live_urls)} links de streams ao vivo.")
+    for url in live_urls:
+        print(f"Processando URL: {url}")
+        title, m3u8_url, thumbnail_url = extract_stream_data(url)
+        
+        if m3u8_url:
+            clean_title = title.replace("Video ", "").replace(" | Watch Live News on ABCNL", "").strip()
+            thumbnail_url = thumbnail_url if thumbnail_url else ""
+            m3u_content += f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="ABC NEWS LIVE", {clean_title}\n'
+            m3u_content += f"{m3u8_url}\n"
+            print(f"Adicionado ao M3U: {clean_title}")
+        else:
+            print(f"M3U8 não encontrado para {url}")
+else:
+    print("Nenhum link de stream ao vivo encontrado na página principal.")
+
+with open(output_filename, "w") as output_file:
+    output_file.write(m3u_content)
+
+print(f"Arquivo {output_filename} gerado com sucesso.")
+
+
+
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
