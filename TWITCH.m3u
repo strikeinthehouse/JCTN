@@ -26,6 +26,10 @@ http://38.41.8.1:8000/play/a06j
 #EXTM3U url-tvg="https://www.open-epg.com/files/colombia1.xml.gz"
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.imgur.com/q6BQ5YO.png",Telefe Canal 7 Jujuy
 https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://www.m3u.cl/logo/251_13_Max_Television.png",Telefe 13 Max Television
+http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png",13 Max HD
+http://coninfo.net:1935/13maxhd/live13maxtvnuevo_720p/chunklist_w2131508282.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="13Max.ar" tvg-logo="http://i.imgur.com/oSApjUM.png",13 Max FHD
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",NBC 7 San Diego
@@ -34,25 +38,17 @@ https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u
 https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://i.ibb.co/yY68NHt/vtv.png",VTv Canal 17
 https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/chunklist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="N/A" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphY_KpFPFb8iogvRqi49zAdBcqcSIYwHm_qKyhjSI8l0tcXw2wRRVtl65lA&s",NOTÍCIAS TELEMUNDO - SERVIÇO
-https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TF1.fr" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tf1-fr.png",TF1
-https://raw.githubusercontent.com/schumijo/iptv/main/playlists/mytf1/tf1.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/ZII2noT4TKI/hq720.jpg?v=6&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDFtfMboSqPZNrv0sO585l8s4kN1Q" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Chihuahua
-https://ythls-v3.onrender.com/channel/UCjfxDe7In59Jbfw2HmIh_Vg.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/4UgXZdAwpfU/hq720.jpg?v=6&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAE_RJU7_TLdX4ETPUdJqP66KqfmQ" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de TELEVISA SAN LUIS POTOSI OFICIAL
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/4UgXZdAwpfU/hq720.jpg?v=13&sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAE_RJU7_TLdX4ETPUdJqP66KqfmQ" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de TELEVISA SAN LUIS POTOSI OFICIAL
 https://ythls-v3.onrender.com/channel/UCaRuyaHshLdq462E9_pLzdA.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,SALEN VERDADES telenovela de Televisa- ESTALLAN por serie de "Chespirito"
-https://ythls-v3.onrender.com/channel/UCJELs2H5lJHqYoi-7AdkSEQ.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://i.ytimg.com/vi/nws1TaLTHjY/hqdefault.jpg?v=6851abd6&sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCbqbkjuWr-LJNfoIcNb6cvhpDV1w" tvg-id="Zadruga live 1.rs" ,TERMINAN DE HUNDIR a televisa
+https://ythls-v3.onrender.com/channel/UCpYqAHAZyKu8HDSLfw3dGvw.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,🔴 #Envivo 🔝 📺 𝗧𝗲𝗹𝗲𝘃𝗶𝘀𝗮 𝗚𝘂𝗲𝗿𝗿𝗲𝗿𝗼
 https://ythls-v3.onrender.com/channel/UCnxTRk2K1iNsQkgpWXxyj4w.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Aguascalientes Oficial
 https://ythls-v3.onrender.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Televisa Piedras Negras Live Stream
 https://ythls-v3.onrender.com/channel/UCxK8C1E8UZ5RipNXIBYEvTA.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Las Noticias Monterrey Al Día con Karla Minaya y Julio César Cano Martes 17 de Junio 2025
-https://ythls-v3.onrender.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Victoria Oficial
 https://ythls-v3.onrender.com/channel/UCIqGddpV4flOlK3b-hgu9pQ.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="None" tvg-id="Zadruga live 1.rs" ,Transmisión en vivo de Televisa Noreste Oficial
