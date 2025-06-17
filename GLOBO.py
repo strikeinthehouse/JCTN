@@ -143,7 +143,7 @@ if all_streams_data:
         if m3u8_url:
             clean_title = title.replace("Video ", "").replace(" | Watch Live News on ABCNL", "").strip()
             thumbnail_url = thumbnail_url if thumbnail_url else ""
-            m3u_content += f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="ABC NEWS LIVE", {clean_title}\n'
+            m3u_content += f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="NEWS WORLD", {clean_title}\n'
             m3u_content += f"{m3u8_url}\n"
             print(f"Adicionado ao M3U: {clean_title}")
         else:
@@ -237,7 +237,7 @@ if live_urls:
         if m3u8_url:
             clean_title = title.replace("Video ", "").replace(" | Watch Live News on ABCNL", "").strip()
             thumbnail_url = thumbnail_url if thumbnail_url else ""
-            m3u_content += f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="ABC NEWS LIVE", {clean_title}\n'
+            m3u_content += f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="NEWS WORLD", {clean_title}\n'
             m3u_content += f"{m3u8_url}\n"
             print(f"Adicionado ao M3U: {clean_title}")
         else:
