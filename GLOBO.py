@@ -1,4 +1,282 @@
 
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
+import time
+import re
+import json
+
+# Configurações do Chrome
+options = Options()
+options.add_argument("--headless")  # Executa sem interface gráfica
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-gpu")
+options.add_argument("--window-size=1920,1080") # Aumentar o tamanho da janela para garantir visibilidade
+options.add_argument("--disable-infobars")
+
+def get_all_live_stream_data(main_url):
+    driver = webdriver.Chrome(options=options)
+    driver.get(main_url)
+    
+    all_live_streams = []
+    processed_urls = set()
+
+    try:
+        # Wait for the carousel to be present
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, ".VideoCarousel__Container"))
+        )
+
+        # Scroll down to ensure the carousel is in view and potentially loads more content
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(3) # Give time for content to load
+
+        # Keep track of the number of streams found in the previous iteration
+        previous_stream_count = 0
+
+        while True:
+            # Extract current visible live streams
+            current_elements = driver.find_elements(By.CSS_SELECTOR, "a.AnchorLink.VideoTile")
+            new_streams_found_in_iteration = False
+            for stream_link in current_elements:
+                try:
+                    # Ensure it\\\"s a live stream by checking for the .MediaPlaceholder--live class
+                    if stream_link.find_element(By.CSS_SELECTOR, ".MediaPlaceholder--live"):
+                        href = stream_link.get_attribute("href")
+                        if href and href not in processed_urls:
+                            title_element = stream_link.find_element(By.CSS_SELECTOR, ".VideoTile__Title span")
+                            title = title_element.text.strip() if title_element else "No Title"
+                            thumbnail_element = stream_link.find_element(By.CSS_SELECTOR, ".MediaPlaceholder__Image img")
+                            thumbnail = thumbnail_element.get_attribute("src") if thumbnail_element else ""
+                            all_live_streams.append({"href": href, "title": title, "thumbnail": thumbnail})
+                            processed_urls.add(href)
+                            new_streams_found_in_iteration = True
+                except NoSuchElementException:
+                    continue # Not a live stream link, or element not found within this link
+
+            # Check if new streams were found in this iteration
+            if len(processed_urls) == previous_stream_count:
+                print("Nenhum novo stream encontrado nesta iteração. Fim do carrossel.")
+                break
+            previous_stream_count = len(processed_urls)
+
+            # Try to click the next button
+            try:
+                # Re-locate the next button in each iteration to avoid StaleElementReferenceException
+                next_button = WebDriverWait(driver, 5).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, "button.CarouselArrow.CarouselArrow--right"))
+                )
+                
+                # Scroll the button into view if it\\\"s not already
+                driver.execute_script("arguments[0].scrollIntoView({block: \"center\"});", next_button)
+                time.sleep(1) # Give time for scroll to complete
+
+                # Check if the button is disabled or not visible
+                if "CarouselArrow--disabled" in next_button.get_attribute("class") or not next_button.is_displayed():
+                    print("Botão de próximo desabilitado ou não visível. Fim do carrossel.")
+                    break
+                
+                # Use JavaScript to click the button to avoid interception
+                driver.execute_script("arguments[0].click();", next_button)
+                print("Clicou no botão de próximo do carrossel via JavaScript.")
+                time.sleep(3) # Increased wait time for carousel to slide and new content to load
+
+            except TimeoutException:
+                print("Botão de próximo não encontrado ou não clicável. Fim do carrossel.")
+                break
+            except StaleElementReferenceException:
+                print("Elemento do botão de próximo ficou obsoleto, tentando novamente...")
+                # Continue the loop to re-locate the element and try again
+                continue 
+            except Exception as e:
+                print(f"Erro ao interagir com o carrossel: {e}")
+                break
+            
+            print(f"Streams únicos encontrados até agora: {len(processed_urls)}")
+
+    finally:
+        driver.quit()
+    return all_live_streams
+
+def extract_m3u8_from_video_page(driver, video_url):
+    driver.get(video_url)
+    time.sleep(20) # Increased wait time for video player and network requests to load
+
+    title = driver.title
+    # Try to get title from og:title meta tag first
+    try:
+        og_title_element = driver.find_element(By.CSS_SELECTOR, "meta[property=\'og:title\']")
+        if og_title_element:
+            title = og_title_element.get_attribute("content")
+    except NoSuchElementException:
+        pass # Fallback to driver.title if og:title not found
+
+    thumbnail_url = ""
+    try:
+        og_image_element = driver.find_element(By.CSS_SELECTOR, "meta[property=\'og:image\']")
+        if og_image_element:
+            thumbnail_url = og_image_element.get_attribute("content")
+    except NoSuchElementException:
+        pass
+
+    m3u8_url = None
+    
+    # Execute JavaScript to get all network requests (including XHR/Fetch)
+    # This script will capture requests and their responses (if available and text-based)
+    network_requests_script = """
+    (function() {
+        const requests = [];
+        const originalFetch = window.fetch;
+        window.fetch = function() {
+            const promise = originalFetch.apply(this, arguments);
+            promise.then(response => {
+                const clonedResponse = response.clone();
+                clonedResponse.text().then(text => {
+                    requests.push({ url: clonedResponse.url, status: clonedResponse.status, text: text });
+                }).catch(() => {
+                    requests.push({ url: clonedResponse.url, status: clonedResponse.status, text: "(binary or unreadable content)" });
+                });
+            });
+            return promise;
+        };
+
+        const originalXHRopen = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function(method, url) {
+            this.addEventListener(\'load\', function() {
+                requests.push({ url: url, status: this.status, text: this.responseText });
+            });
+            originalXHRopen.apply(this, arguments);
+        };
+
+        // Return captured requests after a short delay to allow them to complete
+        return new Promise(resolve => {
+            setTimeout(() => {
+                resolve(requests);
+            }, 10000); // Increased wait to 10 seconds to capture more requests
+        });
+    })();
+    """
+    
+    try:
+        captured_requests_json = driver.execute_script(network_requests_script)
+        captured_requests = json.loads(captured_requests_json) if captured_requests_json else []
+
+        for req in captured_requests:
+            if ".m3u8" in req["url"]:
+                m3u8_url = req["url"]
+                if "abcnews.com" in m3u8_url or "keyframe-cdn.abcnews.com" in m3u8_url or "uplynk.com" in m3u8_url:
+                    break
+            # Also check response text for m3u8 URLs, as they might be embedded in JSON responses
+            if req["text"] and ".m3u8" in req["text"]:
+                m3u8_match = re.search(r"(https?://[^\\s\"\\]+\.m3u8)", req["text"])
+                if m3u8_match:
+                    m3u8_url = m3u8_match.group(1)
+                    if "abcnews.com" in m3u8_url or "keyframe-cdn.abcnews.com" in m3u8_url or "uplynk.com" in m3u8_url:
+                        break
+    except Exception as e:
+        print(f"Erro ao capturar requisições de rede: {e}")
+
+    # Fallback: Search for m3u8 in the page source if not found in network requests
+    if not m3u8_url:
+        page_source = driver.page_source
+        m3u8_matches = re.findall(r"(https?://[^\\s\"\\]+\.m3u8)", page_source)
+        for match in m3u8_matches:
+            if "abcnews.com" in match or "keyframe-cdn.abcnews.com" in match or "uplynk.com" in match:
+                m3u8_url = match
+                break
+    
+    # Try to find m3u8 in script tags containing JSON-like data
+    if not m3u8_url:
+        scripts = driver.find_elements(By.TAG_NAME, "script")
+        for script in scripts:
+            script_content = driver.execute_script("return arguments[0].innerHTML;", script)
+            if script_content and ("m3u8" in script_content or "playlist" in script_content):
+                try:
+                    # Attempt to parse as JSON
+                    json_data = json.loads(script_content)
+                    # Recursively search for m3u8 in the JSON data
+                    def find_m3u8_in_json(obj):
+                        if isinstance(obj, dict):
+                            for key, value in obj.items():
+                                if isinstance(value, str) and ".m3u8" in value:
+                                    return value
+                                result = find_m3u8_in_json(value)
+                                if result: return result
+                        elif isinstance(obj, list):
+                            for item in obj:
+                                result = find_m3u8_in_json(item)
+                                if result: return result
+                        return None
+                    
+                    found_m3u8 = find_m3u8_in_json(json_data)
+                    if found_m3u8:
+                        m3u8_url = found_m3u8
+                        break
+                except json.JSONDecodeError:
+                    # Not a valid JSON, continue searching with regex
+                    m3u8_match = re.search(r"(https?://[^\\s\"\\]+\.m3u8)", script_content)
+                    if m3u8_match:
+                        m3u8_url = m3u8_match.group(1)
+                        if "abcnews.com" in m3u8_url or "keyframe-cdn.abcnews.com" in m3u8_url or "uplynk.com" in m3u8_url:
+                            break
+
+    return title, m3u8_url, thumbnail_url
+
+main_abc_news_url = "https://abcnews.go.com/Live"
+output_filename = "abcnews_live2.m3u"
+
+# Step 1: Get all live stream URLs, titles, and thumbnails from the main page by interacting with carousel
+print("Coletando todos os links de streams ao vivo do carrossel...")
+all_streams_data = get_all_live_stream_data(main_abc_news_url)
+
+m3u_content = ""
+
+if all_streams_data:
+    print(f"Encontrados {len(all_streams_data)} links de streams ao vivo (incluindo os do carrossel).")
+    
+    # Use a single driver instance for efficiency when navigating to individual video pages
+    driver_for_video_pages = webdriver.Chrome(options=options)
+
+    for stream_data in all_streams_data:
+        url = stream_data["href"]
+        # Use the title and thumbnail already extracted from the main page as a fallback
+        # but try to get more accurate ones from the video page if available
+        initial_title = stream_data["title"]
+        initial_thumbnail = stream_data["thumbnail"]
+
+        print(f"Processando URL do vídeo: {url}")
+        title, m3u8_url, thumbnail_url = extract_m3u8_from_video_page(driver_for_video_pages, url)
+        
+        # Use initial data if specific data from video page is not found
+        if not title or title == "No Title":
+            title = initial_title
+        if not thumbnail_url:
+            thumbnail_url = initial_thumbnail
+
+        if m3u8_url:
+            clean_title = title.replace("Video ", "").replace(" | Watch Live News on ABCNL", "").strip()
+            thumbnail_url = thumbnail_url if thumbnail_url else ""
+            m3u_content += f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="ABC NEWS LIVE", {clean_title}\n'
+            m3u_content += f"{m3u8_url}\n"
+            print(f"Adicionado ao M3U: {clean_title}")
+        else:
+            print(f"M3U8 não encontrado para {url}")
+    
+    driver_for_video_pages.quit()
+
+else:
+    print("Nenhum link de stream ao vivo encontrado na página principal ou carrossel.")
+
+with open(output_filename, "w") as output_file:
+    output_file.write(m3u_content)
+
+print(f"Arquivo {output_filename} gerado com sucesso.")
+
+
+
 import requests
 from bs4 import BeautifulSoup
 import re
