@@ -1,162 +1,75 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
-import time
-import json
+import requests
+from bs4 import BeautifulSoup
 import re
 
-# Configurações do Chrome
-options = Options()
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1920,1080")
-options.add_argument("--disable-infobars")
-
-def get_all_live_stream_data(main_url):
-    driver = webdriver.Chrome(options=options)
-    driver.get(main_url)
-
-    all_live_streams = []
-    processed_urls = set()
-
+def get_gurutv_streams(main_url):
     try:
-        WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".VideoCarousel__Container"))
-        )
+        response = requests.get(main_url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
 
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(3)
+        stream_entries = []
+        articles = soup.find_all('article', class_='elementor-post')
+        
+        for article in articles:
+            a_tag = article.find('a', class_='elementor-post__thumbnail__link')
+            img_tag = article.find('img')
 
-        previous_stream_count = 0
+            if a_tag and img_tag:
+                href = a_tag.get('href')
+                img_src = img_tag.get('src')
+                title = img_tag.get('alt') or 'No Title'
+                
+                stream_entries.append({
+                    'title': title.strip(),
+                    'url': href.strip(),
+                    'thumbnail': img_src.strip()
+                })
 
-        while True:
-            current_elements = driver.find_elements(By.CSS_SELECTOR, "a.AnchorLink.VideoTile")
-            for stream_link in current_elements:
-                try:
-                    if stream_link.find_element(By.CSS_SELECTOR, ".MediaPlaceholder--live"):
-                        href = stream_link.get_attribute("href")
-                        if href and href not in processed_urls:
-                            title_element = stream_link.find_element(By.CSS_SELECTOR, ".VideoTile__Title span")
-                            title = title_element.text.strip() if title_element else "No Title"
-                            thumbnail_element = stream_link.find_element(By.CSS_SELECTOR, ".MediaPlaceholder__Image img")
-                            thumbnail = thumbnail_element.get_attribute("src") if thumbnail_element else ""
-                            all_live_streams.append({"href": href, "title": title, "thumbnail": thumbnail})
-                            processed_urls.add(href)
-                except NoSuchElementException:
-                    continue
+        return stream_entries
 
-            if len(processed_urls) == previous_stream_count:
-                print("Nenhum novo stream encontrado nesta iteração. Fim do carrossel.")
-                break
-            previous_stream_count = len(processed_urls)
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar a página principal: {e}")
+        return []
 
-            try:
-                next_button = WebDriverWait(driver, 5).until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, "button.CarouselArrow.CarouselArrow--right"))
-                )
-
-                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", next_button)
-                time.sleep(1)
-
-                if "CarouselArrow--disabled" in next_button.get_attribute("class") or not next_button.is_displayed():
-                    print("Botão de próximo desabilitado ou não visível. Fim do carrossel.")
-                    break
-
-                driver.execute_script("arguments[0].click();", next_button)
-                print("Clicou no botão de próximo do carrossel via JavaScript.")
-                time.sleep(3)
-
-            except TimeoutException:
-                print("Botão de próximo não encontrado ou não clicável. Fim do carrossel.")
-                break
-            except StaleElementReferenceException:
-                print("Elemento do botão de próximo ficou obsoleto, tentando novamente...")
-                continue
-            except Exception as e:
-                print(f"Erro ao interagir com o carrossel: {e}")
-                break
-
-            print(f"Streams únicos encontrados até agora: {len(processed_urls)}")
-
-    finally:
-        driver.quit()
-    return all_live_streams
-
-def extract_m3u8_from_video_page(driver, video_url):
-    driver.get(video_url)
-    time.sleep(20)  # Tempo para carregamento completo do player
-
-    title = driver.title
-    m3u8_url = None
-    thumbnail_url = None
-
+def extract_m3u8_from_page(stream_url):
     try:
-        log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
-        for entry in log_entries:
-            if ".m3u8" in entry['name']:
-                m3u8_url = entry['name']
-            if ".jpg" in entry['name'] and not thumbnail_url:
-                thumbnail_url = entry['name']
-    except Exception as e:
-        print(f"Erro ao extrair m3u8/jpg com performance API: {e}")
+        response = requests.get(stream_url)
+        response.raise_for_status()
 
-    # Tenta melhorar o título com meta og:title
-    try:
-        og_title_element = driver.find_element(By.CSS_SELECTOR, "meta[property='og:title']")
-        if og_title_element:
-            title = og_title_element.get_attribute("content")
-    except NoSuchElementException:
-        pass
+        m3u8_match = re.search(r'(https?://[^\s"\']+\.m3u8)', response.text)
+        return m3u8_match.group(1) if m3u8_match else None
 
-    return title, m3u8_url, thumbnail_url
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar a página do canal {stream_url}: {e}")
+        return None
 
-# URL principal e nome do arquivo de saída
-main_abc_news_url = "https://abcnews.go.com/Live"
-output_filename = "abcnews_live2.m3u"
+main_gurutv_url = "https://gurutv.online/"
+output_filename = "LIVEISRAEL.m3u"
 
-print("Coletando todos os links de streams ao vivo do carrossel...")
-all_streams_data = get_all_live_stream_data(main_abc_news_url)
-
+streams = get_gurutv_streams(main_gurutv_url)
 m3u_content = ""
 
-if all_streams_data:
-    print(f"Encontrados {len(all_streams_data)} links de streams ao vivo.")
-    driver_for_video_pages = webdriver.Chrome(options=options)
-
-    for stream_data in all_streams_data:
-        url = stream_data["href"]
-        initial_title = stream_data["title"]
-        initial_thumbnail = stream_data["thumbnail"]
-
-        print(f"Processando URL do vídeo: {url}")
-        title, m3u8_url, thumbnail_url = extract_m3u8_from_video_page(driver_for_video_pages, url)
-
-        if not title or title == "No Title":
-            title = initial_title
-        if not thumbnail_url:
-            thumbnail_url = initial_thumbnail
+if streams:
+    print(f"Encontrados {len(streams)} canais.")
+    for stream in streams:
+        print(f"Processando: {stream['title']} -> {stream['url']}")
+        m3u8_url = extract_m3u8_from_page(stream['url'])
 
         if m3u8_url:
-            clean_title = title.replace("Video ", "").replace(" | Watch Live News on ABCNL", "").strip()
-            thumbnail_url = thumbnail_url if thumbnail_url else ""
-            m3u_content += f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="NEWS WORLD", {clean_title}\n'
+            m3u_content += f'#EXTINF:-1 tvg-logo="{stream["thumbnail"]}" group-title="ISRAEL", {stream["title"]}\n'
             m3u_content += f"{m3u8_url}\n"
-            print(f"Adicionado ao M3U: {clean_title}")
+            print(f"Adicionado: {stream['title']}")
         else:
-            print(f"M3U8 não encontrado para {url}")
-
-    driver_for_video_pages.quit()
+            print(f"⚠️ M3U8 não encontrado para: {stream['title']}")
 else:
-    print("Nenhum link de stream ao vivo encontrado.")
+    print("Nenhum canal encontrado.")
 
-with open(output_filename, "w") as output_file:
-    output_file.write(m3u_content)
+with open(output_filename, "w", encoding='utf-8') as f:
+    f.write(m3u_content)
 
-print(f"Arquivo {output_filename} gerado com sucesso.")
+print(f"✅ Arquivo {output_filename} gerado com sucesso.")
+
 
 
 
