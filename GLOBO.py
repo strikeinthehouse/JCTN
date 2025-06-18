@@ -1,5 +1,97 @@
 import requests
 from bs4 import BeautifulSoup
+import re
+import time
+
+def extract_m3u8_from_url(url):
+    try:
+        resp = requests.get(url, timeout=10)
+        resp.raise_for_status()
+        html = resp.text
+
+        # Buscando links em tags <script>
+        matches = re.findall(r'"(https?://[^\s"]+\.m3u8[^"\s]*)"', html)
+        if matches:
+            return matches
+
+        # Buscando tags <source>
+        soup = BeautifulSoup(html, 'html.parser')
+        for source in soup.find_all('source', src=True):
+            src = source['src']
+            if src.endswith('.m3u8'):
+                return [src]
+
+        return []
+    except Exception as e:
+        print(f"[Erro] {url} → {e}")
+        return []
+
+def process_urls(url_list):
+    results = {}
+    for url in url_list:
+        print(f"🔍 Processando: {url}")
+        m3u8s = extract_m3u8_from_url(url)
+        if m3u8s:
+            results[url] = m3u8s
+            print(f"✅ Encontrado {len(m3u8s)} stream(s):")
+            for m in m3u8s:
+                print("   •", m)
+        else:
+            print("❌ Nenhum stream encontrado.")
+        time.sleep(1)
+    return results
+
+# Lista de URLs
+urls = [
+    "https://www.unifetv.pt/",
+    "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",  # Bom Dia Cidade Ribeirão Preto
+    "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv1.ghtml",  # EPTV 1ª Edição - Ribeirão Preto
+    "https://g1.globo.com/sp/campinas-regiao/ao-vivo/eptv-2-campinas-ao-vivo.ghtml"
+    "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv-2-ribeirao-e-franca-ao-vivo.ghtml",  # EPTV 2ª Edição - Ribeirão e Franca
+    "https://g1.globo.com/pe/petrolina-regiao/ao-vivo/ao-vivo-assista-ao-gr2.ghtml",  # GR2 - Petrolina
+    "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-sexta-feira-7.ghtml",  # BDAP - Amapá
+    "https://g1.globo.com/pr/parana/ao-vivo/acontece-agora-em-curitiba.ghtml",
+    "https://globoplay.globo.com/v/1467373/",  # Globoplay - Transmissão ao vivo
+    "https://globoplay.globo.com/v/1328766/",  # G1 SERVIÇO
+    "https://globoplay.globo.com/v/4064559/",  # G1 SERVIÇO
+    "https://globoplay.globo.com/v/992055/",  # G1 SERVIÇO
+    "https://globoplay.globo.com/v/602497/",  # ge SERVIÇO
+    "https://globoplay.globo.com/v/2135579/",  # G1 RS - Telejornais da RBS TV
+    "https://globoplay.globo.com/ao-vivo/5472979/",
+    "https://globoplay.globo.com/v/6120663/",  # G1 RS - Jornal da EPTV 1ª Edição - Ribeirão Preto
+    "https://globoplay.globo.com/v/2145544/",  # G1 SC - Telejornais da NSC TV
+    "https://globoplay.globo.com/v/4039160/",  # G1 CE - TV Verdes Mares ao vivo
+    "https://globoplay.globo.com/v/6329086/",  # Globo Esporte BA - Travessia Itaparica-Salvador ao vivo
+    "https://g1.globo.com/ba/bahia/video/assista-aos-telejornais-da-tv-subae-11348407.ghtml",
+    "https://globoplay.globo.com/v/11999480/",  # G1 ES - Jornal Regional ao vivo
+    "https://g1.globo.com/al/alagoas/ao-vivo/assista-aos-telejornais-da-tv-gazeta-de-alagoas.ghtml",  # Telejornais da TV Gazeta de Alagoas
+    "https://globoplay.globo.com/ao-vivo/3667427/",  # Globoplay - Transmissão ao vivo
+    "https://globoplay.globo.com/v/4218681/",  # G1 Triângulo Mineiro - Transmissão ao vivo
+    "https://globoplay.globo.com/v/12945385/",  # Globoplay - Transmissão ao vivo
+    "https://globoplay.globo.com/v/3065772/",  # G1 MS - Transmissão ao vivo em MS
+    "https://globoplay.globo.com/v/2923579/",  # G1 AP - Telejornais da Rede Amazônica
+    "https://g1.globo.com/am/amazonas/ao-vivo/assista-aos-telejornais-da-rede-amazonica.ghtml",  # Telejornais da Rede Amazônica - Amazonas
+    "https://g1.globo.com/am/amazonas/carnaval/2025/ao-vivo/carnaboi-2025-assista-ao-vivo.ghtml",
+    "https://g1.globo.com/ap/ao-vivo/assista-ao-jap2-deste-sabado-10.ghtml",
+    "https://globoplay.globo.com/v/2923546/",  # G1 AC - Jornais da Rede Amazônica
+    "https://globoplay.globo.com/v/2168377/",  # Telejornais da TV Liberal
+    "https://g1.globo.com/rs/rio-grande-do-sul/video/assista-ao-saude-em-dia-6740172-1741626453929.ghtml",
+    "https://globoplay.globo.com/v/10747444/",  # CBN SP - Transmissão ao vivo
+    "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
+    "https://g1.globo.com/pe/petrolina-regiao/video/gr1-ao-vivo-6812170-1744985218335.ghtml",
+    # ... adicione todas as outras URLs da sua lista aqui ...
+]
+
+if __name__ == "__main__":
+    found = process_urls(urls)
+    print("\n🔚 Resultado final:")
+    for page, m3u8s in found.items():
+        print(f"{page}:")
+        for m in m3u8s:
+            print(f"  {m}")
+
+import requests
+from bs4 import BeautifulSoup
 
 def get_cxtv_news_channels():
     url = "https://www.cxtv.com.br/tv/categorias/noticias"
