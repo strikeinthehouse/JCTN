@@ -57,7 +57,7 @@ if streams:
         m3u8_url = extract_m3u8_from_page(stream['url'])
 
         if m3u8_url:
-            m3u_content += f'#EXTINF:-1 tvg-logo="{stream["thumbnail"]}" group-title="ISRAEL", {stream["title"]}\n'
+            m3u_content += f'#EXTINF:-1 tvg-logo="{stream["thumbnail"]}" group-title="NEWS WORLD", {stream["title"]}\n'
             m3u_content += f"{m3u8_url}\n"
             print(f"Adicionado: {stream['title']}")
         else:
