@@ -1,5 +1,60 @@
 import requests
 from bs4 import BeautifulSoup
+
+def get_cxtv_news_channels():
+    url = "https://www.cxtv.com.br/tv/categorias/noticias"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        m3u_entries = []
+
+        # Cada canal está dentro de um <a> com a classe 'btn btn-white btn-block'
+        for link in soup.select('a.btn.btn-white.btn-block'):
+            channel_page_url = link.get('href')
+            name_tag = link.find('h4')
+            logo_tag = link.find('img', class_='img-responsive')
+
+            if channel_page_url and name_tag and logo_tag:
+                title = name_tag.text.strip()
+                logo_url = logo_tag.get('src')
+
+                m3u_entries.append({
+                    "title": title,
+                    "page_url": channel_page_url,
+                    "logo": logo_url
+                })
+
+        return m3u_entries
+
+    except requests.RequestException as e:
+        print(f"Erro ao acessar CXTV: {e}")
+        return []
+
+def format_as_m3u_placeholder(entries):
+    # O link real do stream deve ser extraído de cada página manualmente
+    m3u = "#EXTM3U\n"
+    for entry in entries:
+        m3u += f'#EXTINF:-1 tvg-logo="{entry["logo"]}" group-title="Notícias", {entry["title"]}\n'
+        m3u += f'{entry["page_url"]}  # 🔗 Link da página, não é um stream direto\n'
+    return m3u
+
+# Coleta e salva
+channels = get_cxtv_news_channels()
+if channels:
+    print(f"✅ {len(channels)} canais encontrados.")
+    m3u_content = format_as_m3u_placeholder(channels)
+
+    with open("cxtv_noticias.m3u", "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+    print("📺 Arquivo 'cxtv_noticias.m3u' salvo com sucesso.")
+else:
+    print("⚠️ Nenhum canal encontrado.")
+
+
+import requests
+from bs4 import BeautifulSoup
 import html
 import json
 import re
