@@ -1,5 +1,74 @@
 import requests
 from bs4 import BeautifulSoup
+import html
+import json
+import re
+
+def get_tvgarden_streams(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        m3u_entries = []
+
+        # Encontra todos os canais
+        for li in soup.find_all('li', class_='sidebar-entry'):
+            button = li.find('button', class_='video-link')
+            if not button:
+                continue
+
+            # Nome do canal
+            channel_name = button.get('data-channel-name', 'Sem Nome').strip()
+
+            # URL de vídeo ou lista de URLs
+            data_urls_json = button.get('data-urls')
+            if data_urls_json:
+                # Corrige o HTML encoding e transforma em lista
+                urls = json.loads(html.unescape(data_urls_json))
+                for stream_url in urls:
+                    if stream_url.endswith('.m3u8') or 'youtube' in stream_url:
+                        m3u_entries.append({
+                            'title': channel_name,
+                            'url': stream_url,
+                            'logo': '',  # Não há logo fornecido nessa estrutura
+                        })
+
+        return m3u_entries
+
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar a página: {e}")
+        return []
+
+def format_as_m3u(entries):
+    m3u = "#EXTM3U\n"
+    for entry in entries:
+        logo = entry.get('logo', '')
+        m3u += f'#EXTINF:-1 tvg-logo="{logo}" group-title="BRASIL", {entry["title"]}\n'
+        m3u += f'{entry["url"]}\n'
+    return m3u
+
+# Configurações
+main_url = "https://tv.garden/br/"
+output_file = "tvgarden_br.m3u"
+
+# Execução
+print("🔎 Coletando canais da TV Garden...")
+channels = get_tvgarden_streams(main_url)
+
+if channels:
+    print(f"✅ {len(channels)} canais encontrados.")
+    m3u_content = format_as_m3u(channels)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(m3u_content)
+    
+    print(f"📺 Arquivo M3U salvo em: {output_file}")
+else:
+    print("⚠️ Nenhum canal encontrado.")
+
+import requests
+from bs4 import BeautifulSoup
 import re
 
 def get_gurutv_streams(main_url):
