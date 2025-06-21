@@ -24,7 +24,7 @@ def parse_channel_entry(descriptive_line, youtube_url_line):
     tvg_id = parts[3] if len(parts) > 3 else channel_name
 
     youtube_url_pattern = re.compile(
-        r'https?://(?:www\.)?youtube\.com/(?:channel|user|c|watch\?v=|@)[\w\-/=?&]+'
+        r'https?://(?:www\.)?youtube\.com/(?:channel|user|c|@|watch\?v=)[\w\-/?=&#]+'
     )
     if not youtube_url_pattern.match(youtube_url_line):
         print(f"A URL do YouTube não é válida ou não corresponde ao padrão esperado: {youtube_url_line}")
@@ -40,22 +40,47 @@ def parse_channel_entry(descriptive_line, youtube_url_line):
 
 def resolve_live_redirect(url):
     """
-    Acessa uma URL do tipo /live e tenta extrair a URL real do vídeo ao vivo (watch?v=...).
+    Resolve a URL de /live para a URL real do vídeo ao vivo, usando scraping HTML e yt-dlp como fallback.
     """
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         resp = requests.get(url, headers=headers, timeout=10)
         match = re.search(r'"canonicalUrl":"(/watch\?v=[\w-]+)"', resp.text)
         if match:
-            resolved_url = f"https://www.youtube.com{match.group(1)}"
-            print(f"[✓] Live resolvido: {url} -> {resolved_url}")
-            return resolved_url
-        else:
-            print(f"[✗] Nenhum vídeo ao vivo encontrado em: {url}")
-            return None
+            resolved = f"https://www.youtube.com{match.group(1)}"
+            print(f"[✓] HTML-resolved: {url} -> {resolved}")
+            return resolved
     except Exception as e:
-        print(f"[Erro] Falha ao acessar {url}: {e}")
-        return None
+        print(f"[✗] Erro HTML-resolve: {url} -> {e}")
+
+    # Fallback: usar yt-dlp diretamente
+    try:
+        command = [
+            "yt-dlp",
+            "--dump-json",
+            "--skip-download",
+            "--cookies", COOKIES_FILENAME,
+            "--no-warnings",
+            "--quiet",
+            "--force-ipv4",
+            url
+        ]
+        process = subprocess.run(command, capture_output=True, text=True, timeout=15)
+
+        if process.returncode == 0 and process.stdout.strip():
+            info = json.loads(process.stdout)
+            if 'url' in info:
+                print(f"[✓] yt-dlp-resolved direto de: {url}")
+                return url
+            else:
+                print(f"[✗] yt-dlp executado, mas sem campo 'url'.")
+        else:
+            print(f"[✗] yt-dlp falhou ({process.returncode}) para {url}")
+    except Exception as e:
+        print(f"[✗] yt-dlp erro: {e}")
+
+    print(f"[Live] Nenhuma URL de stream detectada para: {url}")
+    return None
 
 def main():
     print("Iniciando a geração da playlist IPTV...")
@@ -80,32 +105,31 @@ def main():
                         parsed_channels.append(channel_info)
                     i += 2
                 else:
-                    print(f"Linha descritiva sem URL do YouTube subsequente: {line}")
+                    print(f"Linha descritiva sem URL subsequente: {line}")
                     i += 1
             else:
-                print(f"Linha ignorada (formato inesperado ou URL standalone sem descrição): {line}")
+                print(f"Linha ignorada (formato inesperado): {line}")
                 i += 1
 
         if not parsed_channels:
-            print("Nenhuma entrada de canal válida encontrada no arquivo.")
+            print("Nenhum canal válido encontrado.")
             return
-        print(f"Encontradas {len(parsed_channels)} entradas de canais válidas para processar.")
+        print(f"Total de canais para processar: {len(parsed_channels)}")
     except requests.exceptions.RequestException as e:
-        print(f"Erro ao buscar a lista de canais: {e}")
+        print(f"Erro ao baixar canais: {e}")
         return
 
     try:
         cookies_content = fetch_content(COOKIES_URL)
         with open(COOKIES_FILENAME, "w", encoding="utf-8") as f:
             f.write(cookies_content)
-        print(f"Cookies salvos em {COOKIES_FILENAME}")
+        print(f"Cookies salvos em: {COOKIES_FILENAME}")
     except requests.exceptions.RequestException as e:
-        print(f"Erro ao buscar o arquivo de cookies: {e}")
+        print(f"Erro ao baixar cookies: {e}")
         return
 
     m3u_lines = ["#EXTM3U"]
 
-    print("Processando canais do YouTube com yt-dlp...")
     for channel_info in parsed_channels:
         original_url = channel_info["youtube_url"]
         if "/live" in original_url:
@@ -117,7 +141,8 @@ def main():
         else:
             url = original_url
 
-        print(f"Processando URL final: {url} para canal: {channel_info['name']}")
+        print(f"▶ Processando canal: {channel_info['name']} ({url})")
+
         try:
             command = [
                 "yt-dlp",
@@ -129,15 +154,10 @@ def main():
                 "--force-ipv4",
                 url
             ]
+            process = subprocess.run(command, capture_output=True, text=True, timeout=20)
 
-            process = subprocess.run(command, capture_output=True, text=True, encoding="utf-8")
-
-            if process.returncode != 0:
+            if process.returncode != 0 or not process.stdout.strip():
                 print(f"[yt-dlp ERRO] {channel_info['name']} ({url}):\n{process.stderr.strip()}")
-                continue
-
-            if not process.stdout.strip():
-                print(f"[JSON ERRO] Canal: {channel_info['name']}. Nenhuma saída retornada pelo yt-dlp.")
                 continue
 
             try:
@@ -146,42 +166,37 @@ def main():
                 print(f"[JSON ERRO] Canal: {channel_info['name']}. Saída inválida:\n{process.stdout}")
                 continue
 
-            title = channel_info["name"]
             stream_url = info.get("url")
-
             if stream_url:
-                sanitized_tvg_id = "".join(c for c in channel_info["tvg_id"] if c.isalnum() or c in " -_").strip()
-                sanitized_tvg_name = "".join(c for c in channel_info["name"] if c.isalnum() or c in " -_").strip()
-
-                logo_to_use = channel_info["logo"]
-                if not logo_to_use:
-                    thumbnails = info.get("thumbnails", [])
-                    if thumbnails:
-                        thumbnails.sort(key=lambda x: x.get("width", 0), reverse=True)
-                        logo_to_use = thumbnails[0].get("url", "")
-
-                m3u_lines.append(f'#EXTINF:-1 tvg-id="{sanitized_tvg_id}" tvg-name="{sanitized_tvg_name}" tvg-logo="{logo_to_use}" group-title="{channel_info["group"]}",{title}')
+                tvg_id = "".join(c for c in channel_info["tvg_id"] if c.isalnum() or c in " -_").strip()
+                tvg_name = "".join(c for c in channel_info["name"] if c.isalnum() or c in " -_").strip()
+                logo = channel_info["logo"]
+                if not logo:
+                    thumbs = info.get("thumbnails", [])
+                    if thumbs:
+                        thumbs.sort(key=lambda x: x.get("width", 0), reverse=True)
+                        logo = thumbs[0].get("url", "")
+                m3u_lines.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" tvg-logo="{logo}" group-title="{channel_info["group"]}",{channel_info["name"]}')
                 m3u_lines.append(stream_url)
-                print(f"[✓] Adicionado: {title}")
+                print(f"[✓] Adicionado: {channel_info['name']}")
             else:
-                print(f"[✗] Sem URL de stream para: {title}")
-
+                print(f"[✗] Sem URL de stream para: {channel_info['name']}")
         except Exception as e:
             print(f"[Erro inesperado] {channel_info['name']}: {e}")
 
-    print(f"Escrevendo o arquivo {OUTPUT_FILENAME}...")
+    print(f"📝 Escrevendo arquivo M3U: {OUTPUT_FILENAME}")
     try:
         with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_lines))
-        print(f"Playlist {OUTPUT_FILENAME} gerada com sucesso!")
+        print(f"✅ Playlist gerada: {OUTPUT_FILENAME}")
     except IOError as e:
-        print(f"Erro ao escrever o arquivo M3U: {e}")
+        print(f"Erro ao salvar M3U: {e}")
 
     if os.path.exists(COOKIES_FILENAME):
         os.remove(COOKIES_FILENAME)
-        print(f"Arquivo de cookies temporário {COOKIES_FILENAME} removido.")
+        print(f"🧹 Cookies temporários removidos.")
 
-    print("Processo concluído.")
+    print("✅ Processo finalizado.")
 
 if __name__ == "__main__":
     main()
