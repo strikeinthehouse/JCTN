@@ -8,32 +8,23 @@ import re
 CHANNELS_URL = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/channel_argentina.txt"
 COOKIES_URL = "https://github.com/Zsobix/YouTube_to_m3u/raw/refs/heads/main/cookies.firefox-private.txt"
 OUTPUT_FILENAME = "ARGENTINA.m3u"
-COOKIES_FILENAME = "cookies.txt"  # Nome do arquivo temporário para os cookies
+COOKIES_FILENAME = "cookies.txt"
 
 def fetch_content(url):
-    """Busca o conteúdo de uma URL."""
     print(f"Buscando conteúdo de: {url}")
     response = requests.get(url)
     response.raise_for_status()
     return response.text
 
 def parse_channel_entry(descriptive_line, youtube_url_line):
-    """
-    Analisa a linha descritiva e a linha da URL do YouTube.
-    Esperado:
-        <nome do canal> | <grupo> | <logo> | <tvg-id>
-        https://www.youtube.com/...
-    """
     parts = [p.strip() for p in descriptive_line.split('|')]
-
     channel_name = parts[0] if len(parts) > 0 else "Unknown Channel"
     group_name = parts[1] if len(parts) > 1 else "General"
     logo_url = parts[2] if len(parts) > 2 else ""
     tvg_id = parts[3] if len(parts) > 3 else channel_name
 
-    # Regex corrigida
     youtube_url_pattern = re.compile(
-        r'https?://(?:www\.)?(youtube\.com/(?:channel|user|c)/[a-zA-Z0-9_-]+/live|youtube\.com/watch\?v=[\w-]+|youtu\.be/[\w-]+)'
+        r'https?://(?:www\.)?(youtube\.com/(?:channel|user|c)/[a-zA-Z0-9_-]+(?:/live)?|youtube\.com/watch\?v=[\w-]+|youtu\.be/[\w-]+)'
     )
     if not youtube_url_pattern.match(youtube_url_line):
         print(f"A URL do YouTube não é válida ou não corresponde ao padrão esperado: {youtube_url_line}")
@@ -48,10 +39,8 @@ def parse_channel_entry(descriptive_line, youtube_url_line):
     }
 
 def main():
-    """Função principal para gerar a playlist M3U."""
     print("Iniciando a geração da playlist IPTV...")
 
-    # 1. Buscar a lista de canais
     try:
         channels_content = fetch_content(CHANNELS_URL)
         raw_channel_lines = [line.strip() for line in channels_content.splitlines() if line.strip()]
@@ -86,7 +75,6 @@ def main():
         print(f"Erro ao buscar a lista de canais: {e}")
         return
 
-    # 2. Buscar e salvar o arquivo de cookies temporariamente
     try:
         cookies_content = fetch_content(COOKIES_URL)
         with open(COOKIES_FILENAME, "w", encoding="utf-8") as f:
@@ -100,8 +88,10 @@ def main():
 
     print("Processando canais do YouTube com yt-dlp...")
     for channel_info in parsed_channels:
-        url = channel_info["youtube_url"]
-        print(f"Processando URL: {url} para canal: {channel_info['name']}")
+        # Remove o sufixo "/live" para buscar a página base do canal
+        url = re.sub(r'/live/?$', '', channel_info["youtube_url"])
+        print(f"Processando canal base: {url} para canal: {channel_info['name']}")
+
         try:
             command = [
                 "yt-dlp",
@@ -111,7 +101,8 @@ def main():
                 "--no-warnings",
                 "--quiet",
                 "--force-ipv4",
-                "--live-from-start",
+                "--match-filter", "is_live",
+                "--playlist-items", "1",
                 url
             ]
 
@@ -136,21 +127,15 @@ def main():
                 m3u_lines.append(stream_url)
                 print(f"Adicionado: {title}")
             else:
-                print(f"Não foi possível obter a URL do stream para: {url}")
+                print(f"[Info] Canal '{channel_info['name']}' não possui stream ao vivo.")
 
         except subprocess.CalledProcessError as e:
-            print(f"Erro ao processar {url} com yt-dlp: {e}")
-            print(f"Stderr do yt-dlp: {e.stderr}")
-            if "The channel is not currently live" in e.stderr or "This channel does not have a Live tab" in e.stderr:
-                print(f"Canal {channel_info['name']} ({url}) não está ao vivo ou não tem aba ao vivo. Ignorando.")
-            else:
-                print(f"Erro inesperado do yt-dlp para {channel_info['name']} ({url}). Verifique o log.")
+            print(f"[yt-dlp ERRO] {channel_info['name']}: {e.stderr.strip()}")
         except json.JSONDecodeError:
-            print(f"Erro ao decodificar JSON para {url}. Saída do yt-dlp: {process.stdout}")
+            print(f"[JSON ERRO] Canal: {channel_info['name']}. Saída inválida: {process.stdout}")
         except Exception as e:
-            print(f"Ocorreu um erro inesperado ao processar {url}: {e}")
+            print(f"[Erro inesperado] {channel_info['name']}: {e}")
 
-    # 3. Escrever o arquivo M3U
     print(f"Escrevendo o arquivo {OUTPUT_FILENAME}...")
     try:
         with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
@@ -159,7 +144,6 @@ def main():
     except IOError as e:
         print(f"Erro ao escrever o arquivo M3U: {e}")
 
-    # 4. Limpar o arquivo de cookies temporário
     if os.path.exists(COOKIES_FILENAME):
         os.remove(COOKIES_FILENAME)
         print(f"Arquivo de cookies temporário {COOKIES_FILENAME} removido.")
