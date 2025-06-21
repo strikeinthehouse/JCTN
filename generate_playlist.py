@@ -5,7 +5,7 @@ import os
 import re
 
 # URLs dos arquivos de entrada
-CHANNELS_URL = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/channel_argentina.txt"
+CHANNELS_URL = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/channel_info.txt"
 COOKIES_URL = "https://github.com/Zsobix/YouTube_to_m3u/raw/refs/heads/main/cookies.firefox-private.txt"
 OUTPUT_FILENAME = "ARGENTINA.m3u"
 COOKIES_FILENAME = "cookies.txt"
