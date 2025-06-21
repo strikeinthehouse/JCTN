@@ -106,8 +106,22 @@ def main():
                 url
             ]
 
-            process = subprocess.run(command, capture_output=True, text=True, check=True, encoding="utf-8")
-            info = json.loads(process.stdout)
+            process = subprocess.run(command, capture_output=True, text=True, encoding="utf-8")
+
+            if process.returncode != 0:
+                print(f"[yt-dlp ERRO] {channel_info['name']} ({url}):\n{process.stderr.strip()}")
+                continue
+            
+            if not process.stdout.strip():
+                print(f"[JSON ERRO] Canal: {channel_info['name']}. Nenhuma saída retornada pelo yt-dlp.")
+                continue
+            
+            try:
+                info = json.loads(process.stdout)
+            except json.JSONDecodeError:
+                print(f"[JSON ERRO] Canal: {channel_info['name']}. Saída inválida:\n{process.stdout}")
+                continue
+
 
             title = channel_info["name"]
             stream_url = info.get("url")
