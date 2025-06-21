@@ -5,7 +5,7 @@ import os
 import re
 
 # URLs dos arquivos de entrada
-CHANNELS_URL = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/channel_info.txt"
+CHANNELS_URL = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/channel_argentina.txt"
 COOKIES_URL = "https://github.com/Zsobix/YouTube_to_m3u/raw/refs/heads/main/cookies.firefox-private.txt"
 OUTPUT_FILENAME = "ARGENTINA.m3u"
 COOKIES_FILENAME = "cookies.txt"
@@ -24,7 +24,7 @@ def parse_channel_entry(descriptive_line, youtube_url_line):
     tvg_id = parts[3] if len(parts) > 3 else channel_name
 
     youtube_url_pattern = re.compile(
-        r'https?://(?:www\.)?(youtube\.com/(?:channel|user|c)/[a-zA-Z0-9_-]+(?:/live)?|youtube\.com/watch\?v=[\w-]+|youtu\.be/[\w-]+)'
+        r'https?://(?:www\.)?youtube\.com/(?:channel|user|c|watch\?v=|@)[\w\-/=?&]+'
     )
     if not youtube_url_pattern.match(youtube_url_line):
         print(f"A URL do YouTube não é válida ou não corresponde ao padrão esperado: {youtube_url_line}")
@@ -37,6 +37,25 @@ def parse_channel_entry(descriptive_line, youtube_url_line):
         "tvg_id": tvg_id,
         "youtube_url": youtube_url_line
     }
+
+def resolve_live_redirect(url):
+    """
+    Acessa uma URL do tipo /live e tenta extrair a URL real do vídeo ao vivo (watch?v=...).
+    """
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        resp = requests.get(url, headers=headers, timeout=10)
+        match = re.search(r'"canonicalUrl":"(/watch\?v=[\w-]+)"', resp.text)
+        if match:
+            resolved_url = f"https://www.youtube.com{match.group(1)}"
+            print(f"[✓] Live resolvido: {url} -> {resolved_url}")
+            return resolved_url
+        else:
+            print(f"[✗] Nenhum vídeo ao vivo encontrado em: {url}")
+            return None
+    except Exception as e:
+        print(f"[Erro] Falha ao acessar {url}: {e}")
+        return None
 
 def main():
     print("Iniciando a geração da playlist IPTV...")
@@ -88,10 +107,17 @@ def main():
 
     print("Processando canais do YouTube com yt-dlp...")
     for channel_info in parsed_channels:
-        # Remove o sufixo "/live" para buscar a página base do canal
-        url = re.sub(r'/live/?$', '', channel_info["youtube_url"])
-        print(f"Processando canal base: {url} para canal: {channel_info['name']}")
+        original_url = channel_info["youtube_url"]
+        if "/live" in original_url:
+            resolved_url = resolve_live_redirect(original_url)
+            if not resolved_url:
+                print(f"[Live] Nenhum vídeo ao vivo detectado em {original_url}")
+                continue
+            url = resolved_url
+        else:
+            url = original_url
 
+        print(f"Processando URL final: {url} para canal: {channel_info['name']}")
         try:
             command = [
                 "yt-dlp",
@@ -101,8 +127,6 @@ def main():
                 "--no-warnings",
                 "--quiet",
                 "--force-ipv4",
-                "--match-filter", "is_live",
-                "--playlist-items", "1",
                 url
             ]
 
@@ -111,17 +135,16 @@ def main():
             if process.returncode != 0:
                 print(f"[yt-dlp ERRO] {channel_info['name']} ({url}):\n{process.stderr.strip()}")
                 continue
-            
+
             if not process.stdout.strip():
                 print(f"[JSON ERRO] Canal: {channel_info['name']}. Nenhuma saída retornada pelo yt-dlp.")
                 continue
-            
+
             try:
                 info = json.loads(process.stdout)
             except json.JSONDecodeError:
                 print(f"[JSON ERRO] Canal: {channel_info['name']}. Saída inválida:\n{process.stdout}")
                 continue
-
 
             title = channel_info["name"]
             stream_url = info.get("url")
@@ -139,14 +162,10 @@ def main():
 
                 m3u_lines.append(f'#EXTINF:-1 tvg-id="{sanitized_tvg_id}" tvg-name="{sanitized_tvg_name}" tvg-logo="{logo_to_use}" group-title="{channel_info["group"]}",{title}')
                 m3u_lines.append(stream_url)
-                print(f"Adicionado: {title}")
+                print(f"[✓] Adicionado: {title}")
             else:
-                print(f"[Info] Canal '{channel_info['name']}' não possui stream ao vivo.")
+                print(f"[✗] Sem URL de stream para: {title}")
 
-        except subprocess.CalledProcessError as e:
-            print(f"[yt-dlp ERRO] {channel_info['name']}: {e.stderr.strip()}")
-        except json.JSONDecodeError:
-            print(f"[JSON ERRO] Canal: {channel_info['name']}. Saída inválida: {process.stdout}")
         except Exception as e:
             print(f"[Erro inesperado] {channel_info['name']}: {e}")
 
