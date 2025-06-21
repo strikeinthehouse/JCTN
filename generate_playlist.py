@@ -3,6 +3,7 @@ import requests
 import subprocess
 import json
 import os
+import re # Importa o módulo de expressões regulares
 
 # URLs dos arquivos de entrada
 CHANNELS_URL = "https://github.com/strikeinthehouse/JCTN/raw/refs/heads/main/channel_argentina.txt"
@@ -17,6 +18,21 @@ def fetch_content(url ):
     response.raise_for_status() # Levanta uma exceção para erros HTTP
     return response.text
 
+def extract_youtube_url(line):
+    """Extrai uma URL válida do YouTube de uma linha de texto."""
+    # Regex para encontrar URLs do YouTube (canais, vídeos, playlists)
+    # Ignora URLs de imagens do yt3.ggpht.com
+    youtube_url_pattern = re.compile(r'(https?://(?:www\. )?(?:youtube\.com/channel/|youtube\.com/user/|youtube\.com/c/|youtube\.com/watch\?v=|youtu\.be/)[a-zA-Z0-9_-]+(?:[/a-zA-Z0-9_-]*))')
+    
+    # Se a linha contiver '|', tenta pegar a última parte
+    parts = line.split('|')
+    potential_url_string = parts[-1].strip() if len(parts) > 1 else line.strip()
+
+    match = youtube_url_pattern.search(potential_url_string)
+    if match:
+        return match.group(1)
+    return None
+
 def main():
     """Função principal para gerar a playlist M3U."""
     print("Iniciando a geração da playlist IPTV...")
@@ -24,11 +40,20 @@ def main():
     # 1. Buscar a lista de canais
     try:
         channels_content = fetch_content(CHANNELS_URL)
-        channel_urls = [line.strip() for line in channels_content.splitlines() if line.strip()]
-        if not channel_urls:
-            print("Nenhuma URL de canal encontrada no arquivo.")
+        raw_channel_lines = [line.strip() for line in channels_content.splitlines() if line.strip()]
+        
+        channel_urls_to_process = []
+        for line in raw_channel_lines:
+            extracted_url = extract_youtube_url(line)
+            if extracted_url:
+                channel_urls_to_process.append(extracted_url)
+            else:
+                print(f"Linha ignorada (não contém URL válida do YouTube): {line}")
+
+        if not channel_urls_to_process:
+            print("Nenhuma URL de canal válida encontrada no arquivo.")
             return
-        print(f"Encontradas {len(channel_urls)} URLs de canais.")
+        print(f"Encontradas {len(channel_urls_to_process)} URLs de canais válidas para processar.")
     except requests.exceptions.RequestException as e:
         print(f"Erro ao buscar a lista de canais: {e}")
         return
@@ -46,7 +71,7 @@ def main():
     m3u_lines = ["#EXTM3U"]
 
     print("Processando canais do YouTube com yt-dlp...")
-    for url in channel_urls:
+    for url in channel_urls_to_process:
         print(f"Processando URL: {url}")
         try:
             # Comando yt-dlp para obter informações do stream sem baixar o vídeo
@@ -56,7 +81,7 @@ def main():
             # --no-warnings: suprime avisos
             # --quiet: suprime mensagens não-erro
             # --force-ipv4: pode ajudar com problemas de conectividade
-            # --format best: tenta obter o melhor formato disponível (geralmente o stream direto)
+            # --live-from-start: tenta obter o stream ao vivo desde o início (se aplicável)
             command = [
                 "yt-dlp",
                 "--dump-json",
@@ -65,6 +90,7 @@ def main():
                 "--no-warnings",
                 "--quiet",
                 "--force-ipv4",
+                "--live-from-start", # Tenta obter o stream ao vivo
                 url
             ]
             
@@ -96,6 +122,11 @@ def main():
         except subprocess.CalledProcessError as e:
             print(f"Erro ao processar {url} com yt-dlp: {e}")
             print(f"Stderr do yt-dlp: {e.stderr}")
+            # Se o erro for sobre o canal não estar ao vivo, podemos ignorar e continuar
+            if "The channel is not currently live" in e.stderr or "This channel does not have a Live tab" in e.stderr:
+                print(f"Canal {url} não está ao vivo ou não tem aba ao vivo. Ignorando.")
+            else:
+                print(f"Erro inesperado do yt-dlp para {url}. Verifique o log.")
         except json.JSONDecodeError:
             print(f"Erro ao decodificar JSON para {url}. Saída do yt-dlp: {process.stdout}")
         except Exception as e:
